@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/21/001/1/002101,21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002101,Type of antenna,,,,Operational,Original
 bufr4/3/21/001/2/002114,21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002114,Antenna effective surface area,,,,Operational,Original
 bufr4/3/21/001/3/002105,21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002105,Maximum antenna gain,,,,Operational,Original

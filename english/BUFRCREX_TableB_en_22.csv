@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/22/001,22,Oceanographic elements,022001,Direction of waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,Original
 bufr4/0/22/002,22,Oceanographic elements,022002,Direction of wind waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,Original
 bufr4/0/22/003,22,Oceanographic elements,022003,Direction of swell waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,Original

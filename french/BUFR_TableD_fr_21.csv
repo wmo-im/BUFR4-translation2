@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/21/001/1/002101,21,Séquences correspondant à des messages de mesures par radar,321001,(Profileur du vent - caractéristiques de l'antenne),,002101,Type d'antenne,,,,Operational,Original
 bufr4/3/21/001/2/002114,21,Séquences correspondant à des messages de mesures par radar,321001,(Profileur du vent - caractéristiques de l'antenne),,002114,Surface équivalente de l'antenne,,,,Operational,Original
 bufr4/3/21/001/3/002105,21,Séquences correspondant à des messages de mesures par radar,321001,(Profileur du vent - caractéristiques de l'antenne),,002105,Gain maximal de l'antenne,,,,Operational,Original

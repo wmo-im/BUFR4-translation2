@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/19/001,19,Synoptic features,019001,Type of synoptic feature,Code table,0,0,6,Code table,0,2,,,Operational,Original
 bufr4/0/19/002,19,Synoptic features,019002,Effective radius of feature,m,-2,0,12,m,-2,4,(see Note 1),138,Operational,Original
 bufr4/0/19/003,19,Synoptic features,019003,Wind speed threshold,m/s,0,0,8,m/s,0,3,(see Note 2),99,Operational,Original

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/15/001/1/001011,15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational,Original
 bufr4/3/15/001/2/301011,15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301011,"Year, month, day",,,,Operational,Original
 bufr4/3/15/001/3/301012,15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301012,"Hour, minute",,,,Operational,Original

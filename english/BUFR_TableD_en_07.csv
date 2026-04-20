@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/07/001/1/301031,07,Surface report sequences (land),307001,(Low altitude station),,301031,"Identification and type of station, date/time, location (high accuracy), height of station",,,,Operational,Original
 bufr4/3/07/001/2/302011,07,Surface report sequences (land),307001,(Low altitude station),,302011,Low altitude station,Basic surface report,,,Operational,Original
 bufr4/3/07/002/1/301032,07,Surface report sequences (land),307002,(Low altitude station),,301032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,,Operational,Original

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/05/001/1/011001,05,Secuencias meteorológicas o hidrológicas comunes a las observaciones hidrológicas,305001,(Medición única SADC-HYCOS),,011001,Dirección del viento,,,,Operational,Original
 bufr4/3/05/001/2/011002,05,Secuencias meteorológicas o hidrológicas comunes a las observaciones hidrológicas,305001,(Medición única SADC-HYCOS),,011002,Velocidad del viento,,,,Operational,Original
 bufr4/3/05/001/3/013060,05,Secuencias meteorológicas o hidrológicas comunes a las observaciones hidrológicas,305001,(Medición única SADC-HYCOS),,013060,Precipitación total acumulada,,,,Operational,Original

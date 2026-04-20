@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/09/001/1/301037,09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,301037,Land station for vertical soundings,"Identification, etc. (land station, high accuracy position)",,,Operational,Original
 bufr4/3/09/001/2/101000,09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,101000,Delayed replication of 1 descriptor,,,,Operational,Original
 bufr4/3/09/001/3/031001,09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,031001,Delayed descriptor replication factor,,,,Operational,Original

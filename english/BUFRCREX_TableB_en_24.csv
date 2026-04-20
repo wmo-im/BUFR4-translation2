@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/24/001,24,Radiological elements,024001,Estimate of amount of radioactivity released up to specified time,Bq,-11,0,28,Bq,-11,9,,,Operational,Original
 bufr4/0/24/002,24,Radiological elements,024002,Estimated maximum potential release,Bq,-11,0,28,Bq,-11,9,,,Operational,Original
 bufr4/0/24/003,24,Radiological elements,024003,Composition of release,Code table,0,0,5,Code table,0,2,,,Operational,Original

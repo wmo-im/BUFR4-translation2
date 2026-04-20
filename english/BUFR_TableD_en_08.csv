@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/08/001/1/301033,08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,301033,Buoy/platform - fixed,"Identification, type, date/time, position (high accuracy)",,,Operational,Original
 bufr4/3/08/001/2/302011,08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,302011,Low altitude station,Basic surface report,,,Operational,Original
 bufr4/3/08/001/3/022042,08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,022042,Sea/water temperature,,,,Operational,Original

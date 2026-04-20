@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/01/001/1/001001,01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational,Original
 bufr4/3/01/001/2/001002,01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational,Original
 bufr4/3/01/002/1/001003,01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational,Original

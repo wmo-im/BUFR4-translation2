@@ -1,69 +1,69 @@
-acronym,meaning,translated_by
+acronym,meaning,translation_source
 ADC,analog-to-digital converter,
-ADCP,Profileur acoustique de courant Doppler,Original
+ADCP,Profileur acoustique de courant Doppler,PDF
 AMV,atmospheric motion vector,
-AOT,épaisseur optique des aérosols,Original
-APSP,paramètre de la taille de l'aérosol,Original
-ASCAT,Diffusiomètre perfectionné,Original
+AOT,épaisseur optique des aérosols,PDF
+APSP,paramètre de la taille de l'aérosol,PDF
+ASCAT,Diffusiomètre perfectionné,PDF
 BBP700,Particulate backscattering coefficient at 700 nm,
-BGAN,Réseau mondial à large bande,Original
+BGAN,Réseau mondial à large bande,PDF
 BIPM,Bureau International de Poids et Mesures,
 DEM,digital elevation model,
-DORIS,Détermination Doppler d'orbite et radio-localisation intégrées par satellite,Original
-DSR,enregistrement des jeux de données,Original
+DORIS,Détermination Doppler d'orbite et radio-localisation intégrées par satellite,PDF
+DSR,enregistrement des jeux de données,PDF
 DU,Dobson Unit,
 EDR,eddy dissipation rate,
 EOP,earth orientation parameters,
 EPS-SG,EUMETSAT Polar System Second Generation,
 EUMETSAT,European Organisation for the Exploitation of Meteorological Satellites,
 FOVs,fields of view,
-GAN,Réseau mondial,Original
-GHRSST,Projet pilote concernant l'échange de données haute résolution sur la température de la mer en surface dans le cadre de l'Expérience GODAE (Expérience mondiale d'assimilation des données océaniques),Original
-GNSS,Système mondial de navigation par satellite,Original
+GAN,Réseau mondial,PDF
+GHRSST,Projet pilote concernant l'échange de données haute résolution sur la température de la mer en surface dans le cadre de l'Expérience GODAE (Expérience mondiale d'assimilation des données océaniques),PDF
+GNSS,Système mondial de navigation par satellite,PDF
 GRP,Glass-reinforced plastic,
-GRUAN,Réseau aérologique de référence du SMOC,Original
-GTSPP,Programme sur les profils de la température et de la salinité à l'échelle du globe,Original
+GRUAN,Réseau aérologique de référence du SMOC,PDF
+GTSPP,Programme sur les profils de la température et de la salinité à l'échelle du globe,PDF
 HPA,high power amplifier,
 IASI-NG,Infrared Atmospheric Sounding Interferometer - New Generation ,
 ICI,Ice Cloud Imager,
-IERS,Service international de la rotation terrestre et des systèmes de référence,Original
-IFOV,champ de vision instantanée,Original
+IERS,Service international de la rotation terrestre et des systèmes de référence,PDF
+IFOV,champ de vision instantanée,PDF
 IFP,Intermediate Frequency Processor,
 IW,infrared window,
 JCGM,Joint Committee for Guides in Metrology,
-JMR,Radiomètre hyperfréquence JASON-1,Original
+JMR,Radiomètre hyperfréquence JASON-1,PDF
 L0,level 0 (raw data),
 L2,level 2 (geophysical data),
 LOS,line of sight,
-LRM,Mode basse résolution,Original
+LRM,Mode basse résolution,PDF
 LSM,landform segmentation model,
-MMCC,Centre de gestion et de commande de la mission,Original
+MMCC,Centre de gestion et de commande de la mission,PDF
 MR,main reflector,
-MWI,Radiomètre hyperfréquence,Original
-MWR,Radiomètre hyperfréquence,Original
+MWI,Radiomètre hyperfréquence,PDF
+MWR,Radiomètre hyperfréquence,PDF
 MWS,Microwave Sounder,
 NAVATT,navigation and attitude data,
 NEDT,nose equivalent delta temperature,
 NEdT,nose equivalent delta temperature,
 NEΔT,nose equivalent delta temperature,
 NOF,normalized objective function,
-OBC,Système d'étalonnage embarqué,Original
+OBC,Système d'étalonnage embarqué,PDF
 OBCT,on board calibration target,
 OCOG,offset centre of gravity,
-OLCI,Imageur de la couleur de l'océan et des terres immergées,Original
+OLCI,Imageur de la couleur de l'océan et des terres immergées,PDF
 PCS,principle component scores,
-PRF,fréquence de répétition des impulsions,Original
+PRF,fréquence de répétition des impulsions,PDF
 PRT,platinum resistance thermometer,
-PTR,réponse impulsionnelle de cible,Original
+PTR,réponse impulsionnelle de cible,PDF
 RAD,radiances,
 RDR,raw data record,
 RED,redundancy,
-RF,radiofréquence,Original
+RF,radiofréquence,PDF
 RFE,receiver front end,
 RFI,radio frequency interference,
-RFSS,sous-système radiofréquence,Original
+RFSS,sous-système radiofréquence,PDF
 RMS,root mean square,
-SAR,Radar à ouverture synthétique,Original
+SAR,Radar à ouverture synthétique,PDF
 SCA,Scatterometer,
 SDR,sensor data record,
 SSI,surface solar irradiance,
@@ -81,7 +81,7 @@ NSIDC,Centre national sur la neige et la glace
 CMS,Centre de météorologie spatiale
 SAF OSI,Centre d’applications satellitaires Océan et Glaces de Mer
 HIRS,,
-PRV,plastique renforcé à la fibre de verre,Original
+PRV,plastique renforcé à la fibre de verre,PDF
 DIODE,,
 SMOS,,
-OEM,Optimal Estimation Methods (Méthodes d'estimation optimale),Original
+OEM,Optimal Estimation Methods (Méthodes d'estimation optimale),PDF

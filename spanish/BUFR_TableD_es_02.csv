@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/02/001/1/010004,02,Secuencias meteorológicas comunes a los datos de superficie,302001,(Presión y cambio de presión en 3 horas),,010004,Presión,Nivel de la estación,,,Operational,Original
 bufr4/3/02/001/2/010051,02,Secuencias meteorológicas comunes a los datos de superficie,302001,(Presión y cambio de presión en 3 horas),,010051,Presión reducida al nivel medio del mar,,,,Operational,Original
 bufr4/3/02/001/3/010061,02,Secuencias meteorológicas comunes a los datos de superficie,302001,(Presión y cambio de presión en 3 horas),,010061,Cambio de presión en 3 horas,,,,Operational,Original

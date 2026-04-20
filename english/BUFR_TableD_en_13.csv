@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/13/009/1/021001,13,Sequences common to image data,313009,(Radar reflectivity values),,021001,Horizontal reflectivity,,,,Operational,Original
 bufr4/3/13/009/2/101000,13,Sequences common to image data,313009,(Radar reflectivity values),,101000,Delayed replication of 1 descriptor,,,,Operational,Original
 bufr4/3/13/009/3/031001,13,Sequences common to image data,313009,(Radar reflectivity values),,031001,Delayed descriptor replication factor,,,,Operational,Original

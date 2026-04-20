@@ -1,4 +1,4 @@
-Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translated_by
+ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
 bufr4/0/42/004/0,042004,Confidence of inversion for each partition of swell wave spectra,0,Wave direction resolved,,,,,Operational,Original
 bufr4/0/42/004/1,042004,Confidence of inversion for each partition of swell wave spectra,1,180-degree ambiguity not resolved,,,,,Operational,Original
 bufr4/0/42/004/2-14,042004,Confidence of inversion for each partition of swell wave spectra,2-14,Reserved,,,,,Operational,Original

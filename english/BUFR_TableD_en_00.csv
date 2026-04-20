@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/00/002/1/000002,00,BUFR table entries sequences,300002,,,000002,"Table A: data category description, line 1",,,,Operational,Original
 bufr4/3/00/002/2/000003,00,BUFR table entries sequences,300002,,,000003,"Table A: data category description, line 2",,,,Operational,Original
 bufr4/3/00/003/1/000010,00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000010,F descriptor to be added or defined,,,,Operational,Original

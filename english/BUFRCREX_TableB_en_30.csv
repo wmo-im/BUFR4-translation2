@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/30/001,30,Image,030001,Pixel value (4 bits),Numeric,0,0,4,Numeric,0,2,,,Operational,Original
 bufr4/0/30/002,30,Image,030002,Pixel value (8 bits),Numeric,0,0,8,Numeric,0,3,,,Operational,Original
 bufr4/0/30/004,30,Image,030004,Pixel value (16 bits),Numeric,0,0,16,Numeric,0,5,,,Operational,Original

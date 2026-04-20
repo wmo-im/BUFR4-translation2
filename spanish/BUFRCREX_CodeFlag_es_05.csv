@@ -1,5 +1,5 @@
-Id,FXY,ElementName_es,CodeFigure,EntryName_es,EntryName_sub1_es,EntryName_sub2_es,Note_es,noteIDs,Status,translated_by
-bufr4/0/05/069/0,005069,Canal receptor,0,Mie,,,,,Operational,Original
-bufr4/0/05/069/1,005069,Canal receptor,1,Rayleigh,,,,,Operational,Original
-bufr4/0/05/069/2,005069,Canal receptor,2,Reservada,,,,,Operational,Original
-bufr4/0/05/069/3,005069,Canal receptor,3,Valor faltante,,,,,Operational,Original
+ID,FXY,ElementName_es,CodeFigure,EntryName_es,EntryName_sub1_es,EntryName_sub2_es,Note_es,noteIDs,Status,translation_source
+bufr4/0/05/069/0,005069,Canal receptor,0,Mie,,,,,Operational,PDF
+bufr4/0/05/069/1,005069,Canal receptor,1,Rayleigh,,,,,Operational,PDF
+bufr4/0/05/069/2,005069,Canal receptor,2,Reservada,,,,,Operational,PDF
+bufr4/0/05/069/3,005069,Canal receptor,3,Valor faltante,,,,,Operational,PDF

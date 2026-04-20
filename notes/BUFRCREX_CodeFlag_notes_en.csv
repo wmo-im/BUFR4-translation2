@@ -1,4 +1,4 @@
-noteID,note_en,translated_by
+noteID,note_en,translation_source
 1,"'Bad weather' denotes the conditions which generally exist during precipitation and a short time before and after.",
 2,"'Clear' and 'overcast' are coded by 0 and 8, respectively.",
 3,"'Ensemble mean' indicates that a number of distinct values corresponding to a set of time locations are averaged.",

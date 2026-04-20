@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/16/001/1/301011,16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,,Operational,Original
 bufr4/3/16/001/2/004004,16,Synoptic feature sequences,316001,,,004004,Hour,,,,Operational,Original
 bufr4/3/16/001/3/301023,16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,,Operational,Original

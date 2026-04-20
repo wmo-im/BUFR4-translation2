@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/04/001/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,008003,Significación vertical (observaciones satelitales,,,,Operational,Original
 bufr4/3/04/001/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,010004,Presión,,,,Operational,Original
 bufr4/3/04/001/3/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,012001,Temperatura/temperatura del aire,,,,Operational,Original

@@ -1,4 +1,4 @@
-Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translated_by
+ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
 bufr4/0/40/005/1,040005,Soil moisture correction flag,1,Soil moisture between -20% and 0%,,,,,Operational,Original
 bufr4/0/40/005/2,040005,Soil moisture correction flag,2,Soil moisture between 100% and 120%,,,,,Operational,Original
 bufr4/0/40/005/3,040005,Soil moisture correction flag,3,Correction of wet backscatter reference,,,,,Operational,Original

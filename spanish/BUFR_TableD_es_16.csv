@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/16/001/1/301011,16, Secuencias de las características sinópticas,316001,,,301011,"Año, mes, día",,,,Operational,Original
 bufr4/3/16/001/2/004004,16, Secuencias de las características sinópticas,316001,,,004004,Hora,,,,Operational,Original
 bufr4/3/16/001/3/301023,16, Secuencias de las características sinópticas,316001,,,301023,Latitud/longitud (precisión aproximada),,,,Operational,Original

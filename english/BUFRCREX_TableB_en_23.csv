@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/23/001,23,Dispersal and transport,023001,Accident early notification - article applicable,Code table,0,0,3,Code table,0,1,,,Operational,Original
 bufr4/0/23/002,23,Dispersal and transport,023002,Activity or facility involved in incident,Code table,0,0,5,Code table,0,2,,,Operational,Original
 bufr4/0/23/003,23,Dispersal and transport,023003,Type of release,Code table,0,0,3,Code table,0,1,,,Operational,Original

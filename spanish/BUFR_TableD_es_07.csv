@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/07/001/1/301031,07,Secuencias de los informes de las observaciones de superficie (tierra),307001,(Estación de baja altitud),,301031,"Identificación y tipo de estación, fecha/hora, localización (gran exactitud), altura de la estación",,,,Operational,Original
 bufr4/3/07/001/2/302011,07,Secuencias de los informes de las observaciones de superficie (tierra),307001,(Estación de baja altitud),,302011,Estación de baja altitud,Informe básico de observación de superficie,,,Operational,Original
 bufr4/3/07/002/1/301032,07,Secuencias de los informes de las observaciones de superficie (tierra),307002,(Estación de baja altitud),,301032,"Identificación y tipo de estación, fecha/hora, localización (exactitud aproximada), altura de la estación",,,,Operational,Original

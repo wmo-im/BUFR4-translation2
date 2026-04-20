@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/18/001/1/301025,18,Secuencias de los informes de las observaciones radiológicas,318001,,,301025,"Latitud y longitud (precisión aproximada), día/hora",,,,Operational,Original
 bufr4/3/18/001/2/024011,18,Secuencias de los informes de las observaciones radiológicas,318001,,,024011,Dosis,,,,Operational,Original
 bufr4/3/18/003/1/301026,18,Secuencias de los informes de las observaciones radiológicas,318003,,,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,,,Operational,Original

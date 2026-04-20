@@ -74,7 +74,7 @@ tableNo,tableName,noteID,notation
 0 02 062,Type of aircraft data relay system,,
 0 02 064,Aircraft roll angle quality,,
 0 02 066,Radiosonde ground receiving system,,
-0 02 070,Original specification of latitude/longitude,,
+0 02 070,PDF specification of latitude/longitude,,
 0 02 080,Balloon manufacturer,,
 0 02 081,Type of balloon,,
 0 02 083,Type of balloon shelter,,

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/05/001/1/011001,05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,011001,Wind direction,,,,Operational,Original
 bufr4/3/05/001/2/011002,05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,011002,Wind speed,,,,Operational,Original
 bufr4/3/05/001/3/013060,05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,013060,Total accumulated precipitation,,,,Operational,Original

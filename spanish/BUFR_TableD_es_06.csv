@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/06/001/1/002032,06,Secuencias meteorológicas u oceanográficas comunes a las observaciones oceanográficas,306001,"(Profundidad, temperatura)",,002032,Indicador de digitalización,,,,Operational,Original
 bufr4/3/06/001/2/102000,06,Secuencias meteorológicas u oceanográficas comunes a las observaciones oceanográficas,306001,"(Profundidad, temperatura)",,102000,Repetición diferida de 2 descriptores,,,,Operational,Original
 bufr4/3/06/001/3/031001,06,Secuencias meteorológicas u oceanográficas comunes a las observaciones oceanográficas,306001,"(Profundidad, temperatura)",,031001,Factor de repetición diferida del descriptor,,,,Operational,Original

@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/14/001,14,Radiation and radiance,014001,"Long-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational,Original
 bufr4/0/14/002,14,Radiation and radiance,014002,"Long-wave radiation, integrated over period specified",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational,Original
 bufr4/0/14/003,14,Radiation and radiance,014003,"Short-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational,Original

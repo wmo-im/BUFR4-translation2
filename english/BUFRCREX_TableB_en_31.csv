@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/31/000,31,Data description operator qualifiers,031000,Short delayed descriptor replication factor,Numeric,0,0,1,,,,,,Operational,Original
 bufr4/0/31/001,31,Data description operator qualifiers,031001,Delayed descriptor replication factor,Numeric,0,0,8,,,,,,Operational,Original
 bufr4/0/31/002,31,Data description operator qualifiers,031002,Extended delayed descriptor replication factor,Numeric,0,0,16,,,,,,Operational,Original

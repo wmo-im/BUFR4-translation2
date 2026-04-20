@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/02/001/1/010004,02,Séquences météorologiques communes aux données de surface,302001,(Pression et variation de pression en 3 heures),,010004,Pression,Pression au niveau de la station,,,Operational,Original
 bufr4/3/02/001/2/010051,02,Séquences météorologiques communes aux données de surface,302001,(Pression et variation de pression en 3 heures),,010051,Pression ramenée au niveau moyen de la mer,,,,Operational,Original
 bufr4/3/02/001/3/010061,02,Séquences météorologiques communes aux données de surface,302001,(Pression et variation de pression en 3 heures),,010061,Variation de pression en 3 heures,,,,Operational,Original

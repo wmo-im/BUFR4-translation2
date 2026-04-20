@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/03/001/1/007003,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303001,,,007003,Geopotencial,,,,Operational,Original
 bufr4/3/03/001/2/011001,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303001,,,011001,Dirección del viento,,,,Operational,Original
 bufr4/3/03/001/3/011002,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303001,,,011002,Velocidad del viento,,,,Operational,Original

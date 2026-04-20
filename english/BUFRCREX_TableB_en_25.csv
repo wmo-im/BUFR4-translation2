@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/25/001,25,Processing information,025001,Range-gate length,m,-1,0,6,m,-1,2,,,Operational,Original
 bufr4/0/25/002,25,Processing information,025002,Number of gates averaged,Numeric,0,0,4,Numeric,0,2,,,Operational,Original
 bufr4/0/25/003,25,Processing information,025003,Number of integrated pulses,Numeric,0,0,8,Numeric,0,3,,,Operational,Original

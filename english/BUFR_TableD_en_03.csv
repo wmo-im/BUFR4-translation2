@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/03/001/1/007003,03,Meteorological sequences common to vertical soundings data,303001,,,007003,Geopotential,,,,Operational,Original
 bufr4/3/03/001/2/011001,03,Meteorological sequences common to vertical soundings data,303001,,,011001,Wind direction,,,,Operational,Original
 bufr4/3/03/001/3/011002,03,Meteorological sequences common to vertical soundings data,303001,,,011002,Wind speed,,,,Operational,Original

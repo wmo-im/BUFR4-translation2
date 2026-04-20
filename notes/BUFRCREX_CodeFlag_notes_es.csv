@@ -1,90 +1,90 @@
-noteID,note_es,translated_by
-1,"“Mal tiempo” se refiere a las condiciones generales que reinan durante las precipitaciones e instantes antes o después de ellas.",Original
-2,"Los términos “despejado” y “cubierto” se cifran con 0 y 8, respectivamente.",Original
-3,"La “media de conjunto” indica que se han promediado una serie de valores distintos correspondientes a una serie de localizaciones temporales.",Original
-4,"El “promedio de tiempo” indica que los valores se promedian de manera permanente a lo largo de un período de tiempo.",Original
-5,"0 es satisfactorio, 1 es insatisfactorio",Original
-6,"Véase la Tabla de cifrado común C–1, Parte C/c.",Original
-7,"Véase la Tabla de cifrado común C–2, Parte C/c.",Original
-8,Véase la Tabla de cifrado común C–3,Original
-9,Véase la Tabla de cifrado común C–4,Original
-10,"Véase la Tabla de cifrado común C–5, Parte C/c.",Original
-11,"Véase la Tabla de cifrado común C–7, Parte C/c.",Original
-12,"Véase la Tabla de cifrado común C–8, Parte C/c.",Original
-14,"Será definida por los propios centros — Véase la Tabla de cifrado común C-12, Parte C/c.",Original
-15,Se elaborará.,Original
-16,"Una secuencia consecutiva de dos o más coordenadas de posición, tales como los pares de latitud y longitud, define una línea o un polígono. Los puntos deberán unirse entre sí en el mismo orden en que aparecen en el mensaje. Toda área descrita estará situada a la izquierda del límite trazado en la dirección establecida por el orden de los puntos dado en el mensaje. Esta definición se aplica a polígonos simples que no se intersecan y no presentan huecos.",Original
-17,"Si todos los bits indican 0, eso significa una buena calibración.",Original
-18,Todas las estadísticas de primer orden están expresadas en las unidades definidas por los descriptores de datos originales.,Original
-19,Se utilizará inicialmente la significación del campo asociado (adicional) en relación con la calidad de los datos observados.,Original
-20,La calidad mala se define actualmente como un ángulo de balanceo superior a 5 grados con relación a la vertical.,Original
-21,"Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.",Original
-22,"Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo",Original
-23,Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).,Original
-24,"Los bits 1 a 4 representan la clave de defectos horarios. Si todos los bits indican 0, eso significa que la hora de barrido corresponde a la prevista.",Original
-25,"Los bits 11 a 17 representan la clave de problemas de localización geográfica. Si todos los bits indican 0, eso significa que la localización geográfica ha sido normal.",Original
-26,"Los bits 2 a 21 se utilizan para la sonda HIRS, pero solamente se emplean los bits 2 a 16 para la sonda AMSU-A y los bits 2 a 6 para la sonda AMSU-B.",Original
-27,"Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.",Original
-28,"Por trayecto despejado se entiende que el sondeo se ha realizado a partir de radiancias claras obtenidas de mediciones reales en puntos despejados. Se han aplicado datos HIRS troposféricos y estratosféricos, así como datos MSU y SSU.",Original
-29,Por sondeo en cielo despejado se entiende que el sondeo ha sido generado a partir de un conjunto de valores de radiancias en cielo despejado utilizando todos los valores de radiancia de la sonda.,Original
-30,"Por trayecto nuboso se entiende que el sondeo se ha realizado únicamente a partir de datos HIRS stratosféricos, y datos MSU y SSU. No se han aplicado datos HIRS troposféricos a causa de nubosidad",Original
-31,Por sondeo en cielo nuboso se entiende que no fue posible identificar un número suficiente de valores de radiancias en cielo despejado en el área de sondeo. El sondeo se calcula a partir de la cima de las nubes (presión de las nubes mayor o igual a 780 hPa).,Original
-32,"Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).""",Original
-33,Cifras de clave 11 a 19: período de medición de la corriente (método de deriva).,Original
-34,"Las cifras de clave que indican la precipitación genérica (cifras de clave 140–148) están dispuestas en orden de complejidad creciente. Por ejemplo: una estación muy sencilla que tan solo puede determinar la presencia o ausencia de precipitación utilizará la cifra de clave 140 (precipitación). En el siguiente nivel, una estación automática capaz de captar la cantidad pero no el tipo de precipitación utilizará la cifra de clave 141 o 142. Una estación automática capaz de captar el tipo de precipitación (líquida, sólida, engelante) y la cantidad en líneas generales, utilizará las cifras de clave 143–148. Una estación automática capaz de comunicar tipos reales de precipitación (por ejemplo, llovizna o lluvia) pero no su cantidad, utilizará la correspondiente decena (por ejemplo, 150 para llovizna en general y 160 para lluvia en general).",Original
-35,El descriptor 0 25 009 ha dejado de utilizarse. Utilícese en su lugar el descriptor 0 25 029.,Original
-36,"Las estadísticas de diferencia son valores de diferencia; sus dimensiones son iguales a las de los valores correspondientes comunicados con respecto a unidades, pero con una gama centrada en cero (por ejemplo, diferencia entre valores comunicados y analizados, diferencia entre valores comunicados y previstos, etc.).",Original
-37,"DIODE son las siglas de ""détermination immédiate d'orbite par DORIS embarqué"" (determinación inmediata de órbita mediante DORIS instalado a bordo). Es una de las funciones del instrumento DORIS, que calcula la posición y velocidad del satélite.",Original
-38,Los apartados 1 y 2 no deberían utilizarse.,Original
+noteID,note_es,translation_source
+1,"“Mal tiempo” se refiere a las condiciones generales que reinan durante las precipitaciones e instantes antes o después de ellas.",PDF
+2,"Los términos “despejado” y “cubierto” se cifran con 0 y 8, respectivamente.",PDF
+3,"La “media de conjunto” indica que se han promediado una serie de valores distintos correspondientes a una serie de localizaciones temporales.",PDF
+4,"El “promedio de tiempo” indica que los valores se promedian de manera permanente a lo largo de un período de tiempo.",PDF
+5,"0 es satisfactorio, 1 es insatisfactorio",PDF
+6,"Véase la Tabla de cifrado común C–1, Parte C/c.",PDF
+7,"Véase la Tabla de cifrado común C–2, Parte C/c.",PDF
+8,Véase la Tabla de cifrado común C–3,PDF
+9,Véase la Tabla de cifrado común C–4,PDF
+10,"Véase la Tabla de cifrado común C–5, Parte C/c.",PDF
+11,"Véase la Tabla de cifrado común C–7, Parte C/c.",PDF
+12,"Véase la Tabla de cifrado común C–8, Parte C/c.",PDF
+14,"Será definida por los propios centros — Véase la Tabla de cifrado común C-12, Parte C/c.",PDF
+15,Se elaborará.,PDF
+16,"Una secuencia consecutiva de dos o más coordenadas de posición, tales como los pares de latitud y longitud, define una línea o un polígono. Los puntos deberán unirse entre sí en el mismo orden en que aparecen en el mensaje. Toda área descrita estará situada a la izquierda del límite trazado en la dirección establecida por el orden de los puntos dado en el mensaje. Esta definición se aplica a polígonos simples que no se intersecan y no presentan huecos.",PDF
+17,"Si todos los bits indican 0, eso significa una buena calibración.",PDF
+18,Todas las estadísticas de primer orden están expresadas en las unidades definidas por los descriptores de datos originales.,PDF
+19,Se utilizará inicialmente la significación del campo asociado (adicional) en relación con la calidad de los datos observados.,PDF
+20,La calidad mala se define actualmente como un ángulo de balanceo superior a 5 grados con relación a la vertical.,PDF
+21,"Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.",PDF
+22,"Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo",PDF
+23,Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).,PDF
+24,"Los bits 1 a 4 representan la clave de defectos horarios. Si todos los bits indican 0, eso significa que la hora de barrido corresponde a la prevista.",PDF
+25,"Los bits 11 a 17 representan la clave de problemas de localización geográfica. Si todos los bits indican 0, eso significa que la localización geográfica ha sido normal.",PDF
+26,"Los bits 2 a 21 se utilizan para la sonda HIRS, pero solamente se emplean los bits 2 a 16 para la sonda AMSU-A y los bits 2 a 6 para la sonda AMSU-B.",PDF
+27,"Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.",PDF
+28,"Por trayecto despejado se entiende que el sondeo se ha realizado a partir de radiancias claras obtenidas de mediciones reales en puntos despejados. Se han aplicado datos HIRS troposféricos y estratosféricos, así como datos MSU y SSU.",PDF
+29,Por sondeo en cielo despejado se entiende que el sondeo ha sido generado a partir de un conjunto de valores de radiancias en cielo despejado utilizando todos los valores de radiancia de la sonda.,PDF
+30,"Por trayecto nuboso se entiende que el sondeo se ha realizado únicamente a partir de datos HIRS stratosféricos, y datos MSU y SSU. No se han aplicado datos HIRS troposféricos a causa de nubosidad",PDF
+31,Por sondeo en cielo nuboso se entiende que no fue posible identificar un número suficiente de valores de radiancias en cielo despejado en el área de sondeo. El sondeo se calcula a partir de la cima de las nubes (presión de las nubes mayor o igual a 780 hPa).,PDF
+32,"Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).""",PDF
+33,Cifras de clave 11 a 19: período de medición de la corriente (método de deriva).,PDF
+34,"Las cifras de clave que indican la precipitación genérica (cifras de clave 140–148) están dispuestas en orden de complejidad creciente. Por ejemplo: una estación muy sencilla que tan solo puede determinar la presencia o ausencia de precipitación utilizará la cifra de clave 140 (precipitación). En el siguiente nivel, una estación automática capaz de captar la cantidad pero no el tipo de precipitación utilizará la cifra de clave 141 o 142. Una estación automática capaz de captar el tipo de precipitación (líquida, sólida, engelante) y la cantidad en líneas generales, utilizará las cifras de clave 143–148. Una estación automática capaz de comunicar tipos reales de precipitación (por ejemplo, llovizna o lluvia) pero no su cantidad, utilizará la correspondiente decena (por ejemplo, 150 para llovizna en general y 160 para lluvia en general).",PDF
+35,El descriptor 0 25 009 ha dejado de utilizarse. Utilícese en su lugar el descriptor 0 25 029.,PDF
+36,"Las estadísticas de diferencia son valores de diferencia; sus dimensiones son iguales a las de los valores correspondientes comunicados con respecto a unidades, pero con una gama centrada en cero (por ejemplo, diferencia entre valores comunicados y analizados, diferencia entre valores comunicados y previstos, etc.).",PDF
+37,"DIODE son las siglas de ""détermination immédiate d'orbite par DORIS embarqué"" (determinación inmediata de órbita mediante DORIS instalado a bordo). Es una de las funciones del instrumento DORIS, que calcula la posición y velocidad del satélite.",PDF
+38,Los apartados 1 y 2 no deberían utilizarse.,PDF
 39,"El EPSG es un conjunto de datos de sistemas de coordenadas y transformaciones de sistemas de coordenadas, elaborado y mantenido inicialmente por el Grupo Europeo de Encuestas sobre el Petróleo (EPSG). En la actualidad lo mantiene el Subcomité de Geodesia de la International Association of Oil and Gas Producers Geomatics Committee.", original
-40,"Para utilizar la cifra de clave 15, véase la Regla 12.1.4.",Original
-41,"El nivel de congelación es el nivel en el que la temperatura desciende primero hasta 0 °C. Los criterios para seleccionar el nivel de congelación en las observaciones en altitud son: a) Si la temperatura en superficie no es inferior a 0 °C cuando se libera la radiosonda, se seleccionará como  nivel de congelación el nivel más bajo al que la temperatura desciende primero hasta 0 °C. b) Si la temperatura en superficie es igual a 0 °C, la temperatura en superficie será el nivel de congelación. c) Si no existe un nivel en el que la temperatura sea exactamente igual a 0 °C en la observación, se utilizarán los dos niveles más cercanos con una temperatura que oscile entre valores positivos y negativos para interpolar el nivel de congelación cuya temperatura sea igual a 0 °C. d) Se calcularán los siguientes elementos para el nivel de congelación: tiempo, elevación, presión, humedad, temperatura del punto de rocío, depresión del punto de rocío, desviación de longitud y latitud.",Original
-42,Se elaborarán aplicaciones ulteriores.,Original
-43,"Los términos genéricos para las condiciones meteorológicas (por ejemplo, niebla, llovizna) se destinan a las estaciones automáticas que pueden determinar tipos de tiempo, pero no dar más información. Los términos genéricos de la tabla de cifrado se indican mediante mayúsculas.",Original
-44,Guía de Instrumentos y Métodos de Observación Meteorológicos.,Original
-45,H = hora de observación.,Original
-46,"Granizo, granizo menudo o nieve granulada.",Original
-47,"HIRS* equivale a : canales HIRS 1 (669 cm–1) 2 (679 cm–1) 3 (690 cm–1) 4 (2 358 cm–1)",Original
-48,"Si 0 08 082 = 1, el nivel estándar viene indicado por el descriptor de Clase 07, que aparece inmediatamente a continuación. Es posible indicar la altura real del sensor precediendo el descriptor por el correspondiente descriptor de Clase 07.",Original
-49,"Si todos los bits indican 0, eso significa una buena calibración.",Original
-50,"En todos los casos, se indicarán las cifras de clave más altas aplicables.",Original
-51,"Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a 3 km como máximo de la estación.",Original
-54,"En esta tabla de cifrado, siempre que se haga referencia al hielo, se incluye también toda precipitación sólida que no sea nieve.",Original
-55,"En el caso de que la intensidad de la lluvia impida ver las nubes, el observador deberá utilizar las cifras 5 u 8. Utilizará la cifra 5 si la lluvia está localizada o es de breve duración; utilizará la cifra 8 si la lluvia es generalizada o dura largos períodos.",Original
-56,"Las aguas interiores comprenden ríos, lagos, humedales y pantanos.",Original
-57,La precipitación combinada se indica fijando en uno los bits de cada uno de los tipos de precipitación observados.,Original
-59,En caso necesario se agregarán nuevos nombres locales para las tormentas de distintas intensidades.,Original
-60,Ninguna de las cifras de clave excluye la adición de niveles interpolados a discreción del centro generador.,Original
-61,"O el cielo (si el sol está bajo), o la luna o las estrellas de noche.",Original
-62,"Por trayecto parcialmente nuboso se entiende que el sondeo se ha llevado a cabo a partir de radiancias claras que se han calculado en puntos parcialmente nubosos. Se han aplicado datos HIRS, troposféricos y estratosféricos, así como datos MSU y SSU.",Original
-63,"En esta tabla de banderines se entiende por fenómeno cualquier tipo de fenómeno, incluidos la precipitación y el oscurecimiento.",Original
-65,El tipo de proyección 4 indica una retícula cartesiana situada directamente en el cono de exploración definido por el barrido azimutal del radar.,Original
-67,"La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0).",Original
-68,"La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7).",Original
-69,Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°).,Original
-70,Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige.,Original
-71,Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.,Original
-72,"Se fija en 1 si el cálculo de la longitud de onda del láser es inválido debido a un error sistemático del diodo láser y/o a que las mediciones de temperatura del diodo láser no se ajustan a los intervalos permitidos que se han predeterminado. Estos intervalos son ajustables. En este caso, se utilizará 1 bit por barrido para el cálculo lamda.",Original
-73,"La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los """"Banderines de calidad del nivel de exploración"""" (0 33 075) - bit 3).",Original
-75,"Las definiciones referidas a las cifras de clave 0, 1, 2 y 4 se aplican al suelo representativo y las cifras de clave 3, 5 a 9 y 10 a 19, a una zona abierta representativa.",Original
-76,"Cuando haya que cifrar una altura que corresponda a dos cifras de clave, se tomará la cifra más baja. Por ejemplo, una altura de 4 m se cifrará 5.",Original
-77,"La expresión “en la estación” se refiere a las estaciones terrestres o a las estaciones en un buque.",Original
-78,Los tres primeros dígitos representan el código de país ISO.,Original
-79,"La última columna de la tabla contiene el número de registro correspondiente del Chemical Abstracts Service (CAS) de la American Chemical Society",Original
-80,"La parte central de la presente tabla de cifrado (cifras de clave 100–199) incluye términos a diversos niveles, referidos a estaciones automáticas sencillas y luego cada vez más complejas.",Original
-81,"El alcance nominal de la humedad del suelo en superficie es 0% - 100%. En casos extremos, el retrodispersor extrapolado a un ángulo de incidencia de 40 grados puede ser superior a la referencia del retrodispersor húmedo o seco. En tales casos, el valor proporcionado por el proceso de medición de la humedad del suelo en superficie es menor de 0% o mayor de 100%, respectivamente.",Original
-82,"La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).",Original
-83,"Estas temperaturas se utilizan para calcular la contribución “ambiental"""" a las radiancias del blanco de calibración interna. Cuando este bit se fija en 1, las temperaturas inválidas se reemplazan por los valores de temperatura validados del blanco de calibración interna.",Original
-84,"Estos valores se refieren a olas bien formadas en altamar por acción del viento. Si bien se dará prioridad a los términos descriptivos, los valores relativos a las alturas podrán utilizarse como guía por el observador cuando cifra el estado total de agitación del mar, resultante de diversos factores tales como el viento, la mar de fondo, las corrientes, el ángulo entre la mar de fondo y el viento, etc.",Original
-85,"Este descriptor se asociará a los datos de la visibilidad o a los de la altura de las nubes para especificar si se trata de un valor limitado. Si los datos transmitidos son el valor verdadero, la cifra de clave es 0. Sin-embargo, la medición puede alcanzar el límite de la capacidad de medición del instrumento. Si el valor transmitido es mayor que el valor verdadero, la cifra de clave es 1; y si el valor transmitido es menor que el valor verdadero, la cifra de clave es 2.",Original
-86,"Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",Original
-87,Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos.,Original
-88,"La significación del tiempo debe ser calificada por los períodos adecuados de tiempo que se especifican.",Original
-89,Tromba o tromba marina.,Original
-90,"Tipo de instrumentos y unidades originales para la medición del viento (en m s–1, a menos que se indique otra cosa)",Original
-91,Valor relegado. Utilícese en su lugar la cifra de clave 6.,Original
-92,"Cuando la cifra de clave 4 se usa para especificar un sistema de coordenadas de referencia adaptado, el dato elipsoide será un elipsoide de revolución oblato, en el que el eje mayor es uniplanar con el plano ecuatorial y el eje menor atraviesa el meridiano principal hacia el polo principal. El Norte corresponde a la dirección desde el ecuador hacia el polo principal. El Este corresponde a la dirección en sentido antihorario desde el meridiano principal visto desde el Polo Norte. En este caso se deben especificar los semiejes mayor y menor (por ejemplo, mediante los descriptores 0 01 152 y 0 01 153).",Original
-93,"Cuando están representados valores observados menos valores de predicción, el período de la predicción se indicará mediante un descriptor apropiado de Clase 04.",Original
-94,"Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 012: Valor comunicado",Original
-95,"Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 013: Valor comunicado",Original
-96,"Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a más de 3 km de la estación.",Original
+40,"Para utilizar la cifra de clave 15, véase la Regla 12.1.4.",PDF
+41,"El nivel de congelación es el nivel en el que la temperatura desciende primero hasta 0 °C. Los criterios para seleccionar el nivel de congelación en las observaciones en altitud son: a) Si la temperatura en superficie no es inferior a 0 °C cuando se libera la radiosonda, se seleccionará como  nivel de congelación el nivel más bajo al que la temperatura desciende primero hasta 0 °C. b) Si la temperatura en superficie es igual a 0 °C, la temperatura en superficie será el nivel de congelación. c) Si no existe un nivel en el que la temperatura sea exactamente igual a 0 °C en la observación, se utilizarán los dos niveles más cercanos con una temperatura que oscile entre valores positivos y negativos para interpolar el nivel de congelación cuya temperatura sea igual a 0 °C. d) Se calcularán los siguientes elementos para el nivel de congelación: tiempo, elevación, presión, humedad, temperatura del punto de rocío, depresión del punto de rocío, desviación de longitud y latitud.",PDF
+42,Se elaborarán aplicaciones ulteriores.,PDF
+43,"Los términos genéricos para las condiciones meteorológicas (por ejemplo, niebla, llovizna) se destinan a las estaciones automáticas que pueden determinar tipos de tiempo, pero no dar más información. Los términos genéricos de la tabla de cifrado se indican mediante mayúsculas.",PDF
+44,Guía de Instrumentos y Métodos de Observación Meteorológicos.,PDF
+45,H = hora de observación.,PDF
+46,"Granizo, granizo menudo o nieve granulada.",PDF
+47,"HIRS* equivale a : canales HIRS 1 (669 cm–1) 2 (679 cm–1) 3 (690 cm–1) 4 (2 358 cm–1)",PDF
+48,"Si 0 08 082 = 1, el nivel estándar viene indicado por el descriptor de Clase 07, que aparece inmediatamente a continuación. Es posible indicar la altura real del sensor precediendo el descriptor por el correspondiente descriptor de Clase 07.",PDF
+49,"Si todos los bits indican 0, eso significa una buena calibración.",PDF
+50,"En todos los casos, se indicarán las cifras de clave más altas aplicables.",PDF
+51,"Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a 3 km como máximo de la estación.",PDF
+54,"En esta tabla de cifrado, siempre que se haga referencia al hielo, se incluye también toda precipitación sólida que no sea nieve.",PDF
+55,"En el caso de que la intensidad de la lluvia impida ver las nubes, el observador deberá utilizar las cifras 5 u 8. Utilizará la cifra 5 si la lluvia está localizada o es de breve duración; utilizará la cifra 8 si la lluvia es generalizada o dura largos períodos.",PDF
+56,"Las aguas interiores comprenden ríos, lagos, humedales y pantanos.",PDF
+57,La precipitación combinada se indica fijando en uno los bits de cada uno de los tipos de precipitación observados.,PDF
+59,En caso necesario se agregarán nuevos nombres locales para las tormentas de distintas intensidades.,PDF
+60,Ninguna de las cifras de clave excluye la adición de niveles interpolados a discreción del centro generador.,PDF
+61,"O el cielo (si el sol está bajo), o la luna o las estrellas de noche.",PDF
+62,"Por trayecto parcialmente nuboso se entiende que el sondeo se ha llevado a cabo a partir de radiancias claras que se han calculado en puntos parcialmente nubosos. Se han aplicado datos HIRS, troposféricos y estratosféricos, así como datos MSU y SSU.",PDF
+63,"En esta tabla de banderines se entiende por fenómeno cualquier tipo de fenómeno, incluidos la precipitación y el oscurecimiento.",PDF
+65,El tipo de proyección 4 indica una retícula cartesiana situada directamente en el cono de exploración definido por el barrido azimutal del radar.,PDF
+67,"La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0).",PDF
+68,"La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7).",PDF
+69,Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°).,PDF
+70,Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige.,PDF
+71,Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.,PDF
+72,"Se fija en 1 si el cálculo de la longitud de onda del láser es inválido debido a un error sistemático del diodo láser y/o a que las mediciones de temperatura del diodo láser no se ajustan a los intervalos permitidos que se han predeterminado. Estos intervalos son ajustables. En este caso, se utilizará 1 bit por barrido para el cálculo lamda.",PDF
+73,"La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los """"Banderines de calidad del nivel de exploración"""" (0 33 075) - bit 3).",PDF
+75,"Las definiciones referidas a las cifras de clave 0, 1, 2 y 4 se aplican al suelo representativo y las cifras de clave 3, 5 a 9 y 10 a 19, a una zona abierta representativa.",PDF
+76,"Cuando haya que cifrar una altura que corresponda a dos cifras de clave, se tomará la cifra más baja. Por ejemplo, una altura de 4 m se cifrará 5.",PDF
+77,"La expresión “en la estación” se refiere a las estaciones terrestres o a las estaciones en un buque.",PDF
+78,Los tres primeros dígitos representan el código de país ISO.,PDF
+79,"La última columna de la tabla contiene el número de registro correspondiente del Chemical Abstracts Service (CAS) de la American Chemical Society",PDF
+80,"La parte central de la presente tabla de cifrado (cifras de clave 100–199) incluye términos a diversos niveles, referidos a estaciones automáticas sencillas y luego cada vez más complejas.",PDF
+81,"El alcance nominal de la humedad del suelo en superficie es 0% - 100%. En casos extremos, el retrodispersor extrapolado a un ángulo de incidencia de 40 grados puede ser superior a la referencia del retrodispersor húmedo o seco. En tales casos, el valor proporcionado por el proceso de medición de la humedad del suelo en superficie es menor de 0% o mayor de 100%, respectivamente.",PDF
+82,"La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).",PDF
+83,"Estas temperaturas se utilizan para calcular la contribución “ambiental"""" a las radiancias del blanco de calibración interna. Cuando este bit se fija en 1, las temperaturas inválidas se reemplazan por los valores de temperatura validados del blanco de calibración interna.",PDF
+84,"Estos valores se refieren a olas bien formadas en altamar por acción del viento. Si bien se dará prioridad a los términos descriptivos, los valores relativos a las alturas podrán utilizarse como guía por el observador cuando cifra el estado total de agitación del mar, resultante de diversos factores tales como el viento, la mar de fondo, las corrientes, el ángulo entre la mar de fondo y el viento, etc.",PDF
+85,"Este descriptor se asociará a los datos de la visibilidad o a los de la altura de las nubes para especificar si se trata de un valor limitado. Si los datos transmitidos son el valor verdadero, la cifra de clave es 0. Sin-embargo, la medición puede alcanzar el límite de la capacidad de medición del instrumento. Si el valor transmitido es mayor que el valor verdadero, la cifra de clave es 1; y si el valor transmitido es menor que el valor verdadero, la cifra de clave es 2.",PDF
+86,"Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",PDF
+87,Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos.,PDF
+88,"La significación del tiempo debe ser calificada por los períodos adecuados de tiempo que se especifican.",PDF
+89,Tromba o tromba marina.,PDF
+90,"Tipo de instrumentos y unidades originales para la medición del viento (en m s–1, a menos que se indique otra cosa)",PDF
+91,Valor relegado. Utilícese en su lugar la cifra de clave 6.,PDF
+92,"Cuando la cifra de clave 4 se usa para especificar un sistema de coordenadas de referencia adaptado, el dato elipsoide será un elipsoide de revolución oblato, en el que el eje mayor es uniplanar con el plano ecuatorial y el eje menor atraviesa el meridiano principal hacia el polo principal. El Norte corresponde a la dirección desde el ecuador hacia el polo principal. El Este corresponde a la dirección en sentido antihorario desde el meridiano principal visto desde el Polo Norte. En este caso se deben especificar los semiejes mayor y menor (por ejemplo, mediante los descriptores 0 01 152 y 0 01 153).",PDF
+93,"Cuando están representados valores observados menos valores de predicción, el período de la predicción se indicará mediante un descriptor apropiado de Clase 04.",PDF
+94,"Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 012: Valor comunicado",PDF
+95,"Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 013: Valor comunicado",PDF
+96,"Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a más de 3 km de la estación.",PDF

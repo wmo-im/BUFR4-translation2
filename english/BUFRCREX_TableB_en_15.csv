@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/15/001,15,Physical/chemical constituents,015001,Total ozone,DU,0,0,10,DU,0,4,,,Operational,Original
 bufr4/0/15/002,15,Physical/chemical constituents,015002,Air mass (slant path at 22 km),Numeric,2,0,10,Numeric,2,3,,,Operational,Original
 bufr4/0/15/003,15,Physical/chemical constituents,015003,Measured ozone partial pressure (sounding),Pa,4,0,9,nbar,0,3,(see Note 1),1,Operational,Original

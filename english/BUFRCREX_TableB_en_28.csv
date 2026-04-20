@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/28/001,28,Non-coordinate location (horizontal - 2),028001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational,Original
 bufr4/0/28/002,28,Non-coordinate location (horizontal - 2),028002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational,Original
 bufr4/0/28/003,28,Non-coordinate location (horizontal - 2),028003,Alternate longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,(see Note 1),133,Operational,Original

@@ -1,4 +1,4 @@
-Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translated_by
+ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/40/001,40,Satellite data,040001,Surface soil moisture (ms),%,1,0,10,%,1,4,,,Operational,Original
 bufr4/0/40/002,40,Satellite data,040002,Estimated error in surface soil moisture,%,1,0,10,%,1,4,,,Operational,Original
 bufr4/0/40/003,40,Satellite data,040003,Mean surface soil moisture,Numeric,3,0,10,Numeric,3,4,,,Operational,Original

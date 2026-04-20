@@ -1,4 +1,4 @@
-Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translated_by
+ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
 bufr4/0/31/021/0,031021,Associated field significance,0,Reserved,,,,,Operational,Original
 bufr4/0/31/021/1,031021,Associated field significance,1,1-bit indicator of quality,"0 = Good, 1 = Suspect or bad",,,,Operational,Original
 bufr4/0/31/021/2,031021,Associated field significance,2,2-bit indicator of quality,"0 = Good, 1 = Slightly suspect, 2 = Highly suspect, 3 = Bad",,,,Operational,Original

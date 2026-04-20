@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/40/001/1/001007,40,Additional satellite report sequences,340001,(IASI Level 1c data),,001007,Satellite identifier,,,,Operational,Original
 bufr4/3/40/001/2/001031,40,Additional satellite report sequences,340001,(IASI Level 1c data),,001031,Identification of originating/generating centre,,,,Operational,Original
 bufr4/3/40/001/3/002019,40,Additional satellite report sequences,340001,(IASI Level 1c data),,002019,Satellite instruments,,,,Operational,Original

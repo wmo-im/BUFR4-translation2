@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/00/002/1/000002,00,Séquence correspondant aux entrées des tables du code BUFR,300002,,,000002,"Table A: description de la catégorie de données, ligne 1",,,,Operational,Original
 bufr4/3/00/002/2/000003,00,Séquence correspondant aux entrées des tables du code BUFR,300002,,,000003,"Table A: description de la catégorie de données, ligne 2",,,,Operational,Original
 bufr4/3/00/003/1/000010,00,Séquence correspondant aux entrées des tables du code BUFR,300003,"(Descripteurs F, X, Y à ajouter ou à définir)",,000010,Descripteur F à ajouter ou à définir,,,,Operational,Original

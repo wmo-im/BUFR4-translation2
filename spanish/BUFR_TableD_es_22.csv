@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/22/028/1/001007,22,Secuencias de sustancias químicas y aerosoles,322028,(GOME-2 de METOP),,001007,Identificador del satélite,,,,Operational,Original
 bufr4/3/22/028/2/002019,22,Secuencias de sustancias químicas y aerosoles,322028,(GOME-2 de METOP),,002019,Instrumentos de satélite,,,,Operational,Original
 bufr4/3/22/028/3/004001,22,Secuencias de sustancias químicas y aerosoles,322028,(GOME-2 de METOP),,004001,Año,,,,Operational,Original

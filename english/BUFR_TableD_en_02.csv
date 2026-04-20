@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/02/001/1/010004,02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010004,Pressure,Station level,,,Operational,Original
 bufr4/3/02/001/2/010051,02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010051,Pressure reduced to mean sea level,,,,Operational,Original
 bufr4/3/02/001/3/010061,02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010061,3-hour pressure change,,,,Operational,Original

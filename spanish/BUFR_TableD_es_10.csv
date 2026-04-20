@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/10/001/1/301042,10,Secuencias de los sondeos verticales (datos satelitales),310001,(Satélite — temperatura de la luminancia),,301042,"Identificador del satélite, instrumento, técnica de procesamiento de datos, fecha/hora, localización",,,,Operational,Original
 bufr4/3/10/001/2/303031,10,Secuencias de los sondeos verticales (datos satelitales),310001,(Satélite — temperatura de la luminancia),,303031,"Datos de significación, tierra/mar, temperatura de la película superficial",,,,Operational,Original
 bufr4/3/10/001/3/303032,10,Secuencias de los sondeos verticales (datos satelitales),310001,(Satélite — temperatura de la luminancia),,303032,Nubes,,,,Operational,Original

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/04/001/1/008003,04,Séquences météorologiques communes aux observations par satellite,304001,"(Pression au sommet des nuages, température, vent)",,008003,Caractéristique verticale (observations par satellite),,,,Operational,Original
 bufr4/3/04/001/2/010004,04,Séquences météorologiques communes aux observations par satellite,304001,"(Pression au sommet des nuages, température, vent)",,010004,Pression,,,,Operational,Original
 bufr4/3/04/001/3/012001,04,Séquences météorologiques communes aux observations par satellite,304001,"(Pression au sommet des nuages, température, vent)",,012001,Température/température de l'air,,,,Operational,Original

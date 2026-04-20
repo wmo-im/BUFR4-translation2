@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/06/001/1/002032,06,Séquences météorologiques ou océanographiques communes,306001,"(Profondeur, température)",,002032,Indicateur de numérisation,,,,Operational,Original
 bufr4/3/06/001/2/102000,06,Séquences météorologiques ou océanographiques communes,306001,"(Profondeur, température)",,102000,Répétition différée de 2 descripteurs,,,,Operational,Original
 bufr4/3/06/001/3/031001,06,Séquences météorologiques ou océanographiques communes,306001,"(Profondeur, température)",,031001,Facteur de répétition différée du descripteur,,,,Operational,Original

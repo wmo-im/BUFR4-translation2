@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/06/001/1/002032,06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,002032,Indicator for digitization,,,,Operational,Original
 bufr4/3/06/001/2/102000,06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,102000,Delayed replication of 2 descriptors,,,,Operational,Original
 bufr4/3/06/001/3/031001,06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,031001,Delayed descriptor replication factor,,,,Operational,Original

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
 bufr4/3/21/001/1/002101,21,Secuencias de los informes de las observaciones de radar,321001,(Perfilador del viento — características de la antena),,002101,Tipo de antena,,,,Operational,Original
 bufr4/3/21/001/2/002114,21,Secuencias de los informes de las observaciones de radar,321001,(Perfilador del viento — características de la antena),,002114,Superficie equivalente de la antena,,,,Operational,Original
 bufr4/3/21/001/3/002105,21,Secuencias de los informes de las observaciones de radar,321001,(Perfilador del viento — características de la antena),,002105,Ganancia máxima de la antena,,,,Operational,Original

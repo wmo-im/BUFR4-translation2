@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status,translation_source
 bufr4/3/01/001/1/001001,01,Séquences correspondant à la position et à l'identification,301001,(Indicateur régional OMM et chiffre indicatif OMM de la station),,001001,Indicateur régional OMM,,,,Operational,Original
 bufr4/3/01/001/2/001002,01,Séquences correspondant à la position et à l'identification,301001,(Indicateur régional OMM et chiffre indicatif OMM de la station),,001002,Chiffre indicatif OMM de la station,,,,Operational,Original
 bufr4/3/01/002/1/001003,01,Séquences correspondant à la position et à l'identification,301002,,,001003,Région OMM/zone géographique,,,11,Operational,Original

@@ -1,4 +1,4 @@
-Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translated_by
+ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/04/001/1/008003,04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,008003,Vertical significance (satellite observations),,,,Operational,Original
 bufr4/3/04/001/2/010004,04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,010004,Pressure,,,,Operational,Original
 bufr4/3/04/001/3/012001,04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,012001,Temperature/air temperature,,,,Operational,Original
