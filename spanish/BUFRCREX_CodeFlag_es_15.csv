@@ -1,0 +1,7 @@
+Id,FXY,ElementName_es,CodeFigure,EntryName_es,EntryName_sub1_es,EntryName_sub2_es,Note_es,noteIDs,Status,translated_by
+bufr4/0/15/025/0,015025,Tipo de contaminante,0,Ozono,,,,,Operational,Original
+bufr4/0/15/025/1-10,015025,Tipo de contaminante,1-10,Reservadas,,,,,Operational,Original
+bufr4/0/15/025/11,015025,Tipo de contaminante,11,"Partículas finas (díametro < 2,5 micrones)",,,,,Operational,Original
+bufr4/0/15/025/12,015025,Tipo de contaminante,12,Partículas finas (díametro < 10 micrones),,,,,Operational,Original
+bufr4/0/15/025/13-14,015025,Tipo de contaminante,13-14,Reservadas,,,,,Operational,Original
+bufr4/0/15/025/15,015025,Tipo de contaminante,15,Valor faltante,,,,,Operational,Original

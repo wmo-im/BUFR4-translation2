@@ -1,0 +1,5 @@
+Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translated_by
+bufr4/0/05/069/0,005069,Receiver channel,0,Mie,,,,,Operational,Original
+bufr4/0/05/069/1,005069,Receiver channel,1,Rayleigh,,,,,Operational,Original
+bufr4/0/05/069/2,005069,Receiver channel,2,Cross polar,,,,,Operational,Original
+bufr4/0/05/069/3,005069,Receiver channel,3,Missing value,,,,,Operational,Original
