@@ -1,34 +1,35 @@
 ID,CodeFigure,Meaning_fr,Status,translation_source
-bufr4/a/0,0,Données de surface - terre,Operational,PDF
-bufr4/a/1,1,Données de surface - mer,Operational,PDF
-bufr4/a/2,2,Sondages verticaux (autres que par satellite),Operational,PDF
-bufr4/a/3,3,Sondages verticaux (par satellite),Operational,PDF
-bufr4/a/4,4,Données d'observation en altitude à un seul niveau (autres que données satellitaires),Operational,PDF
-bufr4/a/5,5,Données d'observation en altitude à un seul niveau (satellitaires),Operational,PDF
-bufr4/a/6,6,Données radar,Operational,PDF
-bufr4/a/7,7,Caractéristiques synoptiques,Operational,PDF
-bufr4/a/8,8,Constituants physiques/chimiques,Operational,PDF
-bufr4/a/9,9,Dispersion et transport,Operational,PDF
-bufr4/a/10,10,Données radiologiques,Operational,PDF
-bufr4/a/11,11,"Tables du code BUFR, remplacement intégral ou mise à jour",Operational,PDF
-bufr4/a/12,12,Données d'observation en surface (satellitaires),Operational,PDF
-bufr4/a/13,13,Prévisions,Operational,PDF
-bufr4/a/14,14,Messages d'alerte,Operational,PDF
-bufr4/a/15-19,15-19,En réserve,Operational,PDF
-bufr4/a/20,20,Information sur l'état,Operational,PDF
-bufr4/a/21,21,Luminance énergétique (mesurée par satellite),Operational,PDF
-bufr4/a/22,22,"Radar (satellite), hormis altimètre et diffusiomètre",Operational,PDF
-bufr4/a/23,23,Lidar (satellite),Operational,PDF
-bufr4/a/24,24,Diffusiométrie (satellite),Operational,PDF
-bufr4/a/25,25,Altimétrie (satellite),Operational,PDF
-bufr4/a/26,26,Spectrométrie (satellite),Operational,PDF
-bufr4/a/27,27,Mesure du champ de gravité (satellite),Operational,PDF
-bufr4/a/28,28,Orbitographie précise (satellite),Operational,PDF
-bufr4/a/29,29,Environnement spatial (satellite),Operational,PDF
-bufr4/a/30,30,Jeux de données d'étalonnage (satellite),Operational,PDF
-bufr4/a/31,31,Données océanographiques,Operational,PDF
-bufr4/a/32-100,32-100,En réserve,Operational,PDF
-bufr4/a/101,101,Imagerie (satellite),Operational,PDF
-bufr4/a/102-239,102-239,En réserve,Operational,PDF
-bufr4/a/240-254,240-254,À usage expérimental,Operational,PDF
-bufr4/a/255,255,Autre catégorie,Operational,PDF
+bufr4/a/0,0,Données de surface - terre,Operational,Original
+bufr4/a/1,1,Données de surface - mer,Operational,Original
+bufr4/a/2,2,Sondages verticaux (autres que par satellite),Operational,Original
+bufr4/a/3,3,Sondages verticaux (par satellite),Operational,Original
+bufr4/a/4,4,Données d'observation en altitude à un seul niveau (autres que données satellitaires),Operational,Original
+bufr4/a/5,5,Données d'observation en altitude à un seul niveau (satellitaires),Operational,Original
+bufr4/a/6,6,Données radar,Operational,Original
+bufr4/a/7,7,Caractéristiques synoptiques,Operational,Original
+bufr4/a/8,8,Constituants physiques/chimiques,Operational,Original
+bufr4/a/9,9,Dispersion et transport,Operational,Original
+bufr4/a/10,10,Données radiologiques,Operational,Original
+bufr4/a/11,11,"Tables du code BUFR, remplacement intégral ou mise à jour",Operational,Original
+bufr4/a/12,12,Données d'observation en surface (satellitaires),Operational,Original
+bufr4/a/13,13,Prévisions,Operational,Original
+bufr4/a/14,14,Messages d'alerte,Operational,Original
+bufr4/a/15–19,15-19,En réserve,Operational,AI Engine
+bufr4/a/20,20,Information sur l'état,Operational,Original
+bufr4/a/21,21,Luminance énergétique (mesurée par satellite),Operational,Original
+bufr4/a/22,22,"Radar (satellite), hormis altimètre et diffusiomètre",Operational,Original
+bufr4/a/23,23,Lidar (satellite),Operational,Original
+bufr4/a/24,24,Diffusiométrie (satellite),Operational,Original
+bufr4/a/25,25,Altimétrie (satellite),Operational,Original
+bufr4/a/26,26,Spectrométrie (satellite),Operational,Original
+bufr4/a/27,27,Mesure du champ de gravité (satellite),Operational,Original
+bufr4/a/28,28,Orbitographie précise (satellite),Operational,Original
+bufr4/a/29,29,Environnement spatial (satellite),Operational,Original
+bufr4/a/30,30,Jeux de données d'étalonnage (satellite),Operational,Original
+bufr4/a/31,31,Données océanographiques,Operational,Original
+bufr4/a/32,32,Lidar (basé au sol),Operational,AI Engine
+bufr4/a/33–100,33-100,En réserve,Operational,AI Engine
+bufr4/a/101,101,Imagerie (satellite),Operational,Original
+bufr4/a/102–239,102-239,En réserve,Operational,AI Engine
+bufr4/a/240–254,240-254,Pour usage expérimental,Operational,AI Engine
+bufr4/a/255,255,Autre catégorie,Operational,Original

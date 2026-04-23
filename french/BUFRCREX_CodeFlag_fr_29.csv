@@ -1,14 +1,14 @@
 ID,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status,translation_source
-bufr4/0/29/001/0,029001,Type de projection,0,Projection gnomonique,,,,,Operational,PDF
-bufr4/0/29/001/1,029001,Type de projection,1,Projection stéréographique polaire,,,,,Operational,PDF
-bufr4/0/29/001/2,029001,Type de projection,2,Projection conique conforme de Lambert,,,,,Operational,PDF
-bufr4/0/29/001/3,029001,Type de projection,3,Projection de Mercator,,,,,Operational,PDF
-bufr4/0/29/001/4,029001,Type de projection,4,Cône de balayage (radar),,,(voir Note),65,Operational,PDF
-bufr4/0/29/001/5,029001,Type de projection,5,En réserve,,,,,Operational,PDF
-bufr4/0/29/001/6,029001,Type de projection,6,Pas de projection,,,,,Operational,PDF
-bufr4/0/29/001/7,029001,Type de projection,7,Valeur manquante,,,,,Operational,PDF
-bufr4/0/29/002/0,029002,Type de grille de coordonnées,0,Cartésienne,,,,,Operational,PDF
-bufr4/0/29/002/1,029002,Type de grille de coordonnées,1,Polaire,,,,,Operational,PDF
-bufr4/0/29/002/2,029002,Type de grille de coordonnées,2,Autre,,,,,Operational,PDF
-bufr4/0/29/002/3-6,029002,Type de grille de coordonnées,3-6,En réserve,,,,,Operational,PDF
-bufr4/0/29/002/7,029002,Type de grille de coordonnées,7,Valeur manquante,,,,,Operational,PDF
+bufr4/0/29/001/0,029001,Type de projection,0,Projection gnomonique,,,,,Operational,Original
+bufr4/0/29/001/1,029001,Type de projection,1,Projection stéréographique polaire,,,,,Operational,Original
+bufr4/0/29/001/2,029001,Type de projection,2,Projection conique conforme de Lambert,,,,,Operational,Original
+bufr4/0/29/001/3,029001,Type de projection,3,Projection de Mercator,,,,,Operational,Original
+bufr4/0/29/001/4,029001,Type de projection,4,Cône de balayage (radar),,,(voir Note),65,Operational,Original
+bufr4/0/29/001/5,029001,Type de projection,5,En réserve,,,,,Operational,Original
+bufr4/0/29/001/6,029001,Type de projection,6,Pas de projection,,,,,Operational,Original
+bufr4/0/29/001/7,029001,Type de projection,7,Valeur manquante,,,,,Operational,Original
+bufr4/0/29/002/0,029002,Type de grille de coordonnées,0,Cartésienne,,,,,Operational,Original
+bufr4/0/29/002/1,029002,Type de grille de coordonnées,1,Polaire,,,,,Operational,Original
+bufr4/0/29/002/2,029002,Type de grille de coordonnées,2,Autre,,,,,Operational,Original
+bufr4/0/29/002/3-6,029002,Type de grille de coordonnées,3-6,En réserve,,,,,Operational,Original
+bufr4/0/29/002/7,029002,Type de grille de coordonnées,7,Valeur manquante,,,,,Operational,Original
