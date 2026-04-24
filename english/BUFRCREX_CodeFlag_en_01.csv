@@ -1,376 +1,376 @@
 ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
-bufr4/0/01/003/0,001003,WMO Region number/geographical area,0,Antarctica,,,,,Operational,PDF
-bufr4/0/01/003/1,001003,WMO Region number/geographical area,1,Region I,,,,,Operational,PDF
-bufr4/0/01/003/2,001003,WMO Region number/geographical area,2,Region II,,,,,Operational,PDF
-bufr4/0/01/003/3,001003,WMO Region number/geographical area,3,Region III,,,,,Operational,PDF
-bufr4/0/01/003/4,001003,WMO Region number/geographical area,4,Region IV,,,,,Operational,PDF
-bufr4/0/01/003/5,001003,WMO Region number/geographical area,5,Region V,,,,,Operational,PDF
-bufr4/0/01/003/6,001003,WMO Region number/geographical area,6,Region VI,,,,,Operational,PDF
-bufr4/0/01/003/7,001003,WMO Region number/geographical area,7,Missing value,,,,,Operational,PDF
-bufr4/0/01/007,001007,Satellite identifier,,,,,,,Operational,PDF
-bufr4/0/01/024/0,001024,Wind speed source,0,No wind speed data available,,,,,Operational,PDF
-bufr4/0/01/024/1,001024,Wind speed source,1,AMSR-E data,,,,,Operational,PDF
-bufr4/0/01/024/2,001024,Wind speed source,2,TMI data,,,,,Operational,PDF
-bufr4/0/01/024/3,001024,Wind speed source,3,NWP: ECMWF,,,,,Operational,PDF
-bufr4/0/01/024/4,001024,Wind speed source,4,NWP: UK Met Office,,,,,Operational,PDF
-bufr4/0/01/024/5,001024,Wind speed source,5,NWP: NCEP,,,,,Operational,PDF
-bufr4/0/01/024/6,001024,Wind speed source,6,Reference climatology,,,,,Operational,PDF
-bufr4/0/01/024/7,001024,Wind speed source,7,ERS_scatterometer,,,,,Operational,PDF
-bufr4/0/01/024/8-30,001024,Wind speed source,8-30,Reserved for future use,,,,,Operational,PDF
-bufr4/0/01/024/31,001024,Wind speed source,31,Missing value,,,,,Operational,PDF
-bufr4/0/01/028/0,001028,Aerosol optical depth (AOD) source,0,No AOD data available,,,,,Operational,PDF
-bufr4/0/01/028/1,001028,Aerosol optical depth (AOD) source,1,NESDIS,,,,,Operational,PDF
-bufr4/0/01/028/2,001028,Aerosol optical depth (AOD) source,2,NAVOCEANO,,,,,Operational,PDF
-bufr4/0/01/028/3,001028,Aerosol optical depth (AOD) source,3,NAAPS,,,,,Operational,PDF
-bufr4/0/01/028/4,001028,Aerosol optical depth (AOD) source,4,MERIS,,,,,Operational,PDF
-bufr4/0/01/028/5,001028,Aerosol optical depth (AOD) source,5,AATSR,,,,,Operational,PDF
-bufr4/0/01/028/6-30,001028,Aerosol optical depth (AOD) source,6-30,Reserved for future use,,,,,Operational,PDF
-bufr4/0/01/028/31,001028,Aerosol optical depth (AOD) source,31,Missing value,,,,,Operational,PDF
-bufr4/0/01/029/0,001029,SSI source,0,No SSI data available,,,,,Operational,PDF
-bufr4/0/01/029/1,001029,SSI source,1,MSG_SEVIRI,,,,,Operational,PDF
-bufr4/0/01/029/2,001029,SSI source,2,GOES East,,,,,Operational,PDF
-bufr4/0/01/029/3,001029,SSI source,3,GOES West,,,,,Operational,PDF
-bufr4/0/01/029/4,001029,SSI source,4,ECMWF,,,,,Operational,PDF
-bufr4/0/01/029/5,001029,SSI source,5,NCEP,,,,,Operational,PDF
-bufr4/0/01/029/6,001029,SSI source,6,UK Met Office,,,,,Operational,PDF
-bufr4/0/01/029/7-30,001029,SSI source,7-30,Reserved for future use,,,,,Operational,PDF
-bufr4/0/01/029/31,001029,SSI source,31,Missing value,,,,,Operational,PDF
-bufr4/0/01/031,001031,Identification of originating/generating centre,,,,,,,Operational,PDF
-bufr4/0/01/033,001033,Identification of originating/generating centre,,,,,,,Operational,PDF
-bufr4/0/01/034,001034,Identification of originating/generating sub-centre,,,,,,,Operational,PDF
-bufr4/0/01/035,001035,Originating/generating centre,,,,,,,Operational,PDF
-bufr4/0/01/036/0-36000,001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/36001,001036,Agency in charge of operating the observing platform,36001,"Australia, Bureau of Meteorology (BoM)",,,,,Operational,PDF
-bufr4/0/01/036/36002,001036,Agency in charge of operating the observing platform,36002,"Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)",,,,,Operational,PDF
-bufr4/0/01/036/36003,001036,Agency in charge of operating the observing platform,36003,"Australia, the Commonwealth Scientific and Industrial Research Organization (CSIRO)",,,,,Operational,PDF
-bufr4/0/01/036/36004-124000,001036,Agency in charge of operating the observing platform,36004-124000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/124001,001036,Agency in charge of operating the observing platform,124001,"Canada, Marine Environmental Data Service (MEDS)",,,,,Operational,PDF
-bufr4/0/01/036/124002,001036,Agency in charge of operating the observing platform,124002,"Canada, Institute of Ocean Sciences (IOS)",,,,,Operational,PDF
-bufr4/0/01/036/124003-124172,001036,Agency in charge of operating the observing platform,124003-124172,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/124173,001036,Agency in charge of operating the observing platform,124173,"Canada, Environment Canada",,,,,Operational,PDF
-bufr4/0/01/036/124174,001036,Agency in charge of operating the observing platform,124174,"Canada, Department of National Defence",,,,,Operational,PDF
-bufr4/0/01/036/124175,001036,Agency in charge of operating the observing platform,124175,"Canada, Nav Canada",,,,,Operational,PDF
-bufr4/0/01/036/124176-156000,001036,Agency in charge of operating the observing platform,124176-156000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/156001,001036,Agency in charge of operating the observing platform,156001,"China, The State Oceanic Administration",,,,,Operational,PDF
-bufr4/0/01/036/156002,001036,Agency in charge of operating the observing platform,156002,"China, Second Institute of Oceanography, State Oceanic Administration",,,,,Operational,PDF
-bufr4/0/01/036/156003,001036,Agency in charge of operating the observing platform,156003,"China, Institute of Ocean Technology",,,,,Operational,PDF
-bufr4/0/01/036/156004-250000,001036,Agency in charge of operating the observing platform,156004-250000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/250001,001036,Agency in charge of operating the observing platform,250001,"France, Institut de Recherche pour le Développement (IRD)",,,,,Operational,PDF
-bufr4/0/01/036/250002,001036,Agency in charge of operating the observing platform,250002,"France, Institut Français de Recherche pour l'Exploitation de la mer (IFREMER)",,,,,Operational,PDF
-bufr4/0/01/036/250003-276000,001036,Agency in charge of operating the observing platform,250003-276000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/276001,001036,Agency in charge of operating the observing platform,276001,"Germany, Bundesamt fuer Seeschiffahrt und Hydrographie (BSH)",,,,,Operational,PDF
-bufr4/0/01/036/276002,001036,Agency in charge of operating the observing platform,276002,"Germany, Institut fuer Meereskunde, Kiel",,,,,Operational,PDF
-bufr4/0/01/036/276003-356000,001036,Agency in charge of operating the observing platform,276003-356000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/356001,001036,Agency in charge of operating the observing platform,356001,"India, National Institute of Oceanography (NIO)",,,,,Operational,PDF
-bufr4/0/01/036/356002,001036,Agency in charge of operating the observing platform,356002,"India, National Institute for Ocean Technology (NIOT)",,,,,Operational,PDF
-bufr4/0/01/036/356003,001036,Agency in charge of operating the observing platform,356003,"India, National Centre for Ocean Information Service",,,,,Operational,PDF
-bufr4/0/01/036/356004-392000,001036,Agency in charge of operating the observing platform,356004-392000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/392001,001036,Agency in charge of operating the observing platform,392001,"Japan, Japan Meteorological Agency (JMA)",,,,,Operational,PDF
-bufr4/0/01/036/392002,001036,Agency in charge of operating the observing platform,392002,"Japan, Frontier Observational Research System for Global Change",,,,,Operational,PDF
-bufr4/0/01/036/392003,001036,Agency in charge of operating the observing platform,392003,"Japan, Japan Marine Science and Technology Centre (JAMSTEC)",,,,,Operational,PDF
-bufr4/0/01/036/392004-410000,001036,Agency in charge of operating the observing platform,392004-410000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/410001,001036,Agency in charge of operating the observing platform,410001,"Republic of Korea, Seoul National University",,,,,Operational,PDF
-bufr4/0/01/036/410002,001036,Agency in charge of operating the observing platform,410002,"Republic of Korea, Korea Ocean Research and Development Institute  (KORDI)",,,,,Operational,PDF
-bufr4/0/01/036/410003,001036,Agency in charge of operating the observing platform,410003,"Republic of Korea, Meteorological Research Institute",,,,,Operational,PDF
-bufr4/0/01/036/410004-540000,001036,Agency in charge of operating the observing platform,410004-540000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/540001,001036,Agency in charge of operating the observing platform,540001,"New Caledonia, Institut de Recherche pour le Développement (IRD)",,,,,Operational,PDF
-bufr4/0/01/036/540002-554000,001036,Agency in charge of operating the observing platform,540002-554000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/554001,001036,Agency in charge of operating the observing platform,554001,"New Zealand, National Institute of Water and Atmospheric Research (NIWA)",,,,,Operational,PDF
-bufr4/0/01/036/554002-643000,001036,Agency in charge of operating the observing platform,554002-643000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/643001,001036,Agency in charge of operating the observing platform,643001,"Russian Federation, State Oceanographic Institute of Roshydromet",,,,,Operational,PDF
-bufr4/0/01/036/643002,001036,Agency in charge of operating the observing platform,643002,"Russian Federation, Federal Service for Hydrometeorology and Environmental Monitoring",,,,,Operational,PDF
-bufr4/0/01/036/643003-724000,001036,Agency in charge of operating the observing platform,643003-724000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/724001,001036,Agency in charge of operating the observing platform,724001,"Spain, Instituto Español de Oceanografia",,,,,Operational,PDF
-bufr4/0/01/036/724002-826000,001036,Agency in charge of operating the observing platform,724002-826000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/826001,001036,Agency in charge of operating the observing platform,826001,"United Kingdom, Hydrographic Office",,,,,Operational,PDF
-bufr4/0/01/036/826002,001036,Agency in charge of operating the observing platform,826002,"United Kingdom, National Oceanography Centre (NOC)",,,,,Operational,PDF
-bufr4/0/01/036/826003,001036,Agency in charge of operating the observing platform,826003,"United Kingdom, Centre for Environment, Fisheries and Aquaculture Science (Cefas)",,,,,Operational,PDF
-bufr4/0/01/036/826004,001036,Agency in charge of operating the observing platform,826004,"United Kingdom, Marine Scotland (MS)",,,,,Operational,PDF
-bufr4/0/01/036/826005,001036,Agency in charge of operating the observing platform,826005,"United Kingdom, Plymouth Marine Laboratory (PML)",,,,,Operational,PDF
-bufr4/0/01/036/826006,001036,Agency in charge of operating the observing platform,826006,"United Kingdom, British Antarctic Survey (BAS)",,,,,Operational,PDF
-bufr4/0/01/036/826007-840000,001036,Agency in charge of operating the observing platform,826007-840000,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/840001,001036,Agency in charge of operating the observing platform,840001,"USA, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML)",,,,,Operational,PDF
-bufr4/0/01/036/840002,001036,Agency in charge of operating the observing platform,840002,"USA, NOAA Pacific Marine Environmental Laboratory (PMEL)",,,,,Operational,PDF
-bufr4/0/01/036/840003,001036,Agency in charge of operating the observing platform,840003,"USA, Scripps Institution of Oceanography (SIO)",,,,,Operational,PDF
-bufr4/0/01/036/840004,001036,Agency in charge of operating the observing platform,840004,"USA, Woods Hole Oceanographic Institution (WHOI)",,,,,Operational,PDF
-bufr4/0/01/036/840005,001036,Agency in charge of operating the observing platform,840005,"USA, University of Washington",,,,,Operational,PDF
-bufr4/0/01/036/840006,001036,Agency in charge of operating the observing platform,840006,"USA, Naval Oceanographic Office",,,,,Operational,PDF
-bufr4/0/01/036/840007-1048574,001036,Agency in charge of operating the observing platform,840007-1048574,Reserved,,,,,Operational,PDF
-bufr4/0/01/036/1048575,001036,Agency in charge of operating the observing platform,1048575,Missing value,,,,,Operational,PDF
-bufr4/0/01/038/0,001038,Source of sea ice fraction,0,No sea ice set,,,,,Operational,PDF
-bufr4/0/01/038/1,001038,Source of sea ice fraction,1,NSIDC SSM/I Cavalieri et al (1992),,,,,Operational,PDF
-bufr4/0/01/038/2,001038,Source of sea ice fraction,2,AMSR-E,,,,,Operational,PDF
-bufr4/0/01/038/3,001038,Source of sea ice fraction,3,ECMWF,,,,,Operational,PDF
-bufr4/0/01/038/4,001038,Source of sea ice fraction,4,CMS (France) cloud mask used by Medspiration,,,,,Operational,PDF
-bufr4/0/01/038/5,001038,Source of sea ice fraction,5,EUMETSAT OSI-SAF,,,,,Operational,PDF
-bufr4/0/01/038/6-30,001038,Source of sea ice fraction,6-30,Reserved for future use,,,,,Operational,PDF
-bufr4/0/01/038/31,001038,Source of sea ice fraction,31,Missing value,,,,,Operational,PDF
-bufr4/0/01/044/0,001044,Standard generating application,0,Reserved,,,,,Operational,PDF
-bufr4/0/01/044/1,001044,Standard generating application,1,Full weighted mixture of individual quality tests,,,,,Operational,PDF
-bufr4/0/01/044/2,001044,Standard generating application,2,"Weighted mixture of individual tests, but excluding forecast comparison",,,,,Operational,PDF
-bufr4/0/01/044/3,001044,Standard generating application,3,Recursive filter function,,,,,Operational,PDF
-bufr4/0/01/044/4,001044,Standard generating application,4,Common quality index (QI) without forecast,,,,,Operational,PDF
-bufr4/0/01/044/5,001044,Standard generating application,5,QI without forecast,,,,,Operational,PDF
-bufr4/0/01/044/6,001044,Standard generating application,6,QI with forecast,,,,,Operational,PDF
-bufr4/0/01/044/7,001044,Standard generating application,7,Estimated error in m/s converted to a percent confidence,,,,,Operational,PDF
-bufr4/0/01/044/8-254,001044,Standard generating application,8-254,Reserved,,,,,Operational,PDF
-bufr4/0/01/044/255,001044,Standard generating application,255,Missing value,,,,,Operational,PDF
-bufr4/0/01/052/0,001052,Platform transmitter ID,0,Primary,,,,,Operational,PDF
-bufr4/0/01/052/1,001052,Platform transmitter ID,1,Secondary,,,,,Operational,PDF
-bufr4/0/01/052/2,001052,Platform transmitter ID,2,Reserved,,,,,Operational,PDF
-bufr4/0/01/052/3,001052,Platform transmitter ID,3,Missing value,,,,,Operational,PDF
-bufr4/0/01/090/0,001090,Technique for making up initial perturbations,0,Lagged-average forecasting (LAF),,,,,Operational,PDF
-bufr4/0/01/090/1,001090,Technique for making up initial perturbations,1,Breeding,,,,,Operational,PDF
-bufr4/0/01/090/2,001090,Technique for making up initial perturbations,2,Singular vectors,,,,,Operational,PDF
-bufr4/0/01/090/3,001090,Technique for making up initial perturbations,3,Multiple analysis cycles,,,,,Operational,PDF
-bufr4/0/01/090/4-191,001090,Technique for making up initial perturbations,4-191,Reserved,,,,,Operational,PDF
-bufr4/0/01/090/192-254,001090,Technique for making up initial perturbations,192-254,Reserved for local use,,,,,Operational,PDF
-bufr4/0/01/090/255,001090,Technique for making up initial perturbations,255,Missing value,,,,,Operational,PDF
-bufr4/0/01/092/0,001092,Type of ensemble forecast,0,Unperturbed high-resolution control forecast,,,,,Operational,PDF
-bufr4/0/01/092/1,001092,Type of ensemble forecast,1,Unperturbed low-resolution control forecast,,,,,Operational,PDF
-bufr4/0/01/092/2,001092,Type of ensemble forecast,2,Negatively perturbed forecast,,,,,Operational,PDF
-bufr4/0/01/092/3,001092,Type of ensemble forecast,3,Positively perturbed forecast,,,,,Operational,PDF
-bufr4/0/01/092/4,001092,Type of ensemble forecast,4,Perturbed forecast,,,,,Operational,PDF
-bufr4/0/01/092/5-191,001092,Type of ensemble forecast,5-191,Reserved,,,,,Operational,PDF
-bufr4/0/01/092/192-254,001092,Type of ensemble forecast,192-254,Reserved for local use,,,,,Operational,PDF
-bufr4/0/01/092/255,001092,Type of ensemble forecast,255,Missing value,,,,,Operational,PDF
-bufr4/0/01/101/0-99,001101,State identifier,0-99,Reserved,,,,,Operational,PDF
-bufr4/0/01/101/100,001101,State identifier,100,Algeria,,,,,Operational,PDF
-bufr4/0/01/101/101,001101,State identifier,101,Angola,,,,,Operational,PDF
-bufr4/0/01/101/102,001101,State identifier,102,Benin,,,,,Operational,PDF
-bufr4/0/01/101/103,001101,State identifier,103,Botswana,,,,,Operational,PDF
-bufr4/0/01/101/104,001101,State identifier,104,Burkina Faso,,,,,Operational,PDF
-bufr4/0/01/101/105,001101,State identifier,105,Burundi,,,,,Operational,PDF
-bufr4/0/01/101/106,001101,State identifier,106,Cameroon,,,,,Operational,PDF
-bufr4/0/01/101/107,001101,State identifier,107,Cabo Verde,,,,,Operational,PDF
-bufr4/0/01/101/108,001101,State identifier,108,Central African Republic,,,,,Operational,PDF
-bufr4/0/01/101/109,001101,State identifier,109,Chad,,,,,Operational,PDF
-bufr4/0/01/101/110,001101,State identifier,110,Comoros,,,,,Operational,PDF
-bufr4/0/01/101/111,001101,State identifier,111,Congo,,,,,Operational,PDF
-bufr4/0/01/101/112,001101,State identifier,112,Côte d'Ivoire,,,,,Operational,PDF
-bufr4/0/01/101/113,001101,State identifier,113,Democratic Republic of the Congo,,,,,Operational,PDF
-bufr4/0/01/101/114,001101,State identifier,114,Djibouti,,,,,Operational,PDF
-bufr4/0/01/101/115,001101,State identifier,115,Egypt,,,,,Operational,PDF
-bufr4/0/01/101/116,001101,State identifier,116,Eritrea,,,,,Operational,PDF
-bufr4/0/01/101/117,001101,State identifier,117,Ethiopia,,,,,Operational,PDF
-bufr4/0/01/101/118,001101,State identifier,118,France (RA I),,,,,Operational,PDF
-bufr4/0/01/101/119,001101,State identifier,119,Gabon,,,,,Operational,PDF
-bufr4/0/01/101/120,001101,State identifier,120,Gambia,,,,,Operational,PDF
-bufr4/0/01/101/121,001101,State identifier,121,Ghana,,,,,Operational,PDF
-bufr4/0/01/101/122,001101,State identifier,122,Guinea,,,,,Operational,PDF
-bufr4/0/01/101/123,001101,State identifier,123,Guinea-Bissau,,,,,Operational,PDF
-bufr4/0/01/101/124,001101,State identifier,124,Kenya,,,,,Operational,PDF
-bufr4/0/01/101/125,001101,State identifier,125,Lesotho,,,,,Operational,PDF
-bufr4/0/01/101/126,001101,State identifier,126,Liberia,,,,,Operational,PDF
-bufr4/0/01/101/127,001101,State identifier,127,Libya,,,,,Operational,PDF
-bufr4/0/01/101/128,001101,State identifier,128,Madagascar,,,,,Operational,PDF
-bufr4/0/01/101/129,001101,State identifier,129,Malawi,,,,,Operational,PDF
-bufr4/0/01/101/130,001101,State identifier,130,Mali,,,,,Operational,PDF
-bufr4/0/01/101/131,001101,State identifier,131,Mauritania,,,,,Operational,PDF
-bufr4/0/01/101/132,001101,State identifier,132,Mauritius,,,,,Operational,PDF
-bufr4/0/01/101/133,001101,State identifier,133,Morocco,,,,,Operational,PDF
-bufr4/0/01/101/134,001101,State identifier,134,Mozambique,,,,,Operational,PDF
-bufr4/0/01/101/135,001101,State identifier,135,Namibia,,,,,Operational,PDF
-bufr4/0/01/101/136,001101,State identifier,136,Niger,,,,,Operational,PDF
-bufr4/0/01/101/137,001101,State identifier,137,Nigeria,,,,,Operational,PDF
-bufr4/0/01/101/138,001101,State identifier,138,Portugal (RA I),,,,,Operational,PDF
-bufr4/0/01/101/139,001101,State identifier,139,Rwanda,,,,,Operational,PDF
-bufr4/0/01/101/140,001101,State identifier,140,Sao Tome and Principe,,,,,Operational,PDF
-bufr4/0/01/101/141,001101,State identifier,141,Senegal,,,,,Operational,PDF
-bufr4/0/01/101/142,001101,State identifier,142,Seychelles,,,,,Operational,PDF
-bufr4/0/01/101/143,001101,State identifier,143,Sierra Leone,,,,,Operational,PDF
-bufr4/0/01/101/144,001101,State identifier,144,Somalia,,,,,Operational,PDF
-bufr4/0/01/101/145,001101,State identifier,145,South Africa,,,,,Operational,PDF
-bufr4/0/01/101/146,001101,State identifier,146,Spain (RA I),,,,,Operational,PDF
-bufr4/0/01/101/147,001101,State identifier,147,Sudan,,,,,Operational,PDF
-bufr4/0/01/101/148,001101,State identifier,148,Eswatini,,,,,Operational,PDF
-bufr4/0/01/101/149,001101,State identifier,149,Togo,,,,,Operational,PDF
-bufr4/0/01/101/150,001101,State identifier,150,Tunisia,,,,,Operational,PDF
-bufr4/0/01/101/151,001101,State identifier,151,Uganda,,,,,Operational,PDF
-bufr4/0/01/101/152,001101,State identifier,152,United Kingdom of Great Britain and Northern Ireland (RA I),,,,,Operational,PDF
-bufr4/0/01/101/153,001101,State identifier,153,United Republic of Tanzania,,,,,Operational,PDF
-bufr4/0/01/101/154,001101,State identifier,154,Zambia,,,,,Operational,PDF
-bufr4/0/01/101/155,001101,State identifier,155,Zimbabwe,,,,,Operational,PDF
-bufr4/0/01/101/156-199,001101,State identifier,156-199,Reserved for Region I (Africa),,,,,Operational,PDF
-bufr4/0/01/101/200,001101,State identifier,200,Afghanistan,,,,,Operational,PDF
-bufr4/0/01/101/201,001101,State identifier,201,Bahrain,,,,,Operational,PDF
-bufr4/0/01/101/202,001101,State identifier,202,Bangladesh,,,,,Operational,PDF
-bufr4/0/01/101/203,001101,State identifier,203,Bhutan,,,,,Operational,PDF
-bufr4/0/01/101/204,001101,State identifier,204,Cambodia,,,,,Operational,PDF
-bufr4/0/01/101/205,001101,State identifier,205,China,,,,,Operational,PDF
-bufr4/0/01/101/206,001101,State identifier,206,Democratic People's Republic of Korea,,,,,Operational,PDF
-bufr4/0/01/101/207,001101,State identifier,207,"Hong Kong, China",,,,,Operational,PDF
-bufr4/0/01/101/208,001101,State identifier,208,India,,,,,Operational,PDF
-bufr4/0/01/101/209,001101,State identifier,209,"Iran, Islamic Republic of",,,,,Operational,PDF
-bufr4/0/01/101/210,001101,State identifier,210,Iraq,,,,,Operational,PDF
-bufr4/0/01/101/211,001101,State identifier,211,Japan,,,,,Operational,PDF
-bufr4/0/01/101/212,001101,State identifier,212,Kazakhstan,,,,,Operational,PDF
-bufr4/0/01/101/213,001101,State identifier,213,Kuwait,,,,,Operational,PDF
-bufr4/0/01/101/214,001101,State identifier,214,Kyrgyzstan,,,,,Operational,PDF
-bufr4/0/01/101/215,001101,State identifier,215,Lao People's Democratic Republic,,,,,Operational,PDF
-bufr4/0/01/101/216,001101,State identifier,216,"Macao, China",,,,,Operational,PDF
-bufr4/0/01/101/217,001101,State identifier,217,Maldives,,,,,Operational,PDF
-bufr4/0/01/101/218,001101,State identifier,218,Mongolia,,,,,Operational,PDF
-bufr4/0/01/101/219,001101,State identifier,219,Myanmar,,,,,Operational,PDF
-bufr4/0/01/101/220,001101,State identifier,220,Nepal,,,,,Operational,PDF
-bufr4/0/01/101/221,001101,State identifier,221,Oman,,,,,Operational,PDF
-bufr4/0/01/101/222,001101,State identifier,222,Pakistan,,,,,Operational,PDF
-bufr4/0/01/101/223,001101,State identifier,223,Qatar,,,,,Operational,PDF
-bufr4/0/01/101/224,001101,State identifier,224,Republic of Korea,,,,,Operational,PDF
-bufr4/0/01/101/225,001101,State identifier,225,Yemen,,,,,Operational,PDF
-bufr4/0/01/101/226,001101,State identifier,226,Russian Federation (RA II),,,,,Operational,PDF
-bufr4/0/01/101/227,001101,State identifier,227,Saudi Arabia,,,,,Operational,PDF
-bufr4/0/01/101/228,001101,State identifier,228,Sri Lanka,,,,,Operational,PDF
-bufr4/0/01/101/229,001101,State identifier,229,Tajikistan,,,,,Operational,PDF
-bufr4/0/01/101/230,001101,State identifier,230,Thailand,,,,,Operational,PDF
-bufr4/0/01/101/231,001101,State identifier,231,Turkmenistan,,,,,Operational,PDF
-bufr4/0/01/101/232,001101,State identifier,232,United Arab Emirates,,,,,Operational,PDF
-bufr4/0/01/101/233,001101,State identifier,233,Uzbekistan,,,,,Operational,PDF
-bufr4/0/01/101/234,001101,State identifier,234,Viet Nam,,,,,Operational,PDF
-bufr4/0/01/101/235-299,001101,State identifier,235-299,Reserved for Region II (Asia),,,,,Operational,PDF
-bufr4/0/01/101/300,001101,State identifier,300,Argentina,,,,,Operational,PDF
-bufr4/0/01/101/301,001101,State identifier,301,Bolivia (Plurinational State of),,,,,Operational,PDF
-bufr4/0/01/101/302,001101,State identifier,302,Brazil,,,,,Operational,PDF
-bufr4/0/01/101/303,001101,State identifier,303,Chile,,,,,Operational,PDF
-bufr4/0/01/101/304,001101,State identifier,304,Colombia,,,,,Operational,PDF
-bufr4/0/01/101/305,001101,State identifier,305,Ecuador,,,,,Operational,PDF
-bufr4/0/01/101/306,001101,State identifier,306,France (RA III),,,,,Operational,PDF
-bufr4/0/01/101/307,001101,State identifier,307,Guyana,,,,,Operational,PDF
-bufr4/0/01/101/308,001101,State identifier,308,Paraguay,,,,,Operational,PDF
-bufr4/0/01/101/309,001101,State identifier,309,Peru,,,,,Operational,PDF
-bufr4/0/01/101/310,001101,State identifier,310,Suriname,,,,,Operational,PDF
-bufr4/0/01/101/311,001101,State identifier,311,Uruguay,,,,,Operational,PDF
-bufr4/0/01/101/312,001101,State identifier,312,Venezuela (Bolivarian Republic of),,,,,Operational,PDF
-bufr4/0/01/101/313-399,001101,State identifier,313-399,Reserved for Region III (South America),,,,,Operational,PDF
-bufr4/0/01/101/400,001101,State identifier,400,Antigua and Barbuda,,,,,Operational,PDF
-bufr4/0/01/101/401,001101,State identifier,401,Bahamas,,,,,Operational,PDF
-bufr4/0/01/101/402,001101,State identifier,402,Barbados,,,,,Operational,PDF
-bufr4/0/01/101/403,001101,State identifier,403,Belize,,,,,Operational,PDF
-bufr4/0/01/101/404,001101,State identifier,404,British Caribbean Territories,,,,,Operational,PDF
-bufr4/0/01/101/405,001101,State identifier,405,Canada,,,,,Operational,PDF
-bufr4/0/01/101/406,001101,State identifier,406,Colombia,,,,,Operational,PDF
-bufr4/0/01/101/407,001101,State identifier,407,Costa Rica,,,,,Operational,PDF
-bufr4/0/01/101/408,001101,State identifier,408,Cuba,,,,,Operational,PDF
-bufr4/0/01/101/409,001101,State identifier,409,Dominica,,,,,Operational,PDF
-bufr4/0/01/101/410,001101,State identifier,410,Dominican Republic,,,,,Operational,PDF
-bufr4/0/01/101/411,001101,State identifier,411,El Salvador,,,,,Operational,PDF
-bufr4/0/01/101/412,001101,State identifier,412,France (RA IV),,,,,Operational,PDF
-bufr4/0/01/101/413,001101,State identifier,413,Guatemala,,,,,Operational,PDF
-bufr4/0/01/101/414,001101,State identifier,414,Haiti,,,,,Operational,PDF
-bufr4/0/01/101/415,001101,State identifier,415,Honduras,,,,,Operational,PDF
-bufr4/0/01/101/416,001101,State identifier,416,Jamaica,,,,,Operational,PDF
-bufr4/0/01/101/417,001101,State identifier,417,Mexico,,,,,Operational,PDF
-bufr4/0/01/101/418,001101,State identifier,418,Curaçao and Sint Maarten,,,,,Operational,PDF
-bufr4/0/01/101/419,001101,State identifier,419,Nicaragua,,,,,Operational,PDF
-bufr4/0/01/101/420,001101,State identifier,420,Panama,,,,,Operational,PDF
-bufr4/0/01/101/421,001101,State identifier,421,Saint Lucia,,,,,Operational,PDF
-bufr4/0/01/101/422,001101,State identifier,422,Trinidad and Tobago,,,,,Operational,PDF
-bufr4/0/01/101/423,001101,State identifier,423,United Kingdom of Great Britain and Northern Ireland (RA IV),,,,,Operational,PDF
-bufr4/0/01/101/424,001101,State identifier,424,United States of America (RA IV),,,,,Operational,PDF
-bufr4/0/01/101/425,001101,State identifier,425,Venezuela (Bolivarian Republic of),,,,,Operational,PDF
-bufr4/0/01/101/426-499,001101,State identifier,426-499,"Reserved for Region IV (North America, Central America and the Caribbean)",,,,,Operational,PDF
-bufr4/0/01/101/500,001101,State identifier,500,Australia,,,,,Operational,PDF
-bufr4/0/01/101/501,001101,State identifier,501,Brunei Darussalam,,,,,Operational,PDF
-bufr4/0/01/101/502,001101,State identifier,502,Cook Islands,,,,,Operational,PDF
-bufr4/0/01/101/503,001101,State identifier,503,Fiji,,,,,Operational,PDF
-bufr4/0/01/101/504,001101,State identifier,504,French Polynesia,,,,,Operational,PDF
-bufr4/0/01/101/505,001101,State identifier,505,Indonesia,,,,,Operational,PDF
-bufr4/0/01/101/506,001101,State identifier,506,Kiribati,,,,,Operational,PDF
-bufr4/0/01/101/507,001101,State identifier,507,Malaysia,,,,,Operational,PDF
-bufr4/0/01/101/508,001101,State identifier,508,"Micronesia, Federated States of",,,,,Operational,PDF
-bufr4/0/01/101/509,001101,State identifier,509,New Caledonia,,,,,Operational,PDF
-bufr4/0/01/101/510,001101,State identifier,510,New Zealand,,,,,Operational,PDF
-bufr4/0/01/101/511,001101,State identifier,511,Niue,,,,,Operational,PDF
-bufr4/0/01/101/512,001101,State identifier,512,Papua New Guinea,,,,,Operational,PDF
-bufr4/0/01/101/513,001101,State identifier,513,Philippines,,,,,Operational,PDF
-bufr4/0/01/101/514,001101,State identifier,514,Samoa,,,,,Operational,PDF
-bufr4/0/01/101/515,001101,State identifier,515,Singapore,,,,,Operational,PDF
-bufr4/0/01/101/516,001101,State identifier,516,Solomon Islands,,,,,Operational,PDF
-bufr4/0/01/101/517,001101,State identifier,517,Tonga,,,,,Operational,PDF
-bufr4/0/01/101/518,001101,State identifier,518,United Kingdom of Great Britain and Northern Ireland (RA V),,,,,Operational,PDF
-bufr4/0/01/101/519,001101,State identifier,519,United States of America (RA V),,,,,Operational,PDF
-bufr4/0/01/101/520,001101,State identifier,520,Vanuatu,,,,,Operational,PDF
-bufr4/0/01/101/521-599,001101,State identifier,521-599,Reserved for Region V (South-West Pacific),,,,,Operational,PDF
-bufr4/0/01/101/600,001101,State identifier,600,Albania,,,,,Operational,PDF
-bufr4/0/01/101/601,001101,State identifier,601,Armenia,,,,,Operational,PDF
-bufr4/0/01/101/602,001101,State identifier,602,Austria,,,,,Operational,PDF
-bufr4/0/01/101/603,001101,State identifier,603,Azerbaijan,,,,,Operational,PDF
-bufr4/0/01/101/604,001101,State identifier,604,Belarus,,,,,Operational,PDF
-bufr4/0/01/101/605,001101,State identifier,605,Belgium,,,,,Operational,PDF
-bufr4/0/01/101/606,001101,State identifier,606,Bosnia and Herzegovina,,,,,Operational,PDF
-bufr4/0/01/101/607,001101,State identifier,607,Bulgaria,,,,,Operational,PDF
-bufr4/0/01/101/608,001101,State identifier,608,Croatia,,,,,Operational,PDF
-bufr4/0/01/101/609,001101,State identifier,609,Cyprus,,,,,Operational,PDF
-bufr4/0/01/101/610,001101,State identifier,610,Czechia,,,,,Operational,PDF
-bufr4/0/01/101/611,001101,State identifier,611,Denmark,,,,,Operational,PDF
-bufr4/0/01/101/612,001101,State identifier,612,Estonia,,,,,Operational,PDF
-bufr4/0/01/101/613,001101,State identifier,613,Finland,,,,,Operational,PDF
-bufr4/0/01/101/614,001101,State identifier,614,France (RA VI),,,,,Operational,PDF
-bufr4/0/01/101/615,001101,State identifier,615,Georgia,,,,,Operational,PDF
-bufr4/0/01/101/616,001101,State identifier,616,Germany,,,,,Operational,PDF
-bufr4/0/01/101/617,001101,State identifier,617,Greece,,,,,Operational,PDF
-bufr4/0/01/101/618,001101,State identifier,618,Hungary,,,,,Operational,PDF
-bufr4/0/01/101/619,001101,State identifier,619,Iceland,,,,,Operational,PDF
-bufr4/0/01/101/620,001101,State identifier,620,Ireland,,,,,Operational,PDF
-bufr4/0/01/101/621,001101,State identifier,621,Israel,,,,,Operational,PDF
-bufr4/0/01/101/622,001101,State identifier,622,Italy,,,,,Operational,PDF
-bufr4/0/01/101/623,001101,State identifier,623,Jordan,,,,,Operational,PDF
-bufr4/0/01/101/624,001101,State identifier,624,Kazakhstan,,,,,Operational,PDF
-bufr4/0/01/101/625,001101,State identifier,625,Latvia,,,,,Operational,PDF
-bufr4/0/01/101/626,001101,State identifier,626,Lebanon,,,,,Operational,PDF
-bufr4/0/01/101/627,001101,State identifier,627,Lithuania,,,,,Operational,PDF
-bufr4/0/01/101/628,001101,State identifier,628,Luxembourg,,,,,Operational,PDF
-bufr4/0/01/101/629,001101,State identifier,629,Malta,,,,,Operational,PDF
-bufr4/0/01/101/630,001101,State identifier,630,Monaco,,,,,Operational,PDF
-bufr4/0/01/101/631,001101,State identifier,631,Montenegro,,,,,Operational,PDF
-bufr4/0/01/101/632,001101,State identifier,632,Netherlands,,,,,Operational,PDF
-bufr4/0/01/101/633,001101,State identifier,633,Norway,,,,,Operational,PDF
-bufr4/0/01/101/634,001101,State identifier,634,Poland,,,,,Operational,PDF
-bufr4/0/01/101/635,001101,State identifier,635,Portugal (RA VI),,,,,Operational,PDF
-bufr4/0/01/101/636,001101,State identifier,636,Republic of Moldova,,,,,Operational,PDF
-bufr4/0/01/101/637,001101,State identifier,637,Romania,,,,,Operational,PDF
-bufr4/0/01/101/638,001101,State identifier,638,Russian Federation (RA VI),,,,,Operational,PDF
-bufr4/0/01/101/639,001101,State identifier,639,Serbia,,,,,Operational,PDF
-bufr4/0/01/101/640,001101,State identifier,640,Slovakia,,,,,Operational,PDF
-bufr4/0/01/101/641,001101,State identifier,641,Slovenia,,,,,Operational,PDF
-bufr4/0/01/101/642,001101,State identifier,642,Spain (RA VI),,,,,Operational,PDF
-bufr4/0/01/101/643,001101,State identifier,643,Sweden,,,,,Operational,PDF
-bufr4/0/01/101/644,001101,State identifier,644,Switzerland,,,,,Operational,PDF
-bufr4/0/01/101/645,001101,State identifier,645,Syrian Arab Republic,,,,,Operational,PDF
-bufr4/0/01/101/646,001101,State identifier,646,The former Yugoslav Republic of Macedonia,,,,,Operational,PDF
-bufr4/0/01/101/647,001101,State identifier,647,Turkiye,,,,,Operational,PDF
-bufr4/0/01/101/648,001101,State identifier,648,Ukraine,,,,,Operational,PDF
-bufr4/0/01/101/649,001101,State identifier,649,United Kingdom of Great Britain and Northern Ireland (RA VI),,,,,Operational,PDF
-bufr4/0/01/101/650-699,001101,State identifier,650-699,Reserved for Region VI (Europe),,,,,Operational,PDF
-bufr4/0/01/101/700-999,001101,State identifier,700-999,Reserved,,,,,Operational,PDF
-bufr4/0/01/101/1000-1022,001101,State identifier,1000-1022,Not used,,,,,Operational,PDF
-bufr4/0/01/101/1023,001101,State identifier,1023,Missing value,,,,,Operational,PDF
-bufr4/0/01/150/0,001150,Coordinate reference system,0,"WGS84, as used by ICAO since 1998",,,,,Operational,PDF
-bufr4/0/01/150/1,001150,Coordinate reference system,1,"ETRS89, as defined by EPSG:4258",,,,,Operational,PDF
-bufr4/0/01/150/2,001150,Coordinate reference system,2,"NAD83, as defined by EPSG:4269",,,,,Operational,PDF
-bufr4/0/01/150/3,001150,Coordinate reference system,3,"DHDN, as defined by EPSG:4314",,,,,Operational,PDF
-bufr4/0/01/150/4,001150,Coordinate reference system,4,"Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)",,,(see Note 2),92,Operational,PDF
-bufr4/0/01/150/5,001150,Coordinate reference system,5,"Earth-centered, earth-fixed (ECEF) coordinate system or Earth-centred rotational (ECR) system. This is a right-handed Cartesian coordinate system (X, Y, Z) rotating with the Earth. The origin is defined by the centre of mass of the Earth. (Footnote (5) of class 27 does not apply if ECEF coordinates are specified.)",,,,,Operational,PDF
-bufr4/0/01/150/6-65534,001150,Coordinate reference system,6-65534,Reserved,,,,,Operational,PDF
-bufr4/0/01/150/65535,001150,Coordinate reference system,65535,Missing value,,,,,Operational,PDF
-bufr4/0/01/151/0,001151,Fixed mean sea-level reference datum,0,Earth Gravitational Model 1996,,,,,Operational,PDF
-bufr4/0/01/151/1,001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,,Operational,PDF
-bufr4/0/01/151/2-4094,001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,,Operational,PDF
-bufr4/0/01/151/4095,001151,Fixed mean sea-level reference datum,4095,Missing value,,,,,Operational,PDF
-bufr4/0/01/155/0,001155,Retrieval identifier,0,Standard Correct Algorithm (SCA),,,,,Operational,PDF
-bufr4/0/01/155/1,001155,Retrieval identifier,1,Standard Correct Algorithm mid-bin (SCA mid-bin),,,,,Operational,PDF
-bufr4/0/01/155/2,001155,Retrieval identifier,2,Maximum Likelihood Estimation (MLE),,,,,Operational,PDF
-bufr4/0/01/155/3,001155,Retrieval identifier,3,Optimal Estimation Profile (OE-PRO),,,,,Operational,PDF
-bufr4/0/01/155/4,001155,Retrieval identifier,4,Group,,,,,Operational,PDF
-bufr4/0/01/155/5,001155,Retrieval identifier,5,Group mid-bin,,,,,Operational,PDF
-bufr4/0/01/155/6,001155,Retrieval identifier,6,Maximum Likelihood Estimation – High horizontal resolution (MLEsub),,,,,Operational,PDF
-bufr4/0/01/155/7-254,001155,Retrieval identifier,7-254,Reserved,,,,,Operational,PDF
-bufr4/0/01/155/255,001155,Retrieval identifier,255,Missing value,,,,,Operational,PDF
-bufr4/0/01/158/0,001158,Type of balloon envelope,0,Reserved,,,,,Operational,PDF
-bufr4/0/01/158/1,001158,Type of balloon envelope,1,Super-pressure balloon (SPB) without altitude control,,,,,Operational,PDF
-bufr4/0/01/158/2,001158,Type of balloon envelope,2,SPB with altitude control,,,,,Operational,PDF
-bufr4/0/01/158/3,001158,Type of balloon envelope,3,Zero-pressure balloon (ZPB),,,,,Operational,PDF
-bufr4/0/01/158/4,001158,Type of balloon envelope,4,Infra-Red Montgolfier (MIR),,,,,Operational,PDF
-bufr4/0/01/158/5,001158,Type of balloon envelope,5,Airship (airship-shaped balloon),,,,,Operational,PDF
-bufr4/0/01/158/6,001158,Type of balloon envelope,6,Tetroon (NOAA tetraedric balloon),,,,,Operational,PDF
-bufr4/0/01/158/15,001158,Type of balloon envelope,15,Missing value,,,,,Operational,PDF
+bufr4/0/01/003/0,001003,WMO Region number/geographical area,0,Antarctica,,,,,Operational,na
+bufr4/0/01/003/1,001003,WMO Region number/geographical area,1,Region I,,,,,Operational,na
+bufr4/0/01/003/2,001003,WMO Region number/geographical area,2,Region II,,,,,Operational,na
+bufr4/0/01/003/3,001003,WMO Region number/geographical area,3,Region III,,,,,Operational,na
+bufr4/0/01/003/4,001003,WMO Region number/geographical area,4,Region IV,,,,,Operational,na
+bufr4/0/01/003/5,001003,WMO Region number/geographical area,5,Region V,,,,,Operational,na
+bufr4/0/01/003/6,001003,WMO Region number/geographical area,6,Region VI,,,,,Operational,na
+bufr4/0/01/003/7,001003,WMO Region number/geographical area,7,Missing value,,,,,Operational,na
+bufr4/0/01/007,001007,Satellite identifier,,,,,,,Operational,na
+bufr4/0/01/024/0,001024,Wind speed source,0,No wind speed data available,,,,,Operational,na
+bufr4/0/01/024/1,001024,Wind speed source,1,AMSR-E data,,,,,Operational,na
+bufr4/0/01/024/2,001024,Wind speed source,2,TMI data,,,,,Operational,na
+bufr4/0/01/024/3,001024,Wind speed source,3,NWP: ECMWF,,,,,Operational,na
+bufr4/0/01/024/4,001024,Wind speed source,4,NWP: UK Met Office,,,,,Operational,na
+bufr4/0/01/024/5,001024,Wind speed source,5,NWP: NCEP,,,,,Operational,na
+bufr4/0/01/024/6,001024,Wind speed source,6,Reference climatology,,,,,Operational,na
+bufr4/0/01/024/7,001024,Wind speed source,7,ERS_scatterometer,,,,,Operational,na
+bufr4/0/01/024/8-30,001024,Wind speed source,8-30,Reserved for future use,,,,,Operational,na
+bufr4/0/01/024/31,001024,Wind speed source,31,Missing value,,,,,Operational,na
+bufr4/0/01/028/0,001028,Aerosol optical depth (AOD) source,0,No AOD data available,,,,,Operational,na
+bufr4/0/01/028/1,001028,Aerosol optical depth (AOD) source,1,NESDIS,,,,,Operational,na
+bufr4/0/01/028/2,001028,Aerosol optical depth (AOD) source,2,NAVOCEANO,,,,,Operational,na
+bufr4/0/01/028/3,001028,Aerosol optical depth (AOD) source,3,NAAPS,,,,,Operational,na
+bufr4/0/01/028/4,001028,Aerosol optical depth (AOD) source,4,MERIS,,,,,Operational,na
+bufr4/0/01/028/5,001028,Aerosol optical depth (AOD) source,5,AATSR,,,,,Operational,na
+bufr4/0/01/028/6-30,001028,Aerosol optical depth (AOD) source,6-30,Reserved for future use,,,,,Operational,na
+bufr4/0/01/028/31,001028,Aerosol optical depth (AOD) source,31,Missing value,,,,,Operational,na
+bufr4/0/01/029/0,001029,SSI source,0,No SSI data available,,,,,Operational,na
+bufr4/0/01/029/1,001029,SSI source,1,MSG_SEVIRI,,,,,Operational,na
+bufr4/0/01/029/2,001029,SSI source,2,GOES East,,,,,Operational,na
+bufr4/0/01/029/3,001029,SSI source,3,GOES West,,,,,Operational,na
+bufr4/0/01/029/4,001029,SSI source,4,ECMWF,,,,,Operational,na
+bufr4/0/01/029/5,001029,SSI source,5,NCEP,,,,,Operational,na
+bufr4/0/01/029/6,001029,SSI source,6,UK Met Office,,,,,Operational,na
+bufr4/0/01/029/7-30,001029,SSI source,7-30,Reserved for future use,,,,,Operational,na
+bufr4/0/01/029/31,001029,SSI source,31,Missing value,,,,,Operational,na
+bufr4/0/01/031,001031,Identification of originating/generating centre,,,,,,,Operational,na
+bufr4/0/01/033,001033,Identification of originating/generating centre,,,,,,,Operational,na
+bufr4/0/01/034,001034,Identification of originating/generating sub-centre,,,,,,,Operational,na
+bufr4/0/01/035,001035,Originating/generating centre,,,,,,,Operational,na
+bufr4/0/01/036/0-36000,001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,,Operational,na
+bufr4/0/01/036/36001,001036,Agency in charge of operating the observing platform,36001,"Australia, Bureau of Meteorology (BoM)",,,,,Operational,na
+bufr4/0/01/036/36002,001036,Agency in charge of operating the observing platform,36002,"Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)",,,,,Operational,na
+bufr4/0/01/036/36003,001036,Agency in charge of operating the observing platform,36003,"Australia, the Commonwealth Scientific and Industrial Research Organization (CSIRO)",,,,,Operational,na
+bufr4/0/01/036/36004-124000,001036,Agency in charge of operating the observing platform,36004-124000,Reserved,,,,,Operational,na
+bufr4/0/01/036/124001,001036,Agency in charge of operating the observing platform,124001,"Canada, Marine Environmental Data Service (MEDS)",,,,,Operational,na
+bufr4/0/01/036/124002,001036,Agency in charge of operating the observing platform,124002,"Canada, Institute of Ocean Sciences (IOS)",,,,,Operational,na
+bufr4/0/01/036/124003-124172,001036,Agency in charge of operating the observing platform,124003-124172,Reserved,,,,,Operational,na
+bufr4/0/01/036/124173,001036,Agency in charge of operating the observing platform,124173,"Canada, Environment Canada",,,,,Operational,na
+bufr4/0/01/036/124174,001036,Agency in charge of operating the observing platform,124174,"Canada, Department of National Defence",,,,,Operational,na
+bufr4/0/01/036/124175,001036,Agency in charge of operating the observing platform,124175,"Canada, Nav Canada",,,,,Operational,na
+bufr4/0/01/036/124176-156000,001036,Agency in charge of operating the observing platform,124176-156000,Reserved,,,,,Operational,na
+bufr4/0/01/036/156001,001036,Agency in charge of operating the observing platform,156001,"China, The State Oceanic Administration",,,,,Operational,na
+bufr4/0/01/036/156002,001036,Agency in charge of operating the observing platform,156002,"China, Second Institute of Oceanography, State Oceanic Administration",,,,,Operational,na
+bufr4/0/01/036/156003,001036,Agency in charge of operating the observing platform,156003,"China, Institute of Ocean Technology",,,,,Operational,na
+bufr4/0/01/036/156004-250000,001036,Agency in charge of operating the observing platform,156004-250000,Reserved,,,,,Operational,na
+bufr4/0/01/036/250001,001036,Agency in charge of operating the observing platform,250001,"France, Institut de Recherche pour le Développement (IRD)",,,,,Operational,na
+bufr4/0/01/036/250002,001036,Agency in charge of operating the observing platform,250002,"France, Institut Français de Recherche pour l'Exploitation de la mer (IFREMER)",,,,,Operational,na
+bufr4/0/01/036/250003-276000,001036,Agency in charge of operating the observing platform,250003-276000,Reserved,,,,,Operational,na
+bufr4/0/01/036/276001,001036,Agency in charge of operating the observing platform,276001,"Germany, Bundesamt fuer Seeschiffahrt und Hydrographie (BSH)",,,,,Operational,na
+bufr4/0/01/036/276002,001036,Agency in charge of operating the observing platform,276002,"Germany, Institut fuer Meereskunde, Kiel",,,,,Operational,na
+bufr4/0/01/036/276003-356000,001036,Agency in charge of operating the observing platform,276003-356000,Reserved,,,,,Operational,na
+bufr4/0/01/036/356001,001036,Agency in charge of operating the observing platform,356001,"India, National Institute of Oceanography (NIO)",,,,,Operational,na
+bufr4/0/01/036/356002,001036,Agency in charge of operating the observing platform,356002,"India, National Institute for Ocean Technology (NIOT)",,,,,Operational,na
+bufr4/0/01/036/356003,001036,Agency in charge of operating the observing platform,356003,"India, National Centre for Ocean Information Service",,,,,Operational,na
+bufr4/0/01/036/356004-392000,001036,Agency in charge of operating the observing platform,356004-392000,Reserved,,,,,Operational,na
+bufr4/0/01/036/392001,001036,Agency in charge of operating the observing platform,392001,"Japan, Japan Meteorological Agency (JMA)",,,,,Operational,na
+bufr4/0/01/036/392002,001036,Agency in charge of operating the observing platform,392002,"Japan, Frontier Observational Research System for Global Change",,,,,Operational,na
+bufr4/0/01/036/392003,001036,Agency in charge of operating the observing platform,392003,"Japan, Japan Marine Science and Technology Centre (JAMSTEC)",,,,,Operational,na
+bufr4/0/01/036/392004-410000,001036,Agency in charge of operating the observing platform,392004-410000,Reserved,,,,,Operational,na
+bufr4/0/01/036/410001,001036,Agency in charge of operating the observing platform,410001,"Republic of Korea, Seoul National University",,,,,Operational,na
+bufr4/0/01/036/410002,001036,Agency in charge of operating the observing platform,410002,"Republic of Korea, Korea Ocean Research and Development Institute  (KORDI)",,,,,Operational,na
+bufr4/0/01/036/410003,001036,Agency in charge of operating the observing platform,410003,"Republic of Korea, Meteorological Research Institute",,,,,Operational,na
+bufr4/0/01/036/410004-540000,001036,Agency in charge of operating the observing platform,410004-540000,Reserved,,,,,Operational,na
+bufr4/0/01/036/540001,001036,Agency in charge of operating the observing platform,540001,"New Caledonia, Institut de Recherche pour le Développement (IRD)",,,,,Operational,na
+bufr4/0/01/036/540002-554000,001036,Agency in charge of operating the observing platform,540002-554000,Reserved,,,,,Operational,na
+bufr4/0/01/036/554001,001036,Agency in charge of operating the observing platform,554001,"New Zealand, National Institute of Water and Atmospheric Research (NIWA)",,,,,Operational,na
+bufr4/0/01/036/554002-643000,001036,Agency in charge of operating the observing platform,554002-643000,Reserved,,,,,Operational,na
+bufr4/0/01/036/643001,001036,Agency in charge of operating the observing platform,643001,"Russian Federation, State Oceanographic Institute of Roshydromet",,,,,Operational,na
+bufr4/0/01/036/643002,001036,Agency in charge of operating the observing platform,643002,"Russian Federation, Federal Service for Hydrometeorology and Environmental Monitoring",,,,,Operational,na
+bufr4/0/01/036/643003-724000,001036,Agency in charge of operating the observing platform,643003-724000,Reserved,,,,,Operational,na
+bufr4/0/01/036/724001,001036,Agency in charge of operating the observing platform,724001,"Spain, Instituto Español de Oceanografia",,,,,Operational,na
+bufr4/0/01/036/724002-826000,001036,Agency in charge of operating the observing platform,724002-826000,Reserved,,,,,Operational,na
+bufr4/0/01/036/826001,001036,Agency in charge of operating the observing platform,826001,"United Kingdom, Hydrographic Office",,,,,Operational,na
+bufr4/0/01/036/826002,001036,Agency in charge of operating the observing platform,826002,"United Kingdom, National Oceanography Centre (NOC)",,,,,Operational,na
+bufr4/0/01/036/826003,001036,Agency in charge of operating the observing platform,826003,"United Kingdom, Centre for Environment, Fisheries and Aquaculture Science (Cefas)",,,,,Operational,na
+bufr4/0/01/036/826004,001036,Agency in charge of operating the observing platform,826004,"United Kingdom, Marine Scotland (MS)",,,,,Operational,na
+bufr4/0/01/036/826005,001036,Agency in charge of operating the observing platform,826005,"United Kingdom, Plymouth Marine Laboratory (PML)",,,,,Operational,na
+bufr4/0/01/036/826006,001036,Agency in charge of operating the observing platform,826006,"United Kingdom, British Antarctic Survey (BAS)",,,,,Operational,na
+bufr4/0/01/036/826007-840000,001036,Agency in charge of operating the observing platform,826007-840000,Reserved,,,,,Operational,na
+bufr4/0/01/036/840001,001036,Agency in charge of operating the observing platform,840001,"USA, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML)",,,,,Operational,na
+bufr4/0/01/036/840002,001036,Agency in charge of operating the observing platform,840002,"USA, NOAA Pacific Marine Environmental Laboratory (PMEL)",,,,,Operational,na
+bufr4/0/01/036/840003,001036,Agency in charge of operating the observing platform,840003,"USA, Scripps Institution of Oceanography (SIO)",,,,,Operational,na
+bufr4/0/01/036/840004,001036,Agency in charge of operating the observing platform,840004,"USA, Woods Hole Oceanographic Institution (WHOI)",,,,,Operational,na
+bufr4/0/01/036/840005,001036,Agency in charge of operating the observing platform,840005,"USA, University of Washington",,,,,Operational,na
+bufr4/0/01/036/840006,001036,Agency in charge of operating the observing platform,840006,"USA, Naval Oceanographic Office",,,,,Operational,na
+bufr4/0/01/036/840007-1048574,001036,Agency in charge of operating the observing platform,840007-1048574,Reserved,,,,,Operational,na
+bufr4/0/01/036/1048575,001036,Agency in charge of operating the observing platform,1048575,Missing value,,,,,Operational,na
+bufr4/0/01/038/0,001038,Source of sea ice fraction,0,No sea ice set,,,,,Operational,na
+bufr4/0/01/038/1,001038,Source of sea ice fraction,1,NSIDC SSM/I Cavalieri et al (1992),,,,,Operational,na
+bufr4/0/01/038/2,001038,Source of sea ice fraction,2,AMSR-E,,,,,Operational,na
+bufr4/0/01/038/3,001038,Source of sea ice fraction,3,ECMWF,,,,,Operational,na
+bufr4/0/01/038/4,001038,Source of sea ice fraction,4,CMS (France) cloud mask used by Medspiration,,,,,Operational,na
+bufr4/0/01/038/5,001038,Source of sea ice fraction,5,EUMETSAT OSI-SAF,,,,,Operational,na
+bufr4/0/01/038/6-30,001038,Source of sea ice fraction,6-30,Reserved for future use,,,,,Operational,na
+bufr4/0/01/038/31,001038,Source of sea ice fraction,31,Missing value,,,,,Operational,na
+bufr4/0/01/044/0,001044,Standard generating application,0,Reserved,,,,,Operational,na
+bufr4/0/01/044/1,001044,Standard generating application,1,Full weighted mixture of individual quality tests,,,,,Operational,na
+bufr4/0/01/044/2,001044,Standard generating application,2,"Weighted mixture of individual tests, but excluding forecast comparison",,,,,Operational,na
+bufr4/0/01/044/3,001044,Standard generating application,3,Recursive filter function,,,,,Operational,na
+bufr4/0/01/044/4,001044,Standard generating application,4,Common quality index (QI) without forecast,,,,,Operational,na
+bufr4/0/01/044/5,001044,Standard generating application,5,QI without forecast,,,,,Operational,na
+bufr4/0/01/044/6,001044,Standard generating application,6,QI with forecast,,,,,Operational,na
+bufr4/0/01/044/7,001044,Standard generating application,7,Estimated error in m/s converted to a percent confidence,,,,,Operational,na
+bufr4/0/01/044/8-254,001044,Standard generating application,8-254,Reserved,,,,,Operational,na
+bufr4/0/01/044/255,001044,Standard generating application,255,Missing value,,,,,Operational,na
+bufr4/0/01/052/0,001052,Platform transmitter ID,0,Primary,,,,,Operational,na
+bufr4/0/01/052/1,001052,Platform transmitter ID,1,Secondary,,,,,Operational,na
+bufr4/0/01/052/2,001052,Platform transmitter ID,2,Reserved,,,,,Operational,na
+bufr4/0/01/052/3,001052,Platform transmitter ID,3,Missing value,,,,,Operational,na
+bufr4/0/01/090/0,001090,Technique for making up initial perturbations,0,Lagged-average forecasting (LAF),,,,,Operational,na
+bufr4/0/01/090/1,001090,Technique for making up initial perturbations,1,Breeding,,,,,Operational,na
+bufr4/0/01/090/2,001090,Technique for making up initial perturbations,2,Singular vectors,,,,,Operational,na
+bufr4/0/01/090/3,001090,Technique for making up initial perturbations,3,Multiple analysis cycles,,,,,Operational,na
+bufr4/0/01/090/4-191,001090,Technique for making up initial perturbations,4-191,Reserved,,,,,Operational,na
+bufr4/0/01/090/192-254,001090,Technique for making up initial perturbations,192-254,Reserved for local use,,,,,Operational,na
+bufr4/0/01/090/255,001090,Technique for making up initial perturbations,255,Missing value,,,,,Operational,na
+bufr4/0/01/092/0,001092,Type of ensemble forecast,0,Unperturbed high-resolution control forecast,,,,,Operational,na
+bufr4/0/01/092/1,001092,Type of ensemble forecast,1,Unperturbed low-resolution control forecast,,,,,Operational,na
+bufr4/0/01/092/2,001092,Type of ensemble forecast,2,Negatively perturbed forecast,,,,,Operational,na
+bufr4/0/01/092/3,001092,Type of ensemble forecast,3,Positively perturbed forecast,,,,,Operational,na
+bufr4/0/01/092/4,001092,Type of ensemble forecast,4,Perturbed forecast,,,,,Operational,na
+bufr4/0/01/092/5-191,001092,Type of ensemble forecast,5-191,Reserved,,,,,Operational,na
+bufr4/0/01/092/192-254,001092,Type of ensemble forecast,192-254,Reserved for local use,,,,,Operational,na
+bufr4/0/01/092/255,001092,Type of ensemble forecast,255,Missing value,,,,,Operational,na
+bufr4/0/01/101/0-99,001101,State identifier,0-99,Reserved,,,,,Operational,na
+bufr4/0/01/101/100,001101,State identifier,100,Algeria,,,,,Operational,na
+bufr4/0/01/101/101,001101,State identifier,101,Angola,,,,,Operational,na
+bufr4/0/01/101/102,001101,State identifier,102,Benin,,,,,Operational,na
+bufr4/0/01/101/103,001101,State identifier,103,Botswana,,,,,Operational,na
+bufr4/0/01/101/104,001101,State identifier,104,Burkina Faso,,,,,Operational,na
+bufr4/0/01/101/105,001101,State identifier,105,Burundi,,,,,Operational,na
+bufr4/0/01/101/106,001101,State identifier,106,Cameroon,,,,,Operational,na
+bufr4/0/01/101/107,001101,State identifier,107,Cabo Verde,,,,,Operational,na
+bufr4/0/01/101/108,001101,State identifier,108,Central African Republic,,,,,Operational,na
+bufr4/0/01/101/109,001101,State identifier,109,Chad,,,,,Operational,na
+bufr4/0/01/101/110,001101,State identifier,110,Comoros,,,,,Operational,na
+bufr4/0/01/101/111,001101,State identifier,111,Congo,,,,,Operational,na
+bufr4/0/01/101/112,001101,State identifier,112,Côte d'Ivoire,,,,,Operational,na
+bufr4/0/01/101/113,001101,State identifier,113,Democratic Republic of the Congo,,,,,Operational,na
+bufr4/0/01/101/114,001101,State identifier,114,Djibouti,,,,,Operational,na
+bufr4/0/01/101/115,001101,State identifier,115,Egypt,,,,,Operational,na
+bufr4/0/01/101/116,001101,State identifier,116,Eritrea,,,,,Operational,na
+bufr4/0/01/101/117,001101,State identifier,117,Ethiopia,,,,,Operational,na
+bufr4/0/01/101/118,001101,State identifier,118,France (RA I),,,,,Operational,na
+bufr4/0/01/101/119,001101,State identifier,119,Gabon,,,,,Operational,na
+bufr4/0/01/101/120,001101,State identifier,120,Gambia,,,,,Operational,na
+bufr4/0/01/101/121,001101,State identifier,121,Ghana,,,,,Operational,na
+bufr4/0/01/101/122,001101,State identifier,122,Guinea,,,,,Operational,na
+bufr4/0/01/101/123,001101,State identifier,123,Guinea-Bissau,,,,,Operational,na
+bufr4/0/01/101/124,001101,State identifier,124,Kenya,,,,,Operational,na
+bufr4/0/01/101/125,001101,State identifier,125,Lesotho,,,,,Operational,na
+bufr4/0/01/101/126,001101,State identifier,126,Liberia,,,,,Operational,na
+bufr4/0/01/101/127,001101,State identifier,127,Libya,,,,,Operational,na
+bufr4/0/01/101/128,001101,State identifier,128,Madagascar,,,,,Operational,na
+bufr4/0/01/101/129,001101,State identifier,129,Malawi,,,,,Operational,na
+bufr4/0/01/101/130,001101,State identifier,130,Mali,,,,,Operational,na
+bufr4/0/01/101/131,001101,State identifier,131,Mauritania,,,,,Operational,na
+bufr4/0/01/101/132,001101,State identifier,132,Mauritius,,,,,Operational,na
+bufr4/0/01/101/133,001101,State identifier,133,Morocco,,,,,Operational,na
+bufr4/0/01/101/134,001101,State identifier,134,Mozambique,,,,,Operational,na
+bufr4/0/01/101/135,001101,State identifier,135,Namibia,,,,,Operational,na
+bufr4/0/01/101/136,001101,State identifier,136,Niger,,,,,Operational,na
+bufr4/0/01/101/137,001101,State identifier,137,Nigeria,,,,,Operational,na
+bufr4/0/01/101/138,001101,State identifier,138,Portugal (RA I),,,,,Operational,na
+bufr4/0/01/101/139,001101,State identifier,139,Rwanda,,,,,Operational,na
+bufr4/0/01/101/140,001101,State identifier,140,Sao Tome and Principe,,,,,Operational,na
+bufr4/0/01/101/141,001101,State identifier,141,Senegal,,,,,Operational,na
+bufr4/0/01/101/142,001101,State identifier,142,Seychelles,,,,,Operational,na
+bufr4/0/01/101/143,001101,State identifier,143,Sierra Leone,,,,,Operational,na
+bufr4/0/01/101/144,001101,State identifier,144,Somalia,,,,,Operational,na
+bufr4/0/01/101/145,001101,State identifier,145,South Africa,,,,,Operational,na
+bufr4/0/01/101/146,001101,State identifier,146,Spain (RA I),,,,,Operational,na
+bufr4/0/01/101/147,001101,State identifier,147,Sudan,,,,,Operational,na
+bufr4/0/01/101/148,001101,State identifier,148,Eswatini,,,,,Operational,na
+bufr4/0/01/101/149,001101,State identifier,149,Togo,,,,,Operational,na
+bufr4/0/01/101/150,001101,State identifier,150,Tunisia,,,,,Operational,na
+bufr4/0/01/101/151,001101,State identifier,151,Uganda,,,,,Operational,na
+bufr4/0/01/101/152,001101,State identifier,152,United Kingdom of Great Britain and Northern Ireland (RA I),,,,,Operational,na
+bufr4/0/01/101/153,001101,State identifier,153,United Republic of Tanzania,,,,,Operational,na
+bufr4/0/01/101/154,001101,State identifier,154,Zambia,,,,,Operational,na
+bufr4/0/01/101/155,001101,State identifier,155,Zimbabwe,,,,,Operational,na
+bufr4/0/01/101/156-199,001101,State identifier,156-199,Reserved for Region I (Africa),,,,,Operational,na
+bufr4/0/01/101/200,001101,State identifier,200,Afghanistan,,,,,Operational,na
+bufr4/0/01/101/201,001101,State identifier,201,Bahrain,,,,,Operational,na
+bufr4/0/01/101/202,001101,State identifier,202,Bangladesh,,,,,Operational,na
+bufr4/0/01/101/203,001101,State identifier,203,Bhutan,,,,,Operational,na
+bufr4/0/01/101/204,001101,State identifier,204,Cambodia,,,,,Operational,na
+bufr4/0/01/101/205,001101,State identifier,205,China,,,,,Operational,na
+bufr4/0/01/101/206,001101,State identifier,206,Democratic People's Republic of Korea,,,,,Operational,na
+bufr4/0/01/101/207,001101,State identifier,207,"Hong Kong, China",,,,,Operational,na
+bufr4/0/01/101/208,001101,State identifier,208,India,,,,,Operational,na
+bufr4/0/01/101/209,001101,State identifier,209,"Iran, Islamic Republic of",,,,,Operational,na
+bufr4/0/01/101/210,001101,State identifier,210,Iraq,,,,,Operational,na
+bufr4/0/01/101/211,001101,State identifier,211,Japan,,,,,Operational,na
+bufr4/0/01/101/212,001101,State identifier,212,Kazakhstan,,,,,Operational,na
+bufr4/0/01/101/213,001101,State identifier,213,Kuwait,,,,,Operational,na
+bufr4/0/01/101/214,001101,State identifier,214,Kyrgyzstan,,,,,Operational,na
+bufr4/0/01/101/215,001101,State identifier,215,Lao People's Democratic Republic,,,,,Operational,na
+bufr4/0/01/101/216,001101,State identifier,216,"Macao, China",,,,,Operational,na
+bufr4/0/01/101/217,001101,State identifier,217,Maldives,,,,,Operational,na
+bufr4/0/01/101/218,001101,State identifier,218,Mongolia,,,,,Operational,na
+bufr4/0/01/101/219,001101,State identifier,219,Myanmar,,,,,Operational,na
+bufr4/0/01/101/220,001101,State identifier,220,Nepal,,,,,Operational,na
+bufr4/0/01/101/221,001101,State identifier,221,Oman,,,,,Operational,na
+bufr4/0/01/101/222,001101,State identifier,222,Pakistan,,,,,Operational,na
+bufr4/0/01/101/223,001101,State identifier,223,Qatar,,,,,Operational,na
+bufr4/0/01/101/224,001101,State identifier,224,Republic of Korea,,,,,Operational,na
+bufr4/0/01/101/225,001101,State identifier,225,Yemen,,,,,Operational,na
+bufr4/0/01/101/226,001101,State identifier,226,Russian Federation (RA II),,,,,Operational,na
+bufr4/0/01/101/227,001101,State identifier,227,Saudi Arabia,,,,,Operational,na
+bufr4/0/01/101/228,001101,State identifier,228,Sri Lanka,,,,,Operational,na
+bufr4/0/01/101/229,001101,State identifier,229,Tajikistan,,,,,Operational,na
+bufr4/0/01/101/230,001101,State identifier,230,Thailand,,,,,Operational,na
+bufr4/0/01/101/231,001101,State identifier,231,Turkmenistan,,,,,Operational,na
+bufr4/0/01/101/232,001101,State identifier,232,United Arab Emirates,,,,,Operational,na
+bufr4/0/01/101/233,001101,State identifier,233,Uzbekistan,,,,,Operational,na
+bufr4/0/01/101/234,001101,State identifier,234,Viet Nam,,,,,Operational,na
+bufr4/0/01/101/235-299,001101,State identifier,235-299,Reserved for Region II (Asia),,,,,Operational,na
+bufr4/0/01/101/300,001101,State identifier,300,Argentina,,,,,Operational,na
+bufr4/0/01/101/301,001101,State identifier,301,Bolivia (Plurinational State of),,,,,Operational,na
+bufr4/0/01/101/302,001101,State identifier,302,Brazil,,,,,Operational,na
+bufr4/0/01/101/303,001101,State identifier,303,Chile,,,,,Operational,na
+bufr4/0/01/101/304,001101,State identifier,304,Colombia,,,,,Operational,na
+bufr4/0/01/101/305,001101,State identifier,305,Ecuador,,,,,Operational,na
+bufr4/0/01/101/306,001101,State identifier,306,France (RA III),,,,,Operational,na
+bufr4/0/01/101/307,001101,State identifier,307,Guyana,,,,,Operational,na
+bufr4/0/01/101/308,001101,State identifier,308,Paraguay,,,,,Operational,na
+bufr4/0/01/101/309,001101,State identifier,309,Peru,,,,,Operational,na
+bufr4/0/01/101/310,001101,State identifier,310,Suriname,,,,,Operational,na
+bufr4/0/01/101/311,001101,State identifier,311,Uruguay,,,,,Operational,na
+bufr4/0/01/101/312,001101,State identifier,312,Venezuela (Bolivarian Republic of),,,,,Operational,na
+bufr4/0/01/101/313-399,001101,State identifier,313-399,Reserved for Region III (South America),,,,,Operational,na
+bufr4/0/01/101/400,001101,State identifier,400,Antigua and Barbuda,,,,,Operational,na
+bufr4/0/01/101/401,001101,State identifier,401,Bahamas,,,,,Operational,na
+bufr4/0/01/101/402,001101,State identifier,402,Barbados,,,,,Operational,na
+bufr4/0/01/101/403,001101,State identifier,403,Belize,,,,,Operational,na
+bufr4/0/01/101/404,001101,State identifier,404,British Caribbean Territories,,,,,Operational,na
+bufr4/0/01/101/405,001101,State identifier,405,Canada,,,,,Operational,na
+bufr4/0/01/101/406,001101,State identifier,406,Colombia,,,,,Operational,na
+bufr4/0/01/101/407,001101,State identifier,407,Costa Rica,,,,,Operational,na
+bufr4/0/01/101/408,001101,State identifier,408,Cuba,,,,,Operational,na
+bufr4/0/01/101/409,001101,State identifier,409,Dominica,,,,,Operational,na
+bufr4/0/01/101/410,001101,State identifier,410,Dominican Republic,,,,,Operational,na
+bufr4/0/01/101/411,001101,State identifier,411,El Salvador,,,,,Operational,na
+bufr4/0/01/101/412,001101,State identifier,412,France (RA IV),,,,,Operational,na
+bufr4/0/01/101/413,001101,State identifier,413,Guatemala,,,,,Operational,na
+bufr4/0/01/101/414,001101,State identifier,414,Haiti,,,,,Operational,na
+bufr4/0/01/101/415,001101,State identifier,415,Honduras,,,,,Operational,na
+bufr4/0/01/101/416,001101,State identifier,416,Jamaica,,,,,Operational,na
+bufr4/0/01/101/417,001101,State identifier,417,Mexico,,,,,Operational,na
+bufr4/0/01/101/418,001101,State identifier,418,Curaçao and Sint Maarten,,,,,Operational,na
+bufr4/0/01/101/419,001101,State identifier,419,Nicaragua,,,,,Operational,na
+bufr4/0/01/101/420,001101,State identifier,420,Panama,,,,,Operational,na
+bufr4/0/01/101/421,001101,State identifier,421,Saint Lucia,,,,,Operational,na
+bufr4/0/01/101/422,001101,State identifier,422,Trinidad and Tobago,,,,,Operational,na
+bufr4/0/01/101/423,001101,State identifier,423,United Kingdom of Great Britain and Northern Ireland (RA IV),,,,,Operational,na
+bufr4/0/01/101/424,001101,State identifier,424,United States of America (RA IV),,,,,Operational,na
+bufr4/0/01/101/425,001101,State identifier,425,Venezuela (Bolivarian Republic of),,,,,Operational,na
+bufr4/0/01/101/426-499,001101,State identifier,426-499,"Reserved for Region IV (North America, Central America and the Caribbean)",,,,,Operational,na
+bufr4/0/01/101/500,001101,State identifier,500,Australia,,,,,Operational,na
+bufr4/0/01/101/501,001101,State identifier,501,Brunei Darussalam,,,,,Operational,na
+bufr4/0/01/101/502,001101,State identifier,502,Cook Islands,,,,,Operational,na
+bufr4/0/01/101/503,001101,State identifier,503,Fiji,,,,,Operational,na
+bufr4/0/01/101/504,001101,State identifier,504,French Polynesia,,,,,Operational,na
+bufr4/0/01/101/505,001101,State identifier,505,Indonesia,,,,,Operational,na
+bufr4/0/01/101/506,001101,State identifier,506,Kiribati,,,,,Operational,na
+bufr4/0/01/101/507,001101,State identifier,507,Malaysia,,,,,Operational,na
+bufr4/0/01/101/508,001101,State identifier,508,"Micronesia, Federated States of",,,,,Operational,na
+bufr4/0/01/101/509,001101,State identifier,509,New Caledonia,,,,,Operational,na
+bufr4/0/01/101/510,001101,State identifier,510,New Zealand,,,,,Operational,na
+bufr4/0/01/101/511,001101,State identifier,511,Niue,,,,,Operational,na
+bufr4/0/01/101/512,001101,State identifier,512,Papua New Guinea,,,,,Operational,na
+bufr4/0/01/101/513,001101,State identifier,513,Philippines,,,,,Operational,na
+bufr4/0/01/101/514,001101,State identifier,514,Samoa,,,,,Operational,na
+bufr4/0/01/101/515,001101,State identifier,515,Singapore,,,,,Operational,na
+bufr4/0/01/101/516,001101,State identifier,516,Solomon Islands,,,,,Operational,na
+bufr4/0/01/101/517,001101,State identifier,517,Tonga,,,,,Operational,na
+bufr4/0/01/101/518,001101,State identifier,518,United Kingdom of Great Britain and Northern Ireland (RA V),,,,,Operational,na
+bufr4/0/01/101/519,001101,State identifier,519,United States of America (RA V),,,,,Operational,na
+bufr4/0/01/101/520,001101,State identifier,520,Vanuatu,,,,,Operational,na
+bufr4/0/01/101/521-599,001101,State identifier,521-599,Reserved for Region V (South-West Pacific),,,,,Operational,na
+bufr4/0/01/101/600,001101,State identifier,600,Albania,,,,,Operational,na
+bufr4/0/01/101/601,001101,State identifier,601,Armenia,,,,,Operational,na
+bufr4/0/01/101/602,001101,State identifier,602,Austria,,,,,Operational,na
+bufr4/0/01/101/603,001101,State identifier,603,Azerbaijan,,,,,Operational,na
+bufr4/0/01/101/604,001101,State identifier,604,Belarus,,,,,Operational,na
+bufr4/0/01/101/605,001101,State identifier,605,Belgium,,,,,Operational,na
+bufr4/0/01/101/606,001101,State identifier,606,Bosnia and Herzegovina,,,,,Operational,na
+bufr4/0/01/101/607,001101,State identifier,607,Bulgaria,,,,,Operational,na
+bufr4/0/01/101/608,001101,State identifier,608,Croatia,,,,,Operational,na
+bufr4/0/01/101/609,001101,State identifier,609,Cyprus,,,,,Operational,na
+bufr4/0/01/101/610,001101,State identifier,610,Czechia,,,,,Operational,na
+bufr4/0/01/101/611,001101,State identifier,611,Denmark,,,,,Operational,na
+bufr4/0/01/101/612,001101,State identifier,612,Estonia,,,,,Operational,na
+bufr4/0/01/101/613,001101,State identifier,613,Finland,,,,,Operational,na
+bufr4/0/01/101/614,001101,State identifier,614,France (RA VI),,,,,Operational,na
+bufr4/0/01/101/615,001101,State identifier,615,Georgia,,,,,Operational,na
+bufr4/0/01/101/616,001101,State identifier,616,Germany,,,,,Operational,na
+bufr4/0/01/101/617,001101,State identifier,617,Greece,,,,,Operational,na
+bufr4/0/01/101/618,001101,State identifier,618,Hungary,,,,,Operational,na
+bufr4/0/01/101/619,001101,State identifier,619,Iceland,,,,,Operational,na
+bufr4/0/01/101/620,001101,State identifier,620,Ireland,,,,,Operational,na
+bufr4/0/01/101/621,001101,State identifier,621,Israel,,,,,Operational,na
+bufr4/0/01/101/622,001101,State identifier,622,Italy,,,,,Operational,na
+bufr4/0/01/101/623,001101,State identifier,623,Jordan,,,,,Operational,na
+bufr4/0/01/101/624,001101,State identifier,624,Kazakhstan,,,,,Operational,na
+bufr4/0/01/101/625,001101,State identifier,625,Latvia,,,,,Operational,na
+bufr4/0/01/101/626,001101,State identifier,626,Lebanon,,,,,Operational,na
+bufr4/0/01/101/627,001101,State identifier,627,Lithuania,,,,,Operational,na
+bufr4/0/01/101/628,001101,State identifier,628,Luxembourg,,,,,Operational,na
+bufr4/0/01/101/629,001101,State identifier,629,Malta,,,,,Operational,na
+bufr4/0/01/101/630,001101,State identifier,630,Monaco,,,,,Operational,na
+bufr4/0/01/101/631,001101,State identifier,631,Montenegro,,,,,Operational,na
+bufr4/0/01/101/632,001101,State identifier,632,Netherlands,,,,,Operational,na
+bufr4/0/01/101/633,001101,State identifier,633,Norway,,,,,Operational,na
+bufr4/0/01/101/634,001101,State identifier,634,Poland,,,,,Operational,na
+bufr4/0/01/101/635,001101,State identifier,635,Portugal (RA VI),,,,,Operational,na
+bufr4/0/01/101/636,001101,State identifier,636,Republic of Moldova,,,,,Operational,na
+bufr4/0/01/101/637,001101,State identifier,637,Romania,,,,,Operational,na
+bufr4/0/01/101/638,001101,State identifier,638,Russian Federation (RA VI),,,,,Operational,na
+bufr4/0/01/101/639,001101,State identifier,639,Serbia,,,,,Operational,na
+bufr4/0/01/101/640,001101,State identifier,640,Slovakia,,,,,Operational,na
+bufr4/0/01/101/641,001101,State identifier,641,Slovenia,,,,,Operational,na
+bufr4/0/01/101/642,001101,State identifier,642,Spain (RA VI),,,,,Operational,na
+bufr4/0/01/101/643,001101,State identifier,643,Sweden,,,,,Operational,na
+bufr4/0/01/101/644,001101,State identifier,644,Switzerland,,,,,Operational,na
+bufr4/0/01/101/645,001101,State identifier,645,Syrian Arab Republic,,,,,Operational,na
+bufr4/0/01/101/646,001101,State identifier,646,The former Yugoslav Republic of Macedonia,,,,,Operational,na
+bufr4/0/01/101/647,001101,State identifier,647,Turkiye,,,,,Operational,na
+bufr4/0/01/101/648,001101,State identifier,648,Ukraine,,,,,Operational,na
+bufr4/0/01/101/649,001101,State identifier,649,United Kingdom of Great Britain and Northern Ireland (RA VI),,,,,Operational,na
+bufr4/0/01/101/650-699,001101,State identifier,650-699,Reserved for Region VI (Europe),,,,,Operational,na
+bufr4/0/01/101/700-999,001101,State identifier,700-999,Reserved,,,,,Operational,na
+bufr4/0/01/101/1000-1022,001101,State identifier,1000-1022,Not used,,,,,Operational,na
+bufr4/0/01/101/1023,001101,State identifier,1023,Missing value,,,,,Operational,na
+bufr4/0/01/150/0,001150,Coordinate reference system,0,"WGS84, as used by ICAO since 1998",,,,,Operational,na
+bufr4/0/01/150/1,001150,Coordinate reference system,1,"ETRS89, as defined by EPSG:4258",,,,,Operational,na
+bufr4/0/01/150/2,001150,Coordinate reference system,2,"NAD83, as defined by EPSG:4269",,,,,Operational,na
+bufr4/0/01/150/3,001150,Coordinate reference system,3,"DHDN, as defined by EPSG:4314",,,,,Operational,na
+bufr4/0/01/150/4,001150,Coordinate reference system,4,"Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)",,,(see Note 2),92,Operational,na
+bufr4/0/01/150/5,001150,Coordinate reference system,5,"Earth-centered, earth-fixed (ECEF) coordinate system or Earth-centred rotational (ECR) system. This is a right-handed Cartesian coordinate system (X, Y, Z) rotating with the Earth. The origin is defined by the centre of mass of the Earth. (Footnote (5) of class 27 does not apply if ECEF coordinates are specified.)",,,,,Operational,na
+bufr4/0/01/150/6-65534,001150,Coordinate reference system,6-65534,Reserved,,,,,Operational,na
+bufr4/0/01/150/65535,001150,Coordinate reference system,65535,Missing value,,,,,Operational,na
+bufr4/0/01/151/0,001151,Fixed mean sea-level reference datum,0,Earth Gravitational Model 1996,,,,,Operational,na
+bufr4/0/01/151/1,001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,,Operational,na
+bufr4/0/01/151/2-4094,001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,,Operational,na
+bufr4/0/01/151/4095,001151,Fixed mean sea-level reference datum,4095,Missing value,,,,,Operational,na
+bufr4/0/01/155/0,001155,Retrieval identifier,0,Standard Correct Algorithm (SCA),,,,,Operational,na
+bufr4/0/01/155/1,001155,Retrieval identifier,1,Standard Correct Algorithm mid-bin (SCA mid-bin),,,,,Operational,na
+bufr4/0/01/155/2,001155,Retrieval identifier,2,Maximum Likelihood Estimation (MLE),,,,,Operational,na
+bufr4/0/01/155/3,001155,Retrieval identifier,3,Optimal Estimation Profile (OE-PRO),,,,,Operational,na
+bufr4/0/01/155/4,001155,Retrieval identifier,4,Group,,,,,Operational,na
+bufr4/0/01/155/5,001155,Retrieval identifier,5,Group mid-bin,,,,,Operational,na
+bufr4/0/01/155/6,001155,Retrieval identifier,6,Maximum Likelihood Estimation – High horizontal resolution (MLEsub),,,,,Operational,na
+bufr4/0/01/155/7-254,001155,Retrieval identifier,7-254,Reserved,,,,,Operational,na
+bufr4/0/01/155/255,001155,Retrieval identifier,255,Missing value,,,,,Operational,na
+bufr4/0/01/158/0,001158,Type of balloon envelope,0,Reserved,,,,,Operational,na
+bufr4/0/01/158/1,001158,Type of balloon envelope,1,Super-pressure balloon (SPB) without altitude control,,,,,Operational,na
+bufr4/0/01/158/2,001158,Type of balloon envelope,2,SPB with altitude control,,,,,Operational,na
+bufr4/0/01/158/3,001158,Type of balloon envelope,3,Zero-pressure balloon (ZPB),,,,,Operational,na
+bufr4/0/01/158/4,001158,Type of balloon envelope,4,Infra-Red Montgolfier (MIR),,,,,Operational,na
+bufr4/0/01/158/5,001158,Type of balloon envelope,5,Airship (airship-shaped balloon),,,,,Operational,na
+bufr4/0/01/158/6,001158,Type of balloon envelope,6,Tetroon (NOAA tetraedric balloon),,,,,Operational,na
+bufr4/0/01/158/15,001158,Type of balloon envelope,15,Missing value,,,,,Operational,na

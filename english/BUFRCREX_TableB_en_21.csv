@@ -1,49 +1,49 @@
 ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
-bufr4/0/21/001,21,Radar data,021001,Horizontal reflectivity,dB,0,-64,7,dB,0,3,,,Operational,PDF
-bufr4/0/21/002,21,Radar data,021002,Vertical reflectivity,dB,0,-64,7,dB,0,3,,,Operational,PDF
-bufr4/0/21/003,21,Radar data,021003,Differential reflectivity,dB,1,-5,7,dB,1,3,,,Operational,PDF
-bufr4/0/21/004,21,Radar data,021004,Differential reflectivity,dB,2,-800,11,dB,2,4,,,Operational,PDF
-bufr4/0/21/005,21,Radar data,021005,Linear depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational,PDF
-bufr4/0/21/006,21,Radar data,021006,Circular depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational,PDF
-bufr4/0/21/007,21,Radar data,021007,Radar reflectivity factor,dB,2,-9000,15,dB,0,0,,,Operational,PDF
-bufr4/0/21/008,21,Radar data,021008,Uncertainty in radar reflectivity factor,dB,2,0,13,dB,0,0,,,Operational,PDF
-bufr4/0/21/009,21,Radar data,021009,Vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational,PDF
-bufr4/0/21/010,21,Radar data,021010,Uncertainty in vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational,PDF
-bufr4/0/21/011,21,Radar data,021011,Doppler mean velocity in x-direction,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
-bufr4/0/21/012,21,Radar data,021012,Doppler mean velocity in y-direction,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
-bufr4/0/21/013,21,Radar data,021013,Doppler mean velocity in z-direction,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
-bufr4/0/21/014,21,Radar data,021014,Doppler mean velocity (radial),m/s,1,-4096,13,m/s,1,4,,,Operational,PDF
-bufr4/0/21/017,21,Radar data,021017,Doppler velocity spectral width,m/s,1,0,8,m/s,1,3,,,Operational,PDF
-bufr4/0/21/018,21,Radar data,021018,Extended NYQUIST velocity,m/s,1,0,10,m/s,1,4,,,Operational,PDF
-bufr4/0/21/019,21,Radar data,021019,High NYQUIST velocity,m/s,1,0,10,m/s,1,3,,,Operational,PDF
-bufr4/0/21/020,21,Radar data,021020,Dynamic atmospheric correction,Numeric,3,-65536,17,,,,,,Operational,PDF
-bufr4/0/21/021,21,Radar data,021021,Echo tops,m,-3,0,4,m,-3,2,,,Operational,PDF
-bufr4/0/21/022,21,Radar data,021022,Range bin offset,m,1,0,14,m,1,5,,,Operational,PDF
-bufr4/0/21/023,21,Radar data,021023,Range bin size,m,0,0,14,m,0,5,,,Operational,PDF
-bufr4/0/21/024,21,Radar data,021024,Azimuth offset,deg,1,0,12,deg,1,4,,,Operational,PDF
-bufr4/0/21/025,21,Radar data,021025,Azimuthal resolution,deg,1,0,8,deg,1,3,,,Operational,PDF
-bufr4/0/21/026,21,Radar data,021026,ASCAT sigma-0 usability,Code table,0,0,3,Code table,0,1,,,Operational,PDF
-bufr4/0/21/027,21,Radar data,021027,Land contribution ratio,Numeric,4,0,14,Numeric,4,5,,,Operational,PDF
-bufr4/0/21/028,21,Radar data,021028,Differential phase,deg,1,0,12,deg,1,4,,,Operational,PDF
-bufr4/0/21/029,21,Radar data,021029,Cross-polarization correlation coefficient,Numeric,2,-100,8,Numeric,2,3,,,Operational,PDF
-bufr4/0/21/030,21,Radar data,021030,Signal to noise ratio,dB,0,-32,8,dB,0,3,,,Operational,PDF
-bufr4/0/21/031,21,Radar data,021031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational,PDF
-bufr4/0/21/036,21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational,PDF
-bufr4/0/21/041,21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational,PDF
-bufr4/0/21/051,21,Radar data,021051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational,PDF
-bufr4/0/21/062,21,Radar data,021062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational,PDF
-bufr4/0/21/063,21,Radar data,021063,Radiometric resolution (noise value),%,1,0,10,%,1,4,,,Operational,PDF
-bufr4/0/21/064,21,Radar data,021064,Clutter noise estimate,Numeric,0,0,8,Numeric,0,3,,,Operational,PDF
-bufr4/0/21/065,21,Radar data,021065,Missing packet counter,Numeric,0,-127,8,Numeric,0,3,,,Operational,PDF
-bufr4/0/21/066,21,Radar data,021066,Wave scatterometer product confidence data,Flag table,0,0,12,Flag table,0,4,,,Operational,PDF
-bufr4/0/21/067,21,Radar data,021067,Wind product confidence data,Flag table,0,0,13,Flag table,0,5,,,Operational,PDF
-bufr4/0/21/068,21,Radar data,021068,Radar altimeter product confidence data,Flag table,0,0,8,Flag table,0,3,,,Operational,PDF
-bufr4/0/21/069,21,Radar data,021069,SST product confidence data,Flag table,0,0,10,Flag table,0,4,,,Operational,PDF
-bufr4/0/21/070,21,Radar data,021070,SST product confidence data (SADIST-2),Flag table,0,0,23,Flag table,0,6,,,Operational,PDF
-bufr4/0/21/071,21,Radar data,021071,Peakiness,Numeric,0,0,16,Numeric,0,5,,,Operational,PDF
-bufr4/0/21/072,21,Radar data,021072,Satellite altimeter calibration status,Flag table,0,0,4,Flag table,0,2,,,Operational,PDF
-bufr4/0/21/073,21,Radar data,021073,Satellite altimeter instrument mode,Flag table,0,0,9,Flag table,0,3,,,Operational,PDF
-bufr4/0/21/075,21,Radar data,021075,Image spectrum intensity,Numeric,0,0,8,Numeric,0,3,,,Operational,PDF
+bufr4/0/21/001,21,Radar data,021001,Horizontal reflectivity,dB,0,-64,7,dB,0,3,,,Operational,na
+bufr4/0/21/002,21,Radar data,021002,Vertical reflectivity,dB,0,-64,7,dB,0,3,,,Operational,na
+bufr4/0/21/003,21,Radar data,021003,Differential reflectivity,dB,1,-5,7,dB,1,3,,,Operational,na
+bufr4/0/21/004,21,Radar data,021004,Differential reflectivity,dB,2,-800,11,dB,2,4,,,Operational,na
+bufr4/0/21/005,21,Radar data,021005,Linear depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational,na
+bufr4/0/21/006,21,Radar data,021006,Circular depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational,na
+bufr4/0/21/007,21,Radar data,021007,Radar reflectivity factor,dB,2,-9000,15,dB,0,0,,,Operational,na
+bufr4/0/21/008,21,Radar data,021008,Uncertainty in radar reflectivity factor,dB,2,0,13,dB,0,0,,,Operational,na
+bufr4/0/21/009,21,Radar data,021009,Vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational,na
+bufr4/0/21/010,21,Radar data,021010,Uncertainty in vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational,na
+bufr4/0/21/011,21,Radar data,021011,Doppler mean velocity in x-direction,m/s,0,-128,8,m/s,0,3,,,Operational,na
+bufr4/0/21/012,21,Radar data,021012,Doppler mean velocity in y-direction,m/s,0,-128,8,m/s,0,3,,,Operational,na
+bufr4/0/21/013,21,Radar data,021013,Doppler mean velocity in z-direction,m/s,0,-128,8,m/s,0,3,,,Operational,na
+bufr4/0/21/014,21,Radar data,021014,Doppler mean velocity (radial),m/s,1,-4096,13,m/s,1,4,,,Operational,na
+bufr4/0/21/017,21,Radar data,021017,Doppler velocity spectral width,m/s,1,0,8,m/s,1,3,,,Operational,na
+bufr4/0/21/018,21,Radar data,021018,Extended NYQUIST velocity,m/s,1,0,10,m/s,1,4,,,Operational,na
+bufr4/0/21/019,21,Radar data,021019,High NYQUIST velocity,m/s,1,0,10,m/s,1,3,,,Operational,na
+bufr4/0/21/020,21,Radar data,021020,Dynamic atmospheric correction,Numeric,3,-65536,17,,,,,,Operational,na
+bufr4/0/21/021,21,Radar data,021021,Echo tops,m,-3,0,4,m,-3,2,,,Operational,na
+bufr4/0/21/022,21,Radar data,021022,Range bin offset,m,1,0,14,m,1,5,,,Operational,na
+bufr4/0/21/023,21,Radar data,021023,Range bin size,m,0,0,14,m,0,5,,,Operational,na
+bufr4/0/21/024,21,Radar data,021024,Azimuth offset,deg,1,0,12,deg,1,4,,,Operational,na
+bufr4/0/21/025,21,Radar data,021025,Azimuthal resolution,deg,1,0,8,deg,1,3,,,Operational,na
+bufr4/0/21/026,21,Radar data,021026,ASCAT sigma-0 usability,Code table,0,0,3,Code table,0,1,,,Operational,na
+bufr4/0/21/027,21,Radar data,021027,Land contribution ratio,Numeric,4,0,14,Numeric,4,5,,,Operational,na
+bufr4/0/21/028,21,Radar data,021028,Differential phase,deg,1,0,12,deg,1,4,,,Operational,na
+bufr4/0/21/029,21,Radar data,021029,Cross-polarization correlation coefficient,Numeric,2,-100,8,Numeric,2,3,,,Operational,na
+bufr4/0/21/030,21,Radar data,021030,Signal to noise ratio,dB,0,-32,8,dB,0,3,,,Operational,na
+bufr4/0/21/031,21,Radar data,021031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational,na
+bufr4/0/21/036,21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational,na
+bufr4/0/21/041,21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational,na
+bufr4/0/21/051,21,Radar data,021051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational,na
+bufr4/0/21/062,21,Radar data,021062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational,na
+bufr4/0/21/063,21,Radar data,021063,Radiometric resolution (noise value),%,1,0,10,%,1,4,,,Operational,na
+bufr4/0/21/064,21,Radar data,021064,Clutter noise estimate,Numeric,0,0,8,Numeric,0,3,,,Operational,na
+bufr4/0/21/065,21,Radar data,021065,Missing packet counter,Numeric,0,-127,8,Numeric,0,3,,,Operational,na
+bufr4/0/21/066,21,Radar data,021066,Wave scatterometer product confidence data,Flag table,0,0,12,Flag table,0,4,,,Operational,na
+bufr4/0/21/067,21,Radar data,021067,Wind product confidence data,Flag table,0,0,13,Flag table,0,5,,,Operational,na
+bufr4/0/21/068,21,Radar data,021068,Radar altimeter product confidence data,Flag table,0,0,8,Flag table,0,3,,,Operational,na
+bufr4/0/21/069,21,Radar data,021069,SST product confidence data,Flag table,0,0,10,Flag table,0,4,,,Operational,na
+bufr4/0/21/070,21,Radar data,021070,SST product confidence data (SADIST-2),Flag table,0,0,23,Flag table,0,6,,,Operational,na
+bufr4/0/21/071,21,Radar data,021071,Peakiness,Numeric,0,0,16,Numeric,0,5,,,Operational,na
+bufr4/0/21/072,21,Radar data,021072,Satellite altimeter calibration status,Flag table,0,0,4,Flag table,0,2,,,Operational,na
+bufr4/0/21/073,21,Radar data,021073,Satellite altimeter instrument mode,Flag table,0,0,9,Flag table,0,3,,,Operational,na
+bufr4/0/21/075,21,Radar data,021075,Image spectrum intensity,Numeric,0,0,8,Numeric,0,3,,,Operational,na
 bufr4/0/21/076,21,Radar data,021076,Representation of intensities,Code table,0,0,3,Code table,0,1,,,Operational,Original
 bufr4/0/21/077,21,Radar data,021077,Altitude correction (ionosphere),m,3,0,14,m,3,5,,,Operational,Original
 bufr4/0/21/078,21,Radar data,021078,Altitude correction (dry troposphere),m,3,0,9,m,3,3,,,Operational,Original

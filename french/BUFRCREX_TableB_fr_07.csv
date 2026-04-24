@@ -1,38 +1,38 @@
 ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
-bufr4/0/07/001,07,Position (verticale),007001,Hauteur de la station,m,0,-400,15,m,0,5,(voir Note 1),116,Operational,Original
-bufr4/0/07/002,07,Position (verticale),007002,Hauteur ou altitude,m,-1,-40,16,m,-1,5,,,Operational,Original
-bufr4/0/07/003,07,Position (verticale),007003,Géopotentiel,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational,Original
-bufr4/0/07/004,07,Position (verticale),007004,Pression,Pa,-1,0,14,Pa,-1,5,,,Operational,Original
-bufr4/0/07/005,07,Position (verticale),007005,Incrément de hauteur,m,0,-400,12,m,0,4,,,Operational,Original
-bufr4/0/07/006,07,Position (verticale),007006,Hauteur au-dessus de la station,m,0,0,15,m,0,5,,,Operational,Original
-bufr4/0/07/007,07,Position (verticale),007007,Hauteur,m,0,-1000,17,m,0,6,,,Operational,Original
-bufr4/0/07/008,07,Position (verticale),007008,Géopotentiel,m2 s-2,0,-10000,20,m2 s-2,0,7,,,Operational,Original
-bufr4/0/07/009,07,Position (verticale),007009,Hauteur géopotentielle,gpm,0,-1000,17,gpm,0,5,,,Operational,Original
-bufr4/0/07/010,07,Position (verticale),007010,Niveau de vol,m,0,-1024,16,ft,-1,5,,,Operational,Original
-bufr4/0/07/012,07,Position (verticale),007012,Altitude des points de grille,m,2,-50000,20,m,2,7,,,Operational,Original
-bufr4/0/07/021,07,Position (verticale),007021,Hauteur,deg,2,-9000,15,°,2,5,(voir Note 2),68,Operational,Original
-bufr4/0/07/022,07,Position (verticale),007022,Hauteur du soleil,deg,2,-9000,15,°,2,5,,,Operational,Original
-bufr4/0/07/024,07,Position (verticale),007024,Distance zénithale du satellite,deg,2,-9000,15,°,2,5,,,Operational,Original
-bufr4/0/07/025,07,Position (verticale),007025,Distance zénithale du soleil,deg,2,-9000,15,°,2,5,,,Operational,Original
-bufr4/0/07/026,07,Position (verticale),007026,Distance zénithale du satellite,deg,4,-900000,21,°,4,7,,,Operational,Original
-bufr4/0/07/030,07,Position (verticale),007030,Altitude du sol de la station,m,1,-4000,17,m,1,5,(voir Note 3),87,Operational,Original
-bufr4/0/07/031,07,Position (verticale),007031,Altitude du baromètre,m,1,-4000,17,m,1,5,(voir Note 4),84,Operational,Original
-bufr4/0/07/032,07,Position (verticale),007032,Hauteur du capteur au-dessus du sol (ou du pont sur une plate-forme marine),m,2,0,16,m,2,5,(voir Note 5),85,Operational,Original
-bufr4/0/07/033,07,Position (verticale),007033,Hauteur du capteur au-dessus de la surface de l'eau,m,1,0,12,m,1,4,(voir Note 6),86,Operational,Original
-bufr4/0/07/034,07,Position (verticale),007034,Distance verticale du capteur,m,2,-65000,17,,,,((voir Note 9)),193,Operational,AI Engine
-bufr4/0/07/035,07,Position (verticale),007035,Taille maximale de la dimension z,Numérique,0,0,12,Numérique,0,4,,,Operational,Original
-bufr4/0/07/036,07,Position (verticale),007036,Indice de niveau de z,Numérique,0,0,12,Numérique,0,4,,,Operational,Original
-bufr4/0/07/040,07,Position (verticale),007040,Paramètre d'impact,m,1,62000000,22,m,1,8,(voir Note 7),74,Operational,Original
-bufr4/0/07/061,07,Position (verticale),007061,Profondeur sous la surface terrestre,m,2,0,14,m,2,5,,,Operational,Original
-bufr4/0/07/062,07,Position (verticale),007062,Profondeur sous la surface de la mer/ de l'eau,m,1,0,17,m,1,6,,,Operational,Original
-bufr4/0/07/063,07,Position (verticale),007063,Profondeur sous la surface de la mer/ de l'eau (cm),m,2,0,20,m,2,7,,,Operational,Original
-bufr4/0/07/064,07,Position (verticale),007064,Hauteur représentative du capteur au-dessus du niveau de la station,m,0,0,4,m,0,2,(voir Note 8),117,Operational,Original
-bufr4/0/07/065,07,Position (verticale),007065,Pression hydrostatique,Pa,-3,0,17,Pa,-3,6,,,Operational,Original
-bufr4/0/07/070,07,Position (verticale),007070,Profondeur de lest,m,0,0,10,m,0,4,,,Operational,Original
-bufr4/0/07/071,07,Position (verticale),007071,Hauteur (haute résolution),m,3,-10000000,26,m,3,8,,,Operational,Original
-bufr4/0/07/072,07,Position (verticale),007072,Angle de balayage,°,2,-9000,15,°,2,6,,,Operational,AI Engine
-bufr4/0/07/073,07,Position (verticale),007073,Angle entre la lune et la vue de l'espace,°,2,0,15,°,2,5,,,Operational,AI Engine
-bufr4/0/07/074,07,Position (verticale),007074,Angle d'élévation solaire dans le cadre de référence de l'instrument,°,2,-9000,15,°,2,5,,,Operational,AI Engine
-bufr4/0/07/075,07,Position (verticale),007075,Angle de diffusion,°,0,0,8,°,0,3,,,Operational,AI Engine
-bufr4/0/07/076,07,Position (verticale),007076,Angle d'azimut relatif,°,0,0,8,°,0,3,,,Operational,AI Engine
-bufr4/0/07/077,07,Position (verticale),007077,Hauteur du capteur par rapport à la station,m,0,-400,12,,,,,,Operational,AI Engine
+bufr4/0/07/001,07,Position (verticale),007001,Hauteur de la station,m,0,-400,15,m,0,5,(voir Note 1),116,Operational,PDF
+bufr4/0/07/002,07,Position (verticale),007002,Hauteur ou altitude,m,-1,-40,16,m,-1,5,,,Operational,PDF
+bufr4/0/07/003,07,Position (verticale),007003,Géopotentiel,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational,PDF
+bufr4/0/07/004,07,Position (verticale),007004,Pression,Pa,-1,0,14,Pa,-1,5,,,Operational,PDF
+bufr4/0/07/005,07,Position (verticale),007005,Incrément de hauteur,m,0,-400,12,m,0,4,,,Operational,PDF
+bufr4/0/07/006,07,Position (verticale),007006,Hauteur au-dessus de la station,m,0,0,15,m,0,5,,,Operational,PDF
+bufr4/0/07/007,07,Position (verticale),007007,Hauteur,m,0,-1000,17,m,0,6,,,Operational,PDF
+bufr4/0/07/008,07,Position (verticale),007008,Géopotentiel,m2 s-2,0,-10000,20,m2 s-2,0,7,,,Operational,PDF
+bufr4/0/07/009,07,Position (verticale),007009,Hauteur géopotentielle,gpm,0,-1000,17,gpm,0,5,,,Operational,PDF
+bufr4/0/07/010,07,Position (verticale),007010,Niveau de vol,m,0,-1024,16,ft,-1,5,,,Operational,PDF
+bufr4/0/07/012,07,Position (verticale),007012,Altitude des points de grille,m,2,-50000,20,m,2,7,,,Operational,PDF
+bufr4/0/07/021,07,Position (verticale),007021,Hauteur,deg,2,-9000,15,°,2,5,(voir Note 2),68,Operational,PDF
+bufr4/0/07/022,07,Position (verticale),007022,Hauteur du soleil,deg,2,-9000,15,°,2,5,,,Operational,PDF
+bufr4/0/07/024,07,Position (verticale),007024,Distance zénithale du satellite,deg,2,-9000,15,°,2,5,,,Operational,PDF
+bufr4/0/07/025,07,Position (verticale),007025,Distance zénithale du soleil,deg,2,-9000,15,°,2,5,,,Operational,PDF
+bufr4/0/07/026,07,Position (verticale),007026,Distance zénithale du satellite,deg,4,-900000,21,°,4,7,,,Operational,PDF
+bufr4/0/07/030,07,Position (verticale),007030,Altitude du sol de la station,m,1,-4000,17,m,1,5,(voir Note 3),87,Operational,PDF
+bufr4/0/07/031,07,Position (verticale),007031,Altitude du baromètre,m,1,-4000,17,m,1,5,(voir Note 4),84,Operational,PDF
+bufr4/0/07/032,07,Position (verticale),007032,Hauteur du capteur au-dessus du sol (ou du pont sur une plate-forme marine),m,2,0,16,m,2,5,(voir Note 5),85,Operational,PDF
+bufr4/0/07/033,07,Position (verticale),007033,Hauteur du capteur au-dessus de la surface de l'eau,m,1,0,12,m,1,4,(voir Note 6),86,Operational,PDF
+bufr4/0/07/034,07,Position (verticale),007034,Distance verticale du capteur,m,2,-65000,17,,,,((voir Note 9)),193,Operational,AI
+bufr4/0/07/035,07,Position (verticale),007035,Taille maximale de la dimension z,Numérique,0,0,12,Numérique,0,4,,,Operational,PDF
+bufr4/0/07/036,07,Position (verticale),007036,Indice de niveau de z,Numérique,0,0,12,Numérique,0,4,,,Operational,PDF
+bufr4/0/07/040,07,Position (verticale),007040,Paramètre d'impact,m,1,62000000,22,m,1,8,(voir Note 7),74,Operational,PDF
+bufr4/0/07/061,07,Position (verticale),007061,Profondeur sous la surface terrestre,m,2,0,14,m,2,5,,,Operational,PDF
+bufr4/0/07/062,07,Position (verticale),007062,Profondeur sous la surface de la mer/ de l'eau,m,1,0,17,m,1,6,,,Operational,PDF
+bufr4/0/07/063,07,Position (verticale),007063,Profondeur sous la surface de la mer/ de l'eau (cm),m,2,0,20,m,2,7,,,Operational,PDF
+bufr4/0/07/064,07,Position (verticale),007064,Hauteur représentative du capteur au-dessus du niveau de la station,m,0,0,4,m,0,2,(voir Note 8),117,Operational,PDF
+bufr4/0/07/065,07,Position (verticale),007065,Pression hydrostatique,Pa,-3,0,17,Pa,-3,6,,,Operational,PDF
+bufr4/0/07/070,07,Position (verticale),007070,Profondeur de lest,m,0,0,10,m,0,4,,,Operational,PDF
+bufr4/0/07/071,07,Position (verticale),007071,Hauteur (haute résolution),m,3,-10000000,26,m,3,8,,,Operational,PDF
+bufr4/0/07/072,07,Position (verticale),007072,Angle de balayage,°,2,-9000,15,°,2,6,,,Operational,AI
+bufr4/0/07/073,07,Position (verticale),007073,Angle entre la lune et la vue de l'espace,°,2,0,15,°,2,5,,,Operational,AI
+bufr4/0/07/074,07,Position (verticale),007074,Angle d'élévation solaire dans le cadre de référence de l'instrument,°,2,-9000,15,°,2,5,,,Operational,AI
+bufr4/0/07/075,07,Position (verticale),007075,Angle de diffusion,°,0,0,8,°,0,3,,,Operational,AI
+bufr4/0/07/076,07,Position (verticale),007076,Angle d'azimut relatif,°,0,0,8,°,0,3,,,Operational,AI
+bufr4/0/07/077,07,Position (verticale),007077,Hauteur du capteur par rapport à la station,m,0,-400,12,,,,,,Operational,AI
