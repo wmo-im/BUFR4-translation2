@@ -83,10 +83,10 @@ bufr4/0/40/028/14,040028,Indicateur de qualité des données du GMI,14,En réser
 bufr4/0/40/028/15,040028,Indicateur de qualité des données du GMI,15,Valeur manquante (aucune information disponible sur la qualité),,,,,Operational,PDF
 bufr4/0/40/036/0,040036,Type de classification des produits lidar de niveau L2b,0,Ciel clair,,,,,Operational,PDF
 bufr4/0/40/036/1,040036,Type de classification des produits lidar de niveau L2b,1,Nuages,,,,,Operational,PDF
-bufr4/0/40/036/2,040036,Type de classification des produits lidar de niveau L2b,2,Aérosol,,,,,Operational,AI Translator: MCP
-bufr4/0/40/036/3,040036,Type de classification des produits lidar de niveau L2b,3,Atténué,,,,,Operational,AI Translator: MCP
-bufr4/0/40/036/4,040036,Type de classification des produits lidar de niveau L2b,4,Surface,,,,,Operational,AI Translator: MCP
-bufr4/0/40/036/5-14,040036,Type de classification des produits lidar de niveau L2b,5-14,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/40/036/2,040036,Type de classification des produits lidar de niveau L2b,2,Aérosol,,,,,Operational,AI
+bufr4/0/40/036/3,040036,Type de classification des produits lidar de niveau L2b,3,Atténué,,,,,Operational,AI
+bufr4/0/40/036/4,040036,Type de classification des produits lidar de niveau L2b,4,Surface,,,,,Operational,AI
+bufr4/0/40/036/5-14,040036,Type de classification des produits lidar de niveau L2b,5-14,En réserve,,,,,Operational,AI
 bufr4/0/40/036/15,040036,Type de classification des produits lidar de niveau L2b,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/40/043/0,040043,Indicateur de manœuvre du satellite,0,La plate-forme ne subit pas de manœuvre,,,,,Operational,PDF
 bufr4/0/40/043/1,040043,Indicateur de manœuvre du satellite,1,"La plate-forme subit une manœuvre, traitement nominal",,,,,Operational,PDF
@@ -222,41 +222,41 @@ bufr4/0/40/068/1,040068,Indicateur général de la qualité des extractions pour
 bufr4/0/40/068/2,040068,Indicateur général de la qualité des extractions pour le SO2,2,Qualité optimale,,,,,Operational,PDF
 bufr4/0/40/068/3-14,040068,Indicateur général de la qualité des extractions pour le SO2,3-14,En réserve,,,,,Operational,PDF
 bufr4/0/40/068/15,040068,Indicateur général de la qualité des extractions pour le SO2,15,Valeur manquante,,,,,Operational,PDF
-bufr4/0/40/074/1,040074,Drapeaux de qualité générale d'interférométrie,1,Incompatibilité d'un angle de balayage pour l'électroencéphalogramme,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/2,040074,Drapeaux de qualité générale en interférométrie,2,"Échec de calibration (limite de la température du corps noir atteinte, pas assez de sources pour l'interférométrie, etc.)",,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/3,040074,Drapeaux de qualité générale d'interférométrie,3,Géolocalisation exécutée en tenant compte de l'orientation du vaisseau spatial et en utilisant le catalogue d'étoiles,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/4,040074,Drapeaux de qualité générale d'interférométrie,4,"Un niveau élevé de sédiment cryogénique atteint, nécessitant le dégazage du refroidisseur de rayonnement. Défini lorsque le niveau NESR du seuil de couverture de glace est franchi.",,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/5,040074,Drapeaux de qualité générale d'interférométrie,5,Drapeau du package d'interférométrie,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/6,040074,Drapeaux de qualité générale d'interférométrie,6,Drapeau de précision générale,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/7,040074,Drapeaux de qualité générale d'interférométrie,7,Bruit présent pendant l'interférométrie,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/8,040074,Drapeaux de qualité générale d'interférométrie,8,Dégazage du refroidisseur de radiation,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/9,040074,Drapeaux de qualité générale d'interférométrie,9,Drapeau précédant la première marque de 24 heures/jour (activé par défaut).,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/10,040074,Drapeaux de qualité générale d'interférométrie,10,Indicateur de paquet de télémétrie,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/11-15,040074,Drapeaux de qualité générale d'interférométrie,11-15,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/40/074/All-16,040074,Drapeaux de qualité générale d'interférométrie,16 bits mis à 1,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/1,040077,Drapeau de qualité du produit océanique,1,La température de surface de la mer n'est pas correcte.,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/2,040077,Drapeau de qualité des produits océaniques,2,La vitesse du vent à la surface de la mer n'est pas correcte.,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/3,040077,Drapeau de qualité des produits océaniques,3,Le contenu de vapeur d'eau atmosphérique n'est pas correct.,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/4,040077,Drapeau de qualité des produits océaniques,4,Le contenu en eau liquide des nuages n'est pas correct.,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/5-7,040077,Drapeau de qualité du produit océanique,5-7,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/40/077/All-8,040077,Drapeau de qualité du produit océanique,8 bits mis à 1,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/40/080/1,040080,Résultats des tests de nuages pour IASI-NG niveau 2,1,Détection des cirrus fins exécutée,,,,,Operational,AI Translator: MCP
-bufr4/0/40/080/2,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,2,La détection de cirrus fins indique un nuage.,,,,,Operational,AI Translator: MCP
-bufr4/0/40/080/3,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,3,Détection de poussière d'aérosol exécutée,,,,,Operational,AI Translator: MCP
-bufr4/0/40/080/4,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,4,Poussière d'aérosol détectée,,,,,Operational,AI Translator: MCP
-bufr4/0/40/080/All-5,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,5 bits mis à 1,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/1-17,040081,Classification et qualité de niveau 1 OLCI,1-17,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/18,040081,Classification et qualité du niveau 1 OLCI,18,Terre,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/19,040081,Classification et qualité du niveau 1 OLCI,19,Littoral,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/20,040081,Classification et qualité de niveau 1 OLCI,20,Eau douce intérieure,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/21,040081,Classification et qualité du niveau 1 OLCI,21,Régions de marée,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/22,040081,Classification et qualité du niveau 1 OLCI,22,Nuage préliminaire,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/23,040081,Classification et qualité du niveau 1 OLCI,23,Risque de lumière parasite,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/24,040081,Classification et qualité du niveau 1 OLCI,24,Invalide,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/25,040081,Classification et qualité du niveau 1 OLCI,25,Cosmétique,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/26,040081,Classification et qualité du niveau 1 OLCI,26,Dupliqué,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/27,040081,Classification et qualité du niveau 1 OLCI,27,Risque de reflet solaire,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/28,040081,Classification et qualité du niveau 1 OLCI,28,Douteux,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/29,040081,Classification et qualité du niveau 1 OLCI,29,Saturé,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/30,040081,Classification et qualité du niveau 1 OLCI,30,Partiellement saturé,,,,,Operational,AI Translator: MCP
-bufr4/0/40/081/All-31,040081,Classification et qualité du niveau 1 OLCI,31 bits mis à 1,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/40/074/1,040074,Drapeaux de qualité générale d'interférométrie,1,Incompatibilité d'un angle de balayage pour l'électroencéphalogramme,,,,,Operational,AI
+bufr4/0/40/074/2,040074,Drapeaux de qualité générale en interférométrie,2,"Échec de calibration (limite de la température du corps noir atteinte, pas assez de sources pour l'interférométrie, etc.)",,,,,Operational,AI
+bufr4/0/40/074/3,040074,Drapeaux de qualité générale d'interférométrie,3,Géolocalisation exécutée en tenant compte de l'orientation du vaisseau spatial et en utilisant le catalogue d'étoiles,,,,,Operational,AI
+bufr4/0/40/074/4,040074,Drapeaux de qualité générale d'interférométrie,4,"Un niveau élevé de sédiment cryogénique atteint, nécessitant le dégazage du refroidisseur de rayonnement. Défini lorsque le niveau NESR du seuil de couverture de glace est franchi.",,,,,Operational,AI
+bufr4/0/40/074/5,040074,Drapeaux de qualité générale d'interférométrie,5,Drapeau du package d'interférométrie,,,,,Operational,AI
+bufr4/0/40/074/6,040074,Drapeaux de qualité générale d'interférométrie,6,Drapeau de précision générale,,,,,Operational,AI
+bufr4/0/40/074/7,040074,Drapeaux de qualité générale d'interférométrie,7,Bruit présent pendant l'interférométrie,,,,,Operational,AI
+bufr4/0/40/074/8,040074,Drapeaux de qualité générale d'interférométrie,8,Dégazage du refroidisseur de radiation,,,,,Operational,AI
+bufr4/0/40/074/9,040074,Drapeaux de qualité générale d'interférométrie,9,Drapeau précédant la première marque de 24 heures/jour (activé par défaut).,,,,,Operational,AI
+bufr4/0/40/074/10,040074,Drapeaux de qualité générale d'interférométrie,10,Indicateur de paquet de télémétrie,,,,,Operational,AI
+bufr4/0/40/074/11-15,040074,Drapeaux de qualité générale d'interférométrie,11-15,En réserve,,,,,Operational,AI
+bufr4/0/40/074/All-16,040074,Drapeaux de qualité générale d'interférométrie,16 bits mis à 1,Valeur manquante,,,,,Operational,AI
+bufr4/0/40/077/1,040077,Drapeau de qualité du produit océanique,1,La température de surface de la mer n'est pas correcte.,,,,,Operational,AI
+bufr4/0/40/077/2,040077,Drapeau de qualité des produits océaniques,2,La vitesse du vent à la surface de la mer n'est pas correcte.,,,,,Operational,AI
+bufr4/0/40/077/3,040077,Drapeau de qualité des produits océaniques,3,Le contenu de vapeur d'eau atmosphérique n'est pas correct.,,,,,Operational,AI
+bufr4/0/40/077/4,040077,Drapeau de qualité des produits océaniques,4,Le contenu en eau liquide des nuages n'est pas correct.,,,,,Operational,AI
+bufr4/0/40/077/5-7,040077,Drapeau de qualité du produit océanique,5-7,En réserve,,,,,Operational,AI
+bufr4/0/40/077/All-8,040077,Drapeau de qualité du produit océanique,8 bits mis à 1,Valeur manquante,,,,,Operational,AI
+bufr4/0/40/080/1,040080,Résultats des tests de nuages pour IASI-NG niveau 2,1,Détection des cirrus fins exécutée,,,,,Operational,AI
+bufr4/0/40/080/2,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,2,La détection de cirrus fins indique un nuage.,,,,,Operational,AI
+bufr4/0/40/080/3,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,3,Détection de poussière d'aérosol exécutée,,,,,Operational,AI
+bufr4/0/40/080/4,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,4,Poussière d'aérosol détectée,,,,,Operational,AI
+bufr4/0/40/080/All-5,040080,Résultats des tests de nuages pour le niveau 2 d'IASI-NG,5 bits mis à 1,Valeur manquante,,,,,Operational,AI
+bufr4/0/40/081/1-17,040081,Classification et qualité de niveau 1 OLCI,1-17,En réserve,,,,,Operational,AI
+bufr4/0/40/081/18,040081,Classification et qualité du niveau 1 OLCI,18,Terre,,,,,Operational,AI
+bufr4/0/40/081/19,040081,Classification et qualité du niveau 1 OLCI,19,Littoral,,,,,Operational,AI
+bufr4/0/40/081/20,040081,Classification et qualité de niveau 1 OLCI,20,Eau douce intérieure,,,,,Operational,AI
+bufr4/0/40/081/21,040081,Classification et qualité du niveau 1 OLCI,21,Régions de marée,,,,,Operational,AI
+bufr4/0/40/081/22,040081,Classification et qualité du niveau 1 OLCI,22,Nuage préliminaire,,,,,Operational,AI
+bufr4/0/40/081/23,040081,Classification et qualité du niveau 1 OLCI,23,Risque de lumière parasite,,,,,Operational,AI
+bufr4/0/40/081/24,040081,Classification et qualité du niveau 1 OLCI,24,Invalide,,,,,Operational,AI
+bufr4/0/40/081/25,040081,Classification et qualité du niveau 1 OLCI,25,Cosmétique,,,,,Operational,AI
+bufr4/0/40/081/26,040081,Classification et qualité du niveau 1 OLCI,26,Dupliqué,,,,,Operational,AI
+bufr4/0/40/081/27,040081,Classification et qualité du niveau 1 OLCI,27,Risque de reflet solaire,,,,,Operational,AI
+bufr4/0/40/081/28,040081,Classification et qualité du niveau 1 OLCI,28,Douteux,,,,,Operational,AI
+bufr4/0/40/081/29,040081,Classification et qualité du niveau 1 OLCI,29,Saturé,,,,,Operational,AI
+bufr4/0/40/081/30,040081,Classification et qualité du niveau 1 OLCI,30,Partiellement saturé,,,,,Operational,AI
+bufr4/0/40/081/All-31,040081,Classification et qualité du niveau 1 OLCI,31 bits mis à 1,Valeur manquante,,,,,Operational,AI

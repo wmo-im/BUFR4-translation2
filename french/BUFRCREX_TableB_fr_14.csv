@@ -35,7 +35,7 @@ bufr4/0/14/045,14,Rayonnement et luminance énergétique,014045,Luminance énerg
 bufr4/0/14/046,14,Rayonnement et luminance énergétique,014046,Luminance énergétique mise à l'échelle,W m-2 sr-1 m,0,-5000,16,W m-2 sr-1 m,0,5,(voir Note 6),29,Operational,PDF
 bufr4/0/14/047,14,Rayonnement et luminance énergétique,014047,Luminance moyenne AVHRR mise à l'échelle,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,,,Operational,PDF
 bufr4/0/14/048,14,Rayonnement et luminance énergétique,014048,Écart type de la luminance AVHRR mise à l'échelle,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,,,Operational,PDF
-bufr4/0/14/049,14,Rayonnement et luminance énergétique,014049,Éclairement delta équivalent au bruit,W m-2 sr-1 cm,7,0,22,W m-2 sr-1 cm,0,0,,,Operational,AI Translator: MCP
+bufr4/0/14/049,14,Rayonnement et luminance énergétique,014049,Éclairement delta équivalent au bruit,W m-2 sr-1 cm,7,0,22,W m-2 sr-1 cm,0,0,,,Operational,AI
 bufr4/0/14/050,14,Rayonnement et luminance énergétique,014050,Émissivité,%,1,0,10,%,1,4,(voir Note 5),69,Operational,PDF
 bufr4/0/14/051,14,Rayonnement et luminance énergétique,014051,"Rayonnement solaire direct, intégré au cours de la dernière heure",J m-2,-3,0,14,J m-2,-3,4,,,Operational,PDF
 bufr4/0/14/052,14,Rayonnement et luminance énergétique,014052,"Rayonnement solaire global ascendant, intégré sur une période déterminée",J m-2,-2,-1048574,20,J m-2,-2,7,,,Operational,PDF
@@ -44,5 +44,5 @@ bufr4/0/14/054,14,Rayonnement et luminance énergétique,014054,"Rayonnement pho
 bufr4/0/14/055,14,Rayonnement et luminance énergétique,014055,Indice de l'activité solaire,Numérique,0,-32768,16,Numérique,0,5,,,Operational,PDF
 bufr4/0/14/056,14,Rayonnement et luminance énergétique,014056,Luminance de fond,Cd m-2,0,0,18,Cd m-2,0,6,,,Operational,PDF
 bufr4/0/14/057,14,Rayonnement et luminance énergétique,014057,Flux de chaleur du sol,J m-2,-2,-1048574,21,J m-2,-2,7,,,Operational,PDF
-bufr4/0/14/058,14,Rayonnement et luminance énergétique,014058,Rétrodiffusion corrigée à polarisation croisée,dB,2,-5000,13,dB,2,5,,,Operational,AI Translator: MCP
+bufr4/0/14/058,14,Rayonnement et luminance énergétique,014058,Rétrodiffusion corrigée à polarisation croisée,dB,2,-5000,13,dB,2,5,,,Operational,AI
 bufr4/0/14/072,14,Rayonnement et luminance énergétique,014072,Rayonnement ultraviolet global,J m-2,0,-4000000,23,J m-2,0,7,(voir Note 8),83,Operational,PDF

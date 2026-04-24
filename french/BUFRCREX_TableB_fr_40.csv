@@ -72,9 +72,9 @@ bufr4/0/40/070,40,Données satellitaires,040070,Erreur d'extraction estimative d
 bufr4/0/40/071,40,Données satellitaires,040071,Matrice de covariance d'erreur d'extraction de l'ozone dans le domaine principal des composantes,Numérique,4,-1000000,21,Numérique,4,7,,,Operational,PDF
 bufr4/0/40/072,40,Données satellitaires,040072,Indicateur estimatif de qualité d'extraction de l'ozone atmosphérique selon la méthode PWLR,Numérique,1,0,8,Numérique,1,3,,,Operational,PDF
 bufr4/0/40/073,40,Données satellitaires,040073,Erreur d'extraction estimative de la température de la pellicule superficielle selon la méthode PWLR,K,1,0,8,K,1,3,,,Operational,PDF
-bufr4/0/40/074,40,Données satellitaires,040074,Drapeaux de qualité d'interférométrie générale,Table d'indicateurs,0,0,16,,,,,,Operational,AI Translator: MCP
-bufr4/0/40/075,40,Données satellitaires,040075,Matrice de covariance des erreurs de récupération pour l'humidité dans le domaine des composantes principales,Numérique,0,0,21,Numérique,0,7,,,Operational,AI Translator: MCP
-bufr4/0/40/076,40,Données satellitaires,040076,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numérique,0,0,21,Numérique,0,7,,,Operational,AI Translator: MCP
-bufr4/0/40/077,40,Données satellitaires,040077,Drapeau de qualité du produit océanique,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,AI Translator: MCP
-bufr4/0/40/080,40,Données satellitaires,040080,Résultats des tests de nuages pour le niveau 2 de IASI-NG,Table d'indicateurs,0,0,5,Table d'indicateurs,0,2,,,Operational,AI Translator: MCP
-bufr4/0/40/081,40,Données satellitaires,040081,Classification et qualité du niveau 1 OLCI,Table d'indicateurs,0,0,31,,,,,,Operational,AI Translator: MCP
+bufr4/0/40/074,40,Données satellitaires,040074,Drapeaux de qualité d'interférométrie générale,Table d'indicateurs,0,0,16,,,,,,Operational,AI
+bufr4/0/40/075,40,Données satellitaires,040075,Matrice de covariance des erreurs de récupération pour l'humidité dans le domaine des composantes principales,Numérique,0,0,21,Numérique,0,7,,,Operational,AI
+bufr4/0/40/076,40,Données satellitaires,040076,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numérique,0,0,21,Numérique,0,7,,,Operational,AI
+bufr4/0/40/077,40,Données satellitaires,040077,Drapeau de qualité du produit océanique,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/40/080,40,Données satellitaires,040080,Résultats des tests de nuages pour le niveau 2 de IASI-NG,Table d'indicateurs,0,0,5,Table d'indicateurs,0,2,,,Operational,AI
+bufr4/0/40/081,40,Données satellitaires,040081,Classification et qualité du niveau 1 OLCI,Table d'indicateurs,0,0,31,,,,,,Operational,AI

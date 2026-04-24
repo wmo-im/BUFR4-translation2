@@ -14,6 +14,6 @@ bufr4/0/06/033,06,Position (horizontale - 2),006033,Taille des pixels sur l'hori
 bufr4/0/06/034,06,Position (horizontale - 2),006034,Numéro de cellule dans le plan transversal,Numérique,0,0,7,Numérique,0,3,,,Operational,PDF
 bufr4/0/06/035,06,Position (horizontale - 2),006035,Taille maximale de la dimension y,Numérique,0,0,12,Numérique,0,4,,,Operational,PDF
 bufr4/0/06/040,06,Position (horizontale - 2),006040,Rayon de confiance,m,0,0,13,m,0,4,,,Operational,PDF
-bufr4/0/06/041,06,Position (horizontale - 2),006041,Numéro d'échantillon de balayage terrestre,Numérique,0,0,11,Numérique,0,4,,,Operational,AI Translator: MCP
-bufr4/0/06/042,06,Position (horizontale - 2),006042,Numéro d'échantillon de balayage de l'espace/lune,Numérique,0,0,6,Numérique,0,2,,,Operational,AI Translator: MCP
-bufr4/0/06/043,06,Position (horizontale - 2),006043,Longitude du point sous-satellite,°,4,-1800000,22,°,4,8,,,Operational,AI Translator: MCP
+bufr4/0/06/041,06,Position (horizontale - 2),006041,Numéro d'échantillon de balayage terrestre,Numérique,0,0,11,Numérique,0,4,,,Operational,AI
+bufr4/0/06/042,06,Position (horizontale - 2),006042,Numéro d'échantillon de balayage de l'espace/lune,Numérique,0,0,6,Numérique,0,2,,,Operational,AI
+bufr4/0/06/043,06,Position (horizontale - 2),006043,Longitude du point sous-satellite,°,4,-1800000,22,°,4,8,,,Operational,AI

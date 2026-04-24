@@ -14,6 +14,6 @@ bufr4/0/42/012,42,Éléments océanographiques,042012,b1 coefficient de la séri
 bufr4/0/42/013,42,Éléments océanographiques,042013,a2 coefficient de la série de Fourier du spectre directionnel,Numérique,4,-20000,15,Numérique,4,6,,,Operational,Original
 bufr4/0/42/014,42,Éléments océanographiques,042014,b2 coefficient de la série de Fourier du spectre directionnel,Numérique,4,-20000,15,Numérique,4,6,,,Operational,Original
 bufr4/0/42/015,42,Éléments océanographiques,042015,Facteur de contrôle K,Numérique,2,0,12,Numérique,2,4,,,Operational,Original
-bufr4/0/42/016,42,Éléments océanographiques,042016,Densité potentielle de l'eau de mer référencée à la surface de la mer,kg m-3,5,-10000000,24,kg m-3,5,9,,,Operational,AI Translator: MCP
-bufr4/0/42/017,42,Éléments océanographiques,042017,Drapeau de qualité du spectre de la houle,Table de code,0,0,4,Table de code,0,2,,,Operational,AI Translator: MCP
-bufr4/0/42/018,42,Éléments océanographiques,042018,Drapeau de qualité pour chaque partition du spectre de la houle,Table de code,0,0,4,Table de code,0,4,,,Operational,AI Translator: MCP
+bufr4/0/42/016,42,Éléments océanographiques,042016,Densité potentielle de l'eau de mer référencée à la surface de la mer,kg m-3,5,-10000000,24,kg m-3,5,9,,,Operational,AI
+bufr4/0/42/017,42,Éléments océanographiques,042017,Drapeau de qualité du spectre de la houle,Table de code,0,0,4,Table de code,0,2,,,Operational,AI
+bufr4/0/42/018,42,Éléments océanographiques,042018,Drapeau de qualité pour chaque partition du spectre de la houle,Table de code,0,0,4,Table de code,0,4,,,Operational,AI

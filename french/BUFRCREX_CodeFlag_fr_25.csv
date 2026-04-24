@@ -17,7 +17,7 @@ bufr4/0/25/009/1,025009,Méthode d'étalonnage,1,Aucune,,,,,Deprecated,PDF
 bufr4/0/25/009/2,025009,Méthode d'étalonnage,2,Cible ou signal d'étalonnage,,,,,Deprecated,PDF
 bufr4/0/25/009/3,025009,Méthode d'étalonnage,3,Par rapport à des pluviomètres,,,,,Deprecated,PDF
 bufr4/0/25/009/4,025009,Méthode d'étalonnage,4,"Par rapport à d'autres instruments (distromètre, atténuation)",,,,,Deprecated,PDF
-bufr4/0/25/009/All-4,025009,Méthode d'étalonnage,4 bits mis à 1,Valeur manquante,,,,,Deprecated,AI Translator: MCP
+bufr4/0/25/009/All-4,025009,Méthode d'étalonnage,4 bits mis à 1,Valeur manquante,,,,,Deprecated,AI
 bufr4/0/25/010/0,025010,Traitement des échos fixes,0,Aucun,,,,,Operational,PDF
 bufr4/0/25/010/1,025010,Traitement des échos fixes,1,Carte,,,,,Operational,PDF
 bufr4/0/25/010/2,025010,Traitement des échos fixes,2,Insertion de données pour un angle de site plus élevé et carte,,,,,Operational,PDF
@@ -272,10 +272,10 @@ bufr4/0/25/124/0,025124,Indicateur de traitement de niveau 2 - MWR,0,Pourcentage
 bufr4/0/25/124/1,025124,Indicateur de traitement de niveau 2 - MWR,1,Pourcentage des DSR exempts d'erreurs de traitement de niveau 2 inférieur au seuil acceptable,,,,,Operational,PDF
 bufr4/0/25/124/2,025124,Indicateur de traitement de niveau 2 - MWR,2,En réserve,,,,,Operational,PDF
 bufr4/0/25/124/3,025124,Indicateur de traitement de niveau 2 - MWR,3,Valeur manquante,,,,,Operational,PDF
-bufr4/0/25/139/0,025139,Niveau de traitement,0,L1B,,,,,Operational,AI Translator: MCP
-bufr4/0/25/139/1,025139,Niveau de traitement,1,L2A,,,,,Operational,AI Translator: MCP
-bufr4/0/25/139/2-30,025139,Niveau de traitement,2-30,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/25/139/31,025139,Niveau de traitement,31,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/25/139/0,025139,Niveau de traitement,0,L1B,,,,,Operational,AI
+bufr4/0/25/139/1,025139,Niveau de traitement,1,L2A,,,,,Operational,AI
+bufr4/0/25/139/2-30,025139,Niveau de traitement,2-30,En réserve,,,,,Operational,AI
+bufr4/0/25/139/31,025139,Niveau de traitement,31,Valeur manquante,,,,,Operational,AI
 bufr4/0/25/150/1,025150,Méthode d'analyse de l'intensité du cyclone tropical par les images de satellite,1,Analyse de l'intensité des images dans le visible selon la méthode de Dvorak,,,,,Operational,PDF
 bufr4/0/25/150/2,025150,Méthode d'analyse de l'intensité du cyclone tropical par les images de satellite,2,Analyse de l'intensité des images rehaussées dans l'infrarouge selon la méthode de Dvorak,,,,,Operational,PDF
 bufr4/0/25/150/3-14,025150,Méthode d'analyse de l'intensité du cyclone tropical par les images de satellite,3-14,En réserve,,,,,Operational,PDF
@@ -316,7 +316,7 @@ bufr4/0/25/188/2,025188,Méthode employée pour ramener la pression au niveau de
 bufr4/0/25/188/3,025188,Méthode employée pour ramener la pression au niveau de la mer,3,Pression ajustée au niveau local de l'eau conformément aux pratiques nationales,,,,,Operational,PDF
 bufr4/0/25/188/4,025188,Méthode employée pour ramener la pression au niveau de la mer,4,Pression non corrigée pour tenir compte de l'altitude,,,,,Operational,PDF
 bufr4/0/25/188/5-14,025188,Méthode employée pour ramener la pression au niveau de la mer,5-14,En réserve,,,,,Operational,PDF
-bufr4/0/25/188/15,025188,Méthode employée pour ramener la pression au niveau de la mer,15,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/25/188/15,025188,Méthode employée pour ramener la pression au niveau de la mer,15,Valeur manquante,,,,,Operational,AI
 bufr4/0/25/190/0,025190,Mode de traitement de l'écho de l'altimètre,0,Mode basse résolution (LRM),,,,,Operational,PDF
 bufr4/0/25/190/1,025190,Mode de traitement de l'écho de l'altimètre,1,Radar à ouverture synthétique,,,,,Operational,PDF
 bufr4/0/25/190/2,025190,Mode de traitement de l'écho de l'altimètre,2,Mode basse résolution et radar à ouverture synthétique (entrelacés),,,,,Operational,PDF
