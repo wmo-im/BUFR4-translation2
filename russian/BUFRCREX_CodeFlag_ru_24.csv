@@ -1,0 +1,7 @@
+ID,FXY,ElementName_ru,CodeFigure,EntryName_ru,EntryName_sub1_ru,EntryName_sub2_ru,Note_ru,noteIDs,Status,translation_source
+bufr4/0/24/003/0,024003,Состав выброса,0,Инертные газы,,,,,Operational,PDF
+bufr4/0/24/003/1,024003,Состав выброса,1,Соединения йода,,,,,Operational,PDF
+bufr4/0/24/003/2,024003,Состав выброса,2,Соединения цезия,,,,,Operational,PDF
+bufr4/0/24/003/3,024003,Состав выброса,3,Трансурановые соединения,,,,,Operational,PDF
+bufr4/0/24/003/4-30,024003,Состав выброса,4-30,Зарезервированы,,,,,Operational,PDF
+bufr4/0/24/003/31,024003,Состав выброса,31,Отсутствующее значение,,,,,Operational,PDF
