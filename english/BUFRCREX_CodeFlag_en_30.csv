@@ -1,7 +1,7 @@
 ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
 bufr4/0/30/031/0,030031,Picture type,0,PPI,,,,,Operational,PDF
 bufr4/0/30/031/1,030031,Picture type,1,Composite,,,,,Operational,PDF
-bufr4/0/30/031/2,030031,Picture type,2,CAPPl,,,,,Operational,PDF
+bufr4/0/30/031/2,030031,Picture type,2,CAPPI,,,,,Operational,PDF
 bufr4/0/30/031/3,030031,Picture type,3,Vertical section,,,,,Operational,PDF
 bufr4/0/30/031/4,030031,Picture type,4,Alphanumeric data,,,,,Operational,PDF
 bufr4/0/30/031/5,030031,Picture type,5,Map of subject clutter,,,,,Operational,PDF
