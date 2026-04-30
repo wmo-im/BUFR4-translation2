@@ -36,7 +36,7 @@ bufr4/0/20/003/28,020003,Temps présent,28,Brouillard ou brouillard glacé,,,,,O
 bufr4/0/20/003/29,020003,Temps présent,29,Orage (avec ou sans précipitations),,,,,Operational,PDF
 bufr4/0/20/003//6,020003,Temps présent,,"30-39 Tempête de poussière, tempête de sable, chasse-neige basse ou élevée",,,,,Operational,PDF
 bufr4/0/20/003/30,020003,Temps présent,30,Tempête de poussière ou de sable faible ou modérée,a diminué au cours de l'heure précédente,,,,Operational,PDF
-bufr4/0/20/003/31,020003,Temps présent,31,Tempête de poussière ou de sable faible ou modérée,sans changement appréciable au cours de l'heure précédente,,,,,PDF
+bufr4/0/20/003/31,020003,Temps présent,31,Tempête de poussière ou de sable faible ou modérée,sans changement appréciable au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/32,020003,Temps présent,32,Tempête de poussière ou de sable faible ou modérée,a débuté ou a augmenté au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/33,020003,Temps présent,33,Violente tempête de poussière ou de sable,a diminué au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/34,020003,Temps présent,34,Violente tempête de poussière ou de sable,sans changement appréciable au cours de l'heure précédente,,,,Operational,PDF
@@ -72,7 +72,7 @@ bufr4/0/20/003//10,020003,Temps présent,,60-69 Pluie,,,,,Operational,PDF
 bufr4/0/20/003/60,020003,Temps présent,60,"Pluie, sans congélation, intermittente",faible au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/61,020003,Temps présent,61,"Pluie, sans congélation, continue",faible au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/62,020003,Temps présent,62,"Pluie, sans congélation, intermittente",modérée au moment de l'observation,,,,Operational,PDF
-bufr4/0/20/003/63,020003,Temps présent,63,"Pluie, sans congélation, continue",modérée au moment de l'observation,,,,,PDF
+bufr4/0/20/003/63,020003,Temps présent,63,"Pluie, sans congélation, continue",modérée au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/64,020003,Temps présent,64,"Pluie, sans congélation, intermittente",forte au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/65,020003,Temps présent,65,"Pluie, sans congélation, continue",forte au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/66,020003,Temps présent,66,"Pluie, se congelant, faible",,,,,Operational,PDF
