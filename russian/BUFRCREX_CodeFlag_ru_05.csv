@@ -1,0 +1,5 @@
+ID,FXY,ElementName_ru,CodeFigure,EntryName_ru,EntryName_sub1_ru,EntryName_sub2_ru,Note_ru,noteIDs,Status,translation_source
+bufr4/0/05/069/0,005069,Канал приема,0,Ми,,,,,Operational,PDF
+bufr4/0/05/069/1,005069,Канал приема,1,Рэлей,,,,,Operational,PDF
+bufr4/0/05/069/2,005069,Канал приема,2,Зарезервировано,,,,,Operational,PDF
+bufr4/0/05/069/3,005069,Канал приема,3,Отсутствующее значение,,,,,Operational,PDF

@@ -1,0 +1,34 @@
+ID,CodeFigure,Meaning_ru,Status,translation_source
+bufr4/a/0,0,Приземные данные — суша,Operational,PDF
+bufr4/a/1,1,Приземные данные — море,Operational,PDF
+bufr4/a/2,2,Данные вертикального зондирования (отличные от данных спутникового зондирования),Operational,PDF
+bufr4/a/3,3,Данные вертикального зондирования (спутниковые),Operational,PDF
+bufr4/a/4,4,Аэрологические данные по одному уровню (отличные от спутников),Operational,PDF
+bufr4/a/5,5,Аэрологические данные по одному уровню (спутниковые),Operational,PDF
+bufr4/a/6,6,Радиолокационные данные,Operational,PDF
+bufr4/a/7,7,Синоптические характеристики,Operational,PDF
+bufr4/a/8,8,Физические/химические составляющие,Operational,PDF
+bufr4/a/9,9,Рассеивание и перенос,Operational,PDF
+bufr4/a/10,10,Радиологические данные,Operational,PDF
+bufr4/a/11,11,"Таблицы кода BUFR, полная замена или корректировка",Operational,PDF
+bufr4/a/12,12,Приземные данные (спутниковые),Operational,PDF
+bufr4/a/13,13,Прогнозы,Operational,PDF
+bufr4/a/14,14,Предупреждения,Operational,PDF
+bufr4/a/15–19,15–19,Зарезервированы,Operational,PDF
+bufr4/a/20,20,Информация о статусе,Operational,PDF
+bufr4/a/21,21,Радиация (измерена со спутника),Operational,PDF
+bufr4/a/22,22,"Радиолокатор (спутниковый), а не альтиметр и скаттерометр",Operational,PDF
+bufr4/a/23,23,Лидар (спутниковый),Operational,PDF
+bufr4/a/24,24,Скатерометрия (спутниковая),Operational,PDF
+bufr4/a/25,25,Альтиметрия (спутниковая),Operational,PDF
+bufr4/a/26,26,Спектрометрия (спутниковая),Operational,PDF
+bufr4/a/27,27,Гравиметрическое измерение (спутниковое),Operational,PDF
+bufr4/a/28,28,Точные параметры орбиты (спутника),Operational,PDF
+bufr4/a/29,29,Космическая среда (спутниковые данные),Operational,PDF
+bufr4/a/30,30,Комплекты данных калибровки (спутниковых),Operational,PDF
+bufr4/a/31,31,Океанографические данные,Operational,PDF
+bufr4/a/33–100,33–100,Зарезервированы,Operational,PDF
+bufr4/a/101,101,Данные изображения (спутникового),Operational,PDF
+bufr4/a/102–239,102–239,Зарезервированы,Operational,PDF
+bufr4/a/240–254,240–254,Для экспериментального использования,Operational,PDF
+bufr4/a/255,255,Иная категория,Operational,PDF

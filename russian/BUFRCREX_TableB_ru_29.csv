@@ -1,0 +1,4 @@
+ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
+bufr4/0/29/001,29,Данные на карте в BUFR/CREX,029001,Тип проекции,Кодовая таблица,0,0,3,Кодовая таблица,0,1,,,Operational,PDF
+bufr4/0/29/002,29,Данные на карте в BUFR/CREX,029002,Тип сетки координат,Кодовая таблица,0,0,3,Кодовая таблица,0,1,,,Operational,PDF
+bufr4/0/29/014,29,Данные на карте в BUFR/CREX,029014,Факультативный перечень параметров для внешней библиотеки картографических проекций,CCITT IA5,0,0,504,Символ,0,63,,,Operational,PDF

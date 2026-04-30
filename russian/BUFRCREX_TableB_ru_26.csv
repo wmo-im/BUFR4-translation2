@@ -1,0 +1,10 @@
+﻿ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
+bufr4/0/26/001,26,Бескоординатное местоположение (время) в BUFR/CREX,026001,Основной срок суточной максимальной температуры в ВСВ,h,1,0,12,h,1,3,,,Operational,PDF
+bufr4/0/26/002,26,Бескоординатное местоположение (время) в BUFR/CREX,026002,Основной срок суточной минимальной температуры в ВСВ,h,1,0,12,h,1,3,,,Operational,PDF
+bufr4/0/26/003,26,Бескоординатное местоположение (время) в BUFR/CREX,026003,Разница во времени,min,0,-1440,12,min,0,4,(см. примечание),58,Operational,PDF
+bufr4/0/26/010,26,Бескоординатное местоположение (время) в BUFR/CREX,026010,Включенные часы,Таблица флагов,0,0,26,Таблица флагов,0,9,,,Operational,PDF
+bufr4/0/26/020,26,Бескоординатное местоположение (время) в BUFR/CREX,026020,Продолжительность осадков,min,0,0,11,min,0,4,,,Operational,PDF
+bufr4/0/26/021,26,Бескоординатное местоположение (время) в BUFR/CREX,026021,Год,a,0,0,12,a,0,4,,,Operational,PDF
+bufr4/0/26/022,26,Бескоординатное местоположение (время) в BUFR/CREX,026022,Месяц,mon,0,0,4,mon,0,2,,,Operational,PDF
+bufr4/0/26/023,26,Бескоординатное местоположение (время) в BUFR/CREX,026023,День,d,0,0,6,d,0,2,,,Operational,PDF
+bufr4/0/26/030,26,Бескоординатное местоположение (время) в BUFR/CREX,026030,Время интеграции измерения,s,2,0,8,s,2,3,,,Operational,PDF
