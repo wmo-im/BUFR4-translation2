@@ -1,26 +1,26 @@
 ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
-bufr4/0/30/031/0,030031,Picture type,0,PPI,,,,,Operational,PDF
-bufr4/0/30/031/1,030031,Picture type,1,Composite,,,,,Operational,PDF
-bufr4/0/30/031/2,030031,Picture type,2,CAPPI,,,,,Operational,PDF
-bufr4/0/30/031/3,030031,Picture type,3,Vertical section,,,,,Operational,PDF
-bufr4/0/30/031/4,030031,Picture type,4,Alphanumeric data,,,,,Operational,PDF
-bufr4/0/30/031/5,030031,Picture type,5,Map of subject clutter,,,,,Operational,PDF
-bufr4/0/30/031/6,030031,Picture type,6,Map,,,,,Operational,PDF
-bufr4/0/30/031/7,030031,Picture type,7,Test picture,,,,,Operational,PDF
-bufr4/0/30/031/8,030031,Picture type,8,Comments,,,,,Operational,PDF
-bufr4/0/30/031/9,030031,Picture type,9,Map of ground occultation,,,,,Operational,PDF
-bufr4/0/30/031/10,030031,Picture type,10,Map of radar beam height,,,,,Operational,PDF
-bufr4/0/30/031/11-13,030031,Picture type,11-13,Reserved,,,,,Operational,PDF
-bufr4/0/30/031/14,030031,Picture type,14,Other,,,,,Operational,PDF
-bufr4/0/30/031/15,030031,Picture type,15,Missing value,,,,,Operational,PDF
-bufr4/0/30/032/1,030032,Combination with other data,1,Map,,,,,Operational,PDF
-bufr4/0/30/032/2,030032,Combination with other data,2,Satellite IR,,,,,Operational,PDF
-bufr4/0/30/032/3,030032,Combination with other data,3,Satellite VIS,,,,,Operational,PDF
-bufr4/0/30/032/4,030032,Combination with other data,4,Satellite WV,,,,,Operational,PDF
-bufr4/0/30/032/5,030032,Combination with other data,5,Satellite multispectral,,,,,Operational,PDF
-bufr4/0/30/032/6,030032,Combination with other data,6,Synoptic observations,,,,,Operational,PDF
-bufr4/0/30/032/7,030032,Combination with other data,7,Forecast parameters,,,,,Operational,PDF
-bufr4/0/30/032/8,030032,Combination with other data,8,Lightning data,,,,,Operational,PDF
-bufr4/0/30/032/9-14,030032,Combination with other data,9-14,Reserved,,,,,Operational,PDF
-bufr4/0/30/032/15,030032,Combination with other data,15,Other data,,,,,Operational,PDF
-bufr4/0/30/032/All-16,030032,Combination with other data,All 16,Missing value,,,,,Operational,PDF
+bufr4/0/30/031/0,030031,Picture type,0,PPI,,,,,Operational,na
+bufr4/0/30/031/1,030031,Picture type,1,Composite,,,,,Operational,na
+bufr4/0/30/031/2,030031,Picture type,2,CAPPI,,,,,Operational,na
+bufr4/0/30/031/3,030031,Picture type,3,Vertical section,,,,,Operational,na
+bufr4/0/30/031/4,030031,Picture type,4,Alphanumeric data,,,,,Operational,na
+bufr4/0/30/031/5,030031,Picture type,5,Map of subject clutter,,,,,Operational,na
+bufr4/0/30/031/6,030031,Picture type,6,Map,,,,,Operational,na
+bufr4/0/30/031/7,030031,Picture type,7,Test picture,,,,,Operational,na
+bufr4/0/30/031/8,030031,Picture type,8,Comments,,,,,Operational,na
+bufr4/0/30/031/9,030031,Picture type,9,Map of ground occultation,,,,,Operational,na
+bufr4/0/30/031/10,030031,Picture type,10,Map of radar beam height,,,,,Operational,na
+bufr4/0/30/031/11-13,030031,Picture type,11-13,Reserved,,,,,Operational,na
+bufr4/0/30/031/14,030031,Picture type,14,Other,,,,,Operational,na
+bufr4/0/30/031/15,030031,Picture type,15,Missing value,,,,,Operational,na
+bufr4/0/30/032/1,030032,Combination with other data,1,Map,,,,,Operational,na
+bufr4/0/30/032/2,030032,Combination with other data,2,Satellite IR,,,,,Operational,na
+bufr4/0/30/032/3,030032,Combination with other data,3,Satellite VIS,,,,,Operational,na
+bufr4/0/30/032/4,030032,Combination with other data,4,Satellite WV,,,,,Operational,na
+bufr4/0/30/032/5,030032,Combination with other data,5,Satellite multispectral,,,,,Operational,na
+bufr4/0/30/032/6,030032,Combination with other data,6,Synoptic observations,,,,,Operational,na
+bufr4/0/30/032/7,030032,Combination with other data,7,Forecast parameters,,,,,Operational,na
+bufr4/0/30/032/8,030032,Combination with other data,8,Lightning data,,,,,Operational,na
+bufr4/0/30/032/9-14,030032,Combination with other data,9-14,Reserved,,,,,Operational,na
+bufr4/0/30/032/15,030032,Combination with other data,15,Other data,,,,,Operational,na
+bufr4/0/30/032/All-16,030032,Combination with other data,All 16,Missing value,,,,,Operational,na
