@@ -5,4 +5,4 @@ bufr4/0/31/002,31,Data description operator qualifiers,031002,Extended delayed d
 bufr4/0/31/011,31,Data description operator qualifiers,031011,Delayed descriptor and data repetition factor,Numeric,0,0,8,,,,(see Note 1),127,Operational,na
 bufr4/0/31/012,31,Data description operator qualifiers,031012,Extended delayed descriptor and data repetition factor,Numeric,0,0,16,,,,,,Operational,na
 bufr4/0/31/021,31,Data description operator qualifiers,031021,Associated field significance,Code table,0,0,6,,,,,,Operational,na
-bufr4/0/31/031,31,Data description operator qualifiers,031031,Data present indicator,Flag table,0,0,1,,,,(see Notes 2 and 3) ,"59,113",Operational,na
+bufr4/0/31/031,31,Data description operator qualifiers,031031,Data present indicator,Flag table,0,0,1,,,,(see Notes 2 and 3),"59,113",Operational,na

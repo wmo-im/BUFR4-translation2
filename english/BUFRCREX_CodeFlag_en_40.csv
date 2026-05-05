@@ -129,7 +129,7 @@ bufr4/0/40/049/14,040049,Cloud tests executed and results,14,IASI Window cloud t
 bufr4/0/40/049/15,040049,Cloud tests executed and results,15,IASI Window cloud test executed,,,,,Operational,na
 bufr4/0/40/049/All-16,040049,Cloud tests executed and results,All 16,Missing value,,,,,Operational,na
 bufr4/0/40/050/1-4,040050,Retrieval initialisation,1-4,Reserved,,,,,Operational,na
-bufr4/0/40/050/5,040050,Retrieval initialisation,5,MHS included ,,,,,Operational,na
+bufr4/0/40/050/5,040050,Retrieval initialisation,5,MHS included,,,,,Operational,na
 bufr4/0/40/050/6,040050,Retrieval initialisation,6,AMSU included,,,,,Operational,na
 bufr4/0/40/050/7,040050,Retrieval initialisation,7,IASI included,,,,,Operational,na
 bufr4/0/40/050/All-8,040050,Retrieval initialisation,All 8,Missing value,,,,,Operational,na

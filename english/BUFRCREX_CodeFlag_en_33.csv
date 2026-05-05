@@ -237,8 +237,8 @@ bufr4/0/33/042/2,033042,Type of limit represented by following value,2,Exclusive
 bufr4/0/33/042/3,033042,Type of limit represented by following value,3,Inclusive upper limit (=<),,,,,Operational,na
 bufr4/0/33/042/4-6,033042,Type of limit represented by following value,4-6,Reserved,,,,,Operational,na
 bufr4/0/33/042/7,033042,Type of limit represented by following value,7,Missing value,,,,,Operational,na
-bufr4/0/33/043/1,033043,AST confidence,1,Sea MDS.  Nadir only SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational,na
-bufr4/0/33/043/2,033043,AST confidence,2,Sea MDS.  Dual view SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational,na
+bufr4/0/33/043/1,033043,AST confidence,1,Sea MDS. Nadir only SST retrieval used 3.7 micron channel. Land MDS reserved,,,,,Operational,na
+bufr4/0/33/043/2,033043,AST confidence,2,Sea MDS. Dual view SST retrieval used 3.7 micron channel. Land MDS reserved,,,,,Operational,na
 bufr4/0/33/043/3,033043,AST confidence,3,Nadir view contains day time data,,,,,Operational,na
 bufr4/0/33/043/4,033043,AST confidence,4,Forward view contains day time data,,,,,Operational,na
 bufr4/0/33/043/5-7,033043,AST confidence,5-7,Reserved,,,,,Operational,na
@@ -263,7 +263,7 @@ bufr4/0/33/047/2,033047,Measurement confidence data,2,Anomaly in on-board data h
 bufr4/0/33/047/3,033047,Measurement confidence data,3,Anomaly in ultra stable oscillator processing (USOP) value detected,,,,,Operational,na
 bufr4/0/33/047/4,033047,Measurement confidence data,4,Errors detected by on-board computer,,,,,Operational,na
 bufr4/0/33/047/5,033047,Measurement confidence data,5,Automatic gain control (AGC) out of range,,,,,Operational,na
-bufr4/0/33/047/6,033047,Measurement confidence data,6,Reception (Rx) delay fault.  Rx distance out of range,,,,,Operational,na
+bufr4/0/33/047/6,033047,Measurement confidence data,6,Reception (Rx) delay fault. Rx distance out of range,,,,,Operational,na
 bufr4/0/33/047/7,033047,Measurement confidence data,7,Wave form samples fault identifier. Error,,,,,Operational,na
 bufr4/0/33/047/8,033047,Measurement confidence data,8,S band anomaly/error detected,,,,,Operational,na
 bufr4/0/33/047/9-11,033047,Measurement confidence data,9-11,Reserved,,,,,Operational,na
@@ -306,7 +306,7 @@ bufr4/0/33/050/8,033050,Global GTSPP quality flag,8,Interpolated value,,,,,Opera
 bufr4/0/33/050/9,033050,Global GTSPP quality flag,9,Good for operational use; Caution; check literature for other uses,,,,,Operational,na
 bufr4/0/33/050/10-14,033050,Global GTSPP quality flag,10-14,Reserved,,,,,Operational,na
 bufr4/0/33/050/15,033050,Global GTSPP quality flag,15,Missing value,,,,,Operational,na
-bufr4/0/33/052/1-20,033052,S band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid).  Bit 1 applies to the 20th data block",,,,,Operational,na
+bufr4/0/33/052/1-20,033052,S band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid). Bit 1 applies to the 20th data block",,,,,Operational,na
 bufr4/0/33/052/All-21,033052,S band ocean retracking quality,All 21,Missing value,,,,,Operational,na
 bufr4/0/33/053/1-20,033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,,Operational,na
 bufr4/0/33/053/All-21,033053,Ku band ocean retracking quality,All 21,Missing value,,,,,Operational,na

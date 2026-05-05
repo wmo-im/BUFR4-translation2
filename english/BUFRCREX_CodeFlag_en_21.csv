@@ -47,7 +47,7 @@ bufr4/0/21/069/7,021069,SST product confidence data,7,Sun glint detected by 1.6 
 bufr4/0/21/069/8,021069,SST product confidence data,8,3.7 micron channel used in sea-surface temperature retrieval,,,,,Operational,na
 bufr4/0/21/069/9,021069,SST product confidence data,9,Sea-surface temperature derivation used daytime data (night-time if zero),,,,,Operational,na
 bufr4/0/21/069/All-10,021069,SST product confidence data,All 10,Missing value,,,,,Operational,na
-bufr4/0/21/070//1,021070,SST product confidence data (SADIST-2),,1-9   Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational,na
+bufr4/0/21/070//1,021070,SST product confidence data (SADIST-2),,1-9 Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational,na
 bufr4/0/21/070/1,021070,SST product confidence data (SADIST-2),1,Cell 1: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/2,021070,SST product confidence data (SADIST-2),2,Cell 2: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/3,021070,SST product confidence data (SADIST-2),3,Cell 3: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
@@ -57,7 +57,7 @@ bufr4/0/21/070/6,021070,SST product confidence data (SADIST-2),6,Cell 6: nadir-o
 bufr4/0/21/070/7,021070,SST product confidence data (SADIST-2),7,Cell 7: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/8,021070,SST product confidence data (SADIST-2),8,Cell 8: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/9,021070,SST product confidence data (SADIST-2),9,Cell 9: nadir-only view SST used 3.7 micron channel,,,,,Operational,na
-bufr4/0/21/070//2,021070,SST product confidence data (SADIST-2),,10-18   Dual view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational,na
+bufr4/0/21/070//2,021070,SST product confidence data (SADIST-2),,10-18 Dual view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational,na
 bufr4/0/21/070/10,021070,SST product confidence data (SADIST-2),10,Cell 1: dual view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/11,021070,SST product confidence data (SADIST-2),11,Cell 2: dual view SST used 3.7 micron channel,,,,,Operational,na
 bufr4/0/21/070/12,021070,SST product confidence data (SADIST-2),12,Cell 3: dual view SST used 3.7 micron channel,,,,,Operational,na

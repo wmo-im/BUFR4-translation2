@@ -1235,7 +1235,7 @@ bufr4/3/10/078/4/002020,10,Vertical sounding sequences (satellite data),310078,(
 bufr4/3/10/078/5/001033,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001033,Identification of originating/generating centre,,,,Operational,na
 bufr4/3/10/078/6/001034,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001034,Identification of originating/generating sub-centre,,,,Operational,na
 bufr4/3/10/078/7/301011,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,301011,"Year, month, day",,,,Operational,na
-bufr4/3/10/078/8/301013,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,301013,"Hour, minute, second ",,,,Operational,na
+bufr4/3/10/078/8/301013,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,301013,"Hour, minute, second",,,,Operational,na
 bufr4/3/10/078/9/005040,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005040,Orbit number,,,,Operational,na
 bufr4/3/10/078/10/201132,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,201132,Change data width,,,,Operational,na
 bufr4/3/10/078/11/005041,10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005041,Scan line number,,,,Operational,na
@@ -2241,8 +2241,8 @@ bufr4/3/10/191/30/025182,10,Vertical sounding sequences (satellite data),310191,
 bufr4/3/10/191/31/002165,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,002165,Radiance type flags,,,,Operational,na
 bufr4/3/10/191/32/108002,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,108002,Replicate 8 descriptors 2 times,,,,Operational,na
 bufr4/3/10/191/33/008076,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,008076,Type of band,,,,Operational,na
-bufr4/3/10/191/34/006029,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,006029,Wave number, Start of range,,,Operational,na
-bufr4/3/10/191/35/006029,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,006029,Wave number, End of range,,,Operational,na
+bufr4/3/10/191/34/006029,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,006029,Wave number,Start of range,,,Operational,na
+bufr4/3/10/191/35/006029,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,006029,Wave number,End of range,,,Operational,na
 bufr4/3/10/191/36/025140,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,025140,Start channel,,,,Operational,na
 bufr4/3/10/191/37/025141,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,025141,End channel,,,,Operational,na
 bufr4/3/10/191/38/033076,10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,033076,Calibration quality flags,,,,Operational,na

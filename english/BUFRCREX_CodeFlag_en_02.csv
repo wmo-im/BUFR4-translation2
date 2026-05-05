@@ -695,9 +695,9 @@ bufr4/0/02/146/15,002146,Source conditions for Dobson instruments,15,Missing val
 bufr4/0/02/147/0,002147,Method of transmission to collection centre,0,Reserved,,,,,Operational,na
 bufr4/0/02/147/1,002147,Method of transmission to collection centre,1,Direct leased circuit,,,,,Operational,na
 bufr4/0/02/147/2,002147,Method of transmission to collection centre,2,Dialled up connection,,,,,Operational,na
-bufr4/0/02/147/3,002147,Method of transmission to collection centre,3,Internet ISP ,,,,,Operational,na
+bufr4/0/02/147/3,002147,Method of transmission to collection centre,3,Internet ISP,,,,,Operational,na
 bufr4/0/02/147/4,002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,,Operational,na
-bufr4/0/02/147/5,002147,Method of transmission to collection centre,5,VSAT ,,,,,Operational,na
+bufr4/0/02/147/5,002147,Method of transmission to collection centre,5,VSAT,,,,,Operational,na
 bufr4/0/02/147/6,002147,Method of transmission to collection centre,6,"GAN, BGAN",,,,,Operational,na
 bufr4/0/02/147/7,002147,Method of transmission to collection centre,7,Thiss terminal,,,,,Operational,na
 bufr4/0/02/147/8,002147,Method of transmission to collection centre,8,Iridium satellites,,,,,Operational,na

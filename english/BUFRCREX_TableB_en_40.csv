@@ -54,7 +54,7 @@ bufr4/0/40/052,40,Satellite data,040052,Indication of super-adiabatic and super-
 bufr4/0/40/053,40,Satellite data,040053,Number of iterations used for retrieval,Numeric,0,0,8,Numeric,0,3,,,Operational,na
 bufr4/0/40/054,40,Satellite data,040054,Potential processing and inputs errors,Flag table,0,0,13,Flag table,0,4,,,Operational,na
 bufr4/0/40/055,40,Satellite data,040055,Diagnostics on the retrieval,Flag table,0,0,21,Flag table,0,7,,,Operational,na
-bufr4/0/40/056,40,Satellite data,040056,General retrieval quality,Code table ,0,0,3,Code table,0,1,,,Operational,na
+bufr4/0/40/056,40,Satellite data,040056,General retrieval quality,Code table,0,0,3,Code table,0,1,,,Operational,na
 bufr4/0/40/057,40,Satellite data,040057,IASI level 2 retrieval flags,Flag table,0,0,31,Flag table,0,10,,,Operational,na
 bufr4/0/40/058,40,Satellite data,040058,Number of vectors describing the characterization matrices,Numeric,0,0,8,Numeric,0,3,,,Operational,na
 bufr4/0/40/059,40,Satellite data,040059,Number of layers actually retrieved,Numeric,0,0,8,Numeric,0,3,,,Operational,na

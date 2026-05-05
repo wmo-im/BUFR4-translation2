@@ -98,7 +98,7 @@ bufr4/0/25/031/0,025031,NWP-generated vertical profile thinning method,0,Reserve
 bufr4/0/25/031/1,025031,NWP-generated vertical profile thinning method,1,No thinning applied (all native model levels are included from base to top of pseudo-sounding),,,,,Operational,na
 bufr4/0/25/031/2,025031,NWP-generated vertical profile thinning method,2,Native model levels are present only if they are significant levels as per regulations B/C 25 for conventional TEMP soundings,,,,,Operational,na
 bufr4/0/25/031/3,025031,NWP-generated vertical profile thinning method,3,A predefined subset of native model levels is present,,,,,Operational,na
-bufr4/0/25/031/4,025031,NWP-generated vertical profile thinning method,4,No native model levels are present.  All profile levels are interpolated to a predefined set of pressure coordinate levels,,,,,Operational,na
+bufr4/0/25/031/4,025031,NWP-generated vertical profile thinning method,4,No native model levels are present. All profile levels are interpolated to a predefined set of pressure coordinate levels,,,,,Operational,na
 bufr4/0/25/031/5-6,025031,NWP-generated vertical profile thinning method,5-6,Reserved,,,,,Operational,na
 bufr4/0/25/031/7,025031,NWP-generated vertical profile thinning method,7,Missing value,,,,,Operational,na
 bufr4/0/25/032/0,025032,Wind profiler mode information,0,Reserved,,,,,Operational,na
@@ -203,7 +203,7 @@ bufr4/0/25/093/All-8,025093,RASS computation correction,All 8,Missing value,,,,,
 bufr4/0/25/095/1,025095,Altimeter state flag,1,"Altimeter operating (0 if nominal, 1 if backup)",,,,,Operational,na
 bufr4/0/25/095/All-2,025095,Altimeter state flag,All 2,Missing value,,,,,Operational,na
 bufr4/0/25/096/1,025096,Radiometer state flag,1,"Mode indicator (0 if mode 2, 1 if mode 1)",,,,,Operational,na
-bufr4/0/25/096/2,025096,Radiometer state flag,2,"Mode 1 calibration sequence indicator (0 if normal data taking either mode 1 or 2, 1 if mode 1 calibration sequence)  Bits 3 and 4 indicate active 23.8 GHz channel(s):",,,,,Operational,na
+bufr4/0/25/096/2,025096,Radiometer state flag,2,"Mode 1 calibration sequence indicator (0 if normal data taking either mode 1 or 2, 1 if mode 1 calibration sequence) Bits 3 and 4 indicate active 23.8 GHz channel(s):",,,,,Operational,na
 bufr4/0/25/096/3,025096,Radiometer state flag,3,"Channel 2 (0 if on, 1 if off)",,,,,Operational,na
 bufr4/0/25/096/4,025096,Radiometer state flag,4,"Channel 3 (0 if on, 1 if off)",,,,,Operational,na
 bufr4/0/25/096/All-5,025096,Radiometer state flag,All 5,Missing value,,,,,Operational,na
@@ -323,9 +323,9 @@ bufr4/0/25/190/2,025190,Altimeter echo processing mode,2,LRM and SAR (interleave
 bufr4/0/25/190/3,025190,Altimeter echo processing mode,3,Reserved,,,,,Operational,na
 bufr4/0/25/190/4,025190,Altimeter echo processing mode,4,Pseudo-LRM (PLRM),,,,,Operational,na
 bufr4/0/25/190/5,025190,Altimeter echo processing mode,5,SAR interferometric mode (SARIN),,,,,Operational,na
-bufr4/0/25/190/6-254,025190,Altimeter echo processing mode,6-254,Reserved ,,,,,Operational,na
+bufr4/0/25/190/6-254,025190,Altimeter echo processing mode,6-254,Reserved,,,,,Operational,na
 bufr4/0/25/190/255,025190,Altimeter echo processing mode,255,Missing value,,,,,Operational,na
-bufr4/0/25/191/0,025191,Altimeter tracking mode,0,Open  loop ,,,,,Operational,na
+bufr4/0/25/191/0,025191,Altimeter tracking mode,0,Open loop,,,,,Operational,na
 bufr4/0/25/191/1,025191,Altimeter tracking mode,1,Closed loop,,,,,Operational,na
 bufr4/0/25/191/2,025191,Altimeter tracking mode,2,Open loop fixed gain,,,,,Operational,na
 bufr4/0/25/191/3-254,025191,Altimeter tracking mode,3-254,Reserved,,,,,Operational,na

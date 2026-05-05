@@ -17,7 +17,7 @@ bufr4/0/07/025,07,Ubicación (vertical),007025,Ángulo cenital del sol,°,2,-900
 bufr4/0/07/026,07,Ubicación (vertical),007026,Ángulo cenital del satélite,°,4,-900000,21,°,4,7,,,Operational,PDF
 bufr4/0/07/030,07,Ubicación (vertical),007030,Altura del suelo de la estación sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 3),87,Operational,PDF
 bufr4/0/07/031,07,Ubicación (vertical),007031,Altura del barómetro sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 4),84,Operational,PDF
-bufr4/0/07/032,07,Ubicación (vertical),007032,Altura del sensor sobre el suelo local  (véase la nota 5),m,2,0,16,m,2,5,(o la cubierta de la plataforma marina),85,Operational,PDF
+bufr4/0/07/032,07,Ubicación (vertical),007032,Altura del sensor sobre el suelo local (véase la nota 5),m,2,0,16,m,2,5,(o la cubierta de la plataforma marina),85,Operational,PDF
 bufr4/0/07/033,07,Ubicación (vertical),007033,Altura del sensor sobre la superficie del agua,m,1,0,12,m,1,4,(véase la nota 6),86,Operational,PDF
 bufr4/0/07/035,07,Ubicación (vertical),007035,Tamaño máximo de la dimensión z,Numérica,0,0,12,Numérica,0,4,,,Operational,PDF
 bufr4/0/07/036,07,Ubicación (vertical),007036,Índice del nivel de z,Numérica,0,0,12,Numérica,0,4,,,Operational,PDF
