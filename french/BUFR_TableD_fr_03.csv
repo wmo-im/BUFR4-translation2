@@ -15,10 +15,10 @@ bufr4/3/03/004/3/012001,03,Séquences météorologiques communes aux données de
 bufr4/3/03/004/4/012003,03,Séquences météorologiques communes aux données de sondages verticaux,303004,,,012003,Température du point de rosée,,,,Operational,PDF
 bufr4/3/03/004/5/011001,03,Séquences météorologiques communes aux données de sondages verticaux,303004,,,011001,Direction du vent,,,,Operational,PDF
 bufr4/3/03/004/6/011002,03,Séquences météorologiques communes aux données de sondages verticaux,303004,,,011002,Vitesse du vent,,,,Operational,PDF
-bufr4/3/03/011/1/007003,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle)),,007003,Géopotentiel,,,,Operational,PDF
-bufr4/3/03/011/2/008001,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle)),,008001,Caractéristique correspondant à des données de sondage vertical,,,,Operational,PDF
-bufr4/3/03/011/3/011001,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle)),,011001,Direction du vent,,,,Operational,PDF
-bufr4/3/03/011/4/011002,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle)),,011002,Vitesse du vent,,,,Operational,PDF
+bufr4/3/03/011/1/007003,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle),,007003,Géopotentiel,,,,Operational,PDF
+bufr4/3/03/011/2/008001,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle),,008001,Caractéristique correspondant à des données de sondage vertical,,,,Operational,PDF
+bufr4/3/03/011/3/011001,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle),,011001,Direction du vent,,,,Operational,PDF
+bufr4/3/03/011/4/011002,03,Séquences météorologiques communes aux données de sondages verticaux,303011,(Vent à la hauteur (géopotentielle),,011002,Vitesse du vent,,,,Operational,PDF
 bufr4/3/03/012/1/007004,03,Séquences météorologiques communes aux données de sondages verticaux,303012,(Vent au niveau de pression),,007004,Pression,,,,Operational,PDF
 bufr4/3/03/012/2/008001,03,Séquences météorologiques communes aux données de sondages verticaux,303012,(Vent au niveau de pression),,008001,Caractéristique correspondant à des données de sondage vertical,,,,Operational,PDF
 bufr4/3/03/012/3/011001,03,Séquences météorologiques communes aux données de sondages verticaux,303012,(Vent au niveau de pression),,011001,Direction du vent,,,,Operational,PDF
@@ -173,3 +173,13 @@ bufr4/3/03/099/8/003004,03,Séquences météorologiques communes aux données de
 bufr4/3/03/099/9/003023,03,Séquences météorologiques communes aux données de sondages verticaux,303099,(Métadonnées communes aux capteurs de température/d'humidité),,003023,Configuration des persiennes de l'abri pour thermomètre/hygromètre,,,,Operational,PDF
 bufr4/3/03/099/10/003008,03,Séquences météorologiques communes aux données de sondages verticaux,303099,(Métadonnées communes aux capteurs de température/d'humidité),,003008,Abri ou protection avec ventilation artificielle,,,,Operational,PDF
 bufr4/3/03/099/11/003009,03,Séquences météorologiques communes aux données de sondages verticaux,303099,(Métadonnées communes aux capteurs de température/d'humidité),,003009,Volume de ventilation forcée au moment de l'observation,,,,Operational,PDF
+bufr4/3/03/100/1/013165,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013165,CAPE (énergie potentielle disponible convective),,((voir Note 4)),80,Operational,AI
+bufr4/3/03/100/2/013045,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013045,Indice KO,,,,Operational,AI
+bufr4/3/03/100/3/013166,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013166,Index des totaux totaux,,,,Operational,AI
+bufr4/3/03/100/4/013044,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013044,Indice K,,,,Operational,AI
+bufr4/3/03/100/5/013042,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013042,Indice de soulèvement d'une particule (à 500 hPa),,,,Operational,AI
+bufr4/3/03/100/6/013167,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013167,Indice S (STT),,,,Operational,AI
+bufr4/3/03/100/7/013168,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013168,Indice de menace de brouillard,,,,Operational,AI
+bufr4/3/03/100/8/013169,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013169,MDPI (indice de potentiel de journée de microburst),,,,Operational,AI
+bufr4/3/03/100/9/013170,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013170,Indice TQ,,,,Operational,AI
+bufr4/3/03/100/10/013171,03,Séquences météorologiques communes aux données de sondages verticaux,303100,(Indices de prévision),,013171,CIN (inhibition convective),,,,Operational,AI

@@ -18,6 +18,8 @@ bufr4/0/11/019,11,Vent et turbulence,011019,Stabilité du vent,%,0,0,7,%,0,3,(vo
 bufr4/0/11/021,11,Vent et turbulence,011021,Tourbillon relatif,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/022,11,Vent et turbulence,011022,Divergence,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/023,11,Vent et turbulence,011023,Vitesse potentielle,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational,PDF
+bufr4/0/11/024,11,Vent et turbulence,011024,Composante moyenne u après la suppression du vortex,m/s,1,-4096,13,m/s,0,0,,,Operational,AI
+bufr4/0/11/025,11,Vent et turbulence,011025,Composante moyenne v après la suppression du vortex,m/s,1,-4096,13,m/s,0,0,,,Operational,AI
 bufr4/0/11/030,11,Vent et turbulence,011030,Degré de turbulence détaillé,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/11/031,11,Vent et turbulence,011031,Degré de turbulence,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/11/032,11,Vent et turbulence,011032,Hauteur de la base de la turbulence,m,-1,-40,16,m,-1,5,,,Operational,PDF
@@ -53,6 +55,7 @@ bufr4/0/11/074,11,Vent et turbulence,011074,Énergie de dissipation,m2 s-2,2,-10
 bufr4/0/11/075,11,Vent et turbulence,011075,Intensité moyenne de la turbulence (taux de dissipation des tourbillons),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational,PDF
 bufr4/0/11/076,11,Vent et turbulence,011076,Intensité maximale de la turbulence (taux de dissipation des tourbillons),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational,PDF
 bufr4/0/11/077,11,Vent et turbulence,011077,Intervalle d'enregistrement ou temps moyen pour établir le taux de dissipation des tourbillons,s,0,0,12,s,0,4,,,Operational,PDF
+bufr4/0/11/080,11,Vent et turbulence,011080,Nombre de vues utilisées pour la récupération du vent,Numérique,0,0,3,,,,,,Operational,AI
 bufr4/0/11/081,11,Vent et turbulence,011081,Direction du vent à 10 m donnée par modèle,degré vrai,2,0,16,degré vrai,2,5,,,Operational,PDF
 bufr4/0/11/082,11,Vent et turbulence,011082,Vitesse du vent à 10 m donnée par modèle,m/s,2,0,14,m/s,2,4,,,Operational,PDF
 bufr4/0/11/083,11,Vent et turbulence,011083,Vitesse du vent,km/h,0,0,9,km/h,0,3,,,Operational,PDF

@@ -52,6 +52,7 @@ bufr4/0/25/052,25,Informations sur le traitement,025052,Log10 de l'ajustement no
 bufr4/0/25/053,25,Informations sur le traitement,025053,Qualité des observations,Table d'indicateurs,0,0,12,Table d'indicateurs,0,4,,,Operational,PDF
 bufr4/0/25/054,25,Informations sur le traitement,025054,Numéro d'identification de la sous-trame SSMIS,Numérique,0,0,5,Numérique,0,2,,,Operational,PDF
 bufr4/0/25/055,25,Informations sur le traitement,025055,Télémaintenance du multiplexeur,K,2,0,16,K,2,5,,,Operational,PDF
+bufr4/0/25/056,25,Informations sur le traitement,025056,Estimation d'erreur normalisée dans la mesure de rétrodiffusion (Kp),Numérique,4,0,14,Numérique,4,5,,,Operational,AI
 bufr4/0/25/060,25,Informations sur le traitement,025060,Identification du logiciel,Numérique,0,0,14,Numérique,0,5,(voir Note 2),131,Operational,PDF
 bufr4/0/25/061,25,Informations sur le traitement,025061,Identification du logiciel et numéro de version,CCITT IA5,0,0,96,Caractère,0,12,,,Operational,PDF
 bufr4/0/25/062,25,Informations sur le traitement,025062,Identification de la base de données,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
@@ -116,10 +117,13 @@ bufr4/0/25/135,25,Informations sur le traitement,025135,Correction ionosphériqu
 bufr4/0/25/136,25,Informations sur le traitement,025136,Correction ionosphérique - modèle en bande S,m,3,-32768,16,m,3,5,,,Operational,PDF
 bufr4/0/25/137,25,Informations sur le traitement,025137,Correction du biais d'état de la mer en bande S,m,3,-32768,16,m,3,5,,,Operational,PDF
 bufr4/0/25/138,25,Informations sur le traitement,025138,Rapport signal-bruit moyen,Numérique,0,-2048,12,Numérique,0,4,,,Operational,PDF
+bufr4/0/25/139,25,Informations sur le traitement,025139,Niveau de traitement,Numérique,0,0,5,Numérique,0,4,,,Operational,AI
 bufr4/0/25/140,25,Informations sur le traitement,025140,Début canal,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
 bufr4/0/25/141,25,Informations sur le traitement,025141,Fin canal,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
 bufr4/0/25/142,25,Informations sur le traitement,025142,Facteur d'échelle du canal,Numérique,0,0,6,Numérique,0,2,,,Operational,PDF
 bufr4/0/25/143,25,Informations sur le traitement,025143,Coefficient linéaire,Numérique,6,-5000000,24,Numérique,6,8,(voir Note 4),57,Operational,PDF
+bufr4/0/25/144,25,Informations sur le traitement,025144,Nombre de canaux visuels utilisés dans le traitement,Numérique,0,0,6,Numérique,0,2,,,Operational,AI
+bufr4/0/25/145,25,Informations sur le traitement,025145,Nombre de canaux infrarouges utilisés dans le traitement,Numérique,0,0,6,Numérique,0,2,,,Operational,AI
 bufr4/0/25/148,25,Informations sur le traitement,025148,Coefficient de variation,Numérique,2,-10000,15,Numérique,2,5,,,Operational,PDF
 bufr4/0/25/149,25,Informations sur le traitement,025149,Coût estimatif optimal,Numérique,0,0,8,Numérique,0,3,,,Operational,PDF
 bufr4/0/25/150,25,Informations sur le traitement,025150,Méthode d'analyse de l'intensité du cyclone tropical par les images de satellite,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF

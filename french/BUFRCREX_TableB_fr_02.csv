@@ -4,8 +4,10 @@ bufr4/0/02/002,02,Instruments BUFR/CREX,002002,Type d'instrument pour la mesure 
 bufr4/0/02/003,02,Instruments BUFR/CREX,002003,Type d'équipement de mesure utilisé,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/004,02,Instruments BUFR/CREX,002004,Type d'instrument utilisé pour la mesure de l'évaporation ou type de culture pour lequel est indiquée l'évapotranspiration,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/005,02,Instruments BUFR/CREX,002005,Précision des observations de la température,K,2,0,7,K,2,3,,,Operational,PDF
+bufr4/0/02/006,02,Instruments BUFR/CREX,002006,Type d’instrument de télédétection de l’air supérieur,Table de code,0,0,6,Table de code,0,0,,,Operational,AI
 bufr4/0/02/007,02,Instruments BUFR/CREX,002007,Type de capteur pour les instruments de mesure de la hauteur d'eau,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/008,02,Instruments BUFR/CREX,002008,Type de plate-forme en mer,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
+bufr4/0/02/009,02,Instruments BUFR/CREX,002009,Algorithme d'aérosol MODIS,Table de code,0,0,4,Table de code,0,2,,,Operational,AI
 bufr4/0/02/011,02,Instruments BUFR/CREX,002011,Type de radiosonde,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
 bufr4/0/02/012,02,Instruments BUFR/CREX,002012,Méthode de calcul des données de radiosondage,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/013,02,Instruments BUFR/CREX,002013,Correction du rayonnement solaire et infrarouge,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
@@ -73,6 +75,7 @@ bufr4/0/02/085,02,Instruments BUFR/CREX,002085,Quantité de gaz insufflée,kg,3,
 bufr4/0/02/086,02,Instruments BUFR/CREX,002086,Longueur de la traîne,m,1,0,10,m,1,4,,,Operational,PDF
 bufr4/0/02/087,02,Instruments BUFR/CREX,002087,Surface du parachute,m2,4,0,15,m2,4,5,,,Operational,PDF
 bufr4/0/02/088,02,Instruments BUFR/CREX,002088,Volume de gaz dans le ballon,m3,3,0,13,m3,3,4,,,Operational,PDF
+bufr4/0/02/090,02,Instruments BUFR/CREX,002090,Longueur d'onde de l'instrument,m,9,0,16,m,9,5,,,Operational,AI
 bufr4/0/02/091,02,Instruments BUFR/CREX,002091,Capteur d'entrée 4/20 mA,A,4,0,10,A,4,3,,,Operational,PDF
 bufr4/0/02/092,02,Instruments BUFR/CREX,002092,Méthode de calcul du profil de l'ozone,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/02/095,02,Instruments BUFR/CREX,002095,Type de capteur de pression,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
@@ -171,3 +174,5 @@ bufr4/0/02/188,02,Instruments BUFR/CREX,002188,Détection d'un obscurcissement,T
 bufr4/0/02/189,02,Instruments BUFR/CREX,002189,Distinction entre les différents types d'éclairs,Table d'indicateurs,0,0,12,Table d'indicateurs,0,4,,,Operational,PDF
 bufr4/0/02/190,02,Instruments BUFR/CREX,002190,Message d'observation Lagrangien provenant d'une bouée,%,0,0,7,%,0,3,,,Operational,PDF
 bufr4/0/02/191,02,Instruments BUFR/CREX,002191,Calcul de la hauteur géopotentielle,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
+bufr4/0/02/192,02,Instruments BUFR/CREX,002192,Précision de l'observation de pression,Pa,2,0,14,,,,,,Operational,AI
+bufr4/0/02/193,02,Instruments BUFR/CREX,002193,Précision de l'observation du rapport de mélange,kg/kg,6,0,14,,,,,,Operational,AI

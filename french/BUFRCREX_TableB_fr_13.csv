@@ -10,7 +10,7 @@ bufr4/0/13/008,13,Éléments hygrographiques et hydrologiques,013008,Humidité r
 bufr4/0/13/009,13,Éléments hygrographiques et hydrologiques,013009,Humidité relative,%,1,-1000,12,%,1,4,(voir Note 6),39,Operational,PDF
 bufr4/0/13/011,13,Éléments hygrographiques et hydrologiques,013011,Précipitations totales/valeur totale de l'équivalent en eau,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,PDF
 bufr4/0/13/012,13,Éléments hygrographiques et hydrologiques,013012,Épaisseur de neige fraîche,m,2,-2,12,m,2,4,(voir Note 2),26,Operational,PDF
-bufr4/0/13/013,13,Éléments hygrographiques et hydrologiques,013013,Hauteur totale de la couche de neige,m,2,-2,16,m,2,4,(voir Note 2),26,Operational,PDF
+bufr4/0/13/013,13,Éléments hygrographiques et hydrologiques,013013,Hauteur totale de la couche de neige,m,2,-2,16,m,2,5,(voir Note 2),26,Operational,PDF
 bufr4/0/13/014,13,Éléments hygrographiques et hydrologiques,013014,Chute de pluie/équivalent en eau de la neige (moyenne),kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,,,Operational,PDF
 bufr4/0/13/015,13,Éléments hygrographiques et hydrologiques,013015,Chute de neige (moyenne),m/s,7,0,12,m/s,7,4,,,Operational,PDF
 bufr4/0/13/016,13,Éléments hygrographiques et hydrologiques,013016,Eau précipitable,kg m-2,0,0,7,kg m-2,0,3,,,Operational,PDF
@@ -28,7 +28,7 @@ bufr4/0/13/040,13,Éléments hygrographiques et hydrologiques,013040,Indicateur 
 bufr4/0/13/041,13,Éléments hygrographiques et hydrologiques,013041,Catégorie de stabilité de Pasquill-Gifford,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/13/042,13,Éléments hygrographiques et hydrologiques,013042,Indice de soulèvement d'une particule (à 500 hPa),K,0,-20,6,K,0,2,(voir Notes 3 et 4),"119,130",Operational,PDF
 bufr4/0/13/043,13,Éléments hygrographiques et hydrologiques,013043,Indice de soulèvement optimal (à 500 hPa),K,0,-20,6,K,0,2,(voir Notes 3 et 4),"119,130",Operational,PDF
-bufr4/0/13/044,13,Éléments hygrographiques et hydrologiques,013044,Indice K,K,0,-30,8,K,0,3,,,Operational,PDF
+bufr4/0/13/044,13,Éléments hygrographiques et hydrologiques,013044,Indice K,K,0,-30,8,K,0,3,,,Operational,PDF
 bufr4/0/13/045,13,Éléments hygrographiques et hydrologiques,013045,Indice KO,K,0,-30,8,K,0,3,,,Operational,PDF
 bufr4/0/13/046,13,Éléments hygrographiques et hydrologiques,013046,Poussée d'Archimède maximale,K,0,-30,8,K,0,3,,,Operational,PDF
 bufr4/0/13/047,13,Éléments hygrographiques et hydrologiques,013047,Indice de stabilité de Showalter modifié,K,0,-60,6,°C,0,2,(voir Note 7),129,Operational,PDF
@@ -54,6 +54,7 @@ bufr4/0/13/085,13,Éléments hygrographiques et hydrologiques,013085,Potentiel d
 bufr4/0/13/090,13,Éléments hygrographiques et hydrologiques,013090,Teneur en vapeur d'eau indiquée par le radiomètre,kg m-2,1,0,10,kg m-2,1,4,,,Operational,PDF
 bufr4/0/13/091,13,Éléments hygrographiques et hydrologiques,013091,Teneur en eau liquide indiquée par le radiomètre,kg m-2,2,0,8,kg m-2,2,3,,,Operational,PDF
 bufr4/0/13/093,13,Éléments hygrographiques et hydrologiques,013093,Épaisseur optique des nuages,Numérique,0,0,8,Numérique,0,3,,,Operational,PDF
+bufr4/0/13/094,13,Éléments hygrographiques et hydrologiques,013094,Log10 de l'épaisseur optique des nuages,Numérique,3,-2000,14,Numérique,3,5,,,Operational,AI
 bufr4/0/13/095,13,Éléments hygrographiques et hydrologiques,013095,Colonne totale de vapeur d'eau,kg m-2,4,0,19,kg m-2,4,6,,,Operational,PDF
 bufr4/0/13/096,13,Éléments hygrographiques et hydrologiques,013096,Teneur en vapeur d'eau - données MWR,kg m-2,2,0,14,kg m-2,2,5,,,Operational,PDF
 bufr4/0/13/097,13,Éléments hygrographiques et hydrologiques,013097,Teneur en eau liquide - données MWR,kg m-2,2,0,14,kg m-2,2,5,,,Operational,PDF
@@ -70,8 +71,17 @@ bufr4/0/13/115,13,Éléments hygrographiques et hydrologiques,013115,Épaisseur 
 bufr4/0/13/116,13,Éléments hygrographiques et hydrologiques,013116,Épaisseur de la pellicule d'eau,m,4,0,10,m,3,2,,,Operational,PDF
 bufr4/0/13/117,13,Éléments hygrographiques et hydrologiques,013117,Masse volumique de la neige (teneur en eau liquide),kg m-3,0,0,10,kg m-3,0,3,,,Operational,PDF
 bufr4/0/13/118,13,Éléments hygrographiques et hydrologiques,013118,Épaisseur de neige fraîche (précision élevée),m,3,-2,14,m,3,5,(voir Note 10),41,Operational,PDF
+bufr4/0/13/119,13,Éléments hygrographiques et hydrologiques,013119,hauteur de neige,m,3,-10000,15,,,,(Voir la Note 18),194,Operational,AI
 bufr4/0/13/155,13,Éléments hygrographiques et hydrologiques,013155,Intensité des précipitations (précision élevée),kg m-2 s-1,5,-1,16,mm/h,2,5,(voir Note 8),28,Operational,PDF
 bufr4/0/13/160,13,Éléments hygrographiques et hydrologiques,013160,Teneur en eau liquide fournie par le radiomètre,kg m-2,2,-350,10,kg m-2,2,3,,,Operational,PDF
+bufr4/0/13/161,13,Éléments hygrographiques et hydrologiques,013161,L'énergie potentielle disponible convective la plus instable (CAPE),J/kg,0,0,14,,,,,,Operational,AI
 bufr4/0/13/162,13,Éléments hygrographiques et hydrologiques,013162,Teneur en eau liquide des nuages,kg m-2,2,0,8,kg m-2,2,3,,,Operational,PDF
 bufr4/0/13/163,13,Éléments hygrographiques et hydrologiques,013163,Équivalent en eau de la neige,kg m-2,0,0,16,kg m-2,0,5,,,Operational,PDF
 bufr4/0/13/164,13,Éléments hygrographiques et hydrologiques,013164,Franc-bord pour les glaces de mer,m,3,-131072,18,m,3,6,,,Operational,PDF
+bufr4/0/13/165,13,Éléments hygrographiques et hydrologiques,013165,Énergie potentielle disponible convective (CAPE),J/kg,0,0,14,J/kg,0,5,((voir Note 11)),186,Operational,AI
+bufr4/0/13/166,13,Éléments hygrographiques et hydrologiques,013166,Index des totaux totaux,K,1,0,10,C,0,5,((voir Note 12)),187,Operational,AI
+bufr4/0/13/167,13,Éléments hygrographiques et hydrologiques,013167,Indice S (STT),K,1,-1000,11,C,0,6,((voir Note 13)),188,Operational,AI
+bufr4/0/13/168,13,Éléments hygrographiques et hydrologiques,013168,Indice de menace de brouillard,K,1,-100,8,C,0,5,((voir Note 14)),190,Operational,AI
+bufr4/0/13/169,13,Éléments hygrographiques et hydrologiques,013169,Indice de potentiel de jour de microburst (MDPI),K/K,1,-100,8,K/K,0,5,((voir Note 15)),191,Operational,AI
+bufr4/0/13/170,13,Éléments hygrographiques et hydrologiques,013170,Indice TQ,K,1,-1000,11,C,0,6,((voir Note 16)),190,Operational,AI
+bufr4/0/13/171,13,Éléments hygrographiques et hydrologiques,013171,CIN (inhibition convective),J/kg,0,-1000,10,J/kg,0,5,((voir Note 17)),192,Operational,AI

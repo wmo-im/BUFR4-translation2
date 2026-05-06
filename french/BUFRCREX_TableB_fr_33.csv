@@ -36,6 +36,9 @@ bufr4/0/33/049,33,Informations sur la qualité,033049,Degré de confiance pour l
 bufr4/0/33/050,33,Informations sur la qualité,033050,Indicateur de qualité global pour le GTSPP,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/33/052,33,Informations sur la qualité,033052,Qualité du retraitement des données océaniques en bande S,Table d'indicateurs,0,0,21,Table d'indicateurs,0,7,,,Operational,PDF
 bufr4/0/33/053,33,Informations sur la qualité,033053,Qualité du retraitement des données océaniques en bande Ku,Table d'indicateurs,0,0,21,Table d'indicateurs,0,7,,,Operational,PDF
+bufr4/0/33/054,33,Informations sur la qualité,033054,Qualité globale du profil atmosphérique récupéré,Table de code,0,0,3,Table de code,0,1,,,Operational,AI
+bufr4/0/33/055,33,Informations sur la qualité,033055,Drapeau de qualité du vecteur de vent,Table d'indicateurs,0,0,24,Table d'indicateurs,0,8,,,Operational,AI
+bufr4/0/33/056,33,Informations sur la qualité,033056,Drapeau de qualité Sigma-0,Table d'indicateurs,0,0,24,Table d'indicateurs,0,8,,,Operational,AI
 bufr4/0/33/060,33,Informations sur la qualité,033060,GqisFlagQual - indicateur de qualité du système IASI pour chaque mesure,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/33/061,33,Informations sur la qualité,033061,GqisQuallndex - indicateur de caractéristique de bruit de l'instrument (par étalonnage spectral et étalonnage radiométrique),%,0,0,7,%,0,3,,,Operational,PDF
 bufr4/0/33/062,33,Informations sur la qualité,033062,GqisQuallndexLoc - indicateur d'indice de qualité géométrique,%,0,0,7,%,0,3,,,Operational,PDF
@@ -64,3 +67,30 @@ bufr4/0/33/089,33,Informations sur la qualité,033089,Indicateurs de qualité de
 bufr4/0/33/090,33,Informations sur la qualité,033090,Indicateurs de qualité de l'équivalent en bruit du différentiel de température pour un étalonnage sur cible froide,K,2,0,12,K,2,4,,,Operational,PDF
 bufr4/0/33/091,33,Informations sur la qualité,033091,Indicateurs de qualité de l'équivalent en bruit du différentiel de température pour un étalonnage global,K,2,0,12,K,2,4,,,Operational,PDF
 bufr4/0/33/092,33,Informations sur la qualité,033092,Indicateur de qualité des données sur l'océan dans une bande précise,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,,,Operational,PDF
+bufr4/0/33/093,33,Informations sur la qualité,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,Table d'indicateurs,0,0,31,Table d'indicateurs,0,31,,,Operational,AI
+bufr4/0/33/094,33,Informations sur la qualité,033094,Drapeaux de contrôle qualité de calibration,Table d'indicateurs,0,0,24,Table d'indicateurs,0,24,,,Operational,AI
+bufr4/0/33/095,33,Informations sur la qualité,033095,Drapeau des températures MWI,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/33/096,33,Informations sur la qualité,033096,Drapeau de calibration MWI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/097,33,Informations sur la qualité,033097,Drapeau de qualité de balayage MWI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/098,33,Informations sur la qualité,033098,Drapeau de qualité des données MWI,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/33/099,33,Informations sur la qualité,033099,Indicateur d'état de navigation MWI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/100,33,Informations sur la qualité,033100,Drapeau des températures ICI,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/33/101,33,Informations sur la qualité,033101,Drapeau de calibration ICI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/102,33,Informations sur la qualité,033102,Drapeau de qualité de balayage ICI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/103,33,Informations sur la qualité,033103,Drapeau de qualité des données ICI,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/33/104,33,Informations sur la qualité,033104,Drapeau d'état de navigation ICI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/105,33,Informations sur la qualité,033105,Indicateurs de traitement ICI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/106,33,Informations sur la qualité,033106,Indicateurs de traitement MWI,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/107,33,Informations sur la qualité,033107,Indicateurs de traitement des lignes de balayage MWS,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/108,33,Informations sur la qualité,033108,Drapeaux d'état de navigation MWS,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/109,33,Informations sur la qualité,033109,Indicateurs de qualité globale de MWS,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/110,33,Informations sur la qualité,033110,Indicateurs de traitement du canal MWS,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,,,Operational,AI
+bufr4/0/33/111,33,Informations sur la qualité,033111,Drapeaux de qualité SCA,Table d'indicateurs,0,0,32,Table d'indicateurs,0,11,,,Operational,AI
+bufr4/0/33/112,33,Informations sur la qualité,033112,Angle de rotation de Faraday (aller simple),°,2,-18000,16,°,2,6,,,Operational,AI
+bufr4/0/33/113,33,Informations sur la qualité,033113,Drapeaux de qualité générale IASI-NG,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/114,33,Informations sur la qualité,033114,Vérification hors limites,Table d'indicateurs,0,0,17,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/115,33,Informations sur la qualité,033115,Informations sur la qualité de la profondeur optique des aérosols,Table de code,0,0,5,Table de code,0,2,,,Operational,AI
+bufr4/0/33/116,33,Informations sur la qualité,033116,Première estimation dans la vérification des limites,Table d'indicateurs,0,0,17,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/117,33,Informations sur la qualité,033117,Vérification des limites,Table d'indicateurs,0,0,17,Table d'indicateurs,0,6,,,Operational,AI
+bufr4/0/33/118,33,Informations sur la qualité,033118,Pourcentage d'erreur relative,%,2,-10000,15,%,2,5,,,Operational,AI
+bufr4/0/33/119,33,Informations sur la qualité,033119,Pourcentage d'erreur de prévision,%,0,-100,8,%,0,3,,,Operational,AI

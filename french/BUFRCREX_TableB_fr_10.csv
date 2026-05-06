@@ -28,6 +28,7 @@ bufr4/0/10/063,10,Position d'éléments autres que des coordonnées (verticale),
 bufr4/0/10/064,10,Position d'éléments autres que des coordonnées (verticale),010064,Niveau de croisière-SIGMET,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/10/070,10,Position d'éléments autres que des coordonnées (verticale),010070,Altitude de l'aéronef indiquée,m,0,-400,16,m,0,5,,,Operational,PDF
 bufr4/0/10/071,10,Position d'éléments autres que des coordonnées (verticale),010071,Résolution verticale,m,0,0,14,m,0,5,,,Operational,PDF
+bufr4/0/10/073,10,Position d'éléments autres que des coordonnées (verticale),010073,Hauteur du panache,m,2,0,21,m,2,7,,,Operational,AI
 bufr4/0/10/079,10,Position d'éléments autres que des coordonnées (verticale),010079,"Angle de décalage du satellite par rapport au nadir, calculé à partir de l'assiette de la plate-forme",deg,4,0,16,°,4,5,,,Operational,PDF
 bufr4/0/10/080,10,Position d'éléments autres que des coordonnées (verticale),010080,Distance zénithale de la visée,deg,2,-9000,15,°,2,5,,,Operational,PDF
 bufr4/0/10/081,10,Position d'éléments autres que des coordonnées (verticale),010081,Altitude du centre de gravité au-dessus de l'ellipsoïde de référence,m,3,0,31,m,3,10,,,Operational,PDF

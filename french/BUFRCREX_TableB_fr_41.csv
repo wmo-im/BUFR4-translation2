@@ -2,4 +2,7 @@ ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_Referenc
 bufr4/0/41/001,41,Paramètres océanographiques/biogéochimiques,041001,pCO2,Pa,3,0,18,Pa,3,6,,,Operational,PDF
 bufr4/0/41/002,41,Paramètres océanographiques/biogéochimiques,041002,Fluorescence,kg l-1,12,0,16,kg l-1,12,5,,,Operational,PDF
 bufr4/0/41/003,41,Paramètres océanographiques/biogéochimiques,041003,Nitrates dissous,umol/kg,3,0,17,umol/kg,3,5,,,Operational,PDF
+bufr4/0/41/004,41,Paramètres océanographiques/biogéochimiques,041004,Chlorophylle-A,mg m-3,4,0,19,mg m-3,4,7,,,Operational,AI
 bufr4/0/41/005,41,Paramètres océanographiques/biogéochimiques,041005,Turbidité,UTN,2,0,12,UTN,2,4,,,Operational,PDF
+bufr4/0/41/006,41,Paramètres océanographiques/biogéochimiques,041006,pH de l'eau de mer,Numérique,4,70000,15,Numérique,4,5,,,Operational,AI
+bufr4/0/41/007,41,Paramètres océanographiques/biogéochimiques,041007,BBP700,m-1,7,0,20,m-1,7,7,,,Operational,AI

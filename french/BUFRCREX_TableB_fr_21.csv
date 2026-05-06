@@ -5,6 +5,10 @@ bufr4/0/21/003,21,Données de radar,021003,Réflectivité différentielle,dB,1,-
 bufr4/0/21/004,21,Données de radar,021004,Réflectivité différentielle,dB,2,-800,11,dB,2,4,,,Operational,PDF
 bufr4/0/21/005,21,Données de radar,021005,Rapport de dépolarisation rectiligne,dB,0,-65,6,dB,0,2,,,Operational,PDF
 bufr4/0/21/006,21,Données de radar,021006,Rapport de dépolarisation circulaire,dB,0,-65,6,dB,0,2,,,Operational,PDF
+bufr4/0/21/007,21,Données de radar,021007,Facteur de réflectivité radar,dB,2,-9000,15,dB,0,0,,,Operational,AI
+bufr4/0/21/008,21,Données de radar,021008,Incertitude dans le facteur de réflectivité radar,dB,2,0,13,dB,0,0,,,Operational,AI
+bufr4/0/21/009,21,Données de radar,021009,Vitesse Doppler verticale,m/s,2,-10000,15,m/s,0,0,,,Operational,AI
+bufr4/0/21/010,21,Données de radar,021010,Incertitude de la vitesse Doppler verticale,m/s,2,-10000,15,m/s,0,0,,,Operational,AI
 bufr4/0/21/011,21,Données de radar,021011,Vitesse Doppler moyenne dans la direction x,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
 bufr4/0/21/012,21,Données de radar,021012,Vitesse Doppler moyenne dans la direction y,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
 bufr4/0/21/013,21,Données de radar,021013,Vitesse Doppler moyenne dans la direction z,m/s,0,-128,8,m/s,0,3,,,Operational,PDF
@@ -12,11 +16,14 @@ bufr4/0/21/014,21,Données de radar,021014,Vitesse Doppler moyenne (radiale),m/s
 bufr4/0/21/017,21,Données de radar,021017,Largeur spectrale de la vitesse Doppler,m/s,1,0,8,m/s,1,3,,,Operational,PDF
 bufr4/0/21/018,21,Données de radar,021018,Vitesse en dehors de l'intervalle de NYQUIST,m/s,1,0,10,m/s,1,4,,,Operational,PDF
 bufr4/0/21/019,21,Données de radar,021019,Vitesse en haut de l'intervalle de NYQUIST,m/s,1,0,10,m/s,1,3,,,Operational,PDF
+bufr4/0/21/020,21,Données de radar,021020,Correction atmosphérique dynamique,Numérique,3,-65536,17,,,,,,Operational,AI
 bufr4/0/21/021,21,Données de radar,021021,Altitude maximale des échos,m,-3,0,4,m,-3,2,,,Operational,PDF
 bufr4/0/21/022,21,Données de radar,021022,Décalage des cellules de distance,m,1,0,14,m,1,5,,,Operational,PDF
 bufr4/0/21/023,21,Données de radar,021023,Taille des cellules de distance,m,0,0,14,m,0,5,,,Operational,PDF
 bufr4/0/21/024,21,Données de radar,021024,Décalage d'azimut,°,1,0,12,°,1,4,,,Operational,PDF
 bufr4/0/21/025,21,Données de radar,021025,Résolution azimutale,°,1,0,8,°,1,3,,,Operational,PDF
+bufr4/0/21/026,21,Données de radar,021026,"Utilité des sigma-0, ASCAT",Table de code,0,0,3,Table de code,0,1,,,Operational,AI
+bufr4/0/21/027,21,Données de radar,021027,Ratio de contribution foncière,Numérique,4,0,14,Numérique,4,5,,,Operational,AI
 bufr4/0/21/028,21,Données de radar,021028,Phase différentielle,°,1,0,12,°,1,4,,,Operational,PDF
 bufr4/0/21/029,21,Données de radar,021029,Coefficient de corrélation de polarisation croisée,Numérique,2,-100,8,Numérique,2,3,,,Operational,PDF
 bufr4/0/21/030,21,Données de radar,021030,Rapport signal-bruit,dB,0,-32,8,dB,0,3,,,Operational,PDF
@@ -54,6 +61,9 @@ bufr4/0/21/091,21,Données de radar,021091,0ième moment du spectre Doppler du s
 bufr4/0/21/092,21,Données de radar,021092,0ième moment du spectre Doppler du signal RASS (Système de sondage radio-acoustique),dB,0,-100,8,dB,0,3,,,Operational,PDF
 bufr4/0/21/093,21,Données de radar,021093,Maxima bande Ku,Numérique,3,0,16,Numérique,3,5,,,Operational,PDF
 bufr4/0/21/094,21,Données de radar,021094,Maxima bande S,Numérique,3,0,16,Numérique,3,5,,,Operational,PDF
+bufr4/0/21/095,21,Données de radar,021095,Coefficient Kp A,Numérique,6,0,20,Numérique,6,7,,,Operational,AI
+bufr4/0/21/096,21,Données de radar,021096,Coefficient Kp B,Numérique,6,0,20,Numérique,6,7,,,Operational,AI
+bufr4/0/21/097,21,Données de radar,021097,Coefficient Kp C,Numérique,6,0,20,Numérique,6,7,,,Operational,AI
 bufr4/0/21/101,21,Données de radar,021101,Nombre d'ambiguïtés vectorielles,Numérique,0,0,3,Numérique,0,1,,,Operational,PDF
 bufr4/0/21/102,21,Données de radar,021102,Indice du vecteur vent retenu,Numérique,0,0,3,Numérique,0,1,,,Operational,PDF
 bufr4/0/21/103,21,Données de radar,021103,Nombre total de mesures de sigma-0,Numérique,0,0,5,Numérique,0,2,,,Operational,PDF
@@ -113,6 +123,7 @@ bufr4/0/21/163,21,Données de radar,021163,"Contamination par réflexion sur pan
 bufr4/0/21/164,21,Données de radar,021164,"Présence et qualité des télémesures, ASCAT",Numérique,3,0,10,Numérique,3,4,,,Operational,PDF
 bufr4/0/21/165,21,Données de radar,021165,"Fonction de référence extrapolée, ASCAT",Numérique,3,0,10,Numérique,3,4,,,Operational,PDF
 bufr4/0/21/166,21,Données de radar,021166,Fraction terrestre,Numérique,3,0,10,Numérique,3,4,,,Operational,PDF
+bufr4/0/21/167,21,Données de radar,021167,Probabilité de diffusion sous la surface,%,0,0,7,%,0,3,,,Operational,AI
 bufr4/0/21/169,21,Données de radar,021169,Indicateur de présence de glace,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/21/170,21,Données de radar,021170,Coefficient de rétrodiffusion corrigé pour l'océan en bande C,dB,2,-32768,16,dB,2,5,,,Operational,PDF
 bufr4/0/21/171,21,Données de radar,021171,Moyenne quadratique du coefficient de rétrodiffusion corrigé pour l'océan en bande C,dB,2,-32768,16,dB,2,5,,,Operational,PDF
@@ -133,3 +144,4 @@ bufr4/0/21/185,21,Données de radar,021185,Correction finale de l'erreur instrum
 bufr4/0/21/186,21,Données de radar,021186,Commande automatique de gain dans une bande précise,dB,2,0,13,dB,2,4,,,Operational,PDF
 bufr4/0/21/187,21,Données de radar,021187,Moyenne quadratique de la commande automatique de gain dans une bande précise,dB,2,0,8,dB,2,3,,,Operational,PDF
 bufr4/0/21/188,21,Données de radar,021188,Nombre de points corrects pour la commande automatique de gain dans une bande précise,Numérique,0,0,7,Numérique,0,3,,,Operational,PDF
+bufr4/0/21/189,21,Données de radar,021189,Coefficient de rétrodiffusion OCOG corrigé (référence négative),dB,2,-32768,16,dB,2,6,((voir Note)),11,Operational,AI

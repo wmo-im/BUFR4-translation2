@@ -126,6 +126,7 @@ bufr4/0/22/174,22,Éléments océanographiques,022174,Correction finale de l'err
 bufr4/0/22/175,22,Éléments océanographiques,022175,Nombre de points corrects de rétrodiffusion en bande C,Numérique,0,0,10,Numérique,0,4,,,Operational,PDF
 bufr4/0/22/177,22,Éléments océanographiques,022177,Altitude du lanceur de XBT/XCTD,m,0,0,6,m,0,3,,,Operational,PDF
 bufr4/0/22/178,22,Éléments océanographiques,022178,Type de lanceur de XBT/XCTD,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
+bufr4/0/22/179,22,Éléments océanographiques,022179,Hauteur significative des vagues de bande précise (référence négative),m,3,-500,16,m,3,6,((voir Note 13)),12,Operational,AI
 bufr4/0/22/182,22,Éléments océanographiques,022182,Hauteur de la colonne d'eau,m,3,0,23,m,3,7,(voir Note 9),139,Operational,PDF
 bufr4/0/22/184,22,Éléments océanographiques,022184,Écart de la hauteur de la colonne d'eau par rapport à la valeur de référence,m,3,-2000,12,m,3,4,,,Operational,PDF
 bufr4/0/22/185,22,Éléments océanographiques,022185,Nombre de transmissions du BPR,Numérique,0,0,10,Numérique,0,3,,,Operational,PDF

@@ -14,7 +14,7 @@ bufr4/a/11,11,"Tables du code BUFR, remplacement intégral ou mise à jour",Oper
 bufr4/a/12,12,Données d'observation en surface (satellitaires),Operational,PDF
 bufr4/a/13,13,Prévisions,Operational,PDF
 bufr4/a/14,14,Messages d'alerte,Operational,PDF
-bufr4/a/15-19,15-19,En réserve,Operational,PDF
+bufr4/a/15–19,15-19,En réserve,Operational,AI
 bufr4/a/20,20,Information sur l'état,Operational,PDF
 bufr4/a/21,21,Luminance énergétique (mesurée par satellite),Operational,PDF
 bufr4/a/22,22,"Radar (satellite), hormis altimètre et diffusiomètre",Operational,PDF
@@ -27,8 +27,9 @@ bufr4/a/28,28,Orbitographie précise (satellite),Operational,PDF
 bufr4/a/29,29,Environnement spatial (satellite),Operational,PDF
 bufr4/a/30,30,Jeux de données d'étalonnage (satellite),Operational,PDF
 bufr4/a/31,31,Données océanographiques,Operational,PDF
-bufr4/a/32-100,32-100,En réserve,Operational,PDF
+bufr4/a/32,32,Lidar (basé au sol),Operational,AI
+bufr4/a/33–100,33-100,En réserve,Operational,AI
 bufr4/a/101,101,Imagerie (satellite),Operational,PDF
-bufr4/a/102-239,102-239,En réserve,Operational,PDF
-bufr4/a/240-254,240-254,À usage expérimental,Operational,PDF
+bufr4/a/102–239,102-239,En réserve,Operational,AI
+bufr4/a/240–254,240-254,Pour usage expérimental,Operational,AI
 bufr4/a/255,255,Autre catégorie,Operational,PDF

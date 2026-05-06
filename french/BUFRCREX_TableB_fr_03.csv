@@ -23,3 +23,9 @@ bufr4/0/03/025,03,Instruments BUFR/CREX,003025,Largeur de l'empreinte au sol dan
 bufr4/0/03/026,03,Instruments BUFR/CREX,003026,Largeur de l'empreinte au sol dans la direction azimutale,m,0,5000,16,m,0,5,,,Operational,PDF
 bufr4/0/03/027,03,Instruments BUFR/CREX,003027,Type de suspension,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/03/028,03,Instruments BUFR/CREX,003028,Technique de mesure de l'équivalent en eau de la neige,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
+bufr4/0/03/029,03,Instruments BUFR/CREX,003029,Zone,Table de code,0,0,3,Table de code,0,1,,,Operational,AI
+bufr4/0/03/030,03,Instruments BUFR/CREX,003030,Statut de l'antenne,Table de code,0,0,3,Table de code,0,1,,,Operational,AI
+bufr4/0/03/031,03,Instruments BUFR/CREX,003031,"Bande passante du canal, largeur à mi-hauteur (FWHM)",m,11,0,16,m,11,13,,,Operational,AI
+bufr4/0/03/032,03,Instruments BUFR/CREX,003032,Fréquence centrale du canal,Hz,-6,0,26,Hz,-6,10,,,Operational,AI
+bufr4/0/03/033,03,Instruments BUFR/CREX,003033,Bande passante du canal,Hz,-6,0,26,Hz,-6,10,,,Operational,AI
+bufr4/0/03/034,03,Instruments BUFR/CREX,003034,Longueur d'onde du canal,m,9,0,16,m,9,5,,,Operational,AI

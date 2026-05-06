@@ -9,7 +9,8 @@ bufr4/0/03/001/6,003001,Type de station d'observation en surface,6,Bouée sur gl
 bufr4/0/03/001/7,003001,Type de station d'observation en surface,7,Station terrestre (réseau local),,,,,Operational,PDF
 bufr4/0/03/001/8,003001,Type de station d'observation en surface,8,Véhicule terrestre,,,,,Operational,PDF
 bufr4/0/03/001/9,003001,Type de station d'observation en surface,9,Véhicule marin autonome,,,,,Operational,PDF
-bufr4/0/03/001/10-30,003001,Type de station d'observation en surface,10-30,En réserve pour un usage futur,,,,,Operational,PDF
+bufr4/0/03/001/10,003001,Type de station d'observation en surface,10,Étiquette attachée à un animal marin,,,,,Operational,AI
+bufr4/0/03/001/11-30,003001,Type de station d'observation en surface,11-30,En réserve pour utilisation future,,,,,Operational,AI
 bufr4/0/03/001/31,003001,Type de station d'observation en surface,31,Valeur manquante,,,,,Operational,PDF
 bufr4/0/03/003/0,003003,Boîtier du thermomètre/de l'hygromètre,0,Abri météo,,,,,Operational,PDF
 bufr4/0/03/003/1,003003,Boîtier du thermomètre/de l'hygromètre,1,Fronde/crécelle,,,,,Operational,PDF
@@ -148,3 +149,11 @@ bufr4/0/03/028/5,003028,Technique de mesure de l'équivalent en eau de la neige,
 bufr4/0/03/028/6,003028,Technique de mesure de l'équivalent en eau de la neige,6,Réflectométrie dans le domaine temporel,,,,,Operational,PDF
 bufr4/0/03/028/7-62,003028,Technique de mesure de l'équivalent en eau de la neige,7-62,En réserve,,,,,Operational,PDF
 bufr4/0/03/028/63,003028,Technique de mesure de l'équivalent en eau de la neige,63,Valeur manquante,,,,,Operational,PDF
+bufr4/0/03/029/0,003029,Bande,0,Côté gauche,,,,,Operational,AI
+bufr4/0/03/029/1,003029,Swath,1,Côté droit,,,,,Operational,AI
+bufr4/0/03/029/2-6,003029,Bande,2-6,En réserve,,,,,Operational,AI
+bufr4/0/03/029/7,003029,Swath,7,Valeur manquante,,,,,Operational,AI
+bufr4/0/03/030/0,003030,Statut de l'antenne,0,Transmettre,,,,,Operational,AI
+bufr4/0/03/030/1,003030,Statut de l'antenne,1,Réception,,,,,Operational,AI
+bufr4/0/03/030/2-6,003030,Statut de l'antenne,2-6,En réserve,,,,,Operational,AI
+bufr4/0/03/030/7,003030,Statut de l'antenne,7,Valeur manquante,,,,,Operational,AI

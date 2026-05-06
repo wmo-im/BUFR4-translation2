@@ -61,6 +61,7 @@ bufr4/0/20/066,20,Phénomènes observés,020066,Diamètre maximal des grelons,m,
 bufr4/0/20/067,20,Phénomènes observés,020067,Diamètre du dépôt,m,3,0,9,m,3,3,,,Operational,PDF
 bufr4/0/20/070,20,Phénomènes observés,020070,Nombre minimal d'atmosphériques,Numérique,0,0,7,Numérique,0,3,,,Operational,PDF
 bufr4/0/20/071,20,Phénomènes observés,020071,Exactitude et taux des atmosphériques,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
+bufr4/0/20/079,20,Phénomènes observés,020079,Indicateur de cristaux de neige ou de glace,Table de code,0,0,2,Table de code,0,1,,,Operational,AI
 bufr4/0/20/081,20,Phénomènes observés,020081,Étendue de la couche nuageuse dans le secteur,%,0,0,7,%,0,3,,,Operational,PDF
 bufr4/0/20/082,20,Phénomènes observés,020082,Partie du segment libre de nuages,%,0,0,7,%,0,3,,,Operational,PDF
 bufr4/0/20/083,20,Phénomènes observés,020083,Partie du segment couverte par la scène,%,0,0,7,%,0,3,,,Operational,PDF
@@ -108,3 +109,8 @@ bufr4/0/20/135,20,Phénomènes observés,020135,Masse de glace (sur une perche),
 bufr4/0/20/136,20,Phénomènes observés,020136,Types de nuages supplémentaires,Table de code,0,0,9,Table de code,0,3,,,Operational,PDF
 bufr4/0/20/137,20,Phénomènes observés,020137,Évolution des nuages,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/20/138,20,Phénomènes observés,020138,État du revêtement,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
+bufr4/0/20/139,20,Phénomènes observés,020139,Hypothèse finale du modèle de cloud,Table de code,0,0,4,Table de code,0,2,,,Operational,AI
+bufr4/0/20/140,20,Phénomènes observés,020140,Zone de foudre,m2,0,0,30,m2,0,0,,,Operational,AI
+bufr4/0/20/141,20,Phénomènes observés,020141,Énergie de la foudre,J,19,0,30,J,0,0,,,Operational,AI
+bufr4/0/20/142,20,Phénomènes observés,020142,Efficacité de détection de la foudre,%,0,0,7,%,0,0,,,Operational,AI
+bufr4/0/20/143,20,Phénomènes observés,020143,Nuage liquide,Table de code,0,0,2,Table de code,0,1,,,Operational,AI

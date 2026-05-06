@@ -36,7 +36,7 @@ bufr4/0/20/003/28,020003,Temps présent,28,Brouillard ou brouillard glacé,,,,,O
 bufr4/0/20/003/29,020003,Temps présent,29,Orage (avec ou sans précipitations),,,,,Operational,PDF
 bufr4/0/20/003//6,020003,Temps présent,,"30-39 Tempête de poussière, tempête de sable, chasse-neige basse ou élevée",,,,,Operational,PDF
 bufr4/0/20/003/30,020003,Temps présent,30,Tempête de poussière ou de sable faible ou modérée,a diminué au cours de l'heure précédente,,,,Operational,PDF
-bufr4/0/20/003/31,020003,Temps présent,31,Tempête de poussière ou de sable faible ou modérée,sans changement appréciable au cours de l'heure précédente,,,,,Operational
+bufr4/0/20/003/31,020003,Temps présent,31,Tempête de poussière ou de sable faible ou modérée,sans changement appréciable au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/32,020003,Temps présent,32,Tempête de poussière ou de sable faible ou modérée,a débuté ou a augmenté au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/33,020003,Temps présent,33,Violente tempête de poussière ou de sable,a diminué au cours de l'heure précédente,,,,Operational,PDF
 bufr4/0/20/003/34,020003,Temps présent,34,Violente tempête de poussière ou de sable,sans changement appréciable au cours de l'heure précédente,,,,Operational,PDF
@@ -72,7 +72,7 @@ bufr4/0/20/003//10,020003,Temps présent,,60-69 Pluie,,,,,Operational,PDF
 bufr4/0/20/003/60,020003,Temps présent,60,"Pluie, sans congélation, intermittente",faible au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/61,020003,Temps présent,61,"Pluie, sans congélation, continue",faible au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/62,020003,Temps présent,62,"Pluie, sans congélation, intermittente",modérée au moment de l'observation,,,,Operational,PDF
-bufr4/0/20/003/63,020003,Temps présent,63,"Pluie, sans congélation, continue",modérée au moment de l'observation,,,,,Operational
+bufr4/0/20/003/63,020003,Temps présent,63,"Pluie, sans congélation, continue",modérée au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/64,020003,Temps présent,64,"Pluie, sans congélation, intermittente",forte au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/65,020003,Temps présent,65,"Pluie, sans congélation, continue",forte au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/66,020003,Temps présent,66,"Pluie, se congelant, faible",,,,,Operational,PDF
@@ -111,6 +111,7 @@ bufr4/0/20/003/96,020003,Temps présent,96,"Orage faible ou modéré, avec grêl
 bufr4/0/20/003/97,020003,Temps présent,97,"Orage fort, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
 bufr4/0/20/003/98,020003,Temps présent,98,Orage avec tempête de poussière ou de sable au moment de l'observation,Orage au moment de l'observation,,,,Operational,PDF
 bufr4/0/20/003/99,020003,Temps présent,99,"Orage fort, avec grêle au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
+bufr4/0/20/003//13,020003,Temps présent,,Le temps actuel signalé par une station météorologique automatique,,,,,Operational,AI
 bufr4/0/20/003/100,020003,Temps présent,100,On n'a pas observé de temps significatif,,,,,Operational,PDF
 bufr4/0/20/003/101,020003,Temps présent,101,"Dans l'ensemble, nuages se dissipant ou devenant moins épais durant l'heure qui vient de s'écouler",,,,,Operational,PDF
 bufr4/0/20/003/102,020003,Temps présent,102,État du ciel inchangé dans l'ensemble durant l'heure qui vient de s'écouler,,,,,Operational,PDF
@@ -354,14 +355,14 @@ bufr4/0/20/008/2,020008,"Répartition des nuages, pour l'aviation",2,Nuages épa
 bufr4/0/20/008/3,020008,"Répartition des nuages, pour l'aviation",3,Nuages fragmentés,,,,,Operational,PDF
 bufr4/0/20/008/4,020008,"Répartition des nuages, pour l'aviation",4,Ciel couvert,,,,,Operational,PDF
 bufr4/0/20/008/5,020008,"Répartition des nuages, pour l'aviation",5,En réserve,,,,,Operational,PDF
-bufr4/0/20/008/6,020008,"Répartition des nuages, pour l'aviation",6,Nuages épars/fragmentés,"(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s))",,,,Operational,PDF
-bufr4/0/20/008/7,020008,"Répartition des nuages, pour l'aviation",7,Nuages fragmentés/ciel couvert,"(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s))",,,,Operational,PDF
+bufr4/0/20/008/6,020008,"Répartition des nuages, pour l'aviation",6,Nuages épars/fragmentés,"(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s)",,,,Operational,PDF
+bufr4/0/20/008/7,020008,"Répartition des nuages, pour l'aviation",7,Nuages fragmentés/ciel couvert,"(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s)",,,,Operational,PDF
 bufr4/0/20/008/8,020008,"Répartition des nuages, pour l'aviation",8,Nuages isolés,(sert à décrire sur les cartes aéronautiques les nuages de type Cb),,,,Operational,PDF
 bufr4/0/20/008/9,020008,"Répartition des nuages, pour l'aviation",9,Nuages isolés noyés,(sert à décrire sur les cartes aéronautiques les nuages de type Cb),,,,Operational,PDF
 bufr4/0/20/008/10,020008,"Répartition des nuages, pour l'aviation",10,Nuages occasionnels,(sert à décrire sur les cartes aéronautiques les nuages de type Cb),,,,Operational,PDF
 bufr4/0/20/008/11,020008,"Répartition des nuages, pour l'aviation",11,Nuages occasionnels noyés,(sert à décrire sur les cartes aéronautiques les nuages de type Cb),,,,Operational,PDF
 bufr4/0/20/008/12,020008,"Répartition des nuages, pour l'aviation",12,Nuages fréquents,(sert à décrire sur les cartes aéronautiques les nuages de type Cb),,,,Operational,PDF
-bufr4/0/20/008/13,020008,"Répartition des nuages, pour l'aviation",13,Nuages denses,(sert à décrire sur les cartes aéronautiques les nuages susceptible de réduire brusquement la visibilité (à moins de 1 000 m)),,,,Operational,PDF
+bufr4/0/20/008/13,020008,"Répartition des nuages, pour l'aviation",13,Nuages denses,(sert à décrire sur les cartes aéronautiques les nuages susceptible de réduire brusquement la visibilité (à moins de 1 000 m),,,,Operational,PDF
 bufr4/0/20/008/14,020008,"Répartition des nuages, pour l'aviation",14,Couches,,,,,Operational,PDF
 bufr4/0/20/008/15,020008,"Répartition des nuages, pour l'aviation",15,Ciel obscurci (OBSC),,,,,Operational,PDF
 bufr4/0/20/008/16,020008,"Répartition des nuages, pour l'aviation",16,Nuages noyés (EMBD),,,,,Operational,PDF
@@ -373,7 +374,8 @@ bufr4/0/20/009/1,020009,Indicateur général du temps (TAF/METAR),1,Pas de nuage
 bufr4/0/20/009/2,020009,Indicateur général du temps (TAF/METAR),2,CAVOK,,,,,Operational,PDF
 bufr4/0/20/009/3,020009,Indicateur général du temps (TAF/METAR),3,Ciel clair (SKC),,,,,Operational,PDF
 bufr4/0/20/009/4,020009,Indicateur général du temps (TAF/METAR),4,Pas de temps significatif (NSW),,,,,Operational,PDF
-bufr4/0/20/009/5-14,020009,Indicateur général du temps (TAF/METAR),5-14,En réserve,,,,,Operational,PDF
+bufr4/0/20/009/5,020009,Indicateur général du temps (TAF/METAR),5,NCD Aucun nuage détecté,,,,,Operational,AI
+bufr4/0/20/009/6-14,020009,Indicateur général du temps (TAF/METAR),6-14,En réserve,,,,,Operational,AI
 bufr4/0/20/009/15,020009,Indicateur général du temps (TAF/METAR),15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/20/011/0,020011,Nébulosité,0,0,0,,,,Operational,PDF
 bufr4/0/20/011/1,020011,Nébulosité,1,"1 octa ou moins, mais pas nulle","1/10 ou moins, mais pas nulle",,,,Operational,PDF
@@ -824,6 +826,10 @@ bufr4/0/20/071/8,020071,Précision du relevé et proportion des atmosphériques,
 bufr4/0/20/071/9,020071,Précision du relevé et proportion des atmosphériques,9,Plus de 200 km,Taux tellement rapide que le nombre ne peut être compté,,,,Operational,PDF
 bufr4/0/20/071/10-14,020071,Précision du relevé et proportion des atmosphériques,10-14,En réserve,,,,,Operational,PDF
 bufr4/0/20/071/15,020071,Précision du relevé et proportion des atmosphériques,15,Valeur manquante,,,,,Operational,PDF
+bufr4/0/20/079/0,020079,Indicateur de cristaux de neige ou de glace,0,Pas de neige ni de glace,,,,,Operational,AI
+bufr4/0/20/079/1,020079,Indicateur de cristaux de neige ou de glace,1,Neige présente,,,,,Operational,AI
+bufr4/0/20/079/2,020079,Indicateur de cristaux de neige ou de glace,2,En réserve,,,,,Operational,AI
+bufr4/0/20/079/3,020079,Indicateur de cristaux de neige ou de glace,3,Valeur manquante,,,,,Operational,AI
 bufr4/0/20/085/0,020085,État général de la piste,0,Déblayée (CLRD//),,,,,Operational,PDF
 bufr4/0/20/085/1,020085,État général de la piste,1,Toutes les pistes sont fermées (SNOCLO),,,,,Operational,PDF
 bufr4/0/20/085/2-14,020085,État général de la piste,2-14,En réserve,,,,,Operational,PDF
@@ -995,6 +1001,7 @@ bufr4/0/20/136/6,020136,Types de nuages supplémentaires,6,Cumulus et cumulonimb
 bufr4/0/20/136/7,020136,Types de nuages supplémentaires,7,Cumulus et cumulonimbus nombreux à développement vertical,,,,,Operational,PDF
 bufr4/0/20/136/8-9,020136,Types de nuages supplémentaires,8-9,En réserve,,,,,Operational,PDF
 bufr4/0/20/136//2,020136,Types de nuages supplémentaires,,10-19 Nuages orographiques (Co – Table de code 0561),,,,,,PDF
+bufr4/0/20/136/10,020136,Types de nuages supplémentaires,10,En réserve,,,,,Operational,AI
 bufr4/0/20/136/11,020136,Types de nuages supplémentaires,11,"Nuages orographiques isolés, pileus, incus, en formation",,,,,Operational,PDF
 bufr4/0/20/136/12,020136,Types de nuages supplémentaires,12,"Nuages orographiques isolés, pileus, incus, sans évolution",,,,,Operational,PDF
 bufr4/0/20/136/13,020136,Types de nuages supplémentaires,13,"Nuages orographiques isolés, pileus, incus, se dissipant",,,,,Operational,PDF
@@ -1057,3 +1064,15 @@ bufr4/0/20/138/6,020138,État du revêtement,6,Verglas,,,,,Operational,PDF
 bufr4/0/20/138/7,020138,État du revêtement,7,Route pas sèche,,,,,Operational,PDF
 bufr4/0/20/138/8-14,020138,État du revêtement,8-14,En réserve,,,,,Operational,PDF
 bufr4/0/20/138/15,020138,État du revêtement,15,Valeur manquante,,,,,Operational,PDF
+bufr4/0/20/139/0,020139,Hypothèse finale du modèle de cloud,0,Clair,,,,,Operational,AI
+bufr4/0/20/139/1,020139,Hypothèse finale du modèle de cloud,1,Eau monocouche,,,,,Operational,AI
+bufr4/0/20/139/2,020139,Hypothèse finale du modèle de cloud,2,Glace monocouche,,,,,Operational,AI
+bufr4/0/20/139/3,020139,Hypothèse finale du modèle de cloud,3,2-couches (eau/glace),,,,,Operational,AI
+bufr4/0/20/139/4,020139,Hypothèse finale du modèle de cloud,4,Cendre monocouche,,,,,Operational,AI
+bufr4/0/20/139/5,020139,Hypothèse finale du modèle de cloud,5,cendre à 2 couches,,,,,Operational,AI
+bufr4/0/20/139/6-14,020139,Hypothèse finale du modèle de cloud,6-14,En réserve,,,,,Operational,AI
+bufr4/0/20/139/15,020139,Hypothèse finale du modèle de cloud,15,Valeur manquante,,,,,Operational,AI
+bufr4/0/20/143/0,020143,Nuage liquide,0,Aucun nuage liquide,,,,,Operational,AI
+bufr4/0/20/143/1,020143,Nuage liquide,1,Nuage liquide présent,,,,,Operational,AI
+bufr4/0/20/143/2,020143,Nuage liquide,2,En réserve,,,,,Operational,AI
+bufr4/0/20/143/3,020143,Nuage liquide,3,Valeur manquante,,,,,Operational,AI

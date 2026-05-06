@@ -1,4 +1,9 @@
 ID,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status,translation_source
+bufr4/0/21/026/0,021026,"Utilité des sigma-0, ASCAT",0,Nominale,,,,,Operational,AI
+bufr4/0/21/026/1,021026,"Utilité des sigma-0, ASCAT",1,Proche du nominal,,,,,Operational,AI
+bufr4/0/21/026/2,021026,"Utilité des sigma-0, ASCAT",2,Loin d'être nominal,,,,,Operational,AI
+bufr4/0/21/026/3-6,021026,"Utilité des sigma-0, ASCAT",3-6,En réserve,,,,,Operational,AI
+bufr4/0/21/026/7,021026,"Utilité des sigma-0, ASCAT",7,Valeur manquante,,,,,Operational,AI
 bufr4/0/21/066/1,021066,Données sur le degré de confiance du produit SAR mode vague,1,Équipement de traitement ne fonctionne pas,,,,,Operational,PDF
 bufr4/0/21/066/2,021066,Données sur le degré de confiance du produit SAR mode vague,2,Équipement en panne,,,,,Operational,PDF
 bufr4/0/21/066/3,021066,Données sur le degré de confiance du produit SAR mode vague,3,Code de fréquence de répétition (PRF) modifié pendant la formation de l'image,,,,,Operational,PDF
@@ -42,7 +47,7 @@ bufr4/0/21/069/7,021069,Données sur le degré de confiance du produit concernan
 bufr4/0/21/069/8,021069,Données sur le degré de confiance du produit concernant la température de la mer en surface,8,"Canal à 3,7 μm utilisé pour l'extraction des données sur la température de la mer en surface",,,,,Operational,PDF
 bufr4/0/21/069/9,021069,Données sur le degré de confiance du produit concernant la température de la mer en surface,9,Données de jour utilisées pour le calcul de la température de la mer en surface (données de nuit si zéro),,,,,Operational,PDF
 bufr4/0/21/069/All-10,021069,Données sur le degré de confiance du produit concernant la température de la mer en surface,10 bits mis à 1,Valeur manquante,,,,,Operational,PDF
-bufr4/0/21/070/1-9,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),1-9,"Température de surface de la mer (SST) extraite uniquement d'une visée au nadir dans le canal de 3,7 microns (1 bit par cellule de 10 minutes d'arc)",Numérotation,,,,Operational,PDF
+bufr4/0/21/070//1,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),,"1-9 Visée au nadir uniquement, extraction de la température de la surface de la mer utilisée avec le canal de 3,7 µm (un bit par cellule de 10 arcmin).",,,,,Operational,AI
 bufr4/0/21/070/1,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),1,"Cellule 1: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/2,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),2,"Cellule 2: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/3,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),3,"Cellule 3: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
@@ -52,7 +57,7 @@ bufr4/0/21/070/6,021070,Données sur le degré de confiance du produit concernan
 bufr4/0/21/070/7,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),7,"Cellule 7: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/8,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),8,"Cellule 8: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/9,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),9,"Cellule 9: SST extraite uniquement d'une visée au nadir dans le canal de 3,7 microns",,,,,Operational,PDF
-bufr4/0/21/070/10-18,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),10-18,"SST extraite d'une visée double dans le canal de 3,7 microns (1 bit par cellule de 10 mn d'arc)",Numérotation,,,,Operational,PDF
+bufr4/0/21/070//2,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),,"10-18 Récupération SST à double vue utilisant le canal de 3,7 µm (un bit par cellule de 10 arcmin)",,,,,Operational,AI
 bufr4/0/21/070/10,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),10,"Cellule 1: SST extraite d'une visée double dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/11,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),11,"Cellule 2: SST extraite d'une visée double dans le canal de 3,7 microns",,,,,Operational,PDF
 bufr4/0/21/070/12,021070,Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2),12,"Cellule 3: SST extraite d'une visée double dans le canal de 3,7 microns",,,,,Operational,PDF

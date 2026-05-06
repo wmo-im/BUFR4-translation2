@@ -33,6 +33,18 @@ bufr4/0/02/004/8,002004,Type d'instrument utilisé pour la mesure de l'évaporat
 bufr4/0/02/004/9,002004,Type d'instrument utilisé pour la mesure de l'évaporation ou type de culture pour lequel est indiquée l'évapotranspiration,9,Autres cultures,Évapotranspiration,,,,Operational,PDF
 bufr4/0/02/004/10-14,002004,Type d'instrument utilisé pour la mesure de l'évaporation ou type de culture pour lequel est indiquée l'évapotranspiration,10-14,En réserve,Évapotranspiration,,,,Operational,PDF
 bufr4/0/02/004/15,002004,Type d'instrument utilisé pour la mesure de l'évaporation ou type de culture pour lequel est indiquée l'évapotranspiration,15,Valeur manquante,,,,,Operational,PDF
+bufr4/0/02/006/0,002006,Type d’instrument de télédétection de l’air supérieur,0,En réserve,,,,,Operational,AI
+bufr4/0/02/006/1,002006,Type d’instrument de télédétection de l’air supérieur,1,Lidar de rétrodiffusion élastique,,,,,Operational,AI
+bufr4/0/02/006/2,002006,Type d’instrument de télédétection de l’air supérieur,2,Lidar de rétro-diffusion Raman,,,,,Operational,AI
+bufr4/0/02/006/3,002006,Type d’instrument de télédétection de l’air supérieur,3,Profileur de vent radar,,,,,Operational,AI
+bufr4/0/02/006/4,002006,Type d’instrument de télédétection de l’air supérieur,4,Profileur de vent Lidar,,,,,Operational,AI
+bufr4/0/02/006/5,002006,Type d’instrument de télédétection de l’air supérieur,5,Profileur de vent Sodar,,,,,Operational,AI
+bufr4/0/02/006/6,002006,Type d’instrument de télédétection de l’air supérieur,6,Profileur de vent,,,,,Operational,AI
+bufr4/0/02/006/7,002006,Type d’instrument de télédétection de l’air supérieur,7,Lidar,,,,,Operational,AI
+bufr4/0/02/006/8,002006,Type d’instrument de télédétection de l’air supérieur,8,Radiomètre micro-ondes au sol,,,,,Operational,AI
+bufr4/0/02/006/9,002006,Type d’instrument de télédétection de l’air supérieur,9,Lidar à absorption différentielle,,,,,Operational,AI
+bufr4/0/02/006/10-62,002006,Type d’instrument de télédétection de l’air supérieur,10-62,En réserve,,,,,Operational,AI
+bufr4/0/02/006/63,002006,Type d’instrument de télédétection de l’air supérieur,63,Valeur manquante,,,,,Operational,AI
 bufr4/0/02/007/0,002007,Type de capteur pour les instruments de mesure de la hauteur d'eau,0,En réserve,,,,,Operational,PDF
 bufr4/0/02/007/1,002007,Type de capteur pour les instruments de mesure de la hauteur d'eau,1,Codeur rotatif et flotteur,,,,,Operational,PDF
 bufr4/0/02/007/2,002007,Type de capteur pour les instruments de mesure de la hauteur d'eau,2,Ultrasons,,,,,Operational,PDF
@@ -53,6 +65,11 @@ bufr4/0/02/008/4,002008,Type de plate-forme en mer,4,"Unité flottante de produc
 bufr4/0/02/008/5,002008,Type de plate-forme en mer,5,Bateau-feu,,,,,Operational,PDF
 bufr4/0/02/008/6-14,002008,Type de plate-forme en mer,6-14,En réserve,,,,,Operational,PDF
 bufr4/0/02/008/15,002008,Type de plate-forme en mer,15,Valeur manquante,,,,,Operational,PDF
+bufr4/0/02/009/0,002009,Algorithme d'aérosols MODIS,0,Réflectances corrigées du sol,,,,,Operational,AI
+bufr4/0/02/009/1,002009,Algorithme d'aérosol MODIS,1,La meilleure solution pour l'océan,,,,,Operational,AI
+bufr4/0/02/009/2,002009,Algorithme d'aérosol MODIS,2,Solution moyenne océanique,,,,,Operational,AI
+bufr4/0/02/009/3-14,002009,Algorithme d'aérosol MODIS,3-14,En réserve,,,,,Operational,AI
+bufr4/0/02/009/15,002009,Algorithme d'aérosol MODIS,15,Valeur manquante,,,,,Operational,AI
 bufr4/0/02/011,002011,Type de radiosonde (Voir la table de code commune C-2 dans la Partie C/c.),,,,,,,Operational,PDF
 bufr4/0/02/012,002012,Méthode de calcul des données de radiosondage (À établir),,,,,,,Operational,PDF
 bufr4/0/02/013/0,002013,Correction du rayonnement solaire et infrarouge,0,Pas de correction,,,,,Operational,PDF
@@ -94,15 +111,18 @@ bufr4/0/02/020/0,002020,Classification des satellites,0,Nimbus,,,,,Operational,P
 bufr4/0/02/020/1,002020,Classification des satellites,1,VTPR,,,,,Operational,PDF
 bufr4/0/02/020/2,002020,Classification des satellites,2,"Tiros 1 (Tiros, NOAA-6 à NOAA-13)",,,,,Operational,PDF
 bufr4/0/02/020/3,002020,Classification des satellites,3,Tiros 2 (NOAA-14 et suivants),,,,,Operational,PDF
+bufr4/0/02/020/4,002020,Classification des satellites,4,NEON,,,,,Operational,AI
 bufr4/0/02/020/10,002020,Classification des satellites,10,EOS,,,,,Operational,PDF
 bufr4/0/02/020/20,002020,Classification des satellites,20,GPM-core,,,,,Operational,PDF
 bufr4/0/02/020/31,002020,Classification des satellites,31,DMSP,,,,,Operational,PDF
 bufr4/0/02/020/61,002020,Classification des satellites,61,Système polaire EUMETSAT (EPS),,,,,Operational,PDF
+bufr4/0/02/020/62,002020,Classification des satellites,62,Système polaire d'EUMETSAT (EPS-SG),,,,,Operational,AI
 bufr4/0/02/020/91,002020,Classification des satellites,91,ERS,,,,,Operational,PDF
 bufr4/0/02/020/92,002020,Classification des satellites,92,Sentinel-3,,,,,Operational,PDF
 bufr4/0/02/020/121,002020,Classification des satellites,121,ADEOS,,,,,Operational,PDF
 bufr4/0/02/020/122,002020,Classification des satellites,122,GCOM,,,,,Operational,PDF
 bufr4/0/02/020/241,002020,Classification des satellites,241,GOES,,,,,Operational,PDF
+bufr4/0/02/020/251,002020,Classification des satellites,251,TROPICS,,,,,Operational,AI
 bufr4/0/02/020/261,002020,Classification des satellites,261,JASON,,,,,Operational,PDF
 bufr4/0/02/020/271,002020,Classification des satellites,271,GMS,,,,,Operational,PDF
 bufr4/0/02/020/272,002020,Classification des satellites,272,MTSAT,,,,,Operational,PDF
@@ -112,7 +132,9 @@ bufr4/0/02/020/301,002020,Classification des satellites,301,INSAT,,,,,Operationa
 bufr4/0/02/020/331,002020,Classification des satellites,331,Programme opérationnel METEOSAT (MOP),,,,,Operational,PDF
 bufr4/0/02/020/332,002020,Classification des satellites,332,Programme METEOSAT de transition (MTP),,,,,Operational,PDF
 bufr4/0/02/020/333,002020,Classification des satellites,333,Programme de satellites METEOSAT de la seconde génération (MSG),,,,,Operational,PDF
+bufr4/0/02/020/334,002020,Classification des satellites,334,Programme de troisième génération METEOSAT (MTG),,,,,Operational,AI
 bufr4/0/02/020/351,002020,Classification des satellites,351,GOMS,,,,,Operational,PDF
+bufr4/0/02/020/352,002020,Classification des satellites,352,Meteor-M N2,,,,,Operational,AI
 bufr4/0/02/020/380,002020,Classification des satellites,380,FY-1,,,,,Operational,PDF
 bufr4/0/02/020/381,002020,Classification des satellites,381,FY-2,,,,,Operational,PDF
 bufr4/0/02/020/382,002020,Classification des satellites,382,FY-3,,,,,Operational,PDF
@@ -122,7 +144,8 @@ bufr4/0/02/020/401,002020,Classification des satellites,401,GPS,,,,,Operational,
 bufr4/0/02/020/402,002020,Classification des satellites,402,GLONASS,,,,,Operational,PDF
 bufr4/0/02/020/403,002020,Classification des satellites,403,GALILEO,,,,,Operational,PDF
 bufr4/0/02/020/404,002020,Classification des satellites,404,BDS (Système de navigation par satellite Beidou),,,,,Operational,PDF
-bufr4/0/02/020/405-510,002020,Classification des satellites,405-510,En réserve,,,,,Operational,PDF
+bufr4/0/02/020/405,002020,Classification des satellites,405,Système de satellites quasi-zénith (QZSS),,,,,Operational,AI
+bufr4/0/02/020/406-510,002020,Classification des satellites,406-510,En réserve,,,,,Operational,AI
 bufr4/0/02/020/511,002020,Classification des satellites,511,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/021/1,002021,Données instrumentales satellitaires utilisées dans le traitement,1,Sondeur en infrarouge à grand pouvoir séparateur (HIRS),,,,,Operational,PDF
 bufr4/0/02/021/2,002021,Données instrumentales satellitaires utilisées dans le traitement,2,Sondeur à hyperfréquence (MSU),,,,,Operational,PDF
@@ -171,7 +194,7 @@ bufr4/0/02/025/10,002025,Canal (canaux) de satellite utilisé(s) pour les calcul
 bufr4/0/02/025/11,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,11,"HIRS (1, 2, 3, 9, 17)",,,,,Operational,PDF
 bufr4/0/02/025/12,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,12,MSU,,,,,Operational,PDF
 bufr4/0/02/025/13-14,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,13-14,En réserve,,,,,Operational,PDF
-bufr4/0/02/025//4,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,,"Groupe 4 - Température moyenne pour les couches: surface à 850 hPa, 850 à 700 hPa, 700 à 500 hPa, 500 à 400 hPa, 400 à 300 hPa, 300 à 200 hPa, et 200 à 100 hPa",,,,,Operational,PDF
+bufr4/0/02/025//4,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,,"Groupe 4 - Température moyenne pour les couches: surface à 850 hPa, 850 à 700 hPa, 700 à 500 hPa, 500 à 400 hPa, 400 à 300 hPa, 300 à 200 hPa, et 200 à 100 hPa",,,,,Operational,PDF
 bufr4/0/02/025/15,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,15,HIRS,,,,,Operational,PDF
 bufr4/0/02/025/16,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,16,HIRS,,,(voir Note 2),47,Operational,PDF
 bufr4/0/02/025/17,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,17,MSU,,,,,Operational,PDF
@@ -328,7 +351,8 @@ bufr4/0/02/048/9,002048,Indicateur de détecteur de satellite,9,Altimètre de PO
 bufr4/0/02/048/10,002048,Indicateur de détecteur de satellite,10,Radiomètre en hyperfréquences de JASON,,,,,Operational,PDF
 bufr4/0/02/048/11,002048,Indicateur de détecteur de satellite,11,MHS,,,,,Operational,PDF
 bufr4/0/02/048/12,002048,Indicateur de détecteur de satellite,12,ASCAT,,,,,Operational,PDF
-bufr4/0/02/048/13-14,002048,Indicateur de détecteur de satellite,13-14,En réserve,,,,,Operational,PDF
+bufr4/0/02/048/13,002048,Indicateur de détecteur de satellite,13,OSCAT2,,,,,Operational,AI
+bufr4/0/02/048/14,002048,Indicateur de détecteur de satellite,14,En réserve,,,,,Operational,AI
 bufr4/0/02/048/15,002048,Indicateur de détecteur de satellite,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/049/1,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,1,Technique de traitement non définie,,,,,Operational,PDF
 bufr4/0/02/049/2,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,2,Extraction physique simultanée,,,,,Operational,PDF
@@ -472,7 +496,8 @@ bufr4/0/02/080/1,002080,Fabricant du ballon,1,Totex,,,,,Operational,PDF
 bufr4/0/02/080/2,002080,Fabricant du ballon,2,KKS,,,,,Operational,PDF
 bufr4/0/02/080/3,002080,Fabricant du ballon,3,Guangzhou Shuangyi (Chine),,,,,Operational,PDF
 bufr4/0/02/080/4,002080,Fabricant du ballon,4,ChemChina Zhuzhou (Chine),,,,,Operational,PDF
-bufr4/0/02/080/5-61,002080,Fabricant du ballon,5-61,En réserve,,,,,Operational,PDF
+bufr4/0/02/080/5,002080,Fabricant du ballon,5,WindBorne,,,,,Operational,AI
+bufr4/0/02/080/6-61,002080,Fabricant du ballon,6-61,En réserve,,,,,Operational,AI
 bufr4/0/02/080/62,002080,Fabricant du ballon,62,Autre,,,,,Operational,PDF
 bufr4/0/02/080/63,002080,Fabricant du ballon,63,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/081/0,002081,Type de ballon,0,GP26,,,,,Operational,PDF
@@ -522,7 +547,10 @@ bufr4/0/02/096/4,002096,Type de capteur de température,4,Capteur résistif,,,,,
 bufr4/0/02/096/5,002096,Type de capteur de température,5,Thermistance pavé,,,,,Operational,PDF
 bufr4/0/02/096/6,002096,Type de capteur de température,6,Thermomètre à mercure,,,,,Operational,PDF
 bufr4/0/02/096/7,002096,Type de capteur de température,7,Thermomètre à alcool/glycol,,,,,Operational,PDF
-bufr4/0/02/096/8-30,002096,Type de capteur de température,8-30,En réserve pour un usage futur,,,,,Operational,PDF
+bufr4/0/02/096/8,002096,Type de capteur de température,8,Thermomètre à résistance de platine,,,,,Operational,AI
+bufr4/0/02/096/9,002096,Type de capteur de température,9,thermistance,,,,,Operational,AI
+bufr4/0/02/096/10,002096,Type de capteur de température,10,Thermocouple,,,,,Operational,AI
+bufr4/0/02/096/11-30,002096,Type de capteur de température,11-30,En réserve pour utilisation future,,,,,Operational,AI
 bufr4/0/02/096/31,002096,Type de capteur de température,31,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/097/0,002097,Type de capteur de l'humidité,0,Hygristor carbone VIZ Mark II,,,,,Operational,PDF
 bufr4/0/02/097/1,002097,Type de capteur de l'humidité,1,Hygristor VIZ B2,,,,,Operational,PDF
@@ -555,7 +583,9 @@ bufr4/0/02/099/0,002099,Polarisation,0,Polarisation HH,,,,,Operational,PDF
 bufr4/0/02/099/1,002099,Polarisation,1,Polarisation VV,,,,,Operational,PDF
 bufr4/0/02/099/2,002099,Polarisation,2,Composante réelle de polarisation HV,,,,,Operational,PDF
 bufr4/0/02/099/3,002099,Polarisation,3,Composante imaginaire de polarisation HV,,,,,Operational,PDF
-bufr4/0/02/099/4-6,002099,Polarisation,4-6,En réserve,,,,,Operational,PDF
+bufr4/0/02/099/4,002099,Polarisation,4,Polarisation HV,,,,,Operational,AI
+bufr4/0/02/099/5,002099,Polarisation,5,Polarisation VH,,,,,Operational,AI
+bufr4/0/02/099/6,002099,Polarisation,6,En réserve,,,,,Operational,AI
 bufr4/0/02/099/7,002099,Polarisation,7,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/101/0,002101,Type d'antenne,0,Paraboloïde à alimentation frontale centré,,,,,Operational,PDF
 bufr4/0/02/101/1,002101,Type d'antenne,1,Paraboloïde à alimentation frontale excentré,,,,,Operational,PDF
@@ -924,7 +954,8 @@ bufr4/0/02/170/63,002170,Capteur d'humidité de l'aéronef,63,Valeur manquante,,
 bufr4/0/02/172/0,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,0,En réserve,,,,,Operational,PDF
 bufr4/0/02/172/1,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,1,Donnée extraite d'un sondage au nadir,,,,,Operational,PDF
 bufr4/0/02/172/2,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,2,Donnée extraite d'un sondage au limbe,,,,,Operational,PDF
-bufr4/0/02/172/3-254,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,3-254,En réserve,,,,,Operational,PDF
+bufr4/0/02/172/3,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,3,Récupération à partir d'un sondage par occultation,,,,,Operational,AI
+bufr4/0/02/172/4-254,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,4-254,En réserve,,,,,Operational,AI
 bufr4/0/02/172/255,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,255,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/175/0,002175,Méthode de mesure des précipitations,0,Mesure manuelle,,,,,Operational,PDF
 bufr4/0/02/175/1,002175,Méthode de mesure des précipitations,1,Instrument à augets basculeurs,,,,,Operational,PDF

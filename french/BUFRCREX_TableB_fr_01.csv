@@ -1,8 +1,8 @@
 ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
 bufr4/0/01/001,01,Identification BUFR/CREX,001001,Indicateur régional OMM,Numérique,0,0,7,Numérique,0,2,,,Operational,PDF
 bufr4/0/01/002,01,Identification BUFR/CREX,001002,Chiffre indicatif OMM de la station,Numérique,0,0,10,Numérique,0,3,,,Operational,PDF
-bufr4/0/01/003,01,Identification BUFR/CREX,001003,Région OMM/zone géographique,Table de code,0,0,3,Table de code,0,01,,,Operational,PDF
-bufr4/0/01/004,01,Identification BUFR/CREX,001004,Sous-région OMM,Numérique,0,0,3,Numérique,0,01,(voir Note 9),42,Operational,PDF
+bufr4/0/01/003,01,Identification BUFR/CREX,001003,Région OMM/zone géographique,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
+bufr4/0/01/004,01,Identification BUFR/CREX,001004,Sous-région OMM,Numérique,0,0,3,Numérique,0,1,(voir Note 9),42,Operational,PDF
 bufr4/0/01/005,01,Identification BUFR/CREX,001005,Indicateur d'identification de la bouée ou de la plate-forme,Numérique,0,0,17,Numérique,0,5,,,Operational,PDF
 bufr4/0/01/006,01,Identification BUFR/CREX,001006,Numéro de vol de l'aéronef,CCITT IA5,0,0,64,Caractère,0,8,,,Operational,PDF
 bufr4/0/01/007,01,Identification BUFR/CREX,001007,Indicateur d'identification du satellite,Table de code,0,0,10,Table de code,0,4,,,Operational,PDF
@@ -14,6 +14,7 @@ bufr4/0/01/012,01,Identification BUFR/CREX,001012,Direction de déplacement de l
 bufr4/0/01/013,01,Identification BUFR/CREX,001013,Vitesse de déplacement de la plate-forme d'observation mobile,m/s,0,0,10,m/s,0,3,(voir Notes 14 et 15),"60,125",Operational,PDF
 bufr4/0/01/014,01,Identification BUFR/CREX,001014,Vitesse de dérive de la plate-forme (précision élevée),m/s,2,0,10,m/s,2,4,,,Operational,PDF
 bufr4/0/01/015,01,Identification BUFR/CREX,001015,Nom de la station ou du site,CCITT IA5,0,0,160,Caractère,0,20,,,Operational,PDF
+bufr4/0/01/016,01,Identification,001016,Identifiant secondaire du satellite,Numérique,0,0,16,Numérique,0,5,,,Operational,AI
 bufr4/0/01/018,01,Identification BUFR/CREX,001018,Nom abrégé de la station ou du site,CCITT IA5,0,0,40,Caractère,0,5,,,Operational,PDF
 bufr4/0/01/019,01,Identification BUFR/CREX,001019,Nom complet de la station ou du site,CCITT IA5,0,0,256,Caractère,0,32,,,Operational,PDF
 bufr4/0/01/020,01,Identification BUFR/CREX,001020,Sous-région OMM,Numérique,0,0,4,Numérique,0,2,,,Operational,PDF
@@ -42,8 +43,8 @@ bufr4/0/01/042,01,Identification BUFR/CREX,001042,Vitesse absolue de la plate-fo
 bufr4/0/01/043,01,Identification BUFR/CREX,001043,Vitesse absolue de la plate-forme - troisième composante,m/s,5,-1073741824,31,m/s,5,10,"(voir Notes 6, 7 et 8)","134,154,95",Operational,PDF
 bufr4/0/01/044,01,Identification BUFR/CREX,001044,Application de production standard,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
 bufr4/0/01/050,01,Identification BUFR/CREX,001050,Numéro d'identification de l'émetteur de la plate-forme,Numérique,0,0,17,Numérique,0,6,,,Operational,PDF
-bufr4/0/01/051,01,Identification BUFR/CREX,001051,Numéro d'identification de l'émetteur de la plate-forme,CCITT IA5,0,0,96,Caractère,0,12,,,Operational,PDF
-bufr4/0/01/052,01,Identification BUFR/CREX,001052,Indicateur d'identification de l'émetteur de la plate-forme,Table de code,0,0,3,Table de code,0,01,,,Operational,PDF
+bufr4/0/01/051,01,Identification BUFR/CREX,001051,Numéro d'identification de l'émetteur de la plate-forme,CCITT IA5,0,0,96,Caractère,0,12,,,Operational,PDF
+bufr4/0/01/052,01,Identification BUFR/CREX,001052,Indicateur d'identification de l'émetteur de la plate-forme,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/01/053,01,Identification BUFR/CREX,001053,Numéro de séquence pour les messages provenant du tsunamimètre déclenchés par un tsunami,Numérique,0,0,7,Numérique,0,2,,,Operational,PDF
 bufr4/0/01/060,01,Identification BUFR/CREX,001060,Point de signalisation de la position des aéronefs (indicateur Beacon),CCITT IA5,0,0,64,Caractère,0,8,,,Operational,PDF
 bufr4/0/01/062,01,Identification BUFR/CREX,001062,Indicateur court d'emplacement OACI,CCITT IA5,0,0,32,Caractère,0,4,,,Operational,PDF
@@ -55,7 +56,7 @@ bufr4/0/01/079,01,Identification BUFR/CREX,001079,Identificateur de profil uniqu
 bufr4/0/01/080,01,Identification BUFR/CREX,001080,Numéro de la ligne parcourue par le navire du SOOP,CCITT IA5,0,0,32,Caractère,0,4,,,Operational,PDF
 bufr4/0/01/081,01,Identification BUFR/CREX,001081,Numéro de série de la radiosonde,CCITT IA5,0,0,160,Caractère,0,20,,,Operational,PDF
 bufr4/0/01/082,01,Identification BUFR/CREX,001082,Numéro du radiosondage,Numérique,0,0,14,Numérique,0,4,(voir Note 12),45,Operational,PDF
-bufr4/0/01/083,01,Identification BUFR/CREX,001083,Numéro du lâcher de radiosonde,Numérique,0,0,3,Numérique,0,01,(voir Note 12),45,Operational,PDF
+bufr4/0/01/083,01,Identification BUFR/CREX,001083,Numéro du lâcher de radiosonde,Numérique,0,0,3,Numérique,0,1,(voir Note 12),45,Operational,PDF
 bufr4/0/01/085,01,Identification BUFR/CREX,001085,Modèle de la plate-forme d'observation - appellation donnée par le fabricant,CCITT IA5,0,0,160,Caractère,0,20,,,Operational,PDF
 bufr4/0/01/086,01,Identification BUFR/CREX,001086,"Numéro de série de la plate-forme d'observation, fourni par le fabricant",CCITT IA5,0,0,256,Caractère,0,32,,,Operational,PDF
 bufr4/0/01/087,01,Identification BUFR/CREX,001087,Extension de l'indicatif OMM de la plate-forme d'observation maritime,Numérique,0,0,23,Numérique,0,7,,,Operational,PDF
@@ -76,7 +77,7 @@ bufr4/0/01/106,01,Identification BUFR/CREX,001106,Emplacement le long de l'axe r
 bufr4/0/01/110,01,Identification BUFR/CREX,001110,Immatriculation de l'aéronef,CCITT IA5,0,0,48,Caractère,0,6,,,Operational,PDF
 bufr4/0/01/111,01,Identification BUFR/CREX,001111,Aéroport de départ,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF
 bufr4/0/01/112,01,Identification BUFR/CREX,001112,Aéroport de destination,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF
-bufr4/0/01/113,01,Identification BUFR/CREX,001113,Numéro de la version du modèle défini par le centre d'origine,Numérique,01,0,9,Numérique,01,3,,,Operational,PDF
+bufr4/0/01/113,01,Identification BUFR/CREX,001113,Numéro de la version du modèle défini par le centre d'origine,Numérique,1,0,9,Numérique,1,3,,,Operational,PDF
 bufr4/0/01/114,01,Identification BUFR/CREX,001114,Indicateur d'identification chiffré du navire ou d'une station terrestre mobile (chiffrement Base64),CCITT IA5,0,0,352,Caractère,0,44,,,Operational,PDF
 bufr4/0/01/115,01,Identification BUFR/CREX,001115,Identificateur de la campagne ou de la mission au titre de laquelle les données ont été recueillies,CCITT IA5,0,0,160,Caractère,0,20,,,Operational,PDF
 bufr4/0/01/124,01,Identification BUFR/CREX,001124,Indicateur d'identification des points de grille,Numérique,0,0,24,Numérique,0,8,,,Operational,PDF
@@ -84,8 +85,16 @@ bufr4/0/01/125,01,Identification BUFR/CREX,001125,Série d'identifiants du WIGOS
 bufr4/0/01/126,01,Identification BUFR/CREX,001126,Émetteur d'identifiants du WIGOS,Numérique,0,0,16,Numérique,0,5,,,Operational,PDF
 bufr4/0/01/127,01,Identification BUFR/CREX,001127,Numéro d'émission du WIGOS,Numérique,0,0,16,Numérique,0,5,,,Operational,PDF
 bufr4/0/01/128,01,Identification BUFR/CREX,001128,Identifiant local du WIGOS (caractère),CCITT IA5,0,0,128,Caractère,0,16,,,Operational,PDF
+bufr4/0/01/130,01,Identification,001130,Identifiant de tempête (long).,CCITT IA5,0,0,32,,,,,,Operational,AI
 bufr4/0/01/144,01,Identification BUFR/CREX,001144,Indicateur d'identification de l'instantané,Numérique,0,0,31,Numérique,0,10,,,Operational,PDF
+bufr4/0/01/145,01,Identification,001145,Identificateur de source lumineuse,Numérique,0,-8,20,Numérique,0,7,((voir Note 17)),185,Operational,AI
 bufr4/0/01/150,01,Identification BUFR/CREX,001150,Système de coordonnées de référence,Table de code,0,0,16,Table de code,0,5,,,Operational,PDF
 bufr4/0/01/151,01,Identification BUFR/CREX,001151,Données de référence sur le niveau moyen de la mer,Table de code,0,0,12,Table de code,0,4,,,Operational,PDF
 bufr4/0/01/152,01,Identification BUFR/CREX,001152,Demi-grand axe de l'ellipsoïde de rotation,m,2,0,31,m,2,11,,,Operational,PDF
 bufr4/0/01/153,01,Identification BUFR/CREX,001153,Demi-petit axe de l'ellipsoïde de rotation,m,2,0,31,m,2,11,,,Operational,PDF
+bufr4/0/01/154,01,Identification,001154,Identifiant de capteur,Numérique,0,0,12,Numérique,0,4,,,Operational,AI
+bufr4/0/01/155,01,Identification,001155,Identifiant de récupération,Table de code,0,0,8,Table de code,0,3,,,Operational,AI
+bufr4/0/01/156,01,Identification,001156,Numéro de vol en montgolfière,CCITT IA5,0,0,64,,,,,,Operational,AI
+bufr4/0/01/157,01,Identification,001157,Numéro d'enregistrement du ballon ou autre identification,CCITT IA5,0,0,80,,,,,,Operational,AI
+bufr4/0/01/158,01,Identification,001158,Type d'enveloppe de ballon,Table de code,0,0,4,,,,,,Operational,AI
+bufr4/0/01/159,01,Identification,001159,Taille typique de l'enveloppe du ballon,m,1,0,12,,,,(Voir la note 18),195,Operational,AI

@@ -3,3 +3,16 @@ bufr4/0/42/004/0,042004,Degré de confiance pour l'inversion concernant chaque p
 bufr4/0/42/004/1,042004,Degré de confiance pour l'inversion concernant chaque partition du spectre de la houle,1,Ambiguïté de 180 degrés non résolue,,,,,Operational,PDF
 bufr4/0/42/004/2-14,042004,Degré de confiance pour l'inversion concernant chaque partition du spectre de la houle,2-14,En réserve,,,,,Operational,PDF
 bufr4/0/42/004/15,042004,Degré de confiance pour l'inversion concernant chaque partition du spectre de la houle,15,Valeur manquante,,,,,Operational,PDF
+bufr4/0/42/017/0,042017,Drapeau de qualité du spectre de la houle,0,Bonne,,,,,Operational,AI
+bufr4/0/42/017/1,042017,Drapeau de qualité du spectre de la houle,1,Moyen,,,,,Operational,AI
+bufr4/0/42/017/2,042017,Drapeau de qualité du spectre de la houle,2,Bas,,,,,Operational,AI
+bufr4/0/42/017/3,042017,Drapeau de qualité du spectre de la houle,3,Pauvre,,,,,Operational,AI
+bufr4/0/42/017/4-14,042017,Drapeau de qualité du spectre de la houle,4-14,En réserve,,,,,Operational,AI
+bufr4/0/42/017/15,042017,Drapeau de qualité du spectre de la houle,15,Valeur manquante,,,,,Operational,AI
+bufr4/0/42/018/0,042018,Drapeau de qualité pour chaque partition du spectre de la houle,0,Très bien,,,,,Operational,AI
+bufr4/0/42/018/1,042018,Drapeau de qualité pour chaque partition du spectre de la houle,1,Bonne,,,,,Operational,AI
+bufr4/0/42/018/2,042018,Drapeau de qualité pour chaque partition du spectre de la houle,2,Moyen,,,,,Operational,AI
+bufr4/0/42/018/3,042018,Drapeau de qualité pour chaque partition du spectre de la houle,3,Bas,,,,,Operational,AI
+bufr4/0/42/018/4,042018,Drapeau de qualité pour chaque partition du spectre de la houle,4,Pauvre,,,,,Operational,AI
+bufr4/0/42/018/5-14,042018,Drapeau de qualité pour chaque partition du spectre de la houle,5-14,En réserve,,,,,Operational,AI
+bufr4/0/42/018/15,042018,Drapeau de qualité pour chaque partition du spectre de la houle,15,Valeur manquante,,,,,Operational,AI
