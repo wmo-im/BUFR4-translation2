@@ -14,7 +14,7 @@ Examples:
     python scripts/csv2docx.py fr --table CF --class 20    # French CodeFlag class 20
 """
 
-import argparse, csv, json, os, sys, glob
+import argparse, csv, json, os, re, sys, glob
 
 from docx import Document
 from docx.shared import Pt, Cm, Twips
@@ -82,6 +82,103 @@ def format_fxy(code, fmt='compact'):
     return c
 
 
+# ── Unit superscript formatting ──────────────────────────────────────
+
+# Pattern: letter(s) followed by digit(s) that are exponents, e.g. m2, s-2, m-1
+# Also handles patterns like: kg m-2 s-1, m2 s-2, W m-2 sr-1
+# Match lowercase letter + exponent (m2, s-1, sr-1, deg2) but NOT uppercase acronyms (IA5)
+UNIT_EXP_RE = re.compile(r'(?<![A-Z])([a-z°])(-?\d+)(?=\s|$|[·⋅/)])')
+
+
+def set_cell_with_units(cell, text, style, is_unit_col=False):
+    """Set cell text, with superscript formatting for unit exponents if is_unit_col."""
+    cell.text = ''
+    p = cell.paragraphs[0]
+    p.paragraph_format.space_before = Pt(1)
+    p.paragraph_format.space_after = Pt(1)
+
+    clean = ''.join(c for c in str(text or '') if ord(c) >= 32 or c in '\t\n\r')
+
+    if not is_unit_col or not UNIT_EXP_RE.search(clean):
+        run = p.add_run(clean)
+        run.font.name = style['font']
+        run.font.size = style['data_size']
+        return
+
+    # Split text into segments: normal text + superscript exponents
+    pos = 0
+    for m in UNIT_EXP_RE.finditer(clean):
+        # Text before the match (including the base letter)
+        before = clean[pos:m.start() + 1]  # include the letter
+        exp = m.group(2)  # the exponent digits
+
+        if before:
+            run = p.add_run(before)
+            run.font.name = style['font']
+            run.font.size = style['data_size']
+
+        # Superscript exponent
+        run = p.add_run(exp)
+        run.font.name = style['font']
+        run.font.size = style['data_size']
+        run.font.superscript = True
+
+        pos = m.end()
+
+    # Remaining text after last match
+    if pos < len(clean):
+        run = p.add_run(clean[pos:])
+        run.font.name = style['font']
+        run.font.size = style['data_size']
+
+
+# ── Global notes loader ─────────────────────────────────────────────
+
+def load_global_notes(lang, base_dir, table_type):
+    """Load global noteIDs for a table type and return resolved note text list."""
+    notes_dir = os.path.join(base_dir, 'notes')
+
+    # Map table type to global noteIDs file prefix
+    prefix_map = {
+        'table_b': 'BUFRCREX_TableB',
+        'table_d': 'BUFR_TableD',
+        'codeflag': 'BUFRCREX_CodeFlag',
+    }
+    prefix = prefix_map.get(table_type, '')
+    if not prefix:
+        return []
+
+    # Read global noteIDs
+    global_file = os.path.join(notes_dir, f'{prefix}_global_noteIDs.csv')
+    if not os.path.exists(global_file):
+        return []
+
+    global_ids = set()
+    with open(global_file, encoding='utf-8-sig') as f:
+        for r in csv.DictReader(f):
+            nid = r.get('noteID', '').strip()
+            if nid:
+                global_ids.add(nid)
+
+    if not global_ids:
+        return []
+
+    # Read notes file for this language
+    notes_file = os.path.join(notes_dir, f'{prefix}_notes_{lang}.csv')
+    if not os.path.exists(notes_file):
+        return []
+
+    notes_text = []
+    with open(notes_file, encoding='utf-8-sig') as f:
+        for r in csv.DictReader(f):
+            nid = r.get('noteID', '').strip()
+            text = r.get(f'note_{lang}', r.get('note', '')).strip()
+            if nid in global_ids and text:
+                notes_text.append(f'Note {nid}: {text}')
+
+    return notes_text
+
+
 # ── Styling helpers ──────────────────────────────────────────────────
 
 def apply_style(config):
@@ -107,8 +204,8 @@ def set_cell(cell, text, style, bold=False, is_header=False):
     """Set cell text with config-driven styling."""
     cell.text = ''
     p = cell.paragraphs[0]
-    p.space_before = Pt(1)
-    p.space_after = Pt(1)
+    p.paragraph_format.space_before = Pt(1)
+    p.paragraph_format.space_after = Pt(1)
     # Sanitize control chars
     clean = ''.join(c for c in str(text or '') if ord(c) >= 32 or c in '\t\n\r')
     run = p.add_run(clean)
@@ -235,13 +332,32 @@ def generate_table_b(lang, csv_path, doc, notes_db, config):
     style_table(table, style)
     add_header_row(table, headers, style)
 
-    fxy_fmt = lc.get('fxy_format', 'compact')
+    # Identify unit columns for superscript formatting
+    unit_cols = {i for i, c in enumerate(col_map)
+                 if 'Unit' in c or 'UNIT' in c.upper()}
+
+    fxy_fmt = lc.get('fxy_format', 'spaced')
     for r in rows:
         row_cells = table.add_row().cells
         set_cant_split(table.rows[-1])
         vals = get_row_values(r, col_map, lang, notes_db, fxy_fmt)
-        for cell, val in zip(row_cells, vals):
-            set_cell(cell, val, style)
+        for i, (cell, val) in enumerate(zip(row_cells, vals)):
+            if i in unit_cols:
+                set_cell_with_units(cell, val, style, is_unit_col=True)
+            else:
+                set_cell(cell, val, style)
+
+    # Global notes at the end
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
+    global_notes = load_global_notes(lang, base_dir, 'table_b')
+    if global_notes:
+        doc.add_paragraph()
+        for note in global_notes:
+            p = doc.add_paragraph()
+            run = p.add_run(note)
+            run.font.name = style['font']
+            run.font.size = Pt(7)
+            run.font.italic = True
 
 
 # ── Table D Generator ────────────────────────────────────────────────
@@ -249,8 +365,11 @@ def generate_table_b(lang, csv_path, doc, notes_db, config):
 def generate_table_d(lang, csv_path, doc, notes_db, config):
     style = apply_style(config)
     lc = get_lang_config(config, lang, 'table_d')
-    headers = lc.get('headers', [])
-    col_map = lc.get('column_map', [])
+    # Sub-table headers: Table references, Element name, Element description, Note
+    sub_headers = lc.get('sub_headers', ['TABLE REFERENCES', 'ELEMENT NAME',
+                                          'ELEMENT DESCRIPTION', 'NOTE'])
+    sub_col_map = lc.get('sub_column_map', ['FXY2', 'ElementName_{lang}',
+                                             'ElementDescription_{lang}', 'Note_{lang}'])
 
     with open(csv_path, encoding='utf-8-sig') as f:
         rows = list(csv.DictReader(f))
@@ -263,35 +382,69 @@ def generate_table_d(lang, csv_path, doc, notes_db, config):
         category=cat, category_name=cat_name)
     add_title(doc, title, style)
 
-    table = doc.add_table(rows=1, cols=len(headers))
-    table.style = 'Table Grid'
-    table.alignment = WD_TABLE_ALIGNMENT.LEFT
-    style_table(table, style)
-    add_header_row(table, headers, style)
-
-    fxy_fmt = lc.get('fxy_format', 'spaced')
-    prev_fxy1 = None
+    # Group rows by FXY1
+    fxy1_groups = []
+    current_fxy1 = None
+    current_group = []
     for r in rows:
         fxy1 = r.get('FXY1', '')
-        vals = get_row_values(r, col_map, lang, notes_db, fxy_fmt)
+        if fxy1 != current_fxy1:
+            if current_group:
+                fxy1_groups.append((current_fxy1, current_group))
+            current_fxy1 = fxy1
+            current_group = [r]
+        else:
+            current_group.append(r)
+    if current_group:
+        fxy1_groups.append((current_fxy1, current_group))
 
-        # Only show FXY1/Title on first row of each sequence
-        if fxy1 == prev_fxy1:
-            vals[0] = ''  # FXY1
-            vals[1] = ''  # Title
-        prev_fxy1 = fxy1
+    fxy_fmt = lc.get('fxy_format', 'spaced')
 
-        row_cells = table.add_row().cells
-        set_cant_split(table.rows[-1])
-        for cell, val in zip(row_cells, vals):
-            set_cell(cell, val, style)
+    # Create one sub-table per FXY1 sequence
+    for fxy1, group in fxy1_groups:
+        title_text = group[0].get(f'Title_{lang}', '')
+        subtitle_text = group[0].get(f'SubTitle_{lang}', '')
 
-        # Bold the FXY1 sequence header row
-        if vals[0]:
-            for cell in row_cells[:2]:
-                for p in cell.paragraphs:
-                    for run in p.runs:
-                        run.font.bold = True
+        # FXY1 heading: "3 02 001 (Title)" or "3 02 001 Title" if already parenthesized
+        heading = format_fxy(fxy1, fxy_fmt)
+        if title_text:
+            if title_text.startswith('('):
+                heading += f' {title_text}'
+            else:
+                heading += f' ({title_text})'
+        p = doc.add_paragraph()
+        run = p.add_run(heading)
+        run.font.name = style['font']
+        run.font.size = Pt(9)
+        run.font.bold = True
+
+        # Sub-table
+        table = doc.add_table(rows=1, cols=len(sub_headers))
+        table.style = 'Table Grid'
+        table.alignment = WD_TABLE_ALIGNMENT.LEFT
+        style_table(table, style)
+        add_header_row(table, sub_headers, style)
+
+        for r in group:
+            vals = get_row_values(r, sub_col_map, lang, notes_db, fxy_fmt)
+            row_cells = table.add_row().cells
+            set_cant_split(table.rows[-1])
+            for cell, val in zip(row_cells, vals):
+                set_cell(cell, val, style)
+
+        doc.add_paragraph()  # spacing between sequences
+
+    # Global notes at the end
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
+    global_notes = load_global_notes(lang, base_dir, 'table_d')
+    if global_notes:
+        doc.add_paragraph()
+        for note in global_notes:
+            p = doc.add_paragraph()
+            run = p.add_run(note)
+            run.font.name = style['font']
+            run.font.size = Pt(7)
+            run.font.italic = True
 
 
 # ── CodeFlag Generator ───────────────────────────────────────────────
@@ -362,11 +515,23 @@ def generate_codeflag(lang, csv_path, doc, notes_db, config):
         for r in group:
             vals = get_row_values(r, col_map, lang, notes_db, fxy_fmt)
             row_cells = table.add_row().cells
-            # No cantSplit on CodeFlag sub-tables
+            set_cant_split(table.rows[-1])
             for cell, val in zip(row_cells, vals):
                 set_cell(cell, val, style)
 
         doc.add_paragraph()  # spacing between FXY tables
+
+    # Global notes at the end
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
+    global_notes = load_global_notes(lang, base_dir, 'codeflag')
+    if global_notes:
+        doc.add_paragraph()
+        for note in global_notes:
+            p = doc.add_paragraph()
+            run = p.add_run(note)
+            run.font.name = style['font']
+            run.font.size = Pt(7)
+            run.font.italic = True
 
 
 # ── Main ─────────────────────────────────────────────────────────────

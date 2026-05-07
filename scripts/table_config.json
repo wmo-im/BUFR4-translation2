@@ -41,7 +41,7 @@
           "CREX_DataWidth_Char",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       },
       "table_d": {
         "title": "Category {category}: {category_name}",
@@ -63,7 +63,19 @@
           "ElementDescription_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "spaced"
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "TABLE REFERENCES",
+          "ELEMENT NAME",
+          "ELEMENT DESCRIPTION",
+          "NOTE"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
       },
       "codeflag": {
         "title": "Class {class_no}",
@@ -103,7 +115,7 @@
           "EntryName_sub2_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       }
     },
     "fr": {
@@ -133,7 +145,7 @@
           "CREX_DataWidth_Char",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       },
       "table_d": {
         "title": "Catégorie {category} : {category_name}",
@@ -155,7 +167,19 @@
           "ElementDescription_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "spaced"
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "SÉQUENCE DE DESCRIPTEURS",
+          "NOM DE L'ÉLÉMENT",
+          "DESCRIPTION DE L'ÉLÉMENT",
+          "NOTE"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
       },
       "codeflag": {
         "title": "Classe {class_no}",
@@ -195,7 +219,7 @@
           "EntryName_sub2_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       }
     },
     "es": {
@@ -225,7 +249,7 @@
           "CREX_DataWidth_Char",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       },
       "table_d": {
         "title": "Categoría {category}: {category_name}",
@@ -247,7 +271,19 @@
           "ElementDescription_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "spaced"
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "SECUENCIA DE DESCRIPTORES",
+          "NOMBRE DEL ELEMENTO",
+          "DESCRIPCIÓN DEL ELEMENTO",
+          "NOTA"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
       },
       "codeflag": {
         "title": "Clase {class_no}",
@@ -287,7 +323,7 @@
           "EntryName_sub2_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       }
     },
     "ru": {
@@ -317,7 +353,7 @@
           "CREX_DataWidth_Char",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       },
       "table_d": {
         "title": "Категория {category}: {category_name}",
@@ -339,7 +375,19 @@
           "ElementDescription_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "spaced"
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "ТАБЛИЧНЫЕ ССЫЛКИ",
+          "НАЗВАНИЕ ЭЛЕМЕНТА",
+          "ОПИСАНИЕ ЭЛЕМЕНТА",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
       },
       "codeflag": {
         "title": "Класс {class_no}",
@@ -379,7 +427,7 @@
           "EntryName_sub2_{lang}",
           "Note_{lang}"
         ],
-        "fxy_format": "compact"
+        "fxy_format": "spaced"
       }
     }
   }
