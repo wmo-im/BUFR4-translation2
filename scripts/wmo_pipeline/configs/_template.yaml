@@ -1,0 +1,87 @@
+# ============================================================================
+#  WMO Table Pipeline — Configuration Template
+# ============================================================================
+#
+#  Copy this file and fill in your values. All paths can be absolute
+#  or relative to this config file's directory.
+#
+#  Usage:  python run.py --config configs/my_job.yaml
+# ============================================================================
+
+# ── Job metadata ─────────────────────────────────────────────────────────────
+name: "My Job Name"                    # Human-readable name for logging
+standard: bufr                         # WMO standard: bufr | grib | cct
+lang: fr                               # Language: en | fr | es | ru
+edition: "2019"                        # Source document edition
+
+# ── Source PDF ───────────────────────────────────────────────────────────────
+# Provide EITHER pdf_path + page_ranges  OR  input_dir (for pre-extracted CSVs).
+pdf_path: "/path/to/306_I2_2019_fr.pdf"
+
+# Page ranges: 0-indexed [start, end] (inclusive).
+# Use short keys (a, b, c, d, codeflag) or full keys (table_a, table_b, ...).
+page_ranges:
+  a: [252, 253]
+  b: [256, 405]
+  c: [406, 411]
+  d: [412, 713]
+  codeflag: [714, 936]
+
+# Alternative: use pre-extracted CSVs instead of PDF
+# input_dir: "/path/to/pre_extracted_csvs/"
+
+# ── English reference (for alignment and notes) ─────────────────────────────
+ref_dir: "/path/to/english_reference_csvs/"
+
+# ── Output ───────────────────────────────────────────────────────────────────
+output_dir: "/path/to/output/"
+
+# Optional: copy final results to another directory
+# copy_to: "/path/to/BUFR4-translation/french/"
+
+# ── Pipeline steps ───────────────────────────────────────────────────────────
+# Available steps (in order):
+#   extract   — PDF → raw CSVs
+#   validate  — raw → fixed CSVs (ID validation and fixing)
+#   align     — fixed vs reference → alignment report
+#   notes     — fixed + reference → final CSVs with noteIDs and Note_{lang}
+#
+# Omit steps you don't need. Example: skip extraction if using input_dir.
+steps:
+  - extract
+  - validate
+  - align
+  - notes
+
+# ── Tables to process ───────────────────────────────────────────────────────
+# Use "all" for all tables, or list specific ones.
+# BUFR table types: table_a, table_b, table_c, table_d, codeflag
+tables:
+  - all
+
+# ── Language overrides (optional, advanced) ──────────────────────────────────
+# Override specific LangConfig fields for this job.
+# Useful when column positions differ from the default calibration.
+# lang_overrides:
+#   col_bounds_b:
+#     fxy: [85, 150]
+#     name: [150, 310]
+#     bufr_unit: [310, 400]
+#     bufr_scale: [400, 430]
+#     bufr_ref: [430, 530]
+#     bufr_width: [530, 570]
+#     crex_unit: [570, 645]
+#     crex_scale: [645, 705]
+#     crex_width: [705, 760]
+
+# ── Cross-check with Docling (optional) ──────────────────────────────────
+# Run AI-based table detection as a second opinion on the pymupdf extraction.
+# This config is reused by the docling_check tool:
+#
+#   python tools/docling_check.py --config configs/my_job.yaml --table table_b \
+#       --output-dir /tmp/docling_check/
+#
+# Add --compare-dir to diff against pymupdf output:
+#
+#   python tools/docling_check.py --config configs/my_job.yaml --table table_b \
+#       --compare-dir /path/to/output/fixed/ --output-dir /tmp/docling_crosscheck/

@@ -1,0 +1,29 @@
+# BUFR French — WMO-306 Vol. I.2, 2019 edition
+# PDF: 306_I2_2019_fr.pdf (strictly 2019, no updates)
+
+name: "BUFR French 2019"
+standard: bufr
+lang: fr
+edition: "2019"
+
+pdf_path: "../data/fr/306_I2_2019_fr.pdf"
+
+page_ranges:
+  a: [252, 253]
+  b: [256, 405]
+  c: [406, 411]
+  d: [412, 713]
+  codeflag: [714, 936]
+
+ref_dir: "../data/en_reference/"
+output_dir: "../output/fr/"
+# copy_to: "/path/to/your/destination/"   # uncomment and set your path
+
+steps:
+  - extract
+  - validate
+  - align
+  - notes
+
+tables:
+  - all
