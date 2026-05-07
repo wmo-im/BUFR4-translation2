@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Classe 00 : Entrées des tables de code BUFR/CREX</title>
+<title>Classe 00 : Entrées des tables de code</title>
 
 <style>
   body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
@@ -19,18 +19,18 @@
 
 </head>
 <body>
-<h1>Classe 00 : Entrées des tables de code BUFR/CREX</h1>
+<h1>Classe 00 : Entrées des tables de code</h1>
 <table>
 <thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0 00 001</td><td>Table A : entrée</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 00 002</td><td>Table A : description de la catégorie de données, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
 <tr><td>0 00 003</td><td>Table A : description de la catégorie de données, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>0 00 004</td><td>Table principale BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 98: Code figures 1 - 24 are siting classifications and measurement quality classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.D and Annex 1.G.</td></tr>
+<tr><td>0 00 004</td><td>Table principale BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 98: Les tables principales sont décrites dans la note 2 s’appliquant à la Section 1 du code BUFR (partie des Règles intitulée «Spécifications du contenu des octets»).</td></tr>
 <tr><td>0 00 005</td><td>Numéro d&#x27;édition BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 00 006</td><td>Numéro de la version de la table principale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 33: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</td></tr>
-<tr><td>0 00 007</td><td>Numéro de version de la table principale CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 40: Pour l&#x27;emploi du chiffre du code 15, voir la regle 12.1.4.</td></tr>
-<tr><td>0 00 008</td><td>Numéro de version de la table locale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 76: 1) Ces valeurs se réfèrent à des vagues de vent bien formées en haute mer. dée aux termes descriptifs, ces valeurs relatives à la hauteur peuvent être utilisées à titre d’indication par l’observateur lorsqu’il chiffre l’état total d’agitation de la mer résultant de divers facteurs tels que le vent, la houle, les courants, l’angle entre la houle et le vent, etc. 2) Pour chiffrer une hauteur correspondant à la limite entre deux chiffres du code, prendre le chiffre du code le moins élevé; par exemple, une hauteur de 4 m est signalée à l’aide du chiffre du code 5.</td></tr>
+<tr><td>0 00 006</td><td>Numéro de la version de la table principale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 33: Les numéros de version des tables principales du code BUFR sont décrits dans la table de code commune C-0 et la note 2 s’appliquant à la Section 1 du code BUFR.</td></tr>
+<tr><td>0 00 007</td><td>Numéro de version de la table principale CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 40: Les niveaux différents de la surface, établis suivants la coordonnée verticale employée par le modèle sont transposés en coordonnée pression. Cela rend les niveaux plus faciles à interpréter par un œil humain et à utiliser à l’aide d’une application de visualisation. Ces niveaux peuvent correspondre exactement aux niveaux établis par le modèle ou être obtenus par interpolation entre des niveaux du modèle pour correspondre aux isobares choisies par le centre de production.</td></tr>
+<tr><td>0 00 008</td><td>Numéro de version de la table locale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 76: Pour le numéro de version de la table locale, voir la dernière partie de la note 2 s’appliquant à la Section 1 du code BUFR.</td></tr>
 <tr><td>0 00 010</td><td>Descripteur F à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 00 011</td><td>Descripteur X à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 00 012</td><td>Descripteur Y à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>

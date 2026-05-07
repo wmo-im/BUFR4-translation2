@@ -329,13 +329,13 @@
 <tbody>
 <tr><td>0</td><td>En réserve</td><td></td></tr>
 <tr><td>1</td><td>Série pour une certaine période</td><td></td></tr>
-<tr><td>2</td><td>Moyenne sur une certaine période</td><td>Note 4: L&#x27;expression &#x27;moyenne sur une certaine periode&#x27; indique qu&#x27;il est etabli en permanence une moyenne des valeurs sur une periode donnee.</td></tr>
+<tr><td>2</td><td>Moyenne sur une certaine période</td><td>Note 4: D’autres descripteurs sont requis pour réduire la charge de travail relative à la base de données de la station, par exemple pour l’identification de l’État fédéral et de l’axe routier.</td></tr>
 <tr><td>3</td><td>Accumulé</td><td></td></tr>
 <tr><td>4</td><td>Prévision</td><td></td></tr>
 <tr><td>5</td><td>Série de prévisions pour une certaine période</td><td></td></tr>
 <tr><td>6</td><td>Moyenne de prévisions sur une certaine période</td><td></td></tr>
 <tr><td>7</td><td>Prévision accumulée</td><td></td></tr>
-<tr><td>8</td><td>Moyenne d&#x27;ensemble</td><td>Note 3: L&#x27;expression &#x27;moyenne d&#x27;ensemble&#x27; indique que l&#x27;on prend la moyenne d&#x27;un certain nombre de valeurs distinctes correspondant a une serie de situations dans le temps.</td></tr>
+<tr><td>8</td><td>Moyenne d&#x27;ensemble</td><td>Note 3: La séquence 3 10 027 est caduque.</td></tr>
 <tr><td>9</td><td>Série de moyennes d&#x27;ensemble pour une certaine période</td><td></td></tr>
 <tr><td>10</td><td>Moyenne de moyennes d&#x27;ensemble sur une certaine période</td><td></td></tr>
 <tr><td>11</td><td>Moyenne d&#x27;ensemble accumulée</td><td></td></tr>
@@ -398,7 +398,7 @@
 <tr><td>11</td><td>Valeur observée moins la valeur climatologique (anomalie)</td><td></td></tr>
 <tr><td>12</td><td>Valeur observée moins la valeur analysée</td><td></td></tr>
 <tr><td>13</td><td>Valeur observée moins la valeur analysée initialisée</td><td></td></tr>
-<tr><td>14</td><td>Valeur observée moins la valeur prévue</td><td>Note 93: Lorsque les valeurs observees moins les valeurs prevues sont representees, la periode de prevision est indiquee par un descripteur approprie de la classe 04.</td></tr>
+<tr><td>14</td><td>Valeur observée moins la valeur prévue</td><td>Note 93: Des axes xyz situés à gauche ont été choisis pour le descripteur 0 10 031.</td></tr>
 <tr><td>15-20</td><td>En réserve</td><td></td></tr>
 <tr><td>21</td><td>Valeur observée moins la valeur interpolée</td><td></td></tr>
 <tr><td>22</td><td>Valeur observée moins la valeur calculée de façon hydrostatique</td><td></td></tr>
@@ -662,7 +662,7 @@
 <tr><td>13</td><td>Fin des valeurs manquantes pour le vent</td><td></td></tr>
 <tr><td>14</td><td>Sommet du sondage du vent</td><td></td></tr>
 <tr><td>15</td><td>Niveau déterminé par décision régionale</td><td></td></tr>
-<tr><td>16</td><td>Isotherme 0 °C</td><td>Note 41: Le niveau de congelation est le niveau auquel la temperature descend pour la premiere fois a 0 degres C.</td></tr>
+<tr><td>16</td><td>Isotherme 0 °C</td><td>Note 41: Une valeur de –0,001 pour l’épaisseur de neige fraîche (0 13 118) avant mise à l’échelle (–1 après mise à l’échelle ou en CREX) indique qu’il y a peu de neige (moins de 0,0005 m). Une valeur de –0,002 avant mise à l’échelle (–2 après mise à l’échelle ou en CREX) indique une «couche de neige non continue».</td></tr>
 <tr><td>17</td><td>Niveau de pression indiqué à l&#x27;origine par l&#x27;altitude en tant que coordonnée verticale</td><td></td></tr>
 <tr><td>18 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
@@ -944,7 +944,7 @@
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>La hauteur du capteur n&#x27;est pas corrigée</td><td></td></tr>
-<tr><td>1</td><td>La hauteur du capteur est remplacée par la hauteur standard</td><td>Note 48: Quand 0 08 082 = 1, la hauteur standard est indiquee par le descripteur de la classe 07 place apres. Il est possible d&#x27;indiquer la hauteur reelle du capteur en placant le descripteur approprie de la classe 07 avant.</td></tr>
+<tr><td>1</td><td>La hauteur du capteur est remplacée par la hauteur standard</td><td>Note 48: Le descripteur 0 04 041, remplacé par la combinaison des descripteurs 0 08 025 et 0 26 003, ne doit pas être utilisé pour le codage de cet élément.</td></tr>
 <tr><td>2-6</td><td>En réserve</td><td></td></tr>
 <tr><td>7</td><td>Valeur manquante</td><td></td></tr>
 </tbody>

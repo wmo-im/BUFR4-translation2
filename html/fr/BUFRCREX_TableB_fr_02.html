@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Classe 02 : Instruments BUFR/CREX</title>
+<title>Classe 02 : Instruments</title>
 
 <style>
   body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
@@ -19,7 +19,7 @@
 
 </head>
 <body>
-<h1>Classe 02 : Instruments BUFR/CREX</h1>
+<h1>Classe 02 : Instruments</h1>
 <table>
 <thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
 <tbody>
@@ -143,9 +143,9 @@
 <tr><td>0 02 137</td><td>Rapport de double fréquence de répétition des impulsions du radar</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 138</td><td>Direction de rotation de l&#x27;antenne</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 02 139</td><td>Configuration de l&#x27;instrument SIRAL</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 02 140</td><td>Angle d&#x27;azimut du faisceau de radar de satellite</td><td>°</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td>(voir Note 4)</td></tr>
+<tr><td>0 02 140</td><td>Angle d&#x27;azimut du faisceau de radar de satellite</td><td>°</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td>Note 111: Il est à noter que le descripteur 0 02 140 est l’angle d’azimut mesuré dans le sens inverse des aiguilles d’une montre à partir du vecteur de mouvement du satellite.</td></tr>
 <tr><td>0 02 141</td><td>Type de mesure</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 142</td><td>Numéro de série/identificateur du type d&#x27;instrument de mesure de l&#x27;ozone</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td>Note 91: Valeur caduque; le chiffre du code 6 devrait etre utilise.</td></tr>
+<tr><td>0 02 142</td><td>Numéro de série/identificateur du type d&#x27;instrument de mesure de l&#x27;ozone</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td>Note 91: Dans le descripteur 0 02 142: le numéro de série/identification de l’instrument de mesure de l’ozone est d’une longueur de quatre caractères. Pour les instruments Dobson japonais, tronquer le(s) premier(s) chiffre(s).</td></tr>
 <tr><td>0 02 143</td><td>Type d&#x27;instrument de mesure de l&#x27;ozone</td><td>Table de code</td><td>0</td><td>0</td><td>7</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 144</td><td>Type de source lumineuse pour spectrophotomètre Brewer</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 145</td><td>Longueurs d&#x27;ondes et réglage pour instruments Dobson</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
@@ -155,7 +155,7 @@
 <tr><td>0 02 149</td><td>Type de bouée de collecte de données</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 150</td><td>Numéro du canal de l&#x27;instrument TOVS/ATOVS/AVHRR</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 151</td><td>Indicateur d&#x27;identification du radiomètre</td><td>Table de code</td><td>0</td><td>0</td><td>11</td><td>Table de code</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>0 02 152</td><td>Instrument de satellite utilisé dans le traitement des données</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>31</td><td>Table d&#x27;indicateurs</td><td>0</td><td>10</td><td>Note 46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>0 02 152</td><td>Instrument de satellite utilisé dans le traitement des données</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>31</td><td>Table d&#x27;indicateurs</td><td>0</td><td>10</td><td>Note 46: Le descripteur 0 02 019 devrait être utilisé au lieu du descripteur 0 02 152 pour l’identification d’un seul instrument satellitaire.</td></tr>
 <tr><td>0 02 153</td><td>Fréquence centrale du canal du satellite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 154</td><td>Largeur de bande du canal du satellite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 155</td><td>Longueur d&#x27;onde du canal du satellite</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
@@ -176,7 +176,7 @@
 <tr><td>0 02 170</td><td>Capteur d&#x27;humidité de l&#x27;aéronef</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 171</td><td>Numéro de série de l&#x27;instrument de mesure du profil de la température de l&#x27;eau</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Caractère</td><td>0</td><td>8</td><td></td></tr>
 <tr><td>0 02 172</td><td>Type de produit pour les données extraites concernant les gaz atmosphériques</td><td>Table de code</td><td>0</td><td>0</td><td>8</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 173</td><td>Carré de l&#x27;angle de visée latérale</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>(voir Note 7)</td></tr>
+<tr><td>0 02 173</td><td>Carré de l&#x27;angle de visée latérale</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>Note 124: Carré de l’angle de visée latérale calculé à partir des paramètres obtenus en bande Ku; unité : 10 –4 deg 2 ; valeur minimale usuelle : 0; valeur maximale usuelle: 900.</td></tr>
 <tr><td>0 02 174</td><td>Nombre moyen de pixels en visée latérale</td><td>Numérique</td><td>0</td><td>0</td><td>9</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 175</td><td>Méthode de mesure des précipitations</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 176</td><td>Méthode de mesure de l&#x27;état du sol</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>

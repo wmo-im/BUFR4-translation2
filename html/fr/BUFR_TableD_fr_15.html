@@ -61,10 +61,10 @@
 <tr class="seq-header"><td>3 15 004</td><td>(Séquence de données pour le profil de température établi à l&#x27;aide de XBT)</td><td></td><td>0 01 079</td><td>Identificateur de profil unique</td><td>Chaîne hexadécimale</td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 01 011</td><td>Indicateur d&#x27;identification du navire ou d&#x27;une station terrestre mobile</td><td>Indicatif d&#x27;appel du navire</td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 01 103</td><td>Numéro OMI ou numéro unique du Lloyd&#x27;s Register</td><td>= 0 à 9999999</td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 01 087</td><td>Extension de l&#x27;indicatif OMM de la plate-forme d&#x27;observation maritime</td><td></td><td>Note 24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</td></tr>
+<tr><td></td><td></td><td></td><td>0 01 087</td><td>Extension de l&#x27;indicatif OMM de la plate-forme d&#x27;observation maritime</td><td></td><td>Note 24: Soit le champ 0 01 011 est utilisé et celui-ci est manquant, soit c&#x27;est l&#x27;inverse.</td></tr>
 <tr><td></td><td></td><td></td><td>0 01 019</td><td>Nom complet de la station ou du site</td><td>Nom du navire</td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 01 080</td><td>Numéro de la ligne parcourue par le navire du SOOP</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 05 036</td><td>Numéro de la coupe exécutée par le navire du SOOP</td><td></td><td>Note 31: Le sondage par atmosphere nuageuse indique qu&#x27;il n&#x27;a pas ete possible d&#x27;identifier des luminances claires suffisantes dans la zone de sondage. Le sondage est calcule a partir du sommet des nuages (pression au sommet des nuages superieure ou egale a 780 hPa) vers le haut.</td></tr>
+<tr><td></td><td></td><td></td><td>0 05 036</td><td>Numéro de la coupe exécutée par le navire du SOOP</td><td></td><td>Note 31: Angle de l’erreur définie par 0 20 113 et 0 20 114. Cartésien avec bit de signe.</td></tr>
 <tr><td></td><td></td><td></td><td>0 01 036</td><td>Organisme chargé de la mise en œuvre de la plate-forme d&#x27;observation</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 01 013</td><td>Vitesse de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 01 012</td><td>Direction de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td></td></tr>
@@ -104,7 +104,7 @@
 <tr><td></td><td></td><td></td><td>0 02 171</td><td>Numéro de série de l&#x27;instrument de mesure de la température de l&#x27;eau</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td>3 02 090</td><td>Température de la mer/de l&#x27;eau de grande précision</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 02 171</td><td>Numéro de série de l&#x27;instrument de mesure de la température de l&#x27;eau</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 02 032</td><td>Indicateur de numérisation</td><td></td><td>Note 64: PRF est la frequence de repetition des impulsions.</td></tr>
+<tr><td></td><td></td><td></td><td>0 02 032</td><td>Indicateur de numérisation</td><td></td><td>Note 64: Les composantes w descendantes sont indiquées par des valeurs positives, pour lesquelles l’unité est le Pa s –1 .</td></tr>
 <tr><td></td><td></td><td></td><td>3 15 005</td><td>Profil de température de l&#x27;eau (établi à l&#x27;aide d&#x27;un XBT ou d&#x27;une bouée)</td><td></td><td></td></tr>
 <tr class="seq-header"><td>3 15 005</td><td>(Profil de température de l&#x27;eau (établi à l&#x27;aide d&#x27;un XBT ou d&#x27;une bouée))</td><td></td><td>1 06 000</td><td>Répétition différée de 6 descripteurs</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>

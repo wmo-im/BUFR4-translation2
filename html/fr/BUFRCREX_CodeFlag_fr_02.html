@@ -256,9 +256,9 @@
 <tbody>
 <tr><td>1</td><td>Technique de traitement non définie</td><td></td></tr>
 <tr><td>2</td><td>Régression statistique automatique</td><td></td></tr>
-<tr><td>3</td><td>Mesure ciel clair</td><td>Note 28: L&#x27;expression &#x27;mesure ciel clair&#x27; indique que les valeurs de sondage ont ete obtenues a partir des valeurs de la luminance energetique par ciel clair derivees de mesures reelles sur point a ciel degage. On s&#x27;est servi de donnees HIRS tropospheriques et stratospheriques, ainsi que de donnees MSU et SSU.</td></tr>
-<tr><td>4</td><td>Mesure ciel partiellement couvert</td><td>Note 62: L&#x27;expression &#x27;mesure ciel partiellement couvert&#x27; indique que les valeurs de sondage ont ete obtenues a partir des valeurs de la luminance energetique par ciel clair, elles-memes calculees a partir de donnees concernant des points partiellement couverts. On s&#x27;est servi de donnees HIRS tropospheriques et stratospheriques, ainsi que de donnees MSU et SSU.</td></tr>
-<tr><td>5</td><td>Mesure ciel couvert</td><td>Note 30: L&#x27;expression &#x27;mesure ciel couvert&#x27; indique que les valeurs de sondage sont obtenues uniquement a partir de donnees HIRS stratospheriques, de donnees MSU et de donnees SSU. Le ciel etant couvert, on n&#x27;a pas utilise de donnees HIRS tropospheriques.</td></tr>
+<tr><td>3</td><td>Mesure ciel clair</td><td>Note 28: Dans l’entrée 3 10 067, les valeurs de la pression qui suivent immédiatement des occurrences de composantes du vent devraient être considérées comme se rapportant à ces composantes.</td></tr>
+<tr><td>4</td><td>Mesure ciel partiellement couvert</td><td>Note 62: Les descripteurs 3 01 041 à 3 01 049 et 3 01 062, 3 01 071, et 3 01 072 ne devraient pas être utilisés pour la transmission dans le CREX.</td></tr>
+<tr><td>5</td><td>Mesure ciel couvert</td><td>Note 30: Dans cette séquence pour la représentation des données de radiosondage à la descente, l’indication de niveaux standard par le biais de la caractéristique étendue correspondant à des données de sondage vertical (0 08 042) n’est pas obligatoire.</td></tr>
 <tr><td>6-7</td><td>En réserve</td><td></td></tr>
 <tr><td>8 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
@@ -579,8 +579,8 @@
 <tbody>
 <tr><td>1</td><td>Technique de traitement non définie</td><td></td></tr>
 <tr><td>2</td><td>Extraction physique simultanée</td><td></td></tr>
-<tr><td>3</td><td>Sondage par atmosphère claire</td><td>Note 29: Le sondage par atmosphere claire indique que le sondage a ete effectue a partir d&#x27;un ensemble de valeurs de luminance claire a l&#x27;aide de toutes les valeurs de luminance du sondeur disponible.</td></tr>
-<tr><td>4</td><td>Sondage par atmosphère nuageuse</td><td>Note 31: Le sondage par atmosphere nuageuse indique qu&#x27;il n&#x27;a pas ete possible d&#x27;identifier des luminances claires suffisantes dans la zone de sondage. Le sondage est calcule a partir du sommet des nuages (pression au sommet des nuages superieure ou egale a 780 hPa) vers le haut.</td></tr>
+<tr><td>3</td><td>Sondage par atmosphère claire</td><td>Note 29: L’éclaircissage fait ici référence à une méthode pouvant être employée pour sélectionner un sous-ensemble de niveaux à partir d’un modèle qui peut comporter un grand nombre de niveaux verticaux en aval. En ne sélectionnant qu’un sous-ensemble, on réduit l’extension du pseudo-sondage, au risque toutefois d’entraîner une perte d’information et un supplément de traitement.</td></tr>
+<tr><td>4</td><td>Sondage par atmosphère nuageuse</td><td>Note 31: Angle de l’erreur définie par 0 20 113 et 0 20 114. Cartésien avec bit de signe.</td></tr>
 <tr><td>5-7</td><td>En réserve pour utilisation future</td><td></td></tr>
 <tr><td>8 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
@@ -771,7 +771,7 @@
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Bonne</td><td></td></tr>
-<tr><td>1</td><td>Mauvaise</td><td>Note 20: Une mauvaise qualite est actuellement definie comme correspondant a un angle de roulis superieur a 5 degres par rapport a la verticale.</td></tr>
+<tr><td>1</td><td>Mauvaise</td><td>Note 20: En atmosphère claire ou dans les nuages: coder MOD OCNL SEV par le chiffre 12 ou 13, respectivement.</td></tr>
 <tr><td>2</td><td>En réserve</td><td></td></tr>
 <tr><td>3</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
@@ -1095,8 +1095,8 @@
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Rayonnement solaire direct</td><td></td></tr>
-<tr><td>1</td><td>Rayonnement solaire direct, atténuateur #1</td><td>Note 38: Les entrees 1 et 2 ne doivent pas etre utilisees.</td></tr>
-<tr><td>2</td><td>Rayonnement solaire direct, atténuateur #2</td><td>Note 38: Les entrees 1 et 2 ne doivent pas etre utilisees.</td></tr>
+<tr><td>1</td><td>Rayonnement solaire direct, atténuateur #1</td><td>Note 38: La table de code 0 01 032 est à produire par chaque centre.</td></tr>
+<tr><td>2</td><td>Rayonnement solaire direct, atténuateur #2</td><td>Note 38: La table de code 0 01 032 est à produire par chaque centre.</td></tr>
 <tr><td>3</td><td>Mise au point sur la Lune</td><td></td></tr>
 <tr><td>4</td><td>Mise au point sur le Soleil</td><td></td></tr>
 <tr><td>5</td><td>Mise au point sur le Soleil avec corrections provenant de mesures du ciel adjacent</td><td></td></tr>
