@@ -23,30 +23,30 @@
 <table>
 <thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>000001</td><td>Table A : entrée</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>000002</td><td>Table A : description de la catégorie de données, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>000003</td><td>Table A : description de la catégorie de données, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>000004</td><td>Table principale BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 98: Code figures 1 - 24 are siting classifications and measurement quality classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.D and Annex 1.G.</td></tr>
-<tr><td>000005</td><td>Numéro d&#x27;édition BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>000006</td><td>Numéro de la version de la table principale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 33: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</td></tr>
-<tr><td>000007</td><td>Numéro de version de la table principale CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 40: Pour l&#x27;emploi du chiffre du code 15, voir la regle 12.1.4.</td></tr>
-<tr><td>000008</td><td>Numéro de version de la table locale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 76: 1) Ces valeurs se réfèrent à des vagues de vent bien formées en haute mer. dée aux termes descriptifs, ces valeurs relatives à la hauteur peuvent être utilisées à titre d’indication par l’observateur lorsqu’il chiffre l’état total d’agitation de la mer résultant de divers facteurs tels que le vent, la houle, les courants, l’angle entre la houle et le vent, etc. 2) Pour chiffrer une hauteur correspondant à la limite entre deux chiffres du code, prendre le chiffre du code le moins élevé; par exemple, une hauteur de 4 m est signalée à l’aide du chiffre du code 5.</td></tr>
-<tr><td>000010</td><td>Descripteur F à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>000011</td><td>Descripteur X à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>000012</td><td>Descripteur Y à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>000013</td><td>Nom de l&#x27;élément, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>000014</td><td>Nom de l&#x27;élément, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>000015</td><td>Nom des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>192</td><td>Caractère</td><td>0</td><td>24</td><td></td></tr>
-<tr><td>000016</td><td>Signe du facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>000017</td><td>Facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>000018</td><td>Signe de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>000019</td><td>Valeur de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>80</td><td>Caractère</td><td>0</td><td>10</td><td></td></tr>
-<tr><td>000020</td><td>Champ de données de l&#x27;élément</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>000024</td><td>Chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Caractère</td><td>0</td><td>8</td><td></td></tr>
-<tr><td>000025</td><td>Signification du chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
-<tr><td>000026</td><td>Numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>000027</td><td>Signification du numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
-<tr><td>000030</td><td>Séquence définissant le descripteur</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 00 001</td><td>Table A : entrée</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 002</td><td>Table A : description de la catégorie de données, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 003</td><td>Table A : description de la catégorie de données, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 004</td><td>Table principale BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 98: Code figures 1 - 24 are siting classifications and measurement quality classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.D and Annex 1.G.</td></tr>
+<tr><td>0 00 005</td><td>Numéro d&#x27;édition BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 006</td><td>Numéro de la version de la table principale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 33: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</td></tr>
+<tr><td>0 00 007</td><td>Numéro de version de la table principale CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 40: Pour l&#x27;emploi du chiffre du code 15, voir la regle 12.1.4.</td></tr>
+<tr><td>0 00 008</td><td>Numéro de version de la table locale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 76: 1) Ces valeurs se réfèrent à des vagues de vent bien formées en haute mer. dée aux termes descriptifs, ces valeurs relatives à la hauteur peuvent être utilisées à titre d’indication par l’observateur lorsqu’il chiffre l’état total d’agitation de la mer résultant de divers facteurs tels que le vent, la houle, les courants, l’angle entre la houle et le vent, etc. 2) Pour chiffrer une hauteur correspondant à la limite entre deux chiffres du code, prendre le chiffre du code le moins élevé; par exemple, une hauteur de 4 m est signalée à l’aide du chiffre du code 5.</td></tr>
+<tr><td>0 00 010</td><td>Descripteur F à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 011</td><td>Descripteur X à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 00 012</td><td>Descripteur Y à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 013</td><td>Nom de l&#x27;élément, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 014</td><td>Nom de l&#x27;élément, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 015</td><td>Nom des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>192</td><td>Caractère</td><td>0</td><td>24</td><td></td></tr>
+<tr><td>0 00 016</td><td>Signe du facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 017</td><td>Facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 018</td><td>Signe de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 019</td><td>Valeur de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>80</td><td>Caractère</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 00 020</td><td>Champ de données de l&#x27;élément</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 024</td><td>Chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Caractère</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 00 025</td><td>Signification du chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>0 00 026</td><td>Numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 00 027</td><td>Signification du numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>0 00 030</td><td>Séquence définissant le descripteur</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
 </tbody>
 </table>
 </body>

@@ -23,115 +23,115 @@
 <table>
 <thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>020001</td><td>Visibilité horizontale</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
-<tr><td>020002</td><td>Visibilité verticale</td><td>m</td><td>-1</td><td>0</td><td>7</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
-<tr><td>020003</td><td>Temps présent</td><td>Table de code</td><td>0</td><td>0</td><td>9</td><td>Table de code</td><td>0</td><td>3</td><td>(voir Note 1)</td></tr>
-<tr><td>020004</td><td>Temps passé (1)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td>(voir Note 2)</td></tr>
-<tr><td>020005</td><td>Temps passé (2)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td>(voir Note 2)</td></tr>
-<tr><td>020006</td><td>Règles de vol</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020008</td><td>Répartition des nuages, pour l&#x27;aviation</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020009</td><td>Indicateur général du temps (TAF/METAR)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020010</td><td>Nébulosité (totale)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 20: Une mauvaise qualite est actuellement definie comme correspondant a un angle de roulis superieur a 5 degres par rapport a la verticale.</td></tr>
-<tr><td>020011</td><td>Nébulosité</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020012</td><td>Type de nuage</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020013</td><td>Hauteur de la base des nuages</td><td>m</td><td>-1</td><td>-40</td><td>11</td><td>m</td><td>-1</td><td>4</td><td>(voir Note 6)</td></tr>
-<tr><td>020014</td><td>Hauteur du sommet des nuages</td><td>m</td><td>-1</td><td>-40</td><td>11</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
-<tr><td>020015</td><td>Pression à la base des nuages</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
-<tr><td>020016</td><td>Pression au sommet des nuages</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
-<tr><td>020017</td><td>Description du sommet des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020018</td><td>Tendance de la portée visuelle de piste</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020019</td><td>Temps significatif présent ou prévu</td><td>CCITT IA5</td><td>0</td><td>0</td><td>72</td><td>Caractère</td><td>0</td><td>9</td><td>(voir Note 15)</td></tr>
-<tr><td>020020</td><td>Phénomènes météorologiques significatifs récents</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td>(voir Note 15)</td></tr>
-<tr><td>020021</td><td>Type de précipitation</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>30</td><td>Table d&#x27;indicateurs</td><td>0</td><td>10</td><td></td></tr>
-<tr><td>020022</td><td>Caractéristique de la précipitation</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020023</td><td>Autres phénomènes météorologiques</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>18</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>020024</td><td>Intensité du phénomène</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020025</td><td>Obscurcissement</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>21</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
-<tr><td>020026</td><td>Caractéristique de l&#x27;obscurcissement</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020027</td><td>Apparition du phénomène</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>9</td><td>Table d&#x27;indicateurs</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020028</td><td>Changement d&#x27;intensité prévu</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020029</td><td>Indicateur de pluie</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020031</td><td>Dépôt de glace (épaisseur)</td><td>m</td><td>2</td><td>0</td><td>7</td><td>m</td><td>2</td><td>3</td><td></td></tr>
-<tr><td>020032</td><td>Vitesse d&#x27;accumulation de la glace (estimation)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020033</td><td>Cause de l&#x27;accumulation de la glace</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>4</td><td>Table d&#x27;indicateurs</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020034</td><td>Concentration des glaces de mer</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020035</td><td>Quantité et type de glace</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020036</td><td>Situation des glaces</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020037</td><td>Évolution de la glace</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020038</td><td>Direction de la lisière des glaces</td><td>degré vrai</td><td>0</td><td>0</td><td>12</td><td>degré vrai</td><td>0</td><td>3</td><td>(voir Note 3)</td></tr>
-<tr><td>020039</td><td>Distance des glaces</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
-<tr><td>020040</td><td>Évolution de la chasse-neige</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020041</td><td>Givrage d&#x27;aéronef</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020042</td><td>Givrage de la cellule</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020043</td><td>Teneur maximale en eau à l&#x27;état liquide</td><td>kg m-3</td><td>4</td><td>0</td><td>7</td><td>kg m-3</td><td>4</td><td>2</td><td></td></tr>
-<tr><td>020044</td><td>Teneur moyenne en eau à l&#x27;état liquide</td><td>kg m-3</td><td>4</td><td>0</td><td>7</td><td>kg m-3</td><td>4</td><td>2</td><td></td></tr>
-<tr><td>020045</td><td>Grosses gouttes d&#x27;eau surfondues</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020048</td><td>Évolution du phénomène</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020050</td><td>Index des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>8</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020051</td><td>Quantité de nuages bas</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020052</td><td>Quantité de nuages de l&#x27;étage moyen</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020053</td><td>Quantité de nuages élevés</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020054</td><td>Direction vraie d&#x27;où viennent ou dans laquelle sont observés le phénomène indiqué ou les nuages</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td>(voir Note 17)</td></tr>
-<tr><td>020055</td><td>État du ciel dans les régions tropicales</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020056</td><td>Phase des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020058</td><td>Visibilité sur la mer depuis une station côtière</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
-<tr><td>020059</td><td>Visibilité horizontale minimale</td><td>m</td><td>-1</td><td>0</td><td>9</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
-<tr><td>020060</td><td>Visibilité horizontale dominante</td><td>m</td><td>-1</td><td>0</td><td>10</td><td>m</td><td>-1</td><td>4</td><td>Note 24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</td></tr>
-<tr><td>020061</td><td>Portée visuelle de piste (PVP)</td><td>m</td><td>0</td><td>0</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>020062</td><td>État du sol (recouvert ou non d&#x27;une couche de neige)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020063</td><td>Phénomènes spéciaux</td><td>Table de code</td><td>0</td><td>0</td><td>10</td><td>Table de code</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>020065</td><td>Couverture neigeuse</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>(voir Note 4)</td></tr>
-<tr><td>020066</td><td>Diamètre maximal des grelons</td><td>m</td><td>3</td><td>0</td><td>8</td><td>m</td><td>3</td><td>3</td><td></td></tr>
-<tr><td>020067</td><td>Diamètre du dépôt</td><td>m</td><td>3</td><td>0</td><td>9</td><td>m</td><td>3</td><td>3</td><td></td></tr>
-<tr><td>020070</td><td>Nombre minimal d&#x27;atmosphériques</td><td>Numérique</td><td>0</td><td>0</td><td>7</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020071</td><td>Exactitude et taux des atmosphériques</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020081</td><td>Étendue de la couche nuageuse dans le secteur</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020082</td><td>Partie du segment libre de nuages</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020083</td><td>Partie du segment couverte par la scène</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020085</td><td>État général de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020086</td><td>Dépôts sur la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020087</td><td>Contamination de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020088</td><td>Épaisseur des dépôts sur la piste</td><td>m</td><td>3</td><td>0</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>020089</td><td>Coefficient de frottement de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>7</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020090</td><td>Nuages spéciaux</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020091</td><td>Visibilité verticale</td><td>ft</td><td>-2</td><td>0</td><td>10</td><td>ft</td><td>-2</td><td>3</td><td></td></tr>
-<tr><td>020092</td><td>Hauteur de la base des nuages</td><td>ft</td><td>-2</td><td>0</td><td>10</td><td>ft</td><td>-2</td><td>3</td><td></td></tr>
-<tr><td>020093</td><td>Hauteur d&#x27;inversion</td><td>m</td><td>-1</td><td>0</td><td>8</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
-<tr><td>020095</td><td>Probabilité de glace</td><td>Numérique</td><td>3</td><td>0</td><td>10</td><td>Numérique</td><td>3</td><td>4</td><td></td></tr>
-<tr><td>020096</td><td>Âge de la glace (paramètre A)</td><td>dB</td><td>2</td><td>-4096</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
-<tr><td>020101</td><td>Nom de l&#x27;acridien</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020102</td><td>Couleur de l&#x27;acridien (maturité)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020103</td><td>Stade de développement des acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020104</td><td>Degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020105</td><td>Dimension de l&#x27;essaim ou de la bande d&#x27;acridiens et durée du passage de l&#x27;essaim</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020106</td><td>Densité de la population d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020107</td><td>Direction du déplacement de l&#x27;essaim d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020108</td><td>Étendue de la végétation</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020111</td><td>Composante principale de l&#x27;ellipse d&#x27;erreur, axe x</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station. | Note 90: Type d&#x27;instrument et unites initiales pour la mesure du vent (en m s-1 sauf indication contraire).</td></tr>
-<tr><td>020112</td><td>Composante secondaire de l&#x27;ellipse d&#x27;erreur, axe y</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station. | Note 90: Type d&#x27;instrument et unites initiales pour la mesure du vent (en m s-1 sauf indication contraire).</td></tr>
-<tr><td>020113</td><td>Composante de l&#x27;ellipse d&#x27;erreur, axe z</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station.</td></tr>
-<tr><td>020114</td><td>Angle de l&#x27;axe x dans l&#x27;ellipse d&#x27;erreur</td><td>°</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td>Note 31: Le sondage par atmosphere nuageuse indique qu&#x27;il n&#x27;a pas ete possible d&#x27;identifier des luminances claires suffisantes dans la zone de sondage. Le sondage est calcule a partir du sommet des nuages (pression au sommet des nuages superieure ou egale a 780 hPa) vers le haut.</td></tr>
-<tr><td>020115</td><td>Angle de l&#x27;axe z dans l&#x27;ellipse d&#x27;erreur</td><td>°</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td>Note 30: L&#x27;expression &#x27;mesure ciel couvert&#x27; indique que les valeurs de sondage sont obtenues uniquement a partir de donnees HIRS stratospheriques, de donnees MSU et de donnees SSU. Le ciel etant couvert, on n&#x27;a pas utilise de donnees HIRS tropospheriques.</td></tr>
-<tr><td>020116</td><td>Altitude d&#x27;émission de la décharge interne</td><td>m</td><td>0</td><td>0</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>020117</td><td>Amplitude de l&#x27;éclair</td><td>A</td><td>-1</td><td>-32000</td><td>16</td><td>A</td><td>-1</td><td>5</td><td></td></tr>
-<tr><td>020118</td><td>Erreur de détection de l&#x27;éclair</td><td>m</td><td>0</td><td>0</td><td>19</td><td>m</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>020119</td><td>Polarité de décharge des éclairs</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020121</td><td>Valeur seuil pour la décision de polarité</td><td>V</td><td>3</td><td>0</td><td>16</td><td>V</td><td>3</td><td>5</td><td>Note 9: (Voir la table de code commune C-4)</td></tr>
-<tr><td>020122</td><td>Valeur seuil pour la décision de polarité</td><td>A</td><td>0</td><td>0</td><td>16</td><td>A</td><td>0</td><td>5</td><td>Note 10: (Voir la table de code commune C-5 dans la Partie C/c.)</td></tr>
-<tr><td>020123</td><td>Seuil minimum de détection</td><td>V/m</td><td>3</td><td>0</td><td>16</td><td>V/m</td><td>3</td><td>5</td><td>Note 102: For determining combined standard uncertainty see the Evaluation of Measurement Data - Guide to the Expression of Uncertainty in Measurement [JCGM 100:2008] from BIPM.</td></tr>
-<tr><td>020124</td><td>Coup de foudre ou éclair</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>020126</td><td>Fréquence de décharge des éclairs</td><td>/h</td><td>0</td><td>0</td><td>23</td><td>/h</td><td>0</td><td>7</td><td></td></tr>
-<tr><td>020127</td><td>Éclairs - distance par rapport à la station</td><td>m</td><td>-3</td><td>0</td><td>8</td><td>m</td><td>-3</td><td>3</td><td></td></tr>
-<tr><td>020128</td><td>Éclairs - direction par rapport à la station</td><td>degré vrai</td><td>1</td><td>0</td><td>12</td><td>degré vrai</td><td>1</td><td>4</td><td></td></tr>
-<tr><td>020129</td><td>Densité de la foudre (arc, éclair ou phénomène)</td><td>m-2</td><td>6</td><td>0</td><td>10</td><td>m-2</td><td>6</td><td>4</td><td></td></tr>
-<tr><td>020130</td><td>Concentration d&#x27;hydrométéores nuageux</td><td>Numérique</td><td>0</td><td>0</td><td>10</td><td>Numérique</td><td>0</td><td>3</td><td>Note 37: DIODE est l&#x27;abreviation de &#x27;determination immediate d&#x27;orbite par DORIS embarque&#x27;. C&#x27;est une partie de l&#x27;instrument DORIS, qui calcule la position et la vitesse du satellite.</td></tr>
-<tr><td>020131</td><td>Rayon effectif des hydrométéores nuageux</td><td>m</td><td>5</td><td>0</td><td>6</td><td>m</td><td>5</td><td>2</td><td></td></tr>
-<tr><td>020132</td><td>Teneur en eau liquide des nuages</td><td>kg m-3</td><td>5</td><td>0</td><td>11</td><td>kg m-3</td><td>5</td><td>4</td><td></td></tr>
-<tr><td>020133</td><td>Rayon de l&#x27;hydrométéore</td><td>m</td><td>5</td><td>0</td><td>6</td><td>m</td><td>5</td><td>2</td><td></td></tr>
-<tr><td>020135</td><td>Masse de glace (sur une perche)</td><td>kg/m</td><td>1</td><td>0</td><td>10</td><td>kg/m</td><td>1</td><td>3</td><td></td></tr>
-<tr><td>020136</td><td>Types de nuages supplémentaires</td><td>Table de code</td><td>0</td><td>0</td><td>9</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>020137</td><td>Évolution des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>020138</td><td>État du revêtement</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilité horizontale</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 20 002</td><td>Visibilité verticale</td><td>m</td><td>-1</td><td>0</td><td>7</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 20 003</td><td>Temps présent</td><td>Table de code</td><td>0</td><td>0</td><td>9</td><td>Table de code</td><td>0</td><td>3</td><td>(voir Note 1)</td></tr>
+<tr><td>0 20 004</td><td>Temps passé (1)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td>(voir Note 2)</td></tr>
+<tr><td>0 20 005</td><td>Temps passé (2)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td>(voir Note 2)</td></tr>
+<tr><td>0 20 006</td><td>Règles de vol</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 008</td><td>Répartition des nuages, pour l&#x27;aviation</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 009</td><td>Indicateur général du temps (TAF/METAR)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 010</td><td>Nébulosité (totale)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 20: Une mauvaise qualite est actuellement definie comme correspondant a un angle de roulis superieur a 5 degres par rapport a la verticale.</td></tr>
+<tr><td>0 20 011</td><td>Nébulosité</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 012</td><td>Type de nuage</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 013</td><td>Hauteur de la base des nuages</td><td>m</td><td>-1</td><td>-40</td><td>11</td><td>m</td><td>-1</td><td>4</td><td>(voir Note 6)</td></tr>
+<tr><td>0 20 014</td><td>Hauteur du sommet des nuages</td><td>m</td><td>-1</td><td>-40</td><td>11</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 20 015</td><td>Pression à la base des nuages</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 20 016</td><td>Pression au sommet des nuages</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 20 017</td><td>Description du sommet des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 018</td><td>Tendance de la portée visuelle de piste</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 019</td><td>Temps significatif présent ou prévu</td><td>CCITT IA5</td><td>0</td><td>0</td><td>72</td><td>Caractère</td><td>0</td><td>9</td><td>(voir Note 15)</td></tr>
+<tr><td>0 20 020</td><td>Phénomènes météorologiques significatifs récents</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td>(voir Note 15)</td></tr>
+<tr><td>0 20 021</td><td>Type de précipitation</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>30</td><td>Table d&#x27;indicateurs</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 20 022</td><td>Caractéristique de la précipitation</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 023</td><td>Autres phénomènes météorologiques</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>18</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensité du phénomène</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 025</td><td>Obscurcissement</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>21</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 20 026</td><td>Caractéristique de l&#x27;obscurcissement</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 027</td><td>Apparition du phénomène</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>9</td><td>Table d&#x27;indicateurs</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 028</td><td>Changement d&#x27;intensité prévu</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 029</td><td>Indicateur de pluie</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 031</td><td>Dépôt de glace (épaisseur)</td><td>m</td><td>2</td><td>0</td><td>7</td><td>m</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 20 032</td><td>Vitesse d&#x27;accumulation de la glace (estimation)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 033</td><td>Cause de l&#x27;accumulation de la glace</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>4</td><td>Table d&#x27;indicateurs</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 034</td><td>Concentration des glaces de mer</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 035</td><td>Quantité et type de glace</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 036</td><td>Situation des glaces</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 037</td><td>Évolution de la glace</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 038</td><td>Direction de la lisière des glaces</td><td>degré vrai</td><td>0</td><td>0</td><td>12</td><td>degré vrai</td><td>0</td><td>3</td><td>(voir Note 3)</td></tr>
+<tr><td>0 20 039</td><td>Distance des glaces</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 20 040</td><td>Évolution de la chasse-neige</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 041</td><td>Givrage d&#x27;aéronef</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 042</td><td>Givrage de la cellule</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 043</td><td>Teneur maximale en eau à l&#x27;état liquide</td><td>kg m-3</td><td>4</td><td>0</td><td>7</td><td>kg m-3</td><td>4</td><td>2</td><td></td></tr>
+<tr><td>0 20 044</td><td>Teneur moyenne en eau à l&#x27;état liquide</td><td>kg m-3</td><td>4</td><td>0</td><td>7</td><td>kg m-3</td><td>4</td><td>2</td><td></td></tr>
+<tr><td>0 20 045</td><td>Grosses gouttes d&#x27;eau surfondues</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 048</td><td>Évolution du phénomène</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 050</td><td>Index des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>8</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 051</td><td>Quantité de nuages bas</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 052</td><td>Quantité de nuages de l&#x27;étage moyen</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 053</td><td>Quantité de nuages élevés</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 054</td><td>Direction vraie d&#x27;où viennent ou dans laquelle sont observés le phénomène indiqué ou les nuages</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td>(voir Note 17)</td></tr>
+<tr><td>0 20 055</td><td>État du ciel dans les régions tropicales</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 056</td><td>Phase des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 058</td><td>Visibilité sur la mer depuis une station côtière</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 20 059</td><td>Visibilité horizontale minimale</td><td>m</td><td>-1</td><td>0</td><td>9</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 20 060</td><td>Visibilité horizontale dominante</td><td>m</td><td>-1</td><td>0</td><td>10</td><td>m</td><td>-1</td><td>4</td><td>Note 24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</td></tr>
+<tr><td>0 20 061</td><td>Portée visuelle de piste (PVP)</td><td>m</td><td>0</td><td>0</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 20 062</td><td>État du sol (recouvert ou non d&#x27;une couche de neige)</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 063</td><td>Phénomènes spéciaux</td><td>Table de code</td><td>0</td><td>0</td><td>10</td><td>Table de code</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 20 065</td><td>Couverture neigeuse</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>(voir Note 4)</td></tr>
+<tr><td>0 20 066</td><td>Diamètre maximal des grelons</td><td>m</td><td>3</td><td>0</td><td>8</td><td>m</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>0 20 067</td><td>Diamètre du dépôt</td><td>m</td><td>3</td><td>0</td><td>9</td><td>m</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>0 20 070</td><td>Nombre minimal d&#x27;atmosphériques</td><td>Numérique</td><td>0</td><td>0</td><td>7</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 071</td><td>Exactitude et taux des atmosphériques</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 081</td><td>Étendue de la couche nuageuse dans le secteur</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 082</td><td>Partie du segment libre de nuages</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 083</td><td>Partie du segment couverte par la scène</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 085</td><td>État général de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 086</td><td>Dépôts sur la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 087</td><td>Contamination de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 088</td><td>Épaisseur des dépôts sur la piste</td><td>m</td><td>3</td><td>0</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 20 089</td><td>Coefficient de frottement de la piste</td><td>Table de code</td><td>0</td><td>0</td><td>7</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 090</td><td>Nuages spéciaux</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 091</td><td>Visibilité verticale</td><td>ft</td><td>-2</td><td>0</td><td>10</td><td>ft</td><td>-2</td><td>3</td><td></td></tr>
+<tr><td>0 20 092</td><td>Hauteur de la base des nuages</td><td>ft</td><td>-2</td><td>0</td><td>10</td><td>ft</td><td>-2</td><td>3</td><td></td></tr>
+<tr><td>0 20 093</td><td>Hauteur d&#x27;inversion</td><td>m</td><td>-1</td><td>0</td><td>8</td><td>m</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 20 095</td><td>Probabilité de glace</td><td>Numérique</td><td>3</td><td>0</td><td>10</td><td>Numérique</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 20 096</td><td>Âge de la glace (paramètre A)</td><td>dB</td><td>2</td><td>-4096</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 20 101</td><td>Nom de l&#x27;acridien</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 102</td><td>Couleur de l&#x27;acridien (maturité)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 103</td><td>Stade de développement des acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 104</td><td>Degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 105</td><td>Dimension de l&#x27;essaim ou de la bande d&#x27;acridiens et durée du passage de l&#x27;essaim</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 106</td><td>Densité de la population d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 107</td><td>Direction du déplacement de l&#x27;essaim d&#x27;acridiens</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 108</td><td>Étendue de la végétation</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 111</td><td>Composante principale de l&#x27;ellipse d&#x27;erreur, axe x</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station. | Note 90: Type d&#x27;instrument et unites initiales pour la mesure du vent (en m s-1 sauf indication contraire).</td></tr>
+<tr><td>0 20 112</td><td>Composante secondaire de l&#x27;ellipse d&#x27;erreur, axe y</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station. | Note 90: Type d&#x27;instrument et unites initiales pour la mesure du vent (en m s-1 sauf indication contraire).</td></tr>
+<tr><td>0 20 113</td><td>Composante de l&#x27;ellipse d&#x27;erreur, axe z</td><td>m</td><td>-1</td><td>0</td><td>17</td><td>m</td><td>-1</td><td>6</td><td>Note 89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station.</td></tr>
+<tr><td>0 20 114</td><td>Angle de l&#x27;axe x dans l&#x27;ellipse d&#x27;erreur</td><td>°</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td>Note 31: Le sondage par atmosphere nuageuse indique qu&#x27;il n&#x27;a pas ete possible d&#x27;identifier des luminances claires suffisantes dans la zone de sondage. Le sondage est calcule a partir du sommet des nuages (pression au sommet des nuages superieure ou egale a 780 hPa) vers le haut.</td></tr>
+<tr><td>0 20 115</td><td>Angle de l&#x27;axe z dans l&#x27;ellipse d&#x27;erreur</td><td>°</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td>Note 30: L&#x27;expression &#x27;mesure ciel couvert&#x27; indique que les valeurs de sondage sont obtenues uniquement a partir de donnees HIRS stratospheriques, de donnees MSU et de donnees SSU. Le ciel etant couvert, on n&#x27;a pas utilise de donnees HIRS tropospheriques.</td></tr>
+<tr><td>0 20 116</td><td>Altitude d&#x27;émission de la décharge interne</td><td>m</td><td>0</td><td>0</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 20 117</td><td>Amplitude de l&#x27;éclair</td><td>A</td><td>-1</td><td>-32000</td><td>16</td><td>A</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 20 118</td><td>Erreur de détection de l&#x27;éclair</td><td>m</td><td>0</td><td>0</td><td>19</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 20 119</td><td>Polarité de décharge des éclairs</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 121</td><td>Valeur seuil pour la décision de polarité</td><td>V</td><td>3</td><td>0</td><td>16</td><td>V</td><td>3</td><td>5</td><td>Note 9: (Voir la table de code commune C-4)</td></tr>
+<tr><td>0 20 122</td><td>Valeur seuil pour la décision de polarité</td><td>A</td><td>0</td><td>0</td><td>16</td><td>A</td><td>0</td><td>5</td><td>Note 10: (Voir la table de code commune C-5 dans la Partie C/c.)</td></tr>
+<tr><td>0 20 123</td><td>Seuil minimum de détection</td><td>V/m</td><td>3</td><td>0</td><td>16</td><td>V/m</td><td>3</td><td>5</td><td>Note 102: For determining combined standard uncertainty see the Evaluation of Measurement Data - Guide to the Expression of Uncertainty in Measurement [JCGM 100:2008] from BIPM.</td></tr>
+<tr><td>0 20 124</td><td>Coup de foudre ou éclair</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 20 126</td><td>Fréquence de décharge des éclairs</td><td>/h</td><td>0</td><td>0</td><td>23</td><td>/h</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 20 127</td><td>Éclairs - distance par rapport à la station</td><td>m</td><td>-3</td><td>0</td><td>8</td><td>m</td><td>-3</td><td>3</td><td></td></tr>
+<tr><td>0 20 128</td><td>Éclairs - direction par rapport à la station</td><td>degré vrai</td><td>1</td><td>0</td><td>12</td><td>degré vrai</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 20 129</td><td>Densité de la foudre (arc, éclair ou phénomène)</td><td>m-2</td><td>6</td><td>0</td><td>10</td><td>m-2</td><td>6</td><td>4</td><td></td></tr>
+<tr><td>0 20 130</td><td>Concentration d&#x27;hydrométéores nuageux</td><td>Numérique</td><td>0</td><td>0</td><td>10</td><td>Numérique</td><td>0</td><td>3</td><td>Note 37: DIODE est l&#x27;abreviation de &#x27;determination immediate d&#x27;orbite par DORIS embarque&#x27;. C&#x27;est une partie de l&#x27;instrument DORIS, qui calcule la position et la vitesse du satellite.</td></tr>
+<tr><td>0 20 131</td><td>Rayon effectif des hydrométéores nuageux</td><td>m</td><td>5</td><td>0</td><td>6</td><td>m</td><td>5</td><td>2</td><td></td></tr>
+<tr><td>0 20 132</td><td>Teneur en eau liquide des nuages</td><td>kg m-3</td><td>5</td><td>0</td><td>11</td><td>kg m-3</td><td>5</td><td>4</td><td></td></tr>
+<tr><td>0 20 133</td><td>Rayon de l&#x27;hydrométéore</td><td>m</td><td>5</td><td>0</td><td>6</td><td>m</td><td>5</td><td>2</td><td></td></tr>
+<tr><td>0 20 135</td><td>Masse de glace (sur une perche)</td><td>kg/m</td><td>1</td><td>0</td><td>10</td><td>kg/m</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 20 136</td><td>Types de nuages supplémentaires</td><td>Table de code</td><td>0</td><td>0</td><td>9</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 20 137</td><td>Évolution des nuages</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 20 138</td><td>État du revêtement</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
 </tbody>
 </table>
 </body>

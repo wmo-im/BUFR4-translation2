@@ -23,183 +23,183 @@
 <table>
 <thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>002001</td><td>Type of station</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002002</td><td>Type of instrumentation for wind measurement</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002003</td><td>Type of measuring equipment used</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002004</td><td>Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002005</td><td>Precision of temperature observation</td><td>K</td><td>2</td><td>0</td><td>7</td><td>K</td><td>2</td><td>3</td><td></td></tr>
-<tr><td>002006</td><td>Upper air remote sensing instrument type</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>0</td><td></td></tr>
-<tr><td>002007</td><td>Type of sensor for water level measuring instrument</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002008</td><td>Type of offshore platform</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002009</td><td>MODIS aerosol algorithm</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002011</td><td>Radiosonde type</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002012</td><td>Radiosonde computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002013</td><td>Solar and infrared radiation correction</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002014</td><td>Tracking technique/status of system used</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002015</td><td>Radiosonde completeness</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002016</td><td>Radiosonde configuration</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002017</td><td>Correction algorithms for humidity measurements</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002019</td><td>Satellite instruments</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>002020</td><td>Satellite classification</td><td>Code table</td><td>0</td><td>0</td><td>9</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002021</td><td>Satellite instrument data used in processing</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
-<tr><td>002022</td><td>Satellite data-processing technique used</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002023</td><td>Satellite-derived wind computation method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002024</td><td>Integrated mean humidity computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002025</td><td>Satellite channel(s) used in computation</td><td>Flag table</td><td>0</td><td>0</td><td>25</td><td>Flag table</td><td>0</td><td>9</td><td></td></tr>
-<tr><td>002026</td><td>Cross-track resolution</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
-<tr><td>002027</td><td>Along-track resolution</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
-<tr><td>002028</td><td>Segment size at nadir in x-direction</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>002029</td><td>Segment size at nadir in y-direction</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>002030</td><td>Method of current measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002031</td><td>Duration and time of current measurement</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002032</td><td>Indicator for digitization</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002033</td><td>Method of salinity/depth measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002034</td><td>Drogue type</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002035</td><td>Cable length</td><td>m</td><td>0</td><td>0</td><td>9</td><td>m</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002036</td><td>Buoy type</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002037</td><td>Method of tidal observation</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002038</td><td>Method of water temperature and/or salinity measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002039</td><td>Method of wet-bulb temperature measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002040</td><td>Method of removing velocity and motion of platform from current</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002041</td><td>Method for estimating reports related to synoptic features</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002042</td><td>Indicator for sea-surface current speed</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002044</td><td>Indicator for method of calculating spectral wave data</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002045</td><td>Indicator for type of platform</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002046</td><td>Wave measurement instrumentation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002047</td><td>Deep-ocean tsunameter type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002048</td><td>Satellite sensor indicator</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002049</td><td>Geostationary satellite data-processing technique used</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002050</td><td>Geostationary sounder satellite channels used</td><td>Flag table</td><td>0</td><td>0</td><td>20</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
-<tr><td>002051</td><td>Indicator to specify observing method for extreme temperatures</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002052</td><td>Geostationary imager satellite channels used</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002053</td><td>GOES-I/M brightness temperature characteristics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002054</td><td>GOES-I/M soundings parameter characteristics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002055</td><td>Geostationary soundings statistical parameters</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002056</td><td>Geostationary soundings accuracy statistics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002057</td><td>Origin of first-guess information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002058</td><td>Valid times of first-guess information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002059</td><td>Origin of analysis information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002060</td><td>Origin of surface information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002061</td><td>Aircraft navigational system</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002062</td><td>Type of aircraft data relay system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002063</td><td>Aircraft roll angle</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
-<tr><td>002064</td><td>Aircraft roll angle quality</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002065</td><td>ACARS ground-receiving station</td><td>CCITT IA5</td><td>0</td><td>0</td><td>40</td><td>Character</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>002066</td><td>Radiosonde ground receiving system</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002067</td><td>Radiosonde operating frequency</td><td>Hz</td><td>-5</td><td>0</td><td>15</td><td>Hz</td><td>-5</td><td>5</td><td></td></tr>
-<tr><td>002070</td><td>PDF specification of latitude/longitude</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002071</td><td>Spectrographic wavelength</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
-<tr><td>002072</td><td>Spectrographic width</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
-<tr><td>002080</td><td>Balloon manufacturer</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002081</td><td>Type of balloon</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002082</td><td>Weight of balloon</td><td>kg</td><td>3</td><td>0</td><td>12</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
-<tr><td>002083</td><td>Type of balloon shelter</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002084</td><td>Type of gas used in balloon</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002085</td><td>Amount of gas used in balloon</td><td>kg</td><td>3</td><td>0</td><td>13</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
-<tr><td>002086</td><td>Balloon flight train length</td><td>m</td><td>1</td><td>0</td><td>10</td><td>m</td><td>1</td><td>4</td><td></td></tr>
-<tr><td>002087</td><td>Parachute surface area</td><td>m2</td><td>4</td><td>0</td><td>15</td><td>m2</td><td>4</td><td>5</td><td></td></tr>
-<tr><td>002088</td><td>Volume of gas used in balloon</td><td>m3</td><td>3</td><td>0</td><td>13</td><td>m3</td><td>3</td><td>4</td><td></td></tr>
-<tr><td>002090</td><td>Instrument wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
-<tr><td>002091</td><td>Entry sensor 4/20 mA</td><td>A</td><td>4</td><td>0</td><td>10</td><td>A</td><td>4</td><td>3</td><td></td></tr>
-<tr><td>002092</td><td>Ozone profile computation method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002095</td><td>Type of pressure sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002096</td><td>Type of temperature sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002097</td><td>Type of humidity sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002099</td><td>Polarization</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002100</td><td>Radar constant</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note 157: This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.</td></tr>
-<tr><td>002101</td><td>Type of antenna</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002102</td><td>Antenna height above tower base</td><td>m</td><td>0</td><td>0</td><td>8</td><td>m</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002103</td><td>Radome</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002104</td><td>Antenna polarization</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002105</td><td>Maximum antenna gain</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002106</td><td>3-dB beamwidth</td><td>deg</td><td>1</td><td>0</td><td>6</td><td>deg</td><td>1</td><td>2</td><td></td></tr>
-<tr><td>002107</td><td>Sidelobe suppression</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002108</td><td>Crosspol discrimination (on axis)</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002109</td><td>Antenna speed (azimuth)</td><td>deg/s</td><td>2</td><td>0</td><td>12</td><td>deg/s</td><td>2</td><td>4</td><td></td></tr>
-<tr><td>002110</td><td>Antenna speed (elevation)</td><td>deg/s</td><td>2</td><td>0</td><td>12</td><td>deg/s</td><td>2</td><td>4</td><td></td></tr>
-<tr><td>002111</td><td>Radar incidence angle</td><td>deg</td><td>1</td><td>0</td><td>10</td><td>deg</td><td>1</td><td>4</td><td></td></tr>
-<tr><td>002112</td><td>Radar look angle</td><td>deg</td><td>1</td><td>0</td><td>12</td><td>deg</td><td>1</td><td>4</td><td></td></tr>
-<tr><td>002113</td><td>Number of azimuth looks</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002114</td><td>Antenna effective surface area</td><td>m2</td><td>0</td><td>0</td><td>15</td><td>m2</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>002115</td><td>Type of surface observing equipment</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002116</td><td>Percentage of 320 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002117</td><td>Percentage of 80 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002118</td><td>Percentage of 20 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002119</td><td>RA-2 instrument operations</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002120</td><td>Ocean wave frequency</td><td>Hz</td><td>3</td><td>0</td><td>10</td><td>Hz</td><td>3</td><td>4</td><td></td></tr>
-<tr><td>002121</td><td>Mean frequency</td><td>Hz</td><td>-8</td><td>0</td><td>7</td><td>Hz</td><td>-8</td><td>3</td><td></td></tr>
-<tr><td>002122</td><td>Frequency agility range</td><td>Hz</td><td>-6</td><td>-128</td><td>8</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
-<tr><td>002123</td><td>Peak power</td><td>W</td><td>-4</td><td>0</td><td>7</td><td>W</td><td>-4</td><td>3</td><td></td></tr>
-<tr><td>002124</td><td>Average power</td><td>W</td><td>-1</td><td>0</td><td>7</td><td>W</td><td>-1</td><td>3</td><td></td></tr>
-<tr><td>002125</td><td>Pulse repetition frequency</td><td>Hz</td><td>-1</td><td>0</td><td>8</td><td>Hz</td><td>-1</td><td>3</td><td></td></tr>
-<tr><td>002126</td><td>Pulse width</td><td>s</td><td>7</td><td>0</td><td>6</td><td>s</td><td>7</td><td>2</td><td></td></tr>
-<tr><td>002127</td><td>Receiver intermediate frequency</td><td>Hz</td><td>-6</td><td>0</td><td>7</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
-<tr><td>002128</td><td>Intermediate frequency bandwidth</td><td>Hz</td><td>-5</td><td>0</td><td>6</td><td>Hz</td><td>-5</td><td>2</td><td></td></tr>
-<tr><td>002129</td><td>Minimum detectable signal</td><td>dB</td><td>0</td><td>-150</td><td>5</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002130</td><td>Dynamic range</td><td>dB</td><td>0</td><td>0</td><td>7</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002131</td><td>Sensitivity time control (STC)</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002132</td><td>Azimuth pointing accuracy</td><td>deg</td><td>2</td><td>0</td><td>6</td><td>deg</td><td>2</td><td>2</td><td></td></tr>
-<tr><td>002133</td><td>Elevation pointing accuracy</td><td>deg</td><td>2</td><td>0</td><td>6</td><td>deg</td><td>2</td><td>2</td><td></td></tr>
-<tr><td>002134</td><td>Antenna beam azimuth</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
-<tr><td>002135</td><td>Antenna elevation</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
-<tr><td>002136</td><td>Range processed by range attenuation correction</td><td>m</td><td>-3</td><td>0</td><td>16</td><td>m</td><td>-3</td><td>5</td><td></td></tr>
-<tr><td>002137</td><td>Radar dual PRF ratio</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002138</td><td>Antenna rotation direction</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002139</td><td>SIRAL instrument configuration</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002140</td><td>Satellite radar beam azimuth angle</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td>Note 111: Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.</td></tr>
-<tr><td>002141</td><td>Measurement type</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002142</td><td>Ozone instrument serial number/identification</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Character</td><td>0</td><td>4</td><td>Note 91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
-<tr><td>002143</td><td>Ozone instrument type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002144</td><td>Light source type for Brewer spectrophotometer</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002145</td><td>Wavelength setting for Dobson instruments</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002146</td><td>Source conditions for Dobson instruments</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002147</td><td>Method of transmission to collection centre</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002148</td><td>Data collection and/or location system</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002149</td><td>Type of data buoy</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002150</td><td>TOVS/ATOVS/AVHRR instrumentation channel number</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002151</td><td>Radiometer identifier</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>002152</td><td>Satellite instrument used in data processing</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>10</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
-<tr><td>002153</td><td>Satellite channel centre frequency</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
-<tr><td>002154</td><td>Satellite channel band width</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
-<tr><td>002155</td><td>Satellite channel wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
-<tr><td>002156</td><td>Percentage of valid KU ocean retracker measurements</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002157</td><td>Percentage of valid S ocean retracker measurements</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002158</td><td>RA-2 instrument</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002159</td><td>MWR instrument</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002160</td><td>Wavelength of the radar</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002161</td><td>Wind processing method</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>002162</td><td>Extended height assignment method</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002163</td><td>Height assignment method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002164</td><td>Tracer correlation method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>002165</td><td>Radiance type flags</td><td>Flag table</td><td>0</td><td>0</td><td>15</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>002166</td><td>Radiance type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002167</td><td>Radiance computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002168</td><td>Hydrostatic pressure of lower end of cable (thermistor string)</td><td>Pa</td><td>-3</td><td>0</td><td>16</td><td>kPa</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>002169</td><td>Anemometer type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002170</td><td>Aircraft humidity sensors</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002171</td><td>Instrument serial number for water temperature profile measurement</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Character</td><td>0</td><td>8</td><td></td></tr>
-<tr><td>002172</td><td>Product type for retrieved atmospheric gases</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002173</td><td>Square of the off-nadir angle</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>Note 124: Square of off-nadir angle computed from Ku waveform-derived parameters, Unit 10-4 deg2, Common minimum value 0, Common maximum value 900.</td></tr>
-<tr><td>002174</td><td>Mean across track pixel number</td><td>Numeric</td><td>0</td><td>0</td><td>9</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002175</td><td>Method of precipitation measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002176</td><td>Method of state of ground measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002177</td><td>Method of snow depth measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002178</td><td>Method of liquid content measurement of precipitation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002179</td><td>Type of sky condition algorithm</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002180</td><td>Main present weather detecting system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002181</td><td>Supplementary present weather sensor</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
-<tr><td>002182</td><td>Visibility measurement system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002183</td><td>Cloud detection system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002184</td><td>Type of lightning detection sensor</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002185</td><td>Method of evaporation measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002186</td><td>Capability to detect precipitation phenomena</td><td>Flag table</td><td>0</td><td>0</td><td>30</td><td>Flag table</td><td>0</td><td>10</td><td></td></tr>
-<tr><td>002187</td><td>Capability to detect other weather phenomena</td><td>Flag table</td><td>0</td><td>0</td><td>18</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
-<tr><td>002188</td><td>Capability to detect obscuration</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
-<tr><td>002189</td><td>Capability to discriminate lightning strikes</td><td>Flag table</td><td>0</td><td>0</td><td>12</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>002190</td><td>Lagrangian drifter submergence (% time submerged)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>002191</td><td>Geopotential height calculation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>002192</td><td>Precision of pressure observation</td><td>Pa</td><td>2</td><td>0</td><td>14</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>002193</td><td>Precision of mixing ratio observation</td><td>kg/kg</td><td>6</td><td>0</td><td>14</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 02 001</td><td>Type of station</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 002</td><td>Type of instrumentation for wind measurement</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 003</td><td>Type of measuring equipment used</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 004</td><td>Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 005</td><td>Precision of temperature observation</td><td>K</td><td>2</td><td>0</td><td>7</td><td>K</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 02 006</td><td>Upper air remote sensing instrument type</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>0 02 007</td><td>Type of sensor for water level measuring instrument</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 008</td><td>Type of offshore platform</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 009</td><td>MODIS aerosol algorithm</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 011</td><td>Radiosonde type</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 012</td><td>Radiosonde computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 013</td><td>Solar and infrared radiation correction</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 014</td><td>Tracking technique/status of system used</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 015</td><td>Radiosonde completeness</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 016</td><td>Radiosonde configuration</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 017</td><td>Correction algorithms for humidity measurements</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 020</td><td>Satellite classification</td><td>Code table</td><td>0</td><td>0</td><td>9</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 021</td><td>Satellite instrument data used in processing</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>0 02 022</td><td>Satellite data-processing technique used</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 023</td><td>Satellite-derived wind computation method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 024</td><td>Integrated mean humidity computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 025</td><td>Satellite channel(s) used in computation</td><td>Flag table</td><td>0</td><td>0</td><td>25</td><td>Flag table</td><td>0</td><td>9</td><td></td></tr>
+<tr><td>0 02 026</td><td>Cross-track resolution</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 027</td><td>Along-track resolution</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 028</td><td>Segment size at nadir in x-direction</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 029</td><td>Segment size at nadir in y-direction</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 030</td><td>Method of current measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 031</td><td>Duration and time of current measurement</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 032</td><td>Indicator for digitization</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 033</td><td>Method of salinity/depth measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 034</td><td>Drogue type</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 035</td><td>Cable length</td><td>m</td><td>0</td><td>0</td><td>9</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 036</td><td>Buoy type</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 037</td><td>Method of tidal observation</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 038</td><td>Method of water temperature and/or salinity measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 039</td><td>Method of wet-bulb temperature measurement</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 040</td><td>Method of removing velocity and motion of platform from current</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 041</td><td>Method for estimating reports related to synoptic features</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 042</td><td>Indicator for sea-surface current speed</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 044</td><td>Indicator for method of calculating spectral wave data</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 045</td><td>Indicator for type of platform</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 046</td><td>Wave measurement instrumentation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 047</td><td>Deep-ocean tsunameter type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 048</td><td>Satellite sensor indicator</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 049</td><td>Geostationary satellite data-processing technique used</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 050</td><td>Geostationary sounder satellite channels used</td><td>Flag table</td><td>0</td><td>0</td><td>20</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 051</td><td>Indicator to specify observing method for extreme temperatures</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 052</td><td>Geostationary imager satellite channels used</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 053</td><td>GOES-I/M brightness temperature characteristics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 054</td><td>GOES-I/M soundings parameter characteristics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 055</td><td>Geostationary soundings statistical parameters</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 056</td><td>Geostationary soundings accuracy statistics</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 057</td><td>Origin of first-guess information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 058</td><td>Valid times of first-guess information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 059</td><td>Origin of analysis information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 060</td><td>Origin of surface information for GOES-I/M soundings</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 061</td><td>Aircraft navigational system</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 062</td><td>Type of aircraft data relay system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 063</td><td>Aircraft roll angle</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 064</td><td>Aircraft roll angle quality</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 065</td><td>ACARS ground-receiving station</td><td>CCITT IA5</td><td>0</td><td>0</td><td>40</td><td>Character</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 066</td><td>Radiosonde ground receiving system</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 067</td><td>Radiosonde operating frequency</td><td>Hz</td><td>-5</td><td>0</td><td>15</td><td>Hz</td><td>-5</td><td>5</td><td></td></tr>
+<tr><td>0 02 070</td><td>PDF specification of latitude/longitude</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 071</td><td>Spectrographic wavelength</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
+<tr><td>0 02 072</td><td>Spectrographic width</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
+<tr><td>0 02 080</td><td>Balloon manufacturer</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 081</td><td>Type of balloon</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 082</td><td>Weight of balloon</td><td>kg</td><td>3</td><td>0</td><td>12</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 083</td><td>Type of balloon shelter</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 084</td><td>Type of gas used in balloon</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 085</td><td>Amount of gas used in balloon</td><td>kg</td><td>3</td><td>0</td><td>13</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 086</td><td>Balloon flight train length</td><td>m</td><td>1</td><td>0</td><td>10</td><td>m</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 087</td><td>Parachute surface area</td><td>m2</td><td>4</td><td>0</td><td>15</td><td>m2</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>0 02 088</td><td>Volume of gas used in balloon</td><td>m3</td><td>3</td><td>0</td><td>13</td><td>m3</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 090</td><td>Instrument wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
+<tr><td>0 02 091</td><td>Entry sensor 4/20 mA</td><td>A</td><td>4</td><td>0</td><td>10</td><td>A</td><td>4</td><td>3</td><td></td></tr>
+<tr><td>0 02 092</td><td>Ozone profile computation method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 095</td><td>Type of pressure sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 096</td><td>Type of temperature sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 097</td><td>Type of humidity sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 099</td><td>Polarization</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 100</td><td>Radar constant</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note 157: This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.</td></tr>
+<tr><td>0 02 101</td><td>Type of antenna</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 102</td><td>Antenna height above tower base</td><td>m</td><td>0</td><td>0</td><td>8</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 103</td><td>Radome</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 105</td><td>Maximum antenna gain</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 106</td><td>3-dB beamwidth</td><td>deg</td><td>1</td><td>0</td><td>6</td><td>deg</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 02 107</td><td>Sidelobe suppression</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 108</td><td>Crosspol discrimination (on axis)</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 109</td><td>Antenna speed (azimuth)</td><td>deg/s</td><td>2</td><td>0</td><td>12</td><td>deg/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 110</td><td>Antenna speed (elevation)</td><td>deg/s</td><td>2</td><td>0</td><td>12</td><td>deg/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 111</td><td>Radar incidence angle</td><td>deg</td><td>1</td><td>0</td><td>10</td><td>deg</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 112</td><td>Radar look angle</td><td>deg</td><td>1</td><td>0</td><td>12</td><td>deg</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 113</td><td>Number of azimuth looks</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 114</td><td>Antenna effective surface area</td><td>m2</td><td>0</td><td>0</td><td>15</td><td>m2</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 115</td><td>Type of surface observing equipment</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 116</td><td>Percentage of 320 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 117</td><td>Percentage of 80 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 118</td><td>Percentage of 20 MHz band processed</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 119</td><td>RA-2 instrument operations</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 120</td><td>Ocean wave frequency</td><td>Hz</td><td>3</td><td>0</td><td>10</td><td>Hz</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 121</td><td>Mean frequency</td><td>Hz</td><td>-8</td><td>0</td><td>7</td><td>Hz</td><td>-8</td><td>3</td><td></td></tr>
+<tr><td>0 02 122</td><td>Frequency agility range</td><td>Hz</td><td>-6</td><td>-128</td><td>8</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
+<tr><td>0 02 123</td><td>Peak power</td><td>W</td><td>-4</td><td>0</td><td>7</td><td>W</td><td>-4</td><td>3</td><td></td></tr>
+<tr><td>0 02 124</td><td>Average power</td><td>W</td><td>-1</td><td>0</td><td>7</td><td>W</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 02 125</td><td>Pulse repetition frequency</td><td>Hz</td><td>-1</td><td>0</td><td>8</td><td>Hz</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 02 126</td><td>Pulse width</td><td>s</td><td>7</td><td>0</td><td>6</td><td>s</td><td>7</td><td>2</td><td></td></tr>
+<tr><td>0 02 127</td><td>Receiver intermediate frequency</td><td>Hz</td><td>-6</td><td>0</td><td>7</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
+<tr><td>0 02 128</td><td>Intermediate frequency bandwidth</td><td>Hz</td><td>-5</td><td>0</td><td>6</td><td>Hz</td><td>-5</td><td>2</td><td></td></tr>
+<tr><td>0 02 129</td><td>Minimum detectable signal</td><td>dB</td><td>0</td><td>-150</td><td>5</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 130</td><td>Dynamic range</td><td>dB</td><td>0</td><td>0</td><td>7</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 131</td><td>Sensitivity time control (STC)</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 132</td><td>Azimuth pointing accuracy</td><td>deg</td><td>2</td><td>0</td><td>6</td><td>deg</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 02 133</td><td>Elevation pointing accuracy</td><td>deg</td><td>2</td><td>0</td><td>6</td><td>deg</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 02 134</td><td>Antenna beam azimuth</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 135</td><td>Antenna elevation</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 136</td><td>Range processed by range attenuation correction</td><td>m</td><td>-3</td><td>0</td><td>16</td><td>m</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 02 137</td><td>Radar dual PRF ratio</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 138</td><td>Antenna rotation direction</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 139</td><td>SIRAL instrument configuration</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 140</td><td>Satellite radar beam azimuth angle</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td>Note 111: Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.</td></tr>
+<tr><td>0 02 141</td><td>Measurement type</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 142</td><td>Ozone instrument serial number/identification</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Character</td><td>0</td><td>4</td><td>Note 91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
+<tr><td>0 02 143</td><td>Ozone instrument type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 144</td><td>Light source type for Brewer spectrophotometer</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 145</td><td>Wavelength setting for Dobson instruments</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 146</td><td>Source conditions for Dobson instruments</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 147</td><td>Method of transmission to collection centre</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 148</td><td>Data collection and/or location system</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 149</td><td>Type of data buoy</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 150</td><td>TOVS/ATOVS/AVHRR instrumentation channel number</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 151</td><td>Radiometer identifier</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 152</td><td>Satellite instrument used in data processing</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>10</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>0 02 153</td><td>Satellite channel centre frequency</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
+<tr><td>0 02 154</td><td>Satellite channel band width</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
+<tr><td>0 02 155</td><td>Satellite channel wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
+<tr><td>0 02 156</td><td>Percentage of valid KU ocean retracker measurements</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 157</td><td>Percentage of valid S ocean retracker measurements</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 158</td><td>RA-2 instrument</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 159</td><td>MWR instrument</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 160</td><td>Wavelength of the radar</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 161</td><td>Wind processing method</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 162</td><td>Extended height assignment method</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 163</td><td>Height assignment method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 164</td><td>Tracer correlation method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 165</td><td>Radiance type flags</td><td>Flag table</td><td>0</td><td>0</td><td>15</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 166</td><td>Radiance type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 167</td><td>Radiance computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 168</td><td>Hydrostatic pressure of lower end of cable (thermistor string)</td><td>Pa</td><td>-3</td><td>0</td><td>16</td><td>kPa</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 169</td><td>Anemometer type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 170</td><td>Aircraft humidity sensors</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Character</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 02 172</td><td>Product type for retrieved atmospheric gases</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 173</td><td>Square of the off-nadir angle</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>Note 124: Square of off-nadir angle computed from Ku waveform-derived parameters, Unit 10-4 deg2, Common minimum value 0, Common maximum value 900.</td></tr>
+<tr><td>0 02 174</td><td>Mean across track pixel number</td><td>Numeric</td><td>0</td><td>0</td><td>9</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 175</td><td>Method of precipitation measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 176</td><td>Method of state of ground measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 177</td><td>Method of snow depth measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 178</td><td>Method of liquid content measurement of precipitation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 179</td><td>Type of sky condition algorithm</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 180</td><td>Main present weather detecting system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 181</td><td>Supplementary present weather sensor</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 182</td><td>Visibility measurement system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 183</td><td>Cloud detection system</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 184</td><td>Type of lightning detection sensor</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 185</td><td>Method of evaporation measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 186</td><td>Capability to detect precipitation phenomena</td><td>Flag table</td><td>0</td><td>0</td><td>30</td><td>Flag table</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 02 187</td><td>Capability to detect other weather phenomena</td><td>Flag table</td><td>0</td><td>0</td><td>18</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 188</td><td>Capability to detect obscuration</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 189</td><td>Capability to discriminate lightning strikes</td><td>Flag table</td><td>0</td><td>0</td><td>12</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 190</td><td>Lagrangian drifter submergence (% time submerged)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 191</td><td>Geopotential height calculation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 192</td><td>Precision of pressure observation</td><td>Pa</td><td>2</td><td>0</td><td>14</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 02 193</td><td>Precision of mixing ratio observation</td><td>kg/kg</td><td>6</td><td>0</td><td>14</td><td></td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
 </body>
