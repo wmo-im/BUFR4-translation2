@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 35</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 35</h1>
+<p class="fxy-heading">035000  FM et numéro de code régional</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>000-099</td><td>Codes FM internationaux</td><td></td></tr>
+<tr><td>100-199</td><td>Codes pour la Région I</td><td></td></tr>
+<tr><td>200-299</td><td>Codes pour la Région II</td><td></td></tr>
+<tr><td>300-399</td><td>Codes pour la Région III</td><td></td></tr>
+<tr><td>400-499</td><td>Codes pour la Région IV</td><td></td></tr>
+<tr><td>500-599</td><td>Codes pour la Région V</td><td></td></tr>
+<tr><td>600-699</td><td>Codes pour la Région VI</td><td></td></tr>
+<tr><td>700-799</td><td>Codes pour l&#x27;Antarctique</td><td></td></tr>
+<tr><td>800-999</td><td>En réserve</td><td></td></tr>
+<tr><td>1000-1022</td><td>Inutilisés</td><td></td></tr>
+<tr><td>1023</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035001  Base de temps pour le contrôle</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En temps réel</td><td></td></tr>
+<tr><td>1</td><td>En temps quasi réel</td><td></td></tr>
+<tr><td>2</td><td>En différé</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035030  Divergences dans la disponibilité des données attendues</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucune divergence</td><td></td></tr>
+<tr><td>1</td><td>Non-respect des pratiques et des procédures normalisées et recommandées y compris celles qui concernent le contrôle</td><td></td></tr>
+<tr><td>2</td><td>Catalogues de bulletins météorologiques non mis à jour à temps</td><td></td></tr>
+<tr><td>3</td><td>Annuaires d&#x27;acheminement incorrects</td><td></td></tr>
+<tr><td>4</td><td>Manque de souplesse dans les dispositions d&#x27;acheminement</td><td></td></tr>
+<tr><td>5</td><td>Anomalies dans l&#x27;exploitation des centres et des circuits du SMT</td><td></td></tr>
+<tr><td>6</td><td>Perte de données ou retard dans la transmission de données sur le SMT</td><td></td></tr>
+<tr><td>7</td><td>Acheminement des données différent de l&#x27;acheminement prévu par le plan</td><td></td></tr>
+<tr><td>8</td><td>Fautes diverses</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035031  Qualification du contrôle des résultats</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Suffisants et d&#x27;une qualité acceptable dans l&#x27;ensemble</td><td></td></tr>
+<tr><td>2</td><td>Suffisants mais d&#x27;une qualité partiellement acceptable</td><td></td></tr>
+<tr><td>3</td><td>Insuffisants mais d&#x27;une qualité acceptable dans l&#x27;ensemble</td><td></td></tr>
+<tr><td>4</td><td>Insuffisants et d&#x27;une qualité inacceptable</td><td></td></tr>
+<tr><td>5</td><td>Caractère incomplet de certains messages</td><td></td></tr>
+<tr><td>6</td><td>Groupes suspects ou mal chiffrés ne pouvant être interprétés en toute confiance</td><td></td></tr>
+<tr><td>7</td><td>Erreurs grossières de chiffrement</td><td></td></tr>
+<tr><td>8</td><td>Ordre séquentiel de transmission non respecté</td><td></td></tr>
+<tr><td>9</td><td>Message complètement embrouillé et rejeté</td><td></td></tr>
+<tr><td>10</td><td>Anomalies identifiées et rectifiées</td><td></td></tr>
+<tr><td>11</td><td>Anomalies identifiées mais non rectifiées</td><td></td></tr>
+<tr><td>12</td><td>Anomalies non identifiées</td><td></td></tr>
+<tr><td>13</td><td>Erreur de mesure</td><td></td></tr>
+<tr><td>14</td><td>Incohérence mutuelle</td><td></td></tr>
+<tr><td>15</td><td>Incohérence temporelle</td><td></td></tr>
+<tr><td>16</td><td>Erreur de prévision</td><td></td></tr>
+<tr><td>17</td><td>Erreur systématique</td><td></td></tr>
+<tr><td>18</td><td>Amélioration du système de contrôle de la qualité</td><td></td></tr>
+<tr><td>19</td><td>Développement des programmes de formation</td><td></td></tr>
+<tr><td>20-98</td><td>En réserve</td><td></td></tr>
+<tr><td>99-126</td><td>Inutilisés</td><td></td></tr>
+<tr><td>127</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035032  Cause des données manquantes</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Groupes de données manquants en raison de l&#x27;évanouissement brusque des signaux radioélectriques</td><td></td></tr>
+<tr><td>2</td><td>Groupes de données manquants en raison de l&#x27;interruption de service du centre</td><td></td></tr>
+<tr><td>3</td><td>Groupes de données manquants en raison de la panne de circuits</td><td></td></tr>
+<tr><td>4</td><td>Non-respect ou non-maintien de la densité requise du RSBR</td><td></td></tr>
+<tr><td>5</td><td>Manque de personnel qualifié dans les stations</td><td></td></tr>
+<tr><td>6</td><td>Manque de consommables</td><td></td></tr>
+<tr><td>7</td><td>Panne d&#x27;instrument</td><td></td></tr>
+<tr><td>8</td><td>Non-respect des procédures de télécommunications</td><td></td></tr>
+<tr><td>9</td><td>Interruption de certains programmes d&#x27;observation</td><td></td></tr>
+<tr><td>10-14</td><td>Inutilisés</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035033  Anomalies dans l&#x27;observation et les données collectées</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Aucune anomalie</td><td></td></tr>
+<tr><td>2</td><td>Observations non effectuées régulièrement</td><td></td></tr>
+<tr><td>3</td><td>Observations non effectuées au bon moment</td><td></td></tr>
+<tr><td>4</td><td>Observations effectuées mais non diffusées</td><td></td></tr>
+<tr><td>5</td><td>Observations effectuées et transmises à des usagers incorrects</td><td></td></tr>
+<tr><td>6</td><td>Données collectées non reçues</td><td></td></tr>
+<tr><td>7</td><td>Données collectées transmises en retard</td><td></td></tr>
+<tr><td>8</td><td>Données collectées non transmises</td><td></td></tr>
+<tr><td>9</td><td>Difficultés dans la propagation HF et le choix de la fréquence correcte</td><td></td></tr>
+<tr><td>10</td><td>Difficultés d&#x27;entretien du matériel de transmission dans les stations éloignées</td><td></td></tr>
+<tr><td>11</td><td>Aucune disposition de secours pour acheminer les observations météorologiques</td><td></td></tr>
+<tr><td>12-99</td><td>En réserve</td><td></td></tr>
+<tr><td>100-122</td><td>Inutilisés</td><td></td></tr>
+<tr><td>123</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035034  Tendances statistiques de la disponibilité des données (pendant la(les) période(s) d&#x27;observation)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Légère amélioration</td><td></td></tr>
+<tr><td>2</td><td>Amélioration importante</td><td></td></tr>
+<tr><td>3</td><td>Amélioration très importante</td><td></td></tr>
+<tr><td>4</td><td>Régulière</td><td></td></tr>
+<tr><td>5</td><td>En diminution</td><td></td></tr>
+<tr><td>6</td><td>Efforts nécessaires pour améliorer les observations de nuit</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">035035  Raison de l&#x27;abandon</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Éclatement du ballon</td><td></td></tr>
+<tr><td>2</td><td>Chute du ballon due au givrage</td><td></td></tr>
+<tr><td>3</td><td>Fuite ou ballon plafonnant</td><td></td></tr>
+<tr><td>4</td><td>Signal faible ou s&#x27;affaiblissant</td><td></td></tr>
+<tr><td>5</td><td>Panne d&#x27;accumulateur</td><td></td></tr>
+<tr><td>6</td><td>Panne de l&#x27;équipement au sol</td><td></td></tr>
+<tr><td>7</td><td>Interférence des signaux</td><td></td></tr>
+<tr><td>8</td><td>Panne de la radiosonde</td><td></td></tr>
+<tr><td>9</td><td>Trop de blocs de données manquants</td><td></td></tr>
+<tr><td>10</td><td>En réserve</td><td></td></tr>
+<tr><td>11</td><td>Trop de données manquantes sur la température</td><td></td></tr>
+<tr><td>12</td><td>Trop de données manquantes sur la pression</td><td></td></tr>
+<tr><td>13</td><td>Abandon par l&#x27;opérateur</td><td></td></tr>
+<tr><td>14</td><td>Perte soudaine du signal</td><td></td></tr>
+<tr><td>15</td><td>Perte du signal de poursuite</td><td></td></tr>
+<tr><td>16</td><td>Augmentation de la pression</td><td></td></tr>
+<tr><td>17</td><td>Données non valides ou données manquantes (délais dépassés)</td><td></td></tr>
+<tr><td>18-29</td><td>En réserve</td><td></td></tr>
+<tr><td>30</td><td>Autre</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

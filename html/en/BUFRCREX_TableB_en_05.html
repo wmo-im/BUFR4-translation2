@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 05: Location (horizontal - 1)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 05: Location (horizontal - 1)</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>005001</td><td>Latitude (high accuracy)</td><td>deg</td><td>5</td><td>-9000000</td><td>25</td><td>deg</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>005002</td><td>Latitude (coarse accuracy)</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>005011</td><td>Latitude increment (high accuracy)</td><td>deg</td><td>5</td><td>-9000000</td><td>25</td><td>deg</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>005012</td><td>Latitude increment (coarse accuracy)</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>005015</td><td>Latitude displacement (high accuracy)</td><td>deg</td><td>5</td><td>-9000000</td><td>25</td><td>deg</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>005016</td><td>Latitude displacement (coarse accuracy)</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>005021</td><td>Bearing or azimuth</td><td>degree true</td><td>2</td><td>0</td><td>16</td><td>degree true</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>005022</td><td>Solar azimuth</td><td>degree true</td><td>2</td><td>0</td><td>16</td><td>degree true</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>005023</td><td>Sun to satellite azimuth difference</td><td>deg</td><td>1</td><td>-1800</td><td>12</td><td>deg</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>005030</td><td>Direction (spectral)</td><td>deg</td><td>0</td><td>0</td><td>12</td><td>deg</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>005031</td><td>Row number</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>005032</td><td>Y offset</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>11</td><td>Note 184: Y offset is the distance between the projection origin and the upper left corner of the upper left pixel in a map, as shown in the following diagram: {{image}}.</td></tr>
+<tr><td>005033</td><td>Pixel size on horizontal - 1</td><td>m</td><td>-1</td><td>0</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>005034</td><td>Along track row number</td><td>Numeric</td><td>0</td><td>0</td><td>11</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>005035</td><td>Maximum size of x-dimension</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>005036</td><td>Ship transect number according to SOOP</td><td>Numeric</td><td>0</td><td>0</td><td>7</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005040</td><td>Orbit number</td><td>Numeric</td><td>0</td><td>0</td><td>24</td><td>Numeric</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>005041</td><td>Scan line number</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005042</td><td>Channel number</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005043</td><td>Field of view number</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005044</td><td>Satellite cycle number</td><td>Numeric</td><td>0</td><td>0</td><td>11</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>005045</td><td>Field of regard number</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005052</td><td>Channel number increment</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005053</td><td>Field of view number increment</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005060</td><td>Y angular position from centre of gravity</td><td>deg</td><td>6</td><td>-8000000</td><td>24</td><td>deg</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>005061</td><td>Z angular position from centre of gravity</td><td>deg</td><td>6</td><td>-8000000</td><td>24</td><td>deg</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>005063</td><td>Spacecraft roll</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>005064</td><td>Spacecraft pitch</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>005066</td><td>Spacecraft yaw</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>005067</td><td>Number of scan lines</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005068</td><td>Profile number</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>005069</td><td>Receiver channel</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>005070</td><td>Observation identifier</td><td>Numeric</td><td>0</td><td>0</td><td>30</td><td>Numeric</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>005071</td><td>Stripmap identifier</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>005072</td><td>Number of spectra in range direction</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005073</td><td>Number of spectra in azimuthal direction</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005074</td><td>Index in range direction</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005075</td><td>Index in azimuthal direction</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>005076</td><td>Solar azimuth in instrument reference frame</td><td>deg</td><td>2</td><td>0</td><td>16</td><td>deg</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>005077</td><td>Sub-satellite point latitude</td><td>deg</td><td>4</td><td>-900000</td><td>21</td><td>deg</td><td>4</td><td>7</td><td></td></tr>
+<tr><td>005078</td><td>Horn number</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005079</td><td>Band number</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>005080</td><td>Resolution radius</td><td>m</td><td>-3</td><td>0</td><td>6</td><td>m</td><td>-3</td><td>2</td><td></td></tr>
+<tr><td>005092</td><td>Side track index or along lateral track row number</td><td>Numeric</td><td>0</td><td>-1</td><td>3</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Category 08: Surface report sequences (sea)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Category 08: Surface report sequences (sea)</h1>
+<table>
+<thead><tr><th>FXY1</th><th>TITLE</th><th>SUBTITLE</th><th>FXY2</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr class="seq-header"><td>3 08 001</td><td>(Buoy/platform - fixed)</td><td></td><td>3 01 033</td><td>Buoy/platform - fixed</td><td>Identification, type, date/time, position (high accuracy)</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 002</td><td>(Buoy/platform - fixed)</td><td></td><td>3 01 034</td><td>Buoy/platform - fixed</td><td>Identification, type, date/time, position (coarse accuracy)</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 003</td><td>(Buoy/platform - moving)</td><td></td><td>3 01 035</td><td>Buoy/platform - moving</td><td>Identification, movement, type, date/time, position (coarse accuracy)</td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr><td></td><td></td><td></td><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr class="seq-header"><td>3 08 004</td><td>(Ship)</td><td></td><td>3 01 036</td><td>Ship</td><td>Identification, movement, type, date/time, position (coarse accuracy)</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 005</td><td></td><td></td><td>3 08 004</td><td>Ship</td><td>Basic ship report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 024</td><td>Wind and swell waves</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 006</td><td>(Buoy Section 1 optional parameters)</td><td></td><td>0 10 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 10 061</td><td>3-hour pressure change</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 10 063</td><td>Characteristic of pressure tendency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 12 004</td><td>Air temperature at 2 m</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 13 003</td><td>Relative humidity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 007</td><td></td><td></td><td>3 01 055</td><td>Identification and type of station, date/time, location (high accuracy), movement</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 07 062</td><td>Depth below sea/water surface</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 042</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 009</td><td>(Sequence for representation of synoptic reports from a sea station suitable for SHIP data)</td><td></td><td>3 01 093</td><td>Ship identification, movement, date/time, horizontal and vertical coordinates</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 001</td><td>Pressure and 3-hour pressure change</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 054</td><td>Ship &quot;instantaneous&quot; data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 08 002</td><td>Vertical significance (surface observations)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 055</td><td>Icing and ice</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 057</td><td>Ship marine data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 060</td><td>Ship &quot;period&quot; data</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 010</td><td>(TRACKOB template)</td><td></td><td>0 01 011</td><td>Ship or mobile land station identifier</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 13 000</td><td>Delayed replication of 13 descriptors</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 012</td><td>Hour, minute</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 080</td><td>Averaging period for following value</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 049</td><td>Sea-surface temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 080</td><td>Averaging period for following value</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 059</td><td>Sea-surface salinity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 080</td><td>Averaging period for following value</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 005</td><td>Direction of sea-surface current</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 042</td><td>Indicator for sea-surface current speed</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 22 032</td><td>Speed of sea-surface current</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 042</td><td>Indicator for sea-surface current speed</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 080</td><td>Averaging period for following value</td><td>Cancel</td><td></td></tr>
+<tr class="seq-header"><td>3 08 011</td><td>(Monthly values from an ocean weather station - CLIMAT SHIP)</td><td></td><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>Ship&#x27;s call sign</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 001</td><td>Type of station</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td></td><td>3 01 012</td><td>Hour, minute</td><td></td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td></td><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 07 030</td><td>Height of station ground above mean sea level</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td></td><td>0 07 031</td><td>Height of barometer above mean sea level</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 023</td><td>Time period or displacement</td><td>= Number of days in the month</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>3 02 056</td><td>Sea/water temperature</td><td>Sea-surface temperature, method of measurement, and depth below sea surface</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 023</td><td>Time period or displacement</td><td>= Number of days in the month</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 13 051</td><td>Frequency group, precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr class="seq-header"><td>3 08 012</td><td>(Monthly normals for an ocean weather station)</td><td></td><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td></td><td>0 04 004</td><td>Hour</td><td>= 0</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td></td><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td></td><td></td><td></td><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>3 02 056</td><td>Sea/water temperature</td><td>Sea-surface temperature, method of measurement, and depth below sea surface</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td></td><td></td><td>Normals of monthly mean pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Precipitation measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing</td><td></td></tr>
+<tr class="seq-header"><td>3 08 013</td><td>(Representation of CLIMAT SHIP data of the actual month and for monthly normals)</td><td></td><td>3 08 011</td><td>Monthly values from an ocean weather station - CLIMAT SHIP</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 08 012</td><td>Monthly normals for an ocean weather station</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 014</td><td>(Synoptic reports from sea stations suitable for VOS observation data)</td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 018</td><td>Encrypted ship’s call sign and encryption method</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 03 001</td><td>Surface station type</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 093</td><td>Ship identification, movement, date/time, horizontal and vertical coordinates</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 08 032</td><td>Change width of CCITT IA5 field</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 01 079</td><td>Unique identifier for the profile</td><td>32 characters | Unique ID for report</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 08 000</td><td>Change width of CCITT IA5</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 062</td><td>Ship “instantaneous” data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 063</td><td>Ship “period” data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 092</td><td>VOSClim data elements</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 06 033</td><td>Surface salinity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 06 034</td><td>Surface current</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 06 043</td><td>Marine biogeochemical and radiation observations</td><td>E-SURFMAR S-AWS observations</td><td></td></tr>
+<tr class="seq-header"><td>3 08 015</td><td>(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB)</td><td>Identification (WAVEOB Section 0)</td><td>0 01 003</td><td>WMO Region number/geographical area</td><td>A1 - First digit of WMO number (e.g. 62024 =&gt; 6)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 020</td><td>WMO Region sub-area</td><td>bw - Second digit of WMO number (e.g. 62024 =&gt; 2)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 005</td><td>Buoy/platform identifier</td><td>nbnbnb - Last 3 digits of WMO number (e.g. 62024 =&gt; 024)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>D....D</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 007</td><td>Satellite identifier</td><td>I6I6I6</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 001</td><td>WMO block number</td><td>II</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 002</td><td>WMO station number</td><td>iii - IIiii only apply to fixed sea stations</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 02 044</td><td>Indicator for method of calculating spectral wave data</td><td>Im - Code table 1744 (WAVEOB), 0 02 044 (BUFR)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 02 045</td><td>Indicator for type of platform</td><td>Ip - Code table 1747 (WAVEOB), 0 02 045 (BUFR)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 011</td><td>Year, month, day</td><td>YYMMJ - Date of observation</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 012</td><td>Hour, minute</td><td>GGgg - Time of observation</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td>QcLaLaLaLa LoLoLoLoLo</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 063</td><td>Total water depth</td><td>1hhhh</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 076</td><td>Direction from which dominant waves are coming</td><td>9dddd - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 077</td><td>Directional spread of dominant wave</td><td>dsds - section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 094</td><td>Total number of wave bands</td><td>111BTBT - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 25 043</td><td>Wave sampling interval (time)</td><td>SSSS - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 078</td><td>Duration of wave record</td><td>D’D’D’D’ - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>1 05 002</td><td>Replicate 5 descriptors 2 times</td><td>Replicate over sensor type</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 070</td><td>Significant wave height</td><td>2HsHsHsHs or 6HseHseHseHse - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 071</td><td>Spectral peak wave period</td><td>3PpPpPpPp or 7PspPspPspPsp - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 073</td><td>Maximum wave height</td><td>4HmHmHmHm</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 074</td><td>Average wave period</td><td>5PaPaPaPa or 8PsaPsaPsaPsa - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 27 000</td><td>Delayed replication of 27 descriptors</td><td>Replication over sensor type</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note 41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 102</td><td>Scaled maximum non-directional spectral wave density by frequency</td><td>CmCmCm - Section 2 or CsmCsmCsm - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 084</td><td>Band containing maximum non-directional spectral wave density</td><td>nmnm - Section 2 or nsmnsm - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 20 000</td><td>Delayed replication of 20 descriptors</td><td>Replication over bands</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>111BTBT - Section 1 (number of band)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 080</td><td>Waveband central frequency</td><td>1f1f1f1f1x .... - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 108</td><td>Spectral wave density ratio</td><td>1c1c1c2c2 ... - Section 2 or 1cs1cs1cs2cs2 ... - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 086</td><td>Mean direction from which waves are coming</td><td>1da1da1 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 087</td><td>Principal direction from which waves are coming</td><td>da2da2 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 088</td><td>First normalized polar coordinate from Fourier coefficients</td><td>r1r1 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 089</td><td>Second normalized polar coordinate from Fourier coefficients</td><td>r2r2 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 1 (directional)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 104</td><td>Scaled non-directional spectral wave density by frequency</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 106</td><td>Scaled directional spectral wave density by frequency</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td></td></tr>
+<tr class="seq-header"><td>3 08 016</td><td>(Template for WAVEOB data expressed as the wave number (Ia = 1 in FM-65 WAVEOB)</td><td>Identification (WAVEOB Section 0)</td><td>0 01 003</td><td>WMO Region number/geographical area</td><td>A1 - First digit of WMO number (e.g. 62024 =&gt; 6)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 020</td><td>WMO Region sub-area</td><td>bw - Second digit of WMO number (e.g. 62024 =&gt; 2)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 005</td><td>Buoy/platform identifier</td><td>nbnbnb - Last 3 digits of WMO number (e.g. 62024 =&gt; 024)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>D....D</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 007</td><td>Satellite identifier</td><td>I6I6I6</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 001</td><td>WMO block number</td><td>II</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 01 002</td><td>WMO station number</td><td>iii - IIiii only apply to fixed sea stations</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 02 044</td><td>Indicator for method of calculating spectral wave data</td><td>Im - Code table 1744 (WAVEOB), 0 02 044 (BUFR)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>0 02 045</td><td>Indicator for type of platform</td><td>Ip - Code table 1747 (WAVEOB), 0 02 045 (BUFR)</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 011</td><td>Year, month, day</td><td>YYMMJ - Date of observation</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 012</td><td>Hour, minute</td><td>GGgg - Time of observation</td><td></td></tr>
+<tr><td></td><td></td><td>Identification (WAVEOB Section 0)</td><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td>QcLaLaLaLa LoLoLoLoLo</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 063</td><td>Total water depth</td><td>1hhhh</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 076</td><td>Direction from which dominant waves are coming</td><td>9dddd - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 077</td><td>Directional spread of dominant wave</td><td>dsds - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 094</td><td>Total number of wave bands</td><td>111BTBT - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 25 044</td><td>Wave sampling interval (space)</td><td>SSSS - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 079</td><td>Length of wave record</td><td>D’D’D’D’ - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>1 05 002</td><td>Replicate 5 descriptors 2 times</td><td>Replication over sensor type</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 070</td><td>Significant wave height</td><td>2HsHsHsHs or 6HseHseHseHse - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 072</td><td>Spectral peak wavelength</td><td>3PpPpPpPp - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 073</td><td>Maximum wave height</td><td>4HmHmHmHm</td><td></td></tr>
+<tr><td></td><td></td><td>Basic data (WAVEOB Section 0)</td><td>0 22 075</td><td>Average wavelength</td><td>5PaPaPaPa - Section 0</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 27 000</td><td>Delayed replication of 27 descriptors</td><td>Replication over sensor type</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note 41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 103</td><td>Scaled maximum non-directional spectral wave density by wave number</td><td>CmCmCm - Section 2 or CsmCsmCsm - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 084</td><td>Band containing maximum non-directional spectral wave density</td><td>nmnm - Section 2 or nsmnsm - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 20 000</td><td>Delayed replication of 20 descriptors</td><td>Replication over band</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>111BTBT - Section 1 (number of band)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 081</td><td>Waveband central wave number</td><td>1f1f1f1f1x ... - Section 1</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 108</td><td>Spectral wave density ratio</td><td>1c1c1c2c2 ... - Section 2 or 1cs1cs1cs2cs2 ... - Section 3</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 086</td><td>Mean direction from which waves are coming</td><td>1da1da1 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 087</td><td>Principal direction from which waves are coming</td><td>da2da2 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 088</td><td>First normalized polar coordinate from Fourier coefficients</td><td>r1r1 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 089</td><td>Second normalized polar coordinate from Fourier coefficients</td><td>r2r2 - Section 4</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 1 (directional)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 105</td><td>Scaled non-directional spectral wave density by wave number</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional)</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 107</td><td>Scaled directional spectral wave density by wave number</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td></td></tr>
+<tr><td></td><td></td><td>Spectral data (WAVEOB Sections 1-5)</td><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td></td></tr>
+<tr class="seq-header"><td>3 08 017</td><td>(Sequence for reporting observations from offshore platforms)</td><td></td><td>3 01 056</td><td>Sequence for platform identification, type, time and location of the observation report</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 001</td><td>Pressure and 3-hour pressure change</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 052</td><td>Ship temperature and humidity data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 056</td><td>Sea/water temperature</td><td>Optional</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 064</td><td>Ship or other marine platform wind data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 053</td><td>Ship visibility data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 004</td><td>General cloud information</td><td>Optional</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 005</td><td>Cloud layer</td><td>Optional</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 038</td><td>Present and past weather</td><td>Optional</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 06 039</td><td>Sequence for representation of basic wave measurements</td><td>Optional</td><td></td></tr>
+<tr class="seq-header"><td>3 08 018</td><td>(Sequence for reporting of basic ship AWS observations)</td><td></td><td>3 01 150</td><td>WIGOS identifier</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 093</td><td>Ship identification, movement, date/time, horizontal and vertical coordinates</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 001</td><td>Pressure and 3-hour pressure change</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 072</td><td>Temperature and humidity data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 056</td><td>Sea/water temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 02 064</td><td>Ship or other marine platform wind data</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 08 021</td><td>(Monthly values from an ocean weather station in compliance with regional or national reporting practices)</td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>Ship’s call sign</td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>0 02 001</td><td>Type of station</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>3 01 012</td><td>Hour, minute</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>0 07 030</td><td>Height of station ground above mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Station identification, date/time, horizontal and vertical coordinates</td><td>0 07 031</td><td>Height of barometer above mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 074</td><td>Short time period or displacement</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 023</td><td>Time period or displacement</td><td>Number of days in the month</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>3 02 056</td><td>Sea/water temperature</td><td>Sea-surface temperature, method of measurement and depth below sea surface</td><td></td></tr>
+<tr><td></td><td></td><td>Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 003</td><td>Day</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 004</td><td>Hour</td><td>= 0</td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 074</td><td>Short time period or displacement</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 023</td><td>Time period or displacement</td><td>Number of days in the month</td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 13 051</td><td>Frequency group, precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr class="seq-header"><td>3 08 022</td><td>(Monthly normals for an ocean weather station in compliance with regional or national reporting practices)</td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 003</td><td>Day</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 004</td><td>Hour</td><td>= 0</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 074</td><td>Short time period or displacement</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 07 033</td><td>Height of sensor above water surface</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>3 02 056</td><td>Sea/water temperature</td><td>Sea-surface temperature, method of measurement and depth below sea surface</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of pressure, temperature, vapour pressure and sea/water temperature</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 003</td><td>Day</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 004</td><td>Hour</td><td>= 0</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 074</td><td>Short time period or displacement</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Precipitation measurement</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Normals of precipitation</td><td>0 08 023</td><td>First-order statistics</td><td>Set to missing (cancel)</td><td></td></tr>
+<tr class="seq-header"><td>3 08 023</td><td>(Sequence for representation of monthly values suitable for CLIMAT SHIP data in compliance with regional or national reporting practices)</td><td></td><td>3 08 021</td><td>Monthly values from an ocean weather station in compliance with regional or national reporting practices</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 08 022</td><td>Monthly normals for an ocean weather station in compliance with regional or national reporting practices</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

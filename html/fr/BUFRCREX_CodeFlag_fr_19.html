@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 19</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 19</h1>
+<p class="fxy-heading">019001  Type de la caractéristique synoptique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Dépression ou minimum barométrique (extratropical)</td><td></td></tr>
+<tr><td>1</td><td>Dépression tropicale</td><td></td></tr>
+<tr><td>2</td><td>Orage tropical</td><td></td></tr>
+<tr><td>3</td><td>Orage tropical violent</td><td></td></tr>
+<tr><td>4</td><td>Typhon</td><td></td></tr>
+<tr><td>5-9</td><td>En réserve</td><td></td></tr>
+<tr><td>10</td><td>Tempête de poussière/sable</td><td></td></tr>
+<tr><td>11-62</td><td>En réserve</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019008  Extension verticale de la circulation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Peu profonde (sommet de la circulation au-dessous du niveau de 700 hPa)</td><td></td></tr>
+<tr><td>2</td><td>Moyenne (sommet entre les niveaux de 700 et 400 hPa)</td><td></td></tr>
+<tr><td>3</td><td>Profonde (sommet au-dessus du niveau de 400 hPa)</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019010  Méthode d&#x27;obtention du centre de la caractéristique synoptique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Valeur minimale de la pression au niveau de la mer</td><td></td></tr>
+<tr><td>2</td><td>Valeur maximale du tourbillon relatif à 850 hPa</td><td></td></tr>
+<tr><td>3-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019100  Période pour laquelle a été calculé le déplacement du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-2</td><td>Non utilisé</td><td></td></tr>
+<tr><td>3</td><td>Au cours des 15 minutes qui précèdent</td><td></td></tr>
+<tr><td>4</td><td>Au cours des 30 minutes qui précèdent</td><td></td></tr>
+<tr><td>5</td><td>Au cours de l&#x27;heure qui précède</td><td></td></tr>
+<tr><td>6</td><td>Au cours des 2 heures qui précèdent</td><td></td></tr>
+<tr><td>7</td><td>Au cours des 3 heures qui précèdent</td><td></td></tr>
+<tr><td>8</td><td>Au cours des 6 heures qui précèdent</td><td></td></tr>
+<tr><td>9</td><td>Au cours d&#x27;une période de plus de 6 heures</td><td></td></tr>
+<tr><td>10</td><td>Indéterminée</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019101  Précision de la position du centre du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Œil visible sur l&#x27;écran du radar; précision bonne (dans un rayon de 10 km)</td><td></td></tr>
+<tr><td>2</td><td>Œil visible sur l&#x27;écran du radar; précision assez bonne (dans un rayon de 30 km)</td><td></td></tr>
+<tr><td>3</td><td>Œil visible sur l&#x27;écran du radar; précision faible (dans un rayon de 50 km)</td><td></td></tr>
+<tr><td>4</td><td>Position du centre à l&#x27;intérieur de la zone représentée sur l&#x27;écran du radar, détermination d&#x27;après la configuration générale des bandes en spirale; précision bonne (dans un rayon de 10 km)</td><td></td></tr>
+<tr><td>5</td><td>Position du centre à l&#x27;intérieur de la zone représentée sur l&#x27;écran du radar, détermination d&#x27;après la configuration générale des bandes en spirale; précision assez bonne (dans un rayon de 30 km)</td><td></td></tr>
+<tr><td>6</td><td>Position du centre à l&#x27;intérieur de la zone représentée sur l&#x27;écran du radar, détermination d&#x27;après la configuration générale des bandes en spirale; précision faible (dans un rayon de 50 km)</td><td></td></tr>
+<tr><td>7</td><td>Position du centre à l&#x27;extérieur de la zone représentée sur l&#x27;écran du radar, détermination par extrapolation d&#x27;après la configuration générale des bandes en spirale</td><td></td></tr>
+<tr><td>8-9</td><td>En réserve</td><td></td></tr>
+<tr><td>10</td><td>Précision indéterminée</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019102  Configuration et définition de l&#x27;œil du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Circulaire</td><td></td><td></td></tr>
+<tr><td>1</td><td>Elliptique - le petit axe atteint au moins les 3/4 de la longueur du grand axe</td><td>bien définie</td><td></td></tr>
+<tr><td>2</td><td>Elliptique - le petit axe est inférieur aux 3/4 de la longueur du grand axe</td><td>bien définie</td><td></td></tr>
+<tr><td>3</td><td>Œil apparemment double</td><td>bien définie</td><td></td></tr>
+<tr><td>4</td><td>Autre forme</td><td>bien définie</td><td></td></tr>
+<tr><td>5</td><td>Mal définie</td><td></td><td></td></tr>
+<tr><td>6</td><td>Indéterminée</td><td></td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019103  Diamètre ou longueur de l&#x27;axe principal de l&#x27;œil du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Moins de 5 km</td><td></td></tr>
+<tr><td>1</td><td>De 5 à moins de 10 km</td><td></td></tr>
+<tr><td>2</td><td>De 10 à moins de 15 km</td><td></td></tr>
+<tr><td>3</td><td>De 15 à moins de 20 km</td><td></td></tr>
+<tr><td>4</td><td>De 20 à moins de 25 km</td><td></td></tr>
+<tr><td>5</td><td>De 25 à moins de 30 km</td><td></td></tr>
+<tr><td>6</td><td>De 30 à moins de 35 km</td><td></td></tr>
+<tr><td>7</td><td>De 35 à moins de 40 km</td><td></td></tr>
+<tr><td>8</td><td>De 40 à moins de 50 km</td><td></td></tr>
+<tr><td>9</td><td>50 km et plus</td><td></td></tr>
+<tr><td>10</td><td>Indéterminé(e)</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019104  Évolution du caractère de l&#x27;œil durant les 30 minutes précédentes</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>L&#x27;œil est devenu visible pour la première fois au cours des 30 minutes qui précèdent</td><td></td></tr>
+<tr><td>1</td><td>Pas de changement significatif des caractéristiques ou des dimensions de l&#x27;œil</td><td></td></tr>
+<tr><td>2</td><td>L&#x27;œil est devenu plus petit, sans changement significatif de ses autres caractéristiques</td><td></td></tr>
+<tr><td>3</td><td>L&#x27;œil est devenu plus grand, sans changement significatif de ses autres caractéristiques</td><td></td></tr>
+<tr><td>4</td><td>L&#x27;œil est devenu moins distinct, sans changement significatif des ses dimensions</td><td></td></tr>
+<tr><td>5</td><td>L&#x27;œil est devenu moins distinct et s&#x27;est rétréci</td><td></td></tr>
+<tr><td>6</td><td>L&#x27;œil est devenu moins distinct et s&#x27;est agrandi</td><td></td></tr>
+<tr><td>7</td><td>L&#x27;œil est devenu plus distinct, sans changement significatif de ses dimensions</td><td></td></tr>
+<tr><td>8</td><td>L&#x27;œil est devenu plus distinct et s&#x27;est rétréci</td><td></td></tr>
+<tr><td>9</td><td>L&#x27;œil est devenu plus distinct et s&#x27;est agrandi</td><td></td></tr>
+<tr><td>10</td><td>Le changement des caractéristiques et des dimensions de l&#x27;œil ne peut être déterminé</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019105  Distance entre l&#x27;extrémité de la bande en spirale et le centre du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>De 0 à moins de 100 km</td><td></td></tr>
+<tr><td>1</td><td>De 100 à moins de 200 km</td><td></td></tr>
+<tr><td>2</td><td>De 200 à moins de 300 km</td><td></td></tr>
+<tr><td>3</td><td>De 300 à moins de 400 km</td><td></td></tr>
+<tr><td>4</td><td>De 400 à moins de 500 km</td><td></td></tr>
+<tr><td>5</td><td>De 500 à moins de 600 km</td><td></td></tr>
+<tr><td>6</td><td>De 600 à moins de 800 km</td><td></td></tr>
+<tr><td>7</td><td>800 km ou plus</td><td></td></tr>
+<tr><td>8-9</td><td>En réserve</td><td></td></tr>
+<tr><td>10</td><td>Incertaine ou indéterminée</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019107  Période sur laquelle a été calculé le déplacement du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Moins de 1 heure</td><td></td></tr>
+<tr><td>1</td><td>De 1 à moins de 2 heures</td><td></td></tr>
+<tr><td>2</td><td>De 2 à moins de 3 heures</td><td></td></tr>
+<tr><td>3</td><td>De 3 à moins de 6 heures</td><td></td></tr>
+<tr><td>4</td><td>De 6 à moins de 9 heures</td><td></td></tr>
+<tr><td>5</td><td>De 9 à moins de 12 heures</td><td></td></tr>
+<tr><td>6</td><td>De 12 à moins de 15 heures</td><td></td></tr>
+<tr><td>7</td><td>De 15 à moins de 18 heures</td><td></td></tr>
+<tr><td>8</td><td>De 18 à moins de 21 heures</td><td></td></tr>
+<tr><td>9</td><td>De 21 à moins de 30 heures</td><td></td></tr>
+<tr><td>10-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019108  Précision de la position géographique du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Le centre du cyclone est à moins de 10 km de la position signalée</td><td></td></tr>
+<tr><td>1</td><td>Le centre du cyclone est à moins de 20 km de la position signalée</td><td></td></tr>
+<tr><td>2</td><td>Le centre du cyclone est à moins de 50 km de la position signalée</td><td></td></tr>
+<tr><td>3</td><td>Le centre du cyclone est à moins de 100 km de la position signalée</td><td></td></tr>
+<tr><td>4</td><td>Le centre du cyclone est à moins de 200 km de la position signalée</td><td></td></tr>
+<tr><td>5</td><td>Le centre du cyclone est à moins de 300 km de la position signalée</td><td></td></tr>
+<tr><td>6</td><td>La position du centre du cyclone n&#x27;est pas déterminée</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019109  Diamètre moyen de la couverture nuageuse du cyclone tropical</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inférieur à 1° de latitude</td><td></td></tr>
+<tr><td>1</td><td>De 1° à moins de 2° de latitude</td><td></td></tr>
+<tr><td>2</td><td>De 2° à moins de 3° de latitude</td><td></td></tr>
+<tr><td>3</td><td>De 3° à moins de 4° de latitude</td><td></td></tr>
+<tr><td>4</td><td>De 4° à moins de 5° de latitude</td><td></td></tr>
+<tr><td>5</td><td>De 5° à moins de 6° de latitude</td><td></td></tr>
+<tr><td>6</td><td>De 6° à moins de 7° de latitude</td><td></td></tr>
+<tr><td>7</td><td>De 7° à moins de 8° de latitude</td><td></td></tr>
+<tr><td>8</td><td>De 8° à moins de 9° de latitude</td><td></td></tr>
+<tr><td>9</td><td>9° de latitude ou plus</td><td></td></tr>
+<tr><td>10</td><td>Indéterminé</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019110  Variation apparente de l&#x27;intensité du cyclone tropical, à 24 heures d&#x27;intervalle</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Affaiblissement très prononcé</td><td></td></tr>
+<tr><td>1</td><td>Affaiblissement</td><td></td></tr>
+<tr><td>2</td><td>Pas de variation</td><td></td></tr>
+<tr><td>3</td><td>Intensification</td><td></td></tr>
+<tr><td>4</td><td>Forte intensification</td><td></td></tr>
+<tr><td>5-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9</td><td>Pas d&#x27;observation antérieure</td><td></td></tr>
+<tr><td>10</td><td>Indéterminée</td><td></td></tr>
+<tr><td>11-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019113  Configuration nuageuse correspondant au nombre DT</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Bandes incurvées</td><td></td></tr>
+<tr><td>2</td><td>Cisaillement</td><td></td></tr>
+<tr><td>3</td><td>Œil</td><td></td></tr>
+<tr><td>4</td><td>Œil en bandes</td><td></td></tr>
+<tr><td>5</td><td>Couverture nuageuse centrale dense (CDO)</td><td></td></tr>
+<tr><td>6</td><td>Centre noyé dans la masse</td><td></td></tr>
+<tr><td>7</td><td>Couverture nuageuse centrale froide (CCC)</td><td></td></tr>
+<tr><td>8-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019117  Type d&#x27;image de nuages correspondant au nombre PT</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>A (bandes incurvées)</td><td></td></tr>
+<tr><td>2</td><td>B (CDO)</td><td></td></tr>
+<tr><td>3</td><td>C (cisaillement)</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019119  Type du nombre T final</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nombre DT</td><td></td></tr>
+<tr><td>2</td><td>Nombre PT</td><td></td></tr>
+<tr><td>3</td><td>Nombre MET</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

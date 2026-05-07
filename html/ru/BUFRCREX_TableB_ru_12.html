@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 12: Температура в BUFR/CREX</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 12: Температура в BUFR/CREX</h1>
+<table>
+<thead><tr><th>FXY</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ЕД. ИЗМ. BUFR</th><th>МАСШТАБ</th><th>НАЧ. ОТСЧ.</th><th>БИТЫ</th><th>ЕД. ИЗМ. CREX</th><th>МАСШТАБ</th><th>СИМВ.</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>012001</td><td>Температура/температура воздуха</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012002</td><td>Температура по смоченному термометру</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012003</td><td>Температура точки росы</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012004</td><td>Температура воздуха на высоте 2 м</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012005</td><td>Температура по смоченному термометру на высоте 2 м</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012006</td><td>Температура точки росы на высоте 2 м</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012007</td><td>Виртуальная температура</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012008</td><td>Неопределенность виртуальной температуры</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>012011</td><td>Максимальная температура на указанной высоте и за указанный период</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note 177: Там, где в колонку НАЗВАНИЕ ЭЛЕМЕНТА вводится выражение «за указанный период», соответствующий период должен быть указан с помощью дескрипторов из класса 04.</td></tr>
+<tr><td>012012</td><td>Минимальная температура на указанной высоте и за указанный период</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note 177: Там, где в колонку НАЗВАНИЕ ЭЛЕМЕНТА вводится выражение «за указанный период», соответствующий период должен быть указан с помощью дескрипторов из класса 04.</td></tr>
+<tr><td>012013</td><td>Минимальная температура на поверхности земли за последние 12 часов</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012014</td><td>Максимальная температура на высоте 2 м за последние 12 часов</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012015</td><td>Минимальная температура на высоте 2 м за последние 12 часов</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012016</td><td>Максимальная температура на высоте 2 м за последние 24 часа</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012017</td><td>Минимальная температура на высоте 2 м за последние 24 часа</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012021</td><td>Максимальная температура на высоте 2 м</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012022</td><td>Минимальная температура на высоте 2 м</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012023</td><td>Температура</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>012024</td><td>Температура точки росы</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>012030</td><td>Температура почвы</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012049</td><td>Изменение температуры за определенный период</td><td>K</td><td>0</td><td>-30</td><td>6</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>012051</td><td>Стандартное отклонение температуры</td><td>K</td><td>1</td><td>0</td><td>10</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012052</td><td>Самая высокая среднесуточная температура</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012053</td><td>Самая низкая среднесуточная температура</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012060</td><td>Внутренняя температура корпуса АМС</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012061</td><td>Температура поверхностного слоя</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012062</td><td>Эквивалентная температура черного тела</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012063</td><td>Яркостная температура</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012064</td><td>Температура прибора</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>012065</td><td>Стандартное отклонение яркостной температуры</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>012066</td><td>Температура антенны</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012070</td><td>Температура теплой нагрузки</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012071</td><td>Самая низкая температура в группе</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>012072</td><td>Излучение</td><td>W m-2 sr-1</td><td>6</td><td>0</td><td>31</td><td>W m-2 sr-1</td><td>6</td><td>9</td><td></td></tr>
+<tr><td>012075</td><td>Спектральное излучение</td><td>W m-3 sr-1</td><td>-3</td><td>0</td><td>16</td><td>W m-3 sr-1</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>012076</td><td>Излучение</td><td>W m-2 sr-1</td><td>3</td><td>0</td><td>16</td><td>W m-2 sr-1</td><td>3</td><td>5</td><td>Note 52: Для кодирования излучения вместо дескриптора 0 12 072 следует использовать дескриптор 0 12 076.</td></tr>
+<tr><td>012080</td><td>Действительная часть яркостной температуры</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012081</td><td>Мнимая часть яркостной температуры</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012082</td><td>Радиометрическая точность элемента изображения</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012101</td><td>Температура/температура воздуха</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012102</td><td>Температура по смоченному термометру</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012103</td><td>Температура точки росы</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012104</td><td>Температура воздуха на высоте 2 м</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012105</td><td>Температура по смоченному термометру на высоте 2 м</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012106</td><td>Температура точки росы на высоте 2 м</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012107</td><td>Виртуальная температура</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012111</td><td>Максимальная температура на указанной высоте и за указанный период</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note 177: Там, где в колонку НАЗВАНИЕ ЭЛЕМЕНТА вводится выражение «за указанный период», соответствующий период должен быть указан с помощью дескрипторов из класса 04.</td></tr>
+<tr><td>012112</td><td>Минимальная температура на указанной высоте и за указанный период</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note 177: Там, где в колонку НАЗВАНИЕ ЭЛЕМЕНТА вводится выражение «за указанный период», соответствующий период должен быть указан с помощью дескрипторов из класса 04.</td></tr>
+<tr><td>012113</td><td>Минимальная температура на поверхности земли за последние 12 часов</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012114</td><td>Максимальная температура на высоте 2 м за последние 12 часов</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012115</td><td>Минимальная температура на высоте 2 м за последние 12 часов</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012116</td><td>Максимальная температура на высоте 2 м за последние 24 часа</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012117</td><td>Минимальная температура на высоте 2 м за последние 24 часа</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012118</td><td>Максимальная температура на указанной высоте за последние 24 часа</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012119</td><td>Минимальная температура на указанной высоте за последние 24 часа</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012120</td><td>Температура на поверхности земли</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012121</td><td>Минимальная температура на поверхности земли</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012122</td><td>Минимальная температура на поверхности земли за предыдущую ночь</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012128</td><td>Температура поверхности дорожного покрытия</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012129</td><td>Подповерхностная температура дорожного покрытия</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012130</td><td>Температура почвы</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012131</td><td>Температура поверхности снега</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012132</td><td>Температура поверхности морского льда</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012151</td><td>Стандартное отклонение среднесуточной температуры</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012152</td><td>Самая высокая среднесуточная температура</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012153</td><td>Самая низкая среднесуточная температура</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012158</td><td>Эквивалентная шуму разница температуры при визировании холодной мишени</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012159</td><td>Эквивалентная шуму разница температуры при визировании теплой мишени</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012161</td><td>Температура поверхностного слоя</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012162</td><td>Эквивалентная температура черного тела</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012163</td><td>Яркостная температура</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>012164</td><td>Температура прибора</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012165</td><td>Яркостная температура прямого солнечного излучения</td><td>K</td><td>0</td><td>0</td><td>23</td><td>K</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>012166</td><td>Точность моментального снимка</td><td>K</td><td>1</td><td>-4000</td><td>13</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>012167</td><td>Радиометрическая точность (чистая поляризация)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012168</td><td>Радиометрическая точность (перекрестная поляризация)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>012171</td><td>Температура самой холодной группы</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012180</td><td>Усредненная в полосе 12 микрон ЯТ по всем безоблачным пикселям в надире</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012181</td><td>Усредненная в полосе 11 микрон ЯТ по всем безоблачным пикселям в надире</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012182</td><td>Усредненная в полосе 3,7 микрон ЯТ по всем безоблачным пикселям в надире</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012183</td><td>Усредненная в полосе 12 микрон ЯТ по всем безоблачным пикселям, вид вперед</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012184</td><td>Усредненная в полосе 11 микрон ЯТ по всем безоблачным пикселям, вид вперед</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012185</td><td>Усредненная в полосе 3,7 микрон ЯТ по всем безоблачным пикселям, вид вперед</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012186</td><td>Средняя температура поверхности моря в надире</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012187</td><td>Средняя температура поверхности моря при двойном обзоре</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012188</td><td>Интерполированная 23,8 ГГц яркостная температура, полученная с помощью MWR</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>012189</td><td>Интерполированная 36,5 ГГц яркостная температура, полученная с помощью MWR</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

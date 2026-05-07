@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 20</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 20</h1>
+<p class="fxy-heading">020003  Present weather</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>00-49     No precipitation at the station at the time of observation</td><td></td><td></td></tr>
+<tr><td></td><td>00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour</td><td></td><td>Note 77: Within RA III, the maximum daytime temperature and the minimum night-time temperature is reported (i.e. the ending time of the period may not be equal to the nominal time of the report). To construct the required time range, descriptor 0 04 024 has to be included two times. If the period ends at the nominal time of the report,value of the second 0 04 024 shall be set to 0.</td></tr>
+<tr><td></td><td>00-03     No meteors except photometeors</td><td></td><td></td></tr>
+<tr><td>00</td><td>Cloud development not observed or not observable</td><td>Characteristic change of the state of sky during the past hour</td><td></td></tr>
+<tr><td>01</td><td>Clouds generally dissolving or becoming less developed</td><td>Characteristic change of the state of sky during the past hour</td><td></td></tr>
+<tr><td>02</td><td>State of sky on the whole unchanged</td><td>Characteristic change of the state of sky during the past hour</td><td></td></tr>
+<tr><td>03</td><td>Clouds generally forming or developing</td><td>Characteristic change of the state of sky during the past hour</td><td></td></tr>
+<tr><td></td><td>04-09     Haze, dust, sand or smoke</td><td></td><td></td></tr>
+<tr><td>04</td><td>Visibility reduced by smoke, e.g. veldt or forest fires, industrial smoke or volcanic ashes</td><td></td><td></td></tr>
+<tr><td>05</td><td>Haze</td><td></td><td></td></tr>
+<tr><td>06</td><td>Widespread dust in suspension in the air, not raised by wind at or near the station at the time of observation</td><td></td><td></td></tr>
+<tr><td>07</td><td>Dust or sand raised by wind at or near the station at the time of observation, but no well-developed dust whirl(s) or sand whirl(s), and no duststorm or sandstorm seen; or, in the case of sea stations and coastal stations, blowing spray at the station</td><td></td><td></td></tr>
+<tr><td>08</td><td>Well-developed dust whirl(s) or sand whirl(s) seen at or near the station during the preceding hour or at the same time of observation, but no duststorm or sandstorm</td><td></td><td></td></tr>
+<tr><td>09</td><td>Duststorm or sandstorm within sight at the time of observation, or at the station during the preceding hour</td><td></td><td></td></tr>
+<tr><td>10</td><td>Mist</td><td></td><td></td></tr>
+<tr><td>11</td><td>Patches</td><td>shallow fog or ice fog at the station, whether on land or sea, not deeper than about 2 metres on land or 10 metres at sea</td><td></td></tr>
+<tr><td>12</td><td>More or less continuous</td><td>shallow fog or ice fog at the station, whether on land or sea, not deeper than about 2 metres on land or 10 metres at sea</td><td></td></tr>
+<tr><td>13</td><td>Lightning visible, no thunder heard</td><td></td><td></td></tr>
+<tr><td>14</td><td>Precipitation within sight, not reaching the ground or the surface of the sea</td><td></td><td></td></tr>
+<tr><td>15</td><td>Precipitation within sight, reaching the ground or the surface of the sea, but distant, i.e. estimated to be more than 5 km from the station</td><td></td><td></td></tr>
+<tr><td>16</td><td>Precipitation within sight, reaching the ground or the surface of the sea, near to, but not at the station</td><td></td><td></td></tr>
+<tr><td>17</td><td>Thunderstorm, but no precipitation at the time of observation</td><td></td><td></td></tr>
+<tr><td>18</td><td>Squalls</td><td>at or within sight of the station during the preceding hour or at the time of observation</td><td></td></tr>
+<tr><td>19</td><td>Funnel cloud(s)</td><td>at or within sight of the station during the preceding hour or at the time of observation</td><td>Note 89: If x = y = z then it is a spherical error, and the angle (see 0 20 115) will be zero.</td></tr>
+<tr><td></td><td>20-29     Precipitation, fog, ice fog or thunderstorm at the station during the preceding hour but not at the time of observation</td><td></td><td></td></tr>
+<tr><td>20</td><td>Drizzle (not freezing) or snow grains</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>21</td><td>Rain (not freezing)</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>22</td><td>Snow</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>23</td><td>Rain and snow or ice pellets</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>24</td><td>Freezing drizzle or freezing rain</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>25</td><td>Shower(s) of rain</td><td>not falling as shower(s)</td><td></td></tr>
+<tr><td>26</td><td>Shower(s) of snow, or of rain and snow</td><td></td><td></td></tr>
+<tr><td>27</td><td>Shower(s) of hail, or of rain and hail</td><td></td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>28</td><td>Fog or ice fog</td><td></td><td></td></tr>
+<tr><td>29</td><td>Thunderstorm (with or without precipitation)</td><td></td><td></td></tr>
+<tr><td></td><td>30-39     Duststorm, sandstorm, drifting or blowing snow</td><td></td><td></td></tr>
+<tr><td>30</td><td>Slight or moderate duststorm or sandstorm</td><td>has decreased during the preceding hour</td><td></td></tr>
+<tr><td>31</td><td>Slight or moderate duststorm or sandstorm</td><td>no appreciable change during the preceding hour</td><td></td></tr>
+<tr><td>32</td><td>Slight or moderate duststorm or sandstorm</td><td>has begun or has increased during the preceding hour</td><td></td></tr>
+<tr><td>33</td><td>Severe duststorm or sandstorm</td><td>has decreased during the preceding hour</td><td></td></tr>
+<tr><td>34</td><td>Severe duststorm or sandstorm</td><td>no appreciable change during the preceding hour</td><td></td></tr>
+<tr><td>35</td><td>Severe duststorm or sandstorm</td><td>has begun or has increased during the preceding hour</td><td></td></tr>
+<tr><td>36</td><td>Slight or moderate drifting snow</td><td>generally low (below eye level)</td><td></td></tr>
+<tr><td>37</td><td>Heavy drifting snow</td><td>generally low (below eye level)</td><td></td></tr>
+<tr><td>38</td><td>Slight or moderate blowing snow</td><td>generally high (above eye level)</td><td></td></tr>
+<tr><td>39</td><td>Heavy blowing snow</td><td>generally high (above eye level)</td><td></td></tr>
+<tr><td></td><td>40-49     Fog or ice fog at the time of observation</td><td></td><td></td></tr>
+<tr><td>40</td><td>Fog or ice fog at a distance at the time of observation, but not at the station during the preceding hour, the fog or ice fog extending to a level above that of the observer</td><td></td><td></td></tr>
+<tr><td>41</td><td>Fog or ice fog in patches</td><td></td><td></td></tr>
+<tr><td>42</td><td>Fog or ice fog, sky visible</td><td>has become thinner during the preceding hour</td><td></td></tr>
+<tr><td>43</td><td>Fog or ice fog, sky invisible</td><td>has become thinner during the preceding hour</td><td></td></tr>
+<tr><td>44</td><td>Fog or ice fog, sky visible</td><td>no appreciable change during the preceding hour</td><td></td></tr>
+<tr><td>45</td><td>Fog or ice fog, sky invisible</td><td>no appreciable change during the preceding hour</td><td></td></tr>
+<tr><td>46</td><td>Fog or ice fog, sky visible</td><td>has begun or has become thicker during the preceding hour</td><td></td></tr>
+<tr><td>47</td><td>Fog or ice fog, sky invisible</td><td>has begun or has become thicker during the preceding hour</td><td></td></tr>
+<tr><td>48</td><td>Fog, depositing rime, sky visible</td><td></td><td></td></tr>
+<tr><td>49</td><td>Fog, depositing rime, sky invisible</td><td></td><td></td></tr>
+<tr><td></td><td>50-99     Precipitation at the station at the time of observation</td><td></td><td></td></tr>
+<tr><td></td><td>50-59     Drizzle</td><td></td><td></td></tr>
+<tr><td>50</td><td>Drizzle, not freezing, intermittent</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>51</td><td>Drizzle, not freezing, continuous</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>52</td><td>Drizzle, not freezing, intermittent</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>53</td><td>Drizzle, not freezing, continuous</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>54</td><td>Drizzle, not freezing, intermittent</td><td>heavy (dense) at time of observation</td><td></td></tr>
+<tr><td>55</td><td>Drizzle, not freezing, continuous</td><td>heavy (dense) at time of observation</td><td></td></tr>
+<tr><td>56</td><td>Drizzle, freezing, slight</td><td></td><td></td></tr>
+<tr><td>57</td><td>Drizzle, freezing, moderate or heavy (dense)</td><td></td><td></td></tr>
+<tr><td>58</td><td>Drizzle and rain, slight</td><td></td><td></td></tr>
+<tr><td>59</td><td>Drizzle and rain, moderate or heavy</td><td></td><td></td></tr>
+<tr><td></td><td>60-69     Rain</td><td></td><td></td></tr>
+<tr><td>60</td><td>Rain, not freezing, intermittent</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>61</td><td>Rain, not freezing, continuous</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>62</td><td>Rain, not freezing, intermittent</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>63</td><td>Rain, not freezing, continuous</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>64</td><td>Rain, not freezing, intermittent</td><td>heavy at time of observation</td><td></td></tr>
+<tr><td>65</td><td>Rain, not freezing, continuous</td><td>heavy at time of observation</td><td></td></tr>
+<tr><td>66</td><td>Rain, freezing, slight</td><td></td><td></td></tr>
+<tr><td>67</td><td>Rain, freezing, moderate or heavy</td><td></td><td></td></tr>
+<tr><td>68</td><td>Rain or drizzle and snow, slight</td><td></td><td></td></tr>
+<tr><td>69</td><td>Rain or drizzle and snow, moderate or heavy</td><td></td><td></td></tr>
+<tr><td></td><td>70-79     Solid precipitation not in showers</td><td></td><td></td></tr>
+<tr><td>70</td><td>Intermittent fall of snowflakes</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>71</td><td>Continuous fall of snowflakes</td><td>slight at time of observation</td><td></td></tr>
+<tr><td>72</td><td>Intermittent fall of snowflakes</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>73</td><td>Continuous fall of snowflakes</td><td>moderate at time of observation</td><td></td></tr>
+<tr><td>74</td><td>Intermittent fall of snowflakes</td><td>heavy at time of observation</td><td></td></tr>
+<tr><td>75</td><td>Continuous fall of snowflakes</td><td>heavy at time of observation</td><td></td></tr>
+<tr><td>76</td><td>Diamond dust (with or without fog)</td><td></td><td></td></tr>
+<tr><td>77</td><td>Snow grains (with or without fog)</td><td></td><td></td></tr>
+<tr><td>78</td><td>Isolated star-like snow crystals (with or without fog)</td><td></td><td></td></tr>
+<tr><td>79</td><td>Ice pellets</td><td></td><td></td></tr>
+<tr><td></td><td>80-99     Showery precipitation, or precipitation with current or recent thunderstorm</td><td></td><td></td></tr>
+<tr><td>80</td><td>Rain shower(s), slight</td><td></td><td></td></tr>
+<tr><td>81</td><td>Rain shower(s), moderate or heavy</td><td></td><td></td></tr>
+<tr><td>82</td><td>Rain shower(s), violent</td><td></td><td></td></tr>
+<tr><td>83</td><td>Shower(s) of rain and snow mixed, slight</td><td></td><td></td></tr>
+<tr><td>84</td><td>Shower(s) of rain and snow mixed, moderate or heavy</td><td></td><td></td></tr>
+<tr><td>85</td><td>Snow shower(s), slight</td><td></td><td></td></tr>
+<tr><td>86</td><td>Snow shower(s), moderate or heavy</td><td></td><td></td></tr>
+<tr><td>87</td><td>Shower(s) of snow pellets or small hail, with or without rain or rain and snow mixed</td><td>slight</td><td></td></tr>
+<tr><td>88</td><td>Shower(s) of snow pellets or small hail, with or without rain or rain and snow mixed</td><td>moderate or heavy</td><td></td></tr>
+<tr><td>89</td><td>Shower(s) of hail, with or without rain or rain and snow mixed, not associated with thunder</td><td>slight</td><td></td></tr>
+<tr><td>90</td><td>Shower(s) of hail, with or without rain or rain and snow mixed, not associated with thunder</td><td>moderate or heavy</td><td></td></tr>
+<tr><td>91</td><td>Slight rain at time of observation</td><td>Thunderstorm during the preceding hour but not at time of observation</td><td></td></tr>
+<tr><td>92</td><td>Moderate or heavy rain at time of observation</td><td>Thunderstorm during the preceding hour but not at time of observation</td><td></td></tr>
+<tr><td>93</td><td>Slight snow, or rain and snow mixed or hail at time of observation</td><td>Thunderstorm during the preceding hour but not at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>94</td><td>Moderate or heavy snow, or rain and snow mixed or hail at time of observation</td><td>Thunderstorm during the preceding hour but not at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>95</td><td>Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation</td><td>Thunderstorm at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>96</td><td>Thunderstorm, slight or moderate, with hail at time of observation</td><td>Thunderstorm at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>97</td><td>Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation</td><td>Thunderstorm at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>98</td><td>Thunderstorm combined with duststorm or sandstorm at time of observation</td><td>Thunderstorm at time of observation</td><td></td></tr>
+<tr><td>99</td><td>Thunderstorm, heavy, with hail at time of observation</td><td>Thunderstorm at time of observation</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td></td><td>Present weather reported from an automatic weather station</td><td></td><td></td></tr>
+<tr><td>100</td><td>No significant weather observed</td><td></td><td></td></tr>
+<tr><td>101</td><td>Clouds generally dissolving or becoming less developed during the past hour</td><td></td><td></td></tr>
+<tr><td>102</td><td>State of sky on the whole unchanged during the past hour</td><td></td><td></td></tr>
+<tr><td>103</td><td>Clouds generally forming or developing during the past hour</td><td></td><td></td></tr>
+<tr><td>104</td><td>Haze or smoke, or dust in suspension in the air, visibility equal to, or greater than, 1 km</td><td></td><td></td></tr>
+<tr><td>105</td><td>Haze or smoke, or dust in suspension in the air, visibility less than 1 km</td><td></td><td></td></tr>
+<tr><td>106-109</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>110</td><td>Mist</td><td></td><td></td></tr>
+<tr><td>111</td><td>Diamond dust</td><td></td><td></td></tr>
+<tr><td>112</td><td>Distant lightning</td><td></td><td></td></tr>
+<tr><td>113-117</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>118</td><td>Squalls</td><td></td><td></td></tr>
+<tr><td>119</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td></td><td>Code figures 120-126 are used to report precipitation, fog (or ice fog) or thunderstorm at the station during the preceding hour but not at the time of observation</td><td></td><td></td></tr>
+<tr><td>120</td><td>Fog</td><td></td><td></td></tr>
+<tr><td>121</td><td>PRECIPITATION</td><td></td><td></td></tr>
+<tr><td>122</td><td>Drizzle (not freezing) or snow grains</td><td></td><td></td></tr>
+<tr><td>123</td><td>Rain (not freezing)</td><td></td><td></td></tr>
+<tr><td>124</td><td>Snow</td><td></td><td></td></tr>
+<tr><td>125</td><td>Freezing drizzle or freezing rain</td><td></td><td></td></tr>
+<tr><td>126</td><td>Thunderstorm (with or without precipitation)</td><td></td><td></td></tr>
+<tr><td>127</td><td>BLOWING OR DRIFTING SNOW OR SAND</td><td></td><td></td></tr>
+<tr><td>128</td><td>Blowing or drifting snow or sand, visibility equal to, or greater than, 1 km</td><td></td><td></td></tr>
+<tr><td>129</td><td>Blowing or drifting snow or sand, visibility less than 1 km</td><td></td><td></td></tr>
+<tr><td>130</td><td>FOG</td><td></td><td></td></tr>
+<tr><td>131</td><td>Fog or ice fog in patches</td><td></td><td></td></tr>
+<tr><td>132</td><td>Fog or ice fog, has become thinner during the past hour</td><td></td><td></td></tr>
+<tr><td>133</td><td>Fog or ice fog, no appreciable change during the past hour</td><td></td><td></td></tr>
+<tr><td>134</td><td>Fog or ice fog, has begun or become thicker during the past hour</td><td></td><td></td></tr>
+<tr><td>135</td><td>Fog, depositing rime</td><td></td><td></td></tr>
+<tr><td>136-139</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>140</td><td>PRECIPITATION</td><td></td><td></td></tr>
+<tr><td>141</td><td>Precipitation, slight or moderate</td><td></td><td></td></tr>
+<tr><td>142</td><td>Precipitation, heavy</td><td></td><td></td></tr>
+<tr><td>143</td><td>Liquid precipitation, slight or moderate</td><td></td><td></td></tr>
+<tr><td>144</td><td>Liquid precipitation, heavy</td><td></td><td></td></tr>
+<tr><td>145</td><td>Solid precipitation, slight or moderate</td><td></td><td></td></tr>
+<tr><td>146</td><td>Solid precipitation, heavy</td><td></td><td></td></tr>
+<tr><td>147</td><td>Freezing precipitation, slight or moderate</td><td></td><td></td></tr>
+<tr><td>148</td><td>Freezing precipitation, heavy</td><td></td><td></td></tr>
+<tr><td>149</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>150</td><td>DRIZZLE</td><td></td><td></td></tr>
+<tr><td>151</td><td>Drizzle, not freezing, slight</td><td></td><td></td></tr>
+<tr><td>152</td><td>Drizzle, not freezing, moderate</td><td></td><td></td></tr>
+<tr><td>153</td><td>Drizzle, not freezing, heavy</td><td></td><td></td></tr>
+<tr><td>154</td><td>Drizzle, freezing, slight</td><td></td><td></td></tr>
+<tr><td>155</td><td>Drizzle, freezing, moderate</td><td></td><td></td></tr>
+<tr><td>156</td><td>Drizzle, freezing, heavy</td><td></td><td></td></tr>
+<tr><td>157</td><td>Drizzle and rain, slight</td><td></td><td></td></tr>
+<tr><td>158</td><td>Drizzle and rain, moderate or heavy</td><td></td><td></td></tr>
+<tr><td>159</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>160</td><td>RAIN</td><td></td><td></td></tr>
+<tr><td>161</td><td>Rain, not freezing, slight</td><td></td><td></td></tr>
+<tr><td>162</td><td>Rain, not freezing, moderate</td><td></td><td></td></tr>
+<tr><td>163</td><td>Rain, not freezing, heavy</td><td></td><td></td></tr>
+<tr><td>164</td><td>Rain, freezing, slight</td><td></td><td></td></tr>
+<tr><td>165</td><td>Rain, freezing, moderate</td><td></td><td></td></tr>
+<tr><td>166</td><td>Rain, freezing, heavy</td><td></td><td></td></tr>
+<tr><td>167</td><td>Rain (or drizzle) and snow, slight</td><td></td><td></td></tr>
+<tr><td>168</td><td>Rain (or drizzle) and snow, moderate or heavy</td><td></td><td></td></tr>
+<tr><td>169</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>170</td><td>SNOW</td><td></td><td></td></tr>
+<tr><td>171</td><td>Snow, slight</td><td></td><td></td></tr>
+<tr><td>172</td><td>Snow, moderate</td><td></td><td></td></tr>
+<tr><td>173</td><td>Snow, heavy</td><td></td><td></td></tr>
+<tr><td>174</td><td>Ice pellets, slight</td><td></td><td></td></tr>
+<tr><td>175</td><td>Ice pellets, moderate</td><td></td><td></td></tr>
+<tr><td>176</td><td>Ice pellets, heavy</td><td></td><td></td></tr>
+<tr><td>177</td><td>Snow grains</td><td></td><td></td></tr>
+<tr><td>178</td><td>Ice crystals</td><td></td><td></td></tr>
+<tr><td>179</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>180</td><td>SHOWER(S) OR INTERMITTENT PRECIPITATION</td><td></td><td></td></tr>
+<tr><td>181</td><td>Rain shower(s) or intermittent rain, slight</td><td></td><td></td></tr>
+<tr><td>182</td><td>Rain shower(s) or intermittent rain, moderate</td><td></td><td></td></tr>
+<tr><td>183</td><td>Rain shower(s) or intermittent rain, heavy</td><td></td><td></td></tr>
+<tr><td>184</td><td>Rain shower(s) or intermittent rain, violent</td><td></td><td></td></tr>
+<tr><td>185</td><td>Snow shower(s) or intermittent snow, slight</td><td></td><td></td></tr>
+<tr><td>186</td><td>Snow shower(s) or intermittent snow, moderate</td><td></td><td></td></tr>
+<tr><td>187</td><td>Snow shower(s) or intermittent snow, heavy</td><td></td><td></td></tr>
+<tr><td>188</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>189</td><td>Hail</td><td></td><td></td></tr>
+<tr><td>190</td><td>THUNDERSTORM</td><td></td><td></td></tr>
+<tr><td>191</td><td>Thunderstorm, slight or moderate, with no precipitation</td><td></td><td></td></tr>
+<tr><td>192</td><td>Thunderstorm, slight or moderate, with rain showers and/or snow showers</td><td></td><td></td></tr>
+<tr><td>193</td><td>Thunderstorm, slight or moderate, with hail</td><td></td><td></td></tr>
+<tr><td>194</td><td>Thunderstorm, heavy, with no precipitation</td><td></td><td></td></tr>
+<tr><td>195</td><td>Thunderstorm, heavy, with rain showers and/or snow showers</td><td></td><td></td></tr>
+<tr><td>196</td><td>Thunderstorm, heavy, with hail</td><td></td><td></td></tr>
+<tr><td>197-198</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>199</td><td>Tornado</td><td></td><td></td></tr>
+<tr><td></td><td>Present weather (in addition to present weather report from either a manned or an automatic station)</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 200-209</td><td></td><td></td></tr>
+<tr><td>200-203</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>204</td><td>Volcanic ash suspended in the air aloft</td><td></td><td></td></tr>
+<tr><td>205</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>206</td><td>Thick dust haze, visibility less than 1 km</td><td></td><td></td></tr>
+<tr><td>207</td><td>Blowing spray at the station</td><td></td><td></td></tr>
+<tr><td>208</td><td>Drifting dust (sand)</td><td></td><td></td></tr>
+<tr><td>209</td><td>Wall of dust or sand in distance (like haboob)</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 210-219</td><td></td><td></td></tr>
+<tr><td>210</td><td>Snow haze</td><td></td><td></td></tr>
+<tr><td>211</td><td>Whiteout</td><td></td><td></td></tr>
+<tr><td>212</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>213</td><td>Lightning, cloud to surface</td><td></td><td></td></tr>
+<tr><td>214-216</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>217</td><td>Dry thunderstorm</td><td></td><td></td></tr>
+<tr><td>218</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>219</td><td>Tornado cloud (destructive) at or within sight of the station during preceding hour or at the time of observation</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 220-229</td><td></td><td></td></tr>
+<tr><td>220</td><td>Deposition of volcanic ash</td><td></td><td></td></tr>
+<tr><td>221</td><td>Deposition of dust or sand</td><td></td><td></td></tr>
+<tr><td>222</td><td>Deposition of dew</td><td></td><td></td></tr>
+<tr><td>223</td><td>Deposition of wet snow</td><td></td><td></td></tr>
+<tr><td>224</td><td>Deposition of soft rime</td><td></td><td></td></tr>
+<tr><td>225</td><td>Deposition of hard rime</td><td></td><td></td></tr>
+<tr><td>226</td><td>Deposition of hoar frost</td><td></td><td></td></tr>
+<tr><td>227</td><td>Deposition of glaze</td><td></td><td></td></tr>
+<tr><td>228</td><td>Deposition of ice crust (ice slick)</td><td></td><td></td></tr>
+<tr><td>229</td><td>Not used</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 230-239</td><td></td><td></td></tr>
+<tr><td>230</td><td>Duststorm or sandstorm with temperature below 0 deg C</td><td></td><td></td></tr>
+<tr><td>231-238</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>239</td><td>Blowing snow, impossible to determine whether snow is falling or not</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 240-249</td><td></td><td></td></tr>
+<tr><td>240</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>241</td><td>Fog on sea</td><td></td><td></td></tr>
+<tr><td>242</td><td>Fog in valleys</td><td></td><td></td></tr>
+<tr><td>243</td><td>Arctic or Antarctic sea smoke</td><td></td><td></td></tr>
+<tr><td>244</td><td>Steam fog (sea, lake or river)</td><td></td><td></td></tr>
+<tr><td>245</td><td>Steam log (land)</td><td></td><td></td></tr>
+<tr><td>246</td><td>Fog over ice or snow cover</td><td></td><td></td></tr>
+<tr><td>247</td><td>Dense fog, visibility 60-90 m</td><td></td><td></td></tr>
+<tr><td>248</td><td>Dense fog, visibility 30-60 m</td><td></td><td></td></tr>
+<tr><td>249</td><td>Dense fog, visibility less than 30 m</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 250-259</td><td></td><td></td></tr>
+<tr><td>250</td><td>Drizzle, rate of fall - less than 0.10 mm h-1</td><td></td><td></td></tr>
+<tr><td>251</td><td>Drizzle, rate of fall - 0.10-0.19 mm h-1</td><td></td><td></td></tr>
+<tr><td>252</td><td>Drizzle, rate of fall - 0.20-0.39 mm h-1</td><td></td><td></td></tr>
+<tr><td>253</td><td>Drizzle, rate of fall - 0.40-0.79 mm h-1</td><td></td><td></td></tr>
+<tr><td>254</td><td>Drizzle, rate of fall - 0.80-1.59 mm h-1</td><td></td><td></td></tr>
+<tr><td>255</td><td>Drizzle, rate of fall - 1.60-3.19 mm h-1</td><td></td><td></td></tr>
+<tr><td>256</td><td>Drizzle, rate of fall - 3.20-6.39 mm h-1</td><td></td><td></td></tr>
+<tr><td>257</td><td>Drizzle, rate of fall - 6.4 mm h-1 or more</td><td></td><td></td></tr>
+<tr><td>258</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>259</td><td>Drizzle and snow</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 260-269</td><td></td><td></td></tr>
+<tr><td>260</td><td>Rain, rate of fall - less than 1.0 mm h-1</td><td></td><td></td></tr>
+<tr><td>261</td><td>Rain, rate of fall - 1.0-1.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>262</td><td>Rain, rate of fall - 2.0-3.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>263</td><td>Rain, rate of fall - 4.0-7.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>264</td><td>Rain, rate of fall - 8.0-15.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>265</td><td>Rain, rate of fall - 16.0-31.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>266</td><td>Rain, rate of fall - 32.0-63.9 mm h-1</td><td></td><td></td></tr>
+<tr><td>267</td><td>Rain, rate of fall - 64.0 mm h-1 or more</td><td></td><td></td></tr>
+<tr><td>268-269</td><td>Not used</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 270-279</td><td></td><td></td></tr>
+<tr><td>270</td><td>Snow, rate of fall - less than 1.0 cm h-1</td><td></td><td></td></tr>
+<tr><td>271</td><td>Snow, rate of fall - 1.0-1.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>272</td><td>Snow, rate of fall - 2.0-3.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>273</td><td>Snow, rate of fall - 4.0-7.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>274</td><td>Snow, rate of fall - 8.0-15.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>275</td><td>Snow, rate of fall - 16.0-31.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>276</td><td>Snow, rate of fall - 32.0-63.9 cm h-1</td><td></td><td></td></tr>
+<tr><td>277</td><td>Snow, rate of fall - 64.0 cm h-1 or more</td><td></td><td></td></tr>
+<tr><td>278</td><td>Snow or ice crystal precipitation from a clear sky</td><td></td><td></td></tr>
+<tr><td>279</td><td>Wet snow, freezing on contact</td><td></td><td></td></tr>
+<tr><td></td><td>Deciles 280-299</td><td></td><td></td></tr>
+<tr><td>280</td><td>Precipitation of rain</td><td></td><td></td></tr>
+<tr><td>281</td><td>Precipitation of rain, freezing</td><td></td><td></td></tr>
+<tr><td>282</td><td>Precipitation of rain and snow mixed</td><td></td><td></td></tr>
+<tr><td>283</td><td>Precipitation of snow</td><td></td><td></td></tr>
+<tr><td>284</td><td>Precipitation of snow pellets or small hall</td><td></td><td></td></tr>
+<tr><td>285</td><td>Precipitation of snow pellets or small hail, with rain</td><td></td><td></td></tr>
+<tr><td>286</td><td>Precipitation of snow pellets or small hail, with rain and snow mixed</td><td></td><td></td></tr>
+<tr><td>287</td><td>Precipitation of snow pellets or small hail, with snow</td><td></td><td></td></tr>
+<tr><td>288</td><td>Precipitation of hail</td><td></td><td></td></tr>
+<tr><td>289</td><td>Precipitation of hail, with rain</td><td></td><td></td></tr>
+<tr><td>290</td><td>Precipitation of hall, with rain and snow mixed</td><td></td><td></td></tr>
+<tr><td>291</td><td>Precipitation of hail, with snow</td><td></td><td></td></tr>
+<tr><td>292</td><td>Shower(s) or thunderstorm over sea</td><td></td><td></td></tr>
+<tr><td>293</td><td>Shower(s) or thunderstorm over mountains</td><td></td><td></td></tr>
+<tr><td>294-299</td><td>Not used</td><td></td><td></td></tr>
+<tr><td>300-507</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>508</td><td>No significant phenomenon to report, present and past weather omitted</td><td></td><td></td></tr>
+<tr><td>509</td><td>No observation, data not available, present and past weather omitted</td><td></td><td></td></tr>
+<tr><td>510</td><td>Present and past weather missing, but expected</td><td></td><td></td></tr>
+<tr><td>511</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020004  Past weather (1)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cloud covering 1/2 or less of the sky throughout the appropriate period</td><td></td></tr>
+<tr><td>1</td><td>Cloud covering more than 1/2 of the sky during part of the appropriate period and covering 1/2 or less during part of the period</td><td></td></tr>
+<tr><td>2</td><td>Cloud covering more than 1/2 of the sky throughout the appropriate period</td><td></td></tr>
+<tr><td>3</td><td>Sandstorm, duststorm or blowing snow</td><td></td></tr>
+<tr><td>4</td><td>Fog or ice fog or thick haze</td><td></td></tr>
+<tr><td>5</td><td>Drizzle</td><td></td></tr>
+<tr><td>6</td><td>Rain</td><td></td></tr>
+<tr><td>7</td><td>Snow, or rain and snow mixed</td><td></td></tr>
+<tr><td>8</td><td>Shower(s)</td><td></td></tr>
+<tr><td>9</td><td>Thunderstorm(s) with or without precipitation</td><td></td></tr>
+<tr><td>10</td><td>No significant weather observed</td><td></td></tr>
+<tr><td>11</td><td>VISIBILITY REDUCED</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>12</td><td>Blowing phenomena, visibility reduced</td><td></td></tr>
+<tr><td>13</td><td>FOG</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>14</td><td>PRECIPITATION</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>15</td><td>Drizzle</td><td></td></tr>
+<tr><td>16</td><td>Rain</td><td></td></tr>
+<tr><td>17</td><td>Snow or ice pellets</td><td></td></tr>
+<tr><td>18</td><td>Showers or intermittent precipitation</td><td></td></tr>
+<tr><td>19</td><td>Thunderstorm</td><td></td></tr>
+<tr><td>20-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020005  Past weather (2)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cloud covering 1/2 or less of the sky throughout the appropriate period</td><td></td></tr>
+<tr><td>1</td><td>Cloud covering more than 1/2 of the sky during part of the appropriate period and covering 1/2 or less during part of the period</td><td></td></tr>
+<tr><td>2</td><td>Cloud covering more than 1/2 of the sky throughout the appropriate period</td><td></td></tr>
+<tr><td>3</td><td>Sandstorm, duststorm or blowing snow</td><td></td></tr>
+<tr><td>4</td><td>Fog or ice fog or thick haze</td><td></td></tr>
+<tr><td>5</td><td>Drizzle</td><td></td></tr>
+<tr><td>6</td><td>Rain</td><td></td></tr>
+<tr><td>7</td><td>Snow, or rain and snow mixed</td><td></td></tr>
+<tr><td>8</td><td>Shower(s)</td><td></td></tr>
+<tr><td>9</td><td>Thunderstorm(s) with or without precipitation</td><td></td></tr>
+<tr><td>10</td><td>No significant weather observed</td><td></td></tr>
+<tr><td>11</td><td>VISIBILITY REDUCED</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>12</td><td>Blowing phenomena, visibility reduced</td><td></td></tr>
+<tr><td>13</td><td>FOG</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>14</td><td>PRECIPITATION</td><td>Note 82: The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes).</td></tr>
+<tr><td>15</td><td>Drizzle</td><td></td></tr>
+<tr><td>16</td><td>Rain</td><td></td></tr>
+<tr><td>17</td><td>Snow or ice pellets</td><td></td></tr>
+<tr><td>18</td><td>Showers or intermittent precipitation</td><td></td></tr>
+<tr><td>19</td><td>Thunderstorm</td><td></td></tr>
+<tr><td>20-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020006  Flight rules</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Low instrument flight rules - Ceiling &lt; 500 feet and/or visibility &lt; 1 mile</td><td></td></tr>
+<tr><td>1</td><td>Instrument flight rules - Ceiling &lt; 1000 feet and/or visibility &lt; 3 miles</td><td></td></tr>
+<tr><td>2</td><td>Marginal visual flight rules - 1000 feet =&lt; Ceiling &lt; 3000 feet and/or 3 miles =&lt; visibility &lt; 5 miles</td><td></td></tr>
+<tr><td>3</td><td>Visual flight rules - Ceiling &gt;= 3000 feet and/or visibility &gt;= 5 miles</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020008  Cloud distribution for aviation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sky clear</td><td></td><td></td></tr>
+<tr><td>1</td><td>Few</td><td></td><td></td></tr>
+<tr><td>2</td><td>Scattered</td><td></td><td></td></tr>
+<tr><td>3</td><td>Broken</td><td></td><td></td></tr>
+<tr><td>4</td><td>Overcast</td><td></td><td></td></tr>
+<tr><td>5</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>6</td><td>Scattered/broken</td><td>(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s))</td><td></td></tr>
+<tr><td>7</td><td>Broken/overcast</td><td>(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s))</td><td></td></tr>
+<tr><td>8</td><td>Isolated</td><td>(Used on aviation charts to describe the cloud type Cb)</td><td></td></tr>
+<tr><td>9</td><td>Isolated embedded</td><td>(Used on aviation charts to describe the cloud type Cb)</td><td></td></tr>
+<tr><td>10</td><td>Occasional</td><td>(Used on aviation charts to describe the cloud type Cb)</td><td></td></tr>
+<tr><td>11</td><td>Occasional embedded</td><td>(Used on aviation charts to describe the cloud type Cb)</td><td></td></tr>
+<tr><td>12</td><td>Frequent</td><td>(Used on aviation charts to describe the cloud type Cb)</td><td></td></tr>
+<tr><td>13</td><td>Dense</td><td>(Used on aviation charts to describe cloud that would cause sudden changes in visibility (less than 1 000 m))</td><td></td></tr>
+<tr><td>14</td><td>Layers</td><td></td><td></td></tr>
+<tr><td>15</td><td>Obscured (OBSC)</td><td></td><td></td></tr>
+<tr><td>16</td><td>Embedded (EMBD)</td><td></td><td></td></tr>
+<tr><td>17</td><td>Frequent embedded</td><td></td><td></td></tr>
+<tr><td>18-30</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020009  General weather indicator (TAF/METAR)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>NSC Nil Significant Cloud</td><td></td></tr>
+<tr><td>2</td><td>CAVOK</td><td></td></tr>
+<tr><td>3</td><td>SKC Sky Clear</td><td></td></tr>
+<tr><td>4</td><td>NSW Nil Significant Weather</td><td></td></tr>
+<tr><td>5</td><td>NCD No clouds detected</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020011  Cloud amount</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>1</td><td>1 okta or less, but not zero</td><td>1/10 or less, but not zero</td><td></td></tr>
+<tr><td>2</td><td>2 oktas</td><td>2/10 - 3/10</td><td></td></tr>
+<tr><td>3</td><td>3 oktas</td><td>4/10</td><td></td></tr>
+<tr><td>4</td><td>4 oktas</td><td>5/10</td><td></td></tr>
+<tr><td>5</td><td>5 oktas</td><td>6/10</td><td></td></tr>
+<tr><td>6</td><td>6 oktas</td><td>7/10 - 8/10</td><td></td></tr>
+<tr><td>7</td><td>7 oktas or more, but not 8 oktas</td><td>9/10 or more, but not 10/10</td><td></td></tr>
+<tr><td>8</td><td>8 oktas</td><td>10/10</td><td></td></tr>
+<tr><td>9</td><td>Sky obscured by fog and/or other meteorological phenomena</td><td></td><td></td></tr>
+<tr><td>10</td><td>Sky partially obscured by fog and/or other meteorological phenomena</td><td></td><td></td></tr>
+<tr><td>11</td><td>Scattered</td><td></td><td></td></tr>
+<tr><td>12</td><td>Broken</td><td></td><td></td></tr>
+<tr><td>13</td><td>Few</td><td></td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made</td><td></td><td>Note 40: Non-surface levels on the model’s native vertical coordinate are transposed to pressure coordinate. This makes the levels more readily intelligible for human interpretation and easier to use by generic display applications. The levels may correspond exactly to native model levels, or be interpolated between model levels to pressure levels chosen by the generating centre.</td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020012  Cloud type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cirrus (Ci)</td><td></td></tr>
+<tr><td>1</td><td>Cirrocumulus (Cc)</td><td></td></tr>
+<tr><td>2</td><td>Cirrostratus (Cs)</td><td></td></tr>
+<tr><td>3</td><td>Altocumulus (Ac)</td><td></td></tr>
+<tr><td>4</td><td>Altostratus (As)</td><td></td></tr>
+<tr><td>5</td><td>Nimbostratus (Ns)</td><td></td></tr>
+<tr><td>6</td><td>Stratocumulus (Sc)</td><td></td></tr>
+<tr><td>7</td><td>Stratus (St)</td><td></td></tr>
+<tr><td>8</td><td>Cumulus (Cu)</td><td></td></tr>
+<tr><td>9</td><td>Cumulonimbus (Cb)</td><td></td></tr>
+<tr><td>10</td><td>No CH clouds</td><td></td></tr>
+<tr><td>11</td><td>Cirrus fibratus, sometimes uncinus, not progressively invading the sky</td><td></td></tr>
+<tr><td>12</td><td>Cirrus spissatus, in patches or entangled sheaves, which usually do not increase and sometimes seem to be the remains of the upper part of a cumulonimbus; or cirrus castellanus or floccus</td><td></td></tr>
+<tr><td>13</td><td>Cirrus spissatus cumulonimbogenitus</td><td></td></tr>
+<tr><td>14</td><td>Cirrus uncinus or fibratus, or both, progressively invading the sky; they generally thicken as a whole</td><td></td></tr>
+<tr><td>15</td><td>Cirrus (often in bands) and cirrostratus, or cirrostratus alone, progressively invading the sky; they generally thicken as a whole, but the continuous veil does not reach 45 degrees above the horizon</td><td></td></tr>
+<tr><td>16</td><td>Cirrus (often in bands) and cirrostratus, or cirrostratus alone, progressively Invading the sky; they generally thicken as a whole; the continuous veil extends more than 45 degrees above the horizon, without the sky being totally covered</td><td></td></tr>
+<tr><td>17</td><td>Cirrostratus covering the whole sky</td><td></td></tr>
+<tr><td>18</td><td>Cirrostratus not progressively invading the sky and not entirely covering it</td><td></td></tr>
+<tr><td>19</td><td>Cirrocumulus alone, or cirrocumulus predominant among the CH clouds</td><td></td></tr>
+<tr><td>20</td><td>No CM clouds</td><td></td></tr>
+<tr><td>21</td><td>Altostratus translucidus</td><td></td></tr>
+<tr><td>22</td><td>Altostratus opacus or nimbostratus</td><td></td></tr>
+<tr><td>23</td><td>Altocumulus translucidus at a single level</td><td></td></tr>
+<tr><td>24</td><td>Patches (often lenticular) of altocumulus translucidus, continually changing and occurring at one or more levels</td><td></td></tr>
+<tr><td>25</td><td>Altocumulus translucidus in bands, or one or more layers of altocumulus translucidus or opacus, progressively invading the sky; these altocumulus clouds generally thicken as a whole</td><td></td></tr>
+<tr><td>26</td><td>Altocumulus cumulogenitus (or cumulonimbogenitus)</td><td></td></tr>
+<tr><td>27</td><td>Altocumulus translucidus or opacus in two or more layers, or altocumulus opacus in a single layer, not progressively invading the sky, or altocumulus with altostratus or nimbostratus</td><td></td></tr>
+<tr><td>28</td><td>Altocumulus castellanus or floccus</td><td></td></tr>
+<tr><td>29</td><td>Altocumulus of a chaotic sky, generally at several levels</td><td></td></tr>
+<tr><td>30</td><td>No CL clouds</td><td></td></tr>
+<tr><td>31</td><td>Cumulus humilis or cumulus fractus other than of bad weather, or both</td><td>Note 1: 3 04 035 is deprecated.</td></tr>
+<tr><td>32</td><td>Cumulus mediocris or congestus, towering cumulus (TCU), with or without cumulus of species fractus or humilis or stratocumulus, all having their bases at the same level</td><td></td></tr>
+<tr><td>33</td><td>Cumulonimbus calvus, with or without cumulus, stratocumulus or stratus</td><td></td></tr>
+<tr><td>34</td><td>Stratocumulus cumulogenitus</td><td></td></tr>
+<tr><td>35</td><td>Stratocumulus other than stratocumulus cumulogenitus</td><td></td></tr>
+<tr><td>36</td><td>Stratus nebulosus or stratus fractus other than of bad weather, or both</td><td>Note 1: 3 04 035 is deprecated.</td></tr>
+<tr><td>37</td><td>Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus</td><td>Note 1: 3 04 035 is deprecated.</td></tr>
+<tr><td>38</td><td>Cumulus and stratocumulus other than stratocumulus cumulogenitus, with bases at different levels</td><td></td></tr>
+<tr><td>39</td><td>Cumulonimbus capillatus (often with an anvil), with or without cumulonimbus calvus, cumulus, stratocumulus, stratus or pannus</td><td></td></tr>
+<tr><td>40</td><td>CH</td><td></td></tr>
+<tr><td>41</td><td>CM</td><td></td></tr>
+<tr><td>42</td><td>CL</td><td></td></tr>
+<tr><td>43</td><td>Clear</td><td></td></tr>
+<tr><td>44</td><td>Liquid water</td><td></td></tr>
+<tr><td>45</td><td>Supercooled liquid water</td><td></td></tr>
+<tr><td>46</td><td>Mixed phase</td><td></td></tr>
+<tr><td>47</td><td>Optically thick ice</td><td></td></tr>
+<tr><td>48</td><td>Optically thin ice</td><td></td></tr>
+<tr><td>49</td><td>Multilayered ice</td><td></td></tr>
+<tr><td>50-58</td><td>Reserved</td><td></td></tr>
+<tr><td>59</td><td>Cloud not visible owing to darkness, fog, duststorm, sandstorm, or other analogous phenomena</td><td></td></tr>
+<tr><td>60</td><td>CH clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena, or because of a continuous layer of lower clouds</td><td></td></tr>
+<tr><td>61</td><td>CM clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena, or because of continuous layer of lower clouds</td><td></td></tr>
+<tr><td>62</td><td>CL clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020017  Cloud top description</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Isolated cloud fragments of clouds</td><td></td><td></td></tr>
+<tr><td>1</td><td>Continuous cloud</td><td>flat tops</td><td></td></tr>
+<tr><td>2</td><td>Broken cloud - small breaks</td><td>flat tops</td><td></td></tr>
+<tr><td>3</td><td>Broken cloud - large breaks</td><td>flat tops</td><td></td></tr>
+<tr><td>4</td><td>Continuous cloud</td><td>undulating tops</td><td></td></tr>
+<tr><td>5</td><td>Broken cloud - small breaks</td><td>undulating tops</td><td></td></tr>
+<tr><td>6</td><td>Broken cloud - large breaks</td><td>undulating tops</td><td></td></tr>
+<tr><td>7</td><td>Continuous or almost continuous waves with towering clouds above the top of the layer</td><td></td><td></td></tr>
+<tr><td>8</td><td>Groups of waves with towering clouds above the top of the layer</td><td></td><td></td></tr>
+<tr><td>9</td><td>Two or more layers at different levels</td><td></td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020018  Tendency of runway visual range</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Increasing (U)</td><td></td></tr>
+<tr><td>1</td><td>Decreasing (D)</td><td></td></tr>
+<tr><td>2</td><td>No distinct change (N)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020021  Type of precipitation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Precipitation - unknown type</td><td></td></tr>
+<tr><td>2</td><td>Liquid precipitation not freezing</td><td></td></tr>
+<tr><td>3</td><td>Liquid freezing precipitation</td><td></td></tr>
+<tr><td>4</td><td>Drizzle</td><td></td></tr>
+<tr><td>5</td><td>Rain</td><td></td></tr>
+<tr><td>6</td><td>Solid precipitation</td><td></td></tr>
+<tr><td>7</td><td>Snow</td><td></td></tr>
+<tr><td>8</td><td>Snow grains</td><td></td></tr>
+<tr><td>9</td><td>Snow pellets</td><td></td></tr>
+<tr><td>10</td><td>Ice pellets</td><td></td></tr>
+<tr><td>11</td><td>Ice crystals</td><td></td></tr>
+<tr><td>12</td><td>Diamond dust</td><td></td></tr>
+<tr><td>13</td><td>Small hail</td><td></td></tr>
+<tr><td>14</td><td>Hail</td><td></td></tr>
+<tr><td>15</td><td>Glaze</td><td></td></tr>
+<tr><td>16</td><td>Rime</td><td></td></tr>
+<tr><td>17</td><td>Soft rime</td><td></td></tr>
+<tr><td>18</td><td>Hard rime</td><td></td></tr>
+<tr><td>19</td><td>Clear ice</td><td></td></tr>
+<tr><td>20</td><td>Wet snow</td><td></td></tr>
+<tr><td>21</td><td>Hoar frost</td><td></td></tr>
+<tr><td>22</td><td>Dew</td><td></td></tr>
+<tr><td>23</td><td>White dew</td><td></td></tr>
+<tr><td>24-29</td><td>Reserved</td><td></td></tr>
+<tr><td>All 30</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020022  Character of precipitation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No precipitation</td><td></td></tr>
+<tr><td>1</td><td>Continuous</td><td></td></tr>
+<tr><td>2</td><td>Intermittent</td><td></td></tr>
+<tr><td>3</td><td>Shower</td><td></td></tr>
+<tr><td>4</td><td>Not reaching ground</td><td></td></tr>
+<tr><td>5</td><td>Deposition</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020023  Other weather phenomena</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Dust/sand whirl</td><td></td></tr>
+<tr><td>2</td><td>Squalls</td><td></td></tr>
+<tr><td>3</td><td>Sandstorm</td><td></td></tr>
+<tr><td>4</td><td>Duststorm</td><td></td></tr>
+<tr><td>5</td><td>Lightning - cloud to surface</td><td></td></tr>
+<tr><td>6</td><td>Lightning - cloud to cloud</td><td></td></tr>
+<tr><td>7</td><td>Lightning - distant</td><td></td></tr>
+<tr><td>8</td><td>Thunderstorm</td><td></td></tr>
+<tr><td>9</td><td>Funnel cloud not touching surface</td><td></td></tr>
+<tr><td>10</td><td>Funnel cloud touching surface</td><td></td></tr>
+<tr><td>11</td><td>Spray</td><td></td></tr>
+<tr><td>12</td><td>Waterspout</td><td></td></tr>
+<tr><td>13</td><td>Wind shear</td><td></td></tr>
+<tr><td>14</td><td>Dust devils</td><td></td></tr>
+<tr><td>15-17</td><td>Reserved</td><td></td></tr>
+<tr><td>All 18</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020024  Intensity of phenomena</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No phenomena</td><td></td></tr>
+<tr><td>1</td><td>Light</td><td></td></tr>
+<tr><td>2</td><td>Moderate</td><td></td></tr>
+<tr><td>3</td><td>Heavy</td><td></td></tr>
+<tr><td>4</td><td>Violent</td><td></td></tr>
+<tr><td>5</td><td>Severe</td><td></td></tr>
+<tr><td>6</td><td>Very severe</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020025  Obscuration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Fog</td><td></td></tr>
+<tr><td>2</td><td>Ice fog</td><td></td></tr>
+<tr><td>3</td><td>Steam fog</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Mist</td><td></td></tr>
+<tr><td>8</td><td>Haze</td><td></td></tr>
+<tr><td>9</td><td>Smoke</td><td></td></tr>
+<tr><td>10</td><td>Volcanic ash</td><td></td></tr>
+<tr><td>11</td><td>Dust</td><td></td></tr>
+<tr><td>12</td><td>Sand</td><td></td></tr>
+<tr><td>13</td><td>Snow</td><td></td></tr>
+<tr><td>14</td><td>Cloud</td><td></td></tr>
+<tr><td>15</td><td>Precipitation</td><td></td></tr>
+<tr><td>16</td><td>Impossible to determine whether snow is falling or not</td><td></td></tr>
+<tr><td>17-20</td><td>Reserved</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020026  Character of obscuration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No change</td><td></td></tr>
+<tr><td>1</td><td>Shallow</td><td></td></tr>
+<tr><td>2</td><td>Patches</td><td></td></tr>
+<tr><td>3</td><td>Partial</td><td></td></tr>
+<tr><td>4</td><td>Freezing</td><td></td></tr>
+<tr><td>5</td><td>Low drifting</td><td></td></tr>
+<tr><td>6</td><td>Blowing</td><td></td></tr>
+<tr><td>7</td><td>Increasing</td><td></td></tr>
+<tr><td>8</td><td>Decreasing</td><td></td></tr>
+<tr><td>9</td><td>In suspension in the air</td><td></td></tr>
+<tr><td>10</td><td>Wall</td><td></td></tr>
+<tr><td>11</td><td>Dense</td><td></td></tr>
+<tr><td>12</td><td>Whiteout</td><td></td></tr>
+<tr><td>13</td><td>Drifting and blowing</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020027  Phenomena occurrence</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>At time of observation</td><td></td></tr>
+<tr><td>2</td><td>In past hour</td><td></td></tr>
+<tr><td>3</td><td>In time period for past weather W1W2</td><td></td></tr>
+<tr><td>4</td><td>In time period specified</td><td></td></tr>
+<tr><td>5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Below station level</td><td></td></tr>
+<tr><td>7</td><td>At the station</td><td>Note 51: The number of missing years within the reference period from the calculation of normal for mean extreme air temperature should be given, if available, for both the calculation of normal maximum temperature and for the calculation of normal minimum temperature in addition to the number of missing years for the extreme air temperatures reported under 0 08 020 preceded by 0 08 050 in which figure 3 is used.</td></tr>
+<tr><td>8</td><td>In the vicinity</td><td>Note 96: Left-handed x, y and z axes have been chosen for descriptor 0 27 031.</td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020028  Expected change in intensity</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No change (NC)</td><td></td></tr>
+<tr><td>1</td><td>Forecast to weaken (WKN)</td><td></td></tr>
+<tr><td>2</td><td>Forecast to intensify (INTSF)</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020029  Rain flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No rain</td><td></td></tr>
+<tr><td>1</td><td>Rain</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020032  Rate of ice accretion (estimated)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ice not building up</td><td></td></tr>
+<tr><td>1</td><td>Ice building up slowly</td><td></td></tr>
+<tr><td>2</td><td>Ice building up rapidly</td><td></td></tr>
+<tr><td>3</td><td>Ice melting or breaking up slowly</td><td></td></tr>
+<tr><td>4</td><td>Ice melting or breaking up rapidly</td><td></td></tr>
+<tr><td>5-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020033  Cause of ice accretion</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Icing from ocean spray</td><td></td></tr>
+<tr><td>2</td><td>Icing from fog</td><td></td></tr>
+<tr><td>3</td><td>Icing from rain</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020034  Sea ice concentration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>SUB 2</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No sea ice in sight</td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Ship in open lead more than 1.0 nautical mile wide, or ship in fast ice with boundary beyond limit of visibility</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>Sea ice present in concentrations less than 3/10 (3/8), open water or very open pack ice</td><td>Sea ice concentration is uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>3</td><td>4/10 to 6/10 (3/8 to less than 6/8), open pack ice</td><td>Sea ice concentration is uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>4</td><td>7/10 to 8/10 (6/8 to less than 7/8), close pack ice</td><td>Sea ice concentration is uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>5</td><td>9/10 or more, but not 10/10 (7/8 to less than 8/8), very close pack ice</td><td>Sea ice concentration is uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>6</td><td>Strips and patches of pack ice with open water between</td><td>Sea ice concentration is not uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>7</td><td>Strips and patches of close or very close pack ice with areas of lesser concentration between</td><td>Sea ice concentration is not uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>8</td><td>Fast ice with open water, very open or open pack ice to seaward of the ice boundary</td><td>Sea ice concentration is not uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>9</td><td>Fast ice with close or very close pack ice to seaward of the boundary</td><td>Sea ice concentration is not uniform in the observation area</td><td>Ship in ice or within 0.5 nautical mile of ice edge</td><td></td></tr>
+<tr><td>10-13</td><td>Reserved</td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>Unable to report, because of darkness, lack of visibility, or because ship is more than 0.5 nautical mile away from ice edge</td><td></td><td></td><td></td></tr>
+<tr><td>15-30</td><td>Reserved</td><td></td><td></td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020035  Amount and type of ice</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No ice of land origin</td><td></td></tr>
+<tr><td>1</td><td>1-5 icebergs, no growlers or bergy bits</td><td></td></tr>
+<tr><td>2</td><td>6-10 icebergs, no growlers or bergy bits</td><td></td></tr>
+<tr><td>3</td><td>11-20 icebergs, no growlers or bergy bits</td><td></td></tr>
+<tr><td>4</td><td>Up to and including 10 growlers and bergy bits - no icebergs</td><td></td></tr>
+<tr><td>5</td><td>More than 10 growlers and bergy bits - no icebergs</td><td></td></tr>
+<tr><td>6</td><td>1-5 icebergs, with growlers and bergy bits</td><td></td></tr>
+<tr><td>7</td><td>6-10 icebergs, with growlers and bergy bits</td><td></td></tr>
+<tr><td>8</td><td>11-20 icebergs, with growlers and bergy bits</td><td></td></tr>
+<tr><td>9</td><td>More than 20 icebergs, with growlers and bergy bits - a major hazard to navigation</td><td></td></tr>
+<tr><td>10-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Unable to report, because of darkness, lack of visibility or because only sea ice is visible</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020036  Ice situation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ship in open water with floating ice in sight</td><td></td></tr>
+<tr><td>1</td><td>Ship in easily penetrable ice; conditions improving</td><td></td></tr>
+<tr><td>2</td><td>Ship in easily penetrable ice; conditions not changing</td><td></td></tr>
+<tr><td>3</td><td>Ship in easily penetrable ice; conditions worsening</td><td></td></tr>
+<tr><td>4</td><td>Ship in ice difficult to penetrate; conditions improving</td><td></td></tr>
+<tr><td>5</td><td>Ship in ice difficult to penetrate; conditions not changing</td><td></td></tr>
+<tr><td>6</td><td>Ship in ice difficult to penetrate and conditions worsening. Ice forming and floes freezing together</td><td></td></tr>
+<tr><td>7</td><td>Ship in ice difficult to penetrate and conditions worsening. Ice under slight pressure</td><td></td></tr>
+<tr><td>8</td><td>Ship in ice difficult to penetrate and conditions worsening. Ice under moderate or severe pressure</td><td></td></tr>
+<tr><td>9</td><td>Ship in ice difficult to penetrate and conditions worsening. Ship beset</td><td></td></tr>
+<tr><td>10-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>Unable to report, because of darkness or lack of visibility</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020037  Ice development</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>New ice only (frazil ice, grease ice, slush, shuga)</td><td></td></tr>
+<tr><td>1</td><td>Nilas or ice rind, less than 10 cm thick</td><td></td></tr>
+<tr><td>2</td><td>Young ice (grey ice, grey-white ice), 10-30 cm thick</td><td></td></tr>
+<tr><td>3</td><td>Predominantly new and/or young ice with some first-year ice</td><td></td></tr>
+<tr><td>4</td><td>Predominantly thin first-year ice with some new and/or young ice</td><td></td></tr>
+<tr><td>5</td><td>All thin first-year ice (30-70 cm thick)</td><td></td></tr>
+<tr><td>6</td><td>Predominantly medium first-year ice (70-120 cm thick) and thick first-year ice (&gt;120 cm thick) with some thinner (younger) first-year ice</td><td></td></tr>
+<tr><td>7</td><td>All medium and thick first-year ice</td><td></td></tr>
+<tr><td>8</td><td>Predominantly medium and thick first-year ice with some old ice (usually more than 2 metres thick)</td><td></td></tr>
+<tr><td>9</td><td>Predominantly old ice</td><td></td></tr>
+<tr><td>10-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>Unable to report, because of darkness, lack of visibility or because only ice of land origin is visible or because ship is more than 0.5 nautical mile away from ice edge</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020040  Evolution of drift snow</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Drift snow ended before the hour of observation</td><td></td></tr>
+<tr><td>1</td><td>Intensity diminishing</td><td></td></tr>
+<tr><td>2</td><td>No change</td><td></td></tr>
+<tr><td>3</td><td>Intensity increasing</td><td></td></tr>
+<tr><td>4</td><td>Continues, apart from interruption lasting less than 30 minutes</td><td></td></tr>
+<tr><td>5</td><td>General drift snow has become drift snow near the ground</td><td></td></tr>
+<tr><td>6</td><td>Drift snow near the ground has become general drift snow</td><td></td></tr>
+<tr><td>7</td><td>Drift snow has started again after an interruption of more than 30 minutes</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020041  Airframe icing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No icing</td><td></td></tr>
+<tr><td>1</td><td>Light icing</td><td></td></tr>
+<tr><td>2</td><td>Light icing in cloud</td><td></td></tr>
+<tr><td>3</td><td>Light icing in precipitation</td><td></td></tr>
+<tr><td>4</td><td>Moderate icing</td><td></td></tr>
+<tr><td>5</td><td>Moderate icing in cloud</td><td></td></tr>
+<tr><td>6</td><td>Moderate icing in precipitation</td><td></td></tr>
+<tr><td>7</td><td>Severe icing</td><td></td></tr>
+<tr><td>8</td><td>Severe icing in cloud</td><td></td></tr>
+<tr><td>9</td><td>Severe icing in precipitation</td><td></td></tr>
+<tr><td>10</td><td>Trace of icing</td><td></td></tr>
+<tr><td>11</td><td>Trace of icing in cloud</td><td></td></tr>
+<tr><td>12</td><td>Trace of icing in precipitation</td><td></td></tr>
+<tr><td>13-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020042  Airframe icing present</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No icing</td><td></td></tr>
+<tr><td>1</td><td>Icing present</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020045  Supercooled large droplet (SLD) conditions</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No SLD conditions present</td><td></td></tr>
+<tr><td>1</td><td>SLD conditions present</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020048  Evolution of feature</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Stability</td><td></td></tr>
+<tr><td>1</td><td>Diminution</td><td></td></tr>
+<tr><td>2</td><td>Intensification</td><td></td></tr>
+<tr><td>3</td><td>Unknown</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020050  Cloud index</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>1st low cloud</td><td></td></tr>
+<tr><td>2</td><td>2nd low cloud</td><td></td></tr>
+<tr><td>3</td><td>3rd low cloud</td><td></td></tr>
+<tr><td>4</td><td>1st medium cloud</td><td></td></tr>
+<tr><td>5</td><td>2nd medium cloud</td><td></td></tr>
+<tr><td>6</td><td>3rd medium cloud</td><td></td></tr>
+<tr><td>7</td><td>1st high cloud</td><td></td></tr>
+<tr><td>8</td><td>2nd high cloud</td><td></td></tr>
+<tr><td>9-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020055  State of sky in the tropics</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cumulus, if any, are quite small; generally less than 2/8 coverage, except on windward slopes of elevated terrain; average width of cloud is at least as great as its vertical thickness</td><td></td></tr>
+<tr><td>1</td><td>Cumulus of intermediate size with cloud cover less than 5/8; average cloud width is more than its vertical thickness; towers are vertical with little or no evidence of precipitation, except along slopes of elevated terrain; a general absence of middle and upper clouds</td><td></td></tr>
+<tr><td>2</td><td>Swelling Cumulus with rapidly growing tall turrets which decrease in size with height and whose tops tend to separate from the longer cloud body and evaporate within minutes of the separation</td><td></td></tr>
+<tr><td>3</td><td>Swelling Cumulus with towers having a pronounced tilt in a downwind direction; vertical cloud thickness is more than one and a half times that of its average width</td><td></td></tr>
+<tr><td>4</td><td>Swelling Cumulus with towers having a pronounced tilt in an upwind direction; vertical cloud thickness is more than one and a half times that of its average width</td><td></td></tr>
+<tr><td>5</td><td>Tall Cumulus congestus with vertical thickness more than twice the average width; not organized in clusters or lines; one or more layers of clouds extend out from the cloud towers, although no continuous cloud layers exist</td><td>Note 55: The Quality information descriptor 0 33 002 relates to the Virtual temperature 0 12 007. It is given for each respective gate of the profile measurement.</td></tr>
+<tr><td>6</td><td>Isolated Cumulonimbus or large clusters of Cumulus turrets separated by wide areas in which clouds are absent; cloud bases are generally dark with showers observed in most cells; some scattered middle and upper clouds may be present; individual Cumulus cells are one to two times higher than they are wide</td><td></td></tr>
+<tr><td>7</td><td>Numerous Cumulus extending through the middle troposphere with broken to overcast sheets of middle clouds and/or Cirrostratus; Cumulus towers do not decrease generally in size with height; ragged dark cloud bases with some showers present</td><td></td></tr>
+<tr><td>8</td><td>Continuous dense middle clouds and/or Cirrostratus cloud sheets with some large isolated Cumulonimbus or Cumulus congestus clouds penetrating these sheets; light rain occasionally observed from the Altostratus; Cumulonimbus bases ragged and dark with showers visible</td><td>Note 55: The Quality information descriptor 0 33 002 relates to the Virtual temperature 0 12 007. It is given for each respective gate of the profile measurement.</td></tr>
+<tr><td>9</td><td>Continuous sheets of middle clouds and/or Cirrostratus with Cumulonimbus and Cumulus congestus in organized lines or cloud bands; rain is generally observed from Altostratus sheets and heavy showers from Cumulonimbus; wind has a squally character</td><td></td></tr>
+<tr><td>10</td><td>State of sky unknown or not described by any of the above</td><td></td></tr>
+<tr><td>11-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020056  Cloud phase</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unknown</td><td></td></tr>
+<tr><td>1</td><td>Water</td><td></td></tr>
+<tr><td>2</td><td>Ice</td><td></td></tr>
+<tr><td>3</td><td>Mixed</td><td></td></tr>
+<tr><td>4</td><td>Clear</td><td></td></tr>
+<tr><td>5</td><td>Supercooled liquid water</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020062  State of the ground (with or without snow)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Surface of ground dry (without cracks and no appreciable amount of dust or loose sand)</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>1</td><td>Surface of ground moist</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>2</td><td>Surface of ground wet (standing water in small or large pools on surface)</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>3</td><td>Flooded</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>4</td><td>Surface of ground frozen</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>5</td><td>Glaze on ground</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>6</td><td>Loose dry dust or sand not covering ground completely</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>7</td><td>Thin cover of loose dry dust or sand covering ground completely</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>8</td><td>Moderate or thick cover of loose dry dust or sand covering ground completely</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>9</td><td>Extremely dry with cracks</td><td>without snow or measurable ice cover</td><td></td></tr>
+<tr><td>10</td><td>Ground predominantly covered by ice</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>11</td><td>Compact or wet snow (with or without ice) covering less than one half of the ground</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>12</td><td>Compact or wet snow (with or without ice) covering at least one half of the ground but ground not completely covered</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>13</td><td>Even layer of compact or wet snow covering ground completely</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>14</td><td>Uneven layer of compact or wet snow covering ground completely</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>15</td><td>Loose dry snow covering less than one half of the ground</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>16</td><td>Loose dry snow covering at least one half of the ground but ground not completely covered</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>17</td><td>Even layer of loose dry snow covering ground completely</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>18</td><td>Uneven layer of loose dry snow covering ground completely</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>19</td><td>Snow covering ground completely; deep drifts</td><td>with snow or measurable ice cover</td><td></td></tr>
+<tr><td>20-30</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020063  Special phenomena</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Highest wind speed gusts greater than 11.5 m/s</td><td></td></tr>
+<tr><td>2</td><td>Highest mean wind speed greater than 17.5 m/s</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Visibility greater than 100 000 m</td><td></td></tr>
+<tr><td>8-9</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>10-19     Mirage</td><td></td></tr>
+<tr><td>10</td><td>Mirage - No specification</td><td></td></tr>
+<tr><td>11</td><td>Mirage - Image of distant object raised (looming)</td><td></td></tr>
+<tr><td>12</td><td>Mirage - Image of distant object raised clear above the horizon</td><td></td></tr>
+<tr><td>13</td><td>Mirage - Inverted image of distant object</td><td></td></tr>
+<tr><td>14</td><td>Mirage - Complex, multiple images of distant object (images not inverted)</td><td></td></tr>
+<tr><td>15</td><td>Mirage - Complex, multiple images of distant object (some images being inverted)</td><td></td></tr>
+<tr><td>16</td><td>Mirage - Sun or moon seen appreciably distorted</td><td></td></tr>
+<tr><td>17</td><td>Mirage - Sun visible, although astronomically below the horizon</td><td></td></tr>
+<tr><td>18</td><td>Mirage - Moon visible, although astronomically below the horizon</td><td></td></tr>
+<tr><td>19</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>20-22     Day darkness, worst in direction specified</td><td></td></tr>
+<tr><td>20</td><td>Day darkness, bad, worst in direction specified</td><td></td></tr>
+<tr><td>21</td><td>Day darkness, very bad, worst in direction specified</td><td></td></tr>
+<tr><td>22</td><td>Day darkness, black, worst in direction specified</td><td></td></tr>
+<tr><td>23-30</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>31-39     Coloration and/or convergence of clouds associated with a tropical disturbance</td><td></td></tr>
+<tr><td>31</td><td>Slight coloration of clouds at sunrise associated with a tropical disturbance</td><td></td></tr>
+<tr><td>32</td><td>Deep-red coloration of clouds at sunrise associated with a tropical disturbance</td><td></td></tr>
+<tr><td>33</td><td>Slight coloration of clouds at sunset associated with a tropical disturbance</td><td></td></tr>
+<tr><td>34</td><td>Deep-red coloration of clouds at sunset associated with a tropical disturbance</td><td></td></tr>
+<tr><td>35</td><td>Convergence of CH clouds at a point below 45 deg forming or increasing and associated with a tropical disturbance</td><td></td></tr>
+<tr><td>36</td><td>Convergence of CH clouds at a point above 45 deg forming or increasing and associated with a tropical disturbance</td><td></td></tr>
+<tr><td>37</td><td>Convergence of CH clouds at a point below 45 deg dissolving or diminishing and associated with a tropical disturbance</td><td></td></tr>
+<tr><td>38</td><td>Convergence of CH clouds at a point above 45 deg dissolving or diminishing and associated with a tropical disturbance</td><td></td></tr>
+<tr><td>39</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>40-43     Hoar frost or coloured precipitation</td><td></td></tr>
+<tr><td>40</td><td>Hoar frost on horizontal surfaces</td><td></td></tr>
+<tr><td>41</td><td>Hoar frost on horizontal and vertical surfaces</td><td></td></tr>
+<tr><td>42</td><td>Precipitation containing sand or desert dust</td><td></td></tr>
+<tr><td>43</td><td>Precipitation containing volcanic ash</td><td></td></tr>
+<tr><td>44-49</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>50-59     Nature and/or type of squall</td><td></td></tr>
+<tr><td>50</td><td>Calm or light wind followed by a squall</td><td></td></tr>
+<tr><td>51</td><td>Calm or light wind followed by a succession of squalls</td><td></td></tr>
+<tr><td>52</td><td>Gusty weather followed by a squall</td><td></td></tr>
+<tr><td>53</td><td>Gusty weather followed by a succession of squalls</td><td></td></tr>
+<tr><td>54</td><td>Squall followed by gusty weather</td><td></td></tr>
+<tr><td>55</td><td>General gusty weather with squall at intervals</td><td></td></tr>
+<tr><td>56</td><td>Squall approaching station</td><td></td></tr>
+<tr><td>57</td><td>Line squall</td><td></td></tr>
+<tr><td>58</td><td>Squall with drifting or blowing dust or sand</td><td></td></tr>
+<tr><td>59</td><td>Line squall with drifting or blowing dust or sand</td><td></td></tr>
+<tr><td></td><td>60-69     Variation of temperature during the period specified, associated with glaze or rime</td><td></td></tr>
+<tr><td>60</td><td>Temperature steady</td><td></td></tr>
+<tr><td>61</td><td>Temperature falling, without going below 0 deg C</td><td></td></tr>
+<tr><td>62</td><td>Temperature rising, without going above 0 deg C</td><td></td></tr>
+<tr><td>63</td><td>Temperature falling to a value below 0 deg C</td><td></td></tr>
+<tr><td>64</td><td>Temperature rising to a value above 0 deg C</td><td></td></tr>
+<tr><td>65</td><td>Irregular variation, oscillations of temperature passing through 0 deg C</td><td></td></tr>
+<tr><td>66</td><td>Irregular variation, oscillations of temperature not passing through 0 deg C</td><td></td></tr>
+<tr><td>67</td><td>Variation of temperature not observed</td><td></td></tr>
+<tr><td>68</td><td>Not allocated</td><td></td></tr>
+<tr><td>69</td><td>Variation of temperature unknown owing to lack of thermograph</td><td></td></tr>
+<tr><td></td><td>70-79     Variation of visibility during the period specified</td><td></td></tr>
+<tr><td>70</td><td>Visibility has not varied (sun visible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>71</td><td>Visibility has not varied (sun invisible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>72</td><td>Visibility has increased (sun visible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>73</td><td>Visibility has increased (sun invisible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>74</td><td>Visibility has decreased (sun visible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>75</td><td>Visibility has decreased (sun invisible) towards direction specified</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>76</td><td>Fog coming from direction specified</td><td></td></tr>
+<tr><td>77</td><td>Fog has lifted, without dissipating</td><td></td></tr>
+<tr><td>78</td><td>Fog has dispersed without regard to direction</td><td></td></tr>
+<tr><td>79</td><td>Moving patches or banks of fog</td><td></td></tr>
+<tr><td></td><td>80-89     Optical phenomena</td><td></td></tr>
+<tr><td>80</td><td>Brocken spectre</td><td></td></tr>
+<tr><td>81</td><td>Rainbow</td><td></td></tr>
+<tr><td>82</td><td>Solar or lunar halo</td><td></td></tr>
+<tr><td>83</td><td>Parhelia or anthelia</td><td></td></tr>
+<tr><td>84</td><td>Sun pillar</td><td></td></tr>
+<tr><td>85</td><td>Corona</td><td></td></tr>
+<tr><td>86</td><td>Twilight glow</td><td></td></tr>
+<tr><td>87</td><td>Twilight glow on the mountains (Alpengluehen)</td><td></td></tr>
+<tr><td>88</td><td>Mirage</td><td></td></tr>
+<tr><td>89</td><td>Zodiacal light</td><td></td></tr>
+<tr><td>90</td><td>St Elmo&#x27;s fire</td><td></td></tr>
+<tr><td>91-1022</td><td>Reserved</td><td></td></tr>
+<tr><td>1023</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020071  Accuracy of fix and rate of atmospherics</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No assessment</td><td>No assessment</td><td></td></tr>
+<tr><td>1</td><td>Less than 50 km</td><td>Less than 1 per second</td><td></td></tr>
+<tr><td>2</td><td>Between 50 and 200 km</td><td>Less than 1 per second</td><td></td></tr>
+<tr><td>3</td><td>More than 200 km</td><td>Less than 1 per second</td><td></td></tr>
+<tr><td>4</td><td>Less than 50 km</td><td>1 or more per second</td><td></td></tr>
+<tr><td>5</td><td>Between 50 and 200 km</td><td>1 or more per second</td><td></td></tr>
+<tr><td>6</td><td>More than 200 km</td><td>1 or more per second</td><td></td></tr>
+<tr><td>7</td><td>Less than 50 km</td><td>Rate so rapid number cannot be counted</td><td></td></tr>
+<tr><td>8</td><td>Between 50 and 200 km</td><td>Rate so rapid number cannot be counted</td><td></td></tr>
+<tr><td>9</td><td>More than 200 km</td><td>Rate so rapid number cannot be counted</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020079  Snow or ice crystals indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No snow or ice</td><td></td></tr>
+<tr><td>1</td><td>Snow present</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020085  General condition of runway</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cleared (CLRD//)</td><td></td></tr>
+<tr><td>1</td><td>All runways closed (SNOCLO)</td><td></td></tr>
+<tr><td>2-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020086  Runway deposits</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Clear and dry</td><td></td></tr>
+<tr><td>1</td><td>Damp</td><td></td></tr>
+<tr><td>2</td><td>Wet with water patches</td><td></td></tr>
+<tr><td>3</td><td>Rime and frost covered (depth normally less than 1 mm)</td><td></td></tr>
+<tr><td>4</td><td>Dry snow</td><td></td></tr>
+<tr><td>5</td><td>Wet snow</td><td></td></tr>
+<tr><td>6</td><td>Slush</td><td></td></tr>
+<tr><td>7</td><td>Ice</td><td></td></tr>
+<tr><td>8</td><td>Compacted or rolled snow</td><td></td></tr>
+<tr><td>9</td><td>Frozen ruts or ridges</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing or not reported (e.g. due to runway clearance in progress)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020087  Runway contamination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Less than 10% of runway covered</td><td></td></tr>
+<tr><td>2</td><td>11% to 25% of runway covered</td><td></td></tr>
+<tr><td>3-4</td><td>Reserved</td><td></td></tr>
+<tr><td>5</td><td>26% to 50% of runway covered</td><td></td></tr>
+<tr><td>6-8</td><td>Reserved</td><td></td></tr>
+<tr><td>9</td><td>51% to 100% of runway covered</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing or not reported (e.g. due to runway clearance in progress)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020089  Runway friction coefficient</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0.00</td><td></td></tr>
+<tr><td>1</td><td>0.01</td><td></td></tr>
+<tr><td>2-88</td><td>0.02 to 0.88</td><td></td></tr>
+<tr><td>89</td><td>0.89</td><td></td></tr>
+<tr><td>90</td><td>0.90</td><td></td></tr>
+<tr><td>91</td><td>Braking action poor</td><td></td></tr>
+<tr><td>92</td><td>Braking action medium to poor</td><td></td></tr>
+<tr><td>93</td><td>Braking action medium</td><td></td></tr>
+<tr><td>94</td><td>Braking action medium to good</td><td></td></tr>
+<tr><td>95</td><td>Braking action good</td><td></td></tr>
+<tr><td>96-98</td><td>Reserved</td><td></td></tr>
+<tr><td>99</td><td>Unreliable</td><td></td></tr>
+<tr><td>100-126</td><td>Reserved</td><td></td></tr>
+<tr><td>127</td><td>Missing, not reported and/or runway not operational</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020090  Special clouds</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Nacreous clouds</td><td></td></tr>
+<tr><td>2</td><td>Noctilucent clouds</td><td></td></tr>
+<tr><td>3</td><td>Clouds from waterfalls</td><td></td></tr>
+<tr><td>4</td><td>Clouds from fires</td><td></td></tr>
+<tr><td>5</td><td>Clouds from volcanic eruptions</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020101  Locust (acridian) name</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Schistocerca gregaria</td><td></td></tr>
+<tr><td>2</td><td>Locusta migratoria</td><td></td></tr>
+<tr><td>3</td><td>Nomadacris septemfasciata</td><td></td></tr>
+<tr><td>4</td><td>Oedaleus senegalensis</td><td></td></tr>
+<tr><td>5</td><td>Anracridium spp</td><td></td></tr>
+<tr><td>6</td><td>Other locusts</td><td></td></tr>
+<tr><td>7</td><td>Other grasshoppers</td><td></td></tr>
+<tr><td>8</td><td>Other crickets</td><td></td></tr>
+<tr><td>9</td><td>Spodoptera exempta</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020102  Locust (maturity) colour</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Green</td><td></td></tr>
+<tr><td>1</td><td>Green or black</td><td></td></tr>
+<tr><td>2</td><td>Black</td><td></td></tr>
+<tr><td>3</td><td>Yellow and black</td><td></td></tr>
+<tr><td>4</td><td>Straw/grey</td><td></td></tr>
+<tr><td>5</td><td>Pink</td><td></td></tr>
+<tr><td>6</td><td>Dark red/brown</td><td></td></tr>
+<tr><td>7</td><td>Mixed red and yellow</td><td></td></tr>
+<tr><td>8</td><td>Yellow</td><td></td></tr>
+<tr><td>9</td><td>Other</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020103  Stage of development of locusts</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hoppers (nymphs, larvae), stage 1</td><td></td></tr>
+<tr><td>1</td><td>Hoppers (nymphs, larvae), stage 2 or mixed 1, 2 instars (stages)</td><td></td></tr>
+<tr><td>2</td><td>Hoppers (nymphs, larvae), stage 3 or mixed 2, 3 instars</td><td></td></tr>
+<tr><td>3</td><td>Hoppers (nymphs, larvae), stage 4 or mixed 3, 4 instars</td><td></td></tr>
+<tr><td>4</td><td>Hoppers (nymphs, larvae), stage 5 or mixed 4, 5 instars</td><td></td></tr>
+<tr><td>5</td><td>Hoppers (nymphs, larvae), stage mixed, all or many instars</td><td></td></tr>
+<tr><td>6</td><td>Fledglings (wings too soft for sustained flight)</td><td></td></tr>
+<tr><td>7</td><td>Immature adults</td><td></td></tr>
+<tr><td>8</td><td>Mixed maturity adults</td><td></td></tr>
+<tr><td>9</td><td>Mature adults</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020104  Organization state of swarm or band of locusts</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hoppers only, mainly in bands or clusters</td><td></td></tr>
+<tr><td>1</td><td>Winged adults in the vicinity more than 10 kilometres from point of observation</td><td></td></tr>
+<tr><td>2</td><td>Locusts in flight, a few seen at the station</td><td></td></tr>
+<tr><td>3</td><td>Locusts at the station, most of them on the ground</td><td></td></tr>
+<tr><td>4</td><td>Locusts, some on ground and others in flight at a height less than 10 metres</td><td></td></tr>
+<tr><td>5</td><td>Locusts, some on ground and others in flight at a height greater than 10 metres</td><td></td></tr>
+<tr><td>6</td><td>Locusts, most in flight at a height less than 10 metres</td><td></td></tr>
+<tr><td>7</td><td>Locusts, most in flight at a height greater than 10 metres</td><td></td></tr>
+<tr><td>8</td><td>Locusts, all over inflicting severe damage to vegetation, no extermination operation</td><td></td></tr>
+<tr><td>9</td><td>Locusts, all over inflicting severe damage to vegetation, extermination operation in progress</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020105  Size of swarm or band of locusts and duration of passage of swarm</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>When 0 20 104 (organization state of swarm or band of locusts) = 0</td><td></td></tr>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Area covered by isolated bands &lt; 10 m2</td><td></td></tr>
+<tr><td>2</td><td>Area covered by isolated bands 10 - 100 m2</td><td></td></tr>
+<tr><td>3</td><td>Area covered by isolated bands 100 - 1000 m2</td><td></td></tr>
+<tr><td>4</td><td>Area covered by isolated bands 1 000 - 10000 m2</td><td></td></tr>
+<tr><td>5</td><td>Area covered by isolated bands 1 - 10 ha</td><td></td></tr>
+<tr><td>6</td><td>Area covered by isolated bands &gt; 10 ha</td><td></td></tr>
+<tr><td>7</td><td>Area covered by dispersed bands &lt; 100 km2</td><td></td></tr>
+<tr><td>8</td><td>Area covered by dispersed bands 100 - 1000 km2</td><td></td></tr>
+<tr><td>9</td><td>Area covered by dispersed bands &gt; 1000 km2</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+<tr><td></td><td>When 0 20 104 (organization state of swarm or band of locusts) = 1 to 9</td><td></td></tr>
+<tr><td>0</td><td>Small swarm less than 1 km2 or adults in ground, tens or hundreds of individuals visible simultaneously, duration of passage less than 1 hour ago</td><td></td></tr>
+<tr><td>1</td><td>Small swarm less than 1 km2 or adults in ground, tens or hundreds of individuals visible simultaneously, duration of passage 1 to 6 hours ago</td><td></td></tr>
+<tr><td>2</td><td>Small swarm less than 1 km2 or adults in ground, tens or hundreds of individuals visible simultaneously, duration of passage over 6 hours ago</td><td></td></tr>
+<tr><td>3</td><td>Medium swarm or scattered adults, several visible simultaneously, duration of passage less than 1 hour ago</td><td></td></tr>
+<tr><td>4</td><td>Medium swarm or scattered adults, several visible simultaneously, duration of passage 1 to 6 hours ago</td><td></td></tr>
+<tr><td>5</td><td>Medium swarm or scattered adults, several visible simultaneously, duration of passage over 6 hours ago</td><td></td></tr>
+<tr><td>6</td><td>Large swarm or isolated adults, seen singly, duration of passage less than 1 hour ago</td><td></td></tr>
+<tr><td>7</td><td>Large swarm or isolated adults, seen singly, duration of passage 1 to 6 hours ago</td><td></td></tr>
+<tr><td>8</td><td>Large swarm or isolated adults, seen singly, duration of passage over 6 hours ago</td><td></td></tr>
+<tr><td>9</td><td>More than one swarm of locusts</td><td></td></tr>
+<tr><td>10</td><td>Size of swarm and/or duration of passage not determined owing to darkness or similar phenomena</td><td></td></tr>
+<tr><td>11-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020106  Locust population density</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Thin density swarm (swarm visible only when near enough for individual locusts to be discerned)</td><td></td></tr>
+<tr><td>2</td><td>Medium density swarm</td><td></td></tr>
+<tr><td>3</td><td>Dense swarm (obscuring nearby features, e.g. trees)</td><td></td></tr>
+<tr><td>4</td><td>Isolated hoppers seen singly</td><td></td></tr>
+<tr><td>5</td><td>Scattered hoppers, several visible simultaneously</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020107  Direction of movements of locust swarm</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Generally in the direction NE</td><td></td></tr>
+<tr><td>2</td><td>Generally in the direction E</td><td></td></tr>
+<tr><td>3</td><td>Generally in the direction SE</td><td></td></tr>
+<tr><td>4</td><td>Generally in the direction S</td><td></td></tr>
+<tr><td>5</td><td>Generally in the direction SW</td><td></td></tr>
+<tr><td>6</td><td>Generally in the direction W</td><td></td></tr>
+<tr><td>7</td><td>Generally in the direction NW</td><td></td></tr>
+<tr><td>8</td><td>Generally in the direction N</td><td></td></tr>
+<tr><td>9</td><td>Specific direction indeterminable</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020108  Extent of vegetation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bare ground</td><td></td></tr>
+<tr><td>1</td><td>Dry, presence of few and isolated shrubs</td><td></td></tr>
+<tr><td>2</td><td>Sparse vegetation (sprouting)</td><td></td></tr>
+<tr><td>3</td><td>Dense vegetation (sprouting)</td><td></td></tr>
+<tr><td>4</td><td>Sparse vegetation (growing)</td><td></td></tr>
+<tr><td>5</td><td>Dense vegetation (growing)</td><td></td></tr>
+<tr><td>6</td><td>Sparse vegetation in flower</td><td></td></tr>
+<tr><td>7</td><td>Dense vegetation in flower</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020119  Lightning discharge polarity</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Not defined</td><td></td></tr>
+<tr><td>1</td><td>Positive</td><td></td></tr>
+<tr><td>2</td><td>Negative</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020124  Lightning stroke or flash</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Not defined</td><td></td></tr>
+<tr><td>1</td><td>Lightning stroke</td><td></td></tr>
+<tr><td>2</td><td>Lightning flash, by manual observation, or if equipment insensitive to stroke resolution</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020136  Supplementary cloud type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>0-7   Nature of clouds of vertical development (Ca - Code table 0531)</td><td></td></tr>
+<tr><td>0</td><td>Isolated cumulus humilis and/or cumulus mediocris of vertical development</td><td></td></tr>
+<tr><td>1</td><td>Numerous cumulus humilis and/or cumulus mediocris of vertical development</td><td></td></tr>
+<tr><td>2</td><td>Isolated cumulus congestus of vertical development</td><td></td></tr>
+<tr><td>3</td><td>Numerous cumulus congestus of vertical development</td><td></td></tr>
+<tr><td>4</td><td>Isolated cumulonimbus of vertical development</td><td></td></tr>
+<tr><td>5</td><td>Numerous cumulonimbus of vertical development</td><td></td></tr>
+<tr><td>6</td><td>Isolated cumulus and cumulonimbus of vertical development</td><td></td></tr>
+<tr><td>7</td><td>Numerous cumulus and cumulonimbus of vertical development</td><td></td></tr>
+<tr><td>8-9</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>10-19   Orographic clouds (C0 - Code table 0561)</td><td></td></tr>
+<tr><td>10</td><td>Reserved</td><td></td></tr>
+<tr><td>11</td><td>Isolated orographic clouds, pileus, incus, forming</td><td></td></tr>
+<tr><td>12</td><td>Isolated orographic clouds, pileus, incus, not changing</td><td></td></tr>
+<tr><td>13</td><td>Isolated orographic clouds, pileus, incus, dissolving</td><td></td></tr>
+<tr><td>14</td><td>Irregular banks of orographic cloud, foehn bank, etc., forming</td><td></td></tr>
+<tr><td>15</td><td>Irregular banks of orographic cloud, foehn bank, etc., not changing</td><td></td></tr>
+<tr><td>16</td><td>Irregular banks of orographic cloud, foehn bank, etc., dissolving</td><td></td></tr>
+<tr><td>17</td><td>Compact layer of orographic cloud, foehn bank, etc., forming</td><td></td></tr>
+<tr><td>18</td><td>Compact layer of orographic cloud, foehn bank, etc., not changing</td><td></td></tr>
+<tr><td>19</td><td>Compact layer of orographic cloud, foehn bank, etc., dissolving</td><td></td></tr>
+<tr><td></td><td>20-29   Cloud conditions over mountains and passes (Nm - Code table 2745)</td><td></td></tr>
+<tr><td>20</td><td>All mountains open, only small amounts of cloud present</td><td></td></tr>
+<tr><td>21</td><td>Mountains partly covered with detached clouds (not more than half the peaks can be seen)</td><td></td></tr>
+<tr><td>22</td><td>All mountain slopes covered, peaks and passes free</td><td></td></tr>
+<tr><td>23</td><td>Mountains open on observer’s side (only small amounts of cloud present), but a continuous wall of cloud on the other side</td><td></td></tr>
+<tr><td>24</td><td>Clouds low above the mountains, but all slopes and mountains open (only small amounts of cloud on the slopes)</td><td></td></tr>
+<tr><td>25</td><td>Clouds low above the mountains, peaks partly covered by precipitation trails or clouds</td><td></td></tr>
+<tr><td>26</td><td>All peaks covered but passes open, slopes either open or covered</td><td></td></tr>
+<tr><td>27</td><td>Mountains generally covered but some peaks free, slopes wholly or partially covered</td><td></td></tr>
+<tr><td>28</td><td>All peaks, passes and slopes covered</td><td></td></tr>
+<tr><td>29</td><td>Mountains cannot be seen owing to darkness, fog, snowstorm, precipitation, etc.</td><td></td></tr>
+<tr><td>30-34</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>35-39   Condensation trails (Nt - Code table 2752)</td><td></td></tr>
+<tr><td>35</td><td>Non-persistent condensation trails</td><td></td></tr>
+<tr><td>36</td><td>Persistent condensation trails covering less than 1/8 of the sky</td><td></td></tr>
+<tr><td>37</td><td>Persistent condensation trails covering 1/8 of the sky</td><td></td></tr>
+<tr><td>38</td><td>Persistent condensation trails covering 2/8 of the sky</td><td></td></tr>
+<tr><td>39</td><td>Persistent condensation trails covering 3/8 or more of the sky</td><td></td></tr>
+<tr><td></td><td>40-49   Cloud conditions observed from a higher level (Nv - Code table 2754)</td><td></td></tr>
+<tr><td>40</td><td>No cloud or mist observed from a higher level</td><td></td></tr>
+<tr><td>41</td><td>Mist, clear above observed from a higher level</td><td></td></tr>
+<tr><td>42</td><td>Fog patches observed from a higher level</td><td></td></tr>
+<tr><td>43</td><td>Layer of slight fog observed from a higher level</td><td></td></tr>
+<tr><td>44</td><td>Layer of thick fog observed from a higher level</td><td></td></tr>
+<tr><td>45</td><td>Some isolated clouds observed from a higher level</td><td></td></tr>
+<tr><td>46</td><td>Isolated clouds and fog below observed from a higher level</td><td></td></tr>
+<tr><td>47</td><td>Many isolated clouds observed from a higher level</td><td></td></tr>
+<tr><td>48</td><td>Sea of clouds observed from a higher level</td><td></td></tr>
+<tr><td>49</td><td>Bad visibility obscuring the downward view observed from a higher level</td><td></td></tr>
+<tr><td>50-510</td><td>Reserved</td><td></td></tr>
+<tr><td>511</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020137  Evolution of clouds</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No change</td><td></td></tr>
+<tr><td>1</td><td>Cumulification</td><td></td></tr>
+<tr><td>2</td><td>Slow elevation</td><td></td></tr>
+<tr><td>3</td><td>Rapid elevation</td><td></td></tr>
+<tr><td>4</td><td>Elevation and stratification</td><td></td></tr>
+<tr><td>5</td><td>Slow lowering</td><td></td></tr>
+<tr><td>6</td><td>Rapid lowering</td><td></td></tr>
+<tr><td>7</td><td>Stratification</td><td></td></tr>
+<tr><td>8</td><td>Stratification and lowering</td><td></td></tr>
+<tr><td>9</td><td>Rapid change</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020138  Road surface condition</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td> Dry</td><td></td></tr>
+<tr><td>1</td><td> Moist</td><td></td></tr>
+<tr><td>2</td><td> Wet</td><td></td></tr>
+<tr><td>3</td><td> Rime</td><td></td></tr>
+<tr><td>4</td><td> Snow</td><td></td></tr>
+<tr><td>5</td><td> Ice</td><td></td></tr>
+<tr><td>6</td><td> Glaze</td><td></td></tr>
+<tr><td>7</td><td> Not dry</td><td></td></tr>
+<tr><td>8-14</td><td> Reserved</td><td></td></tr>
+<tr><td>15</td><td> Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020139  Final cloud model assumption</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Clear</td><td></td></tr>
+<tr><td>1</td><td>Single layer water</td><td></td></tr>
+<tr><td>2</td><td>Single layer ice</td><td></td></tr>
+<tr><td>3</td><td>2-layers (water/ice)</td><td></td></tr>
+<tr><td>4</td><td>Single layer ash</td><td></td></tr>
+<tr><td>5</td><td>2-layers ash</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">020143  Liquid cloud</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No liquid cloud</td><td></td></tr>
+<tr><td>1</td><td>Liquid cloud present</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

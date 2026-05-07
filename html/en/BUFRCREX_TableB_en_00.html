@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 00: BUFR/CREX table entries</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 00: BUFR/CREX table entries</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>000001</td><td>Table A: entry</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>000002</td><td>Table A: data category description, line 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Character</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>000003</td><td>Table A: data category description, line 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Character</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>000004</td><td>BUFR/CREX Master table</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Character</td><td>0</td><td>2</td><td>Note 98: Master tables are described in Note 2 to Section 1 of the BUFR regulations (part of the regulation entitled &quot;Specifications of octet contents&quot;).</td></tr>
+<tr><td>000005</td><td>BUFR/CREX edition number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>000006</td><td>BUFR Master table version number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Character</td><td>0</td><td>2</td><td>Note 33: It is better to use different Class 00 descriptors for the defining and defined elements, in the same way as different descriptors correspond to pressure considered as a coordinate and pressure measured at a given point; otherwise special rules would be needed to interpret such message. Entries 0 00 010 to 0 00 012 define F, X and Y for Tables B and D; entry 0 00 030 is a descriptor used as data and provides the F, X and Y values defining a sequence for Table D entries.</td></tr>
+<tr><td>000007</td><td>CREX Master table version number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Character</td><td>0</td><td>2</td><td>Note 40: Non-surface levels on the model’s native vertical coordinate are transposed to pressure coordinate. This makes the levels more readily intelligible for human interpretation and easier to use by generic display applications. The levels may correspond exactly to native model levels, or be interpolated between model levels to pressure levels chosen by the generating centre.</td></tr>
+<tr><td>000008</td><td>BUFR Local table version number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Character</td><td>0</td><td>2</td><td>Note 76: Within 3 07 045, 3 07 048 and 3 07 053, wind speed shall be reported in the same units as in the original TAC data and: 0 11 083 shall be set to missing, if wind speed is reported in knots or m s-1 in TAC data, 0 11 084 shall be set to missing, if wind speed is reported in km h-1 or m s-1 in TAC data.</td></tr>
+<tr><td>000010</td><td>F descriptor to be added or defined</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Character</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>000011</td><td>X descriptor to be added or defined</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Character</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>000012</td><td>Y descriptor to be added or defined</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>000013</td><td>Element name, line 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Character</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>000014</td><td>Element name, line 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Character</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>000015</td><td>Units name</td><td>CCITT IA5</td><td>0</td><td>0</td><td>192</td><td>Character</td><td>0</td><td>24</td><td></td></tr>
+<tr><td>000016</td><td>Units scale sign</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Character</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>000017</td><td>Units scale</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>000018</td><td>Units reference sign</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Character</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>000019</td><td>Units reference value</td><td>CCITT IA5</td><td>0</td><td>0</td><td>80</td><td>Character</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>000020</td><td>Element data width</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>000024</td><td>Code figure</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Character</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>000025</td><td>Code figure meaning</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Character</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>000026</td><td>Bit number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Character</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>000027</td><td>Bit number meaning</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Character</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>000030</td><td>Descriptor defining sequence</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Character</td><td>0</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

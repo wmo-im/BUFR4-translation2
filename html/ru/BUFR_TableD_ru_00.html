@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Категория 00: Последовательности позиций таблицы кода BUFR</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Категория 00: Последовательности позиций таблицы кода BUFR</h1>
+<table>
+<thead><tr><th>FXY1</th><th>НАЗВАНИЕ</th><th>ПОДЗАГОЛОВОК</th><th>FXY2</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ОПИСАНИЕ ЭЛЕМЕНТА</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr class="seq-header"><td>3 00 002</td><td></td><td></td><td>0 00 002</td><td>Таблица А: описание категории данных, строка 1</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 003</td><td>Таблица А: описание категории данных, строка 2</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 003</td><td>(Добавить или определить дескриптор F, X, Y)</td><td></td><td>0 00 010</td><td>Добавить или определить дескриптор F</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 011</td><td>Добавить или определить дескриптор X</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 012</td><td>Добавить или определить дескриптор Y</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 004</td><td></td><td></td><td>3 00 003</td><td>Добавить или определить дескриптор F, X, Y</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 013</td><td>Название элемента, строка 1</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 014</td><td>Название элемента, строка 2</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 015</td><td>Название единиц</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 016</td><td>Знак масштаба единиц</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 017</td><td>Масштаб единиц</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 018</td><td>Знак начала отсчета</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 019</td><td>Величина начала отсчета единиц</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 020</td><td>Длина данных элемента</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 010</td><td></td><td></td><td>3 00 003</td><td>Добавить или определить дескриптор F, X, Y</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Повторение с задержкой 1 дескриптора</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Коэффициент повторения дескриптора с задержкой</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 030</td><td>Последовательность определения дескриптора</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 015</td><td>(Определение кодовой таблицы)</td><td></td><td>0 00 030</td><td>Последовательность определения дескриптора</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 02 000</td><td>Повторение с задержкой 2 дескрипторов</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 002</td><td>Коэффициент повторения расширенного дескриптора с задержкой</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 024</td><td>Кодовая цифра</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 025</td><td>Значение кодовой цифры</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 016</td><td>(Определение таблицы флагов)</td><td></td><td>0 00 030</td><td>Последовательность определения дескриптора</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 02 000</td><td>Повторение с задержкой 2 дескрипторов</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Коэффициент повторения дескриптора с задержкой</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 026</td><td>Номер бита</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 027</td><td>Значение номера бита</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

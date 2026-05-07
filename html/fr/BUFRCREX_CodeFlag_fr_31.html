@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 31</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 31</h1>
+<p class="fxy-heading">031021  Signification du champ associé</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>1</td><td>Indicateur de qualité de 1 bit</td><td>0 = bon,1 = douteux ou mauvais</td><td></td></tr>
+<tr><td>2</td><td>Indicateur de qualité de 2 bits</td><td>0 = bon, 1 = légèrement douteux, 2 = très douteaux, 3 = mauvais</td><td></td></tr>
+<tr><td>3-5</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>6</td><td>Indicateur à 4 bits de classe de contrôle de qualité selon le GTSPP</td><td>0 = non qualifié, 1 = valeur correcte (tous les contrôles passés), 2 = probablement bon mais valeur ne correspondant pas aux statistiques (différent de la climatologie), 3 = probablement mauvais (variation, gradient, ... si d&#x27;autres tests ont été acceptés), 4 = mauvaise valeur, valeur impossible (en dehors de l&#x27;échelle, instabilité verticale, profil constant), 5 = valeur modifiée pendant le contrôle de qualité, 6-7 = non utilisé (en réserve), 8 = valeur interpolée, 9 = valeur manquante</td><td></td></tr>
+<tr><td>7</td><td>Degré de confiance (pourcentage)</td><td></td><td></td></tr>
+<tr><td>8</td><td>0 = Valeur non suspecte</td><td>1 = Valeur suspecte,2 = En réserve, 3 = Information non requise</td><td></td></tr>
+<tr><td>9</td><td>Situation des données auxiliaires</td><td>0 = données présentes, valables et colocalisées, 1 = données disponibles mais de mauvaise qualité et inutilisées, 2 = aucune donnée colocalisée sur le plan spatio-temporel disponible, 3-14 = non utilisé (en réserve), 15 = valeur manquante</td><td></td></tr>
+<tr><td>10-20</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>21</td><td>Indicateur de correction de 1 bit</td><td>0 = valeur originale, 1 = valeur substituée/corrigée</td><td>Note 74: Le chiffre du code 21 peut etre utilise dans des messages corriges ou les valeurs substituees/corrigees sont determinees.</td></tr>
+<tr><td>22-62</td><td>Réservés pour les besoins locaux</td><td></td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

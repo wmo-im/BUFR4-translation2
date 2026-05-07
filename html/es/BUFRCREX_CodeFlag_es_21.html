@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 21</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 21</h1>
+<p class="fxy-heading">021066  Datos sobre el grado de confianza del producto del dispersómetro de onda</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>El equipo de proceso no funciona</td><td></td></tr>
+<tr><td>2</td><td>Falla en el equipo</td><td></td></tr>
+<tr><td>3</td><td>La clave de PRF cambió durante la generación de la imagen</td><td></td></tr>
+<tr><td>4</td><td>La ventana de muestreo cambió durante la generación de la imagen</td><td></td></tr>
+<tr><td>5</td><td>La ganancia cambió durante la generación de la imagen</td><td></td></tr>
+<tr><td>6</td><td>La réplica de los impulsos modulados en frecuencia (“chirp”) excede el valor especificado</td><td></td></tr>
+<tr><td>7</td><td>La desviación media y la desviación típica de los datos de entrada en fase y en cuadratura caen fuera de la gama de valores</td><td></td></tr>
+<tr><td>8</td><td>Grado de confianza del punto medio Doppler &gt; valor MMCC</td><td></td></tr>
+<tr><td>9</td><td>Valor absoluto del punto medio Doppler &gt; PRF/2</td><td></td></tr>
+<tr><td>10</td><td>Grado de confianza de la ambigüedad Doppler &lt; valor MMCC</td><td></td></tr>
+<tr><td>11</td><td>La desviación media y la desviación típica de los datos de salida ≤ valor MMCC</td><td></td></tr>
+<tr><td>Los 12</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021067  Datos sobre el grado de confianza del producto de la medición del viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ningún cálculo del haz anterior</td><td></td></tr>
+<tr><td>2</td><td>Ningún cálculo del haz medio</td><td></td></tr>
+<tr><td>3</td><td>Ningún cálculo del haz posterior</td><td></td></tr>
+<tr><td>4</td><td>Arqueo detectado del haz anterior</td><td></td></tr>
+<tr><td>5</td><td>Arqueo detectado del haz medio</td><td></td></tr>
+<tr><td>6</td><td>Arqueo detectado del haz posterior</td><td></td></tr>
+<tr><td>7</td><td>Todo contenido de ruido del haz superior o igual al umbral</td><td></td></tr>
+<tr><td>8</td><td>Tierra (toda porción de tierra en la casilla de la proyección del haz)</td><td></td></tr>
+<tr><td>9</td><td>Supresor de ambigüedad autónoma no utilizado</td><td></td></tr>
+<tr><td>10</td><td>Antecedentes meteorológicos no utilizados</td><td></td></tr>
+<tr><td>11</td><td>Umbral residual mínimo excedido</td><td></td></tr>
+<tr><td>12</td><td>Detectado error de suma de comprobación de cuadro</td><td></td></tr>
+<tr><td>Los 13</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021068  Datos sobre el grado de confianza del producto del altímetro del radar</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Desviación típica de la velocidad del viento fuera del límite de MMCC</td><td></td></tr>
+<tr><td>2</td><td>Desviación típica de la altura de las olas significativas fuera del límite de MMCC</td><td></td></tr>
+<tr><td>3</td><td>Desviación típica de la altitud fuera del límite de MMCC</td><td></td></tr>
+<tr><td>4</td><td>Máximas (valores medios) fuera del límite de MMCC</td><td></td></tr>
+<tr><td>5</td><td>Detectado error de suma de comprobación de cuadro</td><td></td></tr>
+<tr><td>6</td><td>Corrección de la constante de tiempo de la curva altura-tiempo no aplicada</td><td></td></tr>
+<tr><td>7</td><td>Mediciones insuficientes (N &lt; 10)</td><td></td></tr>
+<tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021069  Datos sobre el grado de confianza del producto de la medición de la temperatura de la superficie del mar (SST)</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Canal de 12,0 µm presente en los datos de la fuente</td><td></td></tr>
+<tr><td>2</td><td>Canal de 11,0 µm presente en los datos de la fuente</td><td></td></tr>
+<tr><td>3</td><td>Canal de 3,7 µm presente en los datos de la fuente</td><td></td></tr>
+<tr><td>4</td><td>Canal de 1,6 µm presente en los datos de la fuente</td><td></td></tr>
+<tr><td>5</td><td>Identificación de nubes utilizando prueba de nubes con histograma de factor de reflexión de 1,6 µm</td><td></td></tr>
+<tr><td>6</td><td>Umbral dinámico utilizando prueba de nubes con histograma de factor de reflexión de 1,6 µm</td><td></td></tr>
+<tr><td>7</td><td>Destello solar detectado por prueba de nubes con histograma de reflexión de 1,6 µm</td><td></td></tr>
+<tr><td>8</td><td>Canal de 3,7 µm utilizado en la recuperación de la temperatura de la superficie del mar</td><td></td></tr>
+<tr><td>9</td><td>Cálculo de la temperatura de la superficie del mar a partir de datos diurnos (si cero, entonces se emplean datos nocturnos)</td><td></td></tr>
+<tr><td>Los 10</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021070  Datos sobre el grado de confianza del producto de la temperatura de la superficie del mar (SADIST-2)</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td></td><td>1-9 Recuperación de datos de la temperatura de la superficie del mar, visión del nadir únicamente, en el canal de 3,7 micrones (un bit por célula de 10 minutos de arco)</td><td></td></tr>
+<tr><td>1</td><td>Célula 1: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>2</td><td>Célula 2: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>3</td><td>Célula 3: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>4</td><td>Célula 4: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>5</td><td>Célula 5: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>6</td><td>Célula 6: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>7</td><td>Célula 7: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>8</td><td>Célula 8: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td>9</td><td>Célula 9: temperatura de la superficie del mar en el canal de 3,7 micrones, visión del nadir únicamente</td><td></td></tr>
+<tr><td></td><td>10-18 Recuperación de datos de la temperatura de la superficie del mar, visión doble, en el canal de 3,7 micrones (un bit por célula de 10 minutos de arco)</td><td></td></tr>
+<tr><td>10</td><td>Célula 1: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>11</td><td>Célula 2: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>12</td><td>Célula 3: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>13</td><td>Célula 4: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>14</td><td>Célula 5: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>15</td><td>Célula 6: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>16</td><td>Célula 7: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>17</td><td>Célula 8: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>18</td><td>Célula 9: temperatura de la superficie del mar en el canal de 3,7 micrones, visión doble</td><td></td></tr>
+<tr><td>19</td><td>La visión del nadir contiene datos diurnos (nocturnos si cero)</td><td></td></tr>
+<tr><td>20</td><td>La visión hacia adelante contiene datos diurnos (nocturnos si cero)</td><td></td></tr>
+<tr><td>21</td><td>Los registros contienen contribuciones de escáner recopiladas cuando la plataforma ERS no está en modo de control de guiñada</td><td></td></tr>
+<tr><td>22</td><td>Los registros contienen contribuciones de escáner si el grado de confianza del producto muestra que la calidad es baja o desconocida</td><td></td></tr>
+<tr><td>Los 23</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021072  Estado de la calibración del altímetro del satélite</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Aplicada corrección de error de la altura en vez de calibración en bucle abierto</td><td></td></tr>
+<tr><td>2</td><td>Utilizado sondeador de microondas para la corrección de la troposfera</td><td></td></tr>
+<tr><td>3</td><td>Aplicada corrección de la salida del CAG en vez de calibración en bucle abierto</td><td></td></tr>
+<tr><td>Los 4</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021073  Modo del instrumento del altímetro del satélite</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Registro de datos de relleno</td><td></td></tr>
+<tr><td>2</td><td>Prueba</td><td></td></tr>
+<tr><td>3</td><td>Calibración (bucle cerrado)</td><td></td></tr>
+<tr><td>4</td><td>BITE (equipo de prueba incorporado)</td><td></td></tr>
+<tr><td>5</td><td>Recolección de datos en el hielo</td><td></td></tr>
+<tr><td>6</td><td>Recolección de datos en el océano</td><td></td></tr>
+<tr><td>7</td><td>Búsqueda de datos en el hielo</td><td></td></tr>
+<tr><td>8</td><td>Búsqueda de datos en el océano</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021076  Representación de intensidades</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Lineal</td><td></td></tr>
+<tr><td>1</td><td>Logarítmica (base e)</td><td></td></tr>
+<tr><td>2</td><td>Logarítmica (base 10)</td><td></td></tr>
+<tr><td>3-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021109  Calidad de la célula del vector viento medida por SeaWinds</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Número insuficiente de sigma-0 de buena calidad para el cálculo del viento</td><td></td></tr>
+<tr><td>2</td><td>Diversidad de los azimut entre los sigma-0 insuficiente para el cálculo del viento</td><td></td></tr>
+<tr><td>3-7</td><td>Reservados</td><td></td></tr>
+<tr><td>8</td><td>Parte de la célula del vector viento situada sobre tierra</td><td></td></tr>
+<tr><td>9</td><td>Parte de la célula del vector viento situada sobre hielo</td><td></td></tr>
+<tr><td>10</td><td>No se realizó el cálculo del viento para la célula del vector viento</td><td></td></tr>
+<tr><td>11</td><td>La velocidad notificada del viento es superior a 30 m s-1</td><td></td></tr>
+<tr><td>12</td><td>La velocidad notificada del viento es inferior, o igual, a 3 m s¯¹</td><td></td></tr>
+<tr><td>13-16</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 17</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021115  Calidad de sigma-0 determinada por SeaWinds</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>La medición de sigma-0 no es utilizable</td><td></td></tr>
+<tr><td>2</td><td>La relación señal-ruido es baja</td><td></td></tr>
+<tr><td>3</td><td>Sigma-0 es negativo</td><td></td></tr>
+<tr><td>4</td><td>Sigma-0 fuera de límites aceptables</td><td></td></tr>
+<tr><td>5</td><td>Calidad inaceptable de impulsos del dispersómetro</td><td></td></tr>
+<tr><td>6</td><td>El algoritmo de ubicación de la célula correspondiente a sigma-0 no converge</td><td></td></tr>
+<tr><td>7</td><td>El desplazamiento de frecuencia excede los límites de la tabla del factor x</td><td></td></tr>
+<tr><td>8</td><td>La temperatura del satélite excede los límites del coeficiente de calibración</td><td></td></tr>
+<tr><td>9</td><td>No se encuentran registros de altitud aplicables a este sigma-0</td><td></td></tr>
+<tr><td>10</td><td>Los datos de efemérides interpolados no son aceptables para este sigma-0</td><td></td></tr>
+<tr><td>11-16</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 17</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021116  Modo de sigma-0 determinado por SeaWinds</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Banderín de impulso de calibración/medición (1)</td><td></td></tr>
+<tr><td>2</td><td>Banderín de impulso de calibración/medición (2)</td><td></td></tr>
+<tr><td>3</td><td>Haz exterior de la antena</td><td></td></tr>
+<tr><td>4</td><td>Célula sigma-0 situada detrás del satélite</td><td></td></tr>
+<tr><td>5</td><td>Modo corriente (1)</td><td></td></tr>
+<tr><td>6</td><td>Modo corriente (2)</td><td></td></tr>
+<tr><td>7</td><td>Anchura efectiva de la compuerta – resolución de la porción (1)</td><td></td></tr>
+<tr><td>8</td><td>Anchura efectiva de la compuerta – resolución de la porción (2)</td><td></td></tr>
+<tr><td>9</td><td>Anchura efectiva de la compuerta – resolución de la porción (3)</td><td></td></tr>
+<tr><td>10</td><td>Modo de baja resolución – totalidad de los datos de los impulsos</td><td></td></tr>
+<tr><td>11</td><td>Subsistema electrónico B del dispersómetro</td><td></td></tr>
+<tr><td>12</td><td>Velocidad de rotación alternativa – 19,8 rpm</td><td></td></tr>
+<tr><td>13</td><td>Protección del receptor activada</td><td></td></tr>
+<tr><td>14</td><td>Porciones por banderín compuesto (1)</td><td></td></tr>
+<tr><td>15</td><td>Porciones por banderín compuesto (2)</td><td></td></tr>
+<tr><td>16</td><td>Porciones por banderín compuesto (3)</td><td></td></tr>
+<tr><td>Los 17</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021119  Función geofísica modélica del dispersómetro de viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reservada</td><td></td></tr>
+<tr><td>1</td><td>SASS</td><td></td></tr>
+<tr><td>2</td><td>SASS2</td><td></td></tr>
+<tr><td>3</td><td>NSCATO</td><td></td></tr>
+<tr><td>4</td><td>NSCAT1</td><td></td></tr>
+<tr><td>5</td><td>NSCAT2</td><td></td></tr>
+<tr><td>6</td><td>QSCATO</td><td></td></tr>
+<tr><td>7</td><td>QSCAT1</td><td></td></tr>
+<tr><td>8-30</td><td>Reservadas</td><td></td></tr>
+<tr><td>31</td><td>CMOD1</td><td></td></tr>
+<tr><td>32</td><td>CMOD2</td><td></td></tr>
+<tr><td>33</td><td>CMOD3</td><td></td></tr>
+<tr><td>34</td><td>CMOD4</td><td></td></tr>
+<tr><td>35</td><td>CMOD5</td><td></td></tr>
+<tr><td>36-62</td><td>Reservadas</td><td></td></tr>
+<tr><td>63</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021144  Banderín de lluvia de altímetro</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Lluvia</td><td></td></tr>
+<tr><td>Los 2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021148  Banderín de variación en borde posterior</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Variación a no corta escala</td><td></td></tr>
+<tr><td>2</td><td>Variación a corta escala</td><td></td></tr>
+<tr><td>3-8</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021150  Coubicación de haces</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Datos procedentes de una sola estación terrena (no hay coubicación)</td><td></td></tr>
+<tr><td>1</td><td>Datos procedentes de múltiples estaciones terrenas (datos coubicados)</td><td></td></tr>
+<tr><td>2</td><td>Reservado</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021155  Calidad de la célula del vector viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No se dispone de datos Sigma-0 bastante buenos para la recuperación de datos del viento</td><td></td></tr>
+<tr><td>2</td><td>Diversidad azimutal deficiente entre Sigma-0 para la recuperación de datos del viento</td><td></td></tr>
+<tr><td>3</td><td>Algún ruido del haz que sobrepasa el umbral</td><td></td></tr>
+<tr><td>4</td><td>No se ha practicado control del producto</td><td></td></tr>
+<tr><td>5</td><td>Banderín de control del producto</td><td></td></tr>
+<tr><td>6</td><td>Fallo del control de calidad en el KNMI</td><td></td></tr>
+<tr><td>7</td><td>Fallo de control de calidad variacional</td><td></td></tr>
+<tr><td>8</td><td>Alguna parte de la célula del vector viento está sobre tierra firme</td><td></td></tr>
+<tr><td>9</td><td>Alguna parte de la célula del vector viento está sobre hielo</td><td></td></tr>
+<tr><td>10</td><td>No se ha ejecutado la recuperación de datos del viento para la célula del vector viento</td><td></td></tr>
+<tr><td>11</td><td>La velocidad del viento comunicada es mayor que 30 m/s</td><td></td></tr>
+<tr><td>12</td><td>La velocidad del viento comunicada es menor o igual que 3 m/s</td><td></td></tr>
+<tr><td>13</td><td>El banderín de lluvia para la célula del vector viento no es utilizable</td><td></td></tr>
+<tr><td>14</td><td>El algoritmo del banderín de lluvia detecta lluvia</td><td></td></tr>
+<tr><td>15</td><td>No se ha utilizado ningún fondo meteorológico</td><td></td></tr>
+<tr><td>16</td><td>Los datos son redundantes</td><td></td></tr>
+<tr><td>17-23</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021158  Calidad de estimación de la Kp de ASCAT</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aceptable</td><td></td></tr>
+<tr><td>1</td><td>No aceptable</td><td></td></tr>
+<tr><td>2</td><td>Reservado</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021159  Utilizabilidad de Sigma-0 ASCAT</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bueno</td><td></td></tr>
+<tr><td>1</td><td>Utilizable</td><td></td></tr>
+<tr><td>2</td><td>Malo</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">021169  Indicador de presencia de hielo</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sin presencia de hielo</td><td></td></tr>
+<tr><td>1</td><td>Con presencia de hielo</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

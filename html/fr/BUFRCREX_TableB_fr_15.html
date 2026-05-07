@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 15 : Constituants physiques/chimiques</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 15 : Constituants physiques/chimiques</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>015001</td><td>Ozone total</td><td>DU</td><td>0</td><td>0</td><td>10</td><td>DU</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>015002</td><td>Masse d&#x27;air (correspondant à une trajectoire oblique à une altitude de 22 km)</td><td>Numérique</td><td>2</td><td>0</td><td>10</td><td>Numérique</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>015003</td><td>Pression partielle de l&#x27;ozone mesuré (sondage)</td><td>Pa</td><td>4</td><td>0</td><td>9</td><td>nbar</td><td>0</td><td>3</td><td>Note 1: La locution &#x27;mauvais temps&#x27; se rapporte aux conditions qui existent generalement pendant les precipitations, et immediatement avant ou apres celles-ci.</td></tr>
+<tr><td>015004</td><td>Facteur de correction du sondage de l&#x27;ozone (CF)</td><td>Numérique</td><td>3</td><td>0</td><td>11</td><td>Numérique</td><td>3</td><td>4</td><td>Note 2: (voir Note 1) 1) Pour l’emploi du chiffre du code 15, voir la règle 12.1.4. 2) «Clair» et «couvert» portent les chiffres 0 et 8 respectivement.</td></tr>
+<tr><td>015005</td><td>Pression partielle de l&#x27;ozone</td><td>DU</td><td>0</td><td>0</td><td>10</td><td>DU</td><td>0</td><td>3</td><td>Note 3: L&#x27;expression &#x27;moyenne d&#x27;ensemble&#x27; indique que l&#x27;on prend la moyenne d&#x27;un certain nombre de valeurs distinctes correspondant a une serie de situations dans le temps.</td></tr>
+<tr><td>015006</td><td>Log10 de la concentration en nombre des particules de l&#x27;atmosphère</td><td>log(m-3)</td><td>5</td><td>1800000</td><td>20</td><td>log(m-3)</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>015008</td><td>Mantisse du rapport de mélange volumétrique</td><td>Numérique</td><td>0</td><td>0</td><td>10</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>015009</td><td>Log10 de la concentration en nombre de molécules d&#x27;ozone</td><td>log(m-3)</td><td>5</td><td>1200000</td><td>20</td><td>log(m-3)</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>015011</td><td>Log10 de la densité électronique intégrée</td><td>log (m-2)</td><td>3</td><td>14000</td><td>13</td><td>log (m-2)</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>015012</td><td>Nombre total d&#x27;électrons par mètre carré</td><td>m-2</td><td>-16</td><td>0</td><td>6</td><td>m-2</td><td>-16</td><td>2</td><td></td></tr>
+<tr><td>015015</td><td>Valeur maximale du spectre de l&#x27;image avant normalisation</td><td>Numérique</td><td>0</td><td>0</td><td>31</td><td>Numérique</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>015020</td><td>Densité d&#x27;ozone intégrée</td><td>kg m-2</td><td>8</td><td>0</td><td>21</td><td>kg m-2</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015021</td><td>Densité de masse intégrée</td><td>kg m-2</td><td>11</td><td>0</td><td>31</td><td>kg m-2</td><td>11</td><td>10</td><td></td></tr>
+<tr><td>015024</td><td>Épaisseur optique</td><td>Numérique</td><td>4</td><td>0</td><td>24</td><td>Numérique</td><td>4</td><td>8</td><td></td></tr>
+<tr><td>015025</td><td>Type de polluant</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>015026</td><td>Concentration du polluant (mol mol-1)</td><td>mol/mol</td><td>9</td><td>0</td><td>9</td><td>mol/mol</td><td>9</td><td>3</td><td></td></tr>
+<tr><td>015027</td><td>Concentration du polluant (kg m-3)</td><td>kg m-3</td><td>9</td><td>0</td><td>10</td><td>kg m-3</td><td>9</td><td>4</td><td></td></tr>
+<tr><td>015028</td><td>Fraction molaire du constituant/ polluant atmosphérique en air sec</td><td>‰</td><td>5</td><td>0</td><td>16</td><td>‰</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>015029</td><td>Coefficient d&#x27;atténuation</td><td>/m</td><td>9</td><td>0</td><td>30</td><td>/m</td><td>9</td><td>10</td><td></td></tr>
+<tr><td>015030</td><td>Indice de contamination par aérosols</td><td>Numérique</td><td>2</td><td>-1000</td><td>12</td><td>Numérique</td><td>2</td><td>4</td><td>Note 79: La derniere colonne de la table indique le numero d’enregistrement correspondant emis par le Chemical Abstracts Service (CAS) de l’American Chemical Society.</td></tr>
+<tr><td>015031</td><td>Retard de propagation dans l&#x27;atmosphère du signal du satellite</td><td>m</td><td>4</td><td>10000</td><td>15</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>015032</td><td>Erreur estimative du retard de propagation dans l&#x27;atmosphère</td><td>m</td><td>4</td><td>0</td><td>10</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>015033</td><td>Différence des retards de propagation pour des visées du limbe aux limites extrêmes du balayage</td><td>m</td><td>5</td><td>-10000</td><td>15</td><td>m</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>015034</td><td>Erreur estimative de la différence des retards de propagation</td><td>m</td><td>5</td><td>0</td><td>14</td><td>m</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>015035</td><td>Composante du retard de propagation pour une visée au zénith due à la vapeur d&#x27;eau</td><td>m</td><td>4</td><td>0</td><td>14</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>015036</td><td>Réfractivité atmosphérique</td><td>Unités N</td><td>3</td><td>0</td><td>19</td><td>Unités N</td><td>3</td><td>6</td><td>(voir Note 5)</td></tr>
+<tr><td>015037</td><td>Angle de courbure</td><td>rad</td><td>8</td><td>-100000</td><td>23</td><td>rad</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015041</td><td>Indice de dioxyde de soufre</td><td>Numérique</td><td>2</td><td>-1200</td><td>14</td><td>Numérique</td><td>2</td><td>4</td><td>Note 78: Les trois premiers chiffres representent le code ISO du pays.</td></tr>
+<tr><td>015042</td><td>Facteur de réflexion</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>015045</td><td>Dioxyde de soufre</td><td>DU</td><td>2</td><td>-2000</td><td>15</td><td>DU</td><td>2</td><td>5</td><td>Note 77: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a 3 km ou moins de la station.</td></tr>
+<tr><td>015046</td><td>Indice de contamination volcanique</td><td>Numérique</td><td>2</td><td>-1000</td><td>11</td><td>Numérique</td><td>2</td><td>4</td><td>Note 80: 1) Entre les chiffres du code 100–199, la présente table de code comprend des termes à plusieurs niveaux afin de servir aux stations simples et aux stations automatiques devenant de plus en plus complexes. 2) Les termes génériques se rapportant au temps (par exemple brouillard, bruine) sont destinés à être utilisés dans des stations automatiques pouvant déterminer les types de temps sans pouvoir fournir d&#x27;autres informations.  Les termes génériques figurent tous dans la table de code en lettres majuscules. 3) Les chiffres du code pour les catégories de précipitations (chiffres du code 140 à 148) sont disposés par ordre de complexité croissante.  Par exemple, une station très simple qui ne peut déceler que la présence ou l&#x27;absence de précipitations utilise le chiffre du code 140 (précipitations).  Au niveau suivant, une station automatique pouvant déceler le volume, mais pas le type, utilise le chiffre du code 141 ou 142.  Une station automatique qui peut déceler le type général (liquide, solide, se congelant) et le volume général utilise les chiffres du code 143 à 148.  Une station automatique qui peut signaler les types réels de précipitations (par exemple bruine ou pluie), mais non leur volume, utilise le nombre entier de la dizaine correspondante (par exemple 150 pour la catégorie bruine; 160 pour la catégorie pluie).</td></tr>
+<tr><td>015049</td><td>Exposant d&#x27;Ångström de l&#x27;aérosol</td><td>Numérique</td><td>3</td><td>-2000</td><td>14</td><td>Numérique</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>015051</td><td>Portée optique météorologique</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>015052</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre supérieur à 5 nm</td><td>log(m-3)</td><td>1</td><td>60</td><td>6</td><td>log(m-3)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>015053</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre supérieur à 14 nm</td><td>log(m-3)</td><td>2</td><td>600</td><td>9</td><td>log(m-3)</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>015054</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre compris entre 0.25 et 2.5 µm</td><td>log(m-3)</td><td>2</td><td>550</td><td>9</td><td>log(m-3)</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>015055</td><td>Proportion d&#x27;aérosols non volatils</td><td>Numérique</td><td>2</td><td>0</td><td>7</td><td>Numérique</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>015062</td><td>Épaisseur optique des aérosols</td><td>Numérique</td><td>3</td><td>-1000</td><td>14</td><td>Numérique</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>015063</td><td>Rétrodiffusion atténuée</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015064</td><td>Incertitude relative à la rétrodiffusion atténuée</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015065</td><td>Coefficient de rétrodiffusion des particules</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015066</td><td>Incertitude relative au coefficient de rétrodiffusion des particules</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015067</td><td>Coefficient d&#x27;atténuation des particules</td><td>m-1</td><td>8</td><td>0</td><td>20</td><td>m-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015068</td><td>Incertitude relative au coefficient d&#x27;atténuation des particules</td><td>m-1</td><td>8</td><td>0</td><td>20</td><td>m-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>015069</td><td>Rapport lidar des particules</td><td>sr</td><td>2</td><td>0</td><td>14</td><td>sr</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>015070</td><td>Incertitude relative au rapport lidar</td><td>sr</td><td>2</td><td>0</td><td>14</td><td>sr</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>015071</td><td>Rapport de dépolarisation des particules</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>015072</td><td>Incertitude relative au rapport de dépolarisation</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

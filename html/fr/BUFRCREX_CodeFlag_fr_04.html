@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 04</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 04</h1>
+<p class="fxy-heading">004059  Heures des observations servant à calculer les valeurs moyennes transmises</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>0000 UTC</td><td></td></tr>
+<tr><td>2</td><td>0600 UTC</td><td></td></tr>
+<tr><td>3</td><td>1200 UTC</td><td></td></tr>
+<tr><td>4</td><td>1800 UTC</td><td></td></tr>
+<tr><td>5</td><td>Autres heures</td><td></td></tr>
+<tr><td>6 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">004080  Période à laquelle correspond la valeur moyenne qui suit</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Valeur ponctuelle</td><td></td></tr>
+<tr><td>1</td><td>Moins de 15 minutes</td><td></td></tr>
+<tr><td>2</td><td>De 15 à 45 minutes</td><td></td></tr>
+<tr><td>3</td><td>Plus de 45 minutes</td><td></td></tr>
+<tr><td>4-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9</td><td>Données non disponibles</td><td></td></tr>
+<tr><td>10-14</td><td>Non utilisé</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

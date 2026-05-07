@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 10: Бескоординатное местоположение (вертикальное) в BUFR/CREX</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 10: Бескоординатное местоположение (вертикальное) в BUFR/CREX</h1>
+<table>
+<thead><tr><th>FXY</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ЕД. ИЗМ. BUFR</th><th>МАСШТАБ</th><th>НАЧ. ОТСЧ.</th><th>БИТЫ</th><th>ЕД. ИЗМ. CREX</th><th>МАСШТАБ</th><th>СИМВ.</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>010001</td><td>Высота поверхности суши</td><td>m</td><td>0</td><td>-400</td><td>15</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010002</td><td>Высота</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010003</td><td>Геопотенциал</td><td>m2 s-2</td><td>-1</td><td>-400</td><td>17</td><td>m2 s-2</td><td>-1</td><td>6</td><td></td></tr>
+<tr><td>010004</td><td>Давление</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010007</td><td>Высота</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>010008</td><td>Геопотенциал</td><td>m2 s-2</td><td>0</td><td>-10000</td><td>20</td><td>m2 s-2</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>010009</td><td>Геопотенциальная высота</td><td>gpm</td><td>0</td><td>-1000</td><td>17</td><td>gpm</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010010</td><td>Минимальное давление, приведенное к среднему уровню моря</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010011</td><td>Максимальное давление, приведенное к среднему уровню моря</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010031</td><td>В направлении Северного полюса, расстояние от центра Земли</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>10</td><td>Note 93: Расположенные слева оси x, y и z выбраны для дескриптора 0 10 031. | Note 150: Величина дескриптора 0 10 031 выбрана таким образом, чтобы соответствовать спутникам на полярной, приблизительно солнечно-синхронной орбите. Геостационарные орбиты потребуют более значительной длины данных в отношении расстояния и несколько меньшей — в отношении скорости.</td></tr>
+<tr><td>010032</td><td>Расстояние от спутника до центра Земли</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>010033</td><td>Высота (платформы над эллипсоидом)</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>010034</td><td>Радиус Земли</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>010035</td><td>Местный радиус кривизны Земли</td><td>m</td><td>1</td><td>62000000</td><td>22</td><td>m</td><td>1</td><td>8</td><td></td></tr>
+<tr><td>010036</td><td>Неровность геоида</td><td>m</td><td>2</td><td>-15000</td><td>15</td><td>m</td><td>2</td><td>6</td><td>Note 128: «Неровностью геоида» является разность между эталонным эллипсоидом (WGS-84) и высотой геоида (EGM96) в географической точке наблюдений, причем обе величины приведены к центру массы Земли.</td></tr>
+<tr><td>010038</td><td>Максимальная высота палубного груза над летней грузовой маркой</td><td>m</td><td>0</td><td>0</td><td>6</td><td>m</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>010039</td><td>Отклонение контрольного уровня (летняя максимальная грузовая марка) от фактического уровня моря</td><td>m</td><td>0</td><td>-32</td><td>6</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>010040</td><td>Число восстановленных слоев</td><td>Числовой</td><td>0</td><td>0</td><td>10</td><td>Числовой</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>010050</td><td>Стандартное отклонение высоты</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>010051</td><td>Давление, приведенное к среднему уровню моря</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010052</td><td>Установка высотомера (QNH)</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>010053</td><td>Высота глобальной навигационной спутниковой системы</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010060</td><td>Изменение давления</td><td>Pa</td><td>-1</td><td>-1024</td><td>11</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>010061</td><td>Изменение давления за 3 часа</td><td>Pa</td><td>-1</td><td>-500</td><td>10</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>010062</td><td>Изменение давления за 24 часа</td><td>Pa</td><td>-1</td><td>-1000</td><td>11</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>010063</td><td>Характеристика барической тенденции</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>010064</td><td>Крейсерский эшелон SIGMET</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>010070</td><td>Указанная высота воздушного судна</td><td>m</td><td>0</td><td>-400</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010071</td><td>Вертикальное разрешение</td><td>m</td><td>0</td><td>0</td><td>14</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010079</td><td>Отклонение спутника от надира по данным с платформы</td><td>deg</td><td>4</td><td>0</td><td>16</td><td>deg</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>010080</td><td>Зенитный угол визирования</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>010081</td><td>Высота центра тяжести (COG) над референс-эллипсоидом</td><td>m</td><td>3</td><td>0</td><td>31</td><td>m</td><td>3</td><td>10</td><td></td></tr>
+<tr><td>010082</td><td>Мгновенная скорость изменения высоты</td><td>m/s</td><td>3</td><td>-65536</td><td>17</td><td>m/s</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>010083</td><td>Квадрат угла отклонения спутника от надира по данным с платформы</td><td>deg2</td><td>2</td><td>0</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>010084</td><td>Квадрат угла отклонения спутника от надира по данным о форме волны</td><td>deg2</td><td>2</td><td>0</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>010085</td><td>Средняя высота поверхности моря</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>010086</td><td>Высота геоида</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>010087</td><td>Глубина океана/высота суши над уровнем моря</td><td>m</td><td>1</td><td>-131072</td><td>18</td><td>m</td><td>1</td><td>6</td><td></td></tr>
+<tr><td>010088</td><td>Геоцентрическая высота полного океанического прилива (решение 1)</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010089</td><td>Геоцентрическая высота полного океанического прилива (решение 2)</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010090</td><td>Высота долгопериодного прилива</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010091</td><td>Высота приливной нагрузки</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010092</td><td>Высота приливно-отливных явлений твердой оболочки Земли</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010093</td><td>Геоцентрическая высота полюсного прилива</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010095</td><td>Используемая высота атмосферы</td><td>m</td><td>0</td><td>0</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>010096</td><td>Средняя динамическая топография</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>010097</td><td>Средняя высота поверхности моря только по альтиметру</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>010098</td><td>Геоцентрическая высота приливной нагрузки океанического прилива, решение 1</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>010099</td><td>Геоцентрическая высота приливной нагрузки океанического прилива, решение 2</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>010100</td><td>Высота неравновесного долгопериодного прилива</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>010101</td><td>Квадрат угла отклонения спутника от надира по данным о форме волны</td><td>deg2</td><td>2</td><td>-32768</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>010102</td><td>Аномалия высоты поверхности моря</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>010103</td><td>Точность средней динамической топографии</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

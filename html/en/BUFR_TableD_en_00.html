@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Category 00: BUFR table entries sequences</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Category 00: BUFR table entries sequences</h1>
+<table>
+<thead><tr><th>FXY1</th><th>TITLE</th><th>SUBTITLE</th><th>FXY2</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr class="seq-header"><td>3 00 002</td><td></td><td></td><td>0 00 002</td><td>Table A: data category description, line 1</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 003</td><td>Table A: data category description, line 2</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 003</td><td>(F, X, Y of descriptor to be added or defined)</td><td></td><td>0 00 010</td><td>F descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 011</td><td>X descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 012</td><td>Y descriptor to be added or defined</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 004</td><td></td><td></td><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 013</td><td>Element name, line 1</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 014</td><td>Element name, line 2</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 015</td><td>Units name</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 016</td><td>Units scale sign</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 017</td><td>Units scale</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 018</td><td>Units reference sign</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 019</td><td>Units reference value</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 020</td><td>Element data width</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 010</td><td></td><td></td><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 015</td><td>(Code table definition)</td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 024</td><td>Code figure</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 025</td><td>Code figure meaning</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 00 016</td><td>(Flag table definition)</td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 026</td><td>Bit number</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 00 027</td><td>Bit number meaning</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

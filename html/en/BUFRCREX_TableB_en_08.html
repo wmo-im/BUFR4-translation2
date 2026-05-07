@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 08: Significance qualifiers</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 08: Significance qualifiers</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>008001</td><td>Vertical sounding significance</td><td>Flag table</td><td>0</td><td>0</td><td>7</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008002</td><td>Vertical significance (surface observations)</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008003</td><td>Vertical significance (satellite observations)</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008004</td><td>Phase of aircraft flight</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008005</td><td>Meteorological attribute significance</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008006</td><td>Ozone vertical sounding significance</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008007</td><td>Dimensional significance</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008008</td><td>Radiation vertical sounding significance</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008009</td><td>Detailed phase of flight</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008010</td><td>Surface qualifier (temperature data)</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008011</td><td>Meteorological feature</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008012</td><td>Land/sea qualifier</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008013</td><td>Day/night qualifier</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008014</td><td>Qualifier for runway visual range</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008015</td><td>Significant qualifier for sensor</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008016</td><td>Change qualifier of a trend-type forecast or an aerodrome forecast</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008017</td><td>Qualifier of the time when the forecast change is expected</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008018</td><td>SEAWINDS land/ice surface type</td><td>Flag table</td><td>0</td><td>0</td><td>17</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>008019</td><td>Qualifier for following centre identifier</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008020</td><td>Total number of missing entities (with respect to accumulation or average)</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008021</td><td>Time significance</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008022</td><td>Total number (with respect to accumulation or average)</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008023</td><td>First-order statistics</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td>Note 70: This value is the official or best estimate of the actual elevation of the station. It is provided for comparison with the model’s virtual terrain elevation. The two can be substantially different in rugged terrain. The scale factor is increased to make the value directly comparable with 0 07 030 below.</td></tr>
+<tr><td>008024</td><td>Difference statistics</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>008025</td><td>Time difference qualifier</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td>Note 49: The majority of stations has only one position on the road and one subsurface temperature sensor. Delayed Replications have been introduced to increase flexibility and volume efficiency.</td></tr>
+<tr><td>008026</td><td>Matrix significance</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008027</td><td>Type of sea-surface height anomaly measurement</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>008029</td><td>Surface type</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008030</td><td>Manual on Codes (Volume I.1, Section C) Code table from which data are derived</td><td>Numeric</td><td>0</td><td>0</td><td>13</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>008031</td><td>Data category - CREX table A</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008032</td><td>Status of operation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008033</td><td>Method of derivation of percentage confidence</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td>Note 50: The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the Backscatter data section</td></tr>
+<tr><td>008034</td><td>Temperature/salinity measurement qualifier</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008035</td><td>Type of monitoring exercise</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008036</td><td>Type of centre or station performing monitoring</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008037</td><td>Baseline check significance</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008038</td><td>Instrument data significance</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008039</td><td>Time significance (Aviation forecast)</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008040</td><td>Flight level significance</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008041</td><td>Data significance</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008042</td><td>Extended vertical sounding significance</td><td>Flag table</td><td>0</td><td>0</td><td>18</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>008043</td><td>Atmospheric chemical or physical constituent type</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td>Note 169: When descriptor 0 08 043 is used to specify particulate matter (PM) under a given size threshold, descriptor 0 08 044 or 0 08 046 may also be used to further specify a subset of the PM population on the basis of ion composition.</td></tr>
+<tr><td>008044</td><td>CAS registry number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>88</td><td>Character</td><td>0</td><td>11</td><td></td></tr>
+<tr><td>008045</td><td>Character of particulate matter</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Character</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008046</td><td>Atmospheric chemical or physical constituent type</td><td>Common Code table C-14</td><td>0</td><td>0</td><td>16</td><td>Common Code table C-14</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008049</td><td>Number of observations</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008050</td><td>Qualifier for number of missing values in calculation of statistic</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008051</td><td>Qualifier for number of missing values in calculation of statistic</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008052</td><td>Condition for which number of days of occurrence follows</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008053</td><td>Day of occurrence qualifier</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008054</td><td>Qualifier for wind speed or wind gusts</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008055</td><td>Method used to calculate the average wind components after removing vortex</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>008060</td><td>Sample scanning mode significance</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008065</td><td>Sun-glint indicator</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008066</td><td>Semi-transparency indicator</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008070</td><td>Vertical sounding product qualifier</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008071</td><td>Type of cost estimation</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008072</td><td>Pixel(s) type</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008074</td><td>Altimeter echo type</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008075</td><td>Ascending/descending orbit qualifier</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008076</td><td>Type of band</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008077</td><td>Radiometer sensed surface type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008079</td><td>Product status</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008080</td><td>Qualifier for GTSPP quality flag</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008081</td><td>Type of equipment</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008082</td><td>Modification of sensor height to another value</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008083</td><td>Nominal value indicator</td><td>Flag table</td><td>0</td><td>0</td><td>15</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008085</td><td>Beam identifier</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008086</td><td>Vertical significance for NWP</td><td>Flag table</td><td>0</td><td>0</td><td>12</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>008087</td><td>Corner position of observation</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008088</td><td>Map significance</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008090</td><td>Decimal scale of following significands</td><td>Numeric</td><td>0</td><td>-127</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td>Note 51: The number of missing years within the reference period from the calculation of normal for mean extreme air temperature should be given, if available, for both the calculation of normal maximum temperature and for the calculation of normal minimum temperature in addition to the number of missing years for the extreme air temperatures reported under 0 08 020 preceded by 0 08 050 in which figure 3 is used.</td></tr>
+<tr><td>008091</td><td>Coordinates significance</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008092</td><td>Measurement uncertainty expression</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008093</td><td>Measurement uncertainty significance</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008094</td><td>Method used to calculate the average daily temperature</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008095</td><td>Siting and measurement quality classification for temperature</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008096</td><td>Siting and measurement quality classification for precipitation</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008097</td><td>Method used to calculate the average instrument temperature</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008098</td><td>Source of temperature measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008099</td><td>Sensing direction</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008100</td><td>Type of following observation value</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>008101</td><td>Phase of balloon flight</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

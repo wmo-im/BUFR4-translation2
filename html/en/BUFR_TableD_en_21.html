@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Category 21: Radar report sequences</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Category 21: Radar report sequences</h1>
+<table>
+<thead><tr><th>FXY1</th><th>TITLE</th><th>SUBTITLE</th><th>FXY2</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr class="seq-header"><td>3 21 001</td><td>(Wind profiler - antenna characteristics)</td><td></td><td>0 02 101</td><td>Type of antenna</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 114</td><td>Antenna effective surface area</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 105</td><td>Maximum antenna gain</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 106</td><td>3-dB beamwidth</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 107</td><td>Sidelobe suppression</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 121</td><td>Mean frequency</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 003</td><td>(Wind profiler - moment data)</td><td></td><td>0 21 051</td><td>Signal power above 1 mW</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 014</td><td>Doppler mean velocity (radial)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 017</td><td>Doppler velocity spectral width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 004</td><td>(Wind profiler - moment data sounding)</td><td></td><td>3 01 031</td><td>Identification and type of station, date/time, location (high accuracy), height of station</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 003</td><td>Type of measuring equipment used</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 21 003</td><td>Wind profiler - moment data</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 005</td><td>(Transmitter-receiver characteristics)</td><td></td><td>0 25 004</td><td>Echo processing</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 121</td><td>Mean frequency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 122</td><td>Frequency agility range</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 123</td><td>Peak power</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 124</td><td>Average power</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 125</td><td>Pulse repetition frequency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 126</td><td>Pulse width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 127</td><td>Receiver intermediate frequency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 128</td><td>Intermediate frequency bandwidth</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 129</td><td>Minimum detectable signal</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 130</td><td>Dynamic range</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 131</td><td>Sensitivity time control (STC)</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 006</td><td>(Integration characteristics)</td><td></td><td>0 25 001</td><td>Range-gate length</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 002</td><td>Number of gates averaged</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 003</td><td>Number of integrated pulses</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 005</td><td>Echo integration</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 007</td><td>(Corrections)</td><td></td><td>0 25 009</td><td>Calibration method</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 010</td><td>Clutter treatment</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 011</td><td>Ground occultation correction (screening)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 012</td><td>Range attenuation correction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 013</td><td>Bright-band correction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 015</td><td>Radome attenuation correction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 016</td><td>Clear-air attenuation correction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 017</td><td>Precipitation attenuation correction</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 008</td><td>(Z to R conversion)</td><td></td><td>0 25 006</td><td>Z to R conversion</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 007</td><td>Z to R conversion factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 008</td><td>Z to R conversion exponent</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 009</td><td>(A to Z law)</td><td></td><td>0 25 018</td><td>A to Z law for attenuation factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 019</td><td>A to Z law for attenuation exponent</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 010</td><td>(Antenna characteristics)</td><td></td><td>0 02 101</td><td>Type of antenna</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 07 002</td><td>Height or altitude</td><td>Altitude of the tower base</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 102</td><td>Antenna height above tower base</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 103</td><td>Radome</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 105</td><td>Maximum antenna gain</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 106</td><td>3-dB beamwidth</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 107</td><td>Sidelobe suppression</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 108</td><td>Crosspol discrimination (on axis)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 109</td><td>Antenna speed (azimuth)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 110</td><td>Antenna speed (elevation)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 132</td><td>Azimuth pointing accuracy</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 133</td><td>Elevation pointing accuracy</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 011</td><td>(General characteristics)</td><td></td><td>0 30 031</td><td>Picture type</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 30 032</td><td>Combination with other data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 29 002</td><td>Coordinate grid type</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 012</td><td>(Antenna elevations)</td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 135</td><td>Antenna elevation</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 021</td><td>(Basic information (system/site header) on wind profiler/RASS)</td><td></td><td>0 02 003</td><td>Type of measuring equipment used</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 101</td><td>Type of antenna</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 130</td><td>Change data width</td><td>8 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 106</td><td>3-dB beamwidth</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 132</td><td>Change data width</td><td>11 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 130</td><td>Change scale</td><td>Scale: -6</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 121</td><td>Mean frequency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 133</td><td>Change data width</td><td>11 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td>Scale: 0</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 001</td><td>Range-gate length</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr class="seq-header"><td>3 21 022</td><td>(Wind profiler: processed-data winds)</td><td></td><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 001</td><td>Add associated field</td><td>1 bit long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 021</td><td>Associated field significance</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 001</td><td>Add associated field</td><td>1 bit long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 021</td><td>Associated field significance</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 006</td><td>w-component</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 023</td><td>(Wind profiler: raw-data winds)</td><td></td><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 091</td><td>Radar signal Doppler spectrum 0th moment</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td>Scale: 2</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 014</td><td>Doppler mean velocity (radial)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 129</td><td>Change data width</td><td>9 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 017</td><td>Doppler velocity spectral width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr class="seq-header"><td>3 21 024</td><td>(RASS-mode: processed-data RASS)</td><td></td><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 001</td><td>Add associated field</td><td>1 bit long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 021</td><td>Associated field significance</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 12 007</td><td>Virtual temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 006</td><td>w-component</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 025</td><td>(RASS-mode: raw-data RASS)</td><td></td><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 091</td><td>Radar signal Doppler spectrum 0th moment</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td>Scale: 2</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 014</td><td>Doppler mean velocity (radial)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 129</td><td>Change data width</td><td>9 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 017</td><td>Doppler velocity spectral width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 092</td><td>RASS signal Doppler spectrum 0th moment, referring to RASS signal</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 030</td><td>Signal to noise ratio</td><td>Referring to RASS signal</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 092</td><td>Acoustic propagation velocity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 129</td><td>Change data width</td><td>9 bits long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td>Scale: 2</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 017</td><td>Doppler velocity spectral width</td><td>Referring to RASS signal</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr class="seq-header"><td>3 21 026</td><td>(RASS data - fluxes)</td><td></td><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 001</td><td>Add associated field</td><td>1 bit long</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 021</td><td>Associated field significance</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 12 007</td><td>Virtual temperature</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 091</td><td>Structure constant of the refraction index (Cn2)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 071</td><td>Turbulent vertical momentum flux</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 072</td><td>Turbulent vertical buoyancy flux</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 073</td><td>Turbulent kinetic energy</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 11 074</td><td>Dissipation energy</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr class="seq-header"><td>3 21 027</td><td>(Radar specification, normalized radar cross-section, Kp variance coefficient)</td><td></td><td>0 21 118</td><td>Attenuation correction on sigma-0</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 132</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 112</td><td>Radar look angle</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 105</td><td>Normalized radar cross-section</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 106</td><td>Kp variance coefficient (alpha)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 107</td><td>Kp variance coefficient (beta)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 114</td><td>Kp variance coefficient (gamma)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 115</td><td>SEAWINDS sigma-0 quality</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 116</td><td>SEAWINDS sigma-0 mode</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 08 018</td><td>SEAWINDS land/ice surface type</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 117</td><td>Sigma-0 variance quality control</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 028</td><td>(Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient)</td><td></td><td>0 21 118</td><td>Attenuation correction on sigma-0</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 132</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 112</td><td>Radar look angle</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 123</td><td>SEAWINDS normalized radar cross-section</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 106</td><td>Kp variance coefficient (alpha)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 107</td><td>Kp variance coefficient (beta)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 114</td><td>Kp variance coefficient (gamma)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 115</td><td>SEAWINDS sigma-0 quality</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 116</td><td>SEAWINDS sigma-0 mode</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 08 018</td><td>SEAWINDS land/ice surface type</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 117</td><td>Sigma-0 variance quality control</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 030</td><td>(ASCAT sigma-0 information)</td><td></td><td>0 08 085</td><td>Beam identifier</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 129</td><td>Change scale</td><td>Increase scale by 101</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 131</td><td>Change data width</td><td>Increase width by 3 bits</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 134</td><td>Antenna beam azimuth</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 062</td><td>Backscatter</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 063</td><td>Radiometric resolution (noise value)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 158</td><td>ASCAT Kp estimate quality</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 159</td><td>ASCAT sigma-0 usability</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 160</td><td>ASCAT use of synthetic data</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 161</td><td>ASCAT synthetic data quantity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 162</td><td>ASCAT satellite orbit and attitude quality</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 163</td><td>ASCAT solar array reflection contamination</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 164</td><td>ASCAT telemetry presence and quality</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 165</td><td>ASCAT extrapolated reference function presence</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 166</td><td>Land fraction</td><td></td><td></td></tr>
+<tr class="seq-header"><td>3 21 031</td><td>(Satellite radar observations)</td><td></td><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 01 033</td><td>Identification of originating/generating centre</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 01 034</td><td>Identification of originating/generating sub-centre</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 10 033</td><td>Altitude (platform to ellipsoid)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 08 043</td><td>Atmospheric chemical or physical constituent type</td><td>Cloud</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 25 139</td><td>Processing level</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 02 153</td><td>Satellite channel centre frequency</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>1 06 000</td><td>Delayed replication of 6 descriptors</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 07 071</td><td>Height (high resolution)</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 007</td><td>Radar reflectivity factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 008</td><td>Uncertainty in radar reflectivity factor</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 009</td><td>Vertical Doppler velocity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 21 010</td><td>Uncertainty in vertical Doppler velocity</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>0 33 003</td><td>Quality information</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

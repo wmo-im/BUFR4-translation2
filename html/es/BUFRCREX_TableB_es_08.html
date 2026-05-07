@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 08: Calificadores de significación</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 08: Calificadores de significación</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>008001</td><td>Significación del sondeo vertical</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>7</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008002</td><td>Significación vertical (observaciones de superficie)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008003</td><td>Significación vertical (observaciones satelitales)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008004</td><td>Fase del vuelo de la aeronave</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008005</td><td>Significación del atributo meteorológico</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008006</td><td>Significación del sondeo vertical del ozono</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008007</td><td>Significación dimensional</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008008</td><td>Significación del sondeo vertical de la radiación</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008009</td><td>Fase detallada de vuelo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008010</td><td>Calificador de superficie (datos de temperatura)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008011</td><td>Característica meteorológica</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008012</td><td>Calificador tierra/mar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008013</td><td>Calificador día/noche</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008014</td><td>Calificador para el alcance visual en pista</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008015</td><td>Calificador significativo del sensor</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008016</td><td>Calificador de cambio de un pronóstico de tipo tendencia o de un pronóstico de aeródromo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008017</td><td>Calificador de la hora a la cual se espera que se produzca el cambio previsto</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008018</td><td>Tipo de superficie tierra/hielo medida por SeaWinds</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>17</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>008019</td><td>Calificador para el identificador del centro siguiente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008020</td><td>Número total de períodos sin valores (para el cálculo del total o de la media)</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008021</td><td>Significación temporal</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008022</td><td>Número total (en relación a la acumulación o promedios)</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008023</td><td>Estadísticas de primer orden</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td>Note 70: Este valor es la estimación oficial o la mejor estimación de la elevación real del terreno. Se incluye con fines de comparación con la elevación virtual del terreno en el modelo. Ambas pueden ser sustancialmente diferentes en terreno accidentado. Se incrementa el factor de escala para que el valor sea comparable directamente con 0 07 030 infra.</td></tr>
+<tr><td>008024</td><td>Estadísticas de diferencia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
+<tr><td>008025</td><td>Calificador de diferencia de tiempo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td>Note 49: La mayoría de las estaciones tienen solo una posición sobre la carretera y un sensor de la temperatura subsuperficial. Se han introducido repeticiones diferidas para aumentar la flexibilidad y el rendimiento volumétrico.</td></tr>
+<tr><td>008026</td><td>Significación matricial</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008029</td><td>Tipo de superficie</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008030</td><td>Manual de claves (vol. I.1, sec. C) - Tabla de cifrado de la cual se obtienen los datos</td><td>Numérica</td><td>0</td><td>0</td><td>13</td><td>Numérica</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>008031</td><td>Categoría de datos de la Tabla A de CREX</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008032</td><td>Estado de funcionamiento</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008033</td><td>Método de derivación del porcentaje de confianza</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td>Note 50: El descritpor 0 08 092 relativo a la expresión de la incertidumbre de medición y el descriptor 0 08 093 relativo a la significación de la incertidumbre de medición están relacionados con todas las incertidumbres de los parámetros proporcionados en la sección sobre datos de retrodispersión.</td></tr>
+<tr><td>008034</td><td>Calificador de medición de la temperatura/salinidad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008035</td><td>Tipo de ejercicio de control</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008036</td><td>Tipo de centro o estación que realiza el control</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008037</td><td>Significación de la comprobación de la línea de referencia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008038</td><td>Significación de los datos proporcionados por el instrumento</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008039</td><td>Significación temporal (predicción aeronáutica)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008040</td><td>Significación del nivel de vuelo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008041</td><td>Significación de datos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008042</td><td>Significación del sondeo vertical ampliado</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>18</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>008043</td><td>Tipo de componente atmosférico químico o físico</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td>Note 169: Cuando se utilice el descriptor 0 08 043 para especificar materia en forma de partículas por debajo de un umbral de tamaño dado, podrá utilizarse también el descriptor 0 08 044 o el 0 08 046 para especificar un subconjunto de la población de partículas en base a su composición iónica.</td></tr>
+<tr><td>008044</td><td>Número de registro del CAS</td><td>CCITT IA5</td><td>0</td><td>0</td><td>88</td><td>Caracteres</td><td>0</td><td>11</td><td></td></tr>
+<tr><td>008046</td><td>Tipo de componente químico o físico atmosférico</td><td>Tabla de cifrado común C-14</td><td>0</td><td>0</td><td>16</td><td>Tabla de cifrado común C-14</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008049</td><td>Número de observaciones</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008050</td><td>Calificador del número de valores faltantes en el cálculo de estadísticas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008051</td><td>Calificador del número de valores faltantes en el cálculo de estadísticas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008052</td><td>Condición por la que se deduce el número de días de ocurrencia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008053</td><td>Calificador del día de ocurrencia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008054</td><td>Calificador de la velocidad del viento o de las ráfagas de viento</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008060</td><td>Significación del modo de exploración de la muestra</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008065</td><td>Indicador de destello solar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008066</td><td>Indicador de semitransparencia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008070</td><td>Calificador del producto de sondeo vertical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008072</td><td>Tipo de píxel(es)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008074</td><td>Tipo de eco del altímetro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008075</td><td>Calificador de órbita ascendente/descendente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008076</td><td>Tipo de banda</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008077</td><td>Tipo de superficie detectada mediante radiómetro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008079</td><td>Estado del producto</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008080</td><td>Calificador del banderín de calidad del GTSPP</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008081</td><td>Tipo de equipo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008082</td><td>Modificación de la altura del sensor a otro valor</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008083</td><td>Indicador del valor nominal</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>15</td><td>Tabla de banderines</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>008085</td><td>Identificador del haz</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008086</td><td>Significación vertical para predicción numérica del tiempo</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>12</td><td>Tabla de banderines</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>008087</td><td>Posición esquinera de la observación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>008088</td><td>Significación del mapa</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008090</td><td>Escala decimal de los significandos siguientes</td><td>Numérica</td><td>0</td><td>-127</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td>Note 51: Se debería expresar, de estar disponible, el número de años faltantes del período de referencia del cálculo de la normal para la temperatura extrema media del aire, para el cálculo de las temperaturas máxima y mínima normal, además del número de años faltantes para las temperaturas extremas del aire que se comunican con la cifra 0 08 020 precedida de 0 08 050 en la que se utiliza la figura 3.</td></tr>
+<tr><td>008091</td><td>Significación de las coordenadas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>008092</td><td>Expresión de la incertidumbre en la medición</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>008093</td><td>Significación de la incertidumbre en la medición</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

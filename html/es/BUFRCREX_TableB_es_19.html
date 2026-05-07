@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 19: Características sinópticas</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 19: Características sinópticas</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>019001</td><td>Tipo de característica sinóptica</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019002</td><td>Radio efectivo de la característica</td><td>m</td><td>-2</td><td>0</td><td>12</td><td>m</td><td>-2</td><td>4</td><td>Note 138: El radio real de la característica se definirá en función del radio de la isobara de 1000 hPa al nivel medio del mar.</td></tr>
+<tr><td>019003</td><td>Umbral de la velocidad del viento</td><td>m s⁻¹</td><td>0</td><td>0</td><td>8</td><td>m s⁻¹</td><td>0</td><td>3</td><td>Note 99: Se indicarán el viento máximo y el radio efectivo del viento máximo mediante las referencias 0 19 003 y 0 19 004.</td></tr>
+<tr><td>019004</td><td>Radio efectivo de las velocidades del viento por encima del umbral</td><td>m</td><td>-2</td><td>0</td><td>12</td><td>m</td><td>-2</td><td>4</td><td>Note 99: Se indicarán el viento máximo y el radio efectivo del viento máximo mediante las referencias 0 19 003 y 0 19 004.</td></tr>
+<tr><td>019005</td><td>Dirección del desplazamiento de la característica</td><td>grado verdadero</td><td>0</td><td>0</td><td>9</td><td>grado verdadero</td><td>0</td><td>3</td><td>Note 73: Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024.</td></tr>
+<tr><td>019006</td><td>Velocidad del desplazamiento de la característica</td><td>m s⁻¹</td><td>2</td><td>0</td><td>14</td><td>m s⁻¹</td><td>2</td><td>5</td><td>Note 73: Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024.</td></tr>
+<tr><td>019007</td><td>Radio efectivo de la característica</td><td>m</td><td>-3</td><td>0</td><td>12</td><td>m</td><td>-3</td><td>4</td><td></td></tr>
+<tr><td>019008</td><td>Extensión vertical de la circulación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>019009</td><td>Radio efectivo con respecto a velocidad del viento por encima del umbral (tormentas importantes)</td><td>m</td><td>-3</td><td>0</td><td>12</td><td>m</td><td>-3</td><td>4</td><td></td></tr>
+<tr><td>019010</td><td>Método de seguimiento del centro de la característica sinóptica</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019100</td><td>Intervalo de tiempo para calcular el desplazamiento del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019101</td><td>Precisión de la posición del centro del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019102</td><td>Forma y definición del ojo del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>019103</td><td>Diámetro del eje principal del ojo del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019104</td><td>Cambio de naturaleza del ojo durante los 30 minutos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019105</td><td>Distancia entre el extremo de la banda en espiral y el centro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019106</td><td>Número de identificación del ciclón tropical</td><td>Numérica</td><td>0</td><td>0</td><td>7</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>019107</td><td>Intervalo de tiempo sobre el que se ha calculado el movimiento del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019108</td><td>Precisión de la posición geográfica del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>019109</td><td>Diámetro medio de la cobertura nubosa del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019110</td><td>Cambio aparente en 24 horas de la intensidad del ciclón tropical</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019111</td><td>Número intensidad actual (CI) del ciclón tropical</td><td>Numérica</td><td>1</td><td>0</td><td>7</td><td>Numérica</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>019112</td><td>Número &quot;tropical-datos&quot; (DT) del ciclón tropical</td><td>Numérica</td><td>1</td><td>0</td><td>7</td><td>Numérica</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>019113</td><td>Tipo de configuración nubosa del número de DT</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>019114</td><td>Número &quot;tropical-predicción de modelo&quot; (MET) del ciclón tropical</td><td>Numérica</td><td>1</td><td>0</td><td>7</td><td>Numérica</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>019115</td><td>Cambio de tendencia en las 24 horas anteriores (+: Desarrollado,-: Debilitado)</td><td>Numérica</td><td>1</td><td>-30</td><td>6</td><td>Numérica</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>019116</td><td>Número &quot;tropical-patrón&quot; (PT) del ciclón tropical</td><td>Numérica</td><td>1</td><td>0</td><td>7</td><td>Numérica</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>019117</td><td>Tipo de imagen de la nube del número de PT</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>019118</td><td>Número tropical final (T) del ciclón tropical</td><td>Numérica</td><td>1</td><td>0</td><td>7</td><td>Numérica</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>019119</td><td>Tipo del número T final</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>019150</td><td>Número Internacional Común del Tifón (Comité de Tifones)</td><td>CCITTIA5</td><td>0</td><td>0</td><td>32</td><td>Carácter</td><td>0</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

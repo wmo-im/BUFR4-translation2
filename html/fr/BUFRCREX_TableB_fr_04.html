@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 04 : Situation (dans le temps)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 04 : Situation (dans le temps)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>004001</td><td>Année</td><td>a</td><td>0</td><td>0</td><td>12</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004002</td><td>Mois</td><td>mon</td><td>0</td><td>0</td><td>4</td><td>mon</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004003</td><td>Jour</td><td>d</td><td>0</td><td>0</td><td>6</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004004</td><td>Heure</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004005</td><td>Minute</td><td>min</td><td>0</td><td>0</td><td>6</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004006</td><td>Seconde</td><td>s</td><td>0</td><td>0</td><td>6</td><td>s</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004007</td><td>Secondes par minute (à la microseconde près)</td><td>s</td><td>6</td><td>0</td><td>26</td><td>s</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>004011</td><td>Incrément temporel</td><td>a</td><td>0</td><td>-1024</td><td>11</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004012</td><td>Incrément temporel</td><td>mon</td><td>0</td><td>-1024</td><td>11</td><td>mon</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004013</td><td>Incrément temporel</td><td>d</td><td>0</td><td>-1024</td><td>11</td><td>d</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004014</td><td>Incrément temporel</td><td>h</td><td>0</td><td>-1024</td><td>11</td><td>h</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004015</td><td>Incrément temporel</td><td>min</td><td>0</td><td>-2048</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004016</td><td>Incrément temporel</td><td>s</td><td>0</td><td>-4096</td><td>13</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004017</td><td>Période de référence pour les données relatives à des valeurs accumulées ou extrêmes</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004021</td><td>Période ou décalage dans le temps</td><td>a</td><td>0</td><td>-1024</td><td>11</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004022</td><td>Période ou décalage dans le temps</td><td>mon</td><td>0</td><td>-1024</td><td>11</td><td>mon</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004023</td><td>Période ou décalage dans le temps</td><td>d</td><td>0</td><td>-1024</td><td>11</td><td>d</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004024</td><td>Période ou décalage dans le temps</td><td>h</td><td>0</td><td>-2048</td><td>12</td><td>h</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004025</td><td>Période ou décalage dans le temps</td><td>min</td><td>0</td><td>-2048</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004026</td><td>Période ou décalage dans le temps</td><td>s</td><td>0</td><td>-4096</td><td>13</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>004031</td><td>Période à laquelle se rapporte la valeur suivante</td><td>h</td><td>0</td><td>0</td><td>8</td><td>h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>004032</td><td>Période à laquelle se rapporte la valeur suivante</td><td>min</td><td>0</td><td>0</td><td>6</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004041</td><td>Décalage dans le temps UTC-LMT</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note 48: Quand 0 08 082 = 1, la hauteur standard est indiquee par le descripteur de la classe 07 place apres. Il est possible d&#x27;indiquer la hauteur reelle du capteur en placant le descripteur approprie de la classe 07 avant.</td></tr>
+<tr><td>004043</td><td>Jour de l&#x27;année</td><td>d</td><td>0</td><td>0</td><td>9</td><td>d</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>004051</td><td>Heure principale à laquelle la température maximale est relevée quotidiennement</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004052</td><td>Heure principale à laquelle la température minimale est relevée quotidiennement</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004053</td><td>Nombre de jours avec précipitations égales ou supérieures à 1 mm</td><td>Numérique</td><td>0</td><td>0</td><td>6</td><td>Numérique</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004059</td><td>Heures des observations servant à calculer les valeurs moyennes transmises</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>6</td><td>Table d&#x27;indicateurs</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004065</td><td>Incrément de courte durée</td><td>min</td><td>0</td><td>-128</td><td>8</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004066</td><td>Incrément temporel de courte durée</td><td>s</td><td>0</td><td>-128</td><td>8</td><td>s</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004073</td><td>Période ou décalage dans le temps de courte durée</td><td>d</td><td>0</td><td>-128</td><td>8</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004074</td><td>Période ou décalage dans le temps de courte durée</td><td>h</td><td>0</td><td>-128</td><td>8</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004075</td><td>Période ou décalage dans le temps de courte durée</td><td>min</td><td>0</td><td>-128</td><td>8</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004080</td><td>Période à laquelle correspond la valeur moyenne qui suit</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>004086</td><td>Période ou décalage dans le temps de longue durée</td><td>s</td><td>0</td><td>-8192</td><td>15</td><td>s</td><td>0</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

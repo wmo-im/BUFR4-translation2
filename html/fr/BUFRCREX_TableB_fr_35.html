@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 35 : Informations sur le contrôle des données</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 35 : Informations sur le contrôle des données</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>035000</td><td>FM et numéro régional de code</td><td>Table de code</td><td>0</td><td>0</td><td>10</td><td>Table de code</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>035001</td><td>Base de temps pour le contrôle</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>035011</td><td>Nombre de messages réellement reçus</td><td>Numérique</td><td>0</td><td>0</td><td>14</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>035021</td><td>Bulletin contrôlé (TTAAii)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>035022</td><td>Bulletin contrôlé (YYGGgg)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>035023</td><td>Bulletin contrôlé (CCCC)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>035024</td><td>Bulletin contrôlé (BBB)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>035030</td><td>Divergences dans la disponibilité des données attendues</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>035031</td><td>Déterminant des résultats du contrôle</td><td>Table de code</td><td>0</td><td>0</td><td>7</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>035032</td><td>Cause des données manquantes</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>035033</td><td>Défauts d&#x27;observation et de collecte</td><td>Table de code</td><td>0</td><td>0</td><td>7</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>035034</td><td>Tendances statistiques de la disponibilité des données (pendant la(les) période(s) d&#x27;observation)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>035035</td><td>Raison de l&#x27;abandon</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

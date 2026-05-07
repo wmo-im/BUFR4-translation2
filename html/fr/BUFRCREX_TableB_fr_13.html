@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 13 : Éléments hygrographiques et hydrologiques</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 13 : Éléments hygrographiques et hydrologiques</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>013001</td><td>Humidité spécifique</td><td>kg/kg</td><td>5</td><td>0</td><td>14</td><td>kg/kg</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>013002</td><td>Rapport de mélange</td><td>kg/kg</td><td>5</td><td>0</td><td>14</td><td>kg/kg</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>013003</td><td>Humidité relative</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013004</td><td>Tension de vapeur</td><td>Pa</td><td>-1</td><td>0</td><td>10</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>013005</td><td>Masse volumique de la vapeur d&#x27;eau</td><td>kg m-3</td><td>3</td><td>0</td><td>7</td><td>kg m-3</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>013006</td><td>Hauteurs de mélange</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>013007</td><td>Humidité relative minimale</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013008</td><td>Humidité relative maximale</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013009</td><td>Humidité relative</td><td>%</td><td>1</td><td>-1000</td><td>12</td><td>%</td><td>1</td><td>4</td><td>Note 39: 1) L’EPSG est un jeu de données sur les systèmes de coordonnées et les transformations qu’ils subissent, constitué et tenu à jour à l’origine par l’ European Petroleum Survey Group l’Association internationale des producteurs de pétrole et de gaz qui s’en occupe, par le biais du sous-comité à la géodésie relevant de son Comité de géomatique. 2) Lorsque le chiffre du code 4 est utilisé pour préciser un système de coordonnées de référence, la donnée ellipsoïdale est alors un ellipsoïde de révolution aplati, dont le grand axe s’oriente dans le même plan que le plan équatorial et le petit axe coupe le méridien d’origine près du pôle d’origine. Le Nord correspond à la direction de l’équateur au pôle d’origine. L’Est correspond au sens inverse des aiguilles d’une montre à partir du méridien d’origine vu depuis le pôle Nord. Dans ce cas, il faut préciser le demi-grand axe et le demi-petit axe (en se servant par exemple des descripteurs 0 01 152 et 0 01 153).</td></tr>
+<tr><td>013011</td><td>Précipitations totales/valeur totale de l&#x27;équivalent en eau</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013012</td><td>Épaisseur de neige fraîche</td><td>m</td><td>2</td><td>-2</td><td>12</td><td>m</td><td>2</td><td>4</td><td>Note 26: Bits 2 a 21 utilises pour le sondeur HIRS, mais seuls les bits 2 a 16 sont utilises pour le sondeur AMSU-A et les bits 2 a 6 pour le sondeur AMSU-B.</td></tr>
+<tr><td>013013</td><td>Hauteur totale de la couche de neige</td><td>m</td><td>2</td><td>-2</td><td>16</td><td>m</td><td>2</td><td>4</td><td>Note 26: Bits 2 a 21 utilises pour le sondeur HIRS, mais seuls les bits 2 a 16 sont utilises pour le sondeur AMSU-A et les bits 2 a 6 pour le sondeur AMSU-B.</td></tr>
+<tr><td>013014</td><td>Chute de pluie/équivalent en eau de la neige (moyenne)</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>12</td><td>kg m-2 s-1</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>013015</td><td>Chute de neige (moyenne)</td><td>m/s</td><td>7</td><td>0</td><td>12</td><td>m/s</td><td>7</td><td>4</td><td></td></tr>
+<tr><td>013016</td><td>Eau précipitable</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013019</td><td>Quantité totale de précipitations au cours de l&#x27;heure précédente</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013020</td><td>Quantité totale de précipitations au cours des 3 heures précédentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013021</td><td>Quantité totale de précipitations au cours des 6 heures précédentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013022</td><td>Quantité totale de précipitations au cours des 12 heures précédentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013023</td><td>Quantité totale de précipitations au cours des 24 heures précédentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013031</td><td>Évapotranspiration</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013032</td><td>Évaporation/évapotranspiration</td><td>kg m-2</td><td>1</td><td>0</td><td>8</td><td>kg m-2</td><td>1</td><td>3</td><td>Note 53: 1) Dans les messages d&#x27;observation en provenance de stations météorologiques automatiques, on utilise le chiffre du code 2 si la tendance est à la hausse, 7 si la tendance est à la baisse, et 4 si la pression atmosphérique est la même que trois heures auparavant. 2) Dans les messages provenant de stations tropicales qui communiquent des données concernant les changements de pression sur 24 heures, le chiffre du code 2 indique que la tendance est positive, le chiffre 7 qu&#x27;elle est négative, et le chiffre 4 que la pression est la même que 24 heures auparavant.</td></tr>
+<tr><td>013033</td><td>Évaporation/évapotranspiration</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013038</td><td>Indicateur superadiabatique</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>013039</td><td>Type de terrain (glace/neige)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>013040</td><td>Indicateur de surface</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013041</td><td>Catégorie de stabilité de Pasquill-Gifford</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013042</td><td>Indice de soulèvement d&#x27;une particule (à 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>(voir Notes 3 et 4)</td></tr>
+<tr><td>013043</td><td>Indice de soulèvement optimal (à 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>(voir Notes 3 et 4)</td></tr>
+<tr><td>013044</td><td>Indice K</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013045</td><td>Indice KO</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013046</td><td>Poussée d&#x27;Archimède maximale</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013047</td><td>Indice de stabilité de Showalter modifié</td><td>K</td><td>0</td><td>-60</td><td>6</td><td>°C</td><td>0</td><td>2</td><td>(voir Note 7)</td></tr>
+<tr><td>013048</td><td>Fraction d&#x27;eau</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013051</td><td>Groupe de fréquence, précipitations</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013052</td><td>Quantité journalière de précipitations la plus élevée</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013055</td><td>Intensité des précipitations</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>8</td><td>mm/h</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013056</td><td>Caractère et intensité des précipitations</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013057</td><td>Heure du début ou de la fin des précipitations</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013058</td><td>Diamètre des particules formant les précipitations</td><td>m</td><td>4</td><td>0</td><td>7</td><td>m</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013059</td><td>Nombre d&#x27;éclairs (orage)</td><td>Numérique</td><td>0</td><td>0</td><td>7</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013060</td><td>Précipitations totales cumulées</td><td>kg m-2</td><td>1</td><td>-1</td><td>17</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013071</td><td>Niveau d&#x27;eau en amont</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013072</td><td>Niveau d&#x27;eau en aval</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013073</td><td>Niveau d&#x27;eau maximal</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013074</td><td>Niveau de la nappe</td><td>m</td><td>2</td><td>0</td><td>18</td><td>m</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>013080</td><td>pH de l&#x27;eau</td><td>Unité pH</td><td>1</td><td>0</td><td>10</td><td>Unité pH</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013081</td><td>Conductivité de l&#x27;eau</td><td>S/m</td><td>3</td><td>0</td><td>14</td><td>S/m</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013082</td><td>Température de l&#x27;eau</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013083</td><td>Oxygène dissous</td><td>kg m-3</td><td>6</td><td>0</td><td>15</td><td>kg m-3</td><td>6</td><td>5</td><td></td></tr>
+<tr><td>013084</td><td>Turbidité</td><td>lm</td><td>0</td><td>0</td><td>14</td><td>lm</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>013085</td><td>Potentiel de réduction d&#x27;oxydation</td><td>V</td><td>3</td><td>0</td><td>14</td><td>V</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013090</td><td>Teneur en vapeur d&#x27;eau indiquée par le radiomètre</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013091</td><td>Teneur en eau liquide indiquée par le radiomètre</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013093</td><td>Épaisseur optique des nuages</td><td>Numérique</td><td>0</td><td>0</td><td>8</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013095</td><td>Colonne totale de vapeur d&#x27;eau</td><td>kg m-2</td><td>4</td><td>0</td><td>19</td><td>kg m-2</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>013096</td><td>Teneur en vapeur d&#x27;eau - données MWR</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>013097</td><td>Teneur en eau liquide - données MWR</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>013098</td><td>Humidité absolue intégrée</td><td>kg m-2</td><td>8</td><td>0</td><td>30</td><td>kg m-2</td><td>8</td><td>10</td><td></td></tr>
+<tr><td>013099</td><td>Log10 de la concentration intégrée de particules dans les nuages</td><td>log(m-2)</td><td>1</td><td>0</td><td>7</td><td>log(m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013100</td><td>Log10 de la surface intégrée des particules dans les nuages</td><td>log(m2 m-2)</td><td>1</td><td>-70</td><td>7</td><td>log(m2 m-2)</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>013101</td><td>Log10 du volume intégré des particules dans les nuages</td><td>log(m3 m-2)</td><td>1</td><td>-140</td><td>7</td><td>log(m3 m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013109</td><td>Teneur en glace/eau liquide</td><td>kg m-2</td><td>3</td><td>0</td><td>10</td><td>kg m-2</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013110</td><td>Rapport de mélange</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013111</td><td>Humidité du sol</td><td>g/kg</td><td>0</td><td>0</td><td>10</td><td>g/kg</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>013112</td><td>Durée du mouillage des surfaces</td><td>s</td><td>0</td><td>0</td><td>17</td><td>s</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>013114</td><td>Vitesse d&#x27;accumulation de la glace</td><td>kg m-2 h-1</td><td>1</td><td>0</td><td>11</td><td>kg m-2 h-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013115</td><td>Épaisseur de la glace</td><td>m</td><td>2</td><td>0</td><td>19</td><td>m</td><td>2</td><td>6</td><td>Note 88: 1) L’expression «moyenne sur une certaine période» indique qu’il est établi en permanence une moyenne des valeurs sur une période donnée. 2) L’expression «moyenne d’ensemble» indique que l’on prend la moyenne d’un certain nombre de valeurs distinctes correspondant à une série de situations dans le temps. 3) Il faut préciser les périodes auxquelles correspondent les caractéristiques temporelles.</td></tr>
+<tr><td>013116</td><td>Épaisseur de la pellicule d&#x27;eau</td><td>m</td><td>4</td><td>0</td><td>10</td><td>m</td><td>3</td><td>2</td><td></td></tr>
+<tr><td>013117</td><td>Masse volumique de la neige (teneur en eau liquide)</td><td>kg m-3</td><td>0</td><td>0</td><td>10</td><td>kg m-3</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013118</td><td>Épaisseur de neige fraîche (précision élevée)</td><td>m</td><td>3</td><td>-2</td><td>14</td><td>m</td><td>3</td><td>5</td><td>Note 41: Le niveau de congelation est le niveau auquel la temperature descend pour la premiere fois a 0 degres C.</td></tr>
+<tr><td>013155</td><td>Intensité des précipitations (précision élevée)</td><td>kg m-2 s-1</td><td>5</td><td>-1</td><td>16</td><td>mm/h</td><td>2</td><td>5</td><td>Note 28: L&#x27;expression &#x27;mesure ciel clair&#x27; indique que les valeurs de sondage ont ete obtenues a partir des valeurs de la luminance energetique par ciel clair derivees de mesures reelles sur point a ciel degage. On s&#x27;est servi de donnees HIRS tropospheriques et stratospheriques, ainsi que de donnees MSU et SSU.</td></tr>
+<tr><td>013160</td><td>Teneur en eau liquide fournie par le radiomètre</td><td>kg m-2</td><td>2</td><td>-350</td><td>10</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013162</td><td>Teneur en eau liquide des nuages</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013163</td><td>Équivalent en eau de la neige</td><td>kg m-2</td><td>0</td><td>0</td><td>16</td><td>kg m-2</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>013164</td><td>Franc-bord pour les glaces de mer</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 29</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 29</h1>
+<p class="fxy-heading">029001  Tipo de proyección</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Proyección gnomónica</td><td></td></tr>
+<tr><td>1</td><td>Proyección estereográfica polar</td><td></td></tr>
+<tr><td>2</td><td>Proyección cónica de Lambert</td><td></td></tr>
+<tr><td>3</td><td>Proyección de Mercator</td><td></td></tr>
+<tr><td>4</td><td>Cono de barrido (radar)</td><td>Note 65: Este factor de repetición deberá tener el valor de “1” cuando se describe un elemento en 2-D, en tanto que los elementos en 3-D pueden describirse mediante cualquiera de los métodos siguientes: a) a través de dos o más secciones horizontales en niveles de vuelo ascendentes sucesivos. En este caso, cada sección será descrita por un número idéntico de puntos de latitud/longitud enumerados en orden idéntico (es decir, cuando cada punto x de la sección n va a unirse mediante una línea recta con el punto x de la sección n+1), para garantizar que la configuración general del elemento en 3-D queda expresada sin ambigüedad. En este caso, todos los valores comunicados para 0 33 042 serán “faltantes”. b) a través de una sección horizontal única y un valor apropiado comunicado para 0 33 042 como sigue. En todos esos casos, la correspondiente descripción de la sección horizontal se aplica a la región entera. i) Un valor de “0” indicará una región por encima del nivel de vuelo comunicado (pero no incluido) y con un límite superior no especificado. ii) Un valor de “1” indicará una región por encima del nivel de vuelo comunicado (e incluido) y con un límite superior no especificado. iii) Un valor de “2” indicará una región por debajo del nivel de vuelo comunicado (pero no incluido) y que se extiende a la superficie. iv) Un valor de “3” indicará una región por debajo del nivel de vuelo comunicado (e incluido) y que se extiende a la superficie. c) a través de dos repeticiones de la misma sección horizontal al mismo nivel de vuelo comunicado, con objeto de indicar una región que se extiende por debajo y por encima del nivel de vuelo comunicado (¡incluidos!). En este caso, los valores comunicados para las dos repeticiones de 0 33 042 serán como sigue: i) Valores de “3” y “1”, respectivamente, para indicar una región que comienza desde abajo de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia arriba hasta cierto punto no especificado (por ejemplo, TOP ABV FL 100). ii) Valores de “1” y “3”, respectivamente, para indicar una región que comienza desde arriba de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia abajo hasta cierto punto no especificado (por ejemplo, CIGS BLW FL010).</td></tr>
+<tr><td>5</td><td>Reservada</td><td></td></tr>
+<tr><td>6</td><td>Sin proyección</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">029002  Tipo de retícula de coordenadas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cartesiana</td><td></td></tr>
+<tr><td>1</td><td>Polar</td><td></td></tr>
+<tr><td>2</td><td>De otro tipo</td><td></td></tr>
+<tr><td>3-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

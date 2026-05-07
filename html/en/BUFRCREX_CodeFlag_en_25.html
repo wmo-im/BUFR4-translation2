@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 25</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 25</h1>
+<p class="fxy-heading">025004  Echo processing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Incoherent</td><td></td></tr>
+<tr><td>1</td><td>Coherent (Doppler)</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025005  Echo integration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Logarithm - 2.5 dB</td><td></td></tr>
+<tr><td>1</td><td>Linear</td><td></td></tr>
+<tr><td>2</td><td>Special</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025006  Z to R conversion</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>ZH to R conversion</td><td></td></tr>
+<tr><td>1</td><td>(ZH, ZDR) to (NO, DO) to R</td><td></td></tr>
+<tr><td>2</td><td>(Z (F1), Z (F2)) to attenuation to R</td><td></td></tr>
+<tr><td>3-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Other</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025009  Calibration method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>None</td><td></td></tr>
+<tr><td>2</td><td>Calibration target or signal</td><td></td></tr>
+<tr><td>3</td><td>Against raingauges</td><td></td></tr>
+<tr><td>4</td><td>Against other Instruments (disdrometer - attenuation)</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025010  Clutter treatment</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>None</td><td></td></tr>
+<tr><td>1</td><td>Map</td><td></td></tr>
+<tr><td>2</td><td>Insertion of higher elevation data and map</td><td></td></tr>
+<tr><td>3</td><td>Analysis of the fluctuating logarithm signal (clutter detection)</td><td></td></tr>
+<tr><td>4</td><td>Extraction of the fluctuating part of linear signal (clutter suppression)</td><td></td></tr>
+<tr><td>5</td><td>Clutter suppression - Doppler</td><td></td></tr>
+<tr><td>6</td><td>Multiparameter analysis</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025011  Ground occultation correction (screening)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>None</td><td></td></tr>
+<tr><td>1</td><td>Map of correction factors</td><td></td></tr>
+<tr><td>2</td><td>Interpolation (azimuth or elevation)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025012  Range attenuation correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hardware</td><td></td></tr>
+<tr><td>1</td><td>Software</td><td></td></tr>
+<tr><td>2</td><td>Hardware and software</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025013  Bright-band correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Bright-band correction</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025015  Radome attenuation correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Radome attenuation correction</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025017  Precipitation attenuation correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Precipitation attenuation correction</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025020  Mean speed estimation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>FFT (fast Fourier transform)</td><td></td></tr>
+<tr><td>1</td><td>PPP (pulse-pair processing)</td><td></td></tr>
+<tr><td>2</td><td>VPC (vector-phase change)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025021  Wind computation enhancement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Simple average</td><td></td></tr>
+<tr><td>2</td><td>Consensus average</td><td></td></tr>
+<tr><td>3</td><td>Median check</td><td></td></tr>
+<tr><td>4</td><td>Vertical consistency check</td><td></td></tr>
+<tr><td>5</td><td>Other</td><td></td></tr>
+<tr><td>6-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025022  GHRSST rejection flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Unprocessed</td><td></td></tr>
+<tr><td>2</td><td>Land suspected</td><td></td></tr>
+<tr><td>3</td><td>Wind speed too large</td><td></td></tr>
+<tr><td>4</td><td>Ice detected</td><td></td></tr>
+<tr><td>5</td><td>Rain detected (Microwave retrievals only)</td><td></td></tr>
+<tr><td>6</td><td>Cloudy detected (Infra-red retrievals only)</td><td></td></tr>
+<tr><td>7</td><td>Cosmetic value</td><td></td></tr>
+<tr><td>8</td><td>SST out of range</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025023  GHRSST confidence flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Default confidence value has been used</td><td></td></tr>
+<tr><td>2</td><td>Default bias and standard deviation have been used</td><td></td></tr>
+<tr><td>3</td><td>Sun glint suspected</td><td></td></tr>
+<tr><td>4</td><td>Sea ice retrieval for microwave data</td><td></td></tr>
+<tr><td>5</td><td>High wind speed retrieval</td><td></td></tr>
+<tr><td>6</td><td>Inaccurate SST due to low SST (&lt; 285K) (only applies to the TMI instrument)</td><td></td></tr>
+<tr><td>7</td><td>Relaxed rain contamination suspected</td><td></td></tr>
+<tr><td>8</td><td>Potential side lobe contamination</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025024  GHRSST data quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unprocessed infrared retrieval</td><td></td></tr>
+<tr><td>1</td><td>Cloudy retrievals</td><td></td></tr>
+<tr><td>2</td><td>Bad: Data that are probably contaminated by cloud</td><td></td></tr>
+<tr><td>3</td><td>Suspect data</td><td></td></tr>
+<tr><td>4</td><td>Acceptable data</td><td></td></tr>
+<tr><td>5</td><td>Excellent data</td><td></td></tr>
+<tr><td>6</td><td>Cool skin suspected</td><td></td></tr>
+<tr><td>7-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>Unprocessed microwave retrieval</td><td></td></tr>
+<tr><td>11</td><td>Questionable microwave retrieval that may be contaminated</td><td></td></tr>
+<tr><td>12</td><td>Acceptable microwave retrieval</td><td></td></tr>
+<tr><td>13</td><td>High probability of diurnal variability</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025029  Calibration method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Reserved</td><td></td></tr>
+<tr><td>2</td><td>Calibration target or signal</td><td></td></tr>
+<tr><td>3</td><td>Against raingauges</td><td></td></tr>
+<tr><td>4</td><td>Against other instruments (disdrometer - attenuation)</td><td></td></tr>
+<tr><td>5</td><td>Reserved</td><td></td></tr>
+<tr><td>All 6</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025030  Running mean sea-surface temperature usage</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Running mean sea-surface temperature not used because usage criteria not met</td><td></td></tr>
+<tr><td>1</td><td>Running mean sea-surface temperature not used because data not available</td><td></td></tr>
+<tr><td>2</td><td>Running mean sea-surface temperature used as predictor</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025031  NWP-generated vertical profile thinning method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>No thinning applied (all native model levels are included from base to top of pseudo-sounding)</td><td></td></tr>
+<tr><td>2</td><td>Native model levels are present only if they are significant levels as per regulations B/C 25 for conventional TEMP soundings</td><td></td></tr>
+<tr><td>3</td><td>A predefined subset of native model levels is present</td><td></td></tr>
+<tr><td>4</td><td>No native model levels are present.  All profile levels are interpolated to a predefined set of pressure coordinate levels</td><td></td></tr>
+<tr><td>5-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025032  Wind profiler mode information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Data from low mode</td><td></td></tr>
+<tr><td>2</td><td>Data from high mode</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025033  Wind profiler submode information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Wind profiler operating in submode A</td><td></td></tr>
+<tr><td>1</td><td>Wind profiler operating in submode B</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025034  Wind profiler quality control test results</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Test A performed and failed</td><td></td></tr>
+<tr><td>2</td><td>Test B performed and failed</td><td></td></tr>
+<tr><td>3</td><td>Test results inconclusive</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025035  Decision method for polarity</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Not defined</td><td></td></tr>
+<tr><td>1</td><td>Individual voltage deflection</td><td></td></tr>
+<tr><td>2</td><td>Current based, above a threshold</td><td></td></tr>
+<tr><td>3</td><td>Voltage based, above a threshold</td><td></td></tr>
+<tr><td>4</td><td>Consensus of sensors, current above a threshold</td><td></td></tr>
+<tr><td>5</td><td>Consensus of sensors, voltage above a threshold</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025036  Atmospherics location method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Network of several direction-finders operating on the same individual atmospherics</td><td></td></tr>
+<tr><td>1</td><td>Network of several arrival-time stations operating on the same individual atmospherics</td><td></td></tr>
+<tr><td>2-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Single station range bearing technique</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025040  CO2 wind product derivation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Non-specific mode</td><td></td></tr>
+<tr><td>1</td><td>First guess data</td><td></td></tr>
+<tr><td>2</td><td>Cloud data</td><td></td></tr>
+<tr><td>3</td><td>Average vector data</td><td></td></tr>
+<tr><td>4</td><td>Primary data</td><td></td></tr>
+<tr><td>5</td><td>Guess data</td><td></td></tr>
+<tr><td>6</td><td>Vector data</td><td></td></tr>
+<tr><td>7</td><td>Tracer data; this image</td><td></td></tr>
+<tr><td>8</td><td>Tracer data to next image</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025041  Moving platform direction reporting method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Direction originally reported in true degrees</td><td></td></tr>
+<tr><td>1</td><td>Direction originally reported using Code table 0700, FM 13</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025042  Moving platform speed reporting method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Speed originally reported in metres per second</td><td></td></tr>
+<tr><td>1</td><td>Speed originally reported using Code table 4451, FM 13</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025045  HIRS channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025046  MSU channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 5</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025047  SSU channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present; if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025048  AMSU-A channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-15</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025049  AMSU-B channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 6</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025051  AVHRR channel combination</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-6</td><td>Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present</td><td></td></tr>
+<tr><td>All 7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025053  Observation quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Good</td><td></td></tr>
+<tr><td>2</td><td>Redundant</td><td></td></tr>
+<tr><td>3</td><td>Questionable</td><td></td></tr>
+<tr><td>4</td><td>Bad</td><td></td></tr>
+<tr><td>5</td><td>Experimental</td><td></td></tr>
+<tr><td>6</td><td>Precipitating</td><td></td></tr>
+<tr><td>7-11</td><td>Reserved</td><td></td></tr>
+<tr><td>All 12</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025063  Central processor or system identifier</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Not defined</td><td></td></tr>
+<tr><td>1</td><td>Main processor</td><td></td></tr>
+<tr><td>2</td><td>Backup processor</td><td></td></tr>
+<tr><td>3-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025069  Flight level pressure corrections</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Smoothed</td><td></td></tr>
+<tr><td>2</td><td>Baseline adjusted</td><td></td></tr>
+<tr><td>3</td><td>Normalized time interval</td><td></td></tr>
+<tr><td>4</td><td>Outlier checked</td><td></td></tr>
+<tr><td>5</td><td>Plausibility checked</td><td></td></tr>
+<tr><td>6</td><td>Consistency checked</td><td></td></tr>
+<tr><td>7</td><td>Interpolated</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025086  Depth correction indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Depths are not corrected</td><td></td></tr>
+<tr><td>1</td><td>Depths are corrected</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025090  Orbit state flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Orbit computed during a manoeuvre</td><td></td></tr>
+<tr><td>1</td><td>Adjusted mission operations orbit</td><td></td></tr>
+<tr><td>2</td><td>Extrapolated mission operations orbit</td><td></td></tr>
+<tr><td>3</td><td>Adjusted (preliminary/precise) orbit</td><td></td></tr>
+<tr><td>4</td><td>(Preliminary/precise) orbit is estimated during a manoeuvre period</td><td></td></tr>
+<tr><td>5</td><td>(Preliminary/precise) orbit is interpolated over a tracking data gap</td><td></td></tr>
+<tr><td>6</td><td>(Preliminary/precise) orbit is extrapolated for a duration less than 1 day</td><td></td></tr>
+<tr><td>7</td><td>(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days</td><td></td></tr>
+<tr><td>8</td><td>(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre</td><td></td></tr>
+<tr><td>9</td><td>DORIS DIODE navigator orbit</td><td>Note 37: Missing for non-directional spectra.</td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025093  RASS computation correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No correction</td><td></td></tr>
+<tr><td>2</td><td>Vertical velocity correction</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>All corrections</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025095  Altimeter state flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Altimeter operating (0 if nominal, 1 if backup)</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025096  Radiometer state flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Mode indicator (0 if mode 2, 1 if mode 1)</td><td></td></tr>
+<tr><td>2</td><td>Mode 1 calibration sequence indicator (0 if normal data taking either mode 1 or 2, 1 if mode 1 calibration sequence)  Bits 3 and 4 indicate active 23.8 GHz channel(s):</td><td></td></tr>
+<tr><td>3</td><td>Channel 2 (0 if on, 1 if off)</td><td></td></tr>
+<tr><td>4</td><td>Channel 3 (0 if on, 1 if off)</td><td></td></tr>
+<tr><td>All 5</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025097  Three-dimensional error estimate of the navigator orbit</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ranges between 0 and 30 cm</td><td></td></tr>
+<tr><td>1</td><td>Ranges between 30 and 60 cm</td><td></td></tr>
+<tr><td>2</td><td>Ranges between 60 and 90 cm</td><td></td></tr>
+<tr><td>3</td><td>Ranges between 90 and 120 cm</td><td></td></tr>
+<tr><td>4</td><td>Ranges between 120 and 150 cm</td><td></td></tr>
+<tr><td>5</td><td>Ranges between 150 and 180 cm</td><td></td></tr>
+<tr><td>6</td><td>Ranges between 180 and 210 cm</td><td></td></tr>
+<tr><td>7</td><td>Ranges between 210 and 240 cm</td><td></td></tr>
+<tr><td>8</td><td>Ranges between 240 and 270 cm</td><td></td></tr>
+<tr><td>9</td><td>Ranges larger than 270 cm</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025098  Altimeter data quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ku band range</td><td></td></tr>
+<tr><td>2</td><td>C band range</td><td></td></tr>
+<tr><td>3</td><td>Ku band SWH</td><td></td></tr>
+<tr><td>4</td><td>C band SWH</td><td></td></tr>
+<tr><td>5</td><td>Ku band backscatter coefficient</td><td></td></tr>
+<tr><td>6</td><td>C band backscatter coefficient</td><td></td></tr>
+<tr><td>7</td><td>Off nadir angle from Ku band waveform parameters</td><td></td></tr>
+<tr><td>8</td><td>Off nadir angle from platform</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025099  Altimeter correction quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ku band range instrumental correction</td><td></td></tr>
+<tr><td>2</td><td>C band range instrumental correction</td><td></td></tr>
+<tr><td>3</td><td>Ku band SWH instrumental correction</td><td></td></tr>
+<tr><td>4</td><td>C band SWH instrumental correction</td><td></td></tr>
+<tr><td>5</td><td>Ku band backscatter coefficient instrumental correction</td><td></td></tr>
+<tr><td>6</td><td>C band backscatter coefficient instrumental correction</td><td></td></tr>
+<tr><td>7-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025110  Image processing summary</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Raw data analysis used for raw data correction. Correction done using default parameters</td><td></td></tr>
+<tr><td>2</td><td>Raw data analysis used for raw data correction. Correction done using raw data analysis results</td><td></td></tr>
+<tr><td>3</td><td>Antenna elevation pattern correction applied</td><td></td></tr>
+<tr><td>4</td><td>Nominal chirp replica used</td><td></td></tr>
+<tr><td>5</td><td>Reconstructed chirp used</td><td></td></tr>
+<tr><td>6</td><td>Slant range to ground range conversion applied</td><td></td></tr>
+<tr><td>7-9</td><td>Reserved</td><td></td></tr>
+<tr><td>All 10</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025112  Band specific altimeter data quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Band specific range</td><td></td></tr>
+<tr><td>2</td><td>Band specific significant wave height</td><td></td></tr>
+<tr><td>3</td><td>Band specific backscatter coefficient</td><td></td></tr>
+<tr><td>4</td><td>Off nadir angle from band specific waveform parameters</td><td></td></tr>
+<tr><td>5</td><td>Off nadir angle from platform</td><td></td></tr>
+<tr><td>6-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025113  Band specific altimeter correction quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Band specific range instrumental correction</td><td></td></tr>
+<tr><td>2</td><td>Band specific significant wave height instrumental correction</td><td></td></tr>
+<tr><td>3</td><td>Band specific backscatter coefficient instrumental correction</td><td></td></tr>
+<tr><td>4-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025120  RA2-L2-processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold</td><td></td></tr>
+<tr><td>1</td><td>Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025122  Hardware configuration for RF</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hardware configuration for RF is A</td><td></td></tr>
+<tr><td>1</td><td>Hardware configuration for RF is B</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025123  Hardware configuration for HPA</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hardware configuration for HPA is A</td><td></td></tr>
+<tr><td>1</td><td>Hardware configuration for HPA is B</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025124  MWR-L2-processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold</td><td></td></tr>
+<tr><td>1</td><td>Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025139  Processing level</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>L1B</td><td></td></tr>
+<tr><td>1</td><td>L2A</td><td></td></tr>
+<tr><td>2-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025150  Method of tropical cyclone intensity analysis using satellite data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>The Dvorak&#x27;s VIS (VISual imagery) intensity analysis</td><td></td></tr>
+<tr><td>2</td><td>The Dvorak&#x27;s EIR (Enhanced InfraRed imagery) intensity analysis</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025174  SMOS information flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Pixel is affected by RFI effects</td><td></td></tr>
+<tr><td>2</td><td>Pixel is located in the hexagonal alias direction centred on Sun alias</td><td></td></tr>
+<tr><td>3</td><td>Pixel is close to the border delimiting the extended alias free zone</td><td></td></tr>
+<tr><td>4</td><td>Pixel is inside the extended alias free zone</td><td></td></tr>
+<tr><td>5</td><td>Pixel is inside the exclusive of alias free zone</td><td></td></tr>
+<tr><td>6</td><td>Pixel is located in a zone where a moon alias was reconstructed</td><td></td></tr>
+<tr><td>7</td><td>Pixel is located in a zone where Sun reflection has been detected</td><td></td></tr>
+<tr><td>8</td><td>Pixel is located in a zone where Sun alias was reconstructed</td><td></td></tr>
+<tr><td>9</td><td>Flat target transformation has been performed during image reconstruction of this pixel</td><td></td></tr>
+<tr><td>10</td><td>Scene has been combined with an adjustment scene in opposite polarization during image reconstruction to account for cross-polarization leakage</td><td></td></tr>
+<tr><td>11</td><td>Direct Moon correction has been performed during image reconstruction of this pixel</td><td></td></tr>
+<tr><td>12</td><td>Reflected Sun correction has been performed during image reconstruction of this pixel</td><td></td></tr>
+<tr><td>13</td><td>Direct Sun correction has been performed during image reconstruction of this image</td><td></td></tr>
+<tr><td>All 14</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025181  L2 processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>Percentage of L2b records free of processing errors is less than acceptable threshold</td><td></td></tr>
+<tr><td>2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025182  L1 processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>Percentage of L1b records free of processing errors is less than acceptable threshold</td><td></td></tr>
+<tr><td>2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025184  L2 product status</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>Product as a duration shorter than the input product</td><td></td></tr>
+<tr><td>2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025185  Encryption method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>AES 256</td><td></td></tr>
+<tr><td>1-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025187  Confidence flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Valid</td><td></td></tr>
+<tr><td>1</td><td>Invalid</td><td></td></tr>
+<tr><td>2-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025188  Method for reducing pressure to sea level</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pressure adjusted to mean sea level following WMO-No. 8 for low level (&lt; 50 m) stations</td><td>Note 44: Sequence 3 09 030 is deprecated because of incorrect usage of descriptor 0 04 015; sequence 3 09 031 should be used instead.</td></tr>
+<tr><td>1</td><td>Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m</td><td></td></tr>
+<tr><td>2</td><td>Pressure adjusted to sea level following national practice</td><td></td></tr>
+<tr><td>3</td><td>Pressure adjusted to local water level following national practice</td><td></td></tr>
+<tr><td>4</td><td>Pressure not corrected for height</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025190  Altimeter echo processing mode</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Low-resolution mode (LRM)</td><td></td></tr>
+<tr><td>1</td><td>Synthetic aperture radar (SAR)</td><td></td></tr>
+<tr><td>2</td><td>LRM and SAR (interleaved)</td><td></td></tr>
+<tr><td>3</td><td>Reserved</td><td></td></tr>
+<tr><td>4</td><td>Pseudo-LRM (PLRM)</td><td></td></tr>
+<tr><td>5</td><td>SAR interferometric mode (SARIN)</td><td></td></tr>
+<tr><td>6-254</td><td>Reserved </td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">025191  Altimeter tracking mode</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Open  loop </td><td></td></tr>
+<tr><td>1</td><td>Closed loop</td><td></td></tr>
+<tr><td>2</td><td>Open loop fixed gain</td><td></td></tr>
+<tr><td>3-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

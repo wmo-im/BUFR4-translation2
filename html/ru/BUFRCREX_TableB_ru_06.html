@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 06: Местоположение (горизонтальное – 2) в BUFR/CREX</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 06: Местоположение (горизонтальное – 2) в BUFR/CREX</h1>
+<table>
+<thead><tr><th>FXY</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ЕД. ИЗМ. BUFR</th><th>МАСШТАБ</th><th>НАЧ. ОТСЧ.</th><th>БИТЫ</th><th>ЕД. ИЗМ. CREX</th><th>МАСШТАБ</th><th>СИМВ.</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>006001</td><td>Долгота (высокая точность)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>deg</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>006002</td><td>Долгота (низкая точность)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>006011</td><td>Увеличение долготы (высокая точность)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>deg</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>006012</td><td>Увеличение долготы (низкая точность)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>006015</td><td>Сдвиг по долготе (высокая точность)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>deg</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>006016</td><td>Сдвиг по долготе (низкая точность)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>006021</td><td>Расстояние</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>006029</td><td>Волновое число</td><td>/m</td><td>1</td><td>0</td><td>22</td><td>/m</td><td>1</td><td>7</td><td></td></tr>
+<tr><td>006030</td><td>Волновое число (спектральное)</td><td>rad/m</td><td>5</td><td>0</td><td>13</td><td>rad/m</td><td>5</td><td>4</td><td></td></tr>
+<tr><td>006031</td><td>Номер колонки</td><td>Числовой</td><td>0</td><td>0</td><td>12</td><td>Числовой</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>006032</td><td>Смещение по оси X</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>11</td><td>Note 183: Смещение по оси X — это расстояния между точкой отсчета проекции и верхним левым углом верхнего левого пикселя на карте.</td></tr>
+<tr><td>006033</td><td>Размер элемента изображения на горизонтали – 2</td><td>m</td><td>-1</td><td>0</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>006034</td><td>Номер ячейки поперек траектории</td><td>Числовой</td><td>0</td><td>0</td><td>7</td><td>Числовой</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>006035</td><td>Максимальный размер Y-размерности</td><td>Числовой</td><td>0</td><td>0</td><td>12</td><td>Числовой</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>006040</td><td>Диапазон достоверности</td><td>m</td><td>0</td><td>0</td><td>13</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

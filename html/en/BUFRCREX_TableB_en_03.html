@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 03: Instrumentation</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 03: Instrumentation</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>003001</td><td>Surface station type</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003003</td><td>Thermometer/hygrometer housing</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003004</td><td>Type of screen/shelter/radiation shield</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003005</td><td>Horizontal width of screen or shield (x)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>003006</td><td>Horizontal depth of screen or shield (y)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>003007</td><td>Vertical height of screen or shield (z)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>003008</td><td>Artificially ventilated screen or shield</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003009</td><td>Amount of forced ventilation at time of reading</td><td>m/s</td><td>1</td><td>0</td><td>9</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>003010</td><td>Method of sea/water current measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003011</td><td>Method of depth calculation</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003012</td><td>Instrument type/sensor for dissolved oxygen measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003016</td><td>Position of road sensors</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003017</td><td>Extended type of station</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003018</td><td>Type of road</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003019</td><td>Type of construction</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003020</td><td>Material for thermometer/hygrometer housing</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003021</td><td>Hygrometer heating</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003022</td><td>Instrument owner</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003023</td><td>Configuration of louvers for thermometer/hygrometer screen</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003024</td><td>Psychrometric coefficient</td><td>K-1</td><td>6</td><td>0</td><td>10</td><td>K-1</td><td>6</td><td>3</td><td></td></tr>
+<tr><td>003025</td><td>Cross-track estimation area size</td><td>m</td><td>0</td><td>5000</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>003026</td><td>Along-track estimation area size</td><td>m</td><td>0</td><td>5000</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>003027</td><td>Type of flight rig</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003028</td><td>Method of snow water equivalent measurement</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>003029</td><td>Swath</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003030</td><td>Antenna status</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>003031</td><td>Channel bandwidth, full width half maximum (FWHM)</td><td>m</td><td>11</td><td>0</td><td>16</td><td>m</td><td>11</td><td>13</td><td></td></tr>
+<tr><td>003032</td><td>Channel centre frequency</td><td>Hz</td><td>-6</td><td>0</td><td>26</td><td>Hz</td><td>-6</td><td>10</td><td></td></tr>
+<tr><td>003033</td><td>Channel bandwidth</td><td>Hz</td><td>-6</td><td>0</td><td>26</td><td>Hz</td><td>-6</td><td>10</td><td></td></tr>
+<tr><td>003034</td><td>Channel wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 25: Processing information</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 25: Processing information</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>025001</td><td>Range-gate length</td><td>m</td><td>-1</td><td>0</td><td>6</td><td>m</td><td>-1</td><td>2</td><td></td></tr>
+<tr><td>025002</td><td>Number of gates averaged</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025003</td><td>Number of integrated pulses</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025004</td><td>Echo processing</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025005</td><td>Echo integration</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025006</td><td>Z to R conversion</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025007</td><td>Z to R conversion factor</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025008</td><td>Z to R conversion exponent</td><td>Numeric</td><td>2</td><td>0</td><td>9</td><td>Numeric</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>025009</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note 56: The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequences 3 09 024, 3 09 025 and 3 09 026, respectively, should be used instead.</td></tr>
+<tr><td>025010</td><td>Clutter treatment</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025011</td><td>Ground occultation correction (screening)</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025012</td><td>Range attenuation correction</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025013</td><td>Bright-band correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025014</td><td>Azimuth clutter cut-off</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td>Note 15: Descriptors 3 03 021 to 3 03 027 are not available in CREX.</td></tr>
+<tr><td>025015</td><td>Radome attenuation correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025016</td><td>Clear-air attenuation correction</td><td>dB/m</td><td>5</td><td>0</td><td>6</td><td>dB/m</td><td>5</td><td>2</td><td></td></tr>
+<tr><td>025017</td><td>Precipitation attenuation correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025018</td><td>A to Z law for attenuation factor</td><td>Numeric</td><td>7</td><td>0</td><td>6</td><td>Numeric</td><td>7</td><td>2</td><td></td></tr>
+<tr><td>025019</td><td>A to Z law for attenuation exponent</td><td>Numeric</td><td>2</td><td>0</td><td>7</td><td>Numeric</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>025020</td><td>Mean speed estimation</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025021</td><td>Wind computation enhancement</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025022</td><td>GHRSST rejection flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025023</td><td>GHRSST confidence flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025024</td><td>GHRSST data quality</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025025</td><td>Battery voltage</td><td>V</td><td>1</td><td>0</td><td>9</td><td>V</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>025026</td><td>Battery voltage (large range)</td><td>V</td><td>1</td><td>0</td><td>12</td><td>V</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>025028</td><td>Operator or manufacturer defined parameter</td><td>Numeric</td><td>1</td><td>-16384</td><td>15</td><td>Numeric</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>025029</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td>Note 56: The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequences 3 09 024, 3 09 025 and 3 09 026, respectively, should be used instead.</td></tr>
+<tr><td>025030</td><td>Running mean sea-surface temperature usage</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025031</td><td>NWP-generated vertical profile thinning method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025032</td><td>Wind profiler mode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>025033</td><td>Wind profiler submode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>025034</td><td>Wind profiler quality control test results</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>025035</td><td>Decision method for polarity</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td>Note 34: Latitude displacement 0 05 015 in the sequence represents the latitude offset from the latitude of the launch site. Longitude displacement 0 06 015 in the sequence represents the longitude offset from the longitude of the launch site.</td></tr>
+<tr><td>025036</td><td>Atmospherics location method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025037</td><td>SST bias</td><td>K</td><td>2</td><td>-127</td><td>8</td><td>K</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>025038</td><td>Difference between SST and analysis</td><td>K</td><td>1</td><td>-127</td><td>8</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>025040</td><td>CO2 wind product derivation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025041</td><td>Moving platform direction reporting method</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025042</td><td>Moving platform speed reporting method</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025043</td><td>Wave sampling interval (time)</td><td>s</td><td>4</td><td>0</td><td>15</td><td>s</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>025044</td><td>Wave sampling interval (space)</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025045</td><td>HIRS channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>025046</td><td>MSU channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025047</td><td>SSU channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025048</td><td>AMSU-A channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>025049</td><td>AMSU-B channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025050</td><td>Principal component score</td><td>Numeric</td><td>4</td><td>-131072</td><td>18</td><td>Numeric</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>025051</td><td>AVHRR channel combination</td><td>Flag table</td><td>0</td><td>0</td><td>7</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025052</td><td>Log10 of principal components normalized fit to data</td><td>Numeric</td><td>4</td><td>0</td><td>15</td><td>Numeric</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>025053</td><td>Observation quality</td><td>Flag table</td><td>0</td><td>0</td><td>12</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025054</td><td>SSMIS subframe ID number</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025055</td><td>Multiplexer housekeeping</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025056</td><td>Normalized error estimate in backscatter measurement (Kp)</td><td>Numeric</td><td>4</td><td>0</td><td>14</td><td>Numeric</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>025060</td><td>Software identification</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>025061</td><td>Software identification and version number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>96</td><td>Character</td><td>0</td><td>12</td><td></td></tr>
+<tr><td>025062</td><td>Database identification</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>025063</td><td>Central processor or system identifier</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td>Note 71: Time of launch 3 01 113 in the sequence shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be put to zero.</td></tr>
+<tr><td>025065</td><td>Orientation correction (azimuth)</td><td>deg</td><td>2</td><td>-1000</td><td>11</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>025066</td><td>Orientation correction (elevation)</td><td>deg</td><td>2</td><td>-1000</td><td>11</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>025067</td><td>Radiosonde release point pressure correction</td><td>Pa</td><td>0</td><td>-8000</td><td>14</td><td>Pa</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025068</td><td>Number of archive recomputes</td><td>Numeric</td><td>0</td><td>0</td><td>7</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025069</td><td>Flight level pressure corrections</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025070</td><td>Major frame count</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025071</td><td>Frame count</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025075</td><td>Satellite antenna corrections version number</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025076</td><td>Log10 of (temperature-radiance central wave number) for ATOVS</td><td>log (m-1)</td><td>8</td><td>0</td><td>30</td><td>log (m-1)</td><td>8</td><td>10</td><td></td></tr>
+<tr><td>025077</td><td>Bandwidth correction coefficient 1</td><td>Numeric</td><td>5</td><td>-100000</td><td>18</td><td>Numeric</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>025078</td><td>Bandwidth correction coefficient 2</td><td>Numeric</td><td>5</td><td>0</td><td>17</td><td>Numeric</td><td>5</td><td>6</td><td></td></tr>
+<tr><td>025079</td><td>Albedo-radiance solar filtered irradiance for ATOVS</td><td>W m-2</td><td>4</td><td>0</td><td>24</td><td>W m-2</td><td>4</td><td>8</td><td></td></tr>
+<tr><td>025080</td><td>Albedo-radiance equivalent filter width for ATOVS</td><td>m</td><td>10</td><td>0</td><td>14</td><td>m</td><td>10</td><td>5</td><td></td></tr>
+<tr><td>025081</td><td>Incidence angle</td><td>deg</td><td>3</td><td>0</td><td>17</td><td>deg</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>025082</td><td>Azimuth angle</td><td>deg</td><td>3</td><td>0</td><td>19</td><td>deg</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>025083</td><td>Faraday rotational angle</td><td>deg</td><td>3</td><td>0</td><td>19</td><td>deg</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>025084</td><td>Geometric rotational angle</td><td>deg</td><td>5</td><td>0</td><td>26</td><td>deg</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>025085</td><td>Fraction of clear pixels in HIRS FOV</td><td>Numeric</td><td>0</td><td>0</td><td>7</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025086</td><td>Depth correction indicator</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025090</td><td>Orbit state flag</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025091</td><td>Structure constant of the refraction index (Cn2)</td><td>dB</td><td>3</td><td>-18192</td><td>13</td><td>dB</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025092</td><td>Acoustic propagation velocity</td><td>m/s</td><td>2</td><td>28000</td><td>14</td><td>m/s</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025093</td><td>RASS computation correction</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025095</td><td>Altimeter state flag</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025096</td><td>Radiometer state flag</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025097</td><td>Three-dimensional error estimate of the navigator orbit</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025098</td><td>Altimeter data quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025099</td><td>Altimeter correction quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025100</td><td>XBT/XCTD fall rate equation coefficient a</td><td>Numeric</td><td>5</td><td>0</td><td>20</td><td>Numeric</td><td>5</td><td>6</td><td></td></tr>
+<tr><td>025101</td><td>XBT/XCTD fall rate equation coefficient b</td><td>Numeric</td><td>5</td><td>-500000</td><td>21</td><td>Numeric</td><td>5</td><td>6</td><td></td></tr>
+<tr><td>025102</td><td>Number of missing lines excluding data gaps</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025103</td><td>Number of directional bins</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025104</td><td>Number of wavelength bins</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025105</td><td>First directional bin</td><td>deg</td><td>3</td><td>0</td><td>19</td><td>deg</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>025106</td><td>Directional bin step</td><td>deg</td><td>3</td><td>0</td><td>19</td><td>deg</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>025107</td><td>First wavelength bin</td><td>m</td><td>3</td><td>0</td><td>29</td><td>m</td><td>3</td><td>9</td><td></td></tr>
+<tr><td>025108</td><td>Last wavelength bin</td><td>m</td><td>3</td><td>0</td><td>29</td><td>m</td><td>3</td><td>9</td><td></td></tr>
+<tr><td>025110</td><td>Image processing summary</td><td>Flag table</td><td>0</td><td>0</td><td>10</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025111</td><td>Number of input data gaps</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025112</td><td>Band specific altimeter data quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025113</td><td>Band specific altimeter correction quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025120</td><td>RA2-L2-processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025121</td><td>RA2-L2-processing quality</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025122</td><td>Hardware configuration for RF</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025123</td><td>Hardware configuration for HPA</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025124</td><td>MWR-L2-processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025125</td><td>MWR-L2-processing quality</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025126</td><td>Model dry tropospheric correction</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025127</td><td>Inverted barometer correction</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025128</td><td>Model wet tropospheric correction</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025129</td><td>MWR derived wet tropospheric correction</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025130</td><td>RA2 ionospheric correction on Ku band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025131</td><td>Ionospheric correction from Doris on Ku band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025132</td><td>Ionospheric correction from model on Ku band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025133</td><td>Sea state bias correction on Ku band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025134</td><td>RA2 ionospheric correction on S band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025135</td><td>Ionospheric correction from Doris on S band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025136</td><td>Ionospheric correction from model on S band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025137</td><td>Sea state bias correction on S band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025138</td><td>Average signal-to-noise ratio</td><td>Numeric</td><td>0</td><td>-2048</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025139</td><td>Processing level</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025140</td><td>Start channel</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>025141</td><td>End channel</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>025142</td><td>Channel scale factor</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025143</td><td>Linear coefficient</td><td>Numeric</td><td>6</td><td>-5000000</td><td>24</td><td>Numeric</td><td>6</td><td>8</td><td>Note 57: The ship&#x27;s call sign or WMO identifier should be reported using descriptor 0 01 011.</td></tr>
+<tr><td>025144</td><td>Number of visual channels used in processing</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025145</td><td>Number of infrared channels used in processing</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025148</td><td>Coefficient of variation</td><td>Numeric</td><td>2</td><td>-10000</td><td>15</td><td>Numeric</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025149</td><td>Optimal estimation cost</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025150</td><td>Method of tropical cyclone intensity analysis using satellite data</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025160</td><td>Ku band net instrumental correction</td><td>m</td><td>4</td><td>-120000</td><td>18</td><td>m</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>025161</td><td>C band net instrumental correction</td><td>m</td><td>4</td><td>-120000</td><td>18</td><td>m</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>025162</td><td>Sea state bias correction on C band</td><td>m</td><td>4</td><td>-6000</td><td>13</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>025163</td><td>Altimeter ionospheric correction on Ku band</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>025164</td><td>Radiometer wet tropospheric correction</td><td>m</td><td>4</td><td>-5000</td><td>13</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>025165</td><td>Ionospheric correction from model on specific band</td><td>m</td><td>4</td><td>-32768</td><td>16</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>025166</td><td>Sea state bias correction on specific band</td><td>m</td><td>4</td><td>-32768</td><td>16</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>025167</td><td>Specific band net instrumental correction</td><td>m</td><td>4</td><td>-120000</td><td>18</td><td>m</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>025170</td><td>Sampling interval (time)</td><td>s</td><td>0</td><td>0</td><td>10</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025171</td><td>Sample averaging period</td><td>s</td><td>0</td><td>0</td><td>10</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025172</td><td>Number of samples</td><td>Numeric</td><td>0</td><td>0</td><td>10</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>025174</td><td>SMOS information flag</td><td>Flag table</td><td>0</td><td>0</td><td>14</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>025175</td><td>Modified residual</td><td>Numeric</td><td>2</td><td>0</td><td>13</td><td>Numeric</td><td>2</td><td>4</td><td>Note 103: Modified residual calculated from the loci of the sensors and signal to noise ratios for the flash.</td></tr>
+<tr><td>025180</td><td>LRM per cent</td><td>%</td><td>2</td><td>0</td><td>16</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025181</td><td>L2 processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025182</td><td>L1 processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025183</td><td>L1 processing quality</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>025184</td><td>L2 product status</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>025185</td><td>Encryption method</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025186</td><td>Encryption key version</td><td>CCITT IA5</td><td>0</td><td>0</td><td>96</td><td>Character</td><td>0</td><td>12</td><td></td></tr>
+<tr><td>025187</td><td>Confidence flag</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025188</td><td>Method for reducing pressure to sea level</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>025189</td><td>Range cut-off wavelength</td><td>m</td><td>0</td><td>1</td><td>9</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025190</td><td>Altimeter echo processing mode</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>025191</td><td>Altimeter tracking mode</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

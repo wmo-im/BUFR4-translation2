@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 07: Ubicación (vertical)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 07: Ubicación (vertical)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>007001</td><td>Altura de la estación</td><td>m</td><td>0</td><td>-400</td><td>15</td><td>m</td><td>0</td><td>5</td><td>Note 116: Con respecto a datos provenientes de estaciones basadas en tierra, este descriptor debería utilizarse solamente para datos archivados. Los descriptores 0 07 030 y 0 07 031 deberían utilizarse y preferirse para representar la elevación del suelo y la elevación del barómetro, respectivamente, según se define en Informes Meteorológicos (OMM-Nº 9), volumen A, Estaciones de observación. Con respecto a estaciones marinas, este descriptor se refiere a la altura sobre el nivel medio del mar del puente de la plataforma marina donde reposa el instrumento.</td></tr>
+<tr><td>007002</td><td>Altura o altitud</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>007003</td><td>Geopotencial</td><td>m² s-2</td><td>-1</td><td>-400</td><td>17</td><td>m² s-2</td><td>-1</td><td>6</td><td></td></tr>
+<tr><td>007004</td><td>Presión</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>007005</td><td>Incremento de la altura</td><td>m</td><td>0</td><td>-400</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>007006</td><td>Altura por encima de la estación</td><td>m</td><td>0</td><td>0</td><td>15</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>007007</td><td>Altura</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>007008</td><td>Geopotencial</td><td>m² s-2</td><td>0</td><td>-10000</td><td>20</td><td>m² s-2</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>007009</td><td>Altura geopotencial</td><td>gpm</td><td>0</td><td>-1000</td><td>17</td><td>gpm</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>007010</td><td>Nivel de vuelo</td><td>m</td><td>0</td><td>-1024</td><td>16</td><td>ft</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>007012</td><td>Altitud del punto de retícula</td><td>m</td><td>2</td><td>-50000</td><td>20</td><td>m</td><td>2</td><td>7</td><td></td></tr>
+<tr><td>007021</td><td>Elevación</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td>Note 68: Esta secuencia queda relegada por utilización incorrecta del descriptor 0 04 075 en la secuencia 3 06 020; en su lugar debería utilizarse la secuencia 3 06 025.</td></tr>
+<tr><td>007022</td><td>Elevación solar</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>007024</td><td>Ángulo cenital del satélite</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>007025</td><td>Ángulo cenital del sol</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>007026</td><td>Ángulo cenital del satélite</td><td>°</td><td>4</td><td>-900000</td><td>21</td><td>°</td><td>4</td><td>7</td><td></td></tr>
+<tr><td>007030</td><td>Altura del suelo de la estación sobre el nivel medio del mar</td><td>m</td><td>1</td><td>-4000</td><td>17</td><td>m</td><td>1</td><td>5</td><td>Note 87: La altura del suelo de la estación sobre el nivel medio del mar se define como la altura sobre el nivel medio del mar del suelo en que se encuentra el pluviómetro o, si no hay pluviómetro, el suelo por debajo del abrigo del termómetro. De no haber pluviómetro ni abrigo, es el nivel medio del terreno en la proximidad de la estación (Referencia: Guía de instrumentos y métodos de observación meteorológicos (OMM-Nº 8), 1996).</td></tr>
+<tr><td>007031</td><td>Altura del barómetro sobre el nivel medio del mar</td><td>m</td><td>1</td><td>-4000</td><td>17</td><td>m</td><td>1</td><td>5</td><td>Note 84: La altura del barómetro por encima del nivel medio del mar, en referencia a la ubicación del barómetro de una estación, no redefine el descriptor 0 07 030.</td></tr>
+<tr><td>007032</td><td>Altura del sensor sobre el suelo local  (véase la nota 5)</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td>Note 85: La altura del sensor sobre el suelo local (o el puente de una plataforma marina) es la altura real por encima del suelo (o el puente de la plataforma marina) en el punto donde se encuentra el sensor. Este descriptor no redefine los descriptores 0 07 030 ni 0 07 033. El valor definido previamente de 0 07 032 puede cancelarse asignando a 0 07 032 un “valor faltante”.</td></tr>
+<tr><td>007033</td><td>Altura del sensor sobre la superficie del agua</td><td>m</td><td>1</td><td>0</td><td>12</td><td>m</td><td>1</td><td>4</td><td>Note 86: La altura del sensor sobre la superficie del agua es la altura del sensor sobre la superficie del agua del mar o de un lago. Este descriptor no redefine los descriptores 0 07 030 ni 0 07 032. El valor definido previamente de 0 07 033 puede cancelarse asignando a 0 07 033 un “valor faltante”.</td></tr>
+<tr><td>007035</td><td>Tamaño máximo de la dimensión z</td><td>Numérica</td><td>0</td><td>0</td><td>12</td><td>Numérica</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>007036</td><td>Índice del nivel de z</td><td>Numérica</td><td>0</td><td>0</td><td>12</td><td>Numérica</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>007040</td><td>Parámetro de impacto</td><td>m</td><td>1</td><td>62000000</td><td>22</td><td>m</td><td>1</td><td>8</td><td>Note 74: Para representar la intensidad de la precipitación, el tipo de precipitación y el estado de funcionalidad, se utilizan, respectivamente los descriptores 0 20 024 (tabla de cifrado), 0 20 021 (tabla de banderines) y 0 33 005 (tabla de banderines).</td></tr>
+<tr><td>007061</td><td>Profundidad por debajo de la superficie de la tierra</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>007062</td><td>Profundidad por debajo de la superficie del mar/del agua</td><td>m</td><td>1</td><td>0</td><td>17</td><td>m</td><td>1</td><td>6</td><td></td></tr>
+<tr><td>007063</td><td>Profundidad bajo la superficie del mar/agua</td><td>m</td><td>2</td><td>0</td><td>20</td><td>m</td><td>2</td><td>7</td><td></td></tr>
+<tr><td>007064</td><td>Altura representativa del sensor por encima de la estación</td><td>m</td><td>0</td><td>0</td><td>4</td><td>m</td><td>0</td><td>2</td><td>Note 117: La altura representativa del sensor por encima de la estación es la altura, estándar de un sensor requerida por la documentación de la OMM. El valor del elemento meteorológico siguiente debería ajustarse mediante una fórmula. Por ejemplo, la altura estándar recomendada en la documentación de la OMM para los sensores de viento en superficie es 10 metros. Si el sensor se sitúa a una altura diferente, la velocidad del viento puede ajustarse mediante una fórmula. I.2 – BUFR/CREX Tabla B/07 – 3</td></tr>
+<tr><td>007065</td><td>Presión del agua</td><td>Pa</td><td>-3</td><td>0</td><td>17</td><td>Pa</td><td>-3</td><td>6</td><td></td></tr>
+<tr><td>007070</td><td>Profundidad del ancla flotante</td><td>m</td><td>0</td><td>0</td><td>10</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>007071</td><td>Altura (alta resolución)</td><td>m</td><td>3</td><td>-10000000</td><td>26</td><td>m</td><td>3</td><td>8</td><td></td></tr>
+<tr><td>007072</td><td>Ángulo de exploración</td><td>grado</td><td>2</td><td>-9000</td><td>15</td><td>grados</td><td>2</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

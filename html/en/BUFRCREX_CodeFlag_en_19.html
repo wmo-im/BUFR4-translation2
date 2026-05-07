@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 19</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 19</h1>
+<p class="fxy-heading">019001  Type of synoptic feature</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Depression or low (extratroplcal)</td><td></td></tr>
+<tr><td>1</td><td>Tropical depression</td><td></td></tr>
+<tr><td>2</td><td>Tropical storm</td><td></td></tr>
+<tr><td>3</td><td>Severe tropical storm</td><td></td></tr>
+<tr><td>4</td><td>Typhoon</td><td></td></tr>
+<tr><td>5-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>Dust/sandstorm</td><td></td></tr>
+<tr><td>11-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019008  Vertical extent of circulation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Shallow (top of circulation below 700-hPa level)</td><td></td></tr>
+<tr><td>2</td><td>Medium (top between 700-hPa and 400-hPa level)</td><td></td></tr>
+<tr><td>3</td><td>Deep (top above 400-hPa level)</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019010  Method for tracking the centre of synoptic feature</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Minimum value of sea level pressure</td><td></td></tr>
+<tr><td>2</td><td>Maximum value of 850 hPa relative vorticity</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019100  Time interval to calculate the movement of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-2</td><td>Not used</td><td></td></tr>
+<tr><td>3</td><td>During the preceding 15 minutes</td><td></td></tr>
+<tr><td>4</td><td>During the preceding 30 minutes</td><td></td></tr>
+<tr><td>5</td><td>During the preceding 1 hour</td><td></td></tr>
+<tr><td>6</td><td>During the preceding 2 hours</td><td></td></tr>
+<tr><td>7</td><td>During the preceding 3 hours</td><td></td></tr>
+<tr><td>8</td><td>During the preceding 6 hours</td><td></td></tr>
+<tr><td>9</td><td>During a period of more than 6 hours</td><td></td></tr>
+<tr><td>10</td><td>Undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019101  Accuracy of the position of the centre of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Eye visible on radar scope, accuracy good (within 10 km)</td><td></td></tr>
+<tr><td>2</td><td>Eye visible on radar scope, accuracy fair (within 30 km)</td><td></td></tr>
+<tr><td>3</td><td>Eye visible on radar scope, accuracy poor (within 50 km)</td><td></td></tr>
+<tr><td>4</td><td>Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy good (within 10 km)</td><td></td></tr>
+<tr><td>5</td><td>Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy fair (within 30 km)</td><td></td></tr>
+<tr><td>6</td><td>Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy poor (within 50 km)</td><td></td></tr>
+<tr><td>7</td><td>Position of the centre outside the area covered by the radar scope, extrapolation by means of the spiral-band overlay</td><td></td></tr>
+<tr><td>8-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>Accuracy undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019102  Shape and definition of the eye of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Circular</td><td></td><td></td></tr>
+<tr><td>1</td><td>Elliptical - the minor axis is at least 3/4 the length of the major axis</td><td>well defined</td><td></td></tr>
+<tr><td>2</td><td>Elliptical - the minor axis is less than 3/4 the length of the major axis</td><td>well defined</td><td></td></tr>
+<tr><td>3</td><td>Apparent double eye</td><td>well defined</td><td></td></tr>
+<tr><td>4</td><td>Other shape</td><td>well defined</td><td></td></tr>
+<tr><td>5</td><td>Ill defined</td><td></td><td></td></tr>
+<tr><td>6</td><td>Undetermined</td><td></td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019103  Diameter of major axis of the eye of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Less than 5 km</td><td></td></tr>
+<tr><td>1</td><td>5 to less than 10 km</td><td></td></tr>
+<tr><td>2</td><td>10 to less than 15 km</td><td></td></tr>
+<tr><td>3</td><td>15 to less than 20 km</td><td></td></tr>
+<tr><td>4</td><td>20 to less than 25 km</td><td></td></tr>
+<tr><td>5</td><td>25 to less than 30 km</td><td></td></tr>
+<tr><td>6</td><td>30 to less than 35 km</td><td></td></tr>
+<tr><td>7</td><td>35 to less than 40 km</td><td></td></tr>
+<tr><td>8</td><td>40 to less than 50 km</td><td></td></tr>
+<tr><td>9</td><td>50 km and greater</td><td></td></tr>
+<tr><td>10</td><td>Undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019104  Change in character of the eye during the 30 minutes</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Eye has first become visible during the past 30 minutes</td><td></td></tr>
+<tr><td>1</td><td>No significant change in the characteristics or size of the eye</td><td></td></tr>
+<tr><td>2</td><td>Eye has become smaller with no other significant change in characteristics</td><td></td></tr>
+<tr><td>3</td><td>Eye has become larger with no other significant change in characteristics</td><td></td></tr>
+<tr><td>4</td><td>Eye has become less distinct with no significant change in size</td><td></td></tr>
+<tr><td>5</td><td>Eye has become less distinct and decreased in size</td><td></td></tr>
+<tr><td>6</td><td>Eye has become less distinct and increased in size</td><td></td></tr>
+<tr><td>7</td><td>Eye has become more distinct with no significant change in size</td><td></td></tr>
+<tr><td>8</td><td>Eye has become more distinct and decreased in size</td><td></td></tr>
+<tr><td>9</td><td>Eye has become more distinct and increased in size</td><td></td></tr>
+<tr><td>10</td><td>Change in character and size of eye cannot be determined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019105  Distance between the end of spiral band and the centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0 to less than 100 km</td><td></td></tr>
+<tr><td>1</td><td>100 to less than 200 km</td><td></td></tr>
+<tr><td>2</td><td>200 to less than 300 km</td><td></td></tr>
+<tr><td>3</td><td>300 to less than 400 km</td><td></td></tr>
+<tr><td>4</td><td>400 to less than 500 km</td><td></td></tr>
+<tr><td>5</td><td>500 to less than 600 km</td><td></td></tr>
+<tr><td>6</td><td>600 to less than 800 km</td><td></td></tr>
+<tr><td>7</td><td>800 km or more</td><td></td></tr>
+<tr><td>8-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>Doubtful or undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019107  Time interval over which the movement of the tropical cyclone has been calculated</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Less than 1 hour</td><td></td></tr>
+<tr><td>1</td><td>1 to less than 2 hours</td><td></td></tr>
+<tr><td>2</td><td>2 to less than 3 hours</td><td></td></tr>
+<tr><td>3</td><td>3 to less than 6 hours</td><td></td></tr>
+<tr><td>4</td><td>6 to less than 9 hours</td><td></td></tr>
+<tr><td>5</td><td>9 to less than 12 hours</td><td></td></tr>
+<tr><td>6</td><td>12 to less than 15 hours</td><td></td></tr>
+<tr><td>7</td><td>15 to less than 18 hours</td><td></td></tr>
+<tr><td>8</td><td>18 to less than 21 hours</td><td></td></tr>
+<tr><td>9</td><td>21 to less than 30 hours</td><td></td></tr>
+<tr><td>10-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019108  Accuracy of geographical position of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cyclone centre within 10 km of the transmitted position</td><td></td></tr>
+<tr><td>1</td><td>Cyclone centre within 20 km of the transmitted position</td><td></td></tr>
+<tr><td>2</td><td>Cyclone centre within 50 km of the transmitted position</td><td></td></tr>
+<tr><td>3</td><td>Cyclone centre within 100 km of the transmitted position</td><td></td></tr>
+<tr><td>4</td><td>Cyclone centre within 200 km of the transmitted position</td><td></td></tr>
+<tr><td>5</td><td>Cyclone centre within 300 km of the transmitted position</td><td></td></tr>
+<tr><td>6</td><td>Cyclone centre undetermined</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019109  Mean diameter of the overcast cloud of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Less than 1 deg of latitude</td><td></td></tr>
+<tr><td>1</td><td>1 deg to less than 2 deg of latitude</td><td></td></tr>
+<tr><td>2</td><td>2 deg to less than 3 deg of latitude</td><td></td></tr>
+<tr><td>3</td><td>3 deg to less than 4 deg of latitude</td><td></td></tr>
+<tr><td>4</td><td>4 deg to less than 5 deg of latitude</td><td></td></tr>
+<tr><td>5</td><td>5 deg to less than 6 deg of latitude</td><td></td></tr>
+<tr><td>6</td><td>6 deg to less than 7 deg of latitude</td><td></td></tr>
+<tr><td>7</td><td>7 deg to less than 8 deg of latitude</td><td></td></tr>
+<tr><td>8</td><td>8 deg to less than 9 deg of latitude</td><td></td></tr>
+<tr><td>9</td><td>9 deg of latitude or more</td><td></td></tr>
+<tr><td>10</td><td>Undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019110  Apparent 24-hour change in intensity of the tropical cyclone</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Much weakening</td><td></td></tr>
+<tr><td>1</td><td>Weakening</td><td></td></tr>
+<tr><td>2</td><td>No change</td><td></td></tr>
+<tr><td>3</td><td>Intensification</td><td></td></tr>
+<tr><td>4</td><td>Strong Intensification</td><td></td></tr>
+<tr><td>5-8</td><td>Reserved</td><td></td></tr>
+<tr><td>9</td><td>Not observed previously</td><td></td></tr>
+<tr><td>10</td><td>Undetermined</td><td></td></tr>
+<tr><td>11-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019113  Cloud pattern type of the DT-number</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Curved Band</td><td></td></tr>
+<tr><td>2</td><td>Shear</td><td></td></tr>
+<tr><td>3</td><td>Eye</td><td></td></tr>
+<tr><td>4</td><td>Banding Eye</td><td></td></tr>
+<tr><td>5</td><td>Central Dense Overcast (CDO)</td><td></td></tr>
+<tr><td>6</td><td>Embedded Centre</td><td></td></tr>
+<tr><td>7</td><td>Centre Cold Cover (CCC)</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019117  Cloud picture type of the PT-number</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>A (curved band)</td><td></td></tr>
+<tr><td>2</td><td>B (CDO)</td><td></td></tr>
+<tr><td>3</td><td>C (shear)</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">019119  Type of the final T-number</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>DT-number</td><td></td></tr>
+<tr><td>2</td><td>PT-number</td><td></td></tr>
+<tr><td>3</td><td>MET-number</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

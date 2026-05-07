@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 13: Hydrographic and hydrological elements</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 13: Hydrographic and hydrological elements</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>013001</td><td>Specific humidity</td><td>kg/kg</td><td>5</td><td>0</td><td>14</td><td>kg/kg</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>013002</td><td>Mixing ratio</td><td>kg/kg</td><td>5</td><td>0</td><td>14</td><td>kg/kg</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>013003</td><td>Relative humidity</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013004</td><td>Vapour pressure</td><td>Pa</td><td>-1</td><td>0</td><td>10</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>013005</td><td>Vapour density</td><td>kg m-3</td><td>3</td><td>0</td><td>7</td><td>kg m-3</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>013006</td><td>Mixing heights</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>013007</td><td>Minimum relative humidity</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013008</td><td>Maximum relative humidity</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013009</td><td>Relative humidity</td><td>%</td><td>1</td><td>-1000</td><td>12</td><td>%</td><td>1</td><td>4</td><td>Note 39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
+<tr><td>013011</td><td>Total precipitation/total water equivalent</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013012</td><td>Depth of fresh snow</td><td>m</td><td>2</td><td>-2</td><td>12</td><td>m</td><td>2</td><td>4</td><td>Note 26: If the radiosonde is equipped with a relative humidity sensor, 0 13 009 in the sequence shall be reported as mandatory and dewpoint temperature may be included as a derived value. If the radiosonde is equipped with a dewpoint temperature sensor, 0 12 103 in the sequence shall be reported and 0 13 009 shall be set to a missing value.</td></tr>
+<tr><td>013013</td><td>Total snow depth</td><td>m</td><td>2</td><td>-2</td><td>16</td><td>m</td><td>2</td><td>5</td><td>Note 26: If the radiosonde is equipped with a relative humidity sensor, 0 13 009 in the sequence shall be reported as mandatory and dewpoint temperature may be included as a derived value. If the radiosonde is equipped with a dewpoint temperature sensor, 0 12 103 in the sequence shall be reported and 0 13 009 shall be set to a missing value.</td></tr>
+<tr><td>013014</td><td>Rainfall/water equivalent of snow (averaged rate)</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>12</td><td>kg m-2 s-1</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>013015</td><td>Snowfall (averaged rate)</td><td>m/s</td><td>7</td><td>0</td><td>12</td><td>m/s</td><td>7</td><td>4</td><td></td></tr>
+<tr><td>013016</td><td>Precipitable water</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013019</td><td>Total precipitation past 1 hour</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013020</td><td>Total precipitation past 3 hours</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013021</td><td>Total precipitation past 6 hours</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013022</td><td>Total precipitation past 12 hours</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013023</td><td>Total precipitation past 24 hours</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013031</td><td>Evapotranspiration</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013032</td><td>Evaporation/evapotranspiration</td><td>kg m-2</td><td>1</td><td>0</td><td>8</td><td>kg m-2</td><td>1</td><td>3</td><td>Note 53: The Quality information descriptor 0 33 002 at this point relates to the w-component 0 11 006. It is given for each respective gate of the profile measurement.</td></tr>
+<tr><td>013033</td><td>Evaporation/evapotranspiration</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013038</td><td>Superadiabatic indicator</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>013039</td><td>Terrain type (ice/snow)</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>013040</td><td>Surface flag</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013041</td><td>Pasquill-Gifford stability category</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013042</td><td>Parcel lifted index (to 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>Note 119: Since the two lifted indices (0 13 042 and 0 13 043) are defined as temperature differences, they may take on negative values, even though the units are kelvin; hence the non-zero reference value. | Note 130: The &quot;parcel lifted index&quot; (as defined in the International Meteorological Vocabulary (WMO-No. 182) under the listing &quot;lifted index&quot;) is defined as the temperature difference between the ambient 500-hPa temperature (T500) and that of a parcel of air lifted from the surface (Tparcel) following the dry and moist adiabatic process.Negative values of (T500 - Tparcel) suggest instability. The &quot;best lifted index&quot; is defined as the most unstable of a collection of parcel lifted indices, with parcel initial conditions defined for a collection of 30-hPa thick layers stacked one upon the other with the lowest resting on the ground. Commonly four to six such layers are used in the calculation.</td></tr>
+<tr><td>013043</td><td>Best lifted index (to 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>Note 119: Since the two lifted indices (0 13 042 and 0 13 043) are defined as temperature differences, they may take on negative values, even though the units are kelvin; hence the non-zero reference value. | Note 130: The &quot;parcel lifted index&quot; (as defined in the International Meteorological Vocabulary (WMO-No. 182) under the listing &quot;lifted index&quot;) is defined as the temperature difference between the ambient 500-hPa temperature (T500) and that of a parcel of air lifted from the surface (Tparcel) following the dry and moist adiabatic process.Negative values of (T500 - Tparcel) suggest instability. The &quot;best lifted index&quot; is defined as the most unstable of a collection of parcel lifted indices, with parcel initial conditions defined for a collection of 30-hPa thick layers stacked one upon the other with the lowest resting on the ground. Commonly four to six such layers are used in the calculation.</td></tr>
+<tr><td>013044</td><td>K index</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013045</td><td>KO index</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013046</td><td>Maximum buoyancy</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013047</td><td>Modified Showalter stability index</td><td>K</td><td>0</td><td>-60</td><td>6</td><td>C</td><td>0</td><td>2</td><td>Note 129: The &quot;Modified Showalter stability index&quot; is defined as the temperature difference between the ambient 500-hPa temperature and the temperature a parcel of air,initially at a selected base level, would have if brought from its condensation level to the 500-hPa surface by a moist adiabatic process. Positive values denote stable conditions, while negative values denote unstable conditions. The base level is 850 hPa, 800 hPa or 750 hPa if the station elevation is less than 1000, 1000 to 1400 or 1401 to 2000 gpm above mean sea level, respectively.</td></tr>
+<tr><td>013048</td><td>Water fraction</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013051</td><td>Frequency group, precipitation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013052</td><td>Highest daily amount of precipitation</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013055</td><td>Intensity of precipitation</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>8</td><td>mm/h</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013056</td><td>Character and intensity of precipitation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013057</td><td>Time of beginning or end of precipitation</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>013058</td><td>Size of precipitating element</td><td>m</td><td>4</td><td>0</td><td>7</td><td>mm</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013059</td><td>Number of flashes (thunderstorm)</td><td>Numeric</td><td>0</td><td>0</td><td>7</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013060</td><td>Total accumulated precipitation</td><td>kg m-2</td><td>1</td><td>-1</td><td>17</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>013071</td><td>Upstream water level</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013072</td><td>Downstream water level</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013073</td><td>Maximum water level</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>013074</td><td>Ground water level</td><td>m</td><td>2</td><td>0</td><td>18</td><td>m</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>013080</td><td>Water pH</td><td>pH unit</td><td>1</td><td>0</td><td>10</td><td>pH unit</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013081</td><td>Water conductivity</td><td>S/m</td><td>3</td><td>0</td><td>14</td><td>S/m</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013082</td><td>Water temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013083</td><td>Dissolved oxygen</td><td>kg m-3</td><td>6</td><td>0</td><td>15</td><td>kg m-3</td><td>6</td><td>5</td><td></td></tr>
+<tr><td>013084</td><td>Turbidity</td><td>lm</td><td>0</td><td>0</td><td>14</td><td>lm</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>013085</td><td>Oxidation Reduction Potential (ORP)</td><td>V</td><td>3</td><td>0</td><td>14</td><td>V</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013090</td><td>Radiometer water vapour content</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013091</td><td>Radiometer liquid content</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013093</td><td>Cloud optical thickness</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013094</td><td>Log10 of cloud optical thickness</td><td>Numeric</td><td>3</td><td>-2000</td><td>14</td><td>Numeric</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>013095</td><td>Total column water vapour</td><td>kg m-2</td><td>4</td><td>0</td><td>19</td><td>kg m-2</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>013096</td><td>MWR water vapour content</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>013097</td><td>MWR liquid water content</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>013098</td><td>Integrated water vapour density</td><td>kg m-2</td><td>8</td><td>0</td><td>30</td><td>kg m-2</td><td>8</td><td>10</td><td></td></tr>
+<tr><td>013099</td><td>Log10 of integrated cloud particle density</td><td>log(m-2)</td><td>1</td><td>0</td><td>7</td><td>log(m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013100</td><td>Log10 of integrated cloud particle area</td><td>log(m2 m-2)</td><td>1</td><td>-70</td><td>7</td><td>log(m2 m-2)</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>013101</td><td>Log10 of integrated cloud particle volume</td><td>log(m3 m-2)</td><td>1</td><td>-140</td><td>7</td><td>log(m3 m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>013109</td><td>Ice/liquid water path</td><td>kg m-2</td><td>3</td><td>0</td><td>10</td><td>kg m-2</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>013110</td><td>Mass mixing ratio</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013111</td><td>Soil moisture</td><td>g/kg</td><td>0</td><td>0</td><td>10</td><td>g/kg</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>013112</td><td>Object wetness duration</td><td>s</td><td>0</td><td>0</td><td>17</td><td>s</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>013114</td><td>Rate of ice accretion</td><td>kg m-2 h-1</td><td>1</td><td>0</td><td>11</td><td>kg m-2 h-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>013115</td><td>Ice thickness</td><td>m</td><td>2</td><td>0</td><td>19</td><td>m</td><td>2</td><td>6</td><td>Note 88: Ice thickness (0 13 115) shall be preceded by Surface type (0 08 029) set to 11, 12, 13 or 14 to specify river, lake, sea or glacier, respectively.</td></tr>
+<tr><td>013116</td><td>Water film thickness</td><td>m</td><td>4</td><td>0</td><td>10</td><td>m</td><td>3</td><td>2</td><td></td></tr>
+<tr><td>013117</td><td>Snow density (liquid water content)</td><td>kg m-3</td><td>0</td><td>0</td><td>10</td><td>kg m-3</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>013118</td><td>Depth of fresh snow (high accuracy)</td><td>m</td><td>3</td><td>-2</td><td>14</td><td>m</td><td>3</td><td>5</td><td>Note 41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
+<tr><td>013119</td><td>Snow depth</td><td>m</td><td>3</td><td>-10000</td><td>15</td><td></td><td></td><td></td><td>Note 194: In particular on ice sheets and glaciers, snow depth can become negative due to erosion and/or ablation.</td></tr>
+<tr><td>013155</td><td>Intensity of precipitation (high accuracy)</td><td>kg m-2 s-1</td><td>5</td><td>-1</td><td>16</td><td>mm/h</td><td>2</td><td>5</td><td>Note 28: In the context of 3 10 067, pressure values which immediately follow occurrences of wind components should be understood to pertain to those components.</td></tr>
+<tr><td>013160</td><td>Radiometer liquid content</td><td>kg m-2</td><td>2</td><td>-350</td><td>10</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013161</td><td>Most unstable convective available potential energy (CAPE)</td><td>J/kg</td><td>0</td><td>0</td><td>14</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>013162</td><td>Cloud liquid water</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>013163</td><td>Snow water equivalent</td><td>kg m-2</td><td>0</td><td>0</td><td>16</td><td>kg m-2</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>013164</td><td>Sea ice freeboard</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>013165</td><td>Convective available potential energy (CAPE)</td><td>J/kg</td><td>0</td><td>0</td><td>14</td><td>J/kg</td><td>0</td><td>5</td><td>Note 186: The convective available potential energy (CAPE) defines the maximum energy available to an ascending air parcel. CAPE is also referred to as positive buoyancy.</td></tr>
+<tr><td>013166</td><td>Total totals index</td><td>K</td><td>1</td><td>0</td><td>10</td><td>C</td><td>0</td><td>5</td><td>Note 187: The total totals (TT) index is defined by the combination of the vertical totals (VT = T_850 * T_500) and the cross totals (CT = Td_850 - T_500), resulting in TT = T_850 + Td_850 - 2 * T_500.</td></tr>
+<tr><td>013167</td><td>S index (STT)</td><td>K</td><td>1</td><td>-1000</td><td>11</td><td>C</td><td>0</td><td>6</td><td>Note 188: The S index (STT) is defined as STT = TT - (T_700 + Td_700) - A, where TT indicates total totals index and A depends on the vertical totals (VT = T_850 * T_500) such that it penalizes cases with low values of VT (that is, low vertical temperature gradients):  A = 0 (if VT &gt; 25); 2 (if 22 &lt;= VT &lt;= 25); 6 (if VT &lt; 22).</td></tr>
+<tr><td>013168</td><td>Fog threat index</td><td>K</td><td>1</td><td>-100</td><td>8</td><td>C</td><td>0</td><td>5</td><td>Note 190: The microburst day potential index (MDPI) is based on the vertical profiles of equivalent potential temperature and is defined follows: MDPI  = (Max thetae - Min thetae_aloft) / CT where Max thetae = Maximum  thetae in the lowest 150 hPa, Minthetae_aloft = Minimum thetae between 650 and 500 hPa, and CT = critical threshold (or normalization factor), currently defined as 30 K. MDPI was designed to determine likely and unlikely environments for downbursts. For MDPI values greater than or equal to 1, microbursts are likely.</td></tr>
+<tr><td>013169</td><td>Microburst day potential index (MDPI)</td><td>K/K</td><td>1</td><td>-100</td><td>8</td><td>K/K</td><td>0</td><td>5</td><td>Note 191: The TQ index (TQ) is used to assess the potential for lowtopped convection. It is defined as TQ = (T_850 + Td_850) - 1.7 * (T_700).</td></tr>
+<tr><td>013170</td><td>TQ index</td><td>K</td><td>1</td><td>-1000</td><td>11</td><td>C</td><td>0</td><td>6</td><td>Note 190: The microburst day potential index (MDPI) is based on the vertical profiles of equivalent potential temperature and is defined follows: MDPI  = (Max thetae - Min thetae_aloft) / CT where Max thetae = Maximum  thetae in the lowest 150 hPa, Minthetae_aloft = Minimum thetae between 650 and 500 hPa, and CT = critical threshold (or normalization factor), currently defined as 30 K. MDPI was designed to determine likely and unlikely environments for downbursts. For MDPI values greater than or equal to 1, microbursts are likely.</td></tr>
+<tr><td>013171</td><td>CIN (convective inhibition)</td><td>J/kg</td><td>0</td><td>-1000</td><td>10</td><td>J/kg</td><td>0</td><td>5</td><td>Note 192: The convective inhibition (CIN) indicates the amount of energy required to overcome the negatively buoyant energy the environment exerts on an air parcel. Conceptually, CIN is the opposite of CAPE, and CIN is also referred to as negative buoyancy.</td></tr>
+</tbody>
+</table>
+</body>
+</html>
