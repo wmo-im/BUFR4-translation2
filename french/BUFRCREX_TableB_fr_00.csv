@@ -1,12 +1,12 @@
-﻿ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
+ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
 bufr4/0/00/001,00,Entrées des tables de code,000001,Table A : entrée,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF
 bufr4/0/00/002,00,Entrées des tables de code,000002,"Table A : description de la catégorie de données, ligne 1",CCITT IA5,0,0,256,Caractère,0,32,,,Operational,PDF
 bufr4/0/00/003,00,Entrées des tables de code,000003,"Table A : description de la catégorie de données, ligne 2",CCITT IA5,0,0,256,Caractère,0,32,,,Operational,PDF
-bufr4/0/00/004,00,Entrées des tables de code,000004,Table principale BUFR/CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 1),98,Operational,PDF
+bufr4/0/00/004,00,Entrées des tables de code,000004,Table principale BUFR/CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 1),B98,Operational,PDF
 bufr4/0/00/005,00,Entrées des tables de code,000005,Numéro d'édition BUFR,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF
-bufr4/0/00/006,00,Entrées des tables de code,000006,Numéro de la version de la table principale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 2),33,Operational,PDF
-bufr4/0/00/007,00,Entrées des tables de code,000007,Numéro de version de la table principale CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 3),40,Operational,PDF
-bufr4/0/00/008,00,Entrées des tables de code,000008,Numéro de version de la table locale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 4),76,Operational,PDF
+bufr4/0/00/006,00,Entrées des tables de code,000006,Numéro de la version de la table principale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 2),B33,Operational,PDF
+bufr4/0/00/007,00,Entrées des tables de code,000007,Numéro de version de la table principale CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 3),B40,Operational,PDF
+bufr4/0/00/008,00,Entrées des tables de code,000008,Numéro de version de la table locale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir Note 4),B76,Operational,PDF
 bufr4/0/00/010,00,Entrées des tables de code,000010,Descripteur F à ajouter ou à définir,CCITT IA5,0,0,8,Caractère,0,1,,,Operational,PDF
 bufr4/0/00/011,00,Entrées des tables de code,000011,Descripteur X à ajouter ou à définir,CCITT IA5,0,0,16,Caractère,0,2,,,Operational,PDF
 bufr4/0/00/012,00,Entrées des tables de code,000012,Descripteur Y à ajouter ou à définir,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF

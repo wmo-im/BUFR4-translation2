@@ -1,6 +1,6 @@
 ID,FXY,ElementName_es,CodeFigure,EntryName_es,EntryName_sub1_es,EntryName_sub2_es,Note_es,noteIDs,Status,translation_source
 bufr4/0/20/003//1,020003,Tiempo presente,,00-49 Sin precipitaciones en la estación en el momento de la observación,,,,,Operational,PDF
-bufr4/0/20/003//2,020003,Tiempo presente,,"00-19 Sin precipitación, niebla, niebla helada (excepto para 11 y 12), tempestad de polvo, tempestad de arena, ventisca alta o baja en la estación en el momento de la observación o, excepto para 09 y 17, durante la hora precedente",,,Nota 1,77,Operational,PDF
+bufr4/0/20/003//2,020003,Tiempo presente,,"00-19 Sin precipitación, niebla, niebla helada (excepto para 11 y 12), tempestad de polvo, tempestad de arena, ventisca alta o baja en la estación en el momento de la observación o, excepto para 09 y 17, durante la hora precedente",,,Nota 1,CF77,Operational,PDF
 bufr4/0/20/003//3,020003,Tiempo presente,,"00-03 Sin presencia de meteoros, excepto fotometeoro",,,,,Operational,PDF
 bufr4/0/20/003/00,020003,Tiempo presente,00,Ningún desarrollo nuboso fue observado o pudo ser observado,Variación característica del estado del cielo o haciéndose menos espesas en el curso de la hora precedente,,,,Operational,PDF
 bufr4/0/20/003/01,020003,Tiempo presente,01,Nubes que en general van disipándose,Variación característica del estado del cielo o haciéndose menos espesas en el curso de la hora precedente,,,,Operational,PDF
@@ -22,7 +22,7 @@ bufr4/0/20/003/15,020003,Tiempo presente,15,"Precipitación a la vista, que lleg
 bufr4/0/20/003/16,020003,Tiempo presente,16,"Precipitación a la vista, que llega al suelo o a la superficie del mar cerca de la estación, pero no en la estación misma",,,,,Operational,PDF
 bufr4/0/20/003/17,020003,Tiempo presente,17,"Tormenta, pero sin precipitación en el momento de la observación",,,,,Operational,PDF
 bufr4/0/20/003/18,020003,Tiempo presente,18,Turbonadas,en la estación o a la vista durante la hora precedente o en el momento de la observación,,,,Operational,PDF
-bufr4/0/20/003/19,020003,Tiempo presente,19,Nubes con forma de embudo,en la estación o a la vista durante la hora precedente o en el momento de la observación,,Nota 2,89,Operational,PDF
+bufr4/0/20/003/19,020003,Tiempo presente,19,Nubes con forma de embudo,en la estación o a la vista durante la hora precedente o en el momento de la observación,,Nota 2,CF89,Operational,PDF
 bufr4/0/20/003//5,020003,Tiempo presente,,"20-29 Precipitación, niebla, niebla helada o tormenta en la estación en el curso de la hora precedente pero no en el momento de la observación",,,,,Operational,PDF
 bufr4/0/20/003/20,020003,Tiempo presente,20,Llovizna (no engelante) o cinarra,no en forma de chubasco(s),,,,Operational,PDF
 bufr4/0/20/003/21,020003,Tiempo presente,21,Lluvia (no engelante),no en forma de chubasco(s),,,,Operational,PDF
@@ -31,7 +31,7 @@ bufr4/0/20/003/23,020003,Tiempo presente,23,Lluvia y nieve o hielo granulado,no 
 bufr4/0/20/003/24,020003,Tiempo presente,24,Llovizna engelante o lluvia engelante,no en forma de chubasco(s),,,,Operational,PDF
 bufr4/0/20/003/25,020003,Tiempo presente,25,Chubasco(s) de lluvia,no en forma de chubasco(s),,,,Operational,PDF
 bufr4/0/20/003/26,020003,Tiempo presente,26,Chubasco(s) de nieve o de lluvia y nieve,,,,,Operational,PDF
-bufr4/0/20/003/27,020003,Tiempo presente,27,"Chubasco(s) de granizo, o de lluvia y granizo",,,Nota,46,Operational,PDF
+bufr4/0/20/003/27,020003,Tiempo presente,27,"Chubasco(s) de granizo, o de lluvia y granizo",,,Nota,CF46,Operational,PDF
 bufr4/0/20/003/28,020003,Tiempo presente,28,Niebla o niebla helada,,,,,Operational,PDF
 bufr4/0/20/003/29,020003,Tiempo presente,29,Tormenta (con o sin precipitación),,,,,Operational,PDF
 bufr4/0/20/003//6,020003,Tiempo presente,,"30-39 Tempestad de polvo, tempestad de arena, ventisca baja o alta",,,,,Operational,PDF
@@ -104,13 +104,13 @@ bufr4/0/20/003/89,020003,Tiempo presente,89,"Chubasco(s) de granizo, con lluvia 
 bufr4/0/20/003/90,020003,Tiempo presente,90,"Chubasco(s) de granizo, con lluvia o lluvia y nieve, o sin ellas y sin truenos",moderado(s) o fuerte(s),,,,Operational,PDF
 bufr4/0/20/003/91,020003,Tiempo presente,91,Lluvia débil en el momento de la observación,"Tormenta durante la hora precedente, pero no en el momento de la observación",,,,Operational,PDF
 bufr4/0/20/003/92,020003,Tiempo presente,92,Lluvia moderada o fuerte en el momento de la observación,"Tormenta durante la hora precedente, pero no en el momento de la observación",,,,Operational,PDF
-bufr4/0/20/003/93,020003,Tiempo presente,93,"Nieve o lluvia y nieve o granizo, débiles en el momento de la observación","Tormenta durante la hora precedente, pero no en el momento de la observación",,Nota,46,Operational,PDF
-bufr4/0/20/003/94,020003,Tiempo presente,94,"Nieve o lluvia y nieve o granizo, moderados o fuertes en el momento de la observación","Tormenta durante la hora precedente, pero no en el momento de la observación",,Nota,46,Operational,PDF
-bufr4/0/20/003/95,020003,Tiempo presente,95,"Tormenta débil o moderada sin granizo, pero con lluvia y/o nieve en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,46,Operational,PDF
-bufr4/0/20/003/96,020003,Tiempo presente,96,"Tormenta débil o moderada, con granizo en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,46,Operational,PDF
-bufr4/0/20/003/97,020003,Tiempo presente,97,"Tormenta fuerte sin granizo, pero con lluvia y/o nieve",Tormenta en el momento de la en el momento de la observación,,Nota,46,Operational,PDF
+bufr4/0/20/003/93,020003,Tiempo presente,93,"Nieve o lluvia y nieve o granizo, débiles en el momento de la observación","Tormenta durante la hora precedente, pero no en el momento de la observación",,Nota,CF46,Operational,PDF
+bufr4/0/20/003/94,020003,Tiempo presente,94,"Nieve o lluvia y nieve o granizo, moderados o fuertes en el momento de la observación","Tormenta durante la hora precedente, pero no en el momento de la observación",,Nota,CF46,Operational,PDF
+bufr4/0/20/003/95,020003,Tiempo presente,95,"Tormenta débil o moderada sin granizo, pero con lluvia y/o nieve en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,CF46,Operational,PDF
+bufr4/0/20/003/96,020003,Tiempo presente,96,"Tormenta débil o moderada, con granizo en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,CF46,Operational,PDF
+bufr4/0/20/003/97,020003,Tiempo presente,97,"Tormenta fuerte sin granizo, pero con lluvia y/o nieve",Tormenta en el momento de la en el momento de la observación,,Nota,CF46,Operational,PDF
 bufr4/0/20/003/98,020003,Tiempo presente,98,Tormenta con tempestad de polvo o de arena en el momento de la observación,Tormenta en el momento de la en el momento de la observación,,,,Operational,PDF
-bufr4/0/20/003/99,020003,Tiempo presente,99,"Tormenta fuerte, con granizo, en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,46,Operational,PDF
+bufr4/0/20/003/99,020003,Tiempo presente,99,"Tormenta fuerte, con granizo, en el momento de la observación",Tormenta en el momento de la en el momento de la observación,,Nota,CF46,Operational,PDF
 bufr4/0/20/003//13,020003,Tiempo presente,,Tiempo presente notificado desde una estación automática,,,,,Operational,PDF
 bufr4/0/20/003/100,020003,Tiempo presente,100,No fue observado ningún tiempo significativo,,,,,Operational,PDF
 bufr4/0/20/003/101,020003,Tiempo presente,101,Nubes en disolución o haciéndose menos espesas en el curso de la hora precedente,,,,,Operational,PDF
@@ -310,10 +310,10 @@ bufr4/0/20/004/7,020004,Tiempo pasado (1),7,Nieve o lluvia y nieve mezcladas,,,,
 bufr4/0/20/004/8,020004,Tiempo pasado (1),8,Chubasco(s),,,,,Operational,PDF
 bufr4/0/20/004/9,020004,Tiempo pasado (1),9,"Tormenta(s), con precipitación o sin ella",,,,,Operational,PDF
 bufr4/0/20/004/10,020004,Tiempo pasado (1),10,Ninguna observación de tiempo significativo,,,,,Operational,PDF
-bufr4/0/20/004/11,020004,Tiempo pasado (1),11,VISIBILIDAD REDUCIDA,,,(véase la nota),82,Operational,PDF
+bufr4/0/20/004/11,020004,Tiempo pasado (1),11,VISIBILIDAD REDUCIDA,,,(véase la nota),CF82,Operational,PDF
 bufr4/0/20/004/12,020004,Tiempo pasado (1),12,"Fenómenos de ventisca, visibilidad reducida",,,,,Operational,PDF
-bufr4/0/20/004/13,020004,Tiempo pasado (1),13,NIEBLA,,,(véase la nota),82,Operational,PDF
-bufr4/0/20/004/14,020004,Tiempo pasado (1),14,PRECIPITACIÓN,,,(véase la nota),82,Operational,PDF
+bufr4/0/20/004/13,020004,Tiempo pasado (1),13,NIEBLA,,,(véase la nota),CF82,Operational,PDF
+bufr4/0/20/004/14,020004,Tiempo pasado (1),14,PRECIPITACIÓN,,,(véase la nota),CF82,Operational,PDF
 bufr4/0/20/004/15,020004,Tiempo pasado (1),15,Llovizna,,,,,Operational,PDF
 bufr4/0/20/004/16,020004,Tiempo pasado (1),16,Lluvia,,,,,Operational,PDF
 bufr4/0/20/004/17,020004,Tiempo pasado (1),17,Nieve o hielo granulado,,,,,Operational,PDF
@@ -332,10 +332,10 @@ bufr4/0/20/005/7,020005,Tiempo pasado (2),7,Nieve o lluvia y nieve mezcladas,,,,
 bufr4/0/20/005/8,020005,Tiempo pasado (2),8,Chubasco(s),,,,,Operational,PDF
 bufr4/0/20/005/9,020005,Tiempo pasado (2),9,"Tormenta(s), con precipitación o sin ella",,,,,Operational,PDF
 bufr4/0/20/005/10,020005,Tiempo pasado (2),10,Ninguna observación de tiempo significativo,,,,,Operational,PDF
-bufr4/0/20/005/11,020005,Tiempo pasado (2),11,VISIBILIDAD REDUCIDA,,,(véase la nota),82,Operational,PDF
+bufr4/0/20/005/11,020005,Tiempo pasado (2),11,VISIBILIDAD REDUCIDA,,,(véase la nota),CF82,Operational,PDF
 bufr4/0/20/005/12,020005,Tiempo pasado (2),12,"Fenómenos de ventisca, visibilidad reducida",,,,,Operational,PDF
-bufr4/0/20/005/13,020005,Tiempo pasado (2),13,NIEBLA,,,(véase la nota),82,Operational,PDF
-bufr4/0/20/005/14,020005,Tiempo pasado (2),14,PRECIPITACIÓN,,,(véase la nota),82,Operational,PDF
+bufr4/0/20/005/13,020005,Tiempo pasado (2),13,NIEBLA,,,(véase la nota),CF82,Operational,PDF
+bufr4/0/20/005/14,020005,Tiempo pasado (2),14,PRECIPITACIÓN,,,(véase la nota),CF82,Operational,PDF
 bufr4/0/20/005/15,020005,Tiempo pasado (2),15,Llovizna,,,,,Operational,PDF
 bufr4/0/20/005/16,020005,Tiempo pasado (2),16,Lluvia,,,,,Operational,PDF
 bufr4/0/20/005/17,020005,Tiempo pasado (2),17,Nieve o hielo granulado,,,,,Operational,PDF
@@ -391,7 +391,7 @@ bufr4/0/20/011/11,020011,Nubosidad,11,Dispersa,,,,,Operational,PDF
 bufr4/0/20/011/12,020011,Nubosidad,12,Fragmentada,,,,,Operational,PDF
 bufr4/0/20/011/13,020011,Nubosidad,13,Escasa,,,,,Operational,PDF
 bufr4/0/20/011/14,020011,Nubosidad,14,Reservada,,,,,Operational,PDF
-bufr4/0/20/011/15,020011,Nubosidad,15,"La cubierta de nubes es indefinible por razones distintas de la niebla u otros fenómenos meteorológicos, o no se ha hecho ninguna observación",,,Nota 1,40,Operational,PDF
+bufr4/0/20/011/15,020011,Nubosidad,15,"La cubierta de nubes es indefinible por razones distintas de la niebla u otros fenómenos meteorológicos, o no se ha hecho ninguna observación",,,Nota 1,CF40,Operational,PDF
 bufr4/0/20/012/0,020012,Tipo de nubes,0,Cirrus (Ci),,,,,Operational,PDF
 bufr4/0/20/012/1,020012,Tipo de nubes,1,Cirrocúmulos (Cc),,,,,Operational,PDF
 bufr4/0/20/012/2,020012,Tipo de nubes,2,Cirrostratos (Cs),,,,,Operational,PDF
@@ -423,13 +423,13 @@ bufr4/0/20/012/27,020012,Tipo de nubes,27,"Altocúmulos translucidus u opacus en
 bufr4/0/20/012/28,020012,Tipo de nubes,28,Altocúmulos castellanus o floccus,,,,,Operational,PDF
 bufr4/0/20/012/29,020012,Tipo de nubes,29,"Altocúmulos de cielo caótico, generalmente a varios niveles",,,,,Operational,PDF
 bufr4/0/20/012/30,020012,Tipo de nubes,30,No hay nubes CL,,,,,Operational,PDF
-bufr4/0/20/012/31,020012,Tipo de nubes,31,"Cúmulos humilis ou cúmulos fractus que no sean los de mal tiempo, o ambos",,,Nota,1,Operational,PDF
+bufr4/0/20/012/31,020012,Tipo de nubes,31,"Cúmulos humilis ou cúmulos fractus que no sean los de mal tiempo, o ambos",,,Nota,CF1,Operational,PDF
 bufr4/0/20/012/32,020012,Tipo de nubes,32,"Cúmulos mediocris o congestus, cúmulos de desarrollo vertical (TCU), con cúmulos de las especies fractus o humilis o estratocúmulos o sin ellos, todos con las bases a un mismo nivel",,,,,Operational,PDF
 bufr4/0/20/012/33,020012,Tipo de nubes,33,"Cumulonimbus calvus, con cúmulos, estratocúmulos o estratos o sin ellos",,,,,Operational,PDF
 bufr4/0/20/012/34,020012,Tipo de nubes,34,Estratocúmulos cumulogenitus,,,,,Operational,PDF
 bufr4/0/20/012/35,020012,Tipo de nubes,35,Estratocúmulos que no sean estratocúmulos cumulogenitus,,,,,Operational,PDF
-bufr4/0/20/012/36,020012,Tipo de nubes,36,"Estratos nebulosus o estratos fractus que no sean de mal tiempo, o ambos",,,Nota,1,Operational,PDF
-bufr4/0/20/012/37,020012,Tipo de nubes,37,"Estratos fractus o cúmulos fractus de mal tiempo, o ambos (pannus), generalmente debajo de altoestratos o nimboestratos",,,Nota,1,Operational,PDF
+bufr4/0/20/012/36,020012,Tipo de nubes,36,"Estratos nebulosus o estratos fractus que no sean de mal tiempo, o ambos",,,Nota,CF1,Operational,PDF
+bufr4/0/20/012/37,020012,Tipo de nubes,37,"Estratos fractus o cúmulos fractus de mal tiempo, o ambos (pannus), generalmente debajo de altoestratos o nimboestratos",,,Nota,CF1,Operational,PDF
 bufr4/0/20/012/38,020012,Tipo de nubes,38,"Cúmulos y estratocúmulos que no sean estratocúmulos cumulogenitus, con bases a nive- les diferentes",,,,,Operational,PDF
 bufr4/0/20/012/39,020012,Tipo de nubes,39,"Cumulonimbus capillatus (frecuentemente con yunque), con cumulonimbus calvus, cúmulos, estratocúmulos, estratos o pannus o sin ellos",,,,,Operational,PDF
 bufr4/0/20/012/40,020012,Tipo de nubes,40,CH,,,,,Operational,PDF
@@ -559,8 +559,8 @@ bufr4/0/20/027/3,020027,Ocurrencia de los fenómenos,3,En el período del tiempo
 bufr4/0/20/027/4,020027,Ocurrencia de los fenómenos,4,En el período de tiempo especificado,,,,,Operational,PDF
 bufr4/0/20/027/5,020027,Ocurrencia de los fenómenos,5,Reservado,,,,,Operational,PDF
 bufr4/0/20/027/6,020027,Ocurrencia de los fenómenos,6,Por debajo del nivel de la estación,,,,,Operational,PDF
-bufr4/0/20/027/7,020027,Ocurrencia de los fenómenos,7,En la estación,,,(véase la Nota 2),51,Operational,PDF
-bufr4/0/20/027/8,020027,Ocurrencia de los fenómenos,8,En las cercanías,,,(véase la Nota 3),96,Operational,PDF
+bufr4/0/20/027/7,020027,Ocurrencia de los fenómenos,7,En la estación,,,(véase la Nota 2),CF51,Operational,PDF
+bufr4/0/20/027/8,020027,Ocurrencia de los fenómenos,8,En las cercanías,,,(véase la Nota 3),CF96,Operational,PDF
 bufr4/0/20/027/All-9,020027,Ocurrencia de los fenómenos,Los 9,Valor faltante,,,,,Operational,PDF
 bufr4/0/20/028/0,020028,Cambio esperado en intensidad,0,Ningún cambio (NC),,,,,Operational,PDF
 bufr4/0/20/028/1,020028,Cambio esperado en intensidad,1,Predicción de debilitamiento (WKN),,,,,Operational,PDF
@@ -690,10 +690,10 @@ bufr4/0/20/055/1,020055,Estado del cielo en los trópicos,1,"Cúmulos de dimensi
 bufr4/0/20/055/2,020055,Estado del cielo en los trópicos,2,Cúmulos con protuberancias y torretas que crecen rápidamente y van disminuyendo con la altura y cuyos remates tienden a separarse de la masa inferior de nubes y se disuelven a los pocos minutos,,,,,Operational,PDF
 bufr4/0/20/055/3,020055,Estado del cielo en los trópicos,3,Cúmulos con protuberancias y torretas que se inclinan francamente a sotavento; la altura de las nubes es más de una vez y media su ancho medio,,,,,Operational,PDF
 bufr4/0/20/055/4,020055,Estado del cielo en los trópicos,4,Cúmulos con protuberancias y torretas que se inclinan francamente a barlovento; la altura de las nubes es más de una vez y media su ancho medio,,,,,Operational,PDF
-bufr4/0/20/055/5,020055,Estado del cielo en los trópicos,5,Cúmulos congestus altos con grandes protuberancias de una altura más de dos veces mayor que su ancho medio; no se disponen en racimos ni líneas; una o más capas se destacan de las torretas de nubes aunque no existen capas continuas,,,(véase la Nota),55,Operational,PDF
+bufr4/0/20/055/5,020055,Estado del cielo en los trópicos,5,Cúmulos congestus altos con grandes protuberancias de una altura más de dos veces mayor que su ancho medio; no se disponen en racimos ni líneas; una o más capas se destacan de las torretas de nubes aunque no existen capas continuas,,,(véase la Nota),CF55,Operational,PDF
 bufr4/0/20/055/6,020055,Estado del cielo en los trópicos,6,Cumulonimbos aislados o amplios racimos de torretas de cúmulos separados por anchos espacios libres de nubes; las bases de las nubes son oscuras por lo general y se observan chubascos en la mayoría de las células; pueden advertirse algunas nubes medias y superiores dispersas; las diferentes células de los cúmulos son una o dos veces más altas que anchas,,,,,Operational,PDF
 bufr4/0/20/055/7,020055,Estado del cielo en los trópicos,7,Numerosos cúmulos que se extienden por la troposfera media con capas continuas o discontinuas de nubes medias y/o cirrostratos; por lo general las torretas de cúmulos no disminuyen con la altura; la base de las nubes es oscura y desigual y se producen algunos chubascos,,,,,Operational,PDF
-bufr4/0/20/055/8,020055,Estado del cielo en los trópicos,8,"Nubes medias, densas y continuas y/o capas de cirrostratos con algunos grandes cumulonimbos o cúmulos congestus aislados, que las penetran; ocasionalmente se observan lluvias débiles de las capas de altostratos; las bases de los cumulonimbos son irregulares y oscuras y se ven chubascos",,,(véase la Nota),55,Operational,PDF
+bufr4/0/20/055/8,020055,Estado del cielo en los trópicos,8,"Nubes medias, densas y continuas y/o capas de cirrostratos con algunos grandes cumulonimbos o cúmulos congestus aislados, que las penetran; ocasionalmente se observan lluvias débiles de las capas de altostratos; las bases de los cumulonimbos son irregulares y oscuras y se ven chubascos",,,(véase la Nota),CF55,Operational,PDF
 bufr4/0/20/055/9,020055,Estado del cielo en los trópicos,9,Capas continuas de nubes medias y/o cirrostratos con cumulonimbos o cúmulos congestus dispuestos en líneas o bandas de nubes; por lo general se observan lluvias de las capas de altostratos y fuertes chubascos de los cumulonimbos; viento con carácter de turbonada,,,,,Operational,PDF
 bufr4/0/20/055/10,020055,Estado del cielo en los trópicos,10,Se desconoce el estado del cielo o no corresponde a ninguna de las descripciones precedentes,,,,,Operational,PDF
 bufr4/0/20/055/11-14,020055,Estado del cielo en los trópicos,11-14,Reservadas,,,,,Operational,PDF
@@ -789,12 +789,12 @@ bufr4/0/20/063/67,020063,Fenómenos especiales,67,No se han observado las variac
 bufr4/0/20/063/68,020063,Fenómenos especiales,68,Sin asignar,,,,,Operational,PDF
 bufr4/0/20/063/69,020063,Fenómenos especiales,69,Se desconocen las variaciones de temperatura por falta de termógrafo,,,,,Operational,PDF
 bufr4/0/20/063//7,020063,Fenómenos especiales,,70–79 Variación de la visibilidad durante el período especificado,,,,,Operational,PDF
-bufr4/0/20/063/70,020063,Fenómenos especiales,70,La visibilidad no ha variado (sol visible) en la dirección especificada,,,Nota,61,Operational,PDF
-bufr4/0/20/063/71,020063,Fenómenos especiales,71,La visibilidad no ha variado (sol invisible) en la dirección especificada,,,Nota,61,Operational,PDF
-bufr4/0/20/063/72,020063,Fenómenos especiales,72,72 La visibilidad ha aumentado (sol visible) en la dirección especificada,,,Nota,61,Operational,PDF
-bufr4/0/20/063/73,020063,Fenómenos especiales,73,La visibilidad ha aumentado (sol invisible) en la dirección especificada,,,Nota,61,Operational,PDF
-bufr4/0/20/063/74,020063,Fenómenos especiales,74,La visibilidad ha disminuido (sol visible) en la dirección especificada,,,Nota,61,Operational,PDF
-bufr4/0/20/063/75,020063,Fenómenos especiales,75,La visibilidad ha disminuido (sol invisible) en la dirección especificada,,,Nota,61,Operational,PDF
+bufr4/0/20/063/70,020063,Fenómenos especiales,70,La visibilidad no ha variado (sol visible) en la dirección especificada,,,Nota,CF61,Operational,PDF
+bufr4/0/20/063/71,020063,Fenómenos especiales,71,La visibilidad no ha variado (sol invisible) en la dirección especificada,,,Nota,CF61,Operational,PDF
+bufr4/0/20/063/72,020063,Fenómenos especiales,72,72 La visibilidad ha aumentado (sol visible) en la dirección especificada,,,Nota,CF61,Operational,PDF
+bufr4/0/20/063/73,020063,Fenómenos especiales,73,La visibilidad ha aumentado (sol invisible) en la dirección especificada,,,Nota,CF61,Operational,PDF
+bufr4/0/20/063/74,020063,Fenómenos especiales,74,La visibilidad ha disminuido (sol visible) en la dirección especificada,,,Nota,CF61,Operational,PDF
+bufr4/0/20/063/75,020063,Fenómenos especiales,75,La visibilidad ha disminuido (sol invisible) en la dirección especificada,,,Nota,CF61,Operational,PDF
 bufr4/0/20/063/76,020063,Fenómenos especiales,76,Niebla procedente de la dirección especificada,,,,,Operational,PDF
 bufr4/0/20/063/77,020063,Fenómenos especiales,77,La niebla ha ascendido sin disiparse,,,,,Operational,PDF
 bufr4/0/20/063/78,020063,Fenómenos especiales,78,La niebla se ha disipado independientemente de la dirección,,,,,Operational,PDF

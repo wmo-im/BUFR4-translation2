@@ -28,8 +28,8 @@ bufr4/0/33/041,33,Informations sur la qualité,033041,Caractéristique de la val
 bufr4/0/33/042,33,Informations sur la qualité,033042,Type de limite représentée par la valeur qui suit,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/33/043,33,Informations sur la qualité,033043,Degré de confiance de la température moyenne en surface,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,PDF
 bufr4/0/33/044,33,Informations sur la qualité,033044,Qualité des données de l'ASAR,Table d'indicateurs,0,0,15,Table d'indicateurs,0,5,,,Operational,PDF
-bufr4/0/33/045,33,Informations sur la qualité,033045,Probabilité du phénomène qui suit (voir les notes 1 et 3),%,0,0,7,%,0,3,(voir Notes 1 et 3),"168,173",Operational,PDF
-bufr4/0/33/046,33,Informations sur la qualité,033046,"Probabilité conditionnelle du phénomène qui suit en fonction du phénomène associé indiqué (voir les notes 1, 2 et 3)",%,0,0,7,%,0,3,"(voir Notes 1, 2 et 3)","168,173,174",Operational,PDF
+bufr4/0/33/045,33,Informations sur la qualité,033045,Probabilité du phénomène qui suit (voir les notes 1 et 3),%,0,0,7,%,0,3,(voir Notes 1 et 3),"B168,B173",Operational,PDF
+bufr4/0/33/046,33,Informations sur la qualité,033046,"Probabilité conditionnelle du phénomène qui suit en fonction du phénomène associé indiqué (voir les notes 1, 2 et 3)",%,0,0,7,%,0,3,"(voir Notes 1, 2 et 3)","B168,B173,B174",Operational,PDF
 bufr4/0/33/047,33,Informations sur la qualité,033047,Degré de confiance des mesures,Table d'indicateurs,0,0,31,Table d'indicateurs,0,11,,,Operational,PDF
 bufr4/0/33/048,33,Informations sur la qualité,033048,Degré de confiance pour l'inversion SAR,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/33/049,33,Informations sur la qualité,033049,Degré de confiance pour l'extraction du vent,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF

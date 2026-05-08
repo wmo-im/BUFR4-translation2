@@ -7,10 +7,10 @@ bufr4/0/13/005,13,Hydrographic and hydrological elements,013005,Vapour density,k
 bufr4/0/13/006,13,Hydrographic and hydrological elements,013006,Mixing heights,m,-1,-40,16,m,-1,5,,,Operational,na
 bufr4/0/13/007,13,Hydrographic and hydrological elements,013007,Minimum relative humidity,%,0,0,7,%,0,3,,,Operational,na
 bufr4/0/13/008,13,Hydrographic and hydrological elements,013008,Maximum relative humidity,%,0,0,7,%,0,3,,,Operational,na
-bufr4/0/13/009,13,Hydrographic and hydrological elements,013009,Relative humidity,%,1,-1000,12,%,1,4,(see Note 6),39,Operational,na
+bufr4/0/13/009,13,Hydrographic and hydrological elements,013009,Relative humidity,%,1,-1000,12,%,1,4,(see Note 6),B39,Operational,na
 bufr4/0/13/011,13,Hydrographic and hydrological elements,013011,Total precipitation/total water equivalent,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,na
-bufr4/0/13/012,13,Hydrographic and hydrological elements,013012,Depth of fresh snow,m,2,-2,12,m,2,4,(see Note 2),26,Operational,na
-bufr4/0/13/013,13,Hydrographic and hydrological elements,013013,Total snow depth,m,2,-2,16,m,2,5,(see Note 2),26,Operational,na
+bufr4/0/13/012,13,Hydrographic and hydrological elements,013012,Depth of fresh snow,m,2,-2,12,m,2,4,(see Note 2),B26,Operational,na
+bufr4/0/13/013,13,Hydrographic and hydrological elements,013013,Total snow depth,m,2,-2,16,m,2,5,(see Note 2),B26,Operational,na
 bufr4/0/13/014,13,Hydrographic and hydrological elements,013014,Rainfall/water equivalent of snow (averaged rate),kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,,,Operational,na
 bufr4/0/13/015,13,Hydrographic and hydrological elements,013015,Snowfall (averaged rate),m/s,7,0,12,m/s,7,4,,,Operational,na
 bufr4/0/13/016,13,Hydrographic and hydrological elements,013016,Precipitable water,kg m-2,0,0,7,kg m-2,0,3,,,Operational,na
@@ -20,18 +20,18 @@ bufr4/0/13/021,13,Hydrographic and hydrological elements,013021,Total precipitat
 bufr4/0/13/022,13,Hydrographic and hydrological elements,013022,Total precipitation past 12 hours,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,na
 bufr4/0/13/023,13,Hydrographic and hydrological elements,013023,Total precipitation past 24 hours,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,na
 bufr4/0/13/031,13,Hydrographic and hydrological elements,013031,Evapotranspiration,kg m-2,0,0,7,kg m-2,0,3,,,Operational,na
-bufr4/0/13/032,13,Hydrographic and hydrological elements,013032,Evaporation/evapotranspiration,kg m-2,1,0,8,kg m-2,1,3,(see Note 5),53,Operational,na
+bufr4/0/13/032,13,Hydrographic and hydrological elements,013032,Evaporation/evapotranspiration,kg m-2,1,0,8,kg m-2,1,3,(see Note 5),B53,Operational,na
 bufr4/0/13/033,13,Hydrographic and hydrological elements,013033,Evaporation/evapotranspiration,kg m-2,1,0,10,kg m-2,1,4,,,Operational,na
 bufr4/0/13/038,13,Hydrographic and hydrological elements,013038,Superadiabatic indicator,Code table,0,0,2,Code table,0,1,,,Operational,na
 bufr4/0/13/039,13,Hydrographic and hydrological elements,013039,Terrain type (ice/snow),Code table,0,0,3,Code table,0,1,,,Operational,na
 bufr4/0/13/040,13,Hydrographic and hydrological elements,013040,Surface flag,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/13/041,13,Hydrographic and hydrological elements,013041,Pasquill-Gifford stability category,Code table,0,0,4,Code table,0,2,,,Operational,na
-bufr4/0/13/042,13,Hydrographic and hydrological elements,013042,Parcel lifted index (to 500 hPa),K,0,-20,6,K,0,2,(see Notes 3 and 4),"119,130",Operational,na
-bufr4/0/13/043,13,Hydrographic and hydrological elements,013043,Best lifted index (to 500 hPa),K,0,-20,6,K,0,2,(see Notes 3 and 4),"119,130",Operational,na
+bufr4/0/13/042,13,Hydrographic and hydrological elements,013042,Parcel lifted index (to 500 hPa),K,0,-20,6,K,0,2,(see Notes 3 and 4),"B119,B130",Operational,na
+bufr4/0/13/043,13,Hydrographic and hydrological elements,013043,Best lifted index (to 500 hPa),K,0,-20,6,K,0,2,(see Notes 3 and 4),"B119,B130",Operational,na
 bufr4/0/13/044,13,Hydrographic and hydrological elements,013044,K index,K,0,-30,8,K,0,3,,,Operational,na
 bufr4/0/13/045,13,Hydrographic and hydrological elements,013045,KO index,K,0,-30,8,K,0,3,,,Operational,na
 bufr4/0/13/046,13,Hydrographic and hydrological elements,013046,Maximum buoyancy,K,0,-30,8,K,0,3,,,Operational,na
-bufr4/0/13/047,13,Hydrographic and hydrological elements,013047,Modified Showalter stability index,K,0,-60,6,C,0,2,(see Note 7),129,Operational,na
+bufr4/0/13/047,13,Hydrographic and hydrological elements,013047,Modified Showalter stability index,K,0,-60,6,C,0,2,(see Note 7),B129,Operational,na
 bufr4/0/13/048,13,Hydrographic and hydrological elements,013048,Water fraction,%,1,0,10,%,1,4,,,Operational,na
 bufr4/0/13/051,13,Hydrographic and hydrological elements,013051,"Frequency group, precipitation",Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/13/052,13,Hydrographic and hydrological elements,013052,Highest daily amount of precipitation,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,na
@@ -67,21 +67,21 @@ bufr4/0/13/110,13,Hydrographic and hydrological elements,013110,Mass mixing rati
 bufr4/0/13/111,13,Hydrographic and hydrological elements,013111,Soil moisture,g/kg,0,0,10,g/kg,0,4,,,Operational,na
 bufr4/0/13/112,13,Hydrographic and hydrological elements,013112,Object wetness duration,s,0,0,17,s,0,5,,,Operational,na
 bufr4/0/13/114,13,Hydrographic and hydrological elements,013114,Rate of ice accretion,kg m-2 h-1,1,0,11,kg m-2 h-1,1,4,,,Operational,na
-bufr4/0/13/115,13,Hydrographic and hydrological elements,013115,Ice thickness,m,2,0,19,m,2,6,(see Note 9),88,Operational,na
+bufr4/0/13/115,13,Hydrographic and hydrological elements,013115,Ice thickness,m,2,0,19,m,2,6,(see Note 9),B88,Operational,na
 bufr4/0/13/116,13,Hydrographic and hydrological elements,013116,Water film thickness,m,4,0,10,m,3,2,,,Operational,na
 bufr4/0/13/117,13,Hydrographic and hydrological elements,013117,Snow density (liquid water content),kg m-3,0,0,10,kg m-3,0,3,,,Operational,na
-bufr4/0/13/118,13,Hydrographic and hydrological elements,013118,Depth of fresh snow (high accuracy),m,3,-2,14,m,3,5,(see Note 10),41,Operational,na
-bufr4/0/13/119,13,Hydrographic and hydrological elements,013119,Snow depth,m,3,-10000,15,,,,(see Note 18),194,Operational,na
-bufr4/0/13/155,13,Hydrographic and hydrological elements,013155,Intensity of precipitation (high accuracy),kg m-2 s-1,5,-1,16,mm/h,2,5,(see Note 8),28,Operational,na
+bufr4/0/13/118,13,Hydrographic and hydrological elements,013118,Depth of fresh snow (high accuracy),m,3,-2,14,m,3,5,(see Note 10),B41,Operational,na
+bufr4/0/13/119,13,Hydrographic and hydrological elements,013119,Snow depth,m,3,-10000,15,,,,(see Note 18),B194,Operational,na
+bufr4/0/13/155,13,Hydrographic and hydrological elements,013155,Intensity of precipitation (high accuracy),kg m-2 s-1,5,-1,16,mm/h,2,5,(see Note 8),B28,Operational,na
 bufr4/0/13/160,13,Hydrographic and hydrological elements,013160,Radiometer liquid content,kg m-2,2,-350,10,kg m-2,2,3,,,Operational,na
 bufr4/0/13/161,13,Hydrographic and hydrological elements,013161,Most unstable convective available potential energy (CAPE),J/kg,0,0,14,,,,,,Operational,na
 bufr4/0/13/162,13,Hydrographic and hydrological elements,013162,Cloud liquid water,kg m-2,2,0,8,kg m-2,2,3,,,Operational,na
 bufr4/0/13/163,13,Hydrographic and hydrological elements,013163,Snow water equivalent,kg m-2,0,0,16,kg m-2,0,5,,,Operational,na
 bufr4/0/13/164,13,Hydrographic and hydrological elements,013164,Sea ice freeboard,m,3,-131072,18,m,3,6,,,Operational,na
-bufr4/0/13/165,13,Hydrographic and hydrological elements,013165,Convective available potential energy (CAPE),J/kg,0,0,14,J/kg,0,5,(see Note 11),186,Operational,na
-bufr4/0/13/166,13,Hydrographic and hydrological elements,013166,Total totals index,K,1,0,10,C,0,5,(see Note 12),187,Operational,na
-bufr4/0/13/167,13,Hydrographic and hydrological elements,013167,S index (STT),K,1,-1000,11,C,0,6,(see Note 13),188,Operational,na
-bufr4/0/13/168,13,Hydrographic and hydrological elements,013168,Fog threat index,K,1,-100,8,C,0,5,(see Note 14),190,Operational,na
-bufr4/0/13/169,13,Hydrographic and hydrological elements,013169,Microburst day potential index (MDPI),K/K,1,-100,8,K/K,0,5,(see Note 15),191,Operational,na
-bufr4/0/13/170,13,Hydrographic and hydrological elements,013170,TQ index,K,1,-1000,11,C,0,6,(see Note 16),190,Operational,na
-bufr4/0/13/171,13,Hydrographic and hydrological elements,013171,CIN (convective inhibition),J/kg,0,-1000,10,J/kg,0,5,(see Note 17),192,Operational,na
+bufr4/0/13/165,13,Hydrographic and hydrological elements,013165,Convective available potential energy (CAPE),J/kg,0,0,14,J/kg,0,5,(see Note 11),B186,Operational,na
+bufr4/0/13/166,13,Hydrographic and hydrological elements,013166,Total totals index,K,1,0,10,C,0,5,(see Note 12),B187,Operational,na
+bufr4/0/13/167,13,Hydrographic and hydrological elements,013167,S index (STT),K,1,-1000,11,C,0,6,(see Note 13),B188,Operational,na
+bufr4/0/13/168,13,Hydrographic and hydrological elements,013168,Fog threat index,K,1,-100,8,C,0,5,(see Note 14),B190,Operational,na
+bufr4/0/13/169,13,Hydrographic and hydrological elements,013169,Microburst day potential index (MDPI),K/K,1,-100,8,K/K,0,5,(see Note 15),B191,Operational,na
+bufr4/0/13/170,13,Hydrographic and hydrological elements,013170,TQ index,K,1,-1000,11,C,0,6,(see Note 16),B190,Operational,na
+bufr4/0/13/171,13,Hydrographic and hydrological elements,013171,CIN (convective inhibition),J/kg,0,-1000,10,J/kg,0,5,(see Note 17),B192,Operational,na

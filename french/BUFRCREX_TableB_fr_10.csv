@@ -8,12 +8,12 @@ bufr4/0/10/008,10,Position d'éléments autres que des coordonnées (verticale),
 bufr4/0/10/009,10,Position d'éléments autres que des coordonnées (verticale),010009,Hauteur géopotentielle,gpm,0,-1000,17,gpm,0,5,,,Operational,PDF
 bufr4/0/10/010,10,Position d'éléments autres que des coordonnées (verticale),010010,Pression minimale réduite au niveau moyen des mers,Pa,-1,0,14,Pa,-1,5,,,Operational,PDF
 bufr4/0/10/011,10,Position d'éléments autres que des coordonnées (verticale),010011,Pression maximale réduite au niveau moyen des mers,Pa,-1,0,14,Pa,-1,5,,,Operational,PDF
-bufr4/0/10/031,10,Position d'éléments autres que des coordonnées (verticale),010031,"En direction du pôle Nord, distance à partir du centre de la Terre",m,2,-1073741824,31,m,2,10,(voir Notes 2 et 3),"93,150",Operational,PDF
+bufr4/0/10/031,10,Position d'éléments autres que des coordonnées (verticale),010031,"En direction du pôle Nord, distance à partir du centre de la Terre",m,2,-1073741824,31,m,2,10,(voir Notes 2 et 3),"B93,B150",Operational,PDF
 bufr4/0/10/032,10,Position d'éléments autres que des coordonnées (verticale),010032,Distance du satellite au centre de la Terre,m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/033,10,Position d'éléments autres que des coordonnées (verticale),010033,Altitude (de la plate-forme par rapport à l'ellipsoïde),m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/034,10,Position d'éléments autres que des coordonnées (verticale),010034,Rayon de la Terre,m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/035,10,Position d'éléments autres que des coordonnées (verticale),010035,Rayon de la courbure locale de la Terre,m,1,62000000,22,m,1,8,,,Operational,PDF
-bufr4/0/10/036,10,Position d'éléments autres que des coordonnées (verticale),010036,Ondulation du géoïde,m,2,-15000,15,m,2,6,(voir Note 4),128,Operational,PDF
+bufr4/0/10/036,10,Position d'éléments autres que des coordonnées (verticale),010036,Ondulation du géoïde,m,2,-15000,15,m,2,6,(voir Note 4),B128,Operational,PDF
 bufr4/0/10/038,10,Position d'éléments autres que des coordonnées (verticale),010038,Hauteur maximale de la pontée au-dessus de la ligne de charge d'été,m,0,0,6,m,0,2,,,Operational,PDF
 bufr4/0/10/039,10,Position d'éléments autres que des coordonnées (verticale),010039,Écart entre le niveau de référence (ligne de charge d'été maximale) et le niveau réel de la mer,m,0,-32,6,m,0,3,,,Operational,PDF
 bufr4/0/10/040,10,Position d'éléments autres que des coordonnées (verticale),010040,Données extraites concernant le nombre de couches,Numérique,0,0,10,Numérique,0,4,,,Operational,PDF

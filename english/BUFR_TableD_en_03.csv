@@ -173,7 +173,7 @@ bufr4/3/03/099/8/003004,03,Meteorological sequences common to vertical soundings
 bufr4/3/03/099/9/003023,03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003023,Configuration of louvres for thermometer/hygrometer screen,,,,Operational,na
 bufr4/3/03/099/10/003008,03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003008,Artificially ventilated screen or shield,,,,Operational,na
 bufr4/3/03/099/11/003009,03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003009,Amount of forced ventilation at time of reading,,,,Operational,na
-bufr4/3/03/100/1/013165,03,Meteorological sequences common to vertical soundings data,303100,(Forecast indices),,013165,CAPE (convective available potential energy),,(see Note 4),80,Operational,na
+bufr4/3/03/100/1/013165,03,Meteorological sequences common to vertical soundings data,303100,(Forecast indices),,013165,CAPE (convective available potential energy),,(see Note 4),D80,Operational,na
 bufr4/3/03/100/2/013045,03,Meteorological sequences common to vertical soundings data,303100,(Forecast indices),,013045,KO index,,,,Operational,na
 bufr4/3/03/100/3/013166,03,Meteorological sequences common to vertical soundings data,303100,(Forecast indices),,013166,Total totals index,,,,Operational,na
 bufr4/3/03/100/4/013044,03,Meteorological sequences common to vertical soundings data,303100,(Forecast indices),,013044,K index,,,,Operational,na

@@ -37,10 +37,10 @@ bufr4/3/15/003/25/033050,15,Oceanographic report sequences,315003,(Temperature a
 bufr4/3/15/004/1/001079,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001079,Unique identifier for the profile,Hexadecimal string,,,Operational,na
 bufr4/3/15/004/2/001011,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational,na
 bufr4/3/15/004/3/001103,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001103,IMO Number. Unique Lloyd's register,= 0 to 9999999,,,Operational,na
-bufr4/3/15/004/4/001087,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001087,WMO marine observing platform extended identifier,,(see Note 1),24,Operational,na
+bufr4/3/15/004/4/001087,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001087,WMO marine observing platform extended identifier,,(see Note 1),D24,Operational,na
 bufr4/3/15/004/5/001019,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001019,Long station or site name,Ship name,,,Operational,na
 bufr4/3/15/004/6/001080,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001080,Ship line number according to SOOP,,,,Operational,na
-bufr4/3/15/004/7/005036,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,005036,Ship transect number according to SOOP,,(see Note 2),31,Operational,na
+bufr4/3/15/004/7/005036,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,005036,Ship transect number according to SOOP,,(see Note 2),D31,Operational,na
 bufr4/3/15/004/8/001036,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001036,Agency in charge of operating the observing platform,,,,Operational,na
 bufr4/3/15/004/9/001013,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001013,Speed of motion of moving observing platform,,,,Operational,na
 bufr4/3/15/004/10/001012,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001012,Direction of motion of moving observing platform,,,,Operational,na
@@ -80,7 +80,7 @@ bufr4/3/15/004/43/008080,15,Oceanographic report sequences,315004,(XBT temperatu
 bufr4/3/15/004/44/002171,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002171,Instrument serial number for water temperature profile measurement,,,,Operational,na
 bufr4/3/15/004/45/302090,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,302090,Sea/water temperature high precision,,,,Operational,na
 bufr4/3/15/004/46/002171,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002171,Instrument serial number for water temperature profile measurement,,,,Operational,na
-bufr4/3/15/004/47/002032,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002032,Indicator for digitization,,(see Note 3),64,Operational,na
+bufr4/3/15/004/47/002032,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002032,Indicator for digitization,,(see Note 3),D64,Operational,na
 bufr4/3/15/004/48/315005,15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,315005,Water temperature profile (temperature profile observed by XBT or buoy),,,,Operational,na
 bufr4/3/15/005/1/106000,15,Oceanographic report sequences,315005,(Water temperature profile (temperature profile observed by XBT or buoy),,106000,Delayed replication of 6 descriptors,,,,Operational,na
 bufr4/3/15/005/2/031002,15,Oceanographic report sequences,315005,(Water temperature profile (Temperature profile observed by XBT or buoy),,031002,Extended delayed descriptor replication factor,,,,Operational,na
@@ -93,10 +93,10 @@ bufr4/3/15/005/8/033050,15,Oceanographic report sequences,315005,(Water temperat
 bufr4/3/15/006/1/001079,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001079,Unique identifier for the profile,Hexadecimal string,,,Operational,na
 bufr4/3/15/006/2/001011,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational,na
 bufr4/3/15/006/3/001103,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001103,IMO Number. Unique Lloyd's register,= 0 to 9999999,,,Operational,na
-bufr4/3/15/006/4/001087,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001087,WMO marine observing platform extended identifier,,(see Note 1),24,Operational,na
+bufr4/3/15/006/4/001087,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001087,WMO marine observing platform extended identifier,,(see Note 1),D24,Operational,na
 bufr4/3/15/006/5/001019,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001019,Long station or site name,Ship name,,,Operational,na
 bufr4/3/15/006/6/001080,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001080,Ship line number according to SOOP,,,,Operational,na
-bufr4/3/15/006/7/005036,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,005036,Ship transect number according to SOOP,,(see Note 2),31,Operational,na
+bufr4/3/15/006/7/005036,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,005036,Ship transect number according to SOOP,,(see Note 2),D31,Operational,na
 bufr4/3/15/006/8/001036,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001036,Agency in charge of operating the observing platform,,,,Operational,na
 bufr4/3/15/006/9/001013,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001013,Speed of motion of moving observing platform,,,,Operational,na
 bufr4/3/15/006/10/001012,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,001012,Direction of motion of moving observing platform,,,,Operational,na
@@ -136,7 +136,7 @@ bufr4/3/15/006/43/008080,15,Oceanographic report sequences,315006,(XCTD temperat
 bufr4/3/15/006/44/002171,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,002171,Instrument serial number for water temperature profile measurement,,,,Operational,na
 bufr4/3/15/006/45/302090,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,302090,Sea/water temperature high precision,,,,Operational,na
 bufr4/3/15/006/46/002171,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,002171,Instrument serial number for water temperature profile measurement,,,,Operational,na
-bufr4/3/15/006/47/002032,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,002032,Indicator for digitization,,(see Note 3),64,Operational,na
+bufr4/3/15/006/47/002032,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,002032,Indicator for digitization,,(see Note 3),D64,Operational,na
 bufr4/3/15/006/48/109000,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,109000,Delayed replication of 9 descriptors,,,,Operational,na
 bufr4/3/15/006/49/031002,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,031002,Extended delayed descriptor replication factor,,,,Operational,na
 bufr4/3/15/006/50/007063,15,Oceanographic report sequences,315006,(XCTD temperature and salinity profile data),,007063,Depth below sea/water surface (cm),,,,Operational,na
@@ -409,7 +409,7 @@ bufr4/3/15/012/55/033050,15,Oceanographic report sequences,315012,(Sequence for 
 bufr4/3/15/012/56/042016,15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,042016,Sea water potential density referenced to sea surface,,,,Operational,na
 bufr4/3/15/012/57/008080,15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"26, sea water potential density at a level",,,Operational,na
 bufr4/3/15/012/58/033050,15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational,na
-bufr4/3/15/013/1/301150,15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,(see Note 4),79,Operational,na
+bufr4/3/15/013/1/301150,15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,(see Note 4),D79,Operational,na
 bufr4/3/15/013/2/001087,15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational,na
 bufr4/3/15/013/3/208032,15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,Change width to 32 characters,,,Operational,na
 bufr4/3/15/013/4/001019,15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001019,Long station or site name,"Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)",,,Operational,na

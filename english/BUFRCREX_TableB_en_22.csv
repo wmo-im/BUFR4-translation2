@@ -1,8 +1,8 @@
 ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
-bufr4/0/22/001,22,Oceanographic elements,022001,Direction of waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,na
-bufr4/0/22/002,22,Oceanographic elements,022002,Direction of wind waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,na
-bufr4/0/22/003,22,Oceanographic elements,022003,Direction of swell waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational,na
-bufr4/0/22/004,22,Oceanographic elements,022004,Direction of current,degree true,0,0,9,degree true,0,3,(see Note 7),54,Operational,na
+bufr4/0/22/001,22,Oceanographic elements,022001,Direction of waves,degree true,0,0,9,degree true,0,3,(see Note 6),B136,Operational,na
+bufr4/0/22/002,22,Oceanographic elements,022002,Direction of wind waves,degree true,0,0,9,degree true,0,3,(see Note 6),B136,Operational,na
+bufr4/0/22/003,22,Oceanographic elements,022003,Direction of swell waves,degree true,0,0,9,degree true,0,3,(see Note 6),B136,Operational,na
+bufr4/0/22/004,22,Oceanographic elements,022004,Direction of current,degree true,0,0,9,degree true,0,3,(see Note 7),B54,Operational,na
 bufr4/0/22/005,22,Oceanographic elements,022005,Direction of sea-surface current,degree true,0,0,9,degree true,0,3,,,Operational,na
 bufr4/0/22/011,22,Oceanographic elements,022011,Period of waves,s,0,0,6,s,0,2,,,Operational,na
 bufr4/0/22/012,22,Oceanographic elements,022012,Period of wind waves,s,0,0,6,s,0,2,,,Operational,na
@@ -18,8 +18,8 @@ bufr4/0/22/035,22,Oceanographic elements,022035,Tidal elevation with respect to 
 bufr4/0/22/036,22,Oceanographic elements,022036,Meteorological residual tidal elevation (surge or offset),m,2,0,14,m,2,4,,,Operational,na
 bufr4/0/22/037,22,Oceanographic elements,022037,Tidal elevation with respect to national land datum,m,3,-10000,15,m,3,5,,,Operational,na
 bufr4/0/22/038,22,Oceanographic elements,022038,Tidal elevation with respect to local chart datum,m,3,-10000,15,m,3,5,,,Operational,na
-bufr4/0/22/039,22,Oceanographic elements,022039,Meteorological residual tidal elevation (surge or offset),m,3,-5000,13,m,3,4,(see Note 4),55,Operational,na
-bufr4/0/22/040,22,Oceanographic elements,022040,Meteorological residual tidal elevation (surge or offset),m,3,-5000,14,m,3,5,(see Note 4),55,Operational,na
+bufr4/0/22/039,22,Oceanographic elements,022039,Meteorological residual tidal elevation (surge or offset),m,3,-5000,13,m,3,4,(see Note 4),B55,Operational,na
+bufr4/0/22/040,22,Oceanographic elements,022040,Meteorological residual tidal elevation (surge or offset),m,3,-5000,14,m,3,5,(see Note 4),B55,Operational,na
 bufr4/0/22/041,22,Oceanographic elements,022041,Sea-surface temperature (15-day running mean),K,1,0,12,K,1,4,,,Operational,na
 bufr4/0/22/042,22,Oceanographic elements,022042,Sea/water temperature,K,1,0,12,K,1,4,,,Operational,na
 bufr4/0/22/043,22,Oceanographic elements,022043,Sea/water temperature,K,2,0,15,K,2,5,,,Operational,na
@@ -41,14 +41,14 @@ bufr4/0/22/066,22,Oceanographic elements,022066,Water conductivity,S/m,6,0,26,S/
 bufr4/0/22/067,22,Oceanographic elements,022067,Instrument type for water temperature/salinity profile measurement,Code table,0,0,10,Code table,0,4,,,Operational,na
 bufr4/0/22/068,22,Oceanographic elements,022068,Water temperature profile recorder types,Code table,0,0,7,Code table,0,3,,,Operational,na
 bufr4/0/22/069,22,Oceanographic elements,022069,Spectral wave density,m2/Hz,3,0,22,m2/Hz,3,7,,,Operational,na
-bufr4/0/22/070,22,Oceanographic elements,022070,Significant wave height,m,2,0,13,m,2,4,(see Note 1),146,Operational,na
+bufr4/0/22/070,22,Oceanographic elements,022070,Significant wave height,m,2,0,13,m,2,4,(see Note 1),B146,Operational,na
 bufr4/0/22/071,22,Oceanographic elements,022071,Spectral peak wave period,s,1,0,9,s,1,3,,,Operational,na
 bufr4/0/22/072,22,Oceanographic elements,022072,Spectral peak wavelength,m,0,0,13,m,0,4,,,Operational,na
 bufr4/0/22/073,22,Oceanographic elements,022073,Maximum wave height,m,2,0,13,m,2,4,,,Operational,na
 bufr4/0/22/074,22,Oceanographic elements,022074,Average wave period,s,1,0,9,s,1,3,,,Operational,na
 bufr4/0/22/075,22,Oceanographic elements,022075,Average wavelength,m,0,0,13,m,0,4,,,Operational,na
-bufr4/0/22/076,22,Oceanographic elements,022076,Direction from which dominant waves are coming,degree true,0,0,9,degree true,0,3,(see Note 2),137,Operational,na
-bufr4/0/22/077,22,Oceanographic elements,022077,Directional spread of dominant wave,deg,0,0,9,deg,0,3,(see Note 2),137,Operational,na
+bufr4/0/22/076,22,Oceanographic elements,022076,Direction from which dominant waves are coming,degree true,0,0,9,degree true,0,3,(see Note 2),B137,Operational,na
+bufr4/0/22/077,22,Oceanographic elements,022077,Directional spread of dominant wave,deg,0,0,9,deg,0,3,(see Note 2),B137,Operational,na
 bufr4/0/22/078,22,Oceanographic elements,022078,Duration of wave record,s,0,0,12,s,0,4,,,Operational,na
 bufr4/0/22/079,22,Oceanographic elements,022079,Length of wave record,m,0,0,16,m,0,5,,,Operational,na
 bufr4/0/22/080,22,Oceanographic elements,022080,Waveband central frequency,Hz,3,0,10,Hz,3,4,,,Operational,na
@@ -57,7 +57,7 @@ bufr4/0/22/082,22,Oceanographic elements,022082,Maximum non-directional spectral
 bufr4/0/22/083,22,Oceanographic elements,022083,Maximum non-directional spectral wave number,m3,2,0,20,m3,2,7,,,Operational,na
 bufr4/0/22/084,22,Oceanographic elements,022084,Band containing maximum non-directional spectral wave density,Numeric,0,0,7,Numeric,0,3,,,Operational,na
 bufr4/0/22/085,22,Oceanographic elements,022085,Spectral wave density ratio,Numeric,0,0,7,Numeric,0,3,,,Operational,na
-bufr4/0/22/086,22,Oceanographic elements,022086,Mean direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 3),100,Operational,na
+bufr4/0/22/086,22,Oceanographic elements,022086,Mean direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 3),B100,Operational,na
 bufr4/0/22/087,22,Oceanographic elements,022087,Principal direction from which waves are coming,degree true,0,0,9,degree true,0,3,,,Operational,na
 bufr4/0/22/088,22,Oceanographic elements,022088,First normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational,na
 bufr4/0/22/089,22,Oceanographic elements,022089,Second normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational,na
@@ -68,17 +68,17 @@ bufr4/0/22/093,22,Oceanographic elements,022093,Directional spectral estimate by
 bufr4/0/22/094,22,Oceanographic elements,022094,Total number of wave bands,Numeric,0,0,7,Numeric,0,3,,,Operational,na
 bufr4/0/22/095,22,Oceanographic elements,022095,Directional spread of individual waves,deg,0,0,8,deg,0,3,,,Operational,na
 bufr4/0/22/096,22,Oceanographic elements,022096,Spectral band width,/s,3,0,4,/s,3,2,,,Operational,na
-bufr4/0/22/097,22,Oceanographic elements,022097,Mean wavelength > 731 m of image spectrum at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational,na
-bufr4/0/22/098,22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational,na
-bufr4/0/22/099,22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),degree true,0,0,9,degree true,0,3,(see Note 5),107,Operational,na
-bufr4/0/22/100,22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),deg,0,0,9,deg,0,3,(see Note 5),107,Operational,na
-bufr4/0/22/101,22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,Numeric,0,0,31,Numeric,0,10,(see Note 5),107,Operational,na
-bufr4/0/22/102,22,Oceanographic elements,022102,Scaled maximum non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational,na
-bufr4/0/22/103,22,Oceanographic elements,022103,Scaled maximum non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational,na
-bufr4/0/22/104,22,Oceanographic elements,022104,Scaled non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational,na
-bufr4/0/22/105,22,Oceanographic elements,022105,Scaled non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational,na
-bufr4/0/22/106,22,Oceanographic elements,022106,Scaled directional spectral wave density by frequency,m2 s rad-1,0,0,14,m2 s rad-1,0,5,(see Note 10),104,Operational,na
-bufr4/0/22/107,22,Oceanographic elements,022107,Scaled directional spectral wave density by wave number,m4,0,0,14,m4,0,5,(see Note 10),104,Operational,na
+bufr4/0/22/097,22,Oceanographic elements,022097,Mean wavelength > 731 m of image spectrum at low wave numbers,m,0,0,14,m,0,5,(see Note 5),B107,Operational,na
+bufr4/0/22/098,22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,m,0,0,14,m,0,5,(see Note 5),B107,Operational,na
+bufr4/0/22/099,22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),degree true,0,0,9,degree true,0,3,(see Note 5),B107,Operational,na
+bufr4/0/22/100,22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),deg,0,0,9,deg,0,3,(see Note 5),B107,Operational,na
+bufr4/0/22/101,22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,Numeric,0,0,31,Numeric,0,10,(see Note 5),B107,Operational,na
+bufr4/0/22/102,22,Oceanographic elements,022102,Scaled maximum non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),B104,Operational,na
+bufr4/0/22/103,22,Oceanographic elements,022103,Scaled maximum non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),B104,Operational,na
+bufr4/0/22/104,22,Oceanographic elements,022104,Scaled non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),B104,Operational,na
+bufr4/0/22/105,22,Oceanographic elements,022105,Scaled non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),B104,Operational,na
+bufr4/0/22/106,22,Oceanographic elements,022106,Scaled directional spectral wave density by frequency,m2 s rad-1,0,0,14,m2 s rad-1,0,5,(see Note 10),B104,Operational,na
+bufr4/0/22/107,22,Oceanographic elements,022107,Scaled directional spectral wave density by wave number,m4,0,0,14,m4,0,5,(see Note 10),B104,Operational,na
 bufr4/0/22/108,22,Oceanographic elements,022108,Spectral wave density ratio,%,0,0,7,%,0,3,,,Operational,na
 bufr4/0/22/120,22,Oceanographic elements,022120,Tide station automated water level check,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/22/121,22,Oceanographic elements,022121,Tide station manual water level check,Code table,0,0,5,Code table,0,2,,,Operational,na
@@ -126,12 +126,12 @@ bufr4/0/22/174,22,Oceanographic elements,022174,C band net instrumental correcti
 bufr4/0/22/175,22,Oceanographic elements,022175,Number of valid points for C band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational,na
 bufr4/0/22/177,22,Oceanographic elements,022177,Height of XBT/XCTD launcher,m,0,0,6,m,0,3,,,Operational,na
 bufr4/0/22/178,22,Oceanographic elements,022178,XBT/XCTD launcher type,Code table,0,0,8,Code table,0,3,,,Operational,na
-bufr4/0/22/179,22,Oceanographic elements,022179,Specific band significant wave height (negative reference),m,3,-500,16,m,3,6,(see Note 13),12,Operational,na
-bufr4/0/22/182,22,Oceanographic elements,022182,Water column height,m,3,0,23,m,3,7,(see Note 9),139,Operational,na
+bufr4/0/22/179,22,Oceanographic elements,022179,Specific band significant wave height (negative reference),m,3,-500,16,m,3,6,(see Note 13),B12,Operational,na
+bufr4/0/22/182,22,Oceanographic elements,022182,Water column height,m,3,0,23,m,3,7,(see Note 9),B139,Operational,na
 bufr4/0/22/184,22,Oceanographic elements,022184,Water column height deviation from the reference value,m,3,-2000,12,m,3,4,,,Operational,na
 bufr4/0/22/185,22,Oceanographic elements,022185,BPR transmission count,Numeric,0,0,10,Numeric,0,3,,,Operational,na
-bufr4/0/22/186,22,Oceanographic elements,022186,Direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 11),13,Operational,na
-bufr4/0/22/187,22,Oceanographic elements,022187,Directional spread of wave,deg,0,0,9,deg,0,3,(see Note 12),14,Operational,na
+bufr4/0/22/186,22,Oceanographic elements,022186,Direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 11),B13,Operational,na
+bufr4/0/22/187,22,Oceanographic elements,022187,Directional spread of wave,deg,0,0,9,deg,0,3,(see Note 12),B14,Operational,na
 bufr4/0/22/188,22,Oceanographic elements,022188,Dissolved oxygen,umol/kg,3,0,19,umol/kg,3,6,,,Operational,na
 bufr4/0/22/189,22,Oceanographic elements,022189,Specific band ocean range,m,3,0,31,m,3,10,,,Operational,na
 bufr4/0/22/190,22,Oceanographic elements,022190,Specific band significant wave height,m,3,0,16,m,3,5,,,Operational,na

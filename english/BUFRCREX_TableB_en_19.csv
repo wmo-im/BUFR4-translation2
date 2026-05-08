@@ -1,10 +1,10 @@
 ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_en,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status,translation_source
 bufr4/0/19/001,19,Synoptic features,019001,Type of synoptic feature,Code table,0,0,6,Code table,0,2,,,Operational,na
-bufr4/0/19/002,19,Synoptic features,019002,Effective radius of feature,m,-2,0,12,m,-2,4,(see Note 1),138,Operational,na
-bufr4/0/19/003,19,Synoptic features,019003,Wind speed threshold,m/s,0,0,8,m/s,0,3,(see Note 2),99,Operational,na
-bufr4/0/19/004,19,Synoptic features,019004,Effective radius with respect to wind speeds above threshold,m,-2,0,12,m,-2,4,(see Note 2),99,Operational,na
-bufr4/0/19/005,19,Synoptic features,019005,Direction of motion of feature,degree true,0,0,9,degree true,0,3,(see Note 3),73,Operational,na
-bufr4/0/19/006,19,Synoptic features,019006,Speed of motion of feature,m/s,2,0,14,m/s,2,5,(see Note 3),73,Operational,na
+bufr4/0/19/002,19,Synoptic features,019002,Effective radius of feature,m,-2,0,12,m,-2,4,(see Note 1),B138,Operational,na
+bufr4/0/19/003,19,Synoptic features,019003,Wind speed threshold,m/s,0,0,8,m/s,0,3,(see Note 2),B99,Operational,na
+bufr4/0/19/004,19,Synoptic features,019004,Effective radius with respect to wind speeds above threshold,m,-2,0,12,m,-2,4,(see Note 2),B99,Operational,na
+bufr4/0/19/005,19,Synoptic features,019005,Direction of motion of feature,degree true,0,0,9,degree true,0,3,(see Note 3),B73,Operational,na
+bufr4/0/19/006,19,Synoptic features,019006,Speed of motion of feature,m/s,2,0,14,m/s,2,5,(see Note 3),B73,Operational,na
 bufr4/0/19/007,19,Synoptic features,019007,Effective radius of feature,m,-3,0,12,m,-3,4,,,Operational,na
 bufr4/0/19/008,19,Synoptic features,019008,Vertical extent of circulation,Code table,0,0,3,Code table,0,1,,,Operational,na
 bufr4/0/19/009,19,Synoptic features,019009,Effective radius with respect to wind speeds above threshold (large storms),m,-3,0,12,m,-3,4,,,Operational,na

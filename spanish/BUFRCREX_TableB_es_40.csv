@@ -67,7 +67,7 @@ bufr4/0/40/065,40,Datos satelitales,040065,Principales vectores propios de la ma
 bufr4/0/40/066,40,Datos satelitales,040066,Indicador de calidad del vapor de agua atmosférico,Numérica,1,0,8,Numérica,1,3,,,Operational,PDF
 bufr4/0/40/067,40,Datos satelitales,040067,Indicador de calidad de la temperatura atmosférica,Numérica,1,0,8,Numérica,1,3,,,Operational,PDF
 bufr4/0/40/068,40,Datos satelitales,040068,Banderín de calidad de la recuperación general del SO2,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
-bufr4/0/40/069,40,Datos satelitales,040069,Error de recuperación estimado mediante PWLR* para la temperatura d,K,4,-1000000,21,K,4,7,(véase la nota),114,Operational,PDF
+bufr4/0/40/069,40,Datos satelitales,040069,Error de recuperación estimado mediante PWLR* para la temperatura d,K,4,-1000000,21,K,4,7,(véase la nota),B114,Operational,PDF
 bufr4/0/40/070,40,Datos satelitales,040070,Error de recuperación estimado mediante PWLR* para el punto de rocí,K,4,-1000000,21,K,4,7,,,Operational,PDF
 bufr4/0/40/071,40,Datos satelitales,040071,Matriz de covarianza del error de recuperación para el ozono en el,Numérica,4,-1000000,21,Numérica,4,7,,,Operational,PDF
 bufr4/0/40/072,40,Datos satelitales,040072,Indicador de calidad de la recuperación estimado mediante PWLR para,Numérica,1,0,8,Numérica,1,3,,,Operational,PDF

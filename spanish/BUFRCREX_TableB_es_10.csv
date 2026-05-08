@@ -8,12 +8,12 @@ bufr4/0/10/008,10,Ubicación sin coordenadas (vertical),010008,Geopotencial,m² 
 bufr4/0/10/009,10,Ubicación sin coordenadas (vertical),010009,Altura geopotencial,gpm,0,-1000,17,gpm,0,5,,,Operational,PDF
 bufr4/0/10/010,10,Ubicación sin coordenadas (vertical),010010,Presión mínima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational,PDF
 bufr4/0/10/011,10,Ubicación sin coordenadas (vertical),010011,Presión máxima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational,PDF
-bufr4/0/10/031,10,Ubicación sin coordenadas (vertical),010031,Distancia desde el centro de la Tierra en dirección al polo Norte,m,2,-1073741824,31,m,2,10,(véanse las notas 2 y 3),"93,150",Operational,PDF
+bufr4/0/10/031,10,Ubicación sin coordenadas (vertical),010031,Distancia desde el centro de la Tierra en dirección al polo Norte,m,2,-1073741824,31,m,2,10,(véanse las notas 2 y 3),"B93,B150",Operational,PDF
 bufr4/0/10/032,10,Ubicación sin coordenadas (vertical),010032,Distancia del satélite al centro de la Tierra,m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/033,10,Ubicación sin coordenadas (vertical),010033,Altitud (plataforma a elipsoide),m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/034,10,Ubicación sin coordenadas (vertical),010034,Radio de la Tierra,m,1,0,27,m,2,9,,,Operational,PDF
 bufr4/0/10/035,10,Ubicación sin coordenadas (vertical),010035,Radio local de curvatura de la Tierra,m,1,62000000,22,m,1,8,,,Operational,PDF
-bufr4/0/10/036,10,Ubicación sin coordenadas (vertical),010036,Ondulación del geoide,m,2,-15000,15,m,2,6,(véase la nota 4),128,Operational,PDF
+bufr4/0/10/036,10,Ubicación sin coordenadas (vertical),010036,Ondulación del geoide,m,2,-15000,15,m,2,6,(véase la nota 4),B128,Operational,PDF
 bufr4/0/10/038,10,Ubicación sin coordenadas (vertical),010038,Altura máxima de carga en cubierta sobre la línea de carga máxima de verano,m,0,0,6,m,0,2,,,Operational,PDF
 bufr4/0/10/039,10,Ubicación sin coordenadas (vertical),010039,Desviación del nivel de referencia (línea de carga máxima de verano) a partir del nivel del mar real,m,0,-32,6,m,0,3,,,Operational,PDF
 bufr4/0/10/040,10,Ubicación sin coordenadas (vertical),010040,Recuperación de datos sobre el número de capas,Numérica,0,0,10,Numérica,0,4,,,Operational,PDF

@@ -17,7 +17,7 @@ bufr4/0/02/016,02,Instrumentation,002016,Radiosonde configuration,Flag table,0,0
 bufr4/0/02/017,02,Instrumentation,002017,Correction algorithms for humidity measurements,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/02/019,02,Instrumentation,002019,Satellite instruments,Code table,0,0,11,Code table,0,4,,,Operational,na
 bufr4/0/02/020,02,Instrumentation,002020,Satellite classification,Code table,0,0,9,Code table,0,3,,,Operational,na
-bufr4/0/02/021,02,Instrumentation,002021,Satellite instrument data used in processing,Flag table,0,0,9,Flag table,0,3,(see Note 8),47,Operational,na
+bufr4/0/02/021,02,Instrumentation,002021,Satellite instrument data used in processing,Flag table,0,0,9,Flag table,0,3,(see Note 8),B47,Operational,na
 bufr4/0/02/022,02,Instrumentation,002022,Satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational,na
 bufr4/0/02/023,02,Instrumentation,002023,Satellite-derived wind computation method,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/02/024,02,Instrumentation,002024,Integrated mean humidity computational method,Code table,0,0,4,Code table,0,2,,,Operational,na
@@ -82,7 +82,7 @@ bufr4/0/02/095,02,Instrumentation,002095,Type of pressure sensor,Code table,0,0,
 bufr4/0/02/096,02,Instrumentation,002096,Type of temperature sensor,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/02/097,02,Instrumentation,002097,Type of humidity sensor,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/02/099,02,Instrumentation,002099,Polarization,Code table,0,0,3,Code table,0,1,,,Operational,na
-bufr4/0/02/100,02,Instrumentation,002100,Radar constant,dB,1,0,12,dB,1,4,(see Note 9),157,Operational,na
+bufr4/0/02/100,02,Instrumentation,002100,Radar constant,dB,1,0,12,dB,1,4,(see Note 9),B157,Operational,na
 bufr4/0/02/101,02,Instrumentation,002101,Type of antenna,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/02/102,02,Instrumentation,002102,Antenna height above tower base,m,0,0,8,m,0,3,,,Operational,na
 bufr4/0/02/103,02,Instrumentation,002103,Radome,Flag table,0,0,2,Flag table,0,1,,,Operational,na
@@ -122,9 +122,9 @@ bufr4/0/02/136,02,Instrumentation,002136,Range processed by range attenuation co
 bufr4/0/02/137,02,Instrumentation,002137,Radar dual PRF ratio,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/02/138,02,Instrumentation,002138,Antenna rotation direction,Code table,0,0,2,Code table,0,1,,,Operational,na
 bufr4/0/02/139,02,Instrumentation,002139,SIRAL instrument configuration,Code table,0,0,2,Code table,0,1,,,Operational,na
-bufr4/0/02/140,02,Instrumentation,002140,Satellite radar beam azimuth angle,deg,0,0,9,deg,0,3,(see Note 4),111,Operational,na
+bufr4/0/02/140,02,Instrumentation,002140,Satellite radar beam azimuth angle,deg,0,0,9,deg,0,3,(see Note 4),B111,Operational,na
 bufr4/0/02/141,02,Instrumentation,002141,Measurement type,CCITT IA5,0,0,24,Character,0,3,,,Operational,na
-bufr4/0/02/142,02,Instrumentation,002142,Ozone instrument serial number/identification,CCITT IA5,0,0,32,Character,0,4,(see Note 5),91,Operational,na
+bufr4/0/02/142,02,Instrumentation,002142,Ozone instrument serial number/identification,CCITT IA5,0,0,32,Character,0,4,(see Note 5),B91,Operational,na
 bufr4/0/02/143,02,Instrumentation,002143,Ozone instrument type,Code table,0,0,7,Code table,0,3,,,Operational,na
 bufr4/0/02/144,02,Instrumentation,002144,Light source type for Brewer spectrophotometer,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/02/145,02,Instrumentation,002145,Wavelength setting for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational,na
@@ -134,7 +134,7 @@ bufr4/0/02/148,02,Instrumentation,002148,Data collection and/or location system,
 bufr4/0/02/149,02,Instrumentation,002149,Type of data buoy,Code table,0,0,6,Code table,0,2,,,Operational,na
 bufr4/0/02/150,02,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,Code table,0,0,6,Code table,0,2,,,Operational,na
 bufr4/0/02/151,02,Instrumentation,002151,Radiometer identifier,Code table,0,0,11,Code table,0,4,,,Operational,na
-bufr4/0/02/152,02,Instrumentation,002152,Satellite instrument used in data processing,Flag table,0,0,31,Flag table,0,10,(see Note 6),46,Operational,na
+bufr4/0/02/152,02,Instrumentation,002152,Satellite instrument used in data processing,Flag table,0,0,31,Flag table,0,10,(see Note 6),B46,Operational,na
 bufr4/0/02/153,02,Instrumentation,002153,Satellite channel centre frequency,Hz,-8,0,26,Hz,-8,8,,,Operational,na
 bufr4/0/02/154,02,Instrumentation,002154,Satellite channel band width,Hz,-8,0,26,Hz,-8,8,,,Operational,na
 bufr4/0/02/155,02,Instrumentation,002155,Satellite channel wavelength,m,9,0,16,m,9,5,,,Operational,na
@@ -155,7 +155,7 @@ bufr4/0/02/169,02,Instrumentation,002169,Anemometer type,Code table,0,0,4,Code t
 bufr4/0/02/170,02,Instrumentation,002170,Aircraft humidity sensors,Code table,0,0,6,Code table,0,2,,,Operational,na
 bufr4/0/02/171,02,Instrumentation,002171,Instrument serial number for water temperature profile measurement,CCITT IA5,0,0,64,Character,0,8,,,Operational,na
 bufr4/0/02/172,02,Instrumentation,002172,Product type for retrieved atmospheric gases,Code table,0,0,8,Code table,0,3,,,Operational,na
-bufr4/0/02/173,02,Instrumentation,002173,Square of the off-nadir angle,deg2,4,0,10,deg2,4,4,(see Note 7),124,Operational,na
+bufr4/0/02/173,02,Instrumentation,002173,Square of the off-nadir angle,deg2,4,0,10,deg2,4,4,(see Note 7),B124,Operational,na
 bufr4/0/02/174,02,Instrumentation,002174,Mean across track pixel number,Numeric,0,0,9,Numeric,0,3,,,Operational,na
 bufr4/0/02/175,02,Instrumentation,002175,Method of precipitation measurement,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/02/176,02,Instrumentation,002176,Method of state of ground measurement,Code table,0,0,4,Code table,0,2,,,Operational,na

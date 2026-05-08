@@ -1,4 +1,4 @@
-﻿ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
+ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
 bufr4/0/11/001,11,Ветер и турбулентность,011001,Направление ветра,degree true,0,0,9,degree true,0,3,,,Operational,PDF
 bufr4/0/11/002,11,Ветер и турбулентность,011002,Скорость ветра,m/s,1,0,12,m/s,1,4,,,Operational,PDF
 bufr4/0/11/003,11,Ветер и турбулентность,011003,Компонента u,m/s,1,-4096,13,m/s,1,4,,,Operational,PDF
@@ -14,7 +14,7 @@ bufr4/0/11/013,11,Ветер и турбулентность,011013,Направ
 bufr4/0/11/014,11,Ветер и турбулентность,011014,Скорость ветра на высоте 5 м,m/s,1,0,12,m/s,1,4,,,Operational,PDF
 bufr4/0/11/016,11,Ветер и турбулентность,011016,Экстремальное отклонение направления переменного ветра против часовой стрелки,degree true,0,0,9,degree true,0,3,,,Operational,PDF
 bufr4/0/11/017,11,Ветер и турбулентность,011017,Экстремальное отклонение направления переменного ветра против часовой стрелки,degree true,0,0,9,degree true,0,3,,,Operational,PDF
-bufr4/0/11/019,11,Ветер и турбулентность,011019,Постоянство ветра,%,0,0,7,%,0,3,(см. примечание 6),147,Operational,PDF
+bufr4/0/11/019,11,Ветер и турбулентность,011019,Постоянство ветра,%,0,0,7,%,0,3,(см. примечание 6),B147,Operational,PDF
 bufr4/0/11/021,11,Ветер и турбулентность,011021,Относительная завихренность,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/022,11,Ветер и турбулентность,011022,Дивергенция,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/023,11,Ветер и турбулентность,011023,Потенциал скорости,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational,PDF

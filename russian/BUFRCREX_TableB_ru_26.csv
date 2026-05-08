@@ -1,7 +1,7 @@
-﻿ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
+ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
 bufr4/0/26/001,26,Бескоординатное местоположение (время),026001,Основной срок суточной максимальной температуры в ВСВ,h,1,0,12,h,1,3,,,Operational,PDF
 bufr4/0/26/002,26,Бескоординатное местоположение (время),026002,Основной срок суточной минимальной температуры в ВСВ,h,1,0,12,h,1,3,,,Operational,PDF
-bufr4/0/26/003,26,Бескоординатное местоположение (время),026003,Разница во времени,min,0,-1440,12,min,0,4,(см. примечание),58,Operational,PDF
+bufr4/0/26/003,26,Бескоординатное местоположение (время),026003,Разница во времени,min,0,-1440,12,min,0,4,(см. примечание),B58,Operational,PDF
 bufr4/0/26/010,26,Бескоординатное местоположение (время),026010,Включенные часы,Таблица флагов,0,0,26,Таблица флагов,0,9,,,Operational,PDF
 bufr4/0/26/020,26,Бескоординатное местоположение (время),026020,Продолжительность осадков,min,0,0,11,min,0,4,,,Operational,PDF
 bufr4/0/26/021,26,Бескоординатное местоположение (время),026021,Год,a,0,0,12,a,0,4,,,Operational,PDF

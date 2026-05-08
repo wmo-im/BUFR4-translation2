@@ -46,7 +46,7 @@ bufr4/3/16/004/7/102000,16,Synoptic feature sequences,316004,(Turbulence),,10200
 bufr4/3/16/004/8/031001,16,Synoptic feature sequences,316004,(Turbulence),,031001,Delayed descriptor replication factor,,,,Operational,na
 bufr4/3/16/004/9/005002,16,Synoptic feature sequences,316004,(Turbulence),,005002,Latitude (coarse accuracy),,,,Operational,na
 bufr4/3/16/004/10/006002,16,Synoptic feature sequences,316004,(Turbulence),,006002,Longitude (coarse accuracy),,,,Operational,na
-bufr4/3/16/004/11/011031,16,Synoptic feature sequences,316004,(Turbulence),,011031,Degree of turbulence,,(see Note 1),20,Operational,na
+bufr4/3/16/004/11/011031,16,Synoptic feature sequences,316004,(Turbulence),,011031,Degree of turbulence,,(see Note 1),D20,Operational,na
 bufr4/3/16/004/12/008007,16,Synoptic feature sequences,316004,(Turbulence),,008007,Dimensional significance,Cancel,,,Operational,na
 bufr4/3/16/004/13/008011,16,Synoptic feature sequences,316004,(Turbulence),,008011,Meteorological feature,Cancel | End of object,,,Operational,na
 bufr4/3/16/005/1/108000,16,Synoptic feature sequences,316005,(Storm),,108000,Delayed replication of 8 descriptors,,,,Operational,na
@@ -69,13 +69,13 @@ bufr4/3/16/006/7/102000,16,Synoptic feature sequences,316006,(Cloud),,102000,Del
 bufr4/3/16/006/8/031001,16,Synoptic feature sequences,316006,(Cloud),,031001,Delayed descriptor replication factor,,,,Operational,na
 bufr4/3/16/006/9/005002,16,Synoptic feature sequences,316006,(Cloud),,005002,Latitude (coarse accuracy),,,,Operational,na
 bufr4/3/16/006/10/006002,16,Synoptic feature sequences,316006,(Cloud),,006002,Longitude (coarse accuracy),,,,Operational,na
-bufr4/3/16/006/11/020011,16,Synoptic feature sequences,316006,(Cloud),,020011,Cloud amount,,(see Note 2),6,Operational,na
+bufr4/3/16/006/11/020011,16,Synoptic feature sequences,316006,(Cloud),,020011,Cloud amount,,(see Note 2),D6,Operational,na
 bufr4/3/16/006/12/020012,16,Synoptic feature sequences,316006,(Cloud),,020012,Cloud type,,,,Operational,na
 bufr4/3/16/006/13/008007,16,Synoptic feature sequences,316006,(Cloud),,008007,Dimensional significance,Cancel,,,Operational,na
 bufr4/3/16/006/14/008011,16,Synoptic feature sequences,316006,(Cloud),,008011,Meteorological feature,Cancel | End of object,,,Operational,na
 bufr4/3/16/007/1/110000,16,Synoptic feature sequences,316007,(Front),,110000,Delayed replication of 10 descriptors,,,,Operational,na
 bufr4/3/16/007/2/031001,16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational,na
-bufr4/3/16/007/3/008011,16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Value for type of front,(see Note 3),21,Operational,na
+bufr4/3/16/007/3/008011,16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Value for type of front,(see Note 3),D21,Operational,na
 bufr4/3/16/007/4/008007,16,Synoptic feature sequences,316007,(Front),,008007,Dimensional significance,Value for line,,,Operational,na
 bufr4/3/16/007/5/104000,16,Synoptic feature sequences,316007,(Front),,104000,Delayed replication of 4 descriptors,,,,Operational,na
 bufr4/3/16/007/6/031001,16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational,na
@@ -89,7 +89,7 @@ bufr4/3/16/008/1/111000,16,Synoptic feature sequences,316008,(Tropopause),,11100
 bufr4/3/16/008/2/031001,16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational,na
 bufr4/3/16/008/3/008001,16,Synoptic feature sequences,316008,(Tropopause),,008001,Vertical sounding significance,Bit 3 set for tropopause,,,Operational,na
 bufr4/3/16/008/4/008007,16,Synoptic feature sequences,316008,(Tropopause),,008007,Dimensional significance,Value for point,,,Operational,na
-bufr4/3/16/008/5/008023,16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Type of tropopause value,(see Note 4),58,Operational,na
+bufr4/3/16/008/5/008023,16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Type of tropopause value,(see Note 4),D58,Operational,na
 bufr4/3/16/008/6/103000,16,Synoptic feature sequences,316008,(Tropopause),,103000,Delayed replication of 3 descriptors,,,,Operational,na
 bufr4/3/16/008/7/031001,16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational,na
 bufr4/3/16/008/8/005002,16,Synoptic feature sequences,316008,(Tropopause),,005002,Latitude (coarse accuracy),,,,Operational,na

@@ -7,10 +7,10 @@ bufr4/0/13/005,13,Elementos hidrográfico e hidrológico,013005,Densidad del vap
 bufr4/0/13/006,13,Elementos hidrográfico e hidrológico,013006,Alturas de mezcla,m,-1,-40,16,m,-1,5,,,Operational,PDF
 bufr4/0/13/007,13,Elementos hidrográfico e hidrológico,013007,Humedad relativa mínima,%,0,0,7,%,0,3,,,Operational,PDF
 bufr4/0/13/008,13,Elementos hidrográfico e hidrológico,013008,Humedad relativa máxima,%,0,0,7,%,0,3,,,Operational,PDF
-bufr4/0/13/009,13,Elementos hidrográfico e hidrológico,013009,Humedad relativa,%,1,-1000,12,%,1,4,(véase la nota 6),39,Operational,PDF
+bufr4/0/13/009,13,Elementos hidrográfico e hidrológico,013009,Humedad relativa,%,1,-1000,12,%,1,4,(véase la nota 6),B39,Operational,PDF
 bufr4/0/13/011,13,Elementos hidrográfico e hidrológico,013011,Precipitación total/equivalente total en agua,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,PDF
-bufr4/0/13/012,13,Elementos hidrográfico e hidrológico,013012,Espesor de la nieve recién caída,m,2,-2,12,m,2,4,(véase la nota 2),26,Operational,PDF
-bufr4/0/13/013,13,Elementos hidrográfico e hidrológico,013013,Espesor total de la nieve,m,2,-2,16,m,2,5,(véase la nota 2),26,Operational,PDF
+bufr4/0/13/012,13,Elementos hidrográfico e hidrológico,013012,Espesor de la nieve recién caída,m,2,-2,12,m,2,4,(véase la nota 2),B26,Operational,PDF
+bufr4/0/13/013,13,Elementos hidrográfico e hidrológico,013013,Espesor total de la nieve,m,2,-2,16,m,2,5,(véase la nota 2),B26,Operational,PDF
 bufr4/0/13/014,13,Elementos hidrográfico e hidrológico,013014,Lluvia/equivalente en agua de nieve (valores medios),kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,,,Operational,PDF
 bufr4/0/13/015,13,Elementos hidrográfico e hidrológico,013015,Nieve (valores medios),m s-1,7,0,12,m s-1,7,4,,,Operational,PDF
 bufr4/0/13/016,13,Elementos hidrográfico e hidrológico,013016,Agua precipitable,kg m-2,0,0,7,kg m-2,0,3,,,Operational,PDF
@@ -20,18 +20,18 @@ bufr4/0/13/021,13,Elementos hidrográfico e hidrológico,013021,Precipitación t
 bufr4/0/13/022,13,Elementos hidrográfico e hidrológico,013022,Precipitación total en el curso de las 12 horas precedentes,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,PDF
 bufr4/0/13/023,13,Elementos hidrográfico e hidrológico,013023,Precipitación total en el curso de las 24 horas precedentes,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,PDF
 bufr4/0/13/031,13,Elementos hidrográfico e hidrológico,013031,Evapotranspiración,kg m-2,0,0,7,kg m-2,0,3,,,Operational,PDF
-bufr4/0/13/032,13,Elementos hidrográfico e hidrológico,013032,Evaporación/evapotranspiración,kg m-2,1,0,8,kg m-2,1,3,(véase la nota 5),53,Operational,PDF
+bufr4/0/13/032,13,Elementos hidrográfico e hidrológico,013032,Evaporación/evapotranspiración,kg m-2,1,0,8,kg m-2,1,3,(véase la nota 5),B53,Operational,PDF
 bufr4/0/13/033,13,Elementos hidrográfico e hidrológico,013033,Evaporación/evapotranspiración,kg m-2,1,0,10,kg m-2,1,4,,,Operational,PDF
 bufr4/0/13/038,13,Elementos hidrográfico e hidrológico,013038,Indicador superadiabático,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/13/039,13,Elementos hidrográfico e hidrológico,013039,Tipo de terreno (hielo/nieve),Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/13/040,13,Elementos hidrográfico e hidrológico,013040,Banderín de superficie,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/13/041,13,Elementos hidrográfico e hidrológico,013041,Categoría de estabilidad de Pasquill-Gifford,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
-bufr4/0/13/042,13,Elementos hidrográfico e hidrológico,013042,Índice de elevación de una partícula (a 500 hPa),K,0,-20,6,K,0,2,(véanse las notas 3 y 4),"119,130",Operational,PDF
-bufr4/0/13/043,13,Elementos hidrográfico e hidrológico,013043,Índice de elevación óptimo (a 500 hPa),K,0,-20,6,K,0,2,(véanse las notas 3 y 4),"119,130",Operational,PDF
+bufr4/0/13/042,13,Elementos hidrográfico e hidrológico,013042,Índice de elevación de una partícula (a 500 hPa),K,0,-20,6,K,0,2,(véanse las notas 3 y 4),"B119,B130",Operational,PDF
+bufr4/0/13/043,13,Elementos hidrográfico e hidrológico,013043,Índice de elevación óptimo (a 500 hPa),K,0,-20,6,K,0,2,(véanse las notas 3 y 4),"B119,B130",Operational,PDF
 bufr4/0/13/044,13,Elementos hidrográfico e hidrológico,013044,Índice K,K,0,-30,8,K,0,3,,,Operational,PDF
 bufr4/0/13/045,13,Elementos hidrográfico e hidrológico,013045,Índice KO,K,0,-30,8,K,0,3,,,Operational,PDF
 bufr4/0/13/046,13,Elementos hidrográfico e hidrológico,013046,Flotabilidad máxima,K,0,-30,8,K,0,3,,,Operational,PDF
-bufr4/0/13/047,13,Elementos hidrográfico e hidrológico,013047,Índice modificado de estabilidad de Showalter,K,0,-60,6,°C,0,2,(véase la nota 7),129,Operational,PDF
+bufr4/0/13/047,13,Elementos hidrográfico e hidrológico,013047,Índice modificado de estabilidad de Showalter,K,0,-60,6,°C,0,2,(véase la nota 7),B129,Operational,PDF
 bufr4/0/13/048,13,Elementos hidrográfico e hidrológico,013048,Fracción de agua,%,1,0,10,%,1,4,,,Operational,PDF
 bufr4/0/13/051,13,Elementos hidrográfico e hidrológico,013051,"Grupo de frecuencia, precipitación",Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/13/052,13,Elementos hidrográfico e hidrológico,013052,Cantidad máxima diaria de precipitación,kg m-2,1,-1,14,kg m-2,1,5,,,Operational,PDF
@@ -66,11 +66,11 @@ bufr4/0/13/110,13,Elementos hidrográfico e hidrológico,013110,Cociente de mezc
 bufr4/0/13/111,13,Elementos hidrográfico e hidrológico,013111,Humedad del suelo,g kg-1,0,0,10,g kg-1,0,4,,,Operational,PDF
 bufr4/0/13/112,13,Elementos hidrográfico e hidrológico,013112,Duración de la humedad del objeto,s,0,0,17,s,0,5,,,Operational,PDF
 bufr4/0/13/114,13,Elementos hidrográfico e hidrológico,013114,Tasa de acreción de hielo,kg m-2 h-1,1,0,11,kg m-2 h-1,1,4,,,Operational,PDF
-bufr4/0/13/115,13,Elementos hidrográfico e hidrológico,013115,Espesor del hielo,m,2,0,19,m,2,6,(véase la nota 9),88,Operational,PDF
+bufr4/0/13/115,13,Elementos hidrográfico e hidrológico,013115,Espesor del hielo,m,2,0,19,m,2,6,(véase la nota 9),B88,Operational,PDF
 bufr4/0/13/116,13,Elementos hidrográfico e hidrológico,013116,Espesor de la lámina de agua,m,4,0,10,m,3,2,,,Operational,PDF
 bufr4/0/13/117,13,Elementos hidrográfico e hidrológico,013117,Densidad de la nieve (contenido de agua líquida),kg m-3,0,0,10,kg m-3,0,3,,,Operational,PDF
-bufr4/0/13/118,13,Elementos hidrográfico e hidrológico,013118,Espesor de nieve fresca (gran precisión),m,3,-2,14,m,3,5,(véase la nota 10),41,Operational,PDF
-bufr4/0/13/155,13,Elementos hidrográfico e hidrológico,013155,Intensidad de la precipitación (gran precisión),kg m-2 s-1,5,-1,16,mm h-1,1,5,(véase la nota 8),28,Operational,PDF
+bufr4/0/13/118,13,Elementos hidrográfico e hidrológico,013118,Espesor de nieve fresca (gran precisión),m,3,-2,14,m,3,5,(véase la nota 10),B41,Operational,PDF
+bufr4/0/13/155,13,Elementos hidrográfico e hidrológico,013155,Intensidad de la precipitación (gran precisión),kg m-2 s-1,5,-1,16,mm h-1,1,5,(véase la nota 8),B28,Operational,PDF
 bufr4/0/13/160,13,Elementos hidrográfico e hidrológico,013160,Contenido líquido radiométrico,kg m-2,2,-350,10,kg m-2,2,3,,,Operational,PDF
 bufr4/0/13/162,13,Elementos hidrográfico e hidrológico,013162,Agua líquida en la nube,kg m-2,2,0,8,kg m-2,2,3,,,Operational,PDF
 bufr4/0/13/163,13,Elementos hidrográfico e hidrológico,013163,Equivalente en agua de la nieve,kg m-2,0,0,16,kg m-2,0,5,,,Operational,PDF

@@ -38,7 +38,7 @@ bufr4/0/03/008/2,003008,Abri ou protection avec ventilation artificielle,2,Aspir
 bufr4/0/03/008/3-6,003008,Abri ou protection avec ventilation artificielle,3-6,En réserve,,,,,Operational,PDF
 bufr4/0/03/008/7,003008,Abri ou protection avec ventilation artificielle,7,Valeur manquante,,,,,Operational,PDF
 bufr4/0/03/010/0,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,0,En réserve,,,,,Operational,PDF
-bufr4/0/03/010/1,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,1,ADCP,,,(voir Note),91,Operational,PDF
+bufr4/0/03/010/1,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,1,ADCP,,,(voir Note),CF91,Operational,PDF
 bufr4/0/03/010/2,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,2,GEK (Électrocinétographe géomagnétique),,,,,Operational,PDF
 bufr4/0/03/010/3,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,3,Direction et dérive du navire déterminées par des relevés effectués à intervalles de 3 à 6 heures,,,,,Operational,PDF
 bufr4/0/03/010/4,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,4,"Direction et dérive du navire déterminées par des relevés effectués à intervalles de plus de 6 heures, mais de moins de 12 heures",,,,,Operational,PDF

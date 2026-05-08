@@ -16,7 +16,7 @@ bufr4/0/02/016,02,Instrumentos,002016,Configuración de la radiosonda,Tabla de b
 bufr4/0/02/017,02,Instrumentos,002017,Algoritmos de corrección de las mediciones de humedad,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/019,02,Instrumentos,002019,Instrumentos de satélite,Tabla de cifrado,0,0,11,Tabla de cifrado,0,4,,,Operational,PDF
 bufr4/0/02/020,02,Instrumentos,002020,Clasificación de los satélites,Tabla de cifrado,0,0,9,Tabla de cifrado,0,3,,,Operational,PDF
-bufr4/0/02/021,02,Instrumentos,002021,Datos de instrumentos satelitales utilizados en el proceso*,Tabla de banderines,0,0,9,Tabla de banderines,0,3,(véase la nota 8),47,Operational,PDF
+bufr4/0/02/021,02,Instrumentos,002021,Datos de instrumentos satelitales utilizados en el proceso*,Tabla de banderines,0,0,9,Tabla de banderines,0,3,(véase la nota 8),B47,Operational,PDF
 bufr4/0/02/022,02,Instrumentos,002022,Técnica utilizada en el proceso de datos satelitales,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational,PDF
 bufr4/0/02/023,02,Instrumentos,002023,Método de cálculo del viento a partir de datos satelitales,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/024,02,Instrumentos,002024,Método de cálculo de la humedad media integrada,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
@@ -80,7 +80,7 @@ bufr4/0/02/095,02,Instrumentos,002095,Tipo de sensor de presión,Tabla de cifrad
 bufr4/0/02/096,02,Instrumentos,002096,Tipo de sensor de temperatura,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/097,02,Instrumentos,002097,Tipo de sensor de humedad,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/099,02,Instrumentos,002099,Polarización,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational,PDF
-bufr4/0/02/100,02,Instrumentos,002100,Constante de radar+,dB,1,0,12,dB,1,4,(véase la nota 9),157,Operational,PDF
+bufr4/0/02/100,02,Instrumentos,002100,Constante de radar+,dB,1,0,12,dB,1,4,(véase la nota 9),B157,Operational,PDF
 bufr4/0/02/101,02,Instrumentos,002101,Tipo de antena,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/102,02,Instrumentos,002102,Altura de la antena sobre la base de la torre,m,0,0,8,m,0,3,,,Operational,PDF
 bufr4/0/02/103,02,Instrumentos,002103,Radomo,Tabla de banderines,0,0,2,Tabla de banderines,0,1,,,Operational,PDF
@@ -120,9 +120,9 @@ bufr4/0/02/136,02,Instrumentos,002136,Alcance procesado por la corrección de at
 bufr4/0/02/137,02,Instrumentos,002137,Relación de frecuencia de repetición de impulsos dual del radar,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/138,02,Instrumentos,002138,Dirección de rotación de la antena,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/02/139,02,Instrumentos,002139,Configuración del instrumento SIRAL,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational,PDF
-bufr4/0/02/140,02,Instrumentos,002140,Ángulo azimutal del haz del radar del satélite,°,0,0,9,°,0,3,(véase la nota 4),111,Operational,PDF
+bufr4/0/02/140,02,Instrumentos,002140,Ángulo azimutal del haz del radar del satélite,°,0,0,9,°,0,3,(véase la nota 4),B111,Operational,PDF
 bufr4/0/02/141,02,Instrumentos,002141,Tipo de medición,CCITT IA5,0,0,24,Carácter,0,3,,,Operational,PDF
-bufr4/0/02/142,02,Instrumentos,002142,Número de serie/indicador del tipo de instrumento de medición del ozono,CCITT IA5,0,0,32,Carácter,0,4,(véase la nota 5),91,Operational,PDF
+bufr4/0/02/142,02,Instrumentos,002142,Número de serie/indicador del tipo de instrumento de medición del ozono,CCITT IA5,0,0,32,Carácter,0,4,(véase la nota 5),B91,Operational,PDF
 bufr4/0/02/143,02,Instrumentos,002143,Tipo de instrumento de medición del ozono,Tabla de cifrado,0,0,7,Tabla de cifrado,0,3,,,Operational,PDF
 bufr4/0/02/144,02,Instrumentos,002144,Tipo de fuente luminosa para el espectrofotómetro de Brewer,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/145,02,Instrumentos,002145,Ajuste de la longitud de onda para los instrumentos Dobson,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
@@ -132,7 +132,7 @@ bufr4/0/02/148,02,Instrumentos,002148,Sistema de recopilación de datos y/o ubic
 bufr4/0/02/149,02,Instrumentos,002149,Tipo de boya de datos,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/150,02,Instrumentos,002150,Número de canal de los instrumentos TOVS/ATOVS/AVHRR,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/151,02,Instrumentos,002151,Identificador del radiómetro,Tabla de cifrado,0,0,11,Tabla de cifrado,0,4,,,Operational,PDF
-bufr4/0/02/152,02,Instrumentos,002152,Instrumento de satélite utilizado en el proceso de los datos,Tabla de banderines,0,0,31,Tabla de banderines,0,10,(véase la nota 6),46,Operational,PDF
+bufr4/0/02/152,02,Instrumentos,002152,Instrumento de satélite utilizado en el proceso de los datos,Tabla de banderines,0,0,31,Tabla de banderines,0,10,(véase la nota 6),B46,Operational,PDF
 bufr4/0/02/153,02,Instrumentos,002153,Frecuencia central del canal del satélite,Hz,-8,0,26,Hz,-8,8,,,Operational,PDF
 bufr4/0/02/154,02,Instrumentos,002154,Anchura de banda del canal del satélite,Hz,-8,0,26,Hz,-8,8,,,Operational,PDF
 bufr4/0/02/155,02,Instrumentos,002155,Longitud de onda del canal satelital,m,9,0,16,m,9,5,,,Operational,PDF
@@ -153,7 +153,7 @@ bufr4/0/02/169,02,Instrumentos,002169,Tipo de anemómetro,Tabla de cifrado,0,0,4
 bufr4/0/02/170,02,Instrumentos,002170,Sensores de humedad de la aeronave,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/171,02,Instrumentos,002171,Número de serie del instrumento para mediciones del perfil de temperatura del agua,CCITT IA5,0,0,64,Carácter,0,8,,,Operational,PDF
 bufr4/0/02/172,02,Instrumentos,002172,Tipo de producto para la recuperación de datos sobre gases atmosféricos,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational,PDF
-bufr4/0/02/173,02,Instrumentos,002173,Cuadrado del ángulo de desviación del nadir,grado²,4,0,10,grado²,4,4,(véase la nota 7),124,Operational,PDF
+bufr4/0/02/173,02,Instrumentos,002173,Cuadrado del ángulo de desviación del nadir,grado²,4,0,10,grado²,4,4,(véase la nota 7),B124,Operational,PDF
 bufr4/0/02/174,02,Instrumentos,002174,Número medio de píxeles transversales por pista,Numérica,0,0,9,Numérica,0,3,,,Operational,PDF
 bufr4/0/02/175,02,Instrumentos,002175,Método de medición de la precipitación,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/02/176,02,Instrumentos,002176,Método de medición del estado del suelo,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF

@@ -1,9 +1,9 @@
 ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
 bufr4/0/15/001,15,Constituants physiques/chimiques,015001,Ozone total,DU,0,0,10,DU,0,4,,,Operational,PDF
 bufr4/0/15/002,15,Constituants physiques/chimiques,015002,Masse d'air (correspondant à une trajectoire oblique à une altitude de 22 km),Numérique,2,0,10,Numérique,2,3,,,Operational,PDF
-bufr4/0/15/003,15,Constituants physiques/chimiques,015003,Pression partielle de l'ozone mesuré (sondage),Pa,4,0,9,nbar,0,3,(voir Note 1),1,Operational,PDF
-bufr4/0/15/004,15,Constituants physiques/chimiques,015004,Facteur de correction du sondage de l'ozone (CF),Numérique,3,0,11,Numérique,3,4,(voir Note 2),2,Operational,PDF
-bufr4/0/15/005,15,Constituants physiques/chimiques,015005,Pression partielle de l'ozone,DU,0,0,10,DU,0,3,(voir Note 3),3,Operational,PDF
+bufr4/0/15/003,15,Constituants physiques/chimiques,015003,Pression partielle de l'ozone mesuré (sondage),Pa,4,0,9,nbar,0,3,(voir Note 1),B1,Operational,PDF
+bufr4/0/15/004,15,Constituants physiques/chimiques,015004,Facteur de correction du sondage de l'ozone (CF),Numérique,3,0,11,Numérique,3,4,(voir Note 2),B2,Operational,PDF
+bufr4/0/15/005,15,Constituants physiques/chimiques,015005,Pression partielle de l'ozone,DU,0,0,10,DU,0,3,(voir Note 3),B3,Operational,PDF
 bufr4/0/15/006,15,Constituants physiques/chimiques,015006,Log10 de la concentration en nombre des particules de l'atmosphère,log(m-3),5,1800000,20,log(m-3),5,7,,,Operational,PDF
 bufr4/0/15/008,15,Constituants physiques/chimiques,015008,Mantisse du rapport de mélange volumétrique,Numérique,0,0,10,Numérique,0,4,,,Operational,PDF
 bufr4/0/15/009,15,Constituants physiques/chimiques,015009,Log10 de la concentration en nombre de molécules d'ozone,log(m-3),5,1200000,20,log(m-3),5,7,,,Operational,PDF
@@ -18,18 +18,18 @@ bufr4/0/15/026,15,Constituants physiques/chimiques,015026,Concentration du pollu
 bufr4/0/15/027,15,Constituants physiques/chimiques,015027,Concentration du polluant (kg m-3),kg m-3,9,0,10,kg m-3,9,4,,,Operational,PDF
 bufr4/0/15/028,15,Constituants physiques/chimiques,015028,Fraction molaire du constituant/ polluant atmosphérique en air sec,‰,5,0,16,‰,5,5,,,Operational,PDF
 bufr4/0/15/029,15,Constituants physiques/chimiques,015029,Coefficient d'atténuation,/m,9,0,30,/m,9,10,,,Operational,PDF
-bufr4/0/15/030,15,Constituants physiques/chimiques,015030,Indice de contamination par aérosols,Numérique,2,-1000,12,Numérique,2,4,(voir Note 6),79,Operational,PDF
+bufr4/0/15/030,15,Constituants physiques/chimiques,015030,Indice de contamination par aérosols,Numérique,2,-1000,12,Numérique,2,4,(voir Note 6),B79,Operational,PDF
 bufr4/0/15/031,15,Constituants physiques/chimiques,015031,Retard de propagation dans l'atmosphère du signal du satellite,m,4,10000,15,m,4,5,,,Operational,PDF
 bufr4/0/15/032,15,Constituants physiques/chimiques,015032,Erreur estimative du retard de propagation dans l'atmosphère,m,4,0,10,m,4,4,,,Operational,PDF
 bufr4/0/15/033,15,Constituants physiques/chimiques,015033,Différence des retards de propagation pour des visées du limbe aux limites extrêmes du balayage,m,5,-10000,15,m,5,5,,,Operational,PDF
 bufr4/0/15/034,15,Constituants physiques/chimiques,015034,Erreur estimative de la différence des retards de propagation,m,5,0,14,m,5,5,,,Operational,PDF
 bufr4/0/15/035,15,Constituants physiques/chimiques,015035,Composante du retard de propagation pour une visée au zénith due à la vapeur d'eau,m,4,0,14,m,4,5,,,Operational,PDF
-bufr4/0/15/036,15,Constituants physiques/chimiques,015036,Réfractivité atmosphérique,Unités N,3,0,19,Unités N,3,6,(voir Note 5),142,Operational,PDF
+bufr4/0/15/036,15,Constituants physiques/chimiques,015036,Réfractivité atmosphérique,Unités N,3,0,19,Unités N,3,6,(voir Note 5),B142,Operational,PDF
 bufr4/0/15/037,15,Constituants physiques/chimiques,015037,Angle de courbure,rad,8,-100000,23,rad,8,7,,,Operational,PDF
-bufr4/0/15/041,15,Constituants physiques/chimiques,015041,Indice de dioxyde de soufre,Numérique,2,-1200,14,Numérique,2,4,(voir Note 7),78,Operational,PDF
+bufr4/0/15/041,15,Constituants physiques/chimiques,015041,Indice de dioxyde de soufre,Numérique,2,-1200,14,Numérique,2,4,(voir Note 7),B78,Operational,PDF
 bufr4/0/15/042,15,Constituants physiques/chimiques,015042,Facteur de réflexion,%,2,0,14,%,2,5,,,Operational,PDF
-bufr4/0/15/045,15,Constituants physiques/chimiques,015045,Dioxyde de soufre,DU,2,-2000,15,DU,2,5,(voir Note 8),77,Operational,PDF
-bufr4/0/15/046,15,Constituants physiques/chimiques,015046,Indice de contamination volcanique,Numérique,2,-1000,11,Numérique,2,4,(voir Note 9),80,Operational,PDF
+bufr4/0/15/045,15,Constituants physiques/chimiques,015045,Dioxyde de soufre,DU,2,-2000,15,DU,2,5,(voir Note 8),B77,Operational,PDF
+bufr4/0/15/046,15,Constituants physiques/chimiques,015046,Indice de contamination volcanique,Numérique,2,-1000,11,Numérique,2,4,(voir Note 9),B80,Operational,PDF
 bufr4/0/15/049,15,Constituants physiques/chimiques,015049,Exposant d'Ångström de l'aérosol,Numérique,3,-2000,14,Numérique,3,5,,,Operational,PDF
 bufr4/0/15/051,15,Constituants physiques/chimiques,015051,Portée optique météorologique,m,0,0,18,m,0,6,,,Operational,PDF
 bufr4/0/15/052,15,Constituants physiques/chimiques,015052,Log10 de la concentration en nombre de particules d'aérosols de diamètre supérieur à 5 nm,log(m-3),1,60,6,log(m-3),1,3,,,Operational,PDF

@@ -14,7 +14,7 @@ bufr4/0/11/013,11,Wind and turbulence,011013,Wind direction at 5 m,degree true,0
 bufr4/0/11/014,11,Wind and turbulence,011014,Wind speed at 5 m,m/s,1,0,12,m/s,1,4,,,Operational,na
 bufr4/0/11/016,11,Wind and turbulence,011016,Extreme counterclockwise wind direction of a variable wind,degree true,0,0,9,degree true,0,3,,,Operational,na
 bufr4/0/11/017,11,Wind and turbulence,011017,Extreme clockwise wind direction of a variable wind,degree true,0,0,9,degree true,0,3,,,Operational,na
-bufr4/0/11/019,11,Wind and turbulence,011019,Steadiness of wind,%,0,0,7,%,0,3,(see Note 6),147,Operational,na
+bufr4/0/11/019,11,Wind and turbulence,011019,Steadiness of wind,%,0,0,7,%,0,3,(see Note 6),B147,Operational,na
 bufr4/0/11/021,11,Wind and turbulence,011021,Relative vorticity,/s,9,-65536,17,/s,9,6,,,Operational,na
 bufr4/0/11/022,11,Wind and turbulence,011022,Divergence,/s,9,-65536,17,/s,9,6,,,Operational,na
 bufr4/0/11/023,11,Wind and turbulence,011023,Velocity potential,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational,na

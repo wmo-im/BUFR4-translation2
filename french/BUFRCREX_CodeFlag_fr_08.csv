@@ -190,13 +190,13 @@ bufr4/0/08/019/7-14,008019,Indicateur d'identification du centre suivant,7-14,En
 bufr4/0/08/019/15,008019,Indicateur d'identification du centre suivant,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/08/021/0,008021,Caractéristique temporelle,0,En réserve,,,,,Operational,PDF
 bufr4/0/08/021/1,008021,Caractéristique temporelle,1,Série pour une certaine période,,,,,Operational,PDF
-bufr4/0/08/021/2,008021,Caractéristique temporelle,2,Moyenne sur une certaine période,,,(voir Note 1),4,Operational,PDF
+bufr4/0/08/021/2,008021,Caractéristique temporelle,2,Moyenne sur une certaine période,,,(voir Note 1),CF4,Operational,PDF
 bufr4/0/08/021/3,008021,Caractéristique temporelle,3,Accumulé,,,,,Operational,PDF
 bufr4/0/08/021/4,008021,Caractéristique temporelle,4,Prévision,,,,,Operational,PDF
 bufr4/0/08/021/5,008021,Caractéristique temporelle,5,Série de prévisions pour une certaine période,,,,,Operational,PDF
 bufr4/0/08/021/6,008021,Caractéristique temporelle,6,Moyenne de prévisions sur une certaine période,,,,,Operational,PDF
 bufr4/0/08/021/7,008021,Caractéristique temporelle,7,Prévision accumulée,,,,,Operational,PDF
-bufr4/0/08/021/8,008021,Caractéristique temporelle,8,Moyenne d'ensemble,,,(voir Note 2),3,Operational,PDF
+bufr4/0/08/021/8,008021,Caractéristique temporelle,8,Moyenne d'ensemble,,,(voir Note 2),CF3,Operational,PDF
 bufr4/0/08/021/9,008021,Caractéristique temporelle,9,Série de moyennes d'ensemble pour une certaine période,,,,,Operational,PDF
 bufr4/0/08/021/10,008021,Caractéristique temporelle,10,Moyenne de moyennes d'ensemble sur une certaine période,,,,,Operational,PDF
 bufr4/0/08/021/11,008021,Caractéristique temporelle,11,Moyenne d'ensemble accumulée,,,,,Operational,PDF
@@ -247,7 +247,7 @@ bufr4/0/08/024/7-10,008024,Statistiques sur les différences,7-10,En réserve,,,
 bufr4/0/08/024/11,008024,Statistiques sur les différences,11,Valeur observée moins la valeur climatologique (anomalie),,,,,Operational,PDF
 bufr4/0/08/024/12,008024,Statistiques sur les différences,12,Valeur observée moins la valeur analysée,,,,,Operational,PDF
 bufr4/0/08/024/13,008024,Statistiques sur les différences,13,Valeur observée moins la valeur analysée initialisée,,,,,Operational,PDF
-bufr4/0/08/024/14,008024,Statistiques sur les différences,14,Valeur observée moins la valeur prévue,,,(voir Note 2),93,Operational,PDF
+bufr4/0/08/024/14,008024,Statistiques sur les différences,14,Valeur observée moins la valeur prévue,,,(voir Note 2),CF93,Operational,PDF
 bufr4/0/08/024/15-20,008024,Statistiques sur les différences,15-20,En réserve,,,,,Operational,PDF
 bufr4/0/08/024/21,008024,Statistiques sur les différences,21,Valeur observée moins la valeur interpolée,,,,,Operational,PDF
 bufr4/0/08/024/22,008024,Statistiques sur les différences,22,Valeur observée moins la valeur calculée de façon hydrostatique,,,,,Operational,PDF
@@ -427,7 +427,7 @@ bufr4/0/08/042/12,008042,Caractéristique étendue correspondant à des données
 bufr4/0/08/042/13,008042,Caractéristique étendue correspondant à des données de sondage vertical,13,Fin des valeurs manquantes pour le vent,,,,,Operational,PDF
 bufr4/0/08/042/14,008042,Caractéristique étendue correspondant à des données de sondage vertical,14,Sommet du sondage du vent,,,,,Operational,PDF
 bufr4/0/08/042/15,008042,Caractéristique étendue correspondant à des données de sondage vertical,15,Niveau déterminé par décision régionale,,,,,Operational,PDF
-bufr4/0/08/042/16,008042,Caractéristique étendue correspondant à des données de sondage vertical,16,Isotherme 0 °C,,,(voir Note),41,Operational,PDF
+bufr4/0/08/042/16,008042,Caractéristique étendue correspondant à des données de sondage vertical,16,Isotherme 0 °C,,,(voir Note),CF41,Operational,PDF
 bufr4/0/08/042/17,008042,Caractéristique étendue correspondant à des données de sondage vertical,17,Niveau de pression indiqué à l'origine par l'altitude en tant que coordonnée verticale,,,,,Operational,PDF
 bufr4/0/08/042/All-18,008042,Caractéristique étendue correspondant à des données de sondage vertical,18 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/08/043/0,008043,Type de constituants chimiques ou physiques de l'atmosphère,0,Ozone,O3,10028-15-6,,,Operational,PDF
@@ -595,7 +595,7 @@ bufr4/0/08/081/3,008081,Type d'équipement,3,Plate-forme d'observation,,,,,Opera
 bufr4/0/08/081/4-62,008081,Type d'équipement,4-62,En réserve,,,,,Operational,PDF
 bufr4/0/08/081/63,008081,Type d'équipement,63,Valeur manquante,,,,,Operational,PDF
 bufr4/0/08/082/0,008082,Correction de la hauteur du capteur,0,La hauteur du capteur n'est pas corrigée,,,,,Operational,PDF
-bufr4/0/08/082/1,008082,Correction de la hauteur du capteur,1,La hauteur du capteur est remplacée par la hauteur standard,,,(voir Note),48,Operational,PDF
+bufr4/0/08/082/1,008082,Correction de la hauteur du capteur,1,La hauteur du capteur est remplacée par la hauteur standard,,,(voir Note),CF48,Operational,PDF
 bufr4/0/08/082/2-6,008082,Correction de la hauteur du capteur,2-6,En réserve,,,,,Operational,PDF
 bufr4/0/08/082/7,008082,Correction de la hauteur du capteur,7,Valeur manquante,,,,,Operational,PDF
 bufr4/0/08/083/1,008083,Indicateur de valeur nominale,1,Ajustée à la hauteur représentative du capteur au-dessus du sol (ou du pont à une plate-forme marine) ou en fonction de celle-ci,,,,,Operational,PDF

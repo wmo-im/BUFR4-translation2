@@ -21,16 +21,16 @@ bufr4/0/08/019,08,Significance qualifiers,008019,Qualifier for following centre 
 bufr4/0/08/020,08,Significance qualifiers,008020,Total number of missing entities (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational,na
 bufr4/0/08/021,08,Significance qualifiers,008021,Time significance,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/08/022,08,Significance qualifiers,008022,Total number (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational,na
-bufr4/0/08/023,08,Significance qualifiers,008023,First-order statistics,Code table,0,0,6,Code table,0,2,(see Note 3),70,Operational,na
-bufr4/0/08/024,08,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),61,Operational,na
-bufr4/0/08/025,08,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),49,Operational,na
+bufr4/0/08/023,08,Significance qualifiers,008023,First-order statistics,Code table,0,0,6,Code table,0,2,(see Note 3),B70,Operational,na
+bufr4/0/08/024,08,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),B61,Operational,na
+bufr4/0/08/025,08,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),B49,Operational,na
 bufr4/0/08/026,08,Significance qualifiers,008026,Matrix significance,Code table,0,0,6,Code table,0,2,,,Operational,na
 bufr4/0/08/027,08,Significance qualifiers,008027,Type of sea-surface height anomaly measurement,Code table,0,0,8,,,,,,Operational,na
 bufr4/0/08/029,08,Significance qualifiers,008029,Surface type,Code table,0,0,8,Code table,0,3,,,Operational,na
 bufr4/0/08/030,08,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",Numeric,0,0,13,Numeric,0,4,,,Operational,na
 bufr4/0/08/031,08,Significance qualifiers,008031,Data category - CREX table A,Numeric,0,0,8,Numeric,0,3,,,Operational,na
 bufr4/0/08/032,08,Significance qualifiers,008032,Status of operation,Code table,0,0,4,Code table,0,2,,,Operational,na
-bufr4/0/08/033,08,Significance qualifiers,008033,Method of derivation of percentage confidence,Code table,0,0,7,Code table,0,3,(see Note 6),50,Operational,na
+bufr4/0/08/033,08,Significance qualifiers,008033,Method of derivation of percentage confidence,Code table,0,0,7,Code table,0,3,(see Note 6),B50,Operational,na
 bufr4/0/08/034,08,Significance qualifiers,008034,Temperature/salinity measurement qualifier,Code table,0,0,4,Code table,0,2,,,Operational,na
 bufr4/0/08/035,08,Significance qualifiers,008035,Type of monitoring exercise,Code table,0,0,3,Code table,0,1,,,Operational,na
 bufr4/0/08/036,08,Significance qualifiers,008036,Type of centre or station performing monitoring,Code table,0,0,3,Code table,0,1,,,Operational,na
@@ -40,7 +40,7 @@ bufr4/0/08/039,08,Significance qualifiers,008039,Time significance (Aviation for
 bufr4/0/08/040,08,Significance qualifiers,008040,Flight level significance,Code table,0,0,6,Code table,0,2,,,Operational,na
 bufr4/0/08/041,08,Significance qualifiers,008041,Data significance,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/08/042,08,Significance qualifiers,008042,Extended vertical sounding significance,Flag table,0,0,18,Flag table,0,6,,,Operational,na
-bufr4/0/08/043,08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),169,Operational,na
+bufr4/0/08/043,08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),B169,Operational,na
 bufr4/0/08/044,08,Significance qualifiers,008044,CAS registry number,CCITT IA5,0,0,88,Character,0,11,,,Operational,na
 bufr4/0/08/045,08,Significance qualifiers,008045,Character of particulate matter,Code table,0,0,8,Character,0,2,,,Operational,na
 bufr4/0/08/046,08,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational,na
@@ -70,7 +70,7 @@ bufr4/0/08/085,08,Significance qualifiers,008085,Beam identifier,Code table,0,0,
 bufr4/0/08/086,08,Significance qualifiers,008086,Vertical significance for NWP,Flag table,0,0,12,Flag table,0,4,,,Operational,na
 bufr4/0/08/087,08,Significance qualifiers,008087,Corner position of observation,Code table,0,0,3,Code table,0,1,,,Operational,na
 bufr4/0/08/088,08,Significance qualifiers,008088,Map significance,Code table,0,0,6,Code table,0,2,,,Operational,na
-bufr4/0/08/090,08,Significance qualifiers,008090,Decimal scale of following significands,Numeric,0,-127,8,Numeric,0,3,(see Note 8),51,Operational,na
+bufr4/0/08/090,08,Significance qualifiers,008090,Decimal scale of following significands,Numeric,0,-127,8,Numeric,0,3,(see Note 8),B51,Operational,na
 bufr4/0/08/091,08,Significance qualifiers,008091,Coordinates significance,Code table,0,0,8,Code table,0,3,,,Operational,na
 bufr4/0/08/092,08,Significance qualifiers,008092,Measurement uncertainty expression,Code table,0,0,5,Code table,0,2,,,Operational,na
 bufr4/0/08/093,08,Significance qualifiers,008093,Measurement uncertainty significance,Code table,0,0,5,Code table,0,2,,,Operational,na

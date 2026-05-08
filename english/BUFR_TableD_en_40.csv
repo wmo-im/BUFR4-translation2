@@ -61,7 +61,7 @@ bufr4/3/40/004/6/025142,40,Additional satellite report sequences,340004,(IASI Le
 bufr4/3/40/004/7/014047,40,Additional satellite report sequences,340004,(IASI Level 1c AVHRR single scene),,014047,Scaled mean AVHRR radiance,,,,Operational,na
 bufr4/3/40/004/8/025142,40,Additional satellite report sequences,340004,(IASI Level 1c AVHRR single scene),,025142,Channel scale factor,,,,Operational,na
 bufr4/3/40/004/9/014048,40,Additional satellite report sequences,340004,(IASI Level 1c AVHRR single scene),,014048,Scaled standard deviation AVHRR radiance,,,,Operational,na
-bufr4/3/40/005/1/001007,40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001007,Satellite identifier,,(see Note),14,Operational,na
+bufr4/3/40/005/1/001007,40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001007,Satellite identifier,,(see Note),D14,Operational,na
 bufr4/3/40/005/2/002019,40,Additional satellite report sequences,340005,(JASON2 OGDR data),,002019,Satellite instruments,,,,Operational,na
 bufr4/3/40/005/3/001096,40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001096,Station acquisition,,,,Operational,na
 bufr4/3/40/005/4/025061,40,Additional satellite report sequences,340005,(JASON2 OGDR data),,025061,Software identification and version number,,,,Operational,na

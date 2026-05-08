@@ -39,7 +39,7 @@ bufr4/0/03/008/2,003008,Artificially ventilated screen or shield,2,Artificial as
 bufr4/0/03/008/3-6,003008,Artificially ventilated screen or shield,3-6,Reserved,,,,,Operational,na
 bufr4/0/03/008/7,003008,Artificially ventilated screen or shield,7,Missing value,,,,,Operational,na
 bufr4/0/03/010/0,003010,Method of sea/water current measurement,0,Reserved,,,,,Operational,na
-bufr4/0/03/010/1,003010,Method of sea/water current measurement,1,ADCP,,,(see Note),91,Operational,na
+bufr4/0/03/010/1,003010,Method of sea/water current measurement,1,ADCP,,,(see Note),CF91,Operational,na
 bufr4/0/03/010/2,003010,Method of sea/water current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational,na
 bufr4/0/03/010/3,003010,Method of sea/water current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational,na
 bufr4/0/03/010/4,003010,Method of sea/water current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational,na

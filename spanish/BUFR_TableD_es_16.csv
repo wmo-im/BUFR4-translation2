@@ -46,7 +46,7 @@ bufr4/3/16/004/7/102000,16,Secuencias de las características sinópticas,316004
 bufr4/3/16/004/8/031001,16,Secuencias de las características sinópticas,316004,(Turbulencia),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
 bufr4/3/16/004/9/005002,16,Secuencias de las características sinópticas,316004,(Turbulencia),,005002,Latitud (exactitud aproximada),,,,Operational,PDF
 bufr4/3/16/004/10/006002,16,Secuencias de las características sinópticas,316004,(Turbulencia),,006002,Longitud (exactitud aproximada),,,,Operational,PDF
-bufr4/3/16/004/11/011031,16,Secuencias de las características sinópticas,316004,(Turbulencia),,011031,Grado de turbulencia,,(véase la nota 1),20,Operational,PDF
+bufr4/3/16/004/11/011031,16,Secuencias de las características sinópticas,316004,(Turbulencia),,011031,Grado de turbulencia,,(véase la nota 1),D20,Operational,PDF
 bufr4/3/16/004/12/008007,16,Secuencias de las características sinópticas,316004,(Turbulencia),,008007,Significación dimensional,Anular,,,Operational,PDF
 bufr4/3/16/004/13/008011,16,Secuencias de las características sinópticas,316004,(Turbulencia),,008011,Característica meteorológica,Anular | Fin del objeto,,,Operational,PDF
 bufr4/3/16/005/1/108000,16,Secuencias de las características sinópticas,316005,(Tormenta),,108000,Repetición diferida de 8 descriptores,,,,Operational,PDF
@@ -69,13 +69,13 @@ bufr4/3/16/006/7/102000,16,Secuencias de las características sinópticas,316006
 bufr4/3/16/006/8/031001,16,Secuencias de las características sinópticas,316006,(Nubes),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
 bufr4/3/16/006/9/005002,16,Secuencias de las características sinópticas,316006,(Nubes),,005002,Latitud (exactitud aproximada),,,,Operational,PDF
 bufr4/3/16/006/10/006002,16,Secuencias de las características sinópticas,316006,(Nubes),,006002,Longitud (exactitud aproximada),,,,Operational,PDF
-bufr4/3/16/006/11/020011,16,Secuencias de las características sinópticas,316006,(Nubes),,020011,Nubosidad,,(véase la nota 2),6,Operational,PDF
+bufr4/3/16/006/11/020011,16,Secuencias de las características sinópticas,316006,(Nubes),,020011,Nubosidad,,(véase la nota 2),D6,Operational,PDF
 bufr4/3/16/006/12/020012,16,Secuencias de las características sinópticas,316006,(Nubes),,020012,Tipo de nubes,,,,Operational,PDF
 bufr4/3/16/006/13/008007,16,Secuencias de las características sinópticas,316006,(Nubes),,008007,Significación dimensional,Anular,,,Operational,PDF
 bufr4/3/16/006/14/008011,16,Secuencias de las características sinópticas,316006,(Nubes),,008011,Característica meteorológica,Anular | Fin del objeto,,,Operational,PDF
 bufr4/3/16/007/1/110000,16,Secuencias de las características sinópticas,316007,(Frente),,110000,Repetición diferida de 10 descriptores,,,,Operational,PDF
 bufr4/3/16/007/2/031001,16,Secuencias de las características sinópticas,316007,(Frente),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
-bufr4/3/16/007/3/008011,16,Secuencias de las características sinópticas,316007,(Frente),,008011,Característica meteorológica,Valor correspondiente al tipo de frente,(véase la nota 3),21,Operational,PDF
+bufr4/3/16/007/3/008011,16,Secuencias de las características sinópticas,316007,(Frente),,008011,Característica meteorológica,Valor correspondiente al tipo de frente,(véase la nota 3),D21,Operational,PDF
 bufr4/3/16/007/4/008007,16,Secuencias de las características sinópticas,316007,(Frente),,008007,Significación dimensional,Valor de la línea,,,Operational,PDF
 bufr4/3/16/007/5/104000,16,Secuencias de las características sinópticas,316007,(Frente),,104000,Repetición diferida de 4 descriptores,,,,Operational,PDF
 bufr4/3/16/007/6/031001,16,Secuencias de las características sinópticas,316007,(Frente),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
@@ -89,7 +89,7 @@ bufr4/3/16/008/1/111000,16,Secuencias de las características sinópticas,316008
 bufr4/3/16/008/2/031001,16,Secuencias de las características sinópticas,316008,(Tropopausa),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
 bufr4/3/16/008/3/008001,16,Secuencias de las características sinópticas,316008,(Tropopausa),,008001,Significación del sondeo vertical,Se fija el bit 3 para la tropopausa.,,,Operational,PDF
 bufr4/3/16/008/4/008007,16,Secuencias de las características sinópticas,316008,(Tropopausa),,008007,Significación dimensional,Valor del punto,,,Operational,PDF
-bufr4/3/16/008/5/008023,16,Secuencias de las características sinópticas,316008,(Tropopausa),,008023,Estadísticas de primer orden,Valor correspondiente al tipo de tropopausa,(véase la nota 4),58,Operational,PDF
+bufr4/3/16/008/5/008023,16,Secuencias de las características sinópticas,316008,(Tropopausa),,008023,Estadísticas de primer orden,Valor correspondiente al tipo de tropopausa,(véase la nota 4),D58,Operational,PDF
 bufr4/3/16/008/6/103000,16,Secuencias de las características sinópticas,316008,(Tropopausa),,103000,Repetición diferida de 3 descriptores,,,,Operational,PDF
 bufr4/3/16/008/7/031001,16,Secuencias de las características sinópticas,316008,(Tropopausa),,031001,Factor de repetición diferida del descriptor,,,,Operational,PDF
 bufr4/3/16/008/8/005002,16,Secuencias de las características sinópticas,316008,(Tropopausa),,005002,Latitud (exactitud aproximada),,,,Operational,PDF

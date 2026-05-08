@@ -8,6 +8,6 @@ bufr4/0/31/021/7,031021,Signification du champ associé,7,Degré de confiance (p
 bufr4/0/31/021/8,031021,Signification du champ associé,8,0 = Valeur non suspecte,"1 = Valeur suspecte,2 = En réserve, 3 = Information non requise",,,Operational,,PDF
 bufr4/0/31/021/9,031021,Signification du champ associé,9,Situation des données auxiliaires,"0 = données présentes, valables et colocalisées, 1 = données disponibles mais de mauvaise qualité et inutilisées, 2 = aucune donnée colocalisée sur le plan spatio-temporel disponible, 3-14 = non utilisé (en réserve), 15 = valeur manquante",,,,Operational,PDF
 bufr4/0/31/021/10-20,031021,Signification du champ associé,10-20,En réserve,,,,,Operational,PDF
-bufr4/0/31/021/21,031021,Signification du champ associé,21,Indicateur de correction de 1 bit,"0 = valeur originale, 1 = valeur substituée/corrigée",,(voir Note 2),74,Operational,PDF
+bufr4/0/31/021/21,031021,Signification du champ associé,21,Indicateur de correction de 1 bit,"0 = valeur originale, 1 = valeur substituée/corrigée",,(voir Note 2),CF74,Operational,PDF
 bufr4/0/31/021/22-62,031021,Signification du champ associé,22-62,Réservés pour les besoins locaux,,,,,Operational,PDF
 bufr4/0/31/021/63,031021,Signification du champ associé,63,Valeur manquante,,,,,Operational,PDF

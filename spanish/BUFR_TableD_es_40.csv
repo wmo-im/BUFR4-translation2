@@ -61,7 +61,7 @@ bufr4/3/40/004/6/025142,40,Secuencias adicionales de los informes satelitales,34
 bufr4/3/40/004/7/014047,40,Secuencias adicionales de los informes satelitales,340004,(Secuencia de escenas AVHRR de nivel 1c IASI),,014047,Radiancia media ajustada AVHRR,,,,Operational,PDF
 bufr4/3/40/004/8/025142,40,Secuencias adicionales de los informes satelitales,340004,(Secuencia de escenas AVHRR de nivel 1c IASI),,025142,Factor de escala del canal,,,,Operational,PDF
 bufr4/3/40/004/9/014048,40,Secuencias adicionales de los informes satelitales,340004,(Secuencia de escenas AVHRR de nivel 1c IASI),,014048,Radiancia de la desviación estándar ajustada AVHRR,,,,Operational,PDF
-bufr4/3/40/005/1/001007,40,Secuencias adicionales de los informes satelitales,340005,(Datos OGDR de JASON-2),,001007,Identificador del satélite,,(véase la nota),14,Operational,PDF
+bufr4/3/40/005/1/001007,40,Secuencias adicionales de los informes satelitales,340005,(Datos OGDR de JASON-2),,001007,Identificador del satélite,,(véase la nota),D14,Operational,PDF
 bufr4/3/40/005/2/002019,40,Secuencias adicionales de los informes satelitales,340005,(Datos OGDR de JASON-2),,002019,Instrumentos de satélite,,,,Operational,PDF
 bufr4/3/40/005/3/001096,40,Secuencias adicionales de los informes satelitales,340005,(Datos OGDR de JASON-2),,001096,Adquisición de estación,,,,Operational,PDF
 bufr4/3/40/005/4/025061,40,Secuencias adicionales de los informes satelitales,340005,(Datos OGDR de JASON-2),,025061,Identificación y número de versión del software,,,,Operational,PDF

@@ -97,10 +97,10 @@ bufr4/3/02/040/3/004024,02,Meteorological sequences common to surface data,30204
 bufr4/3/02/040/4/013011,02,Meteorological sequences common to surface data,302040,(Precipitation measurement),,013011,Total precipitation/total water equivalent,,,,Operational,na
 bufr4/3/02/041/1/007032,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,,Operational,na
 bufr4/3/02/041/2/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,,,Operational,na
-bufr4/3/02/041/3/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),"78,77",Operational,na
+bufr4/3/02/041/3/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),"D78,D77",Operational,na
 bufr4/3/02/041/4/012111,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,012111,"Maximum temperature, at height and over period specified",Scale: 2,,,Operational,na
 bufr4/3/02/041/5/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,,,Operational,na
-bufr4/3/02/041/6/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Note 2),77,Operational,na
+bufr4/3/02/041/6/004024,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Note 2),D77,Operational,na
 bufr4/3/02/041/7/012112,02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2,,,Operational,na
 bufr4/3/02/042/1/007032,02,Meteorological sequences common to surface data,302042,(Wind data),,007032,Height of sensor above local ground (or deck of marine platform),Wind measurement,,,Operational,na
 bufr4/3/02/042/2/002002,02,Meteorological sequences common to surface data,302042,(Wind data),,002002,Type of instrumentation for wind measurement,,,,Operational,na
@@ -131,7 +131,7 @@ bufr4/3/02/045/5/014028,02,Meteorological sequences common to surface data,30204
 bufr4/3/02/045/6/014029,02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014029,"Diffuse solar radiation (high accuracy), integrated over period specified",,,,Operational,na
 bufr4/3/02/045/7/014030,02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014030,"Direct solar radiation (high accuracy), integrated over period specified",,,,Operational,na
 bufr4/3/02/046/1/004024,02,Meteorological sequences common to surface data,302046,(Temperature change),,004024,Time period or displacement,,,,Operational,na
-bufr4/3/02/046/2/004024,02,Meteorological sequences common to surface data,302046,(Temperature change),,004024,Time period or displacement,,(see Note 3),73,Operational,na
+bufr4/3/02/046/2/004024,02,Meteorological sequences common to surface data,302046,(Temperature change),,004024,Time period or displacement,,(see Note 3),D73,Operational,na
 bufr4/3/02/046/3/012049,02,Meteorological sequences common to surface data,302046,(Temperature change),,012049,Temperature change over specified period,,,,Operational,na
 bufr4/3/02/047/1/102003,02,Meteorological sequences common to surface data,302047,(Direction of cloud drift),,102003,Replicate 2 descriptors 3 times,,,,Operational,na
 bufr4/3/02/047/2/008002,02,Meteorological sequences common to surface data,302047,(Direction of cloud drift),,008002,Vertical significance (surface observations),,,,Operational,na
@@ -228,10 +228,10 @@ bufr4/3/02/057/3/302024,02,Meteorological sequences common to surface data,30205
 bufr4/3/02/058/1/007032,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,,Operational,na
 bufr4/3/02/058/2/007033,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,007033,Height of sensor above water surface,Temperature measurement,,,Operational,na
 bufr4/3/02/058/3/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,,,Operational,na
-bufr4/3/02/058/4/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),"78,77",Operational,na
+bufr4/3/02/058/4/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),"D78,D77",Operational,na
 bufr4/3/02/058/5/012111,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,012111,"Maximum temperature, at height and over period specified",Scale: 2,,,Operational,na
 bufr4/3/02/058/6/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,,,Operational,na
-bufr4/3/02/058/7/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Note 2),77,Operational,na
+bufr4/3/02/058/7/004024,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Note 2),D77,Operational,na
 bufr4/3/02/058/8/012112,02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2,,,Operational,na
 bufr4/3/02/059/1/007032,02,Meteorological sequences common to surface data,302059,(Ship wind data),,007032,Height of sensor above local ground (or deck of marine platform),Wind measurement,,,Operational,na
 bufr4/3/02/059/2/007033,02,Meteorological sequences common to surface data,302059,(Ship wind data),,007033,Height of sensor above water surface,Wind measurement,,,Operational,na

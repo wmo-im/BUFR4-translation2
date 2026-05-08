@@ -14,7 +14,7 @@ bufr4/0/13/040/3,013040,Indicateur de surface,3,Glace,,,,,Operational,PDF
 bufr4/0/13/040/4,013040,Indicateur de surface,4,Possibilité de glace,,,,,Operational,PDF
 bufr4/0/13/040/5,013040,Indicateur de surface,5,Océan,,,,,Operational,PDF
 bufr4/0/13/040/6,013040,Indicateur de surface,6,Côte,,,,,Operational,PDF
-bufr4/0/13/040/7,013040,Indicateur de surface,7,Eaux intérieures,,,(voir Note),56,Operational,PDF
+bufr4/0/13/040/7,013040,Indicateur de surface,7,Eaux intérieures,,,(voir Note),CF56,Operational,PDF
 bufr4/0/13/040/8,013040,Indicateur de surface,8,Enneigement,,,,,Operational,PDF
 bufr4/0/13/040/9,013040,Indicateur de surface,9,Glaces de mer,,,,,Operational,PDF
 bufr4/0/13/040/10,013040,Indicateur de surface,10,Eau stagnante,,,,,Operational,PDF

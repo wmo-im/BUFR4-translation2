@@ -3,7 +3,7 @@ bufr4/0/29/001/0,029001,Projection type,0,Gnomonic projection,,,,,Operational,na
 bufr4/0/29/001/1,029001,Projection type,1,Polar stereographic projection,,,,,Operational,na
 bufr4/0/29/001/2,029001,Projection type,2,Lambert's conformal conic projection,,,,,Operational,na
 bufr4/0/29/001/3,029001,Projection type,3,Mercator's projection,,,,,Operational,na
-bufr4/0/29/001/4,029001,Projection type,4,Scanning cone (radar),,,(see Note),65,Operational,na
+bufr4/0/29/001/4,029001,Projection type,4,Scanning cone (radar),,,(see Note),CF65,Operational,na
 bufr4/0/29/001/5,029001,Projection type,5,Reserved,,,,,Operational,na
 bufr4/0/29/001/6,029001,Projection type,6,No projection,,,,,Operational,na
 bufr4/0/29/001/7,029001,Projection type,7,Missing value,,,,,Operational,na

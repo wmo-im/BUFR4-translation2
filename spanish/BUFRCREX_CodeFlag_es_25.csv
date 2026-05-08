@@ -192,7 +192,7 @@ bufr4/0/25/090/5,025090,Banderín de estado orbital,5,La órbita (preliminar/pre
 bufr4/0/25/090/6,025090,Banderín de estado orbital,6,La órbita (preliminar/precisa) es extrapolada respecto de una duración inferior a un día,,,,,Operational,PDF
 bufr4/0/25/090/7,025090,Banderín de estado orbital,7,La órbita (preliminar/precisa) es extrapolada respecto de una duración de uno a dos días,,,,,Operational,PDF
 bufr4/0/25/090/8,025090,Banderín de estado orbital,8,"La órbita (preliminar/precisa) es extrapolada respecto de una duración superior a dos días, o inmediatamente a continuación de una maniobra",,,,,Operational,PDF
-bufr4/0/25/090/9,025090,Banderín de estado orbital,9,Órbita del navegador DORIS DIODE,,,Nota,37,Operational,PDF
+bufr4/0/25/090/9,025090,Banderín de estado orbital,9,Órbita del navegador DORIS DIODE,,,Nota,CF37,Operational,PDF
 bufr4/0/25/090/10-14,025090,Banderín de estado orbital,10-14,Reservadas,,,,,Operational,PDF
 bufr4/0/25/090/15,025090,Banderín de estado orbital,15,Valor faltante,,,,,Operational,PDF
 bufr4/0/25/093/1,025093,Corrección del cálculo RASS (sistema de sondeo radioacústico),1,Sin corrección,,,,,Operational,PDF
@@ -306,7 +306,7 @@ bufr4/0/25/187/0,025187,Banderín de confianza,0,Válido,,,,,Operational,PDF
 bufr4/0/25/187/1,025187,Banderín de confianza,1,Inválido,,,,,Operational,PDF
 bufr4/0/25/187/2-14,025187,Banderín de confianza,2-14,Reservadas,,,,,Operational,PDF
 bufr4/0/25/187/15,025187,Banderín de confianza,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/25/188/0,025188,Método para reducir la presión al nivel del mar,0,Presión ajustada al nivel medio del mar con arreglo a la publicación OMM-N° 8 para las estaciones de bajo nivel (< 50 m),,,Nota,44,Operational,PDF
+bufr4/0/25/188/0,025188,Método para reducir la presión al nivel del mar,0,Presión ajustada al nivel medio del mar con arreglo a la publicación OMM-N° 8 para las estaciones de bajo nivel (< 50 m),,,Nota,CF44,Operational,PDF
 bufr4/0/25/188/1,025188,Método para reducir la presión al nivel del mar,1,Presión ajustada al nivel medio del mar con arreglo a la publicación OMM-N° 8 para las estaciones por debajo de 750 m,,,,,Operational,PDF
 bufr4/0/25/188/2,025188,Método para reducir la presión al nivel del mar,2,Presión ajustada al nivel del mar con arreglo a la práctica nacional,,,,,Operational,PDF
 bufr4/0/25/188/3,025188,Método para reducir la presión al nivel del mar,3,Presión ajustada al nivel del mar local con arreglo a la práctica nacional,,,,,Operational,PDF
