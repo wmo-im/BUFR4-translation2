@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 03: Приборное обеспечение</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 03: Приборное обеспечение</h1>
+<table>
+<thead><tr><th>FXY</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ЕД. ИЗМ. BUFR</th><th>МАСШТАБ</th><th>НАЧ. ОТСЧ.</th><th>БИТЫ</th><th>ЕД. ИЗМ. CREX</th><th>МАСШТАБ</th><th>СИМВ.</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0 03 001</td><td>Тип станции приземных наблюдений</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>5</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 003</td><td>Защитный корпус термометра/гигрометра</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 004</td><td>Тип метеорологической будки/навеса/ радиационного экрана</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 005</td><td>Горизонтальная ширина метеорологической будки или экрана (x)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 03 006</td><td>Горизонтальная глубина метеорологической будки или экрана (y)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 03 007</td><td>Вертикальная высота метеорологической будки или экрана (z)</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 03 008</td><td>Искусственно вентилируемая метеорологическая будка или экран</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 009</td><td>Количество искусственной вентиляции на момент снятия показаний</td><td>m/s</td><td>1</td><td>0</td><td>9</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 03 010</td><td>Метод измерения морского/водного течения</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 011</td><td>Метод расчета глубины</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>2</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 012</td><td>Тип прибора/датчик для измерения растворенного кислорода</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 016</td><td>Расположение дорожных датчиков</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 017</td><td>Расширенный тип станции</td><td>Таблица флагов</td><td>0</td><td>0</td><td>6</td><td>Таблица флагов</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 018</td><td>Тип дороги</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>5</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 019</td><td>Тип конструкции</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 020</td><td>Материал для защитного корпуса термометра/ гигрометра</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 021</td><td>Нагревание гигрометра</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>2</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 022</td><td>Владелец прибора</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 023</td><td>Конфигурация жалюзи для метеорологической будки термометра/гигрометра</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 03 024</td><td>Психрометрический коэффициент</td><td>K-1</td><td>6</td><td>0</td><td>10</td><td>K-1</td><td>6</td><td>3</td><td></td></tr>
+<tr><td>0 03 025</td><td>Размер района оценки поперек трассы</td><td>m</td><td>0</td><td>5000</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 03 026</td><td>Размер района оценки вдоль трассы</td><td>m</td><td>0</td><td>5000</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 03 027</td><td>Тип подвески шара-зонда</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 03 028</td><td>Метод измерения водного эквивалента снега</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>6</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 24 : Éléments radiologiques</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 24 : Éléments radiologiques</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 24 001</td><td>Estimation de la quantité de radioactivité rejetée jusqu&#x27;a une heure donnée</td><td>Bq</td><td>-11</td><td>0</td><td>28</td><td>Bq</td><td>-11</td><td>9</td><td></td></tr>
+<tr><td>0 24 002</td><td>Rejet potentiel maximal estimé</td><td>Bq</td><td>-11</td><td>0</td><td>28</td><td>Bq</td><td>-11</td><td>9</td><td></td></tr>
+<tr><td>0 24 003</td><td>Composition du rejet</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 24 004</td><td>Nom de l&#x27;élément</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 24 005</td><td>Masse isotopique</td><td>Numérique</td><td>0</td><td>0</td><td>9</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 24 011</td><td>Dose</td><td>mSv</td><td>2</td><td>0</td><td>32</td><td>mSv</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 24 012</td><td>Trajectoire et dose (position définie et heure d&#x27;arrivée prévue)</td><td>mSv</td><td>2</td><td>0</td><td>32</td><td>mSv</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 24 013</td><td>Dose gamma dans l&#x27;air le long de la route du transport principal (en un lieu et pour une période précis)</td><td>mSv</td><td>2</td><td>0</td><td>32</td><td>mSv</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 24 014</td><td>Débit de dose de rayonnement gamma</td><td>nSv/h</td><td>1</td><td>0</td><td>14</td><td>nSv/h</td><td>1</td><td>4</td><td>Note 81: Le descripteur 0 24 014 (débit de dose de rayonnement gamma) permet d’indiquer la valeur de cet élément dans des conditions normales et non pas en cas d’accident nucléaire.</td></tr>
+<tr><td>0 24 021</td><td>Concentration dans l&#x27;air (du type d&#x27;isotope désigné, y compris la dose bêta brute)</td><td>Bq m-3</td><td>2</td><td>0</td><td>32</td><td>Bq m-3</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 24 022</td><td>Concentration dans les précipitations (du type d&#x27;isotope désigné)</td><td>Bq/l</td><td>2</td><td>0</td><td>32</td><td>Bq/l</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 24 023</td><td>Pulsation du rayonnement bêta</td><td>/s</td><td>1</td><td>0</td><td>14</td><td>/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 24 024</td><td>Pulsation du rayonnement gamma</td><td>/s</td><td>1</td><td>0</td><td>14</td><td>/s</td><td>1</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 162: Intervalles utiles utilisés ci-dessus: 10 11 Bq à 10 19 Bq pour les rejets; 10 –2 Bq à 10 7 Bq et 10 –2 mSv à 10 7 mSv pour la concentration et les doses.</p>
+</div>
+</body>
+</html>

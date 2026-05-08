@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Category 12: Single level report sequences (satellite data)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Category 12: Single level report sequences (satellite data)</h1>
+<p class="fxy-heading">3 12 001</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 043</td><td>Satellite identifier, wind computation method, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 001</td><td>Cloud top pressure, temperature, wind</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 002</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 043</td><td>Satellite identifier, wind computation method, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 002</td><td>Cloud top pressure, wind</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 003</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 042</td><td>Satellite identifier, instrument, data-processing technique, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 003</td><td>Surface temperature</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 004</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 042</td><td>Satellite identifier, instrument, data-processing technique, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 004</td><td>Cloud top pressure, cloud cover, temperature</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 005</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 042</td><td>Satellite identifier, instrument, data-processing technique, date/time, location</td><td></td><td></td></tr>
+<tr><td>0 20 014</td><td>Height of top of cloud</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 006</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 044</td><td>Satellite identifier, humidity computation method, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 005</td><td>Layer mean relative humidity</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 007</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 042</td><td>Satellite identifier, instrument, data-processing technique, date/time, location</td><td></td><td></td></tr>
+<tr><td>3 04 006</td><td>Radiation</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 010 (Orbital information, Part I)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 02 021</td><td>Satellite instrument data used in processing</td><td></td><td></td></tr>
+<tr><td>0 05 041</td><td>Scan line number</td><td></td><td></td></tr>
+<tr><td>0 04 001</td><td>Year</td><td></td><td></td></tr>
+<tr><td>0 04 043</td><td>Day of the year</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 011 (Orbital information, Part II)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>2 02 131</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 149</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 126</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 10 002</td><td>Height</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 05 043</td><td>Field of view number</td><td></td><td></td></tr>
+<tr><td>0 05 053</td><td>Field of view number increment</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 012 (HIRS brightness temperatures - channels 1-19)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 132</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>1 01 019</td><td>Replicate 1 descriptor 19 times</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 013 (HIRS brightness temperatures - channel 20)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 05 042</td><td>Channel number</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 014 (HIRS satellite data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 010</td><td>Orbital information, Part I</td><td></td><td></td></tr>
+<tr><td>3 12 011</td><td>Orbital information, Part II</td><td></td><td></td></tr>
+<tr><td>1 05 056</td><td>Replicate 5 descriptors 56 times</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 05 042</td><td>Channel number</td><td></td><td></td></tr>
+<tr><td>0 05 052</td><td>Channel number increment</td><td></td><td></td></tr>
+<tr><td>3 12 012</td><td>HIRS brightness temperatures - channels 1-19</td><td></td><td></td></tr>
+<tr><td>3 12 013</td><td>HIRS brightness temperatures - channel 20</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 015 (MSU brightness temperatures - channels 1-4)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 09 011</td><td>Replicate 9 descriptors 11 times</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 05 042</td><td>Channel number</td><td></td><td></td></tr>
+<tr><td>0 05 052</td><td>Channel number increment</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 132</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>1 01 004</td><td>Replicate 1 descriptor 4 times</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 016 (MSU satellite data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 010</td><td>Orbital information, Part I</td><td></td><td></td></tr>
+<tr><td>3 12 011</td><td>Orbital information, Part II</td><td></td><td></td></tr>
+<tr><td>3 12 015</td><td>MSU brightness temperatures - channels 1-4</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 017 (SSU brightness temperatures - channels 1-3)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 09 008</td><td>Replicate 9 descriptors 8 times</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 05 042</td><td>Channel number</td><td></td><td></td></tr>
+<tr><td>0 05 052</td><td>Channel number increment</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 132</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>1 01 003</td><td>Replicate 1 descriptor 3 times</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 018 (SSU satellite data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 010</td><td>Orbital information, Part I</td><td></td><td></td></tr>
+<tr><td>3 12 011</td><td>Orbital information, Part II</td><td></td><td></td></tr>
+<tr><td>3 12 017</td><td>SSU brightness temperatures - channels 1-3</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 019 (Wave scatterometer product with width change for wave number (spectral))</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>3 01 048</td><td>Radar parameters</td><td></td><td></td></tr>
+<tr><td>0 15 015</td><td>Maximum image spectral component before normalization</td><td></td><td></td></tr>
+<tr><td>0 29 002</td><td>Coordinate grid type</td><td></td><td></td></tr>
+<tr><td>0 21 076</td><td>Representation of intensities</td><td></td><td></td></tr>
+<tr><td>1 06 012</td><td>Replicate 6 descriptors 12 times</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Change data width</td><td>14 bits long</td><td></td></tr>
+<tr><td>0 06 030</td><td>Wave number (spectral)</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>1 02 012</td><td>Replicate 2 descriptors 12 times</td><td></td><td></td></tr>
+<tr><td>0 05 030</td><td>Direction (spectral)</td><td></td><td></td></tr>
+<tr><td>0 21 075</td><td>Image spectrum intensity</td><td></td><td></td></tr>
+<tr><td>0 21 066</td><td>Wave scatterometer product confidence data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 020 (Wave scatterometer product)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>3 01 048</td><td>Radar parameters</td><td></td><td></td></tr>
+<tr><td>0 15 015</td><td>Maximum image spectral component before normalization</td><td></td><td></td></tr>
+<tr><td>0 29 002</td><td>Coordinate grid type</td><td></td><td></td></tr>
+<tr><td>0 21 076</td><td>Representation of intensities</td><td></td><td></td></tr>
+<tr><td>1 04 012</td><td>Replicate 4 descriptors 12 times</td><td></td><td></td></tr>
+<tr><td>0 06 030</td><td>Wave number (spectral)</td><td></td><td></td></tr>
+<tr><td>1 02 012</td><td>Replicate 2 descriptors 12 times</td><td></td><td></td></tr>
+<tr><td>0 05 030</td><td>Direction (spectral)</td><td></td><td></td></tr>
+<tr><td>0 21 075</td><td>Image spectrum intensity</td><td></td><td></td></tr>
+<tr><td>0 21 066</td><td>Wave scatterometer product confidence data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 021 (Wind scatterometer product)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>1 01 003</td><td>Replicate 1 descriptor 3 times</td><td></td><td></td></tr>
+<tr><td>3 01 049</td><td>Radar beam data</td><td></td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 011</td><td>Wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>0 21 067</td><td>Wind product confidence data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 022 (Radar altimeter product)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in average</td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 050</td><td>Standard deviation of horizontal wind speed</td><td></td><td></td></tr>
+<tr><td>0 22 070</td><td>Significant wave height</td><td></td><td></td></tr>
+<tr><td>0 22 026</td><td>Standard deviation of significant wave height</td><td></td><td></td></tr>
+<tr><td>3 12 041</td><td>Altitude</td><td></td><td></td></tr>
+<tr><td>0 10 050</td><td>Standard deviation altitude</td><td></td><td></td></tr>
+<tr><td>0 21 068</td><td>Radar altimeter product confidence data</td><td></td><td></td></tr>
+<tr><td>0 21 071</td><td>Peakiness</td><td></td><td></td></tr>
+<tr><td>0 21 072</td><td>Satellite altimeter calibration status</td><td></td><td></td></tr>
+<tr><td>0 21 073</td><td>Satellite altimeter instrument mode</td><td></td><td></td></tr>
+<tr><td>3 12 042</td><td>Altitude corrections</td><td></td><td></td></tr>
+<tr><td>0 21 062</td><td>Backscatter</td><td></td><td></td></tr>
+<tr><td>0 15 011</td><td>Log10 of integrated electron density</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 023 (ATSR sea-surface temperature product)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>1 03 003</td><td>Replicate 3 descriptors 3 times</td><td></td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in average</td><td></td></tr>
+<tr><td>0 12 061</td><td>Skin temperature</td><td></td><td></td></tr>
+<tr><td>0 22 050</td><td>Standard deviation sea-surface temperature</td><td></td><td></td></tr>
+<tr><td>0 21 069</td><td>SST product confidence data</td><td></td><td></td></tr>
+<tr><td>0 21 085</td><td>ATSR sea-surface temperature across-track band number</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 024 (Wave scatterometer product enhanced)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 020</td><td>Wave scatterometer product</td><td></td><td></td></tr>
+<tr><td>0 08 060</td><td>Sample scanning mode significance</td><td>Range</td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in sample</td><td></td></tr>
+<tr><td>0 08 060</td><td>Sample scanning mode significance</td><td>Horizontal</td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in sample</td><td></td></tr>
+<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td></td><td></td></tr>
+<tr><td>0 22 101</td><td>Total energy (wavelength &gt; 731m) at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 097</td><td>Mean wavelength &gt; 731 m of image spectrum at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 098</td><td>Wavelength spread (wavelength &gt; 731 m) at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 099</td><td>Mean direction at low wave numbers (wavelength &gt; 731 m)</td><td></td><td></td></tr>
+<tr><td>0 22 100</td><td>Direction spread at low wave numbers (wavelength &gt; 731 m)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 025 (Wave scatterometer enhanced product (with change of width for wave number (spectral))</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 019</td><td>Wave scatterometer product with width change for wave number (spectral)</td><td></td><td></td></tr>
+<tr><td>0 08 060</td><td>Sample scanning mode significance</td><td>Range</td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in sample</td><td></td></tr>
+<tr><td>0 08 060</td><td>Sample scanning mode significance</td><td>Horizontal</td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td>Number in sample</td><td></td></tr>
+<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td></td><td></td></tr>
+<tr><td>0 22 101</td><td>Total energy (wavelength &gt; 731m) at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 097</td><td>Mean wavelength &gt; 731 m of image spectrum at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 098</td><td>Wavelength spread (wavelength &gt; 731 m) at low wave numbers</td><td></td><td></td></tr>
+<tr><td>0 22 099</td><td>Mean direction at low wave numbers (wavelength &gt; 731 m)</td><td></td><td></td></tr>
+<tr><td>0 22 100</td><td>Direction spread at low wave numbers (wavelength &gt; 731 m)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 026 (QUIKSCAT data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 046</td><td>Satellite identifier, direction of motion, sensor, model function, software, resolution</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 12 031</td><td>SEAWINDS wind</td><td></td><td></td></tr>
+<tr><td>1 01 004</td><td>Replicate 1 descriptor 4 times</td><td></td><td></td></tr>
+<tr><td>3 12 030</td><td>Wind, formal uncertainty, likelihood</td><td></td><td></td></tr>
+<tr><td>0 21 110</td><td>Number of inner-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 027</td><td>Radar specification, normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 111</td><td>Number of outer-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 027</td><td>Radar specification, normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 112</td><td>Number of inner-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 027</td><td>Radar specification, normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 113</td><td>Number of outer-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 027</td><td>Radar specification, normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 027 (ATSR SST product (SADIST-2))</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 047</td><td>ERS product header</td><td></td><td></td></tr>
+<tr><td>1 05 009</td><td>Replicate 5 descriptors 9 times</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td>10-arcmin cell</td><td></td></tr>
+<tr><td>0 07 021</td><td>Elevation</td><td>Incidence angle nadir view | Set to zero</td><td></td></tr>
+<tr><td>0 12 061</td><td>Skin temperature</td><td>SST (nadir-only view)</td><td></td></tr>
+<tr><td>0 07 021</td><td>Elevation</td><td>Incidence angle dual view | Set to missing</td><td></td></tr>
+<tr><td>0 12 061</td><td>Skin temperature</td><td>SST (dual view)</td><td></td></tr>
+<tr><td>0 21 085</td><td>ATSR sea-surface temperature across-track band number</td><td>0-9</td><td></td></tr>
+<tr><td>0 21 070</td><td>SST product confidence data (SADIST-2)</td><td>23-bit flag</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 028 (SEAWINDS QUIKSCAT data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 046</td><td>Satellite identifier, direction of motion, sensor, model function, software, resolution</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 08 025</td><td>Time difference qualifier</td><td></td><td></td></tr>
+<tr><td>2 01 136</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>3 12 031</td><td>SEAWINDS wind</td><td></td><td></td></tr>
+<tr><td>3 12 032</td><td>SEAWINDS precipitation</td><td></td><td></td></tr>
+<tr><td>1 01 004</td><td>Replicate 1 descriptor 4 times</td><td></td><td></td></tr>
+<tr><td>3 12 030</td><td>Wind, formal uncertainty, likelihood</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Replicate 1 descriptor 2 times</td><td></td><td></td></tr>
+<tr><td>3 12 033</td><td>Antenna polarization, brightness temperature</td><td></td><td></td></tr>
+<tr><td>0 21 110</td><td>Number of inner-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 111</td><td>Number of outer-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 112</td><td>Number of inner-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 113</td><td>Number of outer-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 029 (Scatterometer level 2b data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 046</td><td>Satellite identifier, direction of motion, sensor, model function, software, resolution</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 08 025</td><td>Time difference qualifier</td><td></td><td></td></tr>
+<tr><td>2 01 136</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cancel change data width</td><td></td><td></td></tr>
+<tr><td>0 05 034</td><td>Along-track row number</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 06 034</td><td>Cross-track cell number</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cancel change data width</td><td></td><td></td></tr>
+<tr><td>0 33 055</td><td>Wind vector quality flag</td><td></td><td></td></tr>
+<tr><td>0 11 081</td><td>Model wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 082</td><td>Model wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 21 101</td><td>Number of vector ambiguities</td><td></td><td></td></tr>
+<tr><td>0 21 102</td><td>Index of selected wind vector</td><td></td><td></td></tr>
+<tr><td>0 21 103</td><td>Total number of sigma-0 measurements</td><td></td><td></td></tr>
+<tr><td>3 12 032</td><td>SEAWINDS precipitation</td><td></td><td></td></tr>
+<tr><td>1 01 004</td><td>Replicate 1 descriptor 4 times</td><td></td><td></td></tr>
+<tr><td>3 12 030</td><td>Wind, formal uncertainty, likelihood</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Replicate 1 descriptor 2 times</td><td></td><td></td></tr>
+<tr><td>3 12 033</td><td>Antenna polarization, brightness temperature</td><td></td><td></td></tr>
+<tr><td>0 21 110</td><td>Number of inner-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 111</td><td>Number of outer-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 112</td><td>Number of inner-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 113</td><td>Number of outer-beam sigma-0 (aft of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, SEAWINDS normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 030 (Wind, formal uncertainty, likelihood)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 11 052</td><td>Formal uncertainty in wind speed</td><td></td><td></td></tr>
+<tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 11 011</td><td>Wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 11 053</td><td>Formal uncertainty in wind direction</td><td></td><td></td></tr>
+<tr><td>0 21 104</td><td>Likelihood computed for solution</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 031 (SEAWINDS wind)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 05 034</td><td>Along-track row number</td><td></td><td></td></tr>
+<tr><td>0 06 034</td><td>Cross-track cell number</td><td></td><td></td></tr>
+<tr><td>0 21 109</td><td>SEAWINDS wind vector cell quality</td><td></td><td></td></tr>
+<tr><td>0 11 081</td><td>Model wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 082</td><td>Model wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 21 101</td><td>Number of vector ambiguities</td><td></td><td></td></tr>
+<tr><td>0 21 102</td><td>Index of selected wind vector</td><td></td><td></td></tr>
+<tr><td>0 21 103</td><td>Total number of sigma-0 measurements</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 032 (SEAWINDS precipitation)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 21 120</td><td>Probability of rain</td><td></td><td></td></tr>
+<tr><td>0 21 121</td><td>SEAWINDS NOF rain index</td><td></td><td></td></tr>
+<tr><td>0 13 055</td><td>Intensity of precipitation</td><td></td><td></td></tr>
+<tr><td>0 21 122</td><td>Attenuation correction on sigma-0 (from tB)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 033 (Antenna polarization, brightness temperature)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td>0 08 022</td><td>Total number (with respect to accumulation or average)</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>0 12 065</td><td>Standard deviation brightness temperature</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 034 (CFOSAT scatterometer data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 046</td><td>Satellite identifier, direction of motion, sensor, model function, software, resolution</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 08 025</td><td>Time difference qualifier</td><td></td><td></td></tr>
+<tr><td>2 01 136</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>3 12 031</td><td>Scatterometer wind</td><td></td><td></td></tr>
+<tr><td>3 12 032</td><td>Scatterometer precipitation</td><td></td><td></td></tr>
+<tr><td>1 01 004</td><td>Replicate 1 descriptor 4 times</td><td></td><td></td></tr>
+<tr><td>3 12 030</td><td>Wind, formal uncertainty, likelihood</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Replicate 1 descriptor 2 times</td><td></td><td></td></tr>
+<tr><td>3 12 033</td><td>Antenna polarization, brightness temperature</td><td></td><td></td></tr>
+<tr><td>1 03 018</td><td>Replicate 3 descriptor 18 times</td><td></td><td></td></tr>
+<tr><td>0 21 110</td><td>Number of inner-beam sigma-0 (forward of satellite)</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>3 21 028</td><td>Radar specification, normalized radar cross-section, Kp variance coefficient</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 035 (Scatterometer level 2a data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 01 031</td><td>Identification of originating/generating centre</td><td></td><td></td></tr>
+<tr><td>0 02 048</td><td>Satellite sensor indicator</td><td></td><td></td></tr>
+<tr><td>2 02 124</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 02 026</td><td>Cross-track resolution</td><td></td><td></td></tr>
+<tr><td>0 02 027</td><td>Along-track resolution</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cancel change scale</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 04 001</td><td>Year</td><td></td><td></td></tr>
+<tr><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td>0 04 003</td><td>Day</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td></td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 05 034</td><td>Along-track row number</td><td></td><td></td></tr>
+<tr><td>0 06 031</td><td>Column number</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 06 034</td><td>Cross-track cell number</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cancel change data width</td><td></td><td></td></tr>
+<tr><td>0 05 021</td><td>Bearing or azimuth</td><td></td><td></td></tr>
+<tr><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td></td><td></td></tr>
+<tr><td>0 21 095</td><td>Kp coefficient A</td><td></td><td></td></tr>
+<tr><td>0 21 096</td><td>Kp coefficient B</td><td></td><td></td></tr>
+<tr><td>0 21 097</td><td>Kp coefficient C</td><td></td><td></td></tr>
+<tr><td>0 21 030</td><td>Signal to noise ratio</td><td></td><td></td></tr>
+<tr><td>0 21 105</td><td>Normalized radar cross-section</td><td></td><td></td></tr>
+<tr><td>0 33 056</td><td>Sigma-0 quality flag</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 041 (Altitude)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>2 01 141</td><td>Change data width</td><td>28 bits long</td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td>Scale: 2</td><td></td></tr>
+<tr><td>0 07 001</td><td>Height of station</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 042 (Altitude corrections)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 21 077</td><td>Altitude correction (ionosphere)</td><td></td><td></td></tr>
+<tr><td>0 21 078</td><td>Altitude correction (dry troposphere)</td><td></td><td></td></tr>
+<tr><td>0 21 079</td><td>Altitude correction (wet troposphere)</td><td></td><td></td></tr>
+<tr><td>0 21 080</td><td>Altitude correction (calibration constant)</td><td></td><td></td></tr>
+<tr><td>0 21 081</td><td>Open loop correction (height-time loop)</td><td></td><td></td></tr>
+<tr><td>0 21 082</td><td>Open loop correction (auto gain control)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 045 (AATSR sea-surface temperatures)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td></td><td></td></tr>
+<tr><td>0 12 180</td><td>Averaged 12 micron BT for all clear pixels at nadir</td><td></td><td></td></tr>
+<tr><td>0 12 181</td><td>Averaged 11 micron BT for all clear pixels at nadir</td><td></td><td></td></tr>
+<tr><td>0 12 182</td><td>Averaged 3.7 micron BT for all clear pixels at nadir</td><td></td><td></td></tr>
+<tr><td>0 12 183</td><td>Averaged 12 micron BT for all clear pixels, forward view</td><td></td><td></td></tr>
+<tr><td>0 12 184</td><td>Averaged 11 micron BT for all clear pixels, forward view</td><td></td><td></td></tr>
+<tr><td>0 12 185</td><td>Averaged 3.7 micron BT for all clear pixels, forward view</td><td></td><td></td></tr>
+<tr><td>0 02 174</td><td>Mean across-track pixel number</td><td></td><td></td></tr>
+<tr><td>0 21 086</td><td>Number of pixels in nadir only, average</td><td></td><td></td></tr>
+<tr><td>0 12 186</td><td>Mean nadir sea-surface temperature</td><td></td><td></td></tr>
+<tr><td>0 21 087</td><td>Number of pixels in dual view, average</td><td></td><td></td></tr>
+<tr><td>0 12 187</td><td>Mean dual view sea-surface temperature</td><td></td><td></td></tr>
+<tr><td>0 33 043</td><td>AST confidence</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 050 (MERIS instrument reporting)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 025</td><td>Solar zenith angle</td><td></td><td></td></tr>
+<tr><td>0 05 022</td><td>Solar azimuth</td><td></td><td></td></tr>
+<tr><td>0 10 080</td><td>Viewing zenith angle</td><td></td><td></td></tr>
+<tr><td>0 27 080</td><td>Viewing azimuth angle</td><td></td><td></td></tr>
+<tr><td>0 08 003</td><td>Vertical significance (satellite observations)</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 13 093</td><td>Cloud optical thickness</td><td></td><td></td></tr>
+<tr><td>0 08 003</td><td>Vertical significance (satellite observations)</td><td></td><td></td></tr>
+<tr><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 13 095</td><td>Total column water vapour</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 051 (Ocean cross spectra - WVS)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 08 075</td><td>Ascending/descending orbit qualifier</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 10 032</td><td>Satellite distance to Earth&#x27;s centre</td><td></td><td></td></tr>
+<tr><td>0 10 033</td><td>Altitude (platform to ellipsoid)</td><td></td><td></td></tr>
+<tr><td>0 10 034</td><td>Earth&#x27;s radius</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td></td><td></td></tr>
+<tr><td>0 08 012</td><td>Land/sea qualifier</td><td></td><td></td></tr>
+<tr><td>0 25 110</td><td>Image processing summary</td><td></td><td></td></tr>
+<tr><td>0 25 111</td><td>Number of input data gaps</td><td></td><td></td></tr>
+<tr><td>0 25 102</td><td>Number of missing lines excluding data gaps</td><td></td><td></td></tr>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td>0 25 103</td><td>Number of directional bins</td><td></td><td></td></tr>
+<tr><td>0 25 104</td><td>Number of wavelength bins</td><td></td><td></td></tr>
+<tr><td>0 25 105</td><td>First directional bin</td><td></td><td></td></tr>
+<tr><td>0 25 106</td><td>Directional bin step</td><td></td><td></td></tr>
+<tr><td>0 25 107</td><td>First wavelength bin</td><td></td><td></td></tr>
+<tr><td>0 25 108</td><td>Last wavelength bin</td><td></td><td></td></tr>
+<tr><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td>0 02 121</td><td>Mean frequency</td><td></td><td></td></tr>
+<tr><td>0 02 026</td><td>Cross-track resolution</td><td></td><td></td></tr>
+<tr><td>0 02 027</td><td>Along-track resolution</td><td></td><td></td></tr>
+<tr><td>0 21 130</td><td>Spectrum total energy</td><td></td><td></td></tr>
+<tr><td>0 21 131</td><td>Spectrum max energy</td><td></td><td></td></tr>
+<tr><td>0 21 132</td><td>Direction of spectrum max on higher resolution grid</td><td></td><td></td></tr>
+<tr><td>0 21 133</td><td>Wavelength of spectrum max on higher resolution grid</td><td></td><td></td></tr>
+<tr><td>0 21 064</td><td>Clutter noise estimate</td><td></td><td></td></tr>
+<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td></td><td></td></tr>
+<tr><td>0 21 134</td><td>Range resolution of cress covariance spectrum</td><td></td><td></td></tr>
+<tr><td>1 07 018</td><td>Replicate 7 descriptors 18 times</td><td></td><td></td></tr>
+<tr><td>0 05 030</td><td>Direction (spectral)</td><td></td><td></td></tr>
+<tr><td>1 05 024</td><td>Replicate 5 descriptors 24 times</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 06 030</td><td>Wave number (spectral)</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 21 135</td><td>Real part of cross spectra polar grid number of bins</td><td></td><td></td></tr>
+<tr><td>0 21 136</td><td>Imaginary part of cross spectra polar grid number of bins</td><td></td><td></td></tr>
+<tr><td>0 33 044</td><td>ASAR quality information</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 052 (RA2 - radar altimeter-2)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 25 120</td><td>RA2-L2-processing flag</td><td></td><td></td></tr>
+<tr><td>0 25 121</td><td>RA2-L2-processing quality</td><td></td><td></td></tr>
+<tr><td>0 25 124</td><td>MWR-L2-processing flag</td><td></td><td></td></tr>
+<tr><td>0 25 125</td><td>MWR-L2-processing quality</td><td></td><td></td></tr>
+<tr><td>0 25 122</td><td>Hardware configuration for RF</td><td></td><td></td></tr>
+<tr><td>0 25 123</td><td>Hardware configuration for HPA</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td></td><td></td></tr>
+<tr><td>0 02 119</td><td>RA-2 instrument operations</td><td></td><td></td></tr>
+<tr><td>0 33 047</td><td>Measurement confidence data</td><td></td><td></td></tr>
+<tr><td>0 10 081</td><td>Altitude of COG above reference ellipsoid</td><td></td><td></td></tr>
+<tr><td>0 10 082</td><td>Instantaneous altitude rate</td><td></td><td></td></tr>
+<tr><td>0 10 083</td><td>Squared off nadir angle of the satellite from platform data</td><td></td><td></td></tr>
+<tr><td>0 10 084</td><td>Squared off nadir angle of the satellite from waveform data</td><td></td><td></td></tr>
+<tr><td>0 02 116</td><td>Percentage of 320 MHz band processed</td><td></td><td></td></tr>
+<tr><td>0 02 117</td><td>Percentage of 80 MHz band processed</td><td></td><td></td></tr>
+<tr><td>0 02 118</td><td>Percentage of 20 MHz band processed</td><td></td><td></td></tr>
+<tr><td>0 02 156</td><td>Percentage of valid Ku ocean retracker measurements</td><td></td><td></td></tr>
+<tr><td>0 02 157</td><td>Percentage of valid S ocean retracker measurements</td><td></td><td></td></tr>
+<tr><td>0 14 055</td><td>Solar activity index</td><td></td><td></td></tr>
+<tr><td>0 22 150</td><td>Number of 18 Hz valid points for Ku band</td><td></td><td></td></tr>
+<tr><td>0 22 151</td><td>Ku band ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 152</td><td>STD of 18 Hz Ku band ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 153</td><td>Number of 18 Hz valid points for S band</td><td></td><td></td></tr>
+<tr><td>0 22 154</td><td>S band ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 155</td><td>STD of 18 Hz S band ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 156</td><td>Ku band significant wave height</td><td></td><td></td></tr>
+<tr><td>0 22 157</td><td>STD of 18 Hz Ku band ocean range</td><td>Significant wave height</td><td></td></tr>
+<tr><td>0 22 158</td><td>S band significant wave height</td><td></td><td></td></tr>
+<tr><td>0 22 159</td><td>STD of 18 Hz S band significant wave height</td><td></td><td></td></tr>
+<tr><td>0 21 137</td><td>Ku band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 138</td><td>STD Ku band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 139</td><td>Ku band net instrumental correction for AGC</td><td></td><td></td></tr>
+<tr><td>0 21 140</td><td>S band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 141</td><td>STD S band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 142</td><td>S band net instrumental correction for AGC</td><td></td><td></td></tr>
+<tr><td>0 10 085</td><td>Mean sea-surface height</td><td></td><td></td></tr>
+<tr><td>0 10 086</td><td>Geoid&#x27;s height</td><td></td><td></td></tr>
+<tr><td>0 10 087</td><td>Ocean depth/land elevation</td><td></td><td></td></tr>
+<tr><td>0 10 088</td><td>Total geocentric ocean tide height (solution 1)</td><td></td><td></td></tr>
+<tr><td>0 10 089</td><td>Total geocentric ocean tide height (solution 2)</td><td></td><td></td></tr>
+<tr><td>0 10 090</td><td>Long period tide height</td><td></td><td></td></tr>
+<tr><td>0 10 091</td><td>Tidal loading height</td><td></td><td></td></tr>
+<tr><td>0 10 092</td><td>Solid Earth tide height</td><td></td><td></td></tr>
+<tr><td>0 10 093</td><td>Geocentric pole tide height</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 25 126</td><td>Model dry tropospheric correction</td><td></td><td></td></tr>
+<tr><td>0 25 127</td><td>Inverted barometer correction</td><td></td><td></td></tr>
+<tr><td>0 25 128</td><td>Model wet tropospheric correction</td><td></td><td></td></tr>
+<tr><td>0 25 129</td><td>MWR derived wet tropospheric correction</td><td></td><td></td></tr>
+<tr><td>0 25 130</td><td>RA2 ionospheric correction on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 131</td><td>Ionospheric correction from Doris on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 132</td><td>Ionospheric correction from model on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 133</td><td>Sea state bias correction on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 134</td><td>RA2 ionospheric correction on S band</td><td></td><td></td></tr>
+<tr><td>0 25 135</td><td>Ionospheric correction from Doris on S band</td><td></td><td></td></tr>
+<tr><td>0 25 136</td><td>Ionospheric correction from model on S band</td><td></td><td></td></tr>
+<tr><td>0 25 137</td><td>Sea state bias correction on S band</td><td></td><td></td></tr>
+<tr><td>0 13 096</td><td>MWR water vapour content</td><td></td><td></td></tr>
+<tr><td>0 13 097</td><td>MWR liquid water content</td><td></td><td></td></tr>
+<tr><td>0 11 095</td><td>u-component of the model wind vector</td><td></td><td></td></tr>
+<tr><td>0 11 096</td><td>v-component of the model wind vector</td><td></td><td></td></tr>
+<tr><td>0 12 188</td><td>Interpolated 23.8 GHz brightness T from MWR</td><td></td><td></td></tr>
+<tr><td>0 12 189</td><td>Interpolated 36.5 GHz brightness T from MWR</td><td></td><td></td></tr>
+<tr><td>0 02 158</td><td>RA-2 instrument</td><td></td><td></td></tr>
+<tr><td>0 02 159</td><td>MWR instrument</td><td></td><td></td></tr>
+<tr><td>0 33 052</td><td>S band ocean retracking quality</td><td></td><td></td></tr>
+<tr><td>0 33 053</td><td>Ku band ocean retracking quality</td><td></td><td></td></tr>
+<tr><td>0 21 143</td><td>Ku band rain attenuation</td><td></td><td></td></tr>
+<tr><td>0 21 144</td><td>Altimeter rain flag</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 053 (Ocean wave spectra)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 08 075</td><td>Ascending/descending orbit qualifier</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 10 032</td><td>Satellite distance to Earth&#x27;s centre</td><td></td><td></td></tr>
+<tr><td>0 10 033</td><td>Altitude (platform to ellipsoid)</td><td></td><td></td></tr>
+<tr><td>0 10 034</td><td>Earth&#x27;s radius</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td></td><td></td></tr>
+<tr><td>0 08 012</td><td>Land/sea qualifier</td><td></td><td></td></tr>
+<tr><td>0 25 110</td><td>Image processing summary</td><td></td><td></td></tr>
+<tr><td>0 25 111</td><td>Number of input data gaps</td><td></td><td></td></tr>
+<tr><td>0 25 102</td><td>Number of missing lines excluding data gaps</td><td></td><td></td></tr>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td>0 25 103</td><td>Number of directional bins</td><td></td><td></td></tr>
+<tr><td>0 25 104</td><td>Number of wavelength bins</td><td></td><td></td></tr>
+<tr><td>0 25 105</td><td>First directional bin</td><td></td><td></td></tr>
+<tr><td>0 25 106</td><td>Directional bin step</td><td></td><td></td></tr>
+<tr><td>0 25 107</td><td>First wavelength bin</td><td></td><td></td></tr>
+<tr><td>0 25 108</td><td>Last wavelength bin</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 22 160</td><td>Normalized inverse wave age</td><td></td><td></td></tr>
+<tr><td>0 25 138</td><td>Average signal-to-noise ratio</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 22 021</td><td>Height of waves</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 33 048</td><td>Confidence measure of SAR inversion</td><td></td><td></td></tr>
+<tr><td>0 33 049</td><td>Confidence measure of wind retrieval</td><td></td><td></td></tr>
+<tr><td>0 02 026</td><td>Cross-track resolution</td><td></td><td></td></tr>
+<tr><td>0 02 027</td><td>Along-track resolution</td><td></td><td></td></tr>
+<tr><td>0 21 130</td><td>Spectrum total energy</td><td></td><td></td></tr>
+<tr><td>0 21 131</td><td>Spectrum max energy</td><td></td><td></td></tr>
+<tr><td>0 21 132</td><td>Direction of spectrum max on higher resolution grid</td><td></td><td></td></tr>
+<tr><td>0 21 133</td><td>Wavelength of spectrum max on higher resolution grid</td><td></td><td></td></tr>
+<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td></td><td></td></tr>
+<tr><td>1 06 036</td><td>Replicate 6 descriptors 36 times</td><td></td><td></td></tr>
+<tr><td>0 05 030</td><td>Direction (spectral)</td><td></td><td></td></tr>
+<tr><td>1 04 024</td><td>Replicate 4 descriptors 24 times</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 06 030</td><td>Wave number (spectral)</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 22 161</td><td>Wave spectra</td><td></td><td></td></tr>
+<tr><td>0 33 044</td><td>ASAR quality information</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 055 (ASCAT level 1b cell information)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 05 033</td><td>Pixel size on horizontal - 1</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 06 034</td><td>Cross-track cell number</td><td></td><td></td></tr>
+<tr><td>0 10 095</td><td>Height of atmosphere used</td><td></td><td></td></tr>
+<tr><td>0 21 157</td><td>Loss per unit length of atmosphere used</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 056 (Scatterometer wind cell information)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 25 060</td><td>Software identification</td><td></td><td></td></tr>
+<tr><td>0 01 032</td><td>Generating application</td><td></td><td></td></tr>
+<tr><td>0 11 082</td><td>Model wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 081</td><td>Model wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>0 20 095</td><td>Ice probability</td><td></td><td></td></tr>
+<tr><td>0 20 096</td><td>Ice age (&quot;A&quot; parameter)</td><td></td><td></td></tr>
+<tr><td>0 21 155</td><td>Wind vector cell quality</td><td></td><td></td></tr>
+<tr><td>2 01 133</td><td>Change data width</td><td>Increase data width by 5 bits</td><td></td></tr>
+<tr><td>0 21 101</td><td>Number of vector ambiguities</td><td></td><td></td></tr>
+<tr><td>0 21 102</td><td>Index of selected wind vector</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 057 (Ambiguous wind data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>2 01 130</td><td>Change data width</td><td>Increase data width by 2 bits</td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td>Increase scaling by 10**1</td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 131</td><td>Change data width</td><td>Increase data width by 3 bits</td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td>Increase scaling by 10**1</td><td></td></tr>
+<tr><td>0 11 011</td><td>Wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 21 156</td><td>Backscatter distance</td><td></td><td></td></tr>
+<tr><td>0 21 104</td><td>Likelihood computed for solution</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 058 (ASCAT level 1b data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 125</td><td>ASCAT header information</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>3 12 055</td><td>ASCAT level 1b cell information</td><td></td><td></td></tr>
+<tr><td>0 21 150</td><td>Beam co-location</td><td></td><td></td></tr>
+<tr><td>1 01 003</td><td>Replicate 1 descriptor 3 times</td><td></td><td></td></tr>
+<tr><td>3 21 030</td><td>ASCAT sigma-0 information</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 059 (Scatterometer wind data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 056</td><td>Scatterometer wind cell information</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>3 12 057</td><td>Ambiguous wind data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 060 (Scatterometer soil moisture data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 25 060</td><td>Software identification</td><td></td><td></td></tr>
+<tr><td>0 25 062</td><td>Database identification</td><td></td><td></td></tr>
+<tr><td>0 40 001</td><td>Surface soil moisture (ms)</td><td></td><td></td></tr>
+<tr><td>0 40 002</td><td>Estimated error in surface soil moisture</td><td></td><td></td></tr>
+<tr><td>0 21 062</td><td>Backscatter</td><td>Extrapolated backscatter at 40 deg incidence angle (sigma0_40)</td><td></td></tr>
+<tr><td>0 21 151</td><td>Estimated error in sigma-0 at 40 degrees incidence angle</td><td></td><td></td></tr>
+<tr><td>0 21 152</td><td>Slope at 40 degrees incidence angle</td><td></td><td></td></tr>
+<tr><td>0 21 153</td><td>Estimated error in slope at 40 degrees incidence angle</td><td></td><td></td></tr>
+<tr><td>0 21 154</td><td>Soil moisture sensitivity</td><td></td><td></td></tr>
+<tr><td>0 21 062</td><td>Backscatter</td><td>Dry backscatter</td><td></td></tr>
+<tr><td>0 21 088</td><td>Wet backscatter</td><td></td><td></td></tr>
+<tr><td>0 40 003</td><td>Mean surface soil moisture</td><td></td><td></td></tr>
+<tr><td>0 40 004</td><td>Rain fall detection</td><td></td><td></td></tr>
+<tr><td>0 40 005</td><td>Soil moisture correction flag</td><td></td><td></td></tr>
+<tr><td>0 40 006</td><td>Soil moisture processing flag</td><td></td><td></td></tr>
+<tr><td>0 40 007</td><td>Soil moisture quality</td><td></td><td></td></tr>
+<tr><td>0 20 065</td><td>Snow cover</td><td></td><td></td></tr>
+<tr><td>0 40 008</td><td>Frozen land surface fraction</td><td></td><td></td></tr>
+<tr><td>0 40 009</td><td>Inundation and wetland fraction</td><td></td><td></td></tr>
+<tr><td>0 40 010</td><td>Topographic complexity</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 061 (ASCAT level 1b and level 2 data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 12 058</td><td>ASCAT level 1b data</td><td></td><td></td></tr>
+<tr><td>3 12 060</td><td>Scatterometer soil moisture data</td><td></td><td></td></tr>
+<tr><td>3 12 059</td><td>Scatterometer wind data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 062 (Snow cover)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 20 065</td><td>Snow cover</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>First-order statistics</td><td></td><td></td></tr>
+<tr><td>0 20 065</td><td>Snow cover</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>First-order statistics</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 070 (SMOS data)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 144</td><td>Snapshot identifier</td><td></td><td></td></tr>
+<tr><td>0 01 124</td><td>Grid point identifier</td><td></td><td></td></tr>
+<tr><td>0 30 010</td><td>Number of grid points</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 012</td><td>Grid point altitude</td><td></td><td></td></tr>
+<tr><td>0 15 012</td><td>Total electron count per square metre</td><td></td><td></td></tr>
+<tr><td>0 12 165</td><td>Direct sun brightness temperature</td><td></td><td></td></tr>
+<tr><td>0 12 166</td><td>Snapshot accuracy</td><td></td><td></td></tr>
+<tr><td>0 12 167</td><td>Radiometric accuracy (pure polarization)</td><td></td><td></td></tr>
+<tr><td>0 12 168</td><td>Radiometric accuracy (cross polarization)</td><td></td><td></td></tr>
+<tr><td>0 27 010</td><td>Footprint axis 1</td><td></td><td></td></tr>
+<tr><td>0 28 010</td><td>Footprint axis 2</td><td></td><td></td></tr>
+<tr><td>0 02 099</td><td>Polarization</td><td></td><td></td></tr>
+<tr><td>0 13 048</td><td>Water fraction</td><td></td><td></td></tr>
+<tr><td>0 25 081</td><td>Incidence angle</td><td></td><td></td></tr>
+<tr><td>0 25 082</td><td>Azimuth angle</td><td></td><td></td></tr>
+<tr><td>0 25 083</td><td>Faraday rotational angle</td><td></td><td></td></tr>
+<tr><td>0 25 084</td><td>Geometric rotational angle</td><td></td><td></td></tr>
+<tr><td>0 12 080</td><td>Brightness temperature real part</td><td></td><td></td></tr>
+<tr><td>0 12 081</td><td>Brightness temperature imaginary part</td><td></td><td></td></tr>
+<tr><td>0 12 082</td><td>Pixel radiometric accuracy</td><td></td><td></td></tr>
+<tr><td>0 25 174</td><td>SMOS information flag</td><td></td><td></td></tr>
+<tr><td>0 33 028</td><td>Snapshot overall quality</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 071 (CryoSat-2 SIRAL altimeter)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 02 139</td><td>SIRAL instrument configuration</td><td></td><td></td></tr>
+<tr><td>0 01 096</td><td>Station acquisition</td><td>Acquisition station name</td><td></td></tr>
+<tr><td>0 01 040</td><td>Processing centre ID code</td><td></td><td></td></tr>
+<tr><td>0 25 061</td><td>Software identification and version number</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>0 05 044</td><td>Satellite cycle number</td><td></td><td></td></tr>
+<tr><td>0 08 075</td><td>Ascending/descending orbit qualifier</td><td></td><td></td></tr>
+<tr><td>0 08 077</td><td>Radiometer sensed surface type</td><td></td><td></td></tr>
+<tr><td>0 04 001</td><td>Year</td><td></td><td></td></tr>
+<tr><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
+<tr><td>0 04 003</td><td>Day</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td></td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td></td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td></td><td></td></tr>
+<tr><td>0 05 001</td><td>Latitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 06 001</td><td>Longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 10 081</td><td>Altitude of COG above reference ellipsoid</td><td></td><td></td></tr>
+<tr><td>0 22 156</td><td>Ku band significant wave height</td><td></td><td></td></tr>
+<tr><td>0 22 142</td><td>Square of significant wave height</td><td></td><td></td></tr>
+<tr><td>1 01 020</td><td>Replicate 1 descriptor 20 times</td><td></td><td></td></tr>
+<tr><td>0 22 149</td><td>20 Hz significant wave height squared</td><td></td><td></td></tr>
+<tr><td>0 22 143</td><td>STD of 20 Hz SWH squared</td><td></td><td></td></tr>
+<tr><td>0 22 144</td><td>Number of 20 Hz valid points for SWH squared</td><td></td><td></td></tr>
+<tr><td>0 21 137</td><td>Ku band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>1 01 020</td><td>Replicate 1 descriptor 20 times</td><td></td><td></td></tr>
+<tr><td>0 21 181</td><td>20 Hz ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 138</td><td>STD Ku band corrected ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 180</td><td>Number of 20 Hz valid points for ocean backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 177</td><td>Corrected OCOG backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 178</td><td>STD of 20 Hz OCOG backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 21 179</td><td>Number of 20 Hz valid points for OCOG backscatter coefficient</td><td></td><td></td></tr>
+<tr><td>0 10 079</td><td>Off nadir angle of the satellite from platform data</td><td></td><td></td></tr>
+<tr><td>0 10 085</td><td>Mean sea-surface height</td><td></td><td></td></tr>
+<tr><td>0 10 086</td><td>Geoid&#x27;s height</td><td></td><td></td></tr>
+<tr><td>0 10 087</td><td>Ocean depth/land elevation</td><td></td><td></td></tr>
+<tr><td>0 10 089</td><td>Total geocentric ocean tide height (solution 2)</td><td></td><td></td></tr>
+<tr><td>0 10 090</td><td>Long period tide height</td><td></td><td></td></tr>
+<tr><td>0 10 091</td><td>Tidal loading height</td><td></td><td></td></tr>
+<tr><td>0 10 092</td><td>Solid Earth tide height</td><td></td><td></td></tr>
+<tr><td>0 10 093</td><td>Geocentric pole tide height</td><td></td><td></td></tr>
+<tr><td>0 11 097</td><td>Wind speed from altimeter</td><td></td><td></td></tr>
+<tr><td>0 21 093</td><td>Ku band peakiness</td><td>Average of 20 Hz values</td><td></td></tr>
+<tr><td>1 01 020</td><td>Replicate 1 descriptor 20 times</td><td></td><td></td></tr>
+<tr><td>0 21 182</td><td>20 Hz Ku band peakiness</td><td>20 values</td><td></td></tr>
+<tr><td>0 33 053</td><td>Ku band ocean retracking quality</td><td></td><td></td></tr>
+<tr><td>0 22 151</td><td>Ku band ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 145</td><td>STD of 20 Hz ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 148</td><td>Number of 20 Hz valid points for ocean range</td><td></td><td></td></tr>
+<tr><td>0 22 146</td><td>OCOG range</td><td></td><td></td></tr>
+<tr><td>0 22 147</td><td>STD of 20 Hz OCOG range</td><td></td><td></td></tr>
+<tr><td>0 25 126</td><td>Model dry tropospheric correction</td><td></td><td></td></tr>
+<tr><td>0 25 128</td><td>Model wet tropospheric correction</td><td></td><td></td></tr>
+<tr><td>0 25 127</td><td>Inverted barometer correction</td><td></td><td></td></tr>
+<tr><td>0 21 176</td><td>High frequency variability correction</td><td></td><td></td></tr>
+<tr><td>0 25 132</td><td>Ionospheric correction from model on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 133</td><td>Sea state bias correction on Ku band</td><td></td><td></td></tr>
+<tr><td>0 25 182</td><td>L1 processing flag</td><td></td><td></td></tr>
+<tr><td>0 25 183</td><td>L1 processing quality</td><td></td><td></td></tr>
+<tr><td>0 25 180</td><td>LRM mode per cent</td><td></td><td></td></tr>
+<tr><td>0 25 184</td><td>L2 product status</td><td></td><td></td></tr>
+<tr><td>0 25 181</td><td>L2 processing flag</td><td></td><td></td></tr>
+<tr><td>0 33 080</td><td>Scan level quality flags</td><td>L2 processing quality</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 12 072 (OSI SAF EPS-SG SCA soil moisture winds)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 033</td><td>Identification of originating/generating centre</td><td></td><td></td></tr>
+<tr><td>0 01 034</td><td>Identification of originating/generating sub-centre</td><td></td><td></td></tr>
+<tr><td>0 25 060</td><td>Software identification</td><td></td><td></td></tr>
+<tr><td>0 01 007</td><td>Satellite identifier</td><td></td><td></td></tr>
+<tr><td>0 02 019</td><td>Satellite instruments</td><td></td><td></td></tr>
+<tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 05 033</td><td>Pixel size on horizontal</td><td></td><td></td></tr>
+<tr><td>0 05 040</td><td>Orbit number</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 05 034</td><td>Along-track row number</td><td></td><td></td></tr>
+<tr><td>0 06 034</td><td>Cross-track cell number</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 14 058</td><td>Corrected cross-pole backscatter</td><td></td><td></td></tr>
+<tr><td>0 33 112</td><td>Faraday rotation angle (one way)</td><td></td><td></td></tr>
+<tr><td>1 15 005</td><td>Replicate 15 descriptors 5 times</td><td></td><td></td></tr>
+<tr><td>0 08 085</td><td>Beam identifier</td><td></td><td></td></tr>
+<tr><td>0 03 030</td><td>Antenna status</td><td></td><td></td></tr>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td>0 03 030</td><td>Antenna status</td><td></td><td></td></tr>
+<tr><td>0 02 104</td><td>Antenna polarization</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>2 01 131</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 02 111</td><td>Radar incidence angle</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>0 02 134</td><td>Antenna beam azimuth</td><td></td><td></td></tr>
+<tr><td>0 21 062</td><td>Backscatter</td><td></td><td></td></tr>
+<tr><td>0 21 063</td><td>Radiometric resolution (noise value)</td><td></td><td></td></tr>
+<tr><td>0 21 159</td><td>ASCAT sigma-0 usability</td><td></td><td></td></tr>
+<tr><td>0 21 027</td><td>Land contribution ratio</td><td></td><td></td></tr>
+<tr><td>0 25 060</td><td>Software identification</td><td></td><td></td></tr>
+<tr><td>0 01 032</td><td>Generating application</td><td></td><td></td></tr>
+<tr><td>0 11 082</td><td>Model wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 081</td><td>Model wind direction at 10 m</td><td></td><td></td></tr>
+<tr><td>0 20 095</td><td>Ice probability</td><td></td><td></td></tr>
+<tr><td>0 20 096</td><td>Ice age (&quot;A&quot; parameter)</td><td></td><td></td></tr>
+<tr><td>0 08 041</td><td>Data significance</td><td></td><td></td></tr>
+<tr><td>0 02 099</td><td>Polarization</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 02 099</td><td>Polarization</td><td></td><td></td></tr>
+<tr><td>0 08 041</td><td>Data significance</td><td></td><td></td></tr>
+<tr><td>0 11 052</td><td>Formal uncertainty in wind speed</td><td></td><td></td></tr>
+<tr><td>0 11 080</td><td>Number of views used for wind retrieval</td><td></td><td></td></tr>
+<tr><td>0 21 155</td><td>Wind vector cell quality</td><td></td><td></td></tr>
+<tr><td>2 01 133</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 21 101</td><td>Number of vector ambiguities</td><td></td><td></td></tr>
+<tr><td>0 21 102</td><td>Index of selected wind vector</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>3 12 057</td><td>Ambiguous wind data</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 7: Compound BUFR messages may be described within the data description section, if required (e.g. 3 01 041, 3 04 001, 3 04 002, 3 04 003, 3 04 004, 3 04 005, 3 04 006).</p>
+<p class="note">Note 16: Each BUFR message may contain data for a number of locations; the BUFR compression technique involves negligible overheads for data items that are invariant.</p>
+<p class="note">Note 43: Separation of single level satellite data into sets of BUFR messages helps compression and results inefficient data transmission and storage.</p>
+</div>
+</body>
+</html>

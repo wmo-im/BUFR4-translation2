@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Categoría 00: Secuencias correspondientes a las entradas en las tablas BUFR</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Categoría 00: Secuencias correspondientes a las entradas en las tablas BUFR</h1>
+<p class="fxy-heading">3 00 002</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 00 002</td><td>Tabla A: categoría de descripción de datos, línea 1</td><td></td><td></td></tr>
+<tr><td>0 00 003</td><td>Tabla A: categoría de descripción de datos, línea 2</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 003 (Descriptores F, X, Y por añadir o definir)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 00 010</td><td>Descriptor F por añadir o definir</td><td></td><td></td></tr>
+<tr><td>0 00 011</td><td>Descriptor X por añadir o definir</td><td></td><td></td></tr>
+<tr><td>0 00 012</td><td>Descriptor Y por añadir o definir</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 004</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 00 003</td><td>Descriptores F, X, Y por añadir o definir</td><td></td><td></td></tr>
+<tr><td>0 00 013</td><td>Nombre del elemento, línea 1</td><td></td><td></td></tr>
+<tr><td>0 00 014</td><td>Nombre del elemento, línea 2</td><td></td><td></td></tr>
+<tr><td>0 00 015</td><td>Nombre de las unidades</td><td></td><td></td></tr>
+<tr><td>0 00 016</td><td>Signo del factor de escala</td><td></td><td></td></tr>
+<tr><td>0 00 017</td><td>Factor de escala</td><td></td><td></td></tr>
+<tr><td>0 00 018</td><td>Signo de referencia de las unidades</td><td></td><td></td></tr>
+<tr><td>0 00 019</td><td>Valor de referencia de las unidades</td><td></td><td></td></tr>
+<tr><td>0 00 020</td><td>Anchura de datos del elemento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 010</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 00 003</td><td>Descriptores F, X, Y por añadir o definir</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 00 030</td><td>Secuencia que define al descriptor</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 015 (Definición de la tabla de cifrado)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 00 030</td><td>Secuencia de definición del descriptor</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Factor ampliado de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 00 024</td><td>Cifra de clave</td><td></td><td></td></tr>
+<tr><td>0 00 025</td><td>Significado de la clave</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 016 (Definición de la tabla de banderines)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 00 030</td><td>Secuencia de definición del descriptor</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 00 026</td><td>Número de bit</td><td></td><td></td></tr>
+<tr><td>0 00 027</td><td>Significado del número de bit</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 32: Puede considerarse que, como sólo son posibles las adiciones, sólo se permiten líneas completas; pero puede pensarse que las zonas locales requerirán tanto cambios como adiciones, de modo que en cualquier caso es mejor y más claro ofrecer descripciones para todos los campos.</p>
+<p class="note">Note 33: Para elementos que definen o son definidos es preferible utilizar los diferentes descriptores de la Clase 00, del mismo modo que los diferentes descriptores corresponden a la presión considerada como coordenada o a la presión medida en determinado punto; de otra manera se necesitarían reglas especiales para interpretar un mensaje. Las entradas 0 00 010 a 0 00 012 definen a F, X e Y para las Tablas B y D; la entrada 0 00 030 es un descriptor que se utiliza para datos y proporciona los valores de F, X e Y que definen secuencias para las entradas de la Tabla D.</p>
+<p class="note">Note 63: Estas entradas tienen la ventaja de permitir actualizar las cifras de clave y la descripción de datos de la Tabla A.</p>
+</div>
+</body>
+</html>

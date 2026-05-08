@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 03</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 03</h1>
+<p class="fxy-heading">0 03 001  Type de station d&#x27;observation en surface</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Station terrestre (réseau synoptique)</td><td></td></tr>
+<tr><td>1</td><td>Station en eau peu profonde (fixée au fond de la mer/d&#x27;un lac)</td><td></td></tr>
+<tr><td>2</td><td>Navire</td><td></td></tr>
+<tr><td>3</td><td>Plate-forme de forage</td><td></td></tr>
+<tr><td>4</td><td>Bouée ancrée</td><td></td></tr>
+<tr><td>5</td><td>Bouée dérivante</td><td></td></tr>
+<tr><td>6</td><td>Bouée sur glace</td><td></td></tr>
+<tr><td>7</td><td>Station terrestre (réseau local)</td><td></td></tr>
+<tr><td>8</td><td>Véhicule terrestre</td><td></td></tr>
+<tr><td>9</td><td>Véhicule marin autonome</td><td></td></tr>
+<tr><td>10-30</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 003  Boîtier du thermomètre/de l&#x27;hygromètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Abri météo</td><td></td></tr>
+<tr><td>1</td><td>Fronde/crécelle</td><td></td></tr>
+<tr><td>2</td><td>Aucun abri</td><td></td></tr>
+<tr><td>3</td><td>Protection contre le rayonnement</td><td></td></tr>
+<tr><td>4</td><td>À aspiration (par ex. Assmann)</td><td></td></tr>
+<tr><td>5</td><td>Autre abri</td><td></td></tr>
+<tr><td>6</td><td>Portatif</td><td></td></tr>
+<tr><td>7-14</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 004  Type d&#x27;abri/de protection contre le rayonnement</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Abri Stevenson</td><td></td></tr>
+<tr><td>1</td><td>Abri Stevenson adapté aux conditions maritimes</td><td></td></tr>
+<tr><td>2</td><td>Panneau de protection à section cylindrique</td><td></td></tr>
+<tr><td>3</td><td>Tube concentrique</td><td></td></tr>
+<tr><td>4</td><td>Protection à section rectangulaire</td><td></td></tr>
+<tr><td>5</td><td>Protection à section carrée</td><td></td></tr>
+<tr><td>6</td><td>Protection à section triangulaire</td><td></td></tr>
+<tr><td>7</td><td>Appentis ouvert</td><td></td></tr>
+<tr><td>8</td><td>Appentis ouvert, toiture à 2 pans</td><td></td></tr>
+<tr><td>9</td><td>Intégré (par ex. miroir refroidi)</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 008  Abri ou protection avec ventilation artificielle</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ventilation naturelle</td><td></td></tr>
+<tr><td>1</td><td>Aspiration forcée: flux constant au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>2</td><td>Aspiration forcée: flux variable au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 010  Méthode de mesure du courant en mer et dans d&#x27;autres masses d&#x27;eau</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>ADCP</td><td>Note 91: Dans le descripteur 0 02 142: le numéro de série/identification de l’instrument de mesure de l’ozone est d’une longueur de quatre caractères. Pour les instruments Dobson japonais, tronquer le(s) premier(s) chiffre(s).</td></tr>
+<tr><td>2</td><td>GEK (Électrocinétographe géomagnétique)</td><td></td></tr>
+<tr><td>3</td><td>Direction et dérive du navire déterminées par des relevés effectués à intervalles de 3 à 6 heures</td><td></td></tr>
+<tr><td>4</td><td>Direction et dérive du navire déterminées par des relevés effectués à intervalles de plus de 6 heures, mais de moins de 12 heures</td><td></td></tr>
+<tr><td>5</td><td>Dérive de la bouée</td><td></td></tr>
+<tr><td>6</td><td>ADCP</td><td></td></tr>
+<tr><td>7</td><td>ADCP en mode de localisation par rapport au fond de l&#x27;océan</td><td></td></tr>
+<tr><td>8</td><td>Capteur électromagnétique</td><td></td></tr>
+<tr><td>9</td><td>Rotor et girouette</td><td></td></tr>
+<tr><td>10</td><td>ADCP immergé</td><td></td></tr>
+<tr><td>11-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 011  Méthode de calcul de la profondeur</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Profondeur calculée en utilisant l&#x27;équation de la vitesse de chute</td><td></td></tr>
+<tr><td>1</td><td>Profondeur calculée en utilisant la pression hydrographique/l&#x27;équation d&#x27;état</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 012  Type d&#x27;instrument/capteur de mesure de l&#x27;oxygène dissous</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Optode d&#x27;oxygène dissous Aanderaa</td><td></td></tr>
+<tr><td>1</td><td>Flacon Winkler</td><td></td></tr>
+<tr><td>2-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 016  Position des capteurs routiers</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Voie rapide, entre les traces des roues</td><td></td></tr>
+<tr><td>1</td><td>Voie rapide, entre les traces des roues, à contre-sens</td><td></td></tr>
+<tr><td>2</td><td>Voie rapide, sur les traces des roues</td><td></td></tr>
+<tr><td>3</td><td>Voie rapide, sur les traces des roues, à contre-sens</td><td></td></tr>
+<tr><td>4</td><td>Voie lente, entre les traces des roues</td><td></td></tr>
+<tr><td>5</td><td>Voie lente, entre les traces des roues, à contre-sens</td><td></td></tr>
+<tr><td>6</td><td>Voie lente, sur les traces des roues</td><td></td></tr>
+<tr><td>7</td><td>Voie lente, sur les traces des roues, à contre-sens</td><td></td></tr>
+<tr><td>8-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 017  Précisions sur le type de station</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Station automatique</td><td></td></tr>
+<tr><td>2</td><td>Station dotée de personnel</td><td></td></tr>
+<tr><td>3</td><td>Déclenchement événementiel</td><td></td></tr>
+<tr><td>4</td><td>Période plus longue que la période standard</td><td></td></tr>
+<tr><td>5</td><td>En réserve</td><td></td></tr>
+<tr><td>6 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 018  Type de route</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Voie dégagée, sans plus d&#x27;informations</td><td></td></tr>
+<tr><td>1</td><td>Voie dégagée, talus</td><td></td></tr>
+<tr><td>2</td><td>Voie dégagée, plane par rapport aux alentours</td><td></td></tr>
+<tr><td>3</td><td>Voie dégagée, plan(s) d&#x27;eau à proximité</td><td></td></tr>
+<tr><td>4</td><td>Voie dégagée, forêt</td><td></td></tr>
+<tr><td>5</td><td>Voie dégagée, crevasse</td><td></td></tr>
+<tr><td>6</td><td>Voie dégagée, au sommet d&#x27;une colline</td><td></td></tr>
+<tr><td>7</td><td>Voie dégagée, au sommet d&#x27;une colline, forêt</td><td></td></tr>
+<tr><td>8</td><td>Voie dégagée, dans une vallée</td><td></td></tr>
+<tr><td>9</td><td>Voie dégagée, dans une vallée, forêt</td><td></td></tr>
+<tr><td>10</td><td>Voie dégagée, inclinée vers le nord</td><td></td></tr>
+<tr><td>11</td><td>Voie dégagée, inclinée vers le nord, forêt</td><td></td></tr>
+<tr><td>12</td><td>Voie dégagée, inclinée vers le sud</td><td></td></tr>
+<tr><td>13</td><td>Voie dégagée, inclinée vers le sud, forêt</td><td></td></tr>
+<tr><td>14-19</td><td>En réserve</td><td></td></tr>
+<tr><td>20</td><td>Pont, sans plus d&#x27;informations</td><td></td></tr>
+<tr><td>21</td><td>Pont enjambant une vallée dans une zone urbaine</td><td></td></tr>
+<tr><td>22</td><td>Pont enjambant une vallée avec forêt, prairies ou champs</td><td></td></tr>
+<tr><td>23</td><td>Pont enjambant une rue/piste</td><td></td></tr>
+<tr><td>24</td><td>Pont enjambant une rivière/un canal de grande taille</td><td></td></tr>
+<tr><td>25</td><td>Pont enjambant une rivière/un canal de taille moyenne</td><td></td></tr>
+<tr><td>26</td><td>Pont enjambant un petit ruisseau/un canal d&#x27;alimentation</td><td></td></tr>
+<tr><td>27-30</td><td>En réserve</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 019  Type de construction</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Asphalte</td><td></td></tr>
+<tr><td>1</td><td>Béton</td><td></td></tr>
+<tr><td>2</td><td>Construction en béton</td><td></td></tr>
+<tr><td>3</td><td>Construction avec poutres en acier</td><td></td></tr>
+<tr><td>4</td><td>Pont tubulaire</td><td></td></tr>
+<tr><td>5</td><td>Dalle orthotrope</td><td></td></tr>
+<tr><td>6</td><td>Asphalte drainant</td><td></td></tr>
+<tr><td>7-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 020  Matériau du boîtier du thermomètre/de l&#x27;hygromètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bois</td><td></td></tr>
+<tr><td>1</td><td>Alliage métallique</td><td></td></tr>
+<tr><td>2</td><td>Plastique/PRV</td><td></td></tr>
+<tr><td>3</td><td>Canisse/herbes/feuilles</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 021  Chauffage de l&#x27;hygromètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Non chauffé</td><td></td></tr>
+<tr><td>1</td><td>Chauffé</td><td></td></tr>
+<tr><td>2</td><td>Sans objet</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 022  Propriétaire de l&#x27;instrument</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Service météorologique ou hydrométéorologique national</td><td></td></tr>
+<tr><td>1</td><td>Autre</td><td></td></tr>
+<tr><td>2</td><td>Institut de normalisation</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 023  Configuration des persiennes de l&#x27;abri pour thermomètre/hygromètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Persiennes simples</td><td></td></tr>
+<tr><td>1</td><td>Persiennes superposées</td><td></td></tr>
+<tr><td>2</td><td>Persiennes doubles</td><td></td></tr>
+<tr><td>3</td><td>Persiennes sans superposition</td><td></td></tr>
+<tr><td>4</td><td>Abri ventilé, sans persiennes</td><td></td></tr>
+<tr><td>5</td><td>Sans objet</td><td></td></tr>
+<tr><td>6</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 027  Type de suspension</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Simple (une seule radiosonde)</td><td></td></tr>
+<tr><td>1</td><td>Bloc</td><td></td></tr>
+<tr><td>2</td><td>Barre</td><td></td></tr>
+<tr><td>3</td><td>Croix</td><td></td></tr>
+<tr><td>4</td><td>En forme de T</td><td></td></tr>
+<tr><td>5</td><td>En forme de double T</td><td></td></tr>
+<tr><td>6</td><td>Complexe</td><td></td></tr>
+<tr><td>7-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 028  Technique de mesure de l&#x27;équivalent en eau de la neige</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Relevé nivométrique manuel en plusieurs points</td><td></td></tr>
+<tr><td>1</td><td>Mesure manuelle de l&#x27;équivalent en eau de la neige en un seul point</td><td></td></tr>
+<tr><td>2</td><td>Coussin de neige ou échelle de la neige</td><td></td></tr>
+<tr><td>3</td><td>Gamma passif</td><td></td></tr>
+<tr><td>4</td><td>Méthodes GNSS/GPS</td><td></td></tr>
+<tr><td>5</td><td>Atténuation des rayons cosmiques</td><td></td></tr>
+<tr><td>6</td><td>Réflectométrie dans le domaine temporel</td><td></td></tr>
+<tr><td>7-62</td><td>En réserve</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 30: Image</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 30: Image</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 30 001</td><td>Pixel value (4 bits)</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 30 002</td><td>Pixel value (8 bits)</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 30 004</td><td>Pixel value (16 bits)</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 30 010</td><td>Number of grid points</td><td>Numeric</td><td>0</td><td>0</td><td>13</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 30 021</td><td>Number of pixels per row</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 30 022</td><td>Number of pixels per column</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 30 031</td><td>Picture type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 30 032</td><td>Combination with other data</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 30 033</td><td>Number of bins along the radial</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 30 034</td><td>Number of azimuths</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 92: In order to distinguish unambiguously the cases of missing data and saturated pixels, n-bit image data should be encoded using a data width of n+1. Where such a descriptor is not already available in Class 30, operator descriptor 2 01 YYY should be used to modify the data width of the existing entry as required.</p>
+<p class="note">Note 115: Pixel data width can be changed with descriptor 2 01 YYY.</p>
+</div>
+</body>
+</html>

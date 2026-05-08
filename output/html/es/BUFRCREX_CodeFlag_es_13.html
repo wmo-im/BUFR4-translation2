@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 13</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 13</h1>
+<p class="fxy-heading">0 13 038  Indicador superadiabático</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No superadiabático</td><td></td></tr>
+<tr><td>1</td><td>Superadiabático</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 039  Tipo de terreno (hielo/nieve)</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hielo marino</td><td></td></tr>
+<tr><td>1</td><td>Nieve en tierra</td><td></td></tr>
+<tr><td>2-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 040  Banderín de superficie</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Tierra</td><td></td></tr>
+<tr><td>1</td><td>Reservada</td><td></td></tr>
+<tr><td>2</td><td>Cerca de la costa</td><td></td></tr>
+<tr><td>3</td><td>Hielo</td><td></td></tr>
+<tr><td>4</td><td>Posibilidad de hielo</td><td></td></tr>
+<tr><td>5</td><td>Océano</td><td></td></tr>
+<tr><td>6</td><td>Costa</td><td></td></tr>
+<tr><td>7</td><td>Aguas interiores</td><td>Note 56: Las secuencias 3 09 021, 3 09 022 y 3 09 023 no deberían utilizarse porque están obsoletas. En su lugar deberían utilizarse las secuencias 3 09 024, 3 09 025 y 3 09 026 respectivamente.</td></tr>
+<tr><td>8</td><td>Cubierta de nieve</td><td></td></tr>
+<tr><td>9</td><td>Hielo marino</td><td></td></tr>
+<tr><td>10</td><td>Agua estancada</td><td></td></tr>
+<tr><td>11</td><td>Nieve</td><td></td></tr>
+<tr><td>12-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 041  Categoría de estabilidad de Pasquill-Gifford</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>A</td><td></td></tr>
+<tr><td>2</td><td>A-B</td><td></td></tr>
+<tr><td>3</td><td>B</td><td></td></tr>
+<tr><td>4</td><td>B-C</td><td></td></tr>
+<tr><td>5</td><td>C</td><td></td></tr>
+<tr><td>6</td><td>D</td><td></td></tr>
+<tr><td>7</td><td>E</td><td></td></tr>
+<tr><td>8</td><td>F</td><td></td></tr>
+<tr><td>9</td><td>G</td><td></td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 051  Grupo de frecuencia, precipitaciones</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inferior a cualquier valor registrado durante el período de 30 años</td><td></td></tr>
+<tr><td>1</td><td>En el primer quintil</td><td></td></tr>
+<tr><td>2</td><td>En el segundo quintil</td><td></td></tr>
+<tr><td>3</td><td>En el tercer quintil</td><td></td></tr>
+<tr><td>4</td><td>En el cuarto quintil</td><td></td></tr>
+<tr><td>5</td><td>En el quinto quintil</td><td></td></tr>
+<tr><td>6</td><td>Superior a cualquier valor registrado durante el período de 30 años</td><td></td></tr>
+<tr><td>7-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 056  Naturaleza e intensidad de la precipitación</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No hay precipitación</td><td></td></tr>
+<tr><td>1</td><td>Escasa e intermitente</td><td></td></tr>
+<tr><td>2</td><td>Moderada e intermitente</td><td></td></tr>
+<tr><td>3</td><td>Abundante e intermitente</td><td></td></tr>
+<tr><td>4</td><td>Muy abundante e intermitente</td><td></td></tr>
+<tr><td>5</td><td>Escasa y continua</td><td></td></tr>
+<tr><td>6</td><td>Moderada y continua</td><td></td></tr>
+<tr><td>7</td><td>Abundante y continua</td><td></td></tr>
+<tr><td>8</td><td>Muy abundante y continua</td><td></td></tr>
+<tr><td>9</td><td>Variable alternadamente escasa y abundante</td><td></td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 057  Hora de comienzo o fin de la precipitación</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No hay precipitación</td><td></td></tr>
+<tr><td>1</td><td>Hace menos de una hora</td><td></td></tr>
+<tr><td>2</td><td>Hace 1 a 2 horas</td><td></td></tr>
+<tr><td>3</td><td>Hace 2 a 3 horas</td><td></td></tr>
+<tr><td>4</td><td>Hace 3 a 4 horas</td><td></td></tr>
+<tr><td>5</td><td>Hace 4 a 5 horas</td><td></td></tr>
+<tr><td>6</td><td>Hace 5 a 6 horas</td><td></td></tr>
+<tr><td>7</td><td>Hace 6 a 8 horas</td><td></td></tr>
+<tr><td>8</td><td>Hace 8 a 10 horas</td><td></td></tr>
+<tr><td>9</td><td>Hace más de 10 horas</td><td></td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 11 : Vent et turbulence</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 11 : Vent et turbulence</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 11 001</td><td>Direction du vent</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 003</td><td>Composante u</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 004</td><td>Composante v</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 005</td><td>Composante w</td><td>Pa s-1</td><td>1</td><td>-512</td><td>10</td><td>Pa s-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 006</td><td>Composante w</td><td>m/s</td><td>2</td><td>-4096</td><td>13</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 007</td><td>Direction du vent relatif (en degrés par rapport à la position de la proue)</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 008</td><td>Vitesse du vent relatif</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 010</td><td>Direction du vent associée à la vitesse du vent qui suit</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 011</td><td>Direction du vent à 10 m</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 012</td><td>Vitesse du vent à 10 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 013</td><td>Direction du vent à 5 m</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 014</td><td>Vitesse du vent à 5 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 016</td><td>Direction du vent extrême dans le sens contraire des aiguilles d&#x27;une montre (vent variable)</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 017</td><td>Direction du vent extrême dans le sens des aiguilles d&#x27;une montre (vent variable)</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 019</td><td>Stabilité du vent</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 147: Le facteur de stabilité du vent est le rapport de la vitesse du vecteur vent moyen mensuel à la vitesse du vent scalaire moyen mensuel, exprimé en pourcentage. La valeur est arrondie au point de pourcentage le plus proche.</td></tr>
+<tr><td>0 11 021</td><td>Tourbillon relatif</td><td>/s</td><td>9</td><td>-65536</td><td>17</td><td>/s</td><td>9</td><td>6</td><td></td></tr>
+<tr><td>0 11 022</td><td>Divergence</td><td>/s</td><td>9</td><td>-65536</td><td>17</td><td>/s</td><td>9</td><td>6</td><td></td></tr>
+<tr><td>0 11 023</td><td>Vitesse potentielle</td><td>m2/s</td><td>-2</td><td>-65536</td><td>17</td><td>m2/s</td><td>-2</td><td>6</td><td></td></tr>
+<tr><td>0 11 030</td><td>Degré de turbulence détaillé</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 032</td><td>Hauteur de la base de la turbulence</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 11 033</td><td>Hauteur du sommet de la turbulence</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 11 034</td><td>Vitesse des rafales verticales</td><td>m/s</td><td>1</td><td>-1024</td><td>11</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 035</td><td>Accélération des rafales verticales</td><td>m s-2</td><td>2</td><td>-8192</td><td>14</td><td>m s-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 036</td><td>Équivalent maximal dérivé de la vitesse des rafales verticales</td><td>m/s</td><td>1</td><td>0</td><td>10</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 037</td><td>Indice de turbulence</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 038</td><td>Heure du taux maximal de dissipation des tourbillons</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 039</td><td>Étalement dans le temps de l&#x27;apparition du taux maximal de dissipation des tourbillons</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 040</td><td>Vitesse maximale du vent (vent moyen)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 041</td><td>Vitesse de la rafale maximale</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 042</td><td>Vitesse maximale du vent (vent moyen sur 10 minutes)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 043</td><td>Direction de la rafale maximale</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 044</td><td>Direction moyenne du vent entre la surface et 1500 m (5000 pieds)</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 045</td><td>Vitesse moyenne du vent entre la surface et 1500 m (5000 pieds)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 046</td><td>Vitesse maximale du vent instantané</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 047</td><td>Vitesse maximale du vent instantané sur 10 minutes</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 049</td><td>Écart type de la direction du vent</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 050</td><td>Écart type de la vitesse du vent horizontal</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 051</td><td>Écart type de la vitesse du vent vertical</td><td>m/s</td><td>1</td><td>0</td><td>8</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 11 052</td><td>Incertitude formelle concernant la vitesse du vent</td><td>m/s</td><td>2</td><td>0</td><td>13</td><td>m/s</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 053</td><td>Incertitude formelle concernant la direction du vent</td><td>degré vrai</td><td>2</td><td>0</td><td>15</td><td>degré vrai</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 054</td><td>Direction moyenne du vent entre 1 500 m et 3 000 m</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 055</td><td>Vitesse moyenne du vent entre 1 500 m et 3 000 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 061</td><td>Cisaillement du vent (valeur absolue) sur une couche inférieure de 1 km</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 062</td><td>Cisaillement du vent (valeur absolue) sur une couche supérieure de 1 km</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 070</td><td>Indicatif de la piste touchée par le cisaillement du vent (y compris ALL)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Caractère</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 11 071</td><td>Flux de quantités de mouvement vertical de turbulence</td><td>m2 s-2</td><td>3</td><td>-128</td><td>14</td><td>m2 s-2</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 11 072</td><td>Flux de la poussée verticale de turbulence</td><td>K m s-1</td><td>3</td><td>-128</td><td>11</td><td>K m s-1</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 11 073</td><td>Énergie cinétique de turbulence</td><td>m2 s-2</td><td>2</td><td>-1024</td><td>13</td><td>m2 s-2</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 074</td><td>Énergie de dissipation</td><td>m2 s-2</td><td>2</td><td>-1024</td><td>10</td><td>m2 s-2</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 075</td><td>Intensité moyenne de la turbulence (taux de dissipation des tourbillons)</td><td>m2/3 s-1</td><td>2</td><td>0</td><td>8</td><td>m2/3 s-1</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 11 076</td><td>Intensité maximale de la turbulence (taux de dissipation des tourbillons)</td><td>m2/3 s-1</td><td>2</td><td>0</td><td>8</td><td>m2/3 s-1</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 11 077</td><td>Intervalle d&#x27;enregistrement ou temps moyen pour établir le taux de dissipation des tourbillons</td><td>s</td><td>0</td><td>0</td><td>12</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 11 081</td><td>Direction du vent à 10 m donnée par modèle</td><td>degré vrai</td><td>2</td><td>0</td><td>16</td><td>degré vrai</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 082</td><td>Vitesse du vent à 10 m donnée par modèle</td><td>m/s</td><td>2</td><td>0</td><td>14</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 083</td><td>Vitesse du vent</td><td>km/h</td><td>0</td><td>0</td><td>9</td><td>km/h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 084</td><td>Vitesse du vent</td><td>kt</td><td>0</td><td>0</td><td>8</td><td>kt</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 085</td><td>Vitesse de la rafale maximale</td><td>km/h</td><td>0</td><td>0</td><td>9</td><td>km/h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 086</td><td>Vitesse de la rafale maximale</td><td>kt</td><td>0</td><td>0</td><td>8</td><td>kt</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 095</td><td>Composante u du vecteur vent - modèle</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 096</td><td>Composante v du vecteur vent - modèle</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 097</td><td>Vitesse du vent indiquée par l&#x27;altimètre</td><td>m/s</td><td>2</td><td>0</td><td>12</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 098</td><td>Vitesse du vent indiquée par le radiomètre</td><td>m/s</td><td>2</td><td>0</td><td>12</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 100</td><td>Vitesse vraie de l&#x27;aéronef</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 101</td><td>Vitesse sol de l&#x27;aéronef (composante u)</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 102</td><td>Vitesse sol de l&#x27;aéronef (composante v)</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 103</td><td>Vitesse sol de l&#x27;aéronef (composante w)</td><td>m/s</td><td>1</td><td>-512</td><td>10</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 11 104</td><td>Cap vrai de l&#x27;aéronef, du navire ou de la plate-forme mobile</td><td>degré vrai</td><td>0</td><td>0</td><td>9</td><td>degré vrai</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 105</td><td>Version de l&#x27;algorithme du taux de dissipation des tourbillons</td><td>Numérique</td><td>0</td><td>0</td><td>6</td><td>Numérique</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 106</td><td>Niveau de confiance minimum associé au fonctionnement</td><td>Numérique</td><td>1</td><td>0</td><td>4</td><td>Numérique</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 11 107</td><td>Nombre maximum d&#x27;entrées fausses</td><td>Numérique</td><td>0</td><td>0</td><td>5</td><td>Numérique</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 108</td><td>Localisation de la valeur de crête</td><td>Numérique</td><td>1</td><td>0</td><td>4</td><td>Numérique</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 11 109</td><td>Nombre de valeurs justes du taux de dissipation des tourbillons</td><td>Numérique</td><td>0</td><td>0</td><td>4</td><td>Numérique</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 110</td><td>Incertitude relative à la composante u</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 111</td><td>Incertitude relative à la composante v</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 112</td><td>Incertitude relative à la composante w</td><td>m/s</td><td>2</td><td>-4096</td><td>13</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 113</td><td>Suivi de la corrélation du vecteur</td><td>Numérique</td><td>3</td><td>-1000</td><td>12</td><td>Numérique</td><td>3</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 64: Les composantes w descendantes sont indiquées par des valeurs positives, pour lesquelles l’unité est le Pa s –1 .</p>
+<p class="note">Note 123: Les composantes v dans le sens sud–nord sont indiquées par des valeurs positives.</p>
+<p class="note">Note 126: Les stations situées à moins de 1° du pôle Nord ou du pôle Sud chiffrent leurs observations de la direction du vent de surface avec le limbe d’azimut orienté de sorte que son zéro coïncide avec le méridien de Greenwich.</p>
+<p class="note">Note 161: Les composantes w ascendantes sont indiquées par des valeurs positives, pour lesquelles l’unité est le m s –1 .</p>
+<p class="note">Note 167: Les composantes u dans le sens ouest–est sont indiquées par des valeurs positives.</p>
+<p class="note">Note 180: Normes pour la transmission des vents: Vitesse Direction Pas d’observation Manquante Manquante Calme 0 0 Observation normale &gt; 0 1° – 360° Vitesse seulement &gt; 0 Manquante Direction seulement Manquante 1° – 360° «Léger et variable» &gt; 0 0</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 33 : Informations sur la qualité</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 33 : Informations sur la qualité</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 33 002</td><td>Informations sur la qualité</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 003</td><td>Informations sur la qualité</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 005</td><td>Informations sur la qualité (données des stations météorologiques automatiques)</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>30</td><td>Table d&#x27;indicateurs</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 33 006</td><td>Informations sur la situation interne des mesures (stations météorologiques automatiques)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 007</td><td>Degré de confiance</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 015</td><td>Indicateur de vérification de la qualité des données</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 020</td><td>Indication du contrôle de la qualité de la valeur suivante</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 021</td><td>Qualité de la valeur suivante</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 022</td><td>Qualité de la transmission par satellite des données provenant de bouées</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 023</td><td>Qualité de l&#x27;emplacement de la bouée</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 024</td><td>Repère de qualité de l&#x27;altitude de la station (pour les stations mobiles)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 025</td><td>Indicateur de valeurs A CARS interpolées</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 026</td><td>Qualité de la mesure de l&#x27;humidité</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 027</td><td>Classe de qualité concernant la position (rayon de certitude à 66 %)</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 028</td><td>Qualité globale de l&#x27;instantané</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 030</td><td>Indicateurs d&#x27;état pour la ligne de balayage du sondeur ATOVS</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>24</td><td>Table d&#x27;indicateurs</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 031</td><td>Indicateurs de qualité de la ligne de balayage du sondeur ATOVS</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>24</td><td>Table d&#x27;indicateurs</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 032</td><td>Indicateurs de qualité du canal du sondeur ATOVS</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>24</td><td>Table d&#x27;indicateurs</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 033</td><td>Indicateurs de qualité du champ de vision du sondeur ATOVS</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>24</td><td>Table d&#x27;indicateurs</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 035</td><td>Contrôle de qualité manuel/automatique</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 036</td><td>Seuil de confiance nominal</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 037</td><td>Facteur de corrélation des vents</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>20</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 038</td><td>Indicateurs de qualité pour les données d&#x27;observation au sol du GNSS</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>10</td><td>Table d&#x27;indicateurs</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 33 039</td><td>Indicateurs de qualité pour les données d&#x27;occultation radio</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>16</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 040</td><td>Intervalle de confiance</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 041</td><td>Caractéristique de la valeur suivante</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 042</td><td>Type de limite représentée par la valeur qui suit</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 043</td><td>Degré de confiance de la température moyenne en surface</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>8</td><td>Table d&#x27;indicateurs</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 044</td><td>Qualité des données de l&#x27;ASAR</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>15</td><td>Table d&#x27;indicateurs</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 33 045</td><td>Probabilité du phénomène qui suit (voir les notes 1 et 3)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 168: Lorsque l’on définit un phénomène auquel s’applique le descripteur 0 33 045 ou 0 33 046, il est possible d’employer le descripteur 0 33 042 pour indiquer que la valeur qui suit constitue une limite pour une fourchette de valeurs. | Note 173: L’emploi du descripteur 0 33 045 ou 0 33 046 nécessite l’opérateur 2 41 000 pour définir le phénomène suivant auquel s’applique la probabilité indiquée.</td></tr>
+<tr><td>0 33 046</td><td>Probabilité conditionnelle du phénomène qui suit en fonction du phénomène associé indiqué (voir les notes 1, 2 et 3)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 168: Lorsque l’on définit un phénomène auquel s’applique le descripteur 0 33 045 ou 0 33 046, il est possible d’employer le descripteur 0 33 042 pour indiquer que la valeur qui suit constitue une limite pour une fourchette de valeurs. | Note 173: L’emploi du descripteur 0 33 045 ou 0 33 046 nécessite l’opérateur 2 41 000 pour définir le phénomène suivant auquel s’applique la probabilité indiquée. | Note 174: Quand il est employé, le descripteur 0 33 046 doit être précédé de l’opérateur 2 42 000 qui permet de définir le phénomène associé qui conditionne celui auquel s’applique la probabilité indiquée.</td></tr>
+<tr><td>0 33 047</td><td>Degré de confiance des mesures</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>31</td><td>Table d&#x27;indicateurs</td><td>0</td><td>11</td><td></td></tr>
+<tr><td>0 33 048</td><td>Degré de confiance pour l&#x27;inversion SAR</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 049</td><td>Degré de confiance pour l&#x27;extraction du vent</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 050</td><td>Indicateur de qualité global pour le GTSPP</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 052</td><td>Qualité du retraitement des données océaniques en bande S</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>21</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 053</td><td>Qualité du retraitement des données océaniques en bande Ku</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>21</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 060</td><td>GqisFlagQual - indicateur de qualité du système IASI pour chaque mesure</td><td>Table de code</td><td>0</td><td>0</td><td>2</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 061</td><td>GqisQuallndex - indicateur de caractéristique de bruit de l&#x27;instrument (par étalonnage spectral et étalonnage radiométrique)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 062</td><td>GqisQuallndexLoc - indicateur d&#x27;indice de qualité géométrique</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 063</td><td>GqisQuallndexRad - indicateur de caractéristique de bruit de l&#x27;instrument (par étalonnage radiométrique)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 064</td><td>GqisQuallndexSpect - indicateur de caractéristique de bruit de l&#x27;instrument (par étalonnage spectral)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 065</td><td>GqisSysTecSondQuai - sortie de la fonction qualité du Centre d&#x27;expertise technique du système</td><td>Numérique</td><td>0</td><td>0</td><td>24</td><td>Numérique</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 066</td><td>Indicateur de qualité du vecteur de mouvement atmosphérique</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>24</td><td>Table d&#x27;indicateurs</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 070</td><td>Qualité de l&#x27;ozone totale</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 071</td><td>Qualité du profil de l&#x27;ozone</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 072</td><td>Erreur relative à l&#x27;ozone</td><td>Table de code</td><td>0</td><td>0</td><td>5</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 075</td><td>Indicateur de qualité au niveau du balayage</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>13</td><td>Table d&#x27;indicateurs</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 33 076</td><td>Indicateur de qualité de l&#x27;étalonnage</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>9</td><td>Table d&#x27;indicateurs</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 077</td><td>Indicateur de qualité du champ de vision</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>19</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 078</td><td>Qualité de la localisation géographique</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 079</td><td>Indicateur de qualité au niveau des granules</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>16</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 080</td><td>Indicateur de qualité au niveau du balayage</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>20</td><td>Table d&#x27;indicateurs</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 081</td><td>Indicateur de qualité des données du canal</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>12</td><td>Table d&#x27;indicateurs</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 33 082</td><td>Indicateur de qualité de la localisation géographique</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>16</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 083</td><td>Indicateur de qualité des données sur la luminance énergétique</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>16</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 084</td><td>Indicateur de qualité au niveau du pixel</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>16</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 085</td><td>Indicateur de qualité de l&#x27;épaisseur optique des aérosols</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>18</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 086</td><td>Qualité de l&#x27;extraction au niveau du pixel</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 087</td><td>Portée du satellite dans l&#x27;anomalie de l&#x27;Atlantique Sud (sur la base de données climatologiques)</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 088</td><td>Indicateur de qualité de la colonne totale d&#x27;ozone</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>18</td><td>Table d&#x27;indicateurs</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 089</td><td>Indicateurs de qualité de l&#x27;équivalent en bruit du différentiel de température pour un étalonnage sur cible chaude</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 090</td><td>Indicateurs de qualité de l&#x27;équivalent en bruit du différentiel de température pour un étalonnage sur cible froide</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 091</td><td>Indicateurs de qualité de l&#x27;équivalent en bruit du différentiel de température pour un étalonnage global</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 092</td><td>Indicateur de qualité des données sur l&#x27;océan dans une bande précise</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>9</td><td>Table d&#x27;indicateurs</td><td>0</td><td>3</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

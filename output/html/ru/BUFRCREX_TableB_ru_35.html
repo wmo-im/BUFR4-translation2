@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 35: Информация о мониторинге данных</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 35: Информация о мониторинге данных</h1>
+<table>
+<thead><tr><th>FXY</th><th>НАЗВАНИЕ ЭЛЕМЕНТА</th><th>ЕД. ИЗМ. BUFR</th><th>МАСШТАБ</th><th>НАЧ. ОТСЧ.</th><th>БИТЫ</th><th>ЕД. ИЗМ. CREX</th><th>МАСШТАБ</th><th>СИМВ.</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0 35 000</td><td>FM и номер регионального кода</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>10</td><td>Кодовая таблица</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 35 001</td><td>Временной период мониторинга</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 35 011</td><td>Количество фактически полученных сводок</td><td>Числовой</td><td>0</td><td>0</td><td>14</td><td>Числовой</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 35 021</td><td>Контролируемый бюллетень (TTAAii)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Символ</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 35 022</td><td>Контролируемый бюллетень (YYGGgg)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Символ</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 35 023</td><td>Контролируемый бюллетень (CCCC)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Символ</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 35 024</td><td>Контролируемый бюллетень (ВВВ)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Символ</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 35 030</td><td>Несоответствия в поступлении ожидаемых данных</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 35 031</td><td>Показатель оценки результатов мониторинга</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>7</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 35 032</td><td>Причина отсутствия данных</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>4</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 35 033</td><td>Недостатки в наблюдениях и сборе данных</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>7</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 35 034</td><td>Статистические тенденции в отношении наличия данных (в течение периода(ов) обзора)</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>3</td><td>Кодовая таблица</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 35 035</td><td>Причина прекращения подъема</td><td>Кодовая таблица</td><td>0</td><td>0</td><td>5</td><td>Кодовая таблица</td><td>0</td><td>2</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

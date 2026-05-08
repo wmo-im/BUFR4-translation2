@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Categoría 21: Secuencias de los informes de las observaciones de radar</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Categoría 21: Secuencias de los informes de las observaciones de radar</h1>
+<p class="fxy-heading">3 21 001 (Perfilador del viento — características de la antena)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 101</td><td>Tipo de antena</td><td></td><td></td></tr>
+<tr><td>0 02 114</td><td>Superficie equivalente de la antena</td><td></td><td></td></tr>
+<tr><td>0 02 105</td><td>Ganancia máxima de la antena</td><td></td><td></td></tr>
+<tr><td>0 02 106</td><td>Anchura del haz a 3 dB</td><td></td><td></td></tr>
+<tr><td>0 02 107</td><td>Supresión de los lóbulos laterales</td><td></td><td></td></tr>
+<tr><td>0 02 121</td><td>Frecuencia media</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 003 (Perfilador del viento — datos relativos al momento)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 21 051</td><td>Potencia de la señal superior a 1 mW</td><td></td><td></td></tr>
+<tr><td>0 21 014</td><td>Velocidad media Doppler (radial)</td><td></td><td></td></tr>
+<tr><td>0 21 017</td><td>Ancho espectral de la velocidad Doppler</td><td></td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 004 (Perfilador del viento — datos relativos al momento de sondeo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 01 031</td><td>Identificación y tipo de estación, fecha/hora, localización (gran precisión), altura de la estación</td><td></td><td></td></tr>
+<tr><td>0 02 003</td><td>Tipo de instrumentos de medición utilizados</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 21 003</td><td>Perfilador de viento — datos relativos al momento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 005 (Características de los emisores-receptores)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 004</td><td>Proceso de datos sobre ecos</td><td></td><td></td></tr>
+<tr><td>0 02 121</td><td>Frecuencia media</td><td></td><td></td></tr>
+<tr><td>0 02 122</td><td>Alcance de la agilidad de la frecuencia</td><td></td><td></td></tr>
+<tr><td>0 02 123</td><td>Potencia de cresta</td><td></td><td></td></tr>
+<tr><td>0 02 124</td><td>Potencia media</td><td></td><td></td></tr>
+<tr><td>0 02 125</td><td>Frecuencia de repetición de los impulsos</td><td></td><td></td></tr>
+<tr><td>0 02 126</td><td>Anchura de impulso</td><td></td><td></td></tr>
+<tr><td>0 02 127</td><td>Frecuencia intermedia del receptor</td><td></td><td></td></tr>
+<tr><td>0 02 128</td><td>Anchura de banda de las frecuencias intermedias</td><td></td><td></td></tr>
+<tr><td>0 02 129</td><td>Señal mínima detectable</td><td></td><td></td></tr>
+<tr><td>0 02 130</td><td>Alcance dinámico</td><td></td><td></td></tr>
+<tr><td>0 02 131</td><td>Control de sensibilidad en función del tiempo (STC)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 006 (Características de integración)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 001</td><td>Distancia de la puerta de integración</td><td></td><td></td></tr>
+<tr><td>0 25 002</td><td>Número medio de puertas</td><td></td><td></td></tr>
+<tr><td>0 25 003</td><td>Número de impulsos integrales</td><td></td><td></td></tr>
+<tr><td>0 25 005</td><td>Integración de los ecos</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 007 (Correcciones)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 009</td><td>Método de calibración</td><td></td><td></td></tr>
+<tr><td>0 25 010</td><td>Tratamiento de los ecos parásitos</td><td></td><td></td></tr>
+<tr><td>0 25 011</td><td>Corrección de los ecos de suelo (filtrado)</td><td></td><td></td></tr>
+<tr><td>0 25 012</td><td>Corrección de la atenuación del alcance</td><td></td><td></td></tr>
+<tr><td>0 25 013</td><td>Corrección de la banda brillante</td><td></td><td></td></tr>
+<tr><td>0 25 015</td><td>Corrección de la atenuación por el radomo</td><td></td><td></td></tr>
+<tr><td>0 25 016</td><td>Corrección de la atenuación en aire claro</td><td></td><td></td></tr>
+<tr><td>0 25 017</td><td>Corrección de la atenuación por las precipitaciones</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 008 (Conversión de Z a R)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 006</td><td>Conversión Z a R</td><td></td><td></td></tr>
+<tr><td>0 25 007</td><td>Factor de conversión Z a R</td><td></td><td></td></tr>
+<tr><td>0 25 008</td><td>Exponente de conversión Z a R</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 009 (Enlace de A a Z)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 018</td><td>Ley que enlaza A a Z para el factor de atenuación</td><td></td><td></td></tr>
+<tr><td>0 25 019</td><td>Ley que enlaza A a Z para el exponente de atenuación</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 010 (Características de la antena)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 101</td><td>Tipo de antena</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Altura o altitud</td><td>Altitud de la base de la torre</td><td></td></tr>
+<tr><td>0 02 102</td><td>Altura de la antena sobre la base de la torre</td><td></td><td></td></tr>
+<tr><td>0 02 103</td><td>Radomo</td><td></td><td></td></tr>
+<tr><td>0 02 104</td><td>Polarización de la antena</td><td></td><td></td></tr>
+<tr><td>0 02 105</td><td>Ganancia máxima de la antena</td><td></td><td></td></tr>
+<tr><td>0 02 106</td><td>Anchura del haz a 3 dB</td><td></td><td></td></tr>
+<tr><td>0 02 107</td><td>Supresión de los lóbulos laterales</td><td></td><td></td></tr>
+<tr><td>0 02 108</td><td>Discriminación de la polarización cruzada (en el eje)</td><td></td><td></td></tr>
+<tr><td>0 02 109</td><td>Velocidad angular de la antena (en azimut)</td><td></td><td></td></tr>
+<tr><td>0 02 110</td><td>Velocidad angular de la antena (en elevación)</td><td></td><td></td></tr>
+<tr><td>0 02 132</td><td>Precisión de puntería en azimut</td><td></td><td></td></tr>
+<tr><td>0 02 133</td><td>Precisión de puntería en elevación</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 011 (Características generales)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 30 031</td><td>Tipo de imagen</td><td></td><td></td></tr>
+<tr><td>0 30 032</td><td>Combinación con otros datos</td><td></td><td></td></tr>
+<tr><td>0 29 002</td><td>Tipo de retícula de coordenadas</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 012 (Elevación de la antena)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 02 135</td><td>Elevación de la antena</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 021 (Información básica (encabezamiento del sistema/sitio) sobre el perfilador de viento/sistema de sondeo radioacústico (RASS))</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 003</td><td>Tipo de instrumentos de medición utilizados</td><td></td><td></td></tr>
+<tr><td>0 02 101</td><td>Tipo de antena</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Cambio de anchura de datos</td><td>8 bits</td><td></td></tr>
+<tr><td>0 02 106</td><td>Anchura del haz a 3 dB</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 132</td><td>Cambio de anchura de datos</td><td>11 bits</td><td></td></tr>
+<tr><td>2 02 130</td><td>Cambio de escala</td><td>Escala: –6</td><td></td></tr>
+<tr><td>0 02 121</td><td>Frecuencia media</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 133</td><td>Cambio de anchura de datos</td><td>11 bits</td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td>Escala: 0</td><td></td></tr>
+<tr><td>0 25 001</td><td>Distancia de la puerta de integración</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 022 (Perfilador del viento: datos procesados sobre vientos)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 007</td><td>Altura</td><td></td><td></td></tr>
+<tr><td>2 04 001</td><td>Campo asociado añadido</td><td>1 bit</td><td></td></tr>
+<tr><td>0 31 021</td><td>Significación del campo asociado</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Campo asociado añadido</td><td>Anular</td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>2 04 001</td><td>Campo asociado añadido</td><td>1 bit</td><td></td></tr>
+<tr><td>0 31 021</td><td>Significación del campo asociado</td><td></td><td></td></tr>
+<tr><td>0 11 006</td><td>Componente w</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Campo asociado añadido</td><td>Anular</td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 023 (Perfilador del viento: datos sin procesar sobre vientos)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 007</td><td>Altura</td><td></td><td></td></tr>
+<tr><td>0 21 091</td><td>Momento 0 del espectro Doppler de la señal del radar</td><td></td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 21 014</td><td>Velocidad media Doppler (radial)</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Cambio de anchura de datos</td><td>9 bits</td><td></td></tr>
+<tr><td>0 21 017</td><td>Ancho espectral de la velocidad Doppler</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 024 (Modo RASS: datos procesados RASS (sistema de sondeo radioacústico))</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 007</td><td>Altura</td><td></td><td></td></tr>
+<tr><td>2 04 001</td><td>Campo asociado añadido</td><td>1 bit</td><td></td></tr>
+<tr><td>0 31 021</td><td>Significación del campo asociado</td><td></td><td></td></tr>
+<tr><td>0 12 007</td><td>Temperatura virtual</td><td></td><td></td></tr>
+<tr><td>0 11 006</td><td>Componente w</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Campo asociado añadido</td><td>Anular</td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 025 (Modo RASS: datos sin procesar RASS (sistema de sondeo radioacústico))</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 007</td><td>Altura</td><td></td><td></td></tr>
+<tr><td>0 21 091</td><td>Momento 0 del espectro Doppler de la señal del radar</td><td></td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 21 014</td><td>Velocidad media Doppler (radial)</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Cambio de anchura de datos</td><td>9 bits</td><td></td></tr>
+<tr><td>0 21 017</td><td>Ancho espectral de la velocidad Doppler</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>0 21 092</td><td>Momento 0 del espectro Doppler de la señal RASS (sistema de sondeo radioacústico), con referencia a la señal RASS</td><td></td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td>Con referencia a la señal RASS</td><td></td></tr>
+<tr><td>0 25 092</td><td>Velocidad de propagación acústica</td><td></td><td></td></tr>
+<tr><td>2 01 129</td><td>Cambio de anchura de datos</td><td>9 bits</td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 21 017</td><td>Ancho espectral de la velocidad Doppler</td><td>Con referencia a la señal RASS</td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 026 (Datos RASS (sistema de sondeo radioacústico) – flujos)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 007</td><td>Altura</td><td></td><td></td></tr>
+<tr><td>2 04 001</td><td>Campo asociado añadido</td><td>1 bit</td><td></td></tr>
+<tr><td>0 31 021</td><td>Significación del campo asociado</td><td></td><td></td></tr>
+<tr><td>0 12 007</td><td>Temperatura virtual</td><td></td><td></td></tr>
+<tr><td>0 25 091</td><td>Constante estructural del índice de refracción (Cn2)</td><td></td><td></td></tr>
+<tr><td>0 11 071</td><td>Flujo del momento vertical de la turbulencia</td><td></td><td></td></tr>
+<tr><td>0 11 072</td><td>Flujo de la fuerza ascensional vertical de la turbulencia</td><td></td><td></td></tr>
+<tr><td>0 11 073</td><td>Energía cinética de la turbulencia</td><td></td><td></td></tr>
+<tr><td>0 11 074</td><td>Energía de disipación</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Campo asociado añadido</td><td>Anular</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 027 (Especificación de radar, sección representativa normalizada del radar, coeficiente de variancia Kp)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 21 118</td><td>Corrección de atenuación aplicada a sigma-0</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td></td><td></td></tr>
+<tr><td>2 01 132</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>0 02 112</td><td>Ángulo de abertura del haz radar</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 131</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>0 02 111</td><td>Ángulo de incidencia del radar</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>0 02 104</td><td>Polarización de la antena</td><td></td><td></td></tr>
+<tr><td>0 21 105</td><td>Sección representativa normalizada del radar</td><td></td><td></td></tr>
+<tr><td>0 21 106</td><td>Coeficiente de variancia Kp (alfa)</td><td></td><td></td></tr>
+<tr><td>0 21 107</td><td>Coeficiente de variancia Kp (beta)</td><td></td><td></td></tr>
+<tr><td>0 21 114</td><td>Coeficiente de variancia Kp (gamma)</td><td></td><td></td></tr>
+<tr><td>0 21 115</td><td>Calidad de sigma-0 determinada por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 21 116</td><td>Modo de sigma-0 determinado por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 08 018</td><td>Tipo de superficie tierra/hielo medida por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 21 117</td><td>Control de calidad de la variancia de sigma-0</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 028 (Especificación de radar, sección representativa normalizada del radar SEAWINDS, coeficiente de variancia Kp)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 21 118</td><td>Corrección de atenuación aplicada a sigma-0</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td></td><td></td></tr>
+<tr><td>2 01 132</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>0 02 112</td><td>Ángulo de abertura del haz radar</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 131</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>0 02 111</td><td>Ángulo de incidencia del radar</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>0 02 104</td><td>Polarización de la antena</td><td></td><td></td></tr>
+<tr><td>0 21 123</td><td>Sección representativa normalizada del radar determinada por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 21 106</td><td>Coeficiente de variancia Kp (alfa)</td><td></td><td></td></tr>
+<tr><td>0 21 107</td><td>Coeficiente de variancia Kp (beta)</td><td></td><td></td></tr>
+<tr><td>0 21 114</td><td>Coeficiente de variancia Kp (gamma)</td><td></td><td></td></tr>
+<tr><td>0 21 115</td><td>Calidad de sigma-0 determinado por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 21 116</td><td>Modelo de sigma-0 determinado por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 08 018</td><td>Tipo de superficie tierra/hielo medida por SeaWinds</td><td></td><td></td></tr>
+<tr><td>0 21 117</td><td>Control de calidad de la variancia de sigma-0</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 21 030 (Información Sigma-0 ASCAT)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 085</td><td>Identificador del haz</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td>Aumentar la escala en 101</td><td></td></tr>
+<tr><td>2 01 131</td><td>Cambio de anchura de datos</td><td>Aumentar la anchura de datos en 3 bits</td><td></td></tr>
+<tr><td>0 02 111</td><td>Ángulo de incidencia del radar</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>0 02 134</td><td>Azimut del haz de la antena</td><td></td><td></td></tr>
+<tr><td>0 21 062</td><td>Retrodifusor</td><td></td><td></td></tr>
+<tr><td>0 21 063</td><td>Resolución radiométrica (valor del ruido)</td><td></td><td></td></tr>
+<tr><td>0 21 158</td><td>Calidad de estimación de la Kp de ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 159</td><td>Utilidad Sigma-0 ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 160</td><td>Utilización de datos sintéticos ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 161</td><td>Cantidad de los datos sintéticos ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 162</td><td>Calidad de la órbita y actitud del satélite ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 163</td><td>Contaminación de la reflexión del sistema solar ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 164</td><td>Presencia y calidad de telemetría ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 165</td><td>Presencia de la función de referencia extrapolada de ASCAT</td><td></td><td></td></tr>
+<tr><td>0 21 166</td><td>Fracción de tierras</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

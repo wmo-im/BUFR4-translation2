@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 40: Satellite data</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 40: Satellite data</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 40 001</td><td>Surface soil moisture (ms)</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 002</td><td>Estimated error in surface soil moisture</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 003</td><td>Mean surface soil moisture</td><td>Numeric</td><td>3</td><td>0</td><td>10</td><td>Numeric</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 40 004</td><td>Rain fall detection</td><td>Numeric</td><td>3</td><td>0</td><td>10</td><td>Numeric</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 40 005</td><td>Soil moisture correction flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 006</td><td>Soil moisture processing flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 40 007</td><td>Soil moisture quality</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 008</td><td>Frozen land surface fraction</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 009</td><td>Inundation and wetland fraction</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 010</td><td>Topographic complexity</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 40 011</td><td>Interpolation flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 012</td><td>Radiometer data quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 013</td><td>Radiometer brightness temperature interpretation flag</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 014</td><td>High-frequency fluctuations of the sea-surface topography correction</td><td>m</td><td>4</td><td>-3000</td><td>13</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 40 015</td><td>Normalized differential vegetation index (NDVI)</td><td>Numeric</td><td>2</td><td>-100</td><td>8</td><td>Numeric</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 40 016</td><td>Residual RMS in band</td><td>Numeric</td><td>3</td><td>0</td><td>14</td><td>Numeric</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 40 017</td><td>Non-normalized principal component score</td><td>Numeric</td><td>0</td><td>-1073741824</td><td>31</td><td>Numeric</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 40 018</td><td>GIacAvgImagIIS - average of imager measurements</td><td>W m-2 sr-1 m</td><td>6</td><td>0</td><td>24</td><td>W m-2 sr-1 m</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>0 40 019</td><td>GIacVarImagIIS - variance of imager measurements</td><td>W m-2 sr-1 m</td><td>6</td><td>0</td><td>24</td><td>W m-2 sr-1 m</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>0 40 020</td><td>GqisFlagQualDetailed - quality flag for the system</td><td>Flag table</td><td>0</td><td>0</td><td>17</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 40 021</td><td>Fraction of weighted AVHRR pixel in IASI FOV covered with snow/ice</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 022</td><td>Number of missing, bad or failed AVHRR pixels</td><td>Numeric</td><td>0</td><td>0</td><td>7</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 023</td><td>Auxiliary altimeter state flags</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 024</td><td>Meteorological map availability</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 025</td><td>Interpolation flag for mean diurnal tide</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 026</td><td>Score quantization factor</td><td>Numeric</td><td>2</td><td>0</td><td>16</td><td>Numeric</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 40 027</td><td>Sun glint angle</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 40 028</td><td>GMI quality flag</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 029</td><td>Horizontal observation integration length</td><td>m</td><td>0</td><td>0</td><td>26</td><td>m</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 40 030</td><td>Horizontal line of sight wind</td><td>m/s</td><td>2</td><td>-32767</td><td>16</td><td>m/s</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 40 031</td><td>Error estimate of horizontal line of sight wind</td><td>m/s</td><td>2</td><td>0</td><td>15</td><td>m/s</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 40 032</td><td>Derivative wind to pressure</td><td>m s-1 Pa-1</td><td>3</td><td>-100000</td><td>18</td><td>m s-1 Pa-1</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 40 033</td><td>Derivative wind to temperature</td><td>m s-1 K-1</td><td>3</td><td>-100000</td><td>18</td><td>m s-1 K-1</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 40 034</td><td>Derivative wind to backscatter ratio</td><td>m/s</td><td>3</td><td>-200000</td><td>19</td><td>m/s</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 40 035</td><td>Satellite range</td><td>m</td><td>0</td><td>380000</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 40 036</td><td>Lidar L2b classification type</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 037</td><td>Backscatter ratio</td><td>Numeric</td><td>3</td><td>500</td><td>20</td><td>Numeric</td><td>3</td><td>7</td><td></td></tr>
+<tr><td>0 40 038</td><td>Cloud particle size</td><td>m</td><td>7</td><td>0</td><td>28</td><td>m</td><td>7</td><td>6</td><td></td></tr>
+<tr><td>0 40 039</td><td>Single look complex image intensity</td><td>Numeric</td><td>0</td><td>-25</td><td>5</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 040</td><td>Single look complex image skewness</td><td>Numeric</td><td>2</td><td>1</td><td>13</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 40 041</td><td>Single look complex image kurtosis</td><td>Numeric</td><td>2</td><td>1</td><td>13</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 40 042</td><td>Single look complex image variance</td><td>Numeric</td><td>2</td><td>1</td><td>13</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 40 043</td><td>Satellite manoeuvre indicator</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 044</td><td>Dust index</td><td>Numeric</td><td>1</td><td>0</td><td>8</td><td>Numeric</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 40 045</td><td>Cloud formation and height assignment</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 046</td><td>Cloudiness summary</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 047</td><td>Validation flag for IASI or IASI-NG level 1 product</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 048</td><td>Validation flag of AMSU-A level 1 data flow</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 049</td><td>Cloud tests executed and results</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 40 050</td><td>Retrieval initialisation</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 051</td><td>Convergence of the iterative retrieval</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 052</td><td>Indication of super-adiabatic and super-saturation in final retrieval</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 053</td><td>Number of iterations used for retrieval</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 054</td><td>Potential processing and inputs errors</td><td>Flag table</td><td>0</td><td>0</td><td>13</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 40 055</td><td>Diagnostics on the retrieval</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 40 056</td><td>General retrieval quality</td><td>Code table </td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 40 057</td><td>IASI level 2 retrieval flags</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 40 058</td><td>Number of vectors describing the characterization matrices</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 059</td><td>Number of layers actually retrieved</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 060</td><td>Number of profiles retrieved in scanline</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 061</td><td>Air partial columns on each retrieved layer</td><td>mol cm-2</td><td>3</td><td>0</td><td>16</td><td>mol cm-2</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 40 062</td><td>A priori partial columns on each retrieved layer</td><td>mol cm-2</td><td>10</td><td>0</td><td>16</td><td>mol cm-2</td><td>10</td><td>5</td><td></td></tr>
+<tr><td>0 40 063</td><td>Scaling vector multiplying the a priori vector in order to define the retrieved vector</td><td>Numeric</td><td>5</td><td>0</td><td>26</td><td>Numeric</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>0 40 064</td><td>Main eigenvalues of the sensitivity matrix</td><td>Numeric</td><td>6</td><td>0</td><td>31</td><td>Numeric</td><td>6</td><td>10</td><td></td></tr>
+<tr><td>0 40 065</td><td>Main eigenvectors of the sensitivity matrix</td><td>Numeric</td><td>6</td><td>-1000000000</td><td>31</td><td>Numeric</td><td>6</td><td>10</td><td></td></tr>
+<tr><td>0 40 066</td><td>Quality indicator for atmospheric water vapour</td><td>Numeric</td><td>1</td><td>0</td><td>8</td><td>Numeric</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 40 067</td><td>Quality indicator for atmospheric temperature</td><td>Numeric</td><td>1</td><td>0</td><td>8</td><td>Numeric</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 40 068</td><td>General retrieval quality flag for SO2</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 069</td><td>PWLR estimated retrieval error for surface air temperature</td><td>K</td><td>4</td><td>-1000000</td><td>21</td><td>K</td><td>4</td><td>7</td><td>Note 114: Piece-wise linear regression cube is a first-guess optimal estimation method.</td></tr>
+<tr><td>0 40 070</td><td>PWLR estimated retrieval error of surface dewpoint</td><td>K</td><td>4</td><td>-1000000</td><td>21</td><td>K</td><td>4</td><td>7</td><td></td></tr>
+<tr><td>0 40 071</td><td>Retrieval error covariance matrix for ozone in principal component domain</td><td>Numeric</td><td>4</td><td>-1000000</td><td>21</td><td>Numeric</td><td>4</td><td>7</td><td></td></tr>
+<tr><td>0 40 072</td><td>PWLR estimated retrieval quality indicator of atmospheric ozone</td><td>Numeric</td><td>1</td><td>0</td><td>8</td><td>Numeric</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 40 073</td><td>PWLR estimated retrieval error of surface skin temperature</td><td>K</td><td>1</td><td>0</td><td>8</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 40 074</td><td>General interferometry quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 40 075</td><td>Retrieval error covariance matrix for humidity in principal component domain</td><td>Numeric</td><td>0</td><td>0</td><td>21</td><td>Numeric</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 40 076</td><td>Retrieval error covariance matrix for temperature in principal component domain</td><td>Numeric</td><td>0</td><td>0</td><td>21</td><td>Numeric</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 40 077</td><td>Ocean product quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 40 080</td><td>Cloud test results for IASI-NG level 2</td><td>Flag table</td><td>0</td><td>0</td><td>5</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 40 081</td><td>OLCI Level 1 classification and quality</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 00 : Entrées des tables de code</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 00 : Entrées des tables de code</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 00 001</td><td>Table A : entrée</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 002</td><td>Table A : description de la catégorie de données, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 003</td><td>Table A : description de la catégorie de données, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 004</td><td>Table principale BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 98: Les tables principales sont décrites dans la note 2 s’appliquant à la Section 1 du code BUFR (partie des Règles intitulée «Spécifications du contenu des octets»).</td></tr>
+<tr><td>0 00 005</td><td>Numéro d&#x27;édition BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 006</td><td>Numéro de la version de la table principale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 33: Les numéros de version des tables principales du code BUFR sont décrits dans la table de code commune C-0 et la note 2 s’appliquant à la Section 1 du code BUFR.</td></tr>
+<tr><td>0 00 007</td><td>Numéro de version de la table principale CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 40: Les niveaux différents de la surface, établis suivants la coordonnée verticale employée par le modèle sont transposés en coordonnée pression. Cela rend les niveaux plus faciles à interpréter par un œil humain et à utiliser à l’aide d’une application de visualisation. Ces niveaux peuvent correspondre exactement aux niveaux établis par le modèle ou être obtenus par interpolation entre des niveaux du modèle pour correspondre aux isobares choisies par le centre de production.</td></tr>
+<tr><td>0 00 008</td><td>Numéro de version de la table locale BUFR</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td>Note 76: Pour le numéro de version de la table locale, voir la dernière partie de la note 2 s’appliquant à la Section 1 du code BUFR.</td></tr>
+<tr><td>0 00 010</td><td>Descripteur F à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 011</td><td>Descripteur X à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Caractère</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 00 012</td><td>Descripteur Y à ajouter ou à définir</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 013</td><td>Nom de l&#x27;élément, ligne 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 014</td><td>Nom de l&#x27;élément, ligne 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Caractère</td><td>0</td><td>32</td><td></td></tr>
+<tr><td>0 00 015</td><td>Nom des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>192</td><td>Caractère</td><td>0</td><td>24</td><td></td></tr>
+<tr><td>0 00 016</td><td>Signe du facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 017</td><td>Facteur d&#x27;échelle</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 018</td><td>Signe de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Caractère</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 00 019</td><td>Valeur de la référence des unités</td><td>CCITT IA5</td><td>0</td><td>0</td><td>80</td><td>Caractère</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 00 020</td><td>Champ de données de l&#x27;élément</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Caractère</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 00 024</td><td>Chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Caractère</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 00 025</td><td>Signification du chiffre de code</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>0 00 026</td><td>Numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 00 027</td><td>Signification du numéro de bit</td><td>CCITT IA5</td><td>0</td><td>0</td><td>496</td><td>Caractère</td><td>0</td><td>62</td><td></td></tr>
+<tr><td>0 00 030</td><td>Séquence définissant le descripteur</td><td>CCITT IA5</td><td>0</td><td>0</td><td>48</td><td>Caractère</td><td>0</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 27: Ubicación sin coordenadas (horizontal – 1)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 27: Ubicación sin coordenadas (horizontal – 1)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 27 001</td><td>Latitud (gran exactitud)</td><td>°</td><td>5</td><td>-9000000</td><td>25</td><td>°</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>0 27 002</td><td>Latitud (exactitud aproximada)</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 27 003</td><td>Latitud alterna (exactitud aproximada)</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>4</td><td>Note 132: Se puede utilizar la latitud alterna cuando el cálculo de la posición nos da varias soluciones y a priori no hay modo de distinguir entre ellas.</td></tr>
+<tr><td>0 27 004</td><td>Latitud alterna (gran exactitud)</td><td>°</td><td>5</td><td>-9000000</td><td>25</td><td>°</td><td>5</td><td>7</td><td>Note 132: Se puede utilizar la latitud alterna cuando el cálculo de la posición nos da varias soluciones y a priori no hay modo de distinguir entre ellas.</td></tr>
+<tr><td>0 27 010</td><td>Eje de huella 1</td><td>m</td><td>-1</td><td>0</td><td>14</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 27 020</td><td>Contador de la ubicación de los satélites</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td>Note 143: El contador de ubicación de los satélites se calcula como sigue: = número de superbanda x 1 000 + número de casilla x 10 + número de minicasilla.</td></tr>
+<tr><td>0 27 021</td><td>Dimensión de sububicación de los satélites</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td>Note 144: La dimensión de la sububicación de los satélites se calcula como sigue: dimensión = dimensión de minicasilla + dimensión de casilla donde: dimensión de minicasilla = líneas x 1000 + puntos x 100 dimensión de casilla = líneas x 10 + puntos. I.2 – BUFR/CREX Tabla B/27 – 1 (Clase 27 – continuación)</td></tr>
+<tr><td>0 27 031</td><td>Distancia desde el centro de la Tierra en dirección de 0 grados de longitud</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>10</td><td>Note 96: Para el descriptor 0 27 031 se han escogido ejes x, y y z negativos. I.2 – BUFR/CREX Tabla B/27 – 2 | Note 151: El valor para el descriptor 0 27 031 ha sido escogido para adecuarse a satélites en órbita polar en órbitas aproximadamente heliosincrónicas. Las órbitas geoestacionarias requerirían una anchura de datos mayor para la distancia y ligeramente menor para la velocidad.</td></tr>
+<tr><td>0 27 079</td><td>Anchura horizontal del volumen de muestra</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 27 080</td><td>Ángulo de visión azimutal</td><td>grado verdadero</td><td>2</td><td>0</td><td>16</td><td>grado verdadero</td><td>0</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

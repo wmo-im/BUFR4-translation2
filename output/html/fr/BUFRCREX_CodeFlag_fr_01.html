@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 01</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 01</h1>
+<p class="fxy-heading">0 01 003  Région OMM/zone géographique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Antarctique</td><td></td></tr>
+<tr><td>1</td><td>Région I</td><td></td></tr>
+<tr><td>2</td><td>Région II</td><td></td></tr>
+<tr><td>3</td><td>Région III</td><td></td></tr>
+<tr><td>4</td><td>Région IV</td><td></td></tr>
+<tr><td>5</td><td>Région V</td><td></td></tr>
+<tr><td>6</td><td>Région VI</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 007  Indicateur d&#x27;identification du satellite (Voir la table de code commune C-5 dans la Partie C/c.)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 10: (Voir la table de code commune C-5 dans la Partie C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 024  Source des données sur la vitesse du vent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucune donnée disponible sur la vitesse du vent</td><td></td></tr>
+<tr><td>1</td><td>Données AMSR-E</td><td></td></tr>
+<tr><td>2</td><td>Données TMI</td><td></td></tr>
+<tr><td>3</td><td>PNT: CEPMMT</td><td></td></tr>
+<tr><td>4</td><td>PNT: Met Office du Royaume-Uni</td><td></td></tr>
+<tr><td>5</td><td>PNT: NCEP</td><td></td></tr>
+<tr><td>6</td><td>Climatologie de référence</td><td></td></tr>
+<tr><td>7</td><td>Diffusiomètre embarqué à bord de satellites ERS</td><td></td></tr>
+<tr><td>8-30</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 028  Source des données sur l&#x27;épaisseur optique des aérosols</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucune donnée disponible sur l&#x27;épaisseur optique des aérosols</td><td></td></tr>
+<tr><td>1</td><td>NESDIS</td><td></td></tr>
+<tr><td>2</td><td>NAVOCEANO</td><td></td></tr>
+<tr><td>3</td><td>NAAPS</td><td></td></tr>
+<tr><td>4</td><td>MERIS</td><td></td></tr>
+<tr><td>5</td><td>AATSR</td><td></td></tr>
+<tr><td>6-30</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 029  Source des données sur le flux radiatif solaire en surface</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucune donnée disponible sur ce paramètre</td><td></td></tr>
+<tr><td>1</td><td>MSG_SEVIRI</td><td></td></tr>
+<tr><td>2</td><td>GOES Est</td><td></td></tr>
+<tr><td>3</td><td>GOES Ouest</td><td></td></tr>
+<tr><td>4</td><td>CEPMMT</td><td></td></tr>
+<tr><td>5</td><td>NCEP</td><td></td></tr>
+<tr><td>6</td><td>Met Office du Royaume-Uni</td><td></td></tr>
+<tr><td>7-30</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 031  Identification du centre d&#x27;origine/de production (Voir la table de code commune C-1 dans la Partie C/c.)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 6: (Voir la table de code commune C-1 dans la Partie C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 033  Identification du centre d&#x27;origine/de production (Voir la table de code commune C-1 dans la Partie C/c.)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 6: (Voir la table de code commune C-1 dans la Partie C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 034  Identification du centre secondaire d&#x27;origine/de production (à définir par les centres proprement dits) (Voir la table de code commune C-12 dans la Partie C/c.)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 14: (A definir par les centres proprement dits - Voir la table de code commune C-12 dans la Partie C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 036  Organisme chargé de la mise en œuvre de la plate-forme d&#x27;observation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-36000</td><td>En réserve</td><td></td></tr>
+<tr><td>36001</td><td>Australie, Bureau of Meteorology (BOM)</td><td></td></tr>
+<tr><td>36002</td><td>Australie, Joint Australian Facility for Ocean Observing Systems (JAFOOS)</td><td></td></tr>
+<tr><td>36003</td><td>Australie, the Commonwealth Scientific and Industrial Research Organization (CSIRO)</td><td></td></tr>
+<tr><td>36004-124000</td><td>En réserve</td><td></td></tr>
+<tr><td>124001</td><td>Canada, Marine Environmental Data Service (MEDS)</td><td></td></tr>
+<tr><td>124002</td><td>Canada, Institute of Ocean Sciences (IOS)</td><td></td></tr>
+<tr><td>124003-124172</td><td>En réserve</td><td></td></tr>
+<tr><td>124173</td><td>Canada, Environnement Canada</td><td></td></tr>
+<tr><td>124174</td><td>Canada, Ministère de la défense nationale</td><td></td></tr>
+<tr><td>124175</td><td>Canada, Nav Canada</td><td></td></tr>
+<tr><td>124176-156000</td><td>En réserve</td><td></td></tr>
+<tr><td>156001</td><td>Chine, The State Oceanic Administration</td><td></td></tr>
+<tr><td>156002</td><td>Chine, Second Institute of Oceanography, State Oceanic Administration</td><td></td></tr>
+<tr><td>156003</td><td>Chine, Institute of Ocean Technology</td><td></td></tr>
+<tr><td>156004-250000</td><td>En réserve</td><td></td></tr>
+<tr><td>250001</td><td>France, Institut de recherche pour le développement (IRD)</td><td></td></tr>
+<tr><td>250002</td><td>France, Institut français de recherche pour l&#x27;exploitation de la mer (IFREMER)</td><td></td></tr>
+<tr><td>250003-276000</td><td>En réserve</td><td></td></tr>
+<tr><td>276001</td><td>Allemagne, Bundesamt fuer Seeschiffahrt und Hydrographie (BSH)</td><td></td></tr>
+<tr><td>276002</td><td>Allemagne, Institut fuer Meereskunde, Kiel</td><td></td></tr>
+<tr><td>276003-356000</td><td>En réserve</td><td></td></tr>
+<tr><td>356001</td><td>Inde, National Institute of Oceanography (NIO)</td><td></td></tr>
+<tr><td>356002</td><td>Inde, National Institute for Ocean Technology (NIOT)</td><td></td></tr>
+<tr><td>356003</td><td>Inde, National Centre for Ocean Information Service</td><td></td></tr>
+<tr><td>356004-392000</td><td>En réserve</td><td></td></tr>
+<tr><td>392001</td><td>Japon, Japan Meteorological Agency (JMA)</td><td></td></tr>
+<tr><td>392002</td><td>Japon, Frontier Observational Research System for Global Change</td><td></td></tr>
+<tr><td>392003</td><td>Japon, Japan Marine Science and Technology Centre (JAMSTEC)</td><td></td></tr>
+<tr><td>392004-410000</td><td>En réserve</td><td></td></tr>
+<tr><td>410001</td><td>République de Corée, Seoul National University</td><td></td></tr>
+<tr><td>410002</td><td>République de Corée, Korea Ocean Research and Development Institute (KORDI)</td><td></td></tr>
+<tr><td>410003</td><td>République de Corée, Meteorological Research Institute</td><td></td></tr>
+<tr><td>410004-540000</td><td>En réserve</td><td></td></tr>
+<tr><td>540001</td><td>Nouvelle-Calédonie, Institut de recherche pour le développement (IRD)</td><td></td></tr>
+<tr><td>540002-554000</td><td>En réserve</td><td></td></tr>
+<tr><td>554001</td><td>Nouvelle-Zélande, National Institute of Water and Atmospheric Research (NIWA)</td><td></td></tr>
+<tr><td>554002-643000</td><td>En réserve</td><td></td></tr>
+<tr><td>643001</td><td>Russie, State Oceanographic Institute of Roshydromet</td><td></td></tr>
+<tr><td>643002</td><td>Russie, Federal Service for Hydrometeorology and Environmental Monitoring</td><td></td></tr>
+<tr><td>643003-724000</td><td>En réserve</td><td></td></tr>
+<tr><td>724001</td><td>Espagne, Instituto Español de Oceanografía</td><td></td></tr>
+<tr><td>724002-826000</td><td>En réserve</td><td></td></tr>
+<tr><td>826001</td><td>Royaume-Uni, Hydrographic Office</td><td></td></tr>
+<tr><td>826002</td><td>Royaume-Uni, Southampton Oceanography Centre (SOC)</td><td></td></tr>
+<tr><td>826003-840000</td><td>En réserve</td><td></td></tr>
+<tr><td>840001</td><td>États-Unis, NOAA Atlantic Oceanographic and Meteorological Laboratories (AOML)</td><td></td></tr>
+<tr><td>840002</td><td>États-Unis, NOAA Pacific Marine Environmental Laboratories (PMEL)</td><td></td></tr>
+<tr><td>840003</td><td>États-Unis, Scripps Institution of Oceanography (SIO)</td><td></td></tr>
+<tr><td>840004</td><td>États-Unis, Woods Hole Oceanographic Institution (WHOI)</td><td></td></tr>
+<tr><td>840005</td><td>États-Unis, University of Washington</td><td></td></tr>
+<tr><td>840006</td><td>États-Unis, Naval Oceanographic Office</td><td></td></tr>
+<tr><td>840007-1048574</td><td>En réserve</td><td></td></tr>
+<tr><td>1048575</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 78: Les trois premiers chiffres representent le code ISO du pays.</p>
+</div>
+<p class="fxy-heading">0 01 038  Source des données sur la fraction de glace de mer</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucun jeu de données sur les glaces de mer</td><td></td></tr>
+<tr><td>1</td><td>Produits SSM/I du NSIDC (Cavalieri et al. 1992)</td><td></td></tr>
+<tr><td>2</td><td>AMSR-E</td><td></td></tr>
+<tr><td>3</td><td>CEPMMT</td><td></td></tr>
+<tr><td>4</td><td>Masque de nuages du CMS (France) utilisé dans le cadre du projet Medspiration</td><td></td></tr>
+<tr><td>5</td><td>SAF OSI d&#x27;EUMETSAT</td><td></td></tr>
+<tr><td>6-30</td><td>En réserve pour un usage futur</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 044  Application de production standard</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Association intégralement pondérée de contrôles individuels de la qualité</td><td></td></tr>
+<tr><td>2</td><td>Association pondérée de contrôles individuels, à l&#x27;exclusion de la comparaison de prévisions</td><td></td></tr>
+<tr><td>3</td><td>Fonction de filtre récursif</td><td></td></tr>
+<tr><td>4</td><td>Indice de qualité commun sans prévision</td><td></td></tr>
+<tr><td>5</td><td>Indice de qualité sans prévision</td><td></td></tr>
+<tr><td>6</td><td>Indice de qualité avec prévision</td><td></td></tr>
+<tr><td>7</td><td>Erreur estimative en m/s convertie en degré de confiance (pourcentage)</td><td></td></tr>
+<tr><td>8-254</td><td>En réserve</td><td></td></tr>
+<tr><td>255</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 052  Indicateur d&#x27;identification de l&#x27;émetteur de la plate-forme</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Primaire</td><td></td></tr>
+<tr><td>1</td><td>Secondaire</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 090  Technique d&#x27;établissement des perturbations initiales</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Prévision moyenne à décalage</td><td></td></tr>
+<tr><td>1</td><td>Méthode «d&#x27;élevage»</td><td></td></tr>
+<tr><td>2</td><td>Vecteurs singuliers</td><td></td></tr>
+<tr><td>3</td><td>Cycles d&#x27;analyses multiples</td><td></td></tr>
+<tr><td>4-191</td><td>En réserve</td><td></td></tr>
+<tr><td>192-254</td><td>En réserve pour un usage local</td><td></td></tr>
+<tr><td>255</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 092  Type de la prévision d&#x27;ensemble</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Prévision de contrôle à haute résolution sans «perturbation»</td><td></td></tr>
+<tr><td>1</td><td>Prévision de contrôle à basse résolution sans «perturbation»</td><td></td></tr>
+<tr><td>2</td><td>Prévision avec «perturbation» négative</td><td></td></tr>
+<tr><td>3</td><td>Prévision avec «perturbation» positive</td><td></td></tr>
+<tr><td>4-191</td><td>En réserve</td><td></td></tr>
+<tr><td>192-254</td><td>En réserve pour un usage local</td><td></td></tr>
+<tr><td>255</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 101  Indicateur d&#x27;identification d&#x27;État</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-99</td><td>En réserve</td><td></td></tr>
+<tr><td>100</td><td>Algérie</td><td></td></tr>
+<tr><td>101</td><td>Angola</td><td></td></tr>
+<tr><td>102</td><td>Bénin</td><td></td></tr>
+<tr><td>103</td><td>Botswana</td><td></td></tr>
+<tr><td>104</td><td>Burkina Faso</td><td></td></tr>
+<tr><td>105</td><td>Burundi</td><td></td></tr>
+<tr><td>106</td><td>Cameroun</td><td></td></tr>
+<tr><td>107</td><td>Cabo Verde</td><td></td></tr>
+<tr><td>108</td><td>République centrafricaine</td><td></td></tr>
+<tr><td>109</td><td>Tchad</td><td></td></tr>
+<tr><td>110</td><td>Comores</td><td></td></tr>
+<tr><td>111</td><td>Congo</td><td></td></tr>
+<tr><td>112</td><td>Côte d&#x27;Ivoire</td><td></td></tr>
+<tr><td>113</td><td>République démocratique du Congo</td><td></td></tr>
+<tr><td>114</td><td>Djibouti</td><td></td></tr>
+<tr><td>115</td><td>Égypte</td><td></td></tr>
+<tr><td>116</td><td>Érythrée</td><td></td></tr>
+<tr><td>117</td><td>Éthiopie</td><td></td></tr>
+<tr><td>118</td><td>France (CR I)</td><td></td></tr>
+<tr><td>119</td><td>Gabon</td><td></td></tr>
+<tr><td>120</td><td>Gambie</td><td></td></tr>
+<tr><td>121</td><td>Ghana</td><td></td></tr>
+<tr><td>122</td><td>Guinée</td><td></td></tr>
+<tr><td>123</td><td>Guinée-Bissau</td><td></td></tr>
+<tr><td>124</td><td>Kenya</td><td></td></tr>
+<tr><td>125</td><td>Lesotho</td><td></td></tr>
+<tr><td>126</td><td>Libéria</td><td></td></tr>
+<tr><td>127</td><td>Libye</td><td></td></tr>
+<tr><td>128</td><td>Madagascar</td><td></td></tr>
+<tr><td>129</td><td>Malawi</td><td></td></tr>
+<tr><td>130</td><td>Mali</td><td></td></tr>
+<tr><td>131</td><td>Mauritanie</td><td></td></tr>
+<tr><td>132</td><td>Maurice</td><td></td></tr>
+<tr><td>133</td><td>Maroc</td><td></td></tr>
+<tr><td>134</td><td>Mozambique</td><td></td></tr>
+<tr><td>135</td><td>Namibie</td><td></td></tr>
+<tr><td>136</td><td>Niger</td><td></td></tr>
+<tr><td>137</td><td>Nigéria</td><td></td></tr>
+<tr><td>138</td><td>Portugal (CR I)</td><td></td></tr>
+<tr><td>139</td><td>Rwanda</td><td></td></tr>
+<tr><td>140</td><td>Sao Tomé-et-Principe</td><td></td></tr>
+<tr><td>141</td><td>Sénégal</td><td></td></tr>
+<tr><td>142</td><td>Seychelles</td><td></td></tr>
+<tr><td>143</td><td>Sierra Leone</td><td></td></tr>
+<tr><td>144</td><td>Somalie</td><td></td></tr>
+<tr><td>145</td><td>Afrique du Sud</td><td></td></tr>
+<tr><td>146</td><td>Espagne (CR I)</td><td></td></tr>
+<tr><td>147</td><td>Soudan</td><td></td></tr>
+<tr><td>148</td><td>Eswatini</td><td></td></tr>
+<tr><td>149</td><td>Togo</td><td></td></tr>
+<tr><td>150</td><td>Tunisie</td><td></td></tr>
+<tr><td>151</td><td>Ouganda</td><td></td></tr>
+<tr><td>152</td><td>Royaume-Uni de Grande-Bretagne et d&#x27;Irlande du Nord (CR I)</td><td></td></tr>
+<tr><td>153</td><td>République-Unie de Tanzanie</td><td></td></tr>
+<tr><td>154</td><td>Zambie</td><td></td></tr>
+<tr><td>155</td><td>Zimbabwe</td><td></td></tr>
+<tr><td>156-199</td><td>En réserve pour la Région I (Afrique)</td><td></td></tr>
+<tr><td>200</td><td>Afghanistan</td><td></td></tr>
+<tr><td>201</td><td>Bahreïn</td><td></td></tr>
+<tr><td>202</td><td>Bangladesh</td><td></td></tr>
+<tr><td>203</td><td>Bhoutan</td><td></td></tr>
+<tr><td>204</td><td>Cambodge</td><td></td></tr>
+<tr><td>205</td><td>Chine</td><td></td></tr>
+<tr><td>206</td><td>République populaire démocratique de Corée</td><td></td></tr>
+<tr><td>207</td><td>Hong Kong, Chine</td><td></td></tr>
+<tr><td>208</td><td>Inde</td><td></td></tr>
+<tr><td>209</td><td>Iran, République islamique d&#x27;</td><td></td></tr>
+<tr><td>210</td><td>Iraq</td><td></td></tr>
+<tr><td>211</td><td>Japon</td><td></td></tr>
+<tr><td>212</td><td>Kazakhstan</td><td></td></tr>
+<tr><td>213</td><td>Koweït</td><td></td></tr>
+<tr><td>214</td><td>Kirghizistan</td><td></td></tr>
+<tr><td>215</td><td>République démocratique populaire lao</td><td></td></tr>
+<tr><td>216</td><td>Macao, Chine</td><td></td></tr>
+<tr><td>217</td><td>Maldives</td><td></td></tr>
+<tr><td>218</td><td>Mongolie</td><td></td></tr>
+<tr><td>219</td><td>Myanmar</td><td></td></tr>
+<tr><td>220</td><td>Népal</td><td></td></tr>
+<tr><td>221</td><td>Oman</td><td></td></tr>
+<tr><td>222</td><td>Pakistan</td><td></td></tr>
+<tr><td>223</td><td>Qatar</td><td></td></tr>
+<tr><td>224</td><td>République de Corée</td><td></td></tr>
+<tr><td>225</td><td>République du Yémen</td><td></td></tr>
+<tr><td>226</td><td>Fédération de Russie (CR II)</td><td></td></tr>
+<tr><td>227</td><td>Arabie saoudite</td><td></td></tr>
+<tr><td>228</td><td>Sri Lanka</td><td></td></tr>
+<tr><td>229</td><td>Tadjikistan</td><td></td></tr>
+<tr><td>230</td><td>Thaïlande</td><td></td></tr>
+<tr><td>231</td><td>Turkménistan</td><td></td></tr>
+<tr><td>232</td><td>Émirats arabes unis</td><td></td></tr>
+<tr><td>233</td><td>Ouzbékistan</td><td></td></tr>
+<tr><td>234</td><td>Viet Nam</td><td></td></tr>
+<tr><td>235-299</td><td>En réserve pour la Région II (Asie)</td><td></td></tr>
+<tr><td>300</td><td>Argentine</td><td></td></tr>
+<tr><td>301</td><td>Bolivie, État plurinational de</td><td></td></tr>
+<tr><td>302</td><td>Brésil</td><td></td></tr>
+<tr><td>303</td><td>Chili</td><td></td></tr>
+<tr><td>304</td><td>Colombie</td><td></td></tr>
+<tr><td>305</td><td>Équateur</td><td></td></tr>
+<tr><td>306</td><td>France (CR III)</td><td></td></tr>
+<tr><td>307</td><td>Guyana</td><td></td></tr>
+<tr><td>308</td><td>Paraguay</td><td></td></tr>
+<tr><td>309</td><td>Pérou</td><td></td></tr>
+<tr><td>310</td><td>Suriname</td><td></td></tr>
+<tr><td>311</td><td>Uruguay</td><td></td></tr>
+<tr><td>312</td><td>Venezuela, République bolivarienne du</td><td></td></tr>
+<tr><td>313-399</td><td>En réserve pour la Région III (Amérique du Sud)</td><td></td></tr>
+<tr><td>400</td><td>Antigua-et-Barbuda</td><td></td></tr>
+<tr><td>401</td><td>Bahamas</td><td></td></tr>
+<tr><td>402</td><td>Barbade</td><td></td></tr>
+<tr><td>403</td><td>Belize</td><td></td></tr>
+<tr><td>404</td><td>Territoires britanniques des Caraïbes</td><td></td></tr>
+<tr><td>405</td><td>Canada</td><td></td></tr>
+<tr><td>406</td><td>Colombie</td><td></td></tr>
+<tr><td>407</td><td>Costa Rica</td><td></td></tr>
+<tr><td>408</td><td>Cuba</td><td></td></tr>
+<tr><td>409</td><td>Dominique</td><td></td></tr>
+<tr><td>410</td><td>République dominicaine</td><td></td></tr>
+<tr><td>411</td><td>El Salvador</td><td></td></tr>
+<tr><td>412</td><td>France (CR IV)</td><td></td></tr>
+<tr><td>413</td><td>Guatemala</td><td></td></tr>
+<tr><td>414</td><td>Haïti</td><td></td></tr>
+<tr><td>415</td><td>Honduras</td><td></td></tr>
+<tr><td>416</td><td>Jamaïque</td><td></td></tr>
+<tr><td>417</td><td>Mexique</td><td></td></tr>
+<tr><td>418</td><td>Curaçao et Sint-Maarten</td><td></td></tr>
+<tr><td>419</td><td>Nicaragua</td><td></td></tr>
+<tr><td>420</td><td>Panama</td><td></td></tr>
+<tr><td>421</td><td>Sainte-Lucie</td><td></td></tr>
+<tr><td>422</td><td>Trinité-et-Tobago</td><td></td></tr>
+<tr><td>423</td><td>Royaume-Uni de Grande-Bretagne et d&#x27;Irlande du Nord (CR IV)</td><td></td></tr>
+<tr><td>424</td><td>États-Unis d&#x27;Amérique (CR IV)</td><td></td></tr>
+<tr><td>425</td><td>Venezuela, République bolivarienne du</td><td></td></tr>
+<tr><td>426-499</td><td>En réserve pour la Région IV (Amérique du Nord, Amérique centrale et Caraïbes)</td><td></td></tr>
+<tr><td>500</td><td>Australie</td><td></td></tr>
+<tr><td>501</td><td>Brunéi Darussalam</td><td></td></tr>
+<tr><td>502</td><td>Îles Cook</td><td></td></tr>
+<tr><td>503</td><td>Fidji</td><td></td></tr>
+<tr><td>504</td><td>Polynésie française</td><td></td></tr>
+<tr><td>505</td><td>Indonésie</td><td></td></tr>
+<tr><td>506</td><td>Kiribati</td><td></td></tr>
+<tr><td>507</td><td>Malaisie</td><td></td></tr>
+<tr><td>508</td><td>Micronésie, États fédérés de</td><td></td></tr>
+<tr><td>509</td><td>Nouvelle-Calédonie</td><td></td></tr>
+<tr><td>510</td><td>Nouvelle-Zélande</td><td></td></tr>
+<tr><td>511</td><td>Nioué</td><td></td></tr>
+<tr><td>512</td><td>Papouasie-Nouvelle-Guinée</td><td></td></tr>
+<tr><td>513</td><td>Philippines</td><td></td></tr>
+<tr><td>514</td><td>Samoa</td><td></td></tr>
+<tr><td>515</td><td>Singapour</td><td></td></tr>
+<tr><td>516</td><td>Îles Salomon</td><td></td></tr>
+<tr><td>517</td><td>Tonga</td><td></td></tr>
+<tr><td>518</td><td>Royaume-Uni de Grande-Bretagne et d&#x27;Irlande du Nord (CR V)</td><td></td></tr>
+<tr><td>519</td><td>États-Unis d&#x27;Amérique (CR V)</td><td></td></tr>
+<tr><td>520</td><td>Vanuatu</td><td></td></tr>
+<tr><td>521-599</td><td>En réserve pour la Région V (Pacifique Sud-Ouest)</td><td></td></tr>
+<tr><td>600</td><td>Albanie</td><td></td></tr>
+<tr><td>601</td><td>Arménie</td><td></td></tr>
+<tr><td>602</td><td>Autriche</td><td></td></tr>
+<tr><td>603</td><td>Azerbaïdjan</td><td></td></tr>
+<tr><td>604</td><td>Bélarus</td><td></td></tr>
+<tr><td>605</td><td>Belgique</td><td></td></tr>
+<tr><td>606</td><td>Bosnie-Herzégovine</td><td></td></tr>
+<tr><td>607</td><td>Bulgarie</td><td></td></tr>
+<tr><td>608</td><td>Croatie</td><td></td></tr>
+<tr><td>609</td><td>Chypre</td><td></td></tr>
+<tr><td>610</td><td>Tchéquie</td><td></td></tr>
+<tr><td>611</td><td>Danemark</td><td></td></tr>
+<tr><td>612</td><td>Estonie</td><td></td></tr>
+<tr><td>613</td><td>Finlande</td><td></td></tr>
+<tr><td>614</td><td>France (CR VI)</td><td></td></tr>
+<tr><td>615</td><td>Géorgie</td><td></td></tr>
+<tr><td>616</td><td>Allemagne</td><td></td></tr>
+<tr><td>617</td><td>Grèce</td><td></td></tr>
+<tr><td>618</td><td>Hongrie</td><td></td></tr>
+<tr><td>619</td><td>Islande</td><td></td></tr>
+<tr><td>620</td><td>Irlande</td><td></td></tr>
+<tr><td>621</td><td>Israël</td><td></td></tr>
+<tr><td>622</td><td>Italie</td><td></td></tr>
+<tr><td>623</td><td>Jordanie</td><td></td></tr>
+<tr><td>624</td><td>Kazakhstan</td><td></td></tr>
+<tr><td>625</td><td>Lettonie</td><td></td></tr>
+<tr><td>626</td><td>Liban</td><td></td></tr>
+<tr><td>627</td><td>Lituanie</td><td></td></tr>
+<tr><td>628</td><td>Luxembourg</td><td></td></tr>
+<tr><td>629</td><td>Malte</td><td></td></tr>
+<tr><td>630</td><td>Monaco</td><td></td></tr>
+<tr><td>631</td><td>Monténégro</td><td></td></tr>
+<tr><td>632</td><td>Pays-Bas</td><td></td></tr>
+<tr><td>633</td><td>Norvège</td><td></td></tr>
+<tr><td>634</td><td>Pologne</td><td></td></tr>
+<tr><td>635</td><td>Portugal (CR VI)</td><td></td></tr>
+<tr><td>636</td><td>République de Moldova</td><td></td></tr>
+<tr><td>637</td><td>Roumanie</td><td></td></tr>
+<tr><td>638</td><td>Fédération de Russie (CR VI)</td><td></td></tr>
+<tr><td>639</td><td>Serbie</td><td></td></tr>
+<tr><td>640</td><td>Slovaquie</td><td></td></tr>
+<tr><td>641</td><td>Slovénie</td><td></td></tr>
+<tr><td>642</td><td>Espagne (CR VI)</td><td></td></tr>
+<tr><td>643</td><td>Suède</td><td></td></tr>
+<tr><td>644</td><td>Suisse</td><td></td></tr>
+<tr><td>645</td><td>République arabe syrienne</td><td></td></tr>
+<tr><td>646</td><td>Macédoine du Nord</td><td></td></tr>
+<tr><td>647</td><td>Turquie</td><td></td></tr>
+<tr><td>648</td><td>Ukraine</td><td></td></tr>
+<tr><td>649</td><td>Royaume-Uni de Grande-Bretagne et d&#x27;Irlande du Nord (CR VI)</td><td></td></tr>
+<tr><td>650-699</td><td>En réserve pour la Région VI (Europe)</td><td></td></tr>
+<tr><td>700-999</td><td>En réserve</td><td></td></tr>
+<tr><td>1000-1022</td><td>Inutilisés</td><td></td></tr>
+<tr><td>1023</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 150  Système de coordonnées de référence</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>WGS84, utilisé par l&#x27;OACI depuis 1998</td><td></td></tr>
+<tr><td>1</td><td>ETRS89, défini par l&#x27;EPSG:4258</td><td></td></tr>
+<tr><td>2</td><td>NAD83, défini par l&#x27;EPSG:4269</td><td></td></tr>
+<tr><td>3</td><td>DHDN, défini par l&#x27;EPSG:4314</td><td></td></tr>
+<tr><td>4</td><td>Donnée ellipsoïdale prenant pour méridien d&#x27;origine le méridien international de référence et pour pôle d&#x27;origine le pôle international de référence et reposant sur le Système international de référence terrestre (ITRS). Le Service international de la rotation terrestre et des systèmes de référence (IERS) conserve les données relatives au méridien international de référence, au pôle international de référence et à l&#x27;ITRS</td><td>Note 92: Afin qu’il soit possible de distinguer sans ambiguïté les cas de valeurs manquantes et de pixels saturés, les données d’image de n bits doivent être codées à l’aide d’un champs de données de n+1. Lorsqu’un tel descripteur n’est pas déjà disponible dans la classe 30, on utilise un descripteur d’opération 2 01 YYY pour modifier le champ de données de l’entrée existante, selon les besoins.</td></tr>
+<tr><td>5-65534</td><td>En réserve</td><td></td></tr>
+<tr><td>65535</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 39: 1) L’EPSG est un jeu de données sur les systèmes de coordonnées et les transformations qu’ils subissent, constitué et tenu à jour à l’origine par l’ European Petroleum Survey Group l’Association internationale des producteurs de pétrole et de gaz qui s’en occupe, par le biais du sous-comité à la géodésie relevant de son Comité de géomatique. 2) Lorsque le chiffre du code 4 est utilisé pour préciser un système de coordonnées de référence, la donnée ellipsoïdale est alors un ellipsoïde de révolution aplati, dont le grand axe s’oriente dans le même plan que le plan équatorial et le petit axe coupe le méridien d’origine près du pôle d’origine. Le Nord correspond à la direction de l’équateur au pôle d’origine. L’Est correspond au sens inverse des aiguilles d’une montre à partir du méridien d’origine vu depuis le pôle Nord. Dans ce cas, il faut préciser le demi-grand axe et le demi-petit axe (en se servant par exemple des descripteurs 0 01 152 et 0 01 153).</p>
+</div>
+<p class="fxy-heading">0 01 151  Données de référence sur le niveau moyen de la mer</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Modèle gravitationnel de la Terre 1996</td><td></td></tr>
+<tr><td>1</td><td>Baltic Height System 1977</td><td></td></tr>
+<tr><td>2-4094</td><td>En réserve</td><td></td></tr>
+<tr><td>4095</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 11: Wind and turbulence</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 11: Wind and turbulence</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 11 001</td><td>Wind direction</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 003</td><td>u-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 004</td><td>v-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 005</td><td>w-component</td><td>Pa/s</td><td>1</td><td>-512</td><td>10</td><td>Pa/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 006</td><td>w-component</td><td>m/s</td><td>2</td><td>-4096</td><td>13</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 007</td><td>Relative wind direction (in degrees off bow)</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 008</td><td>Relative wind speed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 010</td><td>Wind direction associated with wind speed which follows</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 011</td><td>Wind direction at 10 m</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 012</td><td>Wind speed at 10 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 013</td><td>Wind direction at 5 m</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 014</td><td>Wind speed at 5 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 016</td><td>Extreme counterclockwise wind direction of a variable wind</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 017</td><td>Extreme clockwise wind direction of a variable wind</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 019</td><td>Steadiness of wind</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note 147: The steadiness factor (descriptor 0 11 019) is the ratio of speed of the monthly mean vector wind to the speed of the monthly mean scalar wind expressed as a percentage. It is reported to the nearest one percent.</td></tr>
+<tr><td>0 11 021</td><td>Relative vorticity</td><td>/s</td><td>9</td><td>-65536</td><td>17</td><td>/s</td><td>9</td><td>6</td><td></td></tr>
+<tr><td>0 11 022</td><td>Divergence</td><td>/s</td><td>9</td><td>-65536</td><td>17</td><td>/s</td><td>9</td><td>6</td><td></td></tr>
+<tr><td>0 11 023</td><td>Velocity potential</td><td>m2/s</td><td>-2</td><td>-65536</td><td>17</td><td>m2/s</td><td>-2</td><td>6</td><td></td></tr>
+<tr><td>0 11 024</td><td>Average u-component after the vortex removal</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>0 11 025</td><td>Average v-component after the vortex removal</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>0 11 030</td><td>Extended degree of turbulence</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 031</td><td>Degree of turbulence</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 032</td><td>Height of base of turbulence</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 11 033</td><td>Height of top of turbulence</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 11 034</td><td>Vertical gust velocity</td><td>m/s</td><td>1</td><td>-1024</td><td>11</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 035</td><td>Vertical gust acceleration</td><td>m s-2</td><td>2</td><td>-8192</td><td>14</td><td>m s-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 036</td><td>Maximum derived equivalent vertical gust speed</td><td>m/s</td><td>1</td><td>0</td><td>10</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 037</td><td>Turbulence index</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 038</td><td>Time of occurrence of peak eddy dissipation rate</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 039</td><td>Extended time of occurrence of peak eddy dissipation rate</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 040</td><td>Maximum wind speed (mean wind)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 041</td><td>Maximum wind gust speed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 042</td><td>Maximum wind speed (10-minute mean wind)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 043</td><td>Maximum wind gust direction</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 044</td><td>Mean wind direction for surface - 1 500 m (5 000 feet)</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 045</td><td>Mean wind speed for surface - 1 500 m (5 000 feet)</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 046</td><td>Maximum instantaneous wind speed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 047</td><td>Maximum instantaneous wind speed over 10 minutes</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 049</td><td>Standard deviation of wind direction</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 050</td><td>Standard deviation of horizontal wind speed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 051</td><td>Standard deviation of vertical wind speed</td><td>m/s</td><td>1</td><td>0</td><td>8</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 11 052</td><td>Formal uncertainty in wind speed</td><td>m/s</td><td>2</td><td>0</td><td>13</td><td>m/s</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 053</td><td>Formal uncertainty in wind direction</td><td>degree true</td><td>2</td><td>0</td><td>15</td><td>degree true</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 054</td><td>Mean wind direction for 1 500 - 3 000 m</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 055</td><td>Mean wind speed for 1 500 - 3 000 m</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 061</td><td>Absolute wind shear in 1 km layer below</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 062</td><td>Absolute wind shear in 1 km layer above</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 070</td><td>Designator of the runway affected by wind shear (including ALL)</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Character</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 11 071</td><td>Turbulent vertical momentum flux</td><td>m2 s-2</td><td>3</td><td>-128</td><td>14</td><td>m2 s-2</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 11 072</td><td>Turbulent vertical buoyancy flux</td><td>K m s-1</td><td>3</td><td>-128</td><td>11</td><td>K m s-1</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 11 073</td><td>Turbulent kinetic energy</td><td>m2 s-2</td><td>2</td><td>-1024</td><td>13</td><td>m2 s-2</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 074</td><td>Dissipation energy</td><td>m2 s-2</td><td>2</td><td>-1024</td><td>10</td><td>m2 s-2</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 075</td><td>Mean turbulence intensity (eddy dissipation rate)</td><td>m2/3 s-1</td><td>2</td><td>0</td><td>8</td><td>m2/3 s-1</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 11 076</td><td>Peak turbulence intensity (eddy dissipation rate)</td><td>m2/3 s-1</td><td>2</td><td>0</td><td>8</td><td>m2/3 s-1</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 11 077</td><td>Reporting interval or averaging time for eddy dissipation rate</td><td>s</td><td>0</td><td>0</td><td>12</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 11 080</td><td>Number of views used for wind retrieval</td><td>Numeric</td><td>0</td><td>0</td><td>3</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 11 081</td><td>Model wind direction at 10 m</td><td>degree true</td><td>2</td><td>0</td><td>16</td><td>degree true</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 11 082</td><td>Model wind speed at 10 m</td><td>m/s</td><td>2</td><td>0</td><td>14</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 083</td><td>Wind speed</td><td>km/h</td><td>0</td><td>0</td><td>9</td><td>km/h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 084</td><td>Wind speed</td><td>kt</td><td>0</td><td>0</td><td>8</td><td>kt</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 085</td><td>Maximum wind gust speed</td><td>km/h</td><td>0</td><td>0</td><td>9</td><td>km/h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 086</td><td>Maximum wind gust speed</td><td>kt</td><td>0</td><td>0</td><td>8</td><td>kt</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 095</td><td>u-component of the model wind vector</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 096</td><td>v-component of the model wind vector</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 097</td><td>Wind speed from altimeter</td><td>m/s</td><td>2</td><td>0</td><td>12</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 098</td><td>Wind speed from radiometer</td><td>m/s</td><td>2</td><td>0</td><td>12</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 100</td><td>Aircraft true airspeed</td><td>m/s</td><td>1</td><td>0</td><td>12</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 101</td><td>Aircraft ground speed u-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 102</td><td>Aircraft ground speed v-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 103</td><td>Aircraft ground speed w-component</td><td>m/s</td><td>1</td><td>-512</td><td>10</td><td>m/s</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 11 104</td><td>True heading of aircraft, ship or other mobile platform</td><td>degree true</td><td>0</td><td>0</td><td>9</td><td>degree true</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 11 105</td><td>EDR algorithm version</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 106</td><td>Running minimum confidence</td><td>Numeric</td><td>1</td><td>0</td><td>4</td><td>Numeric</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 11 107</td><td>Maximum number bad inputs</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 108</td><td>Peak location</td><td>Numeric</td><td>1</td><td>0</td><td>4</td><td>Numeric</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 11 109</td><td>Number of good EDR</td><td>Numeric</td><td>0</td><td>0</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 11 110</td><td>Uncertainty in u-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 111</td><td>Uncertainty in v-component</td><td>m/s</td><td>1</td><td>-4096</td><td>13</td><td>m/s</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 11 112</td><td>Uncertainty in w-component</td><td>m/s</td><td>2</td><td>-4096</td><td>13</td><td>m/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 11 113</td><td>Tracking correlation of vector</td><td>Numeric</td><td>3</td><td>-1000</td><td>12</td><td>Numeric</td><td>3</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 64: Downward w-components shall be assigned positive values where units are Pa s-1.</p>
+<p class="note">Note 123: South to north v-components shall be assigned positive values.</p>
+<p class="note">Note 126: Surface wind direction measured at a station within 1° of the North Pole or within 1° of the South Pole shall be reported in such a way that the azimuth ring shall be aligned with its zero coinciding with the Greenwich 0° meridian.</p>
+<p class="note">Note 161: Upward w-components shall be assigned positive values where units are m s-1.</p>
+<p class="note">Note 167: West to east u-components shall be assigned positive values.</p>
+<p class="note">Note 180: Wind reporting standards: Speed Direction No observation Missing Missing Calm 0 0 Normal observation &gt; 0 1° - 360° Speed only &gt; 0 Missing Direction only Missing 1°-360° &quot;Light and variable&quot; &gt; 0 0</p>
+</div>
+</body>
+</html>

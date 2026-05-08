@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 13: Elementos hidrográfico e hidrológico</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 13: Elementos hidrográfico e hidrológico</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 13 001</td><td>Humedad específica</td><td>kg kg-1</td><td>5</td><td>0</td><td>14</td><td>kg kg-1</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>0 13 002</td><td>Relación de mezcla</td><td>kg kg-1</td><td>5</td><td>0</td><td>14</td><td>kg kg-1</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 004</td><td>Presión del vapor</td><td>Pa</td><td>-1</td><td>0</td><td>10</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 13 005</td><td>Densidad del vapor</td><td>kg m-3</td><td>3</td><td>0</td><td>7</td><td>kg m-3</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>0 13 006</td><td>Alturas de mezcla</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 13 007</td><td>Humedad relativa mínima</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 008</td><td>Humedad relativa máxima</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 009</td><td>Humedad relativa</td><td>%</td><td>1</td><td>-1000</td><td>12</td><td>%</td><td>1</td><td>4</td><td>Note 39: Espectros no direccionales, (Ib = 0 en WAVEOB) o espectros direccionales parciales (Ib = 1 en WAVEOB con una dirección por número de onda). Conteo = 0 (espectros direccionales completos) o 1 (espectros no direccionales o espectros direccionales parciales). Los espectros direccionales parciales tienen una sola dirección por banda de número de onda.</td></tr>
+<tr><td>0 13 011</td><td>Precipitación total/equivalente total en agua</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 012</td><td>Espesor de la nieve recién caída</td><td>m</td><td>2</td><td>-2</td><td>12</td><td>m</td><td>2</td><td>4</td><td>Note 26: Si la radiosonda está equipada con un sensor de humedad relativa, 0 13 009 en la secuencia se notificará con carácter obligatorio y la temperatura del punto de rocío se podrá incluir como valor derivado. Si la radiosonda está equipada con un sensor de temperatura del punto de rocío, 0 12 103 en la secuencia se notificará y 0 13 009 se fijará en valor faltante.</td></tr>
+<tr><td>0 13 013</td><td>Espesor total de la nieve</td><td>m</td><td>2</td><td>-2</td><td>16</td><td>m</td><td>2</td><td>5</td><td>Note 26: Si la radiosonda está equipada con un sensor de humedad relativa, 0 13 009 en la secuencia se notificará con carácter obligatorio y la temperatura del punto de rocío se podrá incluir como valor derivado. Si la radiosonda está equipada con un sensor de temperatura del punto de rocío, 0 12 103 en la secuencia se notificará y 0 13 009 se fijará en valor faltante.</td></tr>
+<tr><td>0 13 014</td><td>Lluvia/equivalente en agua de nieve (valores medios)</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>12</td><td>kg m-2 s-1</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 13 015</td><td>Nieve (valores medios)</td><td>m s-1</td><td>7</td><td>0</td><td>12</td><td>m s-1</td><td>7</td><td>4</td><td></td></tr>
+<tr><td>0 13 016</td><td>Agua precipitable</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 019</td><td>Precipitación total en el curso de la hora precedente</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 020</td><td>Precipitación total en el curso de las 3 horas precedentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 021</td><td>Precipitación total en el curso de las 6 horas precedentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 022</td><td>Precipitación total en el curso de las 12 horas precedentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 023</td><td>Precipitación total en el curso de las 24 horas precedentes</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 031</td><td>Evapotranspiración</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 032</td><td>Evaporación/evapotranspiración</td><td>kg m-2</td><td>1</td><td>0</td><td>8</td><td>kg m-2</td><td>1</td><td>3</td><td>Note 53: El descriptor 0 33 002 relativo a la información sobre la calidad está relacionado, en esta instancia, con el componente w 0 11 006. Se da para cada puerta respectiva de la medición del perfil.</td></tr>
+<tr><td>0 13 033</td><td>Evaporación/evapotranspiración</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 038</td><td>Indicador superadiabático</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 13 039</td><td>Tipo de terreno (hielo/nieve)</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 13 040</td><td>Banderín de superficie</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 13 041</td><td>Categoría de estabilidad de Pasquill-Gifford</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 13 042</td><td>Índice de elevación de una partícula (a 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>Note 119: Los dos índices de elevación (0 13 042 y 0 13 043) se definen como diferencias de temperaturas, pudiendo dar resultados negativos, si bien la unidad elegida en ambos casos es el grado Kelvin; de ahí que el valor de referencia sea diferente de cero. | Note 130: El “índice de elevación de una partícula” (según la definición del Vocabulario Meteorológico Internacional (OMM–Nº 182)) se define como la diferencia entre la temperatura ambiente a 500 hPa (T500) y la de una partícula de aire en superficie (Tpartícula) elevada por el proceso adiabático del aire seco o del aire húmedo saturado. Hay inestabilidad cuando el resultado de la diferencia T500 – Tpartícula es negativo. El “índice de elevación óptimo” se define como el índice que representa la mayor inestabilidad en un conjunto de índices de elevación de una partícula, donde el estado inicial de la partícula se define como un conjunto de capas superpuestas de 30 hPa de grosor y la capa más baja está situada en la superficie. En general se utilizan para el cálculo de cuatro a seis capas.</td></tr>
+<tr><td>0 13 043</td><td>Índice de elevación óptimo (a 500 hPa)</td><td>K</td><td>0</td><td>-20</td><td>6</td><td>K</td><td>0</td><td>2</td><td>Note 119: Los dos índices de elevación (0 13 042 y 0 13 043) se definen como diferencias de temperaturas, pudiendo dar resultados negativos, si bien la unidad elegida en ambos casos es el grado Kelvin; de ahí que el valor de referencia sea diferente de cero. | Note 130: El “índice de elevación de una partícula” (según la definición del Vocabulario Meteorológico Internacional (OMM–Nº 182)) se define como la diferencia entre la temperatura ambiente a 500 hPa (T500) y la de una partícula de aire en superficie (Tpartícula) elevada por el proceso adiabático del aire seco o del aire húmedo saturado. Hay inestabilidad cuando el resultado de la diferencia T500 – Tpartícula es negativo. El “índice de elevación óptimo” se define como el índice que representa la mayor inestabilidad en un conjunto de índices de elevación de una partícula, donde el estado inicial de la partícula se define como un conjunto de capas superpuestas de 30 hPa de grosor y la capa más baja está situada en la superficie. En general se utilizan para el cálculo de cuatro a seis capas.</td></tr>
+<tr><td>0 13 044</td><td>Índice K</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 045</td><td>Índice KO</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 046</td><td>Flotabilidad máxima</td><td>K</td><td>0</td><td>-30</td><td>8</td><td>K</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 047</td><td>Índice modificado de estabilidad de Showalter</td><td>K</td><td>0</td><td>-60</td><td>6</td><td>°C</td><td>0</td><td>2</td><td>Note 129: El “Índice modificado de estabilidad de Showalter” se define como la diferencia de temperatura entre la temperatura ambiente a 500 hPa y la temperatura que tendrá una partícula de aire, inicialmente a un nivel de base seleccionado si se extrajese de su nivel de condensación para llevarla a la superficie de 500 hPa mediante un proceso adiabático del aire saturado. Los valores positivos denotan condiciones estables y los valores negativos condiciones inestables. El nivel de base es 850 hPa, 800 hPa o 750 hPa si la elevación de la estación es inferior a 1000, 1000 a 1400 o 1401 a 2000 gpm por encima del nivel medio del mar, respectivamente.</td></tr>
+<tr><td>0 13 048</td><td>Fracción de agua</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 051</td><td>Grupo de frecuencia, precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 13 052</td><td>Cantidad máxima diaria de precipitación</td><td>kg m-2</td><td>1</td><td>-1</td><td>14</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 055</td><td>Intensidad de la precipitación</td><td>kg m-2 s-1</td><td>4</td><td>0</td><td>8</td><td>mm h-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 056</td><td>Naturaleza e intensidad de la precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 13 057</td><td>Hora de comienzo o fin de la precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 13 058</td><td>Tamaño del elemento de la precipitación</td><td>m</td><td>4</td><td>0</td><td>7</td><td>mm</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 13 059</td><td>Número de relámpagos (tormenta)</td><td>Numérica</td><td>0</td><td>0</td><td>7</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 060</td><td>Precipitación total acumulada</td><td>kg m-2</td><td>1</td><td>-1</td><td>17</td><td>kg m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 13 071</td><td>Nivel del agua aguas arriba</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 13 072</td><td>Nivel del agua aguas abajo</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 13 073</td><td>Nivel máximo del agua</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 13 074</td><td>Nivel de agua subterránea</td><td>m</td><td>2</td><td>0</td><td>18</td><td>m</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>0 13 080</td><td>pH del agua</td><td>Unidades pH</td><td>1</td><td>0</td><td>10</td><td>Unidades pH</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 13 081</td><td>Conductividad del agua</td><td>S m-1</td><td>3</td><td>0</td><td>14</td><td>S m-1</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 13 082</td><td>Temperatura del agua</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 083</td><td>Oxígeno disuelto</td><td>kg m-3</td><td>6</td><td>0</td><td>15</td><td>kg m-3</td><td>6</td><td>5</td><td></td></tr>
+<tr><td>0 13 084</td><td>Turbiedad</td><td>Lumen</td><td>0</td><td>0</td><td>14</td><td>Lumen</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 13 085</td><td>Potencial de reducción de oxidación (ORP)</td><td>V</td><td>3</td><td>0</td><td>14</td><td>V</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 13 090</td><td>Contenido en vapor de agua radiométrico</td><td>kg m-2</td><td>1</td><td>0</td><td>10</td><td>kg m-2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 091</td><td>Contenido líquido radiométrico</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 13 093</td><td>Espesor óptico de la nube</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 095</td><td>Vapor de agua total en columna</td><td>kg m-2</td><td>4</td><td>0</td><td>19</td><td>kg m-2</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>0 13 096</td><td>Contenido de vapor de agua según MWR</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 13 097</td><td>Contenido de agua líquida según MWR</td><td>kg m-2</td><td>2</td><td>0</td><td>14</td><td>kg m-2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 13 098</td><td>Densidad de vapor de agua integrada</td><td>kg m-2</td><td>8</td><td>0</td><td>30</td><td>kg m-2</td><td>8</td><td>10</td><td></td></tr>
+<tr><td>0 13 099</td><td>Log10 de la densidad de partículas de nube integrada</td><td>log(m-2)</td><td>1</td><td>0</td><td>7</td><td>log(m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 13 100</td><td>Log10 del área de partículas de nube integrada</td><td>log(m² m-2)</td><td>1</td><td>-70</td><td>7</td><td>log(m² m-2)</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 13 101</td><td>Log10 del volumen de partículas de nube integrado</td><td>log(m³ m-2)</td><td>1</td><td>-140</td><td>7</td><td>log(m³ m-2)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 13 109</td><td>Trayectoria del agua helada/líquida</td><td>kg m-2</td><td>3</td><td>0</td><td>10</td><td>kg m-2</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 13 110</td><td>Cociente de mezclado de masa</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 111</td><td>Humedad del suelo</td><td>g kg-1</td><td>0</td><td>0</td><td>10</td><td>g kg-1</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 13 112</td><td>Duración de la humedad del objeto</td><td>s</td><td>0</td><td>0</td><td>17</td><td>s</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 13 114</td><td>Tasa de acreción de hielo</td><td>kg m-2 h-1</td><td>1</td><td>0</td><td>11</td><td>kg m-2 h-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 13 115</td><td>Espesor del hielo</td><td>m</td><td>2</td><td>0</td><td>19</td><td>m</td><td>2</td><td>6</td><td>Note 88: El espesor de hielo (0 13 115) irá precedido del tipo de superficie (0 08 029) y fijado en 11, 12, 13 o 14 para especificar si se trata de un río, un lago, un mar o un glaciar, respectivamente.</td></tr>
+<tr><td>0 13 116</td><td>Espesor de la lámina de agua</td><td>m</td><td>4</td><td>0</td><td>10</td><td>m</td><td>3</td><td>2</td><td></td></tr>
+<tr><td>0 13 117</td><td>Densidad de la nieve (contenido de agua líquida)</td><td>kg m-3</td><td>0</td><td>0</td><td>10</td><td>kg m-3</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 13 118</td><td>Espesor de nieve fresca (gran precisión)</td><td>m</td><td>3</td><td>-2</td><td>14</td><td>m</td><td>3</td><td>5</td><td>Note 41: Normalmente 1, puede ser 2 si están en uso los sensores de elevación y de pendiente, o 0 si no hay datos espectrales.</td></tr>
+<tr><td>0 13 155</td><td>Intensidad de la precipitación (gran precisión)</td><td>kg m-2 s-1</td><td>5</td><td>-1</td><td>16</td><td>mm h-1</td><td>1</td><td>5</td><td>Note 28: En el contexto del descriptor 3 10 067, los valores de presión que siguen inmediatamente a la aparición de componentes de viento deben entenderse como correspondientes a esos componentes.</td></tr>
+<tr><td>0 13 160</td><td>Contenido líquido radiométrico</td><td>kg m-2</td><td>2</td><td>-350</td><td>10</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 13 162</td><td>Agua líquida en la nube</td><td>kg m-2</td><td>2</td><td>0</td><td>8</td><td>kg m-2</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 13 163</td><td>Equivalente en agua de la nieve</td><td>kg m-2</td><td>0</td><td>0</td><td>16</td><td>kg m-2</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 13 164</td><td>Francobordo del hielo marino</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 23: El valor –0,1 kg m–2 antes de la aplicación del factor de escala (–1 después de su aplicación o en la clave CREX) indicará “trazas” (no mensurable, menos de 0,05 kg m–2).</p>
+</div>
+</body>
+</html>

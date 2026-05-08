@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 04: Location (time)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 04: Location (time)</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 04 001</td><td>Year</td><td>a</td><td>0</td><td>0</td><td>12</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 002</td><td>Month</td><td>mon</td><td>0</td><td>0</td><td>4</td><td>mon</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 003</td><td>Day</td><td>d</td><td>0</td><td>0</td><td>6</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td>min</td><td>0</td><td>0</td><td>6</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 006</td><td>Second</td><td>s</td><td>0</td><td>0</td><td>6</td><td>s</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 007</td><td>Seconds within a minute (microsecond accuracy)</td><td>s</td><td>6</td><td>0</td><td>26</td><td>s</td><td>6</td><td>8</td><td></td></tr>
+<tr><td>0 04 011</td><td>Time increment</td><td>a</td><td>0</td><td>-1024</td><td>11</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 012</td><td>Time increment</td><td>mon</td><td>0</td><td>-1024</td><td>11</td><td>mon</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 013</td><td>Time increment</td><td>d</td><td>0</td><td>-1024</td><td>11</td><td>d</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 014</td><td>Time increment</td><td>h</td><td>0</td><td>-1024</td><td>11</td><td>h</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 015</td><td>Time increment</td><td>min</td><td>0</td><td>-2048</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 016</td><td>Time increment</td><td>s</td><td>0</td><td>-4096</td><td>13</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 017</td><td>Reference time period for accumulated or extreme data</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 021</td><td>Time period or displacement</td><td>a</td><td>0</td><td>-1024</td><td>11</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 022</td><td>Time period or displacement</td><td>mon</td><td>0</td><td>-1024</td><td>11</td><td>mon</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 023</td><td>Time period or displacement</td><td>d</td><td>0</td><td>-1024</td><td>11</td><td>d</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 024</td><td>Time period or displacement</td><td>h</td><td>0</td><td>-2048</td><td>12</td><td>h</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 025</td><td>Time period or displacement</td><td>min</td><td>0</td><td>-2048</td><td>12</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 026</td><td>Time period or displacement</td><td>s</td><td>0</td><td>-4096</td><td>13</td><td>s</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 04 031</td><td>Duration of time relating to following value</td><td>h</td><td>0</td><td>0</td><td>8</td><td>h</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 04 032</td><td>Duration of time relating to following value</td><td>min</td><td>0</td><td>0</td><td>6</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 041</td><td>Time difference, UTC - LMT</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note 48: The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).</td></tr>
+<tr><td>0 04 043</td><td>Day of the year</td><td>d</td><td>0</td><td>0</td><td>9</td><td>d</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 04 051</td><td>Principal time of daily reading of maximum temperature</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 052</td><td>Principal time of daily reading of minimum temperature</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 059</td><td>Times of observation used to compute the reported mean values</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 065</td><td>Short time increment</td><td>min</td><td>0</td><td>-128</td><td>8</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 066</td><td>Short time increment</td><td>s</td><td>0</td><td>-128</td><td>8</td><td>s</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 073</td><td>Short time period or displacement</td><td>d</td><td>0</td><td>-128</td><td>8</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 074</td><td>Short time period or displacement</td><td>h</td><td>0</td><td>-128</td><td>8</td><td>h</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 075</td><td>Short time period or displacement</td><td>min</td><td>0</td><td>-128</td><td>8</td><td>min</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 080</td><td>Averaging period for following value</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 04 086</td><td>Long time period or displacement</td><td>s</td><td>0</td><td>-8192</td><td>15</td><td>s</td><td>0</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 27: All times are Universal Time Coordinated (UTC) unless otherwise noted.</p>
+<p class="note">Note 105: Negative time periods or displacements shall be used to indicate time periods or displacements preceding the currently defined time.</p>
+<p class="note">Note 145: The significance of time periods or displacements may be indicated using the time significance code corresponding to table reference 0 08 021.</p>
+<p class="note">Note 149: The time location, when used with forecast values, shall indicate the time of the initial state for the forecast, or the beginning of the forecast period; when used with ensemble means of forecast values, the time location shall indicate the initial state or the beginning of the first forecast over which ensemble means are derived.</p>
+<p class="note">Note 158: Time periods or displacements and time increments require an initial time location to be defined prior to their use, followed where appropriate by a time significance definition.</p>
+<p class="note">Note 176: Where more than one time period or displacement is required to define complex time structures, they shall be defined in immediate succession, and the following ordering shall apply: ensemble period (if required), followed by forecast period (if required), followed by period for averaging or accumulation (if required).</p>
+</div>
+</body>
+</html>

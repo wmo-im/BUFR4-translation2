@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Catégorie 11 : Séquences correspondant à des messages d&#x27;observation à un seul niveau (données classiques)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Catégorie 11 : Séquences correspondant à des messages d&#x27;observation à un seul niveau (données classiques)</h1>
+<p class="fxy-heading">3 11 001 (Comptes rendus d&#x27;aéronef)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 051</td><td>Numéro de vol, système de navigation, date/heure, position, phase de vol</td><td>ASDAR</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 032</td><td>Hauteur de la base de la turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 033</td><td>Hauteur du sommet de la turbulence</td><td></td><td></td></tr>
+<tr><td>0 20 041</td><td>Givrage d&#x27;aéronef</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 002 (Messages ACARS)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 065</td><td>Identification du message ACARS</td><td></td><td></td></tr>
+<tr><td>3 01 066</td><td>Position concernant les messages ACARS</td><td></td><td></td></tr>
+<tr><td>3 11 003</td><td>Variables ACARS standard transmises</td><td></td><td></td></tr>
+<tr><td>3 11 004</td><td>Variables ACARS supplémentaires transmises</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 003 (Variables ACARS standard transmises)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 10 070</td><td>Altitude de l&#x27;aéronef indiquée</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Rapport de mélange</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 004 (Variables ACARS supplémentaires transmises)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 11 034</td><td>Vitesse des rafales verticales</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 11 035</td><td>Accélération des rafales verticales</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 11 075</td><td>Intensité moyenne de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 11 076</td><td>Intensité maximale de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 33 025</td><td>Indicateur de valeurs ACARS interpolées</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 33 026</td><td>Qualité de la mesure de l&#x27;humidité</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 005 (Messages AMDAR standard)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td></td></tr>
+<tr><td>0 01 023</td><td>Numéro de la séquence d&#x27;observations</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td></td><td></td></tr>
+<tr><td>0 07 010</td><td>Niveau de vol</td><td></td><td></td></tr>
+<tr><td>0 08 009</td><td>Phase de vol détaillée de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 036</td><td>Équivalent maximal dérivé de la vitesse des rafales verticales</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>0 33 025</td><td>Indicateur de valeurs ACARS interpolées</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 006 (Données AMDAR ou données d&#x27;aéronefs pour un niveau sans indication de la latitude et de la longitude)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 07 010</td><td>Niveau de vol</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Qualité de l&#x27;angle de roulis de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Point de rosée</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 007 (Données d&#x27;aéronefs pour un niveau avec indication de la latitude et de la longitude)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 07 010</td><td>Niveau de vol</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Qualité de l&#x27;angle de roulis de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Point de rosée</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 008 (Profil des phases ascendante et descendante d&#x27;un vol d&#x27;aéronef sans indication de la latitude et de la longitude à chaque niveau)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase de vol de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 11 006</td><td>Données AMDAR ou données d&#x27;aéronefs pour un niveau sans indication de la latitude et de la longitude</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 009 (Profil des phases ascendante et descendante d&#x27;un vol d&#x27;aéronef avec la latitude et la longitude à chaque niveau)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase de vol de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 11 007</td><td>Données d&#x27;aéronefs pour un niveau avec indication de la latitude et de la longitude</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 010 (Modèle BUFR pour les données AMDAR, version 7)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td></td></tr>
+<tr><td>0 01 023</td><td>Numéro de la séquence d&#x27;observations</td><td></td><td></td></tr>
+<tr><td>0 01 006</td><td>Numéro de vol de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 01 110</td><td>Immatriculation de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 01 111</td><td>Aéroport de départ</td><td></td><td></td></tr>
+<tr><td>0 01 112</td><td>Aéroport de destination</td><td></td><td></td></tr>
+<tr><td>2 04 002</td><td>Ajouter un champ associé</td><td>2 bits de long</td><td></td></tr>
+<tr><td>0 31 021</td><td>Signification du champ associé</td><td>= 8 Renseignements sur la qualité sur 2 bits</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td></td><td></td></tr>
+<tr><td>0 07 010</td><td>Niveau de vol</td><td>Altitude pression</td><td></td></tr>
+<tr><td>0 10 053</td><td>Altitude GNSS (Système mondial de navigation par satellite)</td><td></td><td></td></tr>
+<tr><td>0 08 009</td><td>Phase de vol détaillée de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Qualité de l&#x27;angle de roulis de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 11 100</td><td>Vitesse vraie de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>0 11 101</td><td>Vitesse sol de l&#x27;aéronef (composante u)</td><td></td><td></td></tr>
+<tr><td>Vitesse sol de l&#x27;aéronef (composante v)</td><td></td><td></td><td></td></tr>
+<tr><td>Vitesse sol de l&#x27;aéronef (composante w)</td><td></td><td></td><td></td></tr>
+<tr><td>Cap vrai de l&#x27;aéronef, du navire ou de la plate-forme mobile</td><td>Cap vrai de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>Température/température de l&#x27;air</td><td></td><td></td><td></td></tr>
+<tr><td>Capteurs d&#x27;humidité de l&#x27;aéronef</td><td></td><td></td><td></td></tr>
+<tr><td>Changer le champ de données</td><td></td><td></td><td></td></tr>
+<tr><td>Changer d&#x27;échelle</td><td></td><td></td><td></td></tr>
+<tr><td>Rapport de mélange</td><td></td><td></td><td></td></tr>
+<tr><td>Changement d&#x27;échelle</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Changement du champ de données</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Changer le champ de données</td><td></td><td></td><td></td></tr>
+<tr><td>Changer d&#x27;échelle</td><td></td><td></td><td></td></tr>
+<tr><td>Humidité relative</td><td></td><td></td><td></td></tr>
+<tr><td>Changement d&#x27;échelle</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Changement du champ de données</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Répétition différée de 1 descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Point de rosée</td><td></td><td></td><td></td></tr>
+<tr><td>Qualité de la mesure de l&#x27;humidité</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 1 descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Givrage de la cellule</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 3 descripteurs</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Teneur maximale en eau à l&#x27;état liquide</td><td></td><td></td><td></td></tr>
+<tr><td>Teneur moyenne en eau à l&#x27;état liquide</td><td></td><td></td><td></td></tr>
+<tr><td>Grosses gouttes d&#x27;eau surfondues</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 1 descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Indicateur de valeurs ACARS interpolées</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 3 descripteurs</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Intensité moyenne de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td><td></td></tr>
+<tr><td>Intensité maximale de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td><td></td></tr>
+<tr><td>Étalement dans le temps de l&#x27;apparition du taux maximal de dissipation des tourbillons</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 2 descripteurs</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Indice de turbulence</td><td>Taux de dissipation des tourbillons</td><td></td><td></td></tr>
+<tr><td>Intervalle d&#x27;enregistrement ou temps moyen pour établir le taux de dissipation des tourbillons</td><td></td><td></td><td></td></tr>
+<tr><td>Répétition différée de 3 descripteurs</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Vitesse des rafales verticales</td><td></td><td></td><td></td></tr>
+<tr><td>Accélération des rafales verticales</td><td></td><td></td><td></td></tr>
+<tr><td>Équivalent maximal dérivé de la vitesse des rafales verticales</td><td></td><td></td><td></td></tr>
+<tr><td>Ajout d&#x27;un champ associé</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Répétition différée de 19 descripteurs</td><td></td><td></td><td></td></tr>
+<tr><td>Facteur de répétition différée du descripteur</td><td></td><td></td><td></td></tr>
+<tr><td>Année, mois, jour</td><td></td><td></td><td></td></tr>
+<tr><td>Heure, minute, seconde</td><td></td><td></td><td></td></tr>
+<tr><td>Latitude/longitude (précision élevée)</td><td></td><td></td><td></td></tr>
+<tr><td>Hauteur</td><td></td><td></td><td></td></tr>
+<tr><td>Version de l&#x27;algorithme du taux de dissipation des tourbillons</td><td></td><td></td><td></td></tr>
+<tr><td>Ajouter un champ associé</td><td>7 bits de long</td><td></td><td></td></tr>
+<tr><td>Signification du champ associé</td><td>= 7 Degré de confiance</td><td></td><td></td></tr>
+<tr><td>Intensité maximale de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td><td></td></tr>
+<tr><td>Intensité moyenne de la turbulence (taux de dissipation des tourbillons)</td><td></td><td></td><td></td></tr>
+<tr><td>Ajout d&#x27;un champ associé</td><td>Annuler</td><td></td><td></td></tr>
+<tr><td>Niveau de confiance minimum associé au fonctionnement</td><td></td><td></td><td></td></tr>
+<tr><td>Nombre maximum d&#x27;entrées fausses</td><td></td><td></td><td></td></tr>
+<tr><td>Localisation de la valeur de crête</td><td></td><td></td><td></td></tr>
+<tr><td>Nombre de valeurs justes du taux de dissipation des tourbillons</td><td></td><td></td><td></td></tr>
+<tr><td>Température/température de l&#x27;air</td><td></td><td></td><td></td></tr>
+<tr><td>Direction du vent</td><td></td><td></td><td></td></tr>
+<tr><td>Changer le champ de données</td><td></td><td></td><td></td></tr>
+<tr><td>Vitesse du vent</td><td></td><td></td><td></td></tr>
+<tr><td>Changement du champ de données</td><td>Annuler</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 011 (Modèle IAGOS pour une seule observation), version 2</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 023</td><td>Numéro de la séquence d&#x27;observations</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase de vol de l&#x27;aéronef</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pression</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Direction du vent</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Température/température de l&#x27;air</td><td></td><td></td></tr>
+<tr><td>1 06 000</td><td>Répétition différée de 6 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 046</td><td>Type de constituants chimiques ou physiques de l&#x27;atmosphère</td><td></td><td></td></tr>
+<tr><td>2 01 139</td><td>Changer le champ de données</td><td>20 bits de long</td><td></td></tr>
+<tr><td>2 02 126</td><td>Changer d&#x27;échelle</td><td>Échelle: 7</td><td></td></tr>
+<tr><td>0 15 026</td><td>Concentration du polluant (mol mol-1)</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Changement d&#x27;échelle</td><td>Annuler</td><td></td></tr>
+<tr><td>2 01 000</td><td>Changement du champ de données</td><td>Annuler</td><td></td></tr>
+<tr><td>1 06 000</td><td>Répétition différée de 6 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 046</td><td>Type de constituants chimiques ou physiques de l&#x27;atmosphère</td><td></td><td></td></tr>
+<tr><td>2 01 138</td><td>Changer le champ de données</td><td>19 bits de long</td><td></td></tr>
+<tr><td>2 02 130</td><td>Changer d&#x27;échelle</td><td>Échelle: 11</td><td></td></tr>
+<tr><td>0 15 026</td><td>Concentration du polluant (mol mol-1)</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Changement d&#x27;échelle</td><td>Annuler</td><td></td></tr>
+<tr><td>2 01 000</td><td>Changement du champ de données</td><td>Annuler</td><td></td></tr>
+<tr><td>0 15 052</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre supérieur à 5 nm</td><td></td><td></td></tr>
+<tr><td>0 15 053</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre supérieur à 14 nm</td><td></td><td></td></tr>
+<tr><td>0 15 054</td><td>Log10 de la concentration en nombre de particules d&#x27;aérosols de diamètre compris entre 0,25 et 2,5 µm</td><td></td><td></td></tr>
+<tr><td>0 15 055</td><td>Proportion d&#x27;aérosols non volatils</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pression</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pression</td><td></td><td></td></tr>
+<tr><td>0 13 099</td><td>Log10 de la concentration intégrée de particules dans les nuages</td><td></td><td></td></tr>
+<tr><td>0 13 100</td><td>Log10 de la surface intégrée des particules dans les nuages</td><td></td><td></td></tr>
+<tr><td>0 13 101</td><td>Log10 du volume intégré des particules dans les nuages</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 012 (Modèle BUFR pour le profil des phases ascendante et descendante d&#x27;un vol d&#x27;aéronef avec la latitude et la longitude à chaque niveau)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 150</td><td>Identifiant du WIGOS</td><td></td><td></td></tr>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td></td></tr>
+<tr><td>0 01 111</td><td>Aéroport de départ</td><td>À indiquer en cas de profil de phase ascendante</td><td></td></tr>
+<tr><td>0 01 112</td><td>Aéroport de destination</td><td>À indiquer en cas de profil de phase descendante</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td>Date/heure et position du premier niveau du profil (pour le profil de phase ascendante premier rapport / décollage, pour le profil de phase descendante dernier rapport /atterrissage)</td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td>Date/heure et position du premier niveau du profil (pour le profil de phase ascendante premier rapport / décollage, pour le profil de phase descendante dernier rapport /atterrissage)</td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (précision élevée)</td><td>Date/heure et position du premier niveau du profil (pour le profil de phase ascendante premier rapport / décollage, pour le profil de phase descendante dernier rapport /atterrissage)</td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase de vol de l&#x27;aéronef</td><td>Profil de phase ascendante ou descendante</td><td></td></tr>
+<tr><td>1 10 000</td><td>Répétition différée de 10 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td>Nombre de niveaux suivants</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td>Date du message d&#x27;observation à un seul niveau</td><td></td></tr>
+<tr><td>3 01 013</td><td>Heure, minute, seconde</td><td>Heure du message d&#x27;observation à un seul niveau</td><td></td></tr>
+<tr><td>3 11 007</td><td>Données d&#x27;aéronefs pour un niveau avec indication de la latitude et de la longitude</td><td>Niveau de vol = altitude pression, point de rosée = valeur déduite du rapport de mélange, limitée à Td ≤ T </td><td></td></tr>
+<tr><td>2 01 144</td><td>Changer le champ de données</td><td></td><td></td></tr>
+<tr><td>2 02 133</td><td>Changer d&#x27;échelle</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Rapport de mélange</td><td>Données initiales mesurées</td><td></td></tr>
+<tr><td>2 02 000</td><td>Changement d&#x27;échelle</td><td>Annuler</td><td></td></tr>
+<tr><td>2 01 000</td><td>Changement du champ de données</td><td>Annuler</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humidité relative</td><td>Valeur déduite du rapport de mélange, limitée à ≤ 100 %</td><td></td></tr>
+<tr><td>0 33 026</td><td>Qualité de la mesure de l&#x27;humidité</td><td>Table de code (indiquer le chiffre du code 10 si Td &gt; T, voir la table de code)</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

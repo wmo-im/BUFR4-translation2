@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 22</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 22</h1>
+<p class="fxy-heading">0 22 056  Dirección del perfil</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Perfil ascendente</td><td></td></tr>
+<tr><td>1</td><td>Perfil descendente</td><td></td></tr>
+<tr><td>2</td><td>Horizontal</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 060  Estado del ancla flotante de la boya lagrangiana a la deriva</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ancla flotante desprendida</td><td></td></tr>
+<tr><td>1</td><td>Ancla flotante fijada</td><td></td></tr>
+<tr><td>2</td><td>Estado de ancla flotante desconocido</td><td></td></tr>
+<tr><td>3-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 061  Estado del mar</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>SUB 1</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Calmo (como un espejo)</td><td>0</td><td></td></tr>
+<tr><td>1</td><td>Calmo (rizado)</td><td>0-0,1</td><td></td></tr>
+<tr><td>2</td><td>Ondulado</td><td>0,1-0,5</td><td></td></tr>
+<tr><td>3</td><td>Ligeramente agitado</td><td>0,5-1,25</td><td></td></tr>
+<tr><td>4</td><td>Agitado</td><td>1,25-2,5</td><td></td></tr>
+<tr><td>5</td><td>Grueso</td><td>2,5-4</td><td></td></tr>
+<tr><td>6</td><td>Muy grueso</td><td>4-6</td><td></td></tr>
+<tr><td>7</td><td>Alto</td><td>6-9</td><td></td></tr>
+<tr><td>8</td><td>Muy alto</td><td>9-14</td><td></td></tr>
+<tr><td>9</td><td>Montañoso</td><td>Superior a 14</td><td></td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 76: Cuando haya que cifrar una altura que corresponda a dos cifras de clave, se tomará la cifra más baja. Por ejemplo, una altura de 4 m se cifrará 5.</p>
+<p class="note">Note 84: Estos valores se refieren a olas bien formadas en altamar por acción del viento. Si bien se dará prioridad a los términos descriptivos, los valores relativos a las alturas podrán utilizarse como guía por el observador cuando cifra el estado total de agitación del mar, resultante de diversos factores tales como el viento, la mar de fondo, las corrientes, el ángulo entre la mar de fondo y el viento, etc.</p>
+</div>
+<p class="fxy-heading">0 22 067  Tipo de instrumento para la medición del perfil de la temperatura/salinidad del agua</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 8: Véase la Tabla de cifrado común C–3</p>
+</div>
+<p class="fxy-heading">0 22 068  Tipo de registrador del perfil de la temperatura del agua</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 9: Véase la Tabla de cifrado común C–4</p>
+</div>
+<p class="fxy-heading">0 22 120  Verificación automática del nivel del agua realizada por una estación de observación de mareas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Datos de buena calidad</td><td></td></tr>
+<tr><td>1</td><td>Excedido el límite del nivel máximo (superior) del agua</td><td></td></tr>
+<tr><td>2</td><td>Excedido el límite del nivel mínimo (inferior) del agua</td><td></td></tr>
+<tr><td>3</td><td>Excedida la proporción de cambio de límite para el nivel del agua</td><td></td></tr>
+<tr><td>4</td><td>Excedido el límite uniforme para el nivel del agua</td><td></td></tr>
+<tr><td>5</td><td>Límite excedido del valor del nivel del agua observado menos el del previsto</td><td></td></tr>
+<tr><td>6</td><td>Valor observado del sensor primario del nivel del agua menos el del sensor de reserva de nivel del agua</td><td></td></tr>
+<tr><td>7</td><td>Valor excedido de la tolerancia especificada del valor previsto</td><td></td></tr>
+<tr><td>8</td><td>Límites excedidos (desviación medida y/o valores fuera de los límites) del parámetro de garantía de la calidad (GC) del nivel del agua</td><td></td></tr>
+<tr><td>9</td><td>Temperatura del mar fuera del rango previsto</td><td></td></tr>
+<tr><td>10</td><td>Falla de múltiples pruebas de control de la calidad (QC) (véase más arriba)</td><td></td></tr>
+<tr><td>11</td><td>No se realizaron verificaciones automáticas del nivel del agua</td><td></td></tr>
+<tr><td>12-30</td><td>Reservadas</td><td></td></tr>
+<tr><td>31</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 121  Verificación manual del nivel del agua realizada por una estación de observación de mareas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En servicio</td><td></td></tr>
+<tr><td>1</td><td>Posible problema de bloqueo; de lo contrario, degradación de los datos sobre el nivel del agua</td><td></td></tr>
+<tr><td>2</td><td>Posible desplazamiento de datos</td><td></td></tr>
+<tr><td>3</td><td>Se desconoce el estado del sensor del nivel del agua</td><td></td></tr>
+<tr><td>4</td><td>Problema conocido o sospechado del sensor de la temperatura del mar</td><td></td></tr>
+<tr><td>5</td><td>Posibilidad de múltiples problemas (véase más arriba)</td><td></td></tr>
+<tr><td>6</td><td>Datos malos - ¡NO DIFUNDIRLOS!</td><td></td></tr>
+<tr><td>7</td><td>No se realizaron verificaciones manuales del nivel del agua</td><td></td></tr>
+<tr><td>8-30</td><td>Reservadas</td><td></td></tr>
+<tr><td>31</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 122  Verificación automática de los datos meteorológicos realizada por una estación de observación de mareas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Datos de buena calidad provenientes de todos los sensores</td><td></td></tr>
+<tr><td>1</td><td>Dirección del viento fuera de los límites autorizados</td><td></td></tr>
+<tr><td>2</td><td>Velocidad del viento fuera de los límites previstos</td><td></td></tr>
+<tr><td>3</td><td>Presión barométrica fuera de los límites previstos</td><td></td></tr>
+<tr><td>4</td><td>Temperatura del aire fuera de los límites previstos</td><td></td></tr>
+<tr><td>5</td><td>Varios sensores fallaron durante las pruebas de control de la calidad</td><td></td></tr>
+<tr><td>6</td><td>No se realizaron verificaciones automáticas de los datos meteorológicos</td><td></td></tr>
+<tr><td>7-30</td><td>Reservadas</td><td></td></tr>
+<tr><td>31</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 123  Verificación manual de los datos meteorológicos realizada por una estación de observación de mareas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En servicio</td><td></td></tr>
+<tr><td>1</td><td>Problema conocido o sospechado del sensor de viento</td><td></td></tr>
+<tr><td>2</td><td>Problema conocido o sospechado del sensor de presión barométrica</td><td></td></tr>
+<tr><td>3</td><td>Problema conocido o sospechado del sensor de temperatura del aire</td><td></td></tr>
+<tr><td>4</td><td>Se desconoce el estado de todos los sensores</td><td></td></tr>
+<tr><td>5</td><td>Problema conocido o sospechado de varios sensores</td><td></td></tr>
+<tr><td>6</td><td>Datos malos - ¡NO DIFUNDIRLOS!</td><td></td></tr>
+<tr><td>7</td><td>No se realizaron verificaciones manuales de los datos meteorológicos</td><td></td></tr>
+<tr><td>8-30</td><td>Reservadas</td><td></td></tr>
+<tr><td>31</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 178  Tipo de dispositivo de lanzamiento de XBT/XCTD</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Desconocida</td><td></td></tr>
+<tr><td>1</td><td>LM-2A instalado en cubierta</td><td></td></tr>
+<tr><td>2</td><td>LM-3A portátil</td><td></td></tr>
+<tr><td>3</td><td>LM-4A a través del casco</td><td></td></tr>
+<tr><td>4-9</td><td>Reservadas</td><td></td></tr>
+<tr><td>10</td><td>Dispositivo de lanzamiento automático AL-12 TSK (hasta 12 sondas)</td><td></td></tr>
+<tr><td>11-19</td><td>Reservadas</td><td></td></tr>
+<tr><td>20</td><td>Dispositivo de lanzamiento automático de XBT del SIO (hasta 6 sondas)</td><td></td></tr>
+<tr><td>21-29</td><td>Reservadas</td><td></td></tr>
+<tr><td>30</td><td>Dispositivo de lanzamiento automático V6 de XBT de los AOML (hasta 6 sondas Deep Blue)</td><td></td></tr>
+<tr><td>31</td><td>Dispositivo de lanzamiento automático V8.0 de XBT de los AOML (hasta 8 sondas Deep Blue)</td><td></td></tr>
+<tr><td>32</td><td>Dispositivo de lanzamiento automático V8.1 de XBT de los AOML (hasta 8 sondas Deep Blue y Fast Deep)</td><td></td></tr>
+<tr><td>33-89</td><td>Reservadas</td><td></td></tr>
+<tr><td>90</td><td>Dispositivo de lanzamiento Devil del CSIRO</td><td></td></tr>
+<tr><td>91-99</td><td>Reservadas</td><td></td></tr>
+<tr><td>100</td><td>Dispositivo de lanzamiento automático MFSTEP (Mediterráneo)</td><td></td></tr>
+<tr><td>101-254</td><td>Reservadas</td><td></td></tr>
+<tr><td>255</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

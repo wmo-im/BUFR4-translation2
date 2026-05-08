@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 31 : Précisions concernant les opérations à effectuer au niveau de la description des données</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 31 : Précisions concernant les opérations à effectuer au niveau de la description des données</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td>Numérique</td><td>0</td><td>0</td><td>1</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td>Numérique</td><td>0</td><td>0</td><td>8</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td>Numérique</td><td>0</td><td>0</td><td>16</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 31 011</td><td>Facteur de répétition différée du descripteur et des données</td><td>Numérique</td><td>0</td><td>0</td><td>8</td><td></td><td></td><td></td><td>Note 127: Le «facteur de répétition différée du descripteur et des données» sert au codage de la longueur de plage (par exemple pour le balayage d’une image). Il donne une valeur N qui s’applique à la fois au descripteur et aux données, c’est-à-dire que la valeur de l’élément simple défini par le descripteur suivant est répétée N fois (à des intervalles déjà précisés).</td></tr>
+<tr><td>0 31 012</td><td>Facteur élargi de répétition différée du descripteur et des données</td><td>Numérique</td><td>0</td><td>0</td><td>16</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 31 021</td><td>Signification du champ associé</td><td>Table de code</td><td>0</td><td>0</td><td>6</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 31 031</td><td>Indicateur de présence de données</td><td>Table d&#x27;indicateurs</td><td>0</td><td>0</td><td>1</td><td></td><td></td><td></td><td>Note 59: Indication du début de la période d’un mois. | Note 113: D’autres applications de l’indicateur de présence de données pourront être créées.</td></tr>
+</tbody>
+</table>
+</body>
+</html>

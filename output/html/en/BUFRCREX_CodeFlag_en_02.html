@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 02</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 02</h1>
+<p class="fxy-heading">0 02 001  Type of station</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Automatic</td><td></td></tr>
+<tr><td>1</td><td>Manned</td><td></td></tr>
+<tr><td>2</td><td>Hybrid: both manned and automatic</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 002  Type of instrumentation for wind measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Certified instruments</td><td></td></tr>
+<tr><td>2</td><td>PDFly measured in knots</td><td></td></tr>
+<tr><td>3</td><td>PDFly measured in km h-1</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 90: Type of instrumentation and original units for wind measurement (measured in m s–1 unless otherwise indicated).</p>
+</div>
+<p class="fxy-heading">0 02 003  Type of measuring equipment used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pressure instrument associated with wind measuring equipment</td><td></td></tr>
+<tr><td>1</td><td>Optical theodolite</td><td></td></tr>
+<tr><td>2</td><td>Radio theodolite</td><td></td></tr>
+<tr><td>3</td><td>Radar</td><td></td></tr>
+<tr><td>4</td><td>VLF-Omega</td><td></td></tr>
+<tr><td>5</td><td>Loran C</td><td></td></tr>
+<tr><td>6</td><td>Wind profiler</td><td></td></tr>
+<tr><td>7</td><td>Satellite navigation</td><td></td></tr>
+<tr><td>8</td><td>Radio-acoustic Sounding System (RASS)</td><td></td></tr>
+<tr><td>9</td><td>Sodar</td><td></td></tr>
+<tr><td>10</td><td>Lidar</td><td></td></tr>
+<tr><td>11-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Pressure instrument associated with wind measuring equipment but pressure element failed during ascent</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 004  Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>USA open pan evaporimeter (without cover)</td><td>Evaporation</td><td></td></tr>
+<tr><td>1</td><td>USA open pan evaporimeter (mesh covered)</td><td>Evaporation</td><td></td></tr>
+<tr><td>2</td><td>GGI-3000 evaporimeter (sunken)</td><td>Evaporation</td><td></td></tr>
+<tr><td>3</td><td>20 m2 tank</td><td>Evaporation</td><td></td></tr>
+<tr><td>4</td><td>Others</td><td>Evaporation</td><td></td></tr>
+<tr><td>5</td><td>Rice</td><td>Evapotranspiration</td><td></td></tr>
+<tr><td>6</td><td>Wheat</td><td>Evapotranspiration</td><td></td></tr>
+<tr><td>7</td><td>Maize</td><td>Evapotranspiration</td><td></td></tr>
+<tr><td>8</td><td>Sorghum</td><td>Evapotranspiration</td><td></td></tr>
+<tr><td>9</td><td>Other crops</td><td>Evapotranspiration</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 006  Upper Air Remote Sensing Instrument Type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Elastic backscatter lidar</td><td></td></tr>
+<tr><td>2</td><td>Raman backscatter lidar</td><td></td></tr>
+<tr><td>3</td><td>Radar wind profiler</td><td></td></tr>
+<tr><td>4</td><td>Lidar wind profiler</td><td></td></tr>
+<tr><td>5</td><td>Sodar wind profiler</td><td></td></tr>
+<tr><td>6</td><td>Wind profiler</td><td></td></tr>
+<tr><td>7</td><td>Lidar</td><td></td></tr>
+<tr><td>8</td><td>Ground-based microwave radiometer</td><td></td></tr>
+<tr><td>9</td><td>Differential absorption lidar</td><td></td></tr>
+<tr><td>10-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 007  Type of sensor for water level measuring instrument</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Shaft encoder float system</td><td></td></tr>
+<tr><td>2</td><td>Ultrasonic</td><td></td></tr>
+<tr><td>3</td><td>Radar</td><td></td></tr>
+<tr><td>4</td><td>Pressure (single transducer)</td><td></td></tr>
+<tr><td>5</td><td>Pressure (multiple transducer)</td><td></td></tr>
+<tr><td>6</td><td>Pressure (in stilling well)</td><td></td></tr>
+<tr><td>7</td><td>Bubbler pressure</td><td></td></tr>
+<tr><td>8</td><td>Acoustic (with sounding tube)</td><td></td></tr>
+<tr><td>9</td><td>Acoustic (in open air)</td><td></td></tr>
+<tr><td>10-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 008  Type of offshore platform</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Fixed platform</td><td></td></tr>
+<tr><td>1</td><td>Mobile offshore drill ship</td><td></td></tr>
+<tr><td>2</td><td>Jack-up rig</td><td></td></tr>
+<tr><td>3</td><td>Semi-submersible platform</td><td></td></tr>
+<tr><td>4</td><td>Floating production storage and offloading (FPSO) unit</td><td></td></tr>
+<tr><td>5</td><td>Light vessel</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 009  MODIS aerosol algorithm</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Land corrected reflectances</td><td></td></tr>
+<tr><td>1</td><td>Ocean best solution</td><td></td></tr>
+<tr><td>2</td><td>Ocean average solution</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 011  Radiosonde type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 7: (See Common Code table C-2 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 02 012  Radiosonde computational method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 15: (To be developed)</p>
+</div>
+<p class="fxy-heading">0 02 013  Solar and infrared radiation correction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No correction</td><td></td></tr>
+<tr><td>1</td><td>CIMO solar corrected and CIMO infrared corrected</td><td></td></tr>
+<tr><td>2</td><td>CIMO solar corrected and infrared corrected</td><td></td></tr>
+<tr><td>3</td><td>CIMO solar corrected only</td><td></td></tr>
+<tr><td>4</td><td>Solar and infrared corrected automatically by radiosonde system</td><td></td></tr>
+<tr><td>5</td><td>Solar corrected automatically by radiosonde system</td><td></td></tr>
+<tr><td>6</td><td>Solar and infrared corrected as specified by country</td><td></td></tr>
+<tr><td>7</td><td>Solar corrected as specified by country</td><td></td></tr>
+<tr><td>8</td><td>Solar and infrared corrected as specified by GRUAN</td><td></td></tr>
+<tr><td>9</td><td>Solar corrected as specified by GRUAN</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 014  Tracking technique/status of system used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 11: (See Common Code table C-7 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 02 015  Radiosonde completeness</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Pressure only radiosonde</td><td></td></tr>
+<tr><td>2</td><td>Pressure only radiosonde plus transponder</td><td></td></tr>
+<tr><td>3</td><td>Pressure only radiosonde plus radar reflector</td><td></td></tr>
+<tr><td>4</td><td>No-pressure radiosonde plus transponder</td><td></td></tr>
+<tr><td>5</td><td>No-pressure radiosonde plus radar reflector</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 016  Radiosonde configuration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Train regulator</td><td></td></tr>
+<tr><td>2</td><td>Light unit</td><td></td></tr>
+<tr><td>3</td><td>Parachute</td><td></td></tr>
+<tr><td>4</td><td>Rooftop release</td><td></td></tr>
+<tr><td>All 5</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 017  Correction algorithms for humidity measurements</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No corrections</td><td></td></tr>
+<tr><td>1</td><td>Time lag correction provided by the manufacturer</td><td></td></tr>
+<tr><td>2</td><td>Solar radiation correction provided by the manufacturer</td><td></td></tr>
+<tr><td>3</td><td>Solar radiation and time lag correction provided by the manufacturer</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>GRUAN solar radiation and time lag correction</td><td></td></tr>
+<tr><td>8-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 019  Satellite instruments</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 12: (See Common Code table C-8 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 02 020  Satellite classification</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nimbus</td><td></td></tr>
+<tr><td>1</td><td>VTPR</td><td></td></tr>
+<tr><td>2</td><td>Tiros 1 (Tiros, NOAA-6 to NOAA-13)</td><td></td></tr>
+<tr><td>3</td><td>Tiros 2 (NOAA-14 onwards)</td><td></td></tr>
+<tr><td>4</td><td>NEON</td><td></td></tr>
+<tr><td>10</td><td>EOS</td><td></td></tr>
+<tr><td>20</td><td>GPM-core</td><td></td></tr>
+<tr><td>31</td><td>DMSP</td><td></td></tr>
+<tr><td>61</td><td>EUMETSAT Polar System (EPS)</td><td></td></tr>
+<tr><td>62</td><td>EUMETSAT Polar System (EPS-SG)</td><td></td></tr>
+<tr><td>91</td><td>ERS</td><td></td></tr>
+<tr><td>92</td><td>Sentinel-3</td><td></td></tr>
+<tr><td>121</td><td>ADEOS</td><td></td></tr>
+<tr><td>122</td><td>GCOM</td><td></td></tr>
+<tr><td>241</td><td>GOES</td><td></td></tr>
+<tr><td>251</td><td>TROPICS</td><td></td></tr>
+<tr><td>261</td><td>JASON</td><td></td></tr>
+<tr><td>271</td><td>GMS</td><td></td></tr>
+<tr><td>272</td><td>MTSAT</td><td></td></tr>
+<tr><td>273</td><td>Himawari</td><td></td></tr>
+<tr><td>281</td><td>COMS</td><td></td></tr>
+<tr><td>301</td><td>INSAT</td><td></td></tr>
+<tr><td>331</td><td>METEOSAT Operational Programme (MOP)</td><td></td></tr>
+<tr><td>332</td><td>METEOSAT Transitional Programme (MTP)</td><td></td></tr>
+<tr><td>333</td><td>METEOSAT Second Generation Programme (MSG)</td><td></td></tr>
+<tr><td>334</td><td>METEOSAT Third Generation Programme (MTG)</td><td></td></tr>
+<tr><td>351</td><td>GOMS</td><td></td></tr>
+<tr><td>352</td><td>Meteor-M N2</td><td></td></tr>
+<tr><td>380</td><td>FY-1</td><td></td></tr>
+<tr><td>381</td><td>FY-2</td><td></td></tr>
+<tr><td>382</td><td>FY-3</td><td></td></tr>
+<tr><td>383</td><td>FY-4</td><td></td></tr>
+<tr><td>384-400</td><td>Reserved</td><td></td></tr>
+<tr><td>401</td><td>GPS</td><td></td></tr>
+<tr><td>402</td><td>GLONASS</td><td></td></tr>
+<tr><td>403</td><td>GALILEO</td><td></td></tr>
+<tr><td>404</td><td>BDS (BeiDou navigation satellite system)</td><td></td></tr>
+<tr><td>405</td><td>Quasi-Zenith Satellite System (QZSS)</td><td></td></tr>
+<tr><td>406-510</td><td>Reserved</td><td></td></tr>
+<tr><td>511</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 021  Satellite instrument data used in processing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>High-resolution infrared sounder (HIRS)</td><td></td></tr>
+<tr><td>2</td><td>Microwave sounding unit (MSU)</td><td></td></tr>
+<tr><td>3</td><td>Stratospheric sounding unit (SSU)</td><td></td></tr>
+<tr><td>4</td><td>AMI (advanced microwave instrument) wind mode</td><td></td></tr>
+<tr><td>5</td><td>AMI (advanced microwave instrument) wave mode</td><td></td></tr>
+<tr><td>6</td><td>AMI (advanced microwave instrument) image mode</td><td></td></tr>
+<tr><td>7</td><td>Radar altimeter</td><td></td></tr>
+<tr><td>8</td><td>ATSR (along-track scanning radiometer)</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 022  Satellite data-processing technique used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Processing technique not defined</td><td></td></tr>
+<tr><td>2</td><td>Automated statistical regression</td><td></td></tr>
+<tr><td>3</td><td>Clear path</td><td>Note 28: In the context of 3 10 067, pressure values which immediately follow occurrences of wind components should be understood to pertain to those components.</td></tr>
+<tr><td>4</td><td>Partly cloudy path</td><td>Note 62: These descriptors should not be used in CREX for transmission.</td></tr>
+<tr><td>5</td><td>Cloudy path</td><td>Note 30: In this sequence for representation of radiosonde descent data, indication of standard levels using the extended vertical sounding significance (0 08 042) is not mandatory.</td></tr>
+<tr><td>6-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 22: Bit flags denoting the elements included in processing sounding data.</p>
+</div>
+<p class="fxy-heading">0 02 023  Satellite-derived wind computation method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Wind derived from cloud motion observed in the infrared channel</td><td></td></tr>
+<tr><td>2</td><td>Wind derived from cloud motion observed in the visible channel</td><td></td></tr>
+<tr><td>3</td><td>Wind derived from cloud motion observed in the water vapour channel</td><td></td></tr>
+<tr><td>4</td><td>Wind derived from motion observed in a combination of spectral channels</td><td></td></tr>
+<tr><td>5</td><td>Wind derived from motion observed in the water vapour channel in clear air</td><td></td></tr>
+<tr><td>6</td><td>Wind derived from motion observed in the ozone channel</td><td></td></tr>
+<tr><td>7</td><td>Wind derived from motion observed in water vapour channel (cloud or clear air not specified)</td><td></td></tr>
+<tr><td>8-12</td><td>Reserved</td><td></td></tr>
+<tr><td>13</td><td>Root-mean-square</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 024  Integrated mean humidity computational method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Table with full range of humidity variation in layer</td><td></td></tr>
+<tr><td>2</td><td>Regression technique on 2 humidity values in layer</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 025  Satellite channel(s) used in computation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>Group 1 - Layer precipitable water for the layers: surface to 700 hPa, 700 to 500 hPa, and 500 to 300 hPa</td><td></td></tr>
+<tr><td>2</td><td>HIRS</td><td></td></tr>
+<tr><td>3</td><td>MSU</td><td></td></tr>
+<tr><td>4-5</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>Group 2 - Tropopause temperature and pressure</td><td></td></tr>
+<tr><td>6</td><td>HIRS</td><td></td></tr>
+<tr><td>7</td><td>MSU</td><td></td></tr>
+<tr><td>8-9</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>Group 3 - Total ozone</td><td></td></tr>
+<tr><td>10</td><td>HIRS (1, 2, 3, 8, 9, 16, 17)</td><td></td></tr>
+<tr><td>11</td><td>HIRS (1, 2, 3, 9, 17)</td><td></td></tr>
+<tr><td>12</td><td>MSU</td><td></td></tr>
+<tr><td>13-14</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa</td><td></td></tr>
+<tr><td>15</td><td>HIRS</td><td></td></tr>
+<tr><td>16</td><td>HIRS*</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>17</td><td>MSU</td><td></td></tr>
+<tr><td>18</td><td>SKINTK (ocean only)</td><td></td></tr>
+<tr><td>19-20</td><td>Reserved</td><td></td></tr>
+<tr><td></td><td>Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa</td><td></td></tr>
+<tr><td>21</td><td>HIRS</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>22</td><td>SSU</td><td></td></tr>
+<tr><td>23</td><td>MSU (3, 4)</td><td></td></tr>
+<tr><td>24</td><td>Reserved</td><td></td></tr>
+<tr><td>All 25</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 23: Bit flags denoting the instrument and/or channels used in obtaining various physical parameters. If, in any grouping of parameters, all bits = 0, then no retrieval was made for that parameter or set of parameters.</p>
+</div>
+<p class="fxy-heading">0 02 030  Method of current measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>ADCP (Acoustic Doppler Current Profiler)</td><td>Note 91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
+<tr><td>2</td><td>GEK (Geomagnetic ElectroKinetograph)</td><td></td></tr>
+<tr><td>3</td><td>Ship&#x27;s set and drift determined by fixes 3-6 hours apart</td><td></td></tr>
+<tr><td>4</td><td>Ship&#x27;s set and drift determined by fixes more than 6 hours but less than 12 hours apart</td><td></td></tr>
+<tr><td>5</td><td>Drift of buoy</td><td></td></tr>
+<tr><td>6</td><td>ADCP (Acoustic Doppler Current Profiler)</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 031  Duration and time of current measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>1</td><td>Instantaneous</td><td>between H - 1 and H</td><td></td></tr>
+<tr><td>2</td><td>Averaged over 3 min or less</td><td>between H - 1 and H</td><td></td></tr>
+<tr><td>3</td><td>Averaged over more than 3 min, but 6 min at the most</td><td>between H - 1 and H</td><td></td></tr>
+<tr><td>4</td><td>Averaged over more than 6 min, but 12 min at the most</td><td>between H - 1 and H</td><td></td></tr>
+<tr><td>5</td><td>Instantaneous</td><td>between H - 2 and H - 1</td><td></td></tr>
+<tr><td>6</td><td>Averaged over 3 min or less</td><td>between H - 2 and H - 1</td><td></td></tr>
+<tr><td>7</td><td>Averaged over more than 3 min, but 6 min at the most</td><td>between H - 2 and H - 1</td><td></td></tr>
+<tr><td>8</td><td>Averaged over more than 6 min, but 12 min at the most</td><td>between H - 2 and H - 1</td><td></td></tr>
+<tr><td>9</td><td>Vector or Doppler current profiling method not used</td><td></td><td></td></tr>
+<tr><td>10</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>11</td><td>1 hour or less</td><td></td><td></td></tr>
+<tr><td>12</td><td>More than 1 hour but 2 hours at the most</td><td></td><td></td></tr>
+<tr><td>13</td><td>More than 2 hours but 4 hours at the most</td><td></td><td></td></tr>
+<tr><td>14</td><td>More than 4 hours but 8 hours at the most</td><td></td><td></td></tr>
+<tr><td>15</td><td>More than 8 hours but 12 hours at the most</td><td></td><td></td></tr>
+<tr><td>16</td><td>More than 12 hours but 18 hours at the most</td><td></td><td></td></tr>
+<tr><td>17</td><td>More than 18 hours but 24 hours at the most</td><td></td><td></td></tr>
+<tr><td>18</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>19</td><td>Drift method not used</td><td></td><td></td></tr>
+<tr><td>20-30</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 32: Code figures 1-9: Duration and time of current measurement (vector or Doppler current profiling method).</p>
+<p class="note">Note 33: Code figures 11-19: Period of current measurement (drift method).</p>
+<p class="note">Note 45: H = Time of observation.</p>
+</div>
+<p class="fxy-heading">0 02 032  Indicator for digitization</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Values at selected depths (data points fixed by the instrument or selected by any other method)</td><td></td></tr>
+<tr><td>1</td><td>Values at selected depths (data points taken from traces at significant depths)</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 033  Method of salinity/depth measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No salinity measured</td><td></td></tr>
+<tr><td>1</td><td>In situ sensor, accuracy better than 0.02 0/00</td><td></td></tr>
+<tr><td>2</td><td>In situ sensor, accuracy less than 0.02 0/00</td><td></td></tr>
+<tr><td>3</td><td>Sample analysis</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 034  Drogue type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unspecified drogue</td><td></td></tr>
+<tr><td>1</td><td>Holey sock</td><td></td></tr>
+<tr><td>2</td><td>TRISTAR</td><td></td></tr>
+<tr><td>3</td><td>Window shade</td><td></td></tr>
+<tr><td>4</td><td>Parachute</td><td></td></tr>
+<tr><td>5</td><td>Non-Lagrangian sea anchor</td><td></td></tr>
+<tr><td>6-30</td><td>Reserved (to be developed)</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 036  Buoy type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Drifting buoy</td><td></td></tr>
+<tr><td>1</td><td>Fixed buoy</td><td></td></tr>
+<tr><td>2</td><td>Subsurface float (moving)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 037  Method of tidal observation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Manual reading from vertical tide staff</td><td></td></tr>
+<tr><td>2</td><td>Manual reading from single automatic recorder at station</td><td></td></tr>
+<tr><td>3</td><td>Manual reading from multiple automatic recorders at station</td><td></td></tr>
+<tr><td>4</td><td>Automatic reading from single automatic recorder at station without level reference check</td><td></td></tr>
+<tr><td>5</td><td>Automatic reading from single automatic recorder at station with level reference check, or from multiple automatic recorders</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 038  Method of water temperature and/or salinity measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ship intake</td><td></td></tr>
+<tr><td>1</td><td>Bucket</td><td></td></tr>
+<tr><td>2</td><td>Hull contact sensor</td><td></td></tr>
+<tr><td>3</td><td>Reversing thermometer</td><td></td></tr>
+<tr><td>4</td><td>STD/CTD sensor</td><td></td></tr>
+<tr><td>5</td><td>Mechanical BT</td><td></td></tr>
+<tr><td>6</td><td>Expendable BT</td><td></td></tr>
+<tr><td>7</td><td>Digital BT</td><td></td></tr>
+<tr><td>8</td><td>Thermistor chain</td><td></td></tr>
+<tr><td>9</td><td>Infrared scanner</td><td></td></tr>
+<tr><td>10</td><td>Microwave scanner</td><td></td></tr>
+<tr><td>11</td><td>Infrared radiometer</td><td></td></tr>
+<tr><td>12</td><td>In-line thermosalinograph</td><td></td></tr>
+<tr><td>13</td><td>Towed body</td><td></td></tr>
+<tr><td>14</td><td>Other</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 039  Method of wet-bulb temperature measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Measured wet-bulb temperature</td><td></td></tr>
+<tr><td>1</td><td>Iced bulb measured wet-bulb temperature</td><td></td></tr>
+<tr><td>2</td><td>Computed wet-bulb temperature</td><td></td></tr>
+<tr><td>3</td><td>Iced bulb computed wet-bulb temperature</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 040  Method of removing velocity and motion of platform from current</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ship&#x27;s motion removed by averaging</td><td>Ship&#x27;s velocity removed by bottom tracking</td><td></td></tr>
+<tr><td>1</td><td>Ship&#x27;s motion removed by motion compensation</td><td>Ship&#x27;s velocity removed by bottom tracking</td><td></td></tr>
+<tr><td>2</td><td>Ship&#x27;s motion not removed</td><td>Ship&#x27;s velocity removed by bottom tracking</td><td></td></tr>
+<tr><td>3</td><td>Ship&#x27;s motion removed by averaging</td><td>Ship&#x27;s velocity removed by navigation</td><td></td></tr>
+<tr><td>4</td><td>Ship&#x27;s motion removed by motion compensation</td><td>Ship&#x27;s velocity removed by navigation</td><td></td></tr>
+<tr><td>5</td><td>Ship&#x27;s motion not removed</td><td>Ship&#x27;s velocity removed by navigation</td><td></td></tr>
+<tr><td>6</td><td>Doppler current profiling method not used</td><td></td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 041  Method for estimating reports related to synoptic features</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Information based on manual analysis</td><td></td></tr>
+<tr><td>1</td><td>Information based on computer analysis</td><td></td></tr>
+<tr><td>2</td><td>Information based on data assimilation</td><td></td></tr>
+<tr><td>3</td><td>Information based on computer analysis or data assimilation manually modified</td><td></td></tr>
+<tr><td>4-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>Information based on the numerical weather prediction</td><td></td></tr>
+<tr><td>11-62</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 042  Indicator for sea-surface current speed</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Value originally reported in m/s</td><td></td></tr>
+<tr><td>1</td><td>Value originally reported in knots</td><td></td></tr>
+<tr><td>2</td><td>No sea current data available</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 044  Indicator for method of calculating spectral wave data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>1</td><td>Longuet-Higgins (1964)</td><td></td></tr>
+<tr><td>2</td><td>Longuet-Higgins (F3 method)</td><td></td></tr>
+<tr><td>3</td><td>Maximum likelihood method</td><td></td></tr>
+<tr><td>4</td><td>Maximum entropy method</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 045  Indicator for type of platform</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sea station</td><td></td></tr>
+<tr><td>1</td><td>Automatic data buoy</td><td></td></tr>
+<tr><td>2</td><td>Aircraft</td><td></td></tr>
+<tr><td>3</td><td>Satellite</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 046  Wave measurement instrumentation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>1</td><td>Heave sensor</td><td></td></tr>
+<tr><td>2</td><td>Slope sensor</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 047  Deep-ocean tsunameter type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>DART II (PMEL)</td><td></td></tr>
+<tr><td>2</td><td>DART ETD</td><td></td></tr>
+<tr><td>3</td><td>SAIC Tsunami Buoy (STB)</td><td></td></tr>
+<tr><td>4</td><td>GFZ - Potsdam</td><td></td></tr>
+<tr><td>5</td><td>INCOIS (India)</td><td></td></tr>
+<tr><td>6</td><td>InaBuoy (Indonesia)</td><td></td></tr>
+<tr><td>7</td><td>Envirtech</td><td></td></tr>
+<tr><td>8-99</td><td>Reserved</td><td></td></tr>
+<tr><td>100-126</td><td>Not used</td><td></td></tr>
+<tr><td>127</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 048  Satellite sensor indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>HIRS</td><td></td></tr>
+<tr><td>1</td><td>MSU</td><td></td></tr>
+<tr><td>2</td><td>SSU</td><td></td></tr>
+<tr><td>3</td><td>AMSU-A</td><td></td></tr>
+<tr><td>4</td><td>AMSU-B</td><td></td></tr>
+<tr><td>5</td><td>AVHRR</td><td></td></tr>
+<tr><td>6</td><td>SSMI</td><td></td></tr>
+<tr><td>7</td><td>NSCAT</td><td></td></tr>
+<tr><td>8</td><td>SEAWINDS</td><td></td></tr>
+<tr><td>9</td><td>POSEIDON altimeter</td><td></td></tr>
+<tr><td>10</td><td>JMR (JASON Microwave Radiometer)</td><td></td></tr>
+<tr><td>11</td><td>MHS</td><td></td></tr>
+<tr><td>12</td><td>ASCAT</td><td></td></tr>
+<tr><td>13</td><td>OSCAT2</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 049  Geostationary satellite data-processing technique used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Processing technique not defined</td><td></td></tr>
+<tr><td>2</td><td>Simultaneous physical retrieval</td><td></td></tr>
+<tr><td>3</td><td>Clear sounding</td><td>Note 29: In this instance, the term &quot;thinning&quot; refers to a method that may be applied to select a subset of levels from a model that may have many native vertical levels. Selecting only a subset reduces the size of the pseudo-sounding, at the possible cost of information loss and extra processing.</td></tr>
+<tr><td>4</td><td>Cloudy sounding</td><td>Note 31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
+<tr><td>5-7</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 050  Geostationary sounder satellite channels used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>1</td><td>14.71</td><td></td></tr>
+<tr><td>2</td><td>2</td><td>14.37</td><td></td></tr>
+<tr><td>3</td><td>3</td><td>14.06</td><td></td></tr>
+<tr><td>4</td><td>4</td><td>13.64</td><td></td></tr>
+<tr><td>5</td><td>5</td><td>13.37</td><td></td></tr>
+<tr><td>6</td><td>6</td><td>12.66</td><td></td></tr>
+<tr><td>7</td><td>7</td><td>12.02</td><td></td></tr>
+<tr><td>8</td><td>8</td><td>11.03</td><td></td></tr>
+<tr><td>9</td><td>9</td><td>9.71</td><td></td></tr>
+<tr><td>10</td><td>10</td><td>7.43</td><td></td></tr>
+<tr><td>11</td><td>11</td><td>7.02</td><td></td></tr>
+<tr><td>12</td><td>12</td><td>6.51</td><td></td></tr>
+<tr><td>13</td><td>13</td><td>4.57</td><td></td></tr>
+<tr><td>14</td><td>14</td><td>4.52</td><td></td></tr>
+<tr><td>15</td><td>15</td><td>4.45</td><td></td></tr>
+<tr><td>16</td><td>16</td><td>4.13</td><td></td></tr>
+<tr><td>17</td><td>17</td><td>3.98</td><td></td></tr>
+<tr><td>18</td><td>18</td><td>3.74</td><td></td></tr>
+<tr><td>19</td><td>19</td><td>0.969</td><td></td></tr>
+<tr><td>All 20</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
+</div>
+<p class="fxy-heading">0 02 051  Indicator to specify observing method for extreme temperatures</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Maximum/minimum thermometers</td><td></td></tr>
+<tr><td>2</td><td>Automated instruments</td><td></td></tr>
+<tr><td>3</td><td>Thermograph</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 052  Geostationary imager satellite channels used</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>1</td><td>0.55 - 0.75</td><td></td></tr>
+<tr><td>2</td><td>2</td><td>3.9</td><td></td></tr>
+<tr><td>3</td><td>3</td><td>6.7</td><td></td></tr>
+<tr><td>4</td><td>4</td><td>10.7</td><td></td></tr>
+<tr><td>5</td><td>5</td><td>12.0</td><td></td></tr>
+<tr><td>All 6</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
+</div>
+<p class="fxy-heading">0 02 053  GOES-I/M brightness temperature characteristics</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Observed brightness temperature</td><td></td></tr>
+<tr><td>1</td><td>Brightness temperature with bias correction applied</td><td></td></tr>
+<tr><td>2</td><td>Brightness temperature calculated from first guess</td><td></td></tr>
+<tr><td>3</td><td>Brightness temperature calculated from sounding</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 054  GOES-I/M soundings parameter characteristics</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Parameter derived using observed sounder brightness temperatures</td><td></td></tr>
+<tr><td>1</td><td>Parameter derived using observed imager brightness temperatures</td><td></td></tr>
+<tr><td>2</td><td>Parameter derived using first guess information</td><td></td></tr>
+<tr><td>3</td><td>Parameter derived using NMC analysis information</td><td></td></tr>
+<tr><td>4</td><td>Parameter derived using radiosonde information</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 055  Geostationary soundings statistical parameters</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Statistics generated comparing retrieval versus radiosonde</td><td></td></tr>
+<tr><td>1</td><td>Statistics generated comparing retrieval versus first guess</td><td></td></tr>
+<tr><td>2</td><td>Statistics generated comparing radiosonde versus first guess</td><td></td></tr>
+<tr><td>3</td><td>Statistics generated comparing observed versus retrieval</td><td></td></tr>
+<tr><td>4</td><td>Statistics generated comparing observed versus first guess</td><td></td></tr>
+<tr><td>5</td><td>Statistics generated comparing radiosonde versus imager</td><td></td></tr>
+<tr><td>6</td><td>Statistics generated comparing radiosonde versus sounder</td><td></td></tr>
+<tr><td>7</td><td>Statistics generated for radiosonde</td><td></td></tr>
+<tr><td>8</td><td>Statistics generated for first guess</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 056  Geostationary soundings accuracy statistics</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sums of differences</td><td></td></tr>
+<tr><td>1</td><td>Sums of squared differences</td><td></td></tr>
+<tr><td>2</td><td>Sample size</td><td></td></tr>
+<tr><td>3</td><td>Minimum difference</td><td></td></tr>
+<tr><td>4</td><td>Maximum difference</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 057  Origin of first-guess information for GOES-I/M soundings</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nested Grid Model (NGM)</td><td></td></tr>
+<tr><td>1</td><td>Aviation Model (AVN)</td><td></td></tr>
+<tr><td>2</td><td>Medium Range Forecast (MRF) Model</td><td></td></tr>
+<tr><td>3</td><td>Global Data Assimilation System (GDAS) Forecast Model</td><td></td></tr>
+<tr><td>4</td><td>Prior soundings (within 3 hours of current time)</td><td></td></tr>
+<tr><td>5</td><td>Climatology</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 058  Valid times of first-guess information for GOES-I/M soundings</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>12 hour and 18 hour</td><td></td></tr>
+<tr><td>1</td><td>18 hour and 24 hour</td><td></td></tr>
+<tr><td>2</td><td>6 hour and 12 hour</td><td></td></tr>
+<tr><td>3</td><td>Greater than 24 hours</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 059  Origin of analysis information for GOES-I/M soundings</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>NCEP Nested Grid Model (NGM) Analysis</td><td></td></tr>
+<tr><td>1</td><td>NCEP Aviation Model (AVN) Analysis</td><td></td></tr>
+<tr><td>2</td><td>NCEP Medium Range Forecast (MRF) Model Analysis</td><td></td></tr>
+<tr><td>3</td><td>NCEP Global Data Assimilation System (GDAS) Forecast Model Analysis</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 060  Origin of surface information for GOES-I/M soundings</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Current surface hourly reports</td><td></td></tr>
+<tr><td>1</td><td>Current ship reports</td><td></td></tr>
+<tr><td>2</td><td>Current buoy reports</td><td></td></tr>
+<tr><td>3</td><td>One hour old surface hourly reports</td><td></td></tr>
+<tr><td>4</td><td>One hour old ship reports</td><td></td></tr>
+<tr><td>5</td><td>One hour old buoy reports</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 061  Aircraft navigational system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inertial navigation system</td><td></td></tr>
+<tr><td>1</td><td>OMEGA</td><td></td></tr>
+<tr><td>2-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 062  Type of aircraft data relay system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>ASDAR</td><td></td></tr>
+<tr><td>1</td><td>ASDAR (ACARS also available but not operative)</td><td></td></tr>
+<tr><td>2</td><td>ASDAR (ACARS also available and operative)</td><td></td></tr>
+<tr><td>3</td><td>ACARS</td><td></td></tr>
+<tr><td>4</td><td>ACARS (ASDAR also available but not operative)</td><td></td></tr>
+<tr><td>5</td><td>ACARS (ASDAR also available and operative)</td><td></td></tr>
+<tr><td>6-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 064  Aircraft roll angle quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Bad</td><td>Note 20: For MOD OCNL SEV code as 12 (extreme in clear air) or 13 (extreme in cloud).</td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 066  Radiosonde ground receiving system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>InterMet IMS 2000</td><td></td></tr>
+<tr><td>1</td><td>InterMet IMS 1500C</td><td></td></tr>
+<tr><td>2</td><td>Shanghai GTC1</td><td></td></tr>
+<tr><td>3</td><td>Nanjing GTC2</td><td></td></tr>
+<tr><td>4</td><td>Nanjing GFE(L)1</td><td></td></tr>
+<tr><td>5</td><td>MARL-A radar</td><td></td></tr>
+<tr><td>6</td><td>VEKTOR-M radar</td><td></td></tr>
+<tr><td>7-61</td><td>Reserved</td><td></td></tr>
+<tr><td>62</td><td>Other</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 070  PDF specification of latitude/longitude</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Actual location in seconds</td><td></td></tr>
+<tr><td>1</td><td>Actual location in minutes</td><td></td></tr>
+<tr><td>2</td><td>Actual location in degrees</td><td></td></tr>
+<tr><td>3</td><td>Actual location in decidegrees</td><td></td></tr>
+<tr><td>4</td><td>Actual location in centidegrees</td><td></td></tr>
+<tr><td>5</td><td>Referenced to checkpoint in seconds</td><td></td></tr>
+<tr><td>6</td><td>Referenced to checkpoint in minutes</td><td></td></tr>
+<tr><td>7</td><td>Referenced to checkpoint in degrees</td><td></td></tr>
+<tr><td>8</td><td>Referenced to checkpoint in decidegrees</td><td></td></tr>
+<tr><td>9</td><td>Referenced to checkpoint in centidegrees</td><td></td></tr>
+<tr><td>10</td><td>Actual location in tenths of a minute</td><td></td></tr>
+<tr><td>11</td><td>Referenced to checkpoint in tenths of a minute</td><td></td></tr>
+<tr><td>12-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 080  Balloon manufacturer</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Kaysam</td><td></td></tr>
+<tr><td>1</td><td>Totex</td><td></td></tr>
+<tr><td>2</td><td>KKS</td><td></td></tr>
+<tr><td>3</td><td>Guangzhou Shuangyi (China)</td><td></td></tr>
+<tr><td>4</td><td>ChemChina Zhuzhou (China)</td><td></td></tr>
+<tr><td>5</td><td>WindBorne</td><td></td></tr>
+<tr><td>6-61</td><td>Reserved</td><td></td></tr>
+<tr><td>62</td><td>Other</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 081  Type of balloon</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>GP26</td><td></td></tr>
+<tr><td>1</td><td>GP28</td><td></td></tr>
+<tr><td>2</td><td>GP30</td><td></td></tr>
+<tr><td>3</td><td>HM26</td><td></td></tr>
+<tr><td>4</td><td>HM28</td><td></td></tr>
+<tr><td>5</td><td>HM30</td><td></td></tr>
+<tr><td>6</td><td>SV16</td><td></td></tr>
+<tr><td>7</td><td>Totex TA type balloons</td><td></td></tr>
+<tr><td>8</td><td>Totex TX type balloons</td><td></td></tr>
+<tr><td>9-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>Other</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 083  Type of balloon shelter</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>High bay</td><td></td></tr>
+<tr><td>1</td><td>Low bay</td><td></td></tr>
+<tr><td>2</td><td>Balloon-inflated launch system (BILS)</td><td></td></tr>
+<tr><td>3</td><td>Roof-top BILS</td><td></td></tr>
+<tr><td>4</td><td>Automated unmanned sounding system</td><td></td></tr>
+<tr><td>5-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Other</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 084  Type of gas used in balloon</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Hydrogen</td><td></td></tr>
+<tr><td>1</td><td>Helium</td><td></td></tr>
+<tr><td>2</td><td>Natural gas</td><td></td></tr>
+<tr><td>3-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Other</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 092  Ozone profile computation method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>UV channel based retrieval</td><td></td></tr>
+<tr><td>1</td><td>Visible channel based retrieval</td><td></td></tr>
+<tr><td>2</td><td>Combined UV based retrieval and visible based retrieval</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 095  Type of pressure sensor</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Capacitance aneroid</td><td></td></tr>
+<tr><td>1</td><td>Derived from GPS</td><td></td></tr>
+<tr><td>2</td><td>Resistive strain gauge</td><td></td></tr>
+<tr><td>3</td><td>Silicon capacitor</td><td></td></tr>
+<tr><td>4</td><td>Derived from radar height</td><td></td></tr>
+<tr><td>5-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>Other</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 096  Type of temperature sensor</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Rod thermistor</td><td></td></tr>
+<tr><td>1</td><td>Bead thermistor</td><td></td></tr>
+<tr><td>2</td><td>Capacitance bead</td><td></td></tr>
+<tr><td>3</td><td>Capacitance wire</td><td></td></tr>
+<tr><td>4</td><td>Resistive sensor</td><td></td></tr>
+<tr><td>5</td><td>Chip thermistor</td><td></td></tr>
+<tr><td>6</td><td>Mercury</td><td></td></tr>
+<tr><td>7</td><td>Alcohol/glycol</td><td></td></tr>
+<tr><td>8</td><td>Platinum resistance thermometer</td><td></td></tr>
+<tr><td>9</td><td>Thermistor</td><td></td></tr>
+<tr><td>10</td><td>Thermocouple</td><td></td></tr>
+<tr><td>11-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 097  Type of humidity sensor</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>VIZ Mark II carbon hygristor</td><td></td></tr>
+<tr><td>1</td><td>VIZ B2 hygristor</td><td></td></tr>
+<tr><td>2</td><td>Vaisala A-Humicap</td><td></td></tr>
+<tr><td>3</td><td>Vaisala H-Humicap</td><td></td></tr>
+<tr><td>4</td><td>Capacitance sensor</td><td></td></tr>
+<tr><td>5</td><td>Vaisala RS90</td><td></td></tr>
+<tr><td>6</td><td>Sippican Mark IIA carbon hygristor</td><td></td></tr>
+<tr><td>7</td><td>Twin alternatively heated Humicap capacitance sensor</td><td></td></tr>
+<tr><td>8</td><td>Humicap capacitance sensor with active de-icing method</td><td></td></tr>
+<tr><td>9</td><td>Carbon hygristor</td><td></td></tr>
+<tr><td>10</td><td>Psychrometer</td><td></td></tr>
+<tr><td>11</td><td>Capacitive (polymer)</td><td></td></tr>
+<tr><td>12</td><td>Capacitive (ceramic, including metal oxide)</td><td></td></tr>
+<tr><td>13</td><td>Resistive (generic)</td><td></td></tr>
+<tr><td>14</td><td>Resistive (salt polymer)</td><td></td></tr>
+<tr><td>15</td><td>Resistive (conductive polymer)</td><td></td></tr>
+<tr><td>16</td><td>Thermal conductivity</td><td></td></tr>
+<tr><td>17</td><td>Gravimetric</td><td></td></tr>
+<tr><td>18</td><td>Paper-metal coil</td><td></td></tr>
+<tr><td>19</td><td>Ordinary human hair</td><td></td></tr>
+<tr><td>20</td><td>Rolled hair (torsion)</td><td></td></tr>
+<tr><td>21</td><td>Goldbeater&#x27;s skin</td><td></td></tr>
+<tr><td>22</td><td>Chilled mirror hygrometer</td><td></td></tr>
+<tr><td>23</td><td>Dew cell</td><td></td></tr>
+<tr><td>24</td><td>Optical absorption sensor</td><td></td></tr>
+<tr><td>25-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 099  Polarization</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>HH polarization</td><td></td></tr>
+<tr><td>1</td><td>VV polarization</td><td></td></tr>
+<tr><td>2</td><td>HV polarization real valued component</td><td></td></tr>
+<tr><td>3</td><td>HV polarization imaginary valued component</td><td></td></tr>
+<tr><td>4</td><td>HV polarization</td><td></td></tr>
+<tr><td>5</td><td>VH polarization</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 101  Type of antenna</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Centre front-fed paraboloid</td><td></td></tr>
+<tr><td>1</td><td>Offset front-fed paraboloid</td><td></td></tr>
+<tr><td>2</td><td>Centre Cassegrain paraboloid</td><td></td></tr>
+<tr><td>3</td><td>Offset Cassegrain paraboloid</td><td></td></tr>
+<tr><td>4</td><td>Planar array</td><td></td></tr>
+<tr><td>5</td><td>Coaxial-collinear array</td><td></td></tr>
+<tr><td>6</td><td>Yagi elements array</td><td></td></tr>
+<tr><td>7</td><td>Microstrip</td><td></td></tr>
+<tr><td>8-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Other</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 103  Radome</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Radar antenna is protected by a radome</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 104  Antenna polarization</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Horizontal polarization</td><td></td></tr>
+<tr><td>1</td><td>Vertical polarization</td><td></td></tr>
+<tr><td>2</td><td>Right circular polarization</td><td></td></tr>
+<tr><td>3</td><td>Left circular polarization</td><td></td></tr>
+<tr><td>4</td><td>Horizontal and vertical polarization</td><td></td></tr>
+<tr><td>5</td><td>Right and left circular polarization</td><td></td></tr>
+<tr><td>6</td><td>Quasi-horizontal polarization</td><td></td></tr>
+<tr><td>7</td><td>Quasi-vertical polarization</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 115  Type of surface observing equipment</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>PDB</td><td></td></tr>
+<tr><td>1</td><td>RSOIS</td><td></td></tr>
+<tr><td>2</td><td>ASOS</td><td></td></tr>
+<tr><td>3</td><td>Psychrometer</td><td></td></tr>
+<tr><td>4</td><td>F420</td><td></td></tr>
+<tr><td>5-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>Other</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 119  RA-2 instrument operations</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Intermediate frequency calibration mode (IF CAL)</td><td></td></tr>
+<tr><td>1</td><td>Built-in test equipment digital (BITE DGT)</td><td></td></tr>
+<tr><td>2</td><td>Built-in test equipment radio frequency (BITE RF)</td><td></td></tr>
+<tr><td>3</td><td>Preset tracking (PSET TRK)</td><td></td></tr>
+<tr><td>4</td><td>Preset LOOP OUT</td><td></td></tr>
+<tr><td>5</td><td>ACQUISITION</td><td></td></tr>
+<tr><td>6</td><td>TRACKING</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 131  Sensitivity time control (STC)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>STC operational</td><td></td></tr>
+<tr><td>All 2</td><td>Missing values</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 137  Radar dual PRF ratio</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>3:2</td><td></td></tr>
+<tr><td>2</td><td>4:3</td><td></td></tr>
+<tr><td>3</td><td>5:4</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 138  Antenna rotation direction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Clockwise rotation</td><td></td></tr>
+<tr><td>2</td><td>Counterclockwise rotation</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 139  SIRAL instrument configuration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>SIRAL nominal</td><td></td></tr>
+<tr><td>1</td><td>SIRAL redundant</td><td></td></tr>
+<tr><td>2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 143  Ozone instrument type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Brewer spectrophotometer</td><td></td></tr>
+<tr><td>2</td><td>Caver Teichert</td><td></td></tr>
+<tr><td>3</td><td>Dobson</td><td></td></tr>
+<tr><td>4</td><td>Dobson (Japan)</td><td></td></tr>
+<tr><td>5</td><td>Ehmet</td><td></td></tr>
+<tr><td>6</td><td>Fecker telescope</td><td></td></tr>
+<tr><td>7</td><td>Hoelper</td><td></td></tr>
+<tr><td>8</td><td>Jodmeter</td><td></td></tr>
+<tr><td>9</td><td>Filter Ozonometer M-83</td><td></td></tr>
+<tr><td>10</td><td>Mast</td><td></td></tr>
+<tr><td>11</td><td>Oxford</td><td></td></tr>
+<tr><td>12</td><td>Paetzold</td><td></td></tr>
+<tr><td>13</td><td>Regener</td><td></td></tr>
+<tr><td>14</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>15</td><td>Vassy filter ozonometer</td><td></td></tr>
+<tr><td>16</td><td>Carbon iodide</td><td></td></tr>
+<tr><td>17</td><td>Surface ozone bubbler</td><td></td></tr>
+<tr><td>18</td><td>Filter ozonometer M-124</td><td></td></tr>
+<tr><td>19</td><td>ECC sonde</td><td></td></tr>
+<tr><td>20-126</td><td>Reserved</td><td></td></tr>
+<tr><td>127</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 144  Light source type for Brewer spectrophotometer</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Direct sun</td><td></td></tr>
+<tr><td>1</td><td>Direct sun, attenuator #1</td><td>Note 38: n/a</td></tr>
+<tr><td>2</td><td>Direct sun, attenuator #2</td><td>Note 38: n/a</td></tr>
+<tr><td>3</td><td>Focused moon</td><td></td></tr>
+<tr><td>4</td><td>Focused sun</td><td></td></tr>
+<tr><td>5</td><td>Focused sun corrected with adjacent sky measurements</td><td></td></tr>
+<tr><td>6</td><td>Zenith sky</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 145  Wavelength setting for Dobson instruments</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Wavelengths AD ordinary setting</td><td></td></tr>
+<tr><td>1</td><td>Wavelengths BD ordinary setting</td><td></td></tr>
+<tr><td>2</td><td>Wavelengths CD ordinary setting</td><td></td></tr>
+<tr><td>3</td><td>Wavelengths CC&#x27; ordinary setting</td><td></td></tr>
+<tr><td>4</td><td>Wavelengths AD focused image</td><td></td></tr>
+<tr><td>5</td><td>Wavelengths BD focused image</td><td></td></tr>
+<tr><td>6</td><td>Wavelengths CD focused image</td><td></td></tr>
+<tr><td>7</td><td>Wavelengths CC&#x27; focused image</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 146  Source conditions for Dobson instruments</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>On direct sun</td><td></td></tr>
+<tr><td>1</td><td>On direct moon</td><td></td></tr>
+<tr><td>2</td><td>On blue zenith sky</td><td></td></tr>
+<tr><td>3</td><td>On zenith cloud (uniform stratified layer of small opacity)</td><td></td></tr>
+<tr><td>4</td><td>On zenith cloud (uniform or moderately variable layer of medium opacity)</td><td></td></tr>
+<tr><td>5</td><td>On zenith cloud (uniform or moderately variable layer of large opacity)</td><td></td></tr>
+<tr><td>6</td><td>On zenith cloud (highly variable opacity, with or without precipitation)</td><td></td></tr>
+<tr><td>7</td><td>On zenith cloud (fog)</td><td></td></tr>
+<tr><td>8</td><td>On zenith haze</td><td></td></tr>
+<tr><td>9</td><td>On direct sun through thin cloud, fog or haze</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 147  Method of transmission to collection centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Direct leased circuit</td><td></td></tr>
+<tr><td>2</td><td>Dialled up connection</td><td></td></tr>
+<tr><td>3</td><td>Internet ISP </td><td></td></tr>
+<tr><td>4</td><td>DCP via satellite (MTSAT, METEOSAT, etc.)</td><td></td></tr>
+<tr><td>5</td><td>VSAT </td><td></td></tr>
+<tr><td>6</td><td>GAN, BGAN</td><td></td></tr>
+<tr><td>7</td><td>Thiss terminal</td><td></td></tr>
+<tr><td>8</td><td>Iridium satellites</td><td></td></tr>
+<tr><td>9</td><td>Mobile telephony</td><td></td></tr>
+<tr><td>10-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 148  Data collection and/or location system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Argos</td><td></td></tr>
+<tr><td>2</td><td>GPS</td><td></td></tr>
+<tr><td>3</td><td>GOES DCP</td><td></td></tr>
+<tr><td>4</td><td>METEOSAT DCP</td><td></td></tr>
+<tr><td>5</td><td>ORBCOMM</td><td></td></tr>
+<tr><td>6</td><td>INMARSAT</td><td></td></tr>
+<tr><td>7</td><td>Iridium</td><td></td></tr>
+<tr><td>8</td><td>Iridium and GPS</td><td></td></tr>
+<tr><td>9</td><td>Argos-3</td><td></td></tr>
+<tr><td>10</td><td>Argos-4</td><td></td></tr>
+<tr><td>11-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 149  Type of data buoy</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unspecified drifting buoy</td><td></td></tr>
+<tr><td>1</td><td>Standard Lagrangian drifter (Global Drifter Programme)</td><td></td></tr>
+<tr><td>2</td><td>Standard FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy)</td><td></td></tr>
+<tr><td>3</td><td>Wind measuring FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy)</td><td></td></tr>
+<tr><td>4</td><td>Ice drifter</td><td></td></tr>
+<tr><td>5</td><td>SVPG Standard Lagrangian drifter with GPS</td><td></td></tr>
+<tr><td>6</td><td>SVP-HR drifter with high-resolution temperature or thermistor string</td><td></td></tr>
+<tr><td>7</td><td>Reserved</td><td></td></tr>
+<tr><td>8</td><td>Unspecified subsurface float</td><td></td></tr>
+<tr><td>9</td><td>SOFAR</td><td></td></tr>
+<tr><td>10</td><td>ALACE</td><td></td></tr>
+<tr><td>11</td><td>MARVOR</td><td></td></tr>
+<tr><td>12</td><td>RAFOS</td><td></td></tr>
+<tr><td>13</td><td>PROVOR</td><td></td></tr>
+<tr><td>14</td><td>SOLO</td><td></td></tr>
+<tr><td>15</td><td>APEX</td><td></td></tr>
+<tr><td>16</td><td>Unspecified moored buoy</td><td></td></tr>
+<tr><td>17</td><td>Nomad</td><td></td></tr>
+<tr><td>18</td><td>3-metre discus</td><td></td></tr>
+<tr><td>19</td><td>10-12-metre discus</td><td></td></tr>
+<tr><td>20</td><td>ODAS 30 series</td><td></td></tr>
+<tr><td>21</td><td>ATLAS (e.g. TAO area)</td><td></td></tr>
+<tr><td>22</td><td>TRITON buoy</td><td></td></tr>
+<tr><td>23</td><td>FLEX mooring (e.g. TIP area)</td><td></td></tr>
+<tr><td>24</td><td>Omnidirectional waverider</td><td></td></tr>
+<tr><td>25</td><td>Directional waverider</td><td></td></tr>
+<tr><td>26</td><td>Subsurface ARGO float</td><td></td></tr>
+<tr><td>27</td><td>PALACE</td><td></td></tr>
+<tr><td>28</td><td>NEMO</td><td></td></tr>
+<tr><td>29</td><td>NINJA</td><td></td></tr>
+<tr><td>30</td><td>Ice buoy/float (POPS or ITP)</td><td></td></tr>
+<tr><td>31-33</td><td>Reserved</td><td></td></tr>
+<tr><td>34</td><td>Mooring oceanographic</td><td></td></tr>
+<tr><td>35</td><td>Mooring meteorological</td><td></td></tr>
+<tr><td>36</td><td>Mooring multidisciplinary (OceanSITES)</td><td></td></tr>
+<tr><td>37</td><td>Mooring tide gauge or tsunami buoy</td><td></td></tr>
+<tr><td>38</td><td>Ice beacon</td><td></td></tr>
+<tr><td>39</td><td>Ice mass balance buoy</td><td></td></tr>
+<tr><td>40-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 150  TOVS/ATOVS/AVHRR instrumentation channel number</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>HIRS 1</td><td></td></tr>
+<tr><td>2</td><td>HIRS 2</td><td></td></tr>
+<tr><td>3</td><td>HIRS 3</td><td></td></tr>
+<tr><td>4</td><td>HIRS 4</td><td></td></tr>
+<tr><td>5</td><td>HIRS 5</td><td></td></tr>
+<tr><td>6</td><td>HIRS 6</td><td></td></tr>
+<tr><td>7</td><td>HIRS 7</td><td></td></tr>
+<tr><td>8</td><td>HIRS 8</td><td></td></tr>
+<tr><td>9</td><td>HIRS 9</td><td></td></tr>
+<tr><td>10</td><td>HIRS 10</td><td></td></tr>
+<tr><td>11</td><td>HIRS 11</td><td></td></tr>
+<tr><td>12</td><td>HIRS 12</td><td></td></tr>
+<tr><td>13</td><td>HIRS 13</td><td></td></tr>
+<tr><td>14</td><td>HIRS 14</td><td></td></tr>
+<tr><td>15</td><td>HIRS 15</td><td></td></tr>
+<tr><td>16</td><td>HIRS 16</td><td></td></tr>
+<tr><td>17</td><td>HIRS 17</td><td></td></tr>
+<tr><td>18</td><td>HIRS 18</td><td></td></tr>
+<tr><td>19</td><td>HIRS 19</td><td></td></tr>
+<tr><td>20</td><td>HIRS 20</td><td></td></tr>
+<tr><td>21</td><td>MSU 1</td><td></td></tr>
+<tr><td>22</td><td>MSU 2</td><td></td></tr>
+<tr><td>23</td><td>MSU 3</td><td></td></tr>
+<tr><td>24</td><td>MSU 4</td><td></td></tr>
+<tr><td>25</td><td>SSU 1</td><td></td></tr>
+<tr><td>26</td><td>SSU 2</td><td></td></tr>
+<tr><td>27</td><td>SSU 3</td><td></td></tr>
+<tr><td>28</td><td>AMSU-A 1</td><td></td></tr>
+<tr><td>29</td><td>AMSU-A 2</td><td></td></tr>
+<tr><td>30</td><td>AMSU-A 3</td><td></td></tr>
+<tr><td>31</td><td>AMSU-A 4</td><td></td></tr>
+<tr><td>32</td><td>AMSU-A 5</td><td></td></tr>
+<tr><td>33</td><td>AMSU-A 6</td><td></td></tr>
+<tr><td>34</td><td>AMSU-A 7</td><td></td></tr>
+<tr><td>35</td><td>AMSU-A 8</td><td></td></tr>
+<tr><td>36</td><td>AMSU-A 9</td><td></td></tr>
+<tr><td>37</td><td>AMSU-A 10</td><td></td></tr>
+<tr><td>38</td><td>AMSU-A 11</td><td></td></tr>
+<tr><td>39</td><td>AMSU-A 12</td><td></td></tr>
+<tr><td>40</td><td>AMSU-A 13</td><td></td></tr>
+<tr><td>41</td><td>AMSU-A 14</td><td></td></tr>
+<tr><td>42</td><td>AMSU-A 15</td><td></td></tr>
+<tr><td>43</td><td>AMSU-B 1 / MHS 1</td><td></td></tr>
+<tr><td>44</td><td>AMSU-B 2 / MHS 2</td><td></td></tr>
+<tr><td>45</td><td>AMSU-B 3 / MHS 3</td><td></td></tr>
+<tr><td>46</td><td>AMSU-B 4 / MHS 4</td><td></td></tr>
+<tr><td>47</td><td>AMSU-B 5 / MHS 5</td><td></td></tr>
+<tr><td>48</td><td>AVHRR 1</td><td></td></tr>
+<tr><td>49</td><td>AVHRR 2</td><td></td></tr>
+<tr><td>50</td><td>AVHRR 3a</td><td></td></tr>
+<tr><td>51</td><td>AVHRR 3b</td><td></td></tr>
+<tr><td>52</td><td>AVHRR 4</td><td></td></tr>
+<tr><td>53</td><td>AVHRR 5</td><td></td></tr>
+<tr><td>54-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 151  Radiometer identifier</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>HIRS</td><td></td></tr>
+<tr><td>1</td><td>MSU</td><td></td></tr>
+<tr><td>2</td><td>SSU</td><td></td></tr>
+<tr><td>3</td><td>AMSU-A1-1</td><td></td></tr>
+<tr><td>4</td><td>AMSU-A1-2</td><td></td></tr>
+<tr><td>5</td><td>AMSU-A2</td><td></td></tr>
+<tr><td>6</td><td>AMSU-B</td><td></td></tr>
+<tr><td>7</td><td>AVHRR</td><td></td></tr>
+<tr><td>8</td><td>Reserved</td><td></td></tr>
+<tr><td>9</td><td>MHS</td><td></td></tr>
+<tr><td>10-2046</td><td>Reserved</td><td></td></tr>
+<tr><td>2047</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 152  Satellite instrument used in data processing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>High-resolution infrared sounder (HIRS)</td><td></td></tr>
+<tr><td>2</td><td>Microwave sounding unit (MSU)</td><td></td></tr>
+<tr><td>3</td><td>Stratospheric sounding unit (SSU)</td><td></td></tr>
+<tr><td>4</td><td>AMI wind mode</td><td></td></tr>
+<tr><td>5</td><td>AMI wave mode</td><td></td></tr>
+<tr><td>6</td><td>AMI image mode</td><td></td></tr>
+<tr><td>7</td><td>RADAR altimeter</td><td></td></tr>
+<tr><td>8</td><td>ATSR</td><td></td></tr>
+<tr><td>9</td><td>Geostationary imager</td><td></td></tr>
+<tr><td>10</td><td>Geostationary sounder</td><td></td></tr>
+<tr><td>11</td><td>Geostationary Earth radiation (GERB)</td><td></td></tr>
+<tr><td>12</td><td>Multi-channel scanning radiometer</td><td></td></tr>
+<tr><td>13</td><td>Polar-orbiting imager</td><td></td></tr>
+<tr><td>14-30</td><td>Reserved</td><td></td></tr>
+<tr><td>All 31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 158  RA-2 instrument</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Mismatch in RED VEC HPA</td><td></td></tr>
+<tr><td>2</td><td>Mismatch in RED VEC RFSS</td><td></td></tr>
+<tr><td>3</td><td>PTR calibration band 320 MHz (Ku)</td><td></td></tr>
+<tr><td>4</td><td>PTR calibration band 80 MHz (Ku)</td><td></td></tr>
+<tr><td>5</td><td>PTR calibration band 20 MHz (Ku)</td><td></td></tr>
+<tr><td>6</td><td>PTR calibration band 160 MHz (S)</td><td></td></tr>
+<tr><td>7</td><td>Ku flight calibration parameters available</td><td></td></tr>
+<tr><td>8</td><td>S flight calibration parameters available</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 159  MWR instrument</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Temperature inconsistency</td><td></td></tr>
+<tr><td>2</td><td>Data is missing</td><td></td></tr>
+<tr><td>3</td><td>Redundancy channel</td><td></td></tr>
+<tr><td>4</td><td>Power bus protection</td><td></td></tr>
+<tr><td>5</td><td>Overvoltage/Overload protection</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 160  Wavelength of the radar</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>10 to less than 20 mm</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>20 to less than 40 mm</td><td></td></tr>
+<tr><td>4</td><td>Reserved</td><td></td></tr>
+<tr><td>5</td><td>40 to less than 60 mm</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>60 to less than 90 mm</td><td></td></tr>
+<tr><td>8</td><td>90 to less than 110 mm</td><td></td></tr>
+<tr><td>9</td><td>110 mm and greater</td><td></td></tr>
+<tr><td>10-14</td><td>Not used</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 161  Wind processing method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-10</td><td>Reserved</td><td></td></tr>
+<tr><td>11</td><td>Wind height calculated from median cloud-top pressure of target</td><td></td></tr>
+<tr><td>12</td><td>Target is cloudy</td><td></td></tr>
+<tr><td>13</td><td>Low-level inversion</td><td></td></tr>
+<tr><td>14</td><td>Cross correlation contribution (CCC) method</td><td></td></tr>
+<tr><td>15</td><td>Nested tracking</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 162  Extended height assignment method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Auto editor</td><td></td></tr>
+<tr><td>1</td><td>IRW height assignment</td><td></td></tr>
+<tr><td>2</td><td>WV height assignment</td><td></td></tr>
+<tr><td>3</td><td>H2O intercept height assignment</td><td></td></tr>
+<tr><td>4</td><td>CO2 slicing height assignment</td><td></td></tr>
+<tr><td>5</td><td>Low pixel max gradient</td><td></td></tr>
+<tr><td>6</td><td>Higher pixel max gradient</td><td></td></tr>
+<tr><td>7</td><td>Primary height assignment</td><td></td></tr>
+<tr><td>8</td><td>Layer thickness assignment</td><td></td></tr>
+<tr><td>9</td><td>Cumulative contribution function - 10 per cent height</td><td></td></tr>
+<tr><td>10</td><td>Cumulative contribution function - 50 per cent height</td><td></td></tr>
+<tr><td>11</td><td>Cumulative contribution function - 90 per cent height</td><td></td></tr>
+<tr><td>12</td><td>Cumulative contribution function - height of maximum gradient</td><td></td></tr>
+<tr><td>13</td><td>IR/two WV channel rationing method</td><td></td></tr>
+<tr><td>14</td><td>Composite height assignment</td><td></td></tr>
+<tr><td>15</td><td>Optimal estimation</td><td></td></tr>
+<tr><td>16</td><td>Inversion correction</td><td></td></tr>
+<tr><td>17</td><td>Geometric height assignment</td><td></td></tr>
+<tr><td>18-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 163  Height assignment method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Auto editor</td><td></td></tr>
+<tr><td>1</td><td>IRW height assignment</td><td></td></tr>
+<tr><td>2</td><td>WV height assignment</td><td></td></tr>
+<tr><td>3</td><td>H2O intercept height assignment</td><td></td></tr>
+<tr><td>4</td><td>CO2 slicing height assignment</td><td></td></tr>
+<tr><td>5</td><td>Low pixel max gradient</td><td></td></tr>
+<tr><td>6</td><td>Higher pixel max gradient</td><td></td></tr>
+<tr><td>7</td><td>Primary height assignment</td><td></td></tr>
+<tr><td>8</td><td>Layer thickness assignment</td><td></td></tr>
+<tr><td>9</td><td>Cumulative contribution function - 10 per cent height</td><td></td></tr>
+<tr><td>10</td><td>Cumulative contribution function - 50 per cent height</td><td></td></tr>
+<tr><td>11</td><td>Cumulative contribution function - 90 per cent height</td><td></td></tr>
+<tr><td>12</td><td>Cumulative contribution function - height of maximum gradient</td><td></td></tr>
+<tr><td>13</td><td>IR / two WV channel ratioing method</td><td></td></tr>
+<tr><td>14</td><td>Composite height assignment</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 164  Tracer correlation method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>LP - Norms least square minimum</td><td></td></tr>
+<tr><td>1</td><td>EN - Euclidean norm with radiance correlation</td><td></td></tr>
+<tr><td>2</td><td>CC - Cross correlation</td><td></td></tr>
+<tr><td>3</td><td>Stereo matching</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 165  Radiance type flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Clear path</td><td></td></tr>
+<tr><td>2</td><td>Partly cloudy path</td><td></td></tr>
+<tr><td>3</td><td>Cloudy path</td><td></td></tr>
+<tr><td>4</td><td>Apodized</td><td></td></tr>
+<tr><td>5</td><td>Unapodized</td><td></td></tr>
+<tr><td>6</td><td>Reconstructed</td><td></td></tr>
+<tr><td>7</td><td>Cloud cleared</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>All 15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 166  Radiance type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Type not defined</td><td></td></tr>
+<tr><td>1</td><td>Automated statistical regression</td><td></td></tr>
+<tr><td>2</td><td>Clear path</td><td></td></tr>
+<tr><td>3</td><td>Partly cloudy path</td><td></td></tr>
+<tr><td>4</td><td>Cloudy path</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 167  Radiance computational method</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Method not defined</td><td></td></tr>
+<tr><td>1</td><td>1b raw radiance</td><td></td></tr>
+<tr><td>2</td><td>Processed radiance</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 169  Anemometer type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cup rotor</td><td></td></tr>
+<tr><td>1</td><td>Propeller rotor</td><td></td></tr>
+<tr><td>2</td><td>Wind Observation Through Ambient Noise (WOTAN)</td><td></td></tr>
+<tr><td>3</td><td>Sonic</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 170  Aircraft humidity sensors</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>SpectraSensors WVSS-II, Version 1</td><td></td></tr>
+<tr><td>1</td><td>SpectraSensors WVSS-II, Version 2</td><td></td></tr>
+<tr><td>2</td><td>SpectraSensors WVSS-II, Version 3</td><td></td></tr>
+<tr><td>3-61</td><td>Reserved</td><td></td></tr>
+<tr><td>62</td><td>Other</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 172  Product type for retrieved atmospheric gases</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Retrieval from a nadir sounding</td><td></td></tr>
+<tr><td>2</td><td>Retrieval from a limb sounding</td><td></td></tr>
+<tr><td>3</td><td>Retrieval from an occultation sounding</td><td></td></tr>
+<tr><td>4-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 175  Method of precipitation measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual measurement</td><td></td></tr>
+<tr><td>1</td><td>Tipping bucket method</td><td></td></tr>
+<tr><td>2</td><td>Weighing method</td><td></td></tr>
+<tr><td>3</td><td>Optical method</td><td></td></tr>
+<tr><td>4</td><td>Pressure method</td><td></td></tr>
+<tr><td>5</td><td>Float method</td><td></td></tr>
+<tr><td>6</td><td>Drop counter method</td><td></td></tr>
+<tr><td>7-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 176  Method of state of ground measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Video camera method</td><td></td></tr>
+<tr><td>2</td><td>Infrared method</td><td></td></tr>
+<tr><td>3</td><td>Laser method</td><td></td></tr>
+<tr><td>4-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 177  Method of snow depth measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Ultrasonic method</td><td></td></tr>
+<tr><td>2</td><td>Video camera method</td><td></td></tr>
+<tr><td>3</td><td>Laser method</td><td></td></tr>
+<tr><td>4-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 178  Method of liquid content measurement of precipitation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Optical method</td><td></td></tr>
+<tr><td>2</td><td>Capacitive method</td><td></td></tr>
+<tr><td>3-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 179  Type of sky condition algorithm</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>VAISALA algorithm</td><td></td></tr>
+<tr><td>2</td><td>ASOS (FAA) algorithm</td><td></td></tr>
+<tr><td>3</td><td>AWOS (Canada) algorithm</td><td></td></tr>
+<tr><td>4-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 180  Main present weather detecting system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Optical scatter system combined with precipitation occurrence sensing system</td><td></td></tr>
+<tr><td>2</td><td>Forward and/or backscatter system of visible light</td><td></td></tr>
+<tr><td>3</td><td>Forward and/or backscatter system of infrared light</td><td></td></tr>
+<tr><td>4</td><td>Infrared light emitting diode (IRED) system</td><td></td></tr>
+<tr><td>5</td><td>Doppler radar system</td><td></td></tr>
+<tr><td>6-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 181  Supplementary present weather sensor</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Rain detector</td><td></td></tr>
+<tr><td>2</td><td>Freezing rain sensor</td><td></td></tr>
+<tr><td>3</td><td>Ice detection sensor</td><td></td></tr>
+<tr><td>4</td><td>Hail and ice pellet sensor</td><td></td></tr>
+<tr><td>5-19</td><td>Reserved</td><td></td></tr>
+<tr><td>20</td><td>Others</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 182  Visibility measurement system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual measurement</td><td></td></tr>
+<tr><td>1</td><td>Transmissometer system (base &gt; 25 m)</td><td></td></tr>
+<tr><td>2</td><td>Transmissometer system (base &lt; 25 m)</td><td></td></tr>
+<tr><td>3</td><td>Forward scatter system</td><td></td></tr>
+<tr><td>4</td><td>Backscatter system</td><td></td></tr>
+<tr><td>5-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 183  Cloud detection system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Ceilometer system</td><td></td></tr>
+<tr><td>2</td><td>Infrared camera system</td><td></td></tr>
+<tr><td>3</td><td>Microwave visual camera system</td><td></td></tr>
+<tr><td>4</td><td>Sky imager system</td><td></td></tr>
+<tr><td>5</td><td>Video time-lapsed camera system</td><td></td></tr>
+<tr><td>6</td><td>Micropulse lidar (MPL) system</td><td></td></tr>
+<tr><td>7-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 184  Type of lightning detection sensor</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual observation</td><td></td></tr>
+<tr><td>1</td><td>Lightning imaging sensor</td><td></td></tr>
+<tr><td>2</td><td>Electrical storm identification sensor</td><td></td></tr>
+<tr><td>3</td><td>Magnetic finder sensor</td><td></td></tr>
+<tr><td>4</td><td>Lightning strike sensor</td><td></td></tr>
+<tr><td>5</td><td>Flash counter</td><td></td></tr>
+<tr><td>6</td><td>ATDnet VLF waveform correlated sensor</td><td></td></tr>
+<tr><td>7-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 185  Method of evaporation measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Manual measurement</td><td></td></tr>
+<tr><td>1</td><td>Balanced floating method</td><td></td></tr>
+<tr><td>2</td><td>Pressure method</td><td></td></tr>
+<tr><td>3</td><td>Ultrasonic method</td><td></td></tr>
+<tr><td>4</td><td>Hydraulic method</td><td></td></tr>
+<tr><td>5-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Others</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 186  Capability to detect precipitation phenomena</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Precipitation-unknown type</td><td></td></tr>
+<tr><td>2</td><td>Liquid precipitation not freezing</td><td></td></tr>
+<tr><td>3</td><td>Liquid freezing precipitation</td><td></td></tr>
+<tr><td>4</td><td>Drizzle</td><td></td></tr>
+<tr><td>5</td><td>Rain</td><td></td></tr>
+<tr><td>6</td><td>Solid precipitation</td><td></td></tr>
+<tr><td>7</td><td>Snow</td><td></td></tr>
+<tr><td>8</td><td>Snow grains</td><td></td></tr>
+<tr><td>9</td><td>Snow pellets</td><td></td></tr>
+<tr><td>10</td><td>Ice pellets</td><td></td></tr>
+<tr><td>11</td><td>Ice crystals</td><td></td></tr>
+<tr><td>12</td><td>Diamond dust</td><td></td></tr>
+<tr><td>13</td><td>Small hail</td><td></td></tr>
+<tr><td>14</td><td>Hail</td><td></td></tr>
+<tr><td>15</td><td>Glaze</td><td></td></tr>
+<tr><td>16</td><td>Rime</td><td></td></tr>
+<tr><td>17</td><td>Soft rime</td><td></td></tr>
+<tr><td>18</td><td>Hard rime</td><td></td></tr>
+<tr><td>19</td><td>Clear ice</td><td></td></tr>
+<tr><td>20</td><td>Wet snow</td><td></td></tr>
+<tr><td>21</td><td>Hoar frost</td><td></td></tr>
+<tr><td>22</td><td>Dew</td><td></td></tr>
+<tr><td>23</td><td>White dew</td><td></td></tr>
+<tr><td>24</td><td>Convective precipitation</td><td></td></tr>
+<tr><td>25-29</td><td>Reserved</td><td></td></tr>
+<tr><td>All 30</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 187  Capability to detect other weather phenomena</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Dust/sand whirl</td><td></td></tr>
+<tr><td>2</td><td>Squalls</td><td></td></tr>
+<tr><td>3</td><td>Sand storm</td><td></td></tr>
+<tr><td>4</td><td>Dust storm</td><td></td></tr>
+<tr><td>5</td><td>Lightning - cloud to surface</td><td></td></tr>
+<tr><td>6</td><td>Lightning - cloud to cloud</td><td></td></tr>
+<tr><td>7</td><td>Lightning - distant</td><td></td></tr>
+<tr><td>8</td><td>Thunderstorm</td><td></td></tr>
+<tr><td>9</td><td>Funnel cloud not touching surface</td><td></td></tr>
+<tr><td>10</td><td>Funnel cloud touching surface</td><td></td></tr>
+<tr><td>11</td><td>Spray</td><td></td></tr>
+<tr><td>12-17</td><td>Reserved</td><td></td></tr>
+<tr><td>All 18</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 188  Capability to detect obscuration</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Fog</td><td></td></tr>
+<tr><td>2</td><td>Ice fog</td><td></td></tr>
+<tr><td>3</td><td>Steam fog</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Mist</td><td></td></tr>
+<tr><td>8</td><td>Haze</td><td></td></tr>
+<tr><td>9</td><td>Smoke</td><td></td></tr>
+<tr><td>10</td><td>Volcanic ash</td><td></td></tr>
+<tr><td>11</td><td>Dust</td><td></td></tr>
+<tr><td>12</td><td>Sand</td><td></td></tr>
+<tr><td>13</td><td>Snow</td><td></td></tr>
+<tr><td>14-20</td><td>Reserved</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 189  Capability to discriminate lightning strikes</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Manual observation</td><td></td></tr>
+<tr><td>2</td><td>All lightning strikes without discrimination</td><td></td></tr>
+<tr><td>3</td><td>Lightning strikes cloud to ground only</td><td></td></tr>
+<tr><td>4</td><td>All lightning strikes with discrimination between cloud to ground and cloud to cloud</td><td></td></tr>
+<tr><td>5-11</td><td>Reserved</td><td></td></tr>
+<tr><td>All 12</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 02 191  Geopotential height calculation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Geopotential height calculated from pressure</td><td></td></tr>
+<tr><td>1</td><td>Geopotential height calculated from GPS height</td><td></td></tr>
+<tr><td>2</td><td>Geopotential height calculated from radar height</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

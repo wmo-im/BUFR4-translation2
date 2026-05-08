@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 10</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 10</h1>
+<p class="fxy-heading">0 10 063  Caractéristique de la tendance barométrique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En hausse, puis en baisse; la pression atmosphérique est la même ou plus haute que trois heures auparavant</td><td></td><td></td></tr>
+<tr><td>1</td><td>En hausse, puis stationnaire; ou en hausse, puis en hausse plus lente</td><td>La pression atmosphérique est plus haute que trois heures auparavant</td><td></td></tr>
+<tr><td>2</td><td>En hausse (régulière ou irrégulière)</td><td>La pression atmosphérique est plus haute que trois heures auparavant</td><td></td></tr>
+<tr><td>3</td><td>En baisse ou stationnaire, puis en hausse; ou en hausse, puis en hausse plus rapide</td><td>La pression atmosphérique est plus haute que trois heures auparavant</td><td></td></tr>
+<tr><td>4</td><td>Stationnaire; la pression atmosphérique est la même que trois heures auparavant</td><td></td><td></td></tr>
+<tr><td>5</td><td>En baisse, puis en hausse; la pression atmosphérique est la même ou plus basse que trois heures auparavant</td><td></td><td></td></tr>
+<tr><td>6</td><td>En baisse, puis stationnaire; ou en baisse, puis en baisse plus lente</td><td>La pression atmosphérique est plus basse que trois heures auparavant</td><td></td></tr>
+<tr><td>7</td><td>En baisse (régulière ou irrégulière)</td><td>La pression atmosphérique est plus basse que trois heures auparavant</td><td></td></tr>
+<tr><td>8</td><td>Stationnaire ou en hausse, puis en baisse; ou en baisse, puis en baisse plus rapide</td><td>La pression atmosphérique est plus basse que trois heures auparavant</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 52: 1) Dans les messages d&#x27;observation en provenance de stations météorologiques automatiques, on utilise le chiffre du code 2 si la tendance est à la hausse, 7 si la tendance est à la baisse, et 4 si la pression atmosphérique est la même que trois heures auparavant. 2) Dans les messages provenant de stations tropicales qui communiquent des données concernant les changements de pression sur 24 heures, le chiffre du code 2 indique que la tendance est positive, le chiffre 7 qu&#x27;elle est négative, et le chiffre 4 que la pression est la même que 24 heures auparavant.</p>
+<p class="note">Note 53: 1) Dans les messages d&#x27;observation en provenance de stations météorologiques automatiques, on utilise le chiffre du code 2 si la tendance est à la hausse, 7 si la tendance est à la baisse, et 4 si la pression atmosphérique est la même que trois heures auparavant. 2) Dans les messages provenant de stations tropicales qui communiquent des données concernant les changements de pression sur 24 heures, le chiffre du code 2 indique que la tendance est positive, le chiffre 7 qu&#x27;elle est négative, et le chiffre 4 que la pression est la même que 24 heures auparavant.</p>
+</div>
+<p class="fxy-heading">0 10 064  Niveau de croisière - SIGMET</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Subsonique</td><td></td></tr>
+<tr><td>1</td><td>Transsonique</td><td></td></tr>
+<tr><td>2</td><td>Supersonique</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

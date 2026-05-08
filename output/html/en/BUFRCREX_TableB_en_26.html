@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 26: Non-coordinate location (time)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 26: Non-coordinate location (time)</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 26 001</td><td>Principal time of daily reading in UTC of maximum temperature</td><td>h</td><td>1</td><td>0</td><td>12</td><td>h</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 26 002</td><td>Principal time of daily reading in UTC of minimum temperature</td><td>h</td><td>1</td><td>0</td><td>12</td><td>h</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 26 003</td><td>Time difference</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note 58: The statistic is to determine whether the following tropopause levels are minimum, maximum or spot values (missing code value).</td></tr>
+<tr><td>0 26 010</td><td>Hours included</td><td>Flag table</td><td>0</td><td>0</td><td>26</td><td>Flag table</td><td>0</td><td>9</td><td></td></tr>
+<tr><td>0 26 020</td><td>Duration of precipitation</td><td>min</td><td>0</td><td>0</td><td>11</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 26 021</td><td>Year</td><td>a</td><td>0</td><td>0</td><td>12</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 26 022</td><td>Month</td><td>mon</td><td>0</td><td>0</td><td>4</td><td>mon</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 26 023</td><td>Day</td><td>d</td><td>0</td><td>0</td><td>6</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 26 030</td><td>Measurement integration time</td><td>s</td><td>2</td><td>0</td><td>8</td><td>s</td><td>2</td><td>3</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

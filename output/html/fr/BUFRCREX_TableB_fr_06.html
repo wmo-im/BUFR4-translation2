@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 6 : Position (horizontale - 2)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 6 : Position (horizontale - 2)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 06 001</td><td>Longitude (précision élevée)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>°</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 06 011</td><td>Incrément de longitude (précision élevée)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>°</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>0 06 012</td><td>Incrément de longitude (faible précision)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 06 015</td><td>Décalage en longitude (précision élevée)</td><td>deg</td><td>5</td><td>-18000000</td><td>26</td><td>°</td><td>5</td><td>8</td><td></td></tr>
+<tr><td>0 06 016</td><td>Décalage en longitude (faible précision)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 06 021</td><td>Distance</td><td>m</td><td>-1</td><td>0</td><td>13</td><td>m</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 06 029</td><td>Nombre d&#x27;ondes</td><td>/m</td><td>1</td><td>0</td><td>22</td><td>/m</td><td>1</td><td>7</td><td></td></tr>
+<tr><td>0 06 030</td><td>Numéro d&#x27;onde (spectrale)</td><td>rad/m</td><td>5</td><td>0</td><td>13</td><td>rad/m</td><td>5</td><td>4</td><td></td></tr>
+<tr><td>0 06 031</td><td>Numéro de la rangée</td><td>Numérique</td><td>0</td><td>0</td><td>12</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 06 032</td><td>Décalage X (voir la note 6)</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>11</td><td>Note 183: Le décalage X est la distance entre l’origine de la projection et le coin supérieur gauche du pixel le plus en haut à gauche d’une carte, comme l’illustre le schéma ci-dessous: Pixel du coin supérieur gauche Décalage Y Décalage X Origine de la projection / \ 11 // / / / I /</td></tr>
+<tr><td>0 06 033</td><td>Taille des pixels sur l&#x27;horizontale - 2</td><td>m</td><td>-1</td><td>0</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 06 034</td><td>Numéro de cellule dans le plan transversal</td><td>Numérique</td><td>0</td><td>0</td><td>7</td><td>Numérique</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 06 035</td><td>Taille maximale de la dimension y</td><td>Numérique</td><td>0</td><td>0</td><td>12</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 06 040</td><td>Rayon de confiance</td><td>m</td><td>0</td><td>0</td><td>13</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

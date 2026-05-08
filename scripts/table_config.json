@@ -1,0 +1,434 @@
+{
+  "style": {
+    "font": "Verdana",
+    "title_size": 11,
+    "header_size": 8,
+    "data_size": 8,
+    "header_bg": "D9D9D9",
+    "header_bold": false,
+    "border_color": "595959",
+    "border_size": 4,
+    "cell_margin_top": 85,
+    "cell_margin_bottom": 85,
+    "cell_margin_left": 85,
+    "cell_margin_right": 85
+  },
+  "languages": {
+    "en": {
+      "table_b": {
+        "title": "Class {class_no}: {class_name}",
+        "headers": [
+          "FXY",
+          "ELEMENT NAME",
+          "BUFR UNIT",
+          "SCALE",
+          "REF VALUE",
+          "BITS",
+          "CREX UNIT",
+          "SCALE",
+          "CHARS",
+          "NOTE"
+        ],
+        "column_map": [
+          "FXY",
+          "ElementName_{lang}",
+          "BUFR_Unit_{lang}",
+          "BUFR_Scale",
+          "BUFR_ReferenceValue",
+          "BUFR_DataWidth_Bits",
+          "CREX_Unit_{lang}",
+          "CREX_Scale",
+          "CREX_DataWidth_Char",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      },
+      "table_d": {
+        "title": "Category {category}: {category_name}",
+        "headers": [
+          "FXY1",
+          "TITLE",
+          "SUBTITLE",
+          "FXY2",
+          "ELEMENT NAME",
+          "ELEMENT DESCRIPTION",
+          "NOTE"
+        ],
+        "column_map": [
+          "FXY1",
+          "Title_{lang}",
+          "SubTitle_{lang}",
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "TABLE REFERENCES",
+          "ELEMENT NAME",
+          "ELEMENT DESCRIPTION",
+          "NOTE"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
+      },
+      "codeflag": {
+        "title": "Class {class_no}",
+        "headers": [
+          "CODE FIGURE",
+          "ENTRY NAME",
+          "NOTE"
+        ],
+        "headers_sub1": [
+          "CODE FIGURE",
+          "ENTRY NAME",
+          "SUB 1",
+          "NOTE"
+        ],
+        "headers_sub2": [
+          "CODE FIGURE",
+          "ENTRY NAME",
+          "SUB 1",
+          "SUB 2",
+          "NOTE"
+        ],
+        "column_map": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub1": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub2": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "EntryName_sub2_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      }
+    },
+    "fr": {
+      "table_b": {
+        "title": "Classe {class_no} : {class_name}",
+        "headers": [
+          "FXY",
+          "NOM DE L'ÉLÉMENT",
+          "UNITÉ BUFR",
+          "ÉCHELLE",
+          "VAL. RÉF.",
+          "BITS",
+          "UNITÉ CREX",
+          "ÉCHELLE",
+          "CAR.",
+          "NOTE"
+        ],
+        "column_map": [
+          "FXY",
+          "ElementName_{lang}",
+          "BUFR_Unit_{lang}",
+          "BUFR_Scale",
+          "BUFR_ReferenceValue",
+          "BUFR_DataWidth_Bits",
+          "CREX_Unit_{lang}",
+          "CREX_Scale",
+          "CREX_DataWidth_Char",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      },
+      "table_d": {
+        "title": "Catégorie {category} : {category_name}",
+        "headers": [
+          "FXY1",
+          "TITRE",
+          "SOUS-TITRE",
+          "FXY2",
+          "NOM DE L'ÉLÉMENT",
+          "DESCRIPTION DE L'ÉLÉMENT",
+          "NOTE"
+        ],
+        "column_map": [
+          "FXY1",
+          "Title_{lang}",
+          "SubTitle_{lang}",
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "SÉQUENCE DE DESCRIPTEURS",
+          "NOM DE L'ÉLÉMENT",
+          "DESCRIPTION DE L'ÉLÉMENT",
+          "NOTE"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
+      },
+      "codeflag": {
+        "title": "Classe {class_no}",
+        "headers": [
+          "CHIFFRE DU CODE",
+          "SIGNIFICATION",
+          "NOTE"
+        ],
+        "headers_sub1": [
+          "CHIFFRE DU CODE",
+          "SIGNIFICATION",
+          "SOUS 1",
+          "NOTE"
+        ],
+        "headers_sub2": [
+          "CHIFFRE DU CODE",
+          "SIGNIFICATION",
+          "SOUS 1",
+          "SOUS 2",
+          "NOTE"
+        ],
+        "column_map": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub1": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub2": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "EntryName_sub2_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      }
+    },
+    "es": {
+      "table_b": {
+        "title": "Clase {class_no}: {class_name}",
+        "headers": [
+          "FXY",
+          "NOMBRE DEL ELEMENTO",
+          "UNIDAD BUFR",
+          "ESCALA",
+          "VAL. REF.",
+          "BITS",
+          "UNIDAD CREX",
+          "ESCALA",
+          "CAR.",
+          "NOTA"
+        ],
+        "column_map": [
+          "FXY",
+          "ElementName_{lang}",
+          "BUFR_Unit_{lang}",
+          "BUFR_Scale",
+          "BUFR_ReferenceValue",
+          "BUFR_DataWidth_Bits",
+          "CREX_Unit_{lang}",
+          "CREX_Scale",
+          "CREX_DataWidth_Char",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      },
+      "table_d": {
+        "title": "Categoría {category}: {category_name}",
+        "headers": [
+          "FXY1",
+          "TÍTULO",
+          "SUBTÍTULO",
+          "FXY2",
+          "NOMBRE DEL ELEMENTO",
+          "DESCRIPCIÓN DEL ELEMENTO",
+          "NOTA"
+        ],
+        "column_map": [
+          "FXY1",
+          "Title_{lang}",
+          "SubTitle_{lang}",
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "SECUENCIA DE DESCRIPTORES",
+          "NOMBRE DEL ELEMENTO",
+          "DESCRIPCIÓN DEL ELEMENTO",
+          "NOTA"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
+      },
+      "codeflag": {
+        "title": "Clase {class_no}",
+        "headers": [
+          "CIFRA DE CLAVE",
+          "SIGNIFICADO",
+          "NOTA"
+        ],
+        "headers_sub1": [
+          "CIFRA DE CLAVE",
+          "SIGNIFICADO",
+          "SUB 1",
+          "NOTA"
+        ],
+        "headers_sub2": [
+          "CIFRA DE CLAVE",
+          "SIGNIFICADO",
+          "SUB 1",
+          "SUB 2",
+          "NOTA"
+        ],
+        "column_map": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub1": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub2": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "EntryName_sub2_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      }
+    },
+    "ru": {
+      "table_b": {
+        "title": "Класс {class_no}: {class_name}",
+        "headers": [
+          "FXY",
+          "НАЗВАНИЕ ЭЛЕМЕНТА",
+          "ЕД. ИЗМ. BUFR",
+          "МАСШТАБ",
+          "НАЧ. ОТСЧ.",
+          "БИТЫ",
+          "ЕД. ИЗМ. CREX",
+          "МАСШТАБ",
+          "СИМВ.",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "column_map": [
+          "FXY",
+          "ElementName_{lang}",
+          "BUFR_Unit_{lang}",
+          "BUFR_Scale",
+          "BUFR_ReferenceValue",
+          "BUFR_DataWidth_Bits",
+          "CREX_Unit_{lang}",
+          "CREX_Scale",
+          "CREX_DataWidth_Char",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      },
+      "table_d": {
+        "title": "Категория {category}: {category_name}",
+        "headers": [
+          "FXY1",
+          "НАЗВАНИЕ",
+          "ПОДЗАГОЛОВОК",
+          "FXY2",
+          "НАЗВАНИЕ ЭЛЕМЕНТА",
+          "ОПИСАНИЕ ЭЛЕМЕНТА",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "column_map": [
+          "FXY1",
+          "Title_{lang}",
+          "SubTitle_{lang}",
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced",
+        "sub_headers": [
+          "ТАБЛИЧНЫЕ ССЫЛКИ",
+          "НАЗВАНИЕ ЭЛЕМЕНТА",
+          "ОПИСАНИЕ ЭЛЕМЕНТА",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "sub_column_map": [
+          "FXY2",
+          "ElementName_{lang}",
+          "ElementDescription_{lang}",
+          "Note_{lang}"
+        ]
+      },
+      "codeflag": {
+        "title": "Класс {class_no}",
+        "headers": [
+          "КОДОВАЯ ЦИФРА",
+          "ЗНАЧЕНИЕ",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "headers_sub1": [
+          "КОДОВАЯ ЦИФРА",
+          "ЗНАЧЕНИЕ",
+          "ПОД 1",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "headers_sub2": [
+          "КОДОВАЯ ЦИФРА",
+          "ЗНАЧЕНИЕ",
+          "ПОД 1",
+          "ПОД 2",
+          "ПРИМЕЧАНИЕ"
+        ],
+        "column_map": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub1": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "Note_{lang}"
+        ],
+        "column_map_sub2": [
+          "CodeFigure",
+          "EntryName_{lang}",
+          "EntryName_sub1_{lang}",
+          "EntryName_sub2_{lang}",
+          "Note_{lang}"
+        ],
+        "fxy_format": "spaced"
+      }
+    }
+  }
+}

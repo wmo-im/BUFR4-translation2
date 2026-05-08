@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Catégorie 16 : Séquences correspondant à des caractéristiques synoptiques</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Catégorie 16 : Séquences correspondant à des caractéristiques synoptiques</h1>
+<p class="fxy-heading">3 16 001</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Heure</td><td></td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 01 021</td><td>Indicateur d&#x27;identification de la caractéristique synoptique</td><td></td><td></td></tr>
+<tr><td>0 02 041</td><td>Méthode d&#x27;estimation utilisée pour les comptes rendus relatifs aux caractéristiques synoptiques</td><td></td><td></td></tr>
+<tr><td>0 19 001</td><td>Type de la caractéristique synoptique</td><td></td><td></td></tr>
+<tr><td>0 10 051</td><td>Pression ramenée au niveau moyen de la mer</td><td></td><td></td></tr>
+<tr><td>0 19 002</td><td>Rayon réel de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 003</td><td>Seuil de la vitesse du vent</td><td>Généralement 15 m s-1</td><td></td></tr>
+<tr><td>0 19 004</td><td>Rayon réel pour les vitesses du vent supérieures au seuil</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 002 (En-tête)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Heure d&#x27;analyse de données</td><td></td></tr>
+<tr><td>0 04 001</td><td>Année</td><td></td><td></td></tr>
+<tr><td>0 04 002</td><td>Mois</td><td></td><td></td></tr>
+<tr><td>0 04 003</td><td>Jour</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Heure</td><td></td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td></td><td></td></tr>
+<tr><td>0 01 033</td><td>Identification du centre d&#x27;origine/ de production</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Période de validité (prévision)</td><td></td></tr>
+<tr><td>0 04 001</td><td>Année</td><td></td><td></td></tr>
+<tr><td>0 04 002</td><td>Mois</td><td></td><td></td></tr>
+<tr><td>0 04 003</td><td>Jour</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Heure</td><td></td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td></td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (base de la couche)</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (sommet de la couche)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 003 (Courant-jet)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 10 000</td><td>Répétition différée de 10 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour courant-jet</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour ligne</td><td></td></tr>
+<tr><td>1 04 000</td><td>Répétition différée de 4 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 10 002</td><td>Hauteur</td><td>Niveau de vol</td><td></td></tr>
+<tr><td>0 11 002</td><td>Vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 004 (Turbulence)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 11 000</td><td>Répétition différée de 11 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour turbulence</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour zone</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (base de la couche)</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (sommet de la couche)</td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td></td><td>Note 20: En atmosphère claire ou dans les nuages: coder MOD OCNL SEV par le chiffre 12 ou 13, respectivement.</td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 005 (Tempête)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 08 000</td><td>Répétition différée de 8 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>Centre de la tempête</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour point</td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 01 026</td><td>Nom OMM de la tempête</td><td>Utiliser &quot;UNKNOWN&quot; pour une tempête de sable</td><td></td></tr>
+<tr><td>0 19 001</td><td>Type de la caractéristique synoptique</td><td>Valeur pour type de tempête</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 006 (Nuages)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 12 000</td><td>Répétition différée de 12 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour les nuages</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour zone</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (base de la couche)</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (sommet de la couche)</td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nébulosité</td><td></td><td>Note 6: Valeurs des tables de code: FRQ = chiffre de code 8 (8 octas) OCNL EMBD = chiffre de code 6 (6 octas) ISOL = chiffre de code 2 (2 octas) lorsqu’il s’agit d’un cumulonimbus (Cb)</td></tr>
+<tr><td>0 20 012</td><td>Type de nuage</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 007 (Front)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 10 000</td><td>Répétition différée de 10 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour type de fond</td><td>Note 21: Le sens de déplacement du front doit toujours être indiqué car cette information est utilisée pour le pointage des cartes. Si la vitesse de déplacement du front est de 0, cela dénote un front à déplacement lent. Il existe une valeur dans la table de code pour représenter un front quasi stationnaire.</td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour ligne</td><td></td></tr>
+<tr><td>1 04 000</td><td>Répétition différée de 4 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 008 (Tropopause)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 11 000</td><td>Répétition différée de 11 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 001</td><td>Caractéristique correspondant à des données de sondage vertical</td><td>Bit 3 mis à 1 pour tropopause</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour point</td><td></td></tr>
+<tr><td>0 08 023</td><td>Statistiques de premier ordre</td><td>Valeur pour type de tropopause</td><td>Note 58: Il s’agit de déterminer si les niveaux de la tropopause indiqués ci-après sont des valeurs minimales, maximales ou ponctuelles (code de la valeur manquante).</td></tr>
+<tr><td>1 03 000</td><td>Répétition différée de 3 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 10 002</td><td>Hauteur</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>Statistiques de premier ordre</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 001</td><td>Caractéristique correspondant à des données de sondage vertical</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 009 (Zone de givrage d&#x27;aéronef)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 11 000</td><td>Répétition différée de 11 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour givrage d&#x27;aéronef</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour zone</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (base de la couche)</td><td></td></tr>
+<tr><td>0 07 002</td><td>Hauteur ou altitude</td><td>Niveau de vol (sommet de la couche)</td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 20 041</td><td>Givrage d&#x27;aéronef</td><td>Type de givrage d&#x27;aéronef</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 010 (Nom de la caractéristique)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 07 000</td><td>Répétition différée de 7 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour point</td><td></td></tr>
+<tr><td>0 01 022</td><td>Nom de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 011 (Volcan en éruption)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 17 000</td><td>Répétition différée de 17 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Valeur pour nuages spéciaux</td><td></td></tr>
+<tr><td>0 01 022</td><td>Nom de la caractéristique</td><td>Nom du volcan</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Valeur pour point</td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Heure du début de l&#x27;éruption</td><td></td></tr>
+<tr><td>0 04 001</td><td>Année</td><td></td><td></td></tr>
+<tr><td>0 04 002</td><td>Mois</td><td></td><td></td></tr>
+<tr><td>0 04 003</td><td>Jour</td><td></td><td></td></tr>
+<tr><td>0 04 004</td><td>Heure</td><td></td><td></td></tr>
+<tr><td>0 04 005</td><td>Minute</td><td></td><td></td></tr>
+<tr><td>0 20 090</td><td>Nuages spéciaux</td><td>Nuages engendrés par les éruptions</td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Annuler</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Annuler | Fin d&#x27;objet</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 020 (Identification de la tempête tropicale)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 033</td><td>Identification du centre d&#x27;origine/ de production</td><td></td><td></td></tr>
+<tr><td>0 01 025</td><td>Indicateur de la tempête</td><td></td><td></td></tr>
+<tr><td>0 01 027</td><td>Nom OMM complet de la tempête</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 021 (Données d&#x27;analyse)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 02 041</td><td>Méthode d&#x27;estimation utilisée pour les comptes rendus relatifs aux caractéristiques synoptiques</td><td></td><td></td></tr>
+<tr><td>0 19 001</td><td>Type de la caractéristique synoptique</td><td></td><td></td></tr>
+<tr><td>0 19 007</td><td>Rayon réel de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 008</td><td>Extension verticale de la circulation</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>= 1 Centre de la tempête</td><td></td></tr>
+<tr><td>0 10 004</td><td>Pression</td><td>Centre de la tempête selon le qualificatif de signification précédent</td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>= 2 Limite extérieure ou bord de la caractéristique</td><td></td></tr>
+<tr><td>0 10 004</td><td>Pression</td><td>Limite extérieure</td><td></td></tr>
+<tr><td>0 19 007</td><td>Rayon réel de la caractéristique</td><td>Limite extérieure</td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>= 3 Emplacement du vent maximal</td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Moyennée dans le temps</td><td></td></tr>
+<tr><td>0 04 075</td><td>Période ou décalage dans le temps de courte durée</td><td>Minutes</td><td></td></tr>
+<tr><td>0 11 040</td><td>Vitesse maximale du vent (vent moyen)</td><td></td><td></td></tr>
+<tr><td>0 19 007</td><td>Rayon réel de la caractéristique</td><td>Vent maximal</td><td></td></tr>
+<tr><td>1 05 004</td><td>Répéter 5 descripteurs 4 fois</td><td></td><td></td></tr>
+<tr><td>0 05 021</td><td>Direction ou azimut</td><td>Début</td><td></td></tr>
+<tr><td>0 05 021</td><td>Direction ou azimut</td><td>Fin</td><td></td></tr>
+<tr><td>1 02 002</td><td>Répéter 2 descripteurs 2 fois</td><td></td><td></td></tr>
+<tr><td>0 19 003</td><td>Seuil de vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 19 004</td><td>Rayon réel pour les vitesses du vent supérieures au seuil</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 022 (Données de prévision)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 032</td><td>Application de production</td><td>Nom du modèle de PNT, etc., table de code définie par le centre d&#x27;origine/ de production</td><td></td></tr>
+<tr><td>0 02 041</td><td>Méthode d&#x27;estimation utilisée pour les comptes rendus relatifs aux caractéristiques synoptiques</td><td></td><td></td></tr>
+<tr><td>0 19 001</td><td>Type de la caractéristique synoptique</td><td></td><td></td></tr>
+<tr><td>0 19 010</td><td>Méthode d&#x27;obtention du centre de la caractéristique synoptique</td><td></td><td></td></tr>
+<tr><td>1 18 000</td><td>Répétition différée de 18 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Prévision</td><td></td></tr>
+<tr><td>0 04 014</td><td>Incrément temporel</td><td>Heures</td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>Caractéristique synoptique de surface</td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 10 004</td><td>Pression</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Vitesse de la rafale maximale</td><td>Utilisé par exemple aux États-Unis</td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Temps moyenné de la prévision</td><td></td></tr>
+<tr><td>0 04 075</td><td>Période ou décalage dans le temps de courte durée</td><td>Minutes</td><td></td></tr>
+<tr><td>0 11 040</td><td>Vitesse maximale du vent (vent moyen)</td><td></td><td></td></tr>
+<tr><td>0 19 008</td><td>Extension verticale de la circulation</td><td></td><td></td></tr>
+<tr><td>1 05 004</td><td>Répéter 5 descripteurs 4 fois</td><td></td><td></td></tr>
+<tr><td>0 05 021</td><td>Direction ou azimut</td><td>Début</td><td></td></tr>
+<tr><td>0 05 021</td><td>Direction ou azimut</td><td>Fin</td><td></td></tr>
+<tr><td>1 02 002</td><td>Répéter 2 descripteurs 2 fois</td><td></td><td></td></tr>
+<tr><td>0 19 003</td><td>Seuil de vitesse du vent</td><td></td><td></td></tr>
+<tr><td>0 19 004</td><td>Rayon réel pour les vitesses du vent supérieures au seuil</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 026 (Informations sur l&#x27;analyse de la tempête tropicale)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 16 020</td><td>Identification de la tempête tropicale</td><td></td><td></td></tr>
+<tr><td>3 16 021</td><td>Données d&#x27;analyse</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 027 (Informations sur la prévision de la tempête tropicale)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 16 020</td><td>Identification de la tempête tropicale</td><td></td><td></td></tr>
+<tr><td>3 16 022</td><td>Données de prévision</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 030 (En-tête SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 014</td><td>Période</td><td>De validité du message SIGMET</td><td></td></tr>
+<tr><td>0 01 037</td><td>Numéro de la séquence SIGMET</td><td></td><td></td></tr>
+<tr><td>0 10 064</td><td>Niveau de croisière - SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 019</td><td>Indicateur d&#x27;identification du centre suivant</td><td>= 1 Organismes ATS desservant la FIR</td><td></td></tr>
+<tr><td>0 01 062</td><td>Indicateur court d&#x27;emplacement OACI</td><td></td><td></td></tr>
+<tr><td>0 08 019</td><td>Indicateur d&#x27;identification du centre suivant</td><td>= 2 FIR, = 3 UIR, = 4 CTA</td><td></td></tr>
+<tr><td>0 01 065</td><td>Indicatif de la région OACI</td><td></td><td></td></tr>
+<tr><td>0 08 019</td><td>Indicateur d&#x27;identification du centre suivant</td><td>= 6 MWO</td><td></td></tr>
+<tr><td>0 01 062</td><td>Indicateur court d&#x27;emplacement OACI</td><td></td><td></td></tr>
+<tr><td>0 08 019</td><td>Indicateur d&#x27;identification du centre suivant</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 031 (SIGMET, Emplacement du phénomène observé ou prévu et déplacement)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 16 Analyse, = 4 Prévision</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>3 01 027</td><td>Description d&#x27;une caractéristique météorologique en trois ou en deux dimensions</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 20 028</td><td>Changement d&#x27;intensité prévu</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 032 (SIGMET, Emplacement du phénomène prévu)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 4 Prévision</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>3 01 027</td><td>Description d&#x27;une caractéristique météorologique en trois ou en deux dimensions</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 033 (SIGMET, Évolution probable)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 4 Prévision</td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 01 027</td><td>Description d&#x27;une caractéristique météorologique en trois ou en deux dimensions</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 034 (Cendres volcaniques - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 17 Volcan</td><td></td></tr>
+<tr><td>0 01 022</td><td>Nom de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>= 0 Point</td><td></td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 20 090</td><td>Nuages spéciaux</td><td>= 5 Nuages provoqués par des éruptions volcaniques</td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 032</td><td>SIGMET, Emplacement du phénomène prévu</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 033</td><td>SIGMET, Évolution probable</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 035 (Orage - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 21 Orage</td><td></td></tr>
+<tr><td>0 20 023</td><td>Autres phénomènes météorologiques</td><td>Bit 2 = grains ou les 18 bits mis à 1 = valeur manquante</td><td></td></tr>
+<tr><td>0 20 021</td><td>Type de précipitation</td><td>Bit 14 = grêle ou les 30 bits mis à 1 = valeur manquante</td><td></td></tr>
+<tr><td>0 20 008</td><td>Répartition des nuages, pour l&#x27;aviation</td><td>= 15 OBSC, = 16 EMBD, = 12 FRQ, = 31 Valeur manquante</td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 036 (Cyclone tropical - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 22 Cyclone tropical</td><td></td></tr>
+<tr><td>0 01 027</td><td>Nom OMM complet de la tempête</td><td></td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Facteur de répétition légèrement différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 032</td><td>SIGMET, Emplacement du phénomène prévu</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 033</td><td>SIGMET, Évolution probable</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 037 (Turbulence - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 13 Turbulence</td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td>= 10 Turbulence modérée, = 11 Turbulence forte</td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 038 (Givrage - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 15 Givrage d&#x27;aéronef</td><td></td></tr>
+<tr><td>0 20 041</td><td>Givrage d&#x27;aéronef</td><td>= 7 Givrage fort</td><td></td></tr>
+<tr><td>0 20 021</td><td>Type de précipitation</td><td>Bit 3 = précipitation liquide avec congélation ou les 30 bits mis à 1 = valeur manquante</td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 039 (Onde orographique, tempête de poussière ou tempête de sable - SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Diffusion normale, = 1 Correction</td><td></td></tr>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 23 Onde orographique, = 24 Tempête de poussière, = 25 Tempête de sable</td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensité du phénomène</td><td>= 3 Fort, = 5 Dangereux</td><td></td></tr>
+<tr><td>3 16 031</td><td>SIGMET, Emplacement du phénomène observé ou prévu et déplacement</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 040 (Annulation d&#x27;un message SIGMET)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 16 030</td><td>En-tête SIGMET</td><td></td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 4 Annulation</td><td></td></tr>
+<tr><td>3 01 014</td><td>Période</td><td>De validité du message SIGMET à annuler</td><td></td></tr>
+<tr><td>0 01 037</td><td>Numéro de la séquence SIGMET</td><td>Du message SIGMET à annuler</td><td></td></tr>
+<tr><td>0 10 064</td><td>Niveau de croisière - SIGMET</td><td>Du message SIGMET à annuler</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 050 (Modèle pour les données RADOB - Partie A: Données relatives aux cyclones tropicaux)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 001</td><td>Indicateur régional OMM et chiffre indicatif OMM de la station</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>0 02 160</td><td>Longueur d&#x27;onde sur laquelle fonctionne le radar</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>= 1</td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>Annuler</td><td></td></tr>
+<tr><td>0 19 100</td><td>Période pour laquelle a été calculé le déplacement du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 101</td><td>Précision de la position du centre du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 102</td><td>Configuration et définition de l&#x27;œil du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 103</td><td>Diamètre ou longueur de l&#x27;axe principal de l&#x27;oeil du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 104</td><td>Évolution du caractère de l&#x27;œil durant les 30 minutes précédentes</td><td></td><td></td></tr>
+<tr><td>0 19 105</td><td>Distance entre l&#x27;extrémité de la bande en spirale et le centre du cyclone tropical</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 052 (Modèle pour les données SAREP - Partie A: Données relatives aux cyclones tropicaux)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 005</td><td>Centre d&#x27;origine/centre secondaire</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>0 01 007</td><td>Indicateur d&#x27;identification du satellite</td><td></td><td></td></tr>
+<tr><td>0 25 150</td><td>Méthode d&#x27;analyse de l&#x27;intensité du cyclone tropical par les images de satellite</td><td></td><td></td></tr>
+<tr><td>1 22 000</td><td>Répétition différée de 22 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 01 027</td><td>Nom OMM complet de la tempête</td><td></td><td></td></tr>
+<tr><td>0 19 150</td><td>Nombre international commun des typhons (Comité des typhons)</td><td></td><td></td></tr>
+<tr><td>0 19 106</td><td>Numéro d&#x27;identification du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>= 1</td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 08 005</td><td>Signification de la caractéristique météorologique</td><td>Annuler</td><td></td></tr>
+<tr><td>0 19 107</td><td>Période sur laquelle a été calculé le déplacement du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 108</td><td>Précision de la position géographique du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 109</td><td>Diamètre moyen de la couverture nuageuse du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 110</td><td>Variation apparente de l&#x27;intensité du cyclone tropical, à 24 heures d&#x27;intervalle</td><td></td><td></td></tr>
+<tr><td>0 19 111</td><td>Nombre CI (intensité courante) du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 112</td><td>Nombre T (tropical) pour les données (DT) au sujet du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 113</td><td>Configuration nuageuse correspondant au nombre DT</td><td></td><td></td></tr>
+<tr><td>0 19 114</td><td>Nombre T attendu du modèle (MET) pour le cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 115</td><td>Tendance sur les 24 heures précédentes (+: intensification, -: affaiblissement)</td><td></td><td></td></tr>
+<tr><td>0 19 116</td><td>Nombre T de la configuration (PT) du cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 117</td><td>Type d&#x27;image de nuages correspondant au nombre PT</td><td></td><td></td></tr>
+<tr><td>0 19 118</td><td>Nombre T final pour le cyclone tropical</td><td></td><td></td></tr>
+<tr><td>0 19 119</td><td>Type du nombre T final</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 060 (Définition d&#x27;une ligne de grain (3 points: centre, nord, sud) et trajectoire et évolution prévues)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 04 074</td><td>Période ou décalage dans le temps de courte durée</td><td>Période de validité</td><td></td></tr>
+<tr><td>0 20 048</td><td>Évolution du phénomène</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Vitesse de la rafale maximale</td><td>Rafale maximale prévue</td><td></td></tr>
+<tr><td>0 13 055</td><td>Intensité des précipitations</td><td>Intensité des précipitations prévue</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 061 (Définition d&#x27;une ligne de grain (centre et plusieurs points: nord et sud) et trajectoire et évolution prévues)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 19 005</td><td>Direction de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>0 19 006</td><td>Vitesse de déplacement de la caractéristique</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Répétition différée de 2 descripteurs</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (faible précision)</td><td></td><td></td></tr>
+<tr><td>0 04 074</td><td>Période ou décalage dans le temps de courte durée</td><td>Période de validité</td><td></td></tr>
+<tr><td>0 20 048</td><td>Évolution du phénomène</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Vitesse de la rafale maximale</td><td>Rafale maximale prévue</td><td></td></tr>
+<tr><td>0 13 055</td><td>Intensité des précipitations</td><td>Intensité des précipitations prévue</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 071 (AIRMET graphique Sierra)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 014</td><td>Période</td><td>Pendant laquelle l&#x27;AIRMET est valable</td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 075</td><td>GFA - Plafond et visibilité IFR</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 076</td><td>GFA - Obscurcissement des montagnes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 072 (AIRMET graphique Tango)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 014</td><td>Période</td><td>Pendant laquelle l&#x27;AIRMET est valable</td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 077</td><td>GFA - Turbulence</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 078</td><td>GFA - Vent de surface fort</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 079</td><td>GFA - Cisaillement du vent à bas niveau</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 073 (AIRMET graphique Zulu)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 014</td><td>Période</td><td>Pendant laquelle l&#x27;AIRMET est valable</td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 080</td><td>GFA - Givrage</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td></td></tr>
+<tr><td>3 16 081</td><td>GFA - Isotherme 0 °C</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 074 (Indicateur GFA et emplacement du phénomène observé/prévu)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 039</td><td>Numéro de séquence des prévisions de zone sous forme graphique (GFA)</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 4 Prévision, = 16 Analyse</td><td></td></tr>
+<tr><td>3 01 014</td><td>Période</td><td>Pendant laquelle le risque est observé/prévu</td><td></td></tr>
+<tr><td>3 01 027</td><td>Description d&#x27;une caractéristique météorologique en trois ou en deux dimensions</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 075 (GFA - Plafond et visibilité IFR)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>= 8 Plafond et visibilité IFR</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 20 006</td><td>Règles de vol</td><td>= 1 IFR</td><td></td></tr>
+<tr><td>0 33 042</td><td>Type de limite représentée par la valeur qui suit</td><td>= 2 Limite supérieure exclue, = 7 Valeur manquante</td><td></td></tr>
+<tr><td>0 20 013</td><td>Hauteur de la base des nuages</td><td></td><td></td></tr>
+<tr><td>0 33 042</td><td>Type de limite représentée par la valeur qui suit</td><td>= 2 Limite supérieure exclue, = 7 Valeur manquante</td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilité horizontale</td><td></td><td></td></tr>
+<tr><td>0 20 025</td><td>Obscurcissement</td><td></td><td></td></tr>
+<tr><td>0 20 026</td><td>Caractéristique de l&#x27;obscurcissement</td><td>= 6 Chasse-poussière/sable/neige, = 15 Valeur manquante</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 076 (GFA - Obscurcissement des montagnes)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>= 9 Obscurcissement des montagnes</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 20 006</td><td>Règles de vol</td><td>= 1 IFR</td><td></td></tr>
+<tr><td>0 20 025</td><td>Obscurcissement</td><td></td><td></td></tr>
+<tr><td>0 20 026</td><td>Caractéristique de l&#x27;obscurcissement</td><td>= 6 Chasse-poussière/sable/neige, = 15 Valeur manquante</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 077 (GFA - Turbulence)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL, = 13 Turbulence</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td></td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degré de turbulence</td><td>= 6 Modérée</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 078 (GFA - Vent de surface fort)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>= 10 Vent de surface fort</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 33 042</td><td>Type de limite représentée par la valeur qui suit</td><td>= 0 Limite inférieure exclue</td><td></td></tr>
+<tr><td>0 11 012</td><td>Vitesse du vent à 10 m</td><td></td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>Valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 079 (GFA - Cisaillement du vent à bas niveau)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 16 Phénomène</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 20 023</td><td>Autres phénomènes météorologiques</td><td>Bit 12 = Cisaillement de vent</td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensité du phénomène</td><td></td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 080 (GFA - Givrage)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>= 15 Givrage d&#x27;aéronef</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 20 041</td><td>Givrage d&#x27;aéronef</td><td>= 4 Givrage modéré</td><td></td></tr>
+<tr><td>0 08 011</td><td>Caractéristique météorologique</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 16 081 (GFA - Isotherme 0 °C)</p>
+<table>
+<thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL</td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>= 11 Isotherme 0 °C, = 12 Zéros multiples</td><td></td></tr>
+<tr><td>3 16 074</td><td>Indicateur GFA et emplacement du phénomène observé/prévu</td><td></td><td></td></tr>
+<tr><td>0 08 041</td><td>Caractéristique des données</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+<tr><td>0 08 079</td><td>Catégorie de produit</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 10: Le décibel (dB) est une mesure logarithmique de la puissance relative ou des valeurs relatives de deux densités de flux, en particulier d’intensités sonores et de densités de puissance radio et radar. En météorologie radar, l’échelle logarithmique (dBZ) est utilisée pour mesurer la réflectivité radar (d’après le glossaire de météorologie de l’ American Meteorological Society ).</p>
+</div>
+</body>
+</html>
