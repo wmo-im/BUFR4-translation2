@@ -81,7 +81,7 @@ noteID,note_es,translation_source
 87,Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos.,PDF
 88,"La significación del tiempo debe ser calificada por los períodos adecuados de tiempo que se especifican.",PDF
 89,Tromba o tromba marina.,PDF
-90,"Tipo de instrumentos y unidades originales para la medición del viento (en m s–1, a menos que se indique otra cosa)",PDF
+90,"Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)",PDF
 91,Valor relegado. Utilícese en su lugar la cifra de clave 6.,PDF
 92,"Cuando la cifra de clave 4 se usa para especificar un sistema de coordenadas de referencia adaptado, el dato elipsoide será un elipsoide de revolución oblato, en el que el eje mayor es uniplanar con el plano ecuatorial y el eje menor atraviesa el meridiano principal hacia el polo principal. El Norte corresponde a la dirección desde el ecuador hacia el polo principal. El Este corresponde a la dirección en sentido antihorario desde el meridiano principal visto desde el Polo Norte. En este caso se deben especificar los semiejes mayor y menor (por ejemplo, mediante los descriptores 0 01 152 y 0 01 153).",PDF
 93,"Cuando están representados valores observados menos valores de predicción, el período de la predicción se indicará mediante un descriptor apropiado de Clase 04.",PDF

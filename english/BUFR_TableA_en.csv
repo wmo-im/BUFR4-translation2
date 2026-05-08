@@ -1,35 +1,35 @@
 ID,CodeFigure,Meaning_en,Status,translation_source
-bufr4/a/0,0,Surface data - land,Operational,PDF
-bufr4/a/1,1,Surface data - sea,Operational,PDF
-bufr4/a/2,2,Vertical soundings (other than satellite),Operational,PDF
-bufr4/a/3,3,Vertical soundings (satellite),Operational,PDF
-bufr4/a/4,4,Single level upper-air data (other than satellite),Operational,PDF
-bufr4/a/5,5,Single level upper-air data (satellite),Operational,PDF
-bufr4/a/6,6,Radar data,Operational,PDF
-bufr4/a/7,7,Synoptic features,Operational,PDF
-bufr4/a/8,8,Physical/chemical constituents,Operational,PDF
-bufr4/a/9,9,Dispersal and transport,Operational,PDF
-bufr4/a/10,10,Radiological data,Operational,PDF
-bufr4/a/11,11,"BUFR tables, complete replacement or update",Operational,PDF
-bufr4/a/12,12,Surface data (satellite),Operational,PDF
-bufr4/a/13,13,Forecasts,Operational,PDF
-bufr4/a/14,14,Warnings,Operational,PDF
-bufr4/a/15–19,15-19,Reserved,Operational,PDF
-bufr4/a/20,20,Status information,Operational,PDF
-bufr4/a/21,21,Radiances (satellite measured),Operational,PDF
-bufr4/a/22,22,Radar (satellite) but not altimeter and scatterometer,Operational,PDF
-bufr4/a/23,23,Lidar (satellite),Operational,PDF
-bufr4/a/24,24,Scatterometry (satellite),Operational,PDF
-bufr4/a/25,25,Altimetry (satellite),Operational,PDF
-bufr4/a/26,26,Spectrometry (satellite),Operational,PDF
-bufr4/a/27,27,Gravity measurement (satellite),Operational,PDF
-bufr4/a/28,28,Precision orbit (satellite),Operational,PDF
-bufr4/a/29,29,Space environment (satellite),Operational,PDF
-bufr4/a/30,30,Calibration datasets (satellite),Operational,PDF
-bufr4/a/31,31,Oceanographic data,Operational,PDF
-bufr4/a/32,32,Lidar (ground-based),Operational,PDF
-bufr4/a/33–100,33-100,Reserved,Operational,PDF
-bufr4/a/101,101,Image data (satellite),Operational,PDF
-bufr4/a/102–239,102-239,Reserved,Operational,PDF
-bufr4/a/240–254,240-254,For experimental use,Operational,PDF
-bufr4/a/255,255,Other category,Operational,PDF
+bufr4/a/0,0,Surface data - land,Operational,na
+bufr4/a/1,1,Surface data - sea,Operational,na
+bufr4/a/2,2,Vertical soundings (other than satellite),Operational,na
+bufr4/a/3,3,Vertical soundings (satellite),Operational,na
+bufr4/a/4,4,Single level upper-air data (other than satellite),Operational,na
+bufr4/a/5,5,Single level upper-air data (satellite),Operational,na
+bufr4/a/6,6,Radar data,Operational,na
+bufr4/a/7,7,Synoptic features,Operational,na
+bufr4/a/8,8,Physical/chemical constituents,Operational,na
+bufr4/a/9,9,Dispersal and transport,Operational,na
+bufr4/a/10,10,Radiological data,Operational,na
+bufr4/a/11,11,"BUFR tables, complete replacement or update",Operational,na
+bufr4/a/12,12,Surface data (satellite),Operational,na
+bufr4/a/13,13,Forecasts,Operational,na
+bufr4/a/14,14,Warnings,Operational,na
+bufr4/a/15–19,15-19,Reserved,Operational,na
+bufr4/a/20,20,Status information,Operational,na
+bufr4/a/21,21,Radiances (satellite measured),Operational,na
+bufr4/a/22,22,Radar (satellite) but not altimeter and scatterometer,Operational,na
+bufr4/a/23,23,Lidar (satellite),Operational,na
+bufr4/a/24,24,Scatterometry (satellite),Operational,na
+bufr4/a/25,25,Altimetry (satellite),Operational,na
+bufr4/a/26,26,Spectrometry (satellite),Operational,na
+bufr4/a/27,27,Gravity measurement (satellite),Operational,na
+bufr4/a/28,28,Precision orbit (satellite),Operational,na
+bufr4/a/29,29,Space environment (satellite),Operational,na
+bufr4/a/30,30,Calibration datasets (satellite),Operational,na
+bufr4/a/31,31,Oceanographic data,Operational,na
+bufr4/a/32,32,Lidar (ground-based),Operational,na
+bufr4/a/33–100,33-100,Reserved,Operational,na
+bufr4/a/101,101,Image data (satellite),Operational,na
+bufr4/a/102–239,102-239,Reserved,Operational,na
+bufr4/a/240–254,240-254,For experimental use,Operational,na
+bufr4/a/255,255,Other category,Operational,na

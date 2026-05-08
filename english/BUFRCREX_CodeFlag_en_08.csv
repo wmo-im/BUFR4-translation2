@@ -1,814 +1,814 @@
 ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
-bufr4/0/08/001/1,008001,Vertical sounding significance,1,Surface,,,,,Operational,PDF
-bufr4/0/08/001/2,008001,Vertical sounding significance,2,Standard level,,,,,Operational,PDF
-bufr4/0/08/001/3,008001,Vertical sounding significance,3,Tropopause level,,,,,Operational,PDF
-bufr4/0/08/001/4,008001,Vertical sounding significance,4,Maximum wind level,,,,,Operational,PDF
-bufr4/0/08/001/5,008001,Vertical sounding significance,5,"Significant level, temperature and/or relative humidity",,,,,Operational,PDF
-bufr4/0/08/001/6,008001,Vertical sounding significance,6,"Significant level, wind",,,,,Operational,PDF
-bufr4/0/08/001/All-7,008001,Vertical sounding significance,All 7,Missing value,,,,,Operational,PDF
-bufr4/0/08/002/0,008002,Vertical significance (surface observations),0,Observing rules for base of lowest cloud and cloud types of FM 12 SYNOP and FM 13 SHIP apply,,,,,Operational,PDF
-bufr4/0/08/002/1,008002,Vertical significance (surface observations),1,First non-Cumulonimbus significant layer,,,,,Operational,PDF
-bufr4/0/08/002/2,008002,Vertical significance (surface observations),2,Second non-Cumulonimbus significant layer,,,,,Operational,PDF
-bufr4/0/08/002/3,008002,Vertical significance (surface observations),3,Third non-Cumulonimbus significant layer,,,,,Operational,PDF
-bufr4/0/08/002/4,008002,Vertical significance (surface observations),4,Cumulonimbus layer,,,,,Operational,PDF
-bufr4/0/08/002/5,008002,Vertical significance (surface observations),5,Ceiling,,,,,Operational,PDF
-bufr4/0/08/002/6,008002,Vertical significance (surface observations),6,Clouds not detected below the following height(s),,,,,Operational,PDF
-bufr4/0/08/002/7,008002,Vertical significance (surface observations),7,Low cloud,,,,,Operational,PDF
-bufr4/0/08/002/8,008002,Vertical significance (surface observations),8,Middle cloud,,,,,Operational,PDF
-bufr4/0/08/002/9,008002,Vertical significance (surface observations),9,High cloud,,,,,Operational,PDF
-bufr4/0/08/002/10,008002,Vertical significance (surface observations),10,Cloud layer with base below and top above the station,,,,,Operational,PDF
-bufr4/0/08/002/11,008002,Vertical significance (surface observations),11,Cloud layer with base and top below the station level,,,,,Operational,PDF
-bufr4/0/08/002/12-19,008002,Vertical significance (surface observations),12-19,Reserved,,,,,Operational,PDF
-bufr4/0/08/002/20,008002,Vertical significance (surface observations),20,No clouds detected by the cloud detection system,,,,,Operational,PDF
-bufr4/0/08/002/21,008002,Vertical significance (surface observations),21,First instrument detected cloud layer,,,,,Operational,PDF
-bufr4/0/08/002/22,008002,Vertical significance (surface observations),22,Second instrument detected cloud layer,,,,,Operational,PDF
-bufr4/0/08/002/23,008002,Vertical significance (surface observations),23,Third instrument detected cloud layer,,,,,Operational,PDF
-bufr4/0/08/002/24,008002,Vertical significance (surface observations),24,Fourth instrument detected cloud layer,,,,,Operational,PDF
-bufr4/0/08/002/25-61,008002,Vertical significance (surface observations),25-61,Reserved,,,,,Operational,PDF
-bufr4/0/08/002/62,008002,Vertical significance (surface observations),62,Value not applicable,,,,,Operational,PDF
-bufr4/0/08/002/63,008002,Vertical significance (surface observations),63,Missing value,,,,,Operational,PDF
-bufr4/0/08/003/0,008003,Vertical significance (satellite observations),0,Surface,,,,,Operational,PDF
-bufr4/0/08/003/1,008003,Vertical significance (satellite observations),1,Base of satellite sounding,,,,,Operational,PDF
-bufr4/0/08/003/2,008003,Vertical significance (satellite observations),2,Cloud top,,,,,Operational,PDF
-bufr4/0/08/003/3,008003,Vertical significance (satellite observations),3,Tropopause,,,,,Operational,PDF
-bufr4/0/08/003/4,008003,Vertical significance (satellite observations),4,Precipitable water,,,,,Operational,PDF
-bufr4/0/08/003/5,008003,Vertical significance (satellite observations),5,Sounding radiances,,,,,Operational,PDF
-bufr4/0/08/003/6,008003,Vertical significance (satellite observations),6,Mean temperatures,,,,,Operational,PDF
-bufr4/0/08/003/7,008003,Vertical significance (satellite observations),7,Ozone,,,,,Operational,PDF
-bufr4/0/08/003/8,008003,Vertical significance (satellite observations),8,Low cloud,,,,,Operational,PDF
-bufr4/0/08/003/9,008003,Vertical significance (satellite observations),9,Med cloud,,,,,Operational,PDF
-bufr4/0/08/003/10,008003,Vertical significance (satellite observations),10,High cloud,,,,,Operational,PDF
-bufr4/0/08/003/11-62,008003,Vertical significance (satellite observations),11-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/003/63,008003,Vertical significance (satellite observations),63,Missing value,,,,,Operational,PDF
-bufr4/0/08/004/0-1,008004,Phase of aircraft flight,0-1,Reserved,,,,,Operational,PDF
-bufr4/0/08/004/2,008004,Phase of aircraft flight,2,Unsteady (UNS),,,,,Operational,PDF
-bufr4/0/08/004/3,008004,Phase of aircraft flight,3,"Level flight, routine observation (LVR)",,,,,Operational,PDF
-bufr4/0/08/004/4,008004,Phase of aircraft flight,4,"Level flight, highest wind encountered (LVW)",,,,,Operational,PDF
-bufr4/0/08/004/5,008004,Phase of aircraft flight,5,Ascending (ASC),,,,,Operational,PDF
-bufr4/0/08/004/6,008004,Phase of aircraft flight,6,Descending (DES),,,,,Operational,PDF
-bufr4/0/08/004/7,008004,Phase of aircraft flight,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/005/0,008005,Meteorological attribute significance,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/005/1,008005,Meteorological attribute significance,1,Storm centre,,,,,Operational,PDF
-bufr4/0/08/005/2,008005,Meteorological attribute significance,2,Outer limit or edge of storm,,,,,Operational,PDF
-bufr4/0/08/005/3,008005,Meteorological attribute significance,3,Location of maximum wind,,,,,Operational,PDF
-bufr4/0/08/005/4,008005,Meteorological attribute significance,4,Location of the storm in the perturbed analysis,,,,,Operational,PDF
-bufr4/0/08/005/5,008005,Meteorological attribute significance,5,Location of the storm in the analysis,,,,,Operational,PDF
-bufr4/0/08/005/6-14,008005,Meteorological attribute significance,6-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/005/15,008005,Meteorological attribute significance,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/006/1,008006,Ozone vertical sounding significance,1,Surface,,,,,Operational,PDF
-bufr4/0/08/006/2,008006,Ozone vertical sounding significance,2,Standard level,,,,,Operational,PDF
-bufr4/0/08/006/3,008006,Ozone vertical sounding significance,3,Tropopause level,,,,,Operational,PDF
-bufr4/0/08/006/4,008006,Ozone vertical sounding significance,4,Prominent maximum level,,,,,Operational,PDF
-bufr4/0/08/006/5,008006,Ozone vertical sounding significance,5,Prominent minimum level,,,,,Operational,PDF
-bufr4/0/08/006/6,008006,Ozone vertical sounding significance,6,Minimum pressure level,,,,,Operational,PDF
-bufr4/0/08/006/7,008006,Ozone vertical sounding significance,7,Reserved,,,,,Operational,PDF
-bufr4/0/08/006/8,008006,Ozone vertical sounding significance,8,Level of undetermined significance,,,,,Operational,PDF
-bufr4/0/08/006/All-9,008006,Ozone vertical sounding significance,All 9,Missing value,,,,,Operational,PDF
-bufr4/0/08/007/0,008007,Dimensional significance,0,Point,,,,,Operational,PDF
-bufr4/0/08/007/1,008007,Dimensional significance,1,Line,,,,,Operational,PDF
-bufr4/0/08/007/2,008007,Dimensional significance,2,Area,,,,,Operational,PDF
-bufr4/0/08/007/3,008007,Dimensional significance,3,Volume,,,,,Operational,PDF
-bufr4/0/08/007/4-14,008007,Dimensional significance,4-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/007/15,008007,Dimensional significance,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/008/1,008008,Radiation vertical sounding significance,1,Surface,,,,,Operational,PDF
-bufr4/0/08/008/2,008008,Radiation vertical sounding significance,2,Standard level,,,,,Operational,PDF
-bufr4/0/08/008/3,008008,Radiation vertical sounding significance,3,Tropopause level,,,,,Operational,PDF
-bufr4/0/08/008/4,008008,Radiation vertical sounding significance,4,Level of beta radiation maximum,,,,,Operational,PDF
-bufr4/0/08/008/5,008008,Radiation vertical sounding significance,5,Level of gamma radiation maximum,,,,,Operational,PDF
-bufr4/0/08/008/6,008008,Radiation vertical sounding significance,6,Minimum pressure level,,,,,Operational,PDF
-bufr4/0/08/008/7,008008,Radiation vertical sounding significance,7,Reserved,,,,,Operational,PDF
-bufr4/0/08/008/8,008008,Radiation vertical sounding significance,8,Level of undetermined significance,,,,,Operational,PDF
-bufr4/0/08/008/All-9,008008,Radiation vertical sounding significance,All 9,Missing value,,,,,Operational,PDF
-bufr4/0/08/009/0,008009,Detailed phase of flight,0,"Level flight, routine observation, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/1,008009,Detailed phase of flight,1,"Level flight, highest wind encountered, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/2,008009,Detailed phase of flight,2,Unsteady (UNS),,,,,Operational,PDF
-bufr4/0/08/009/3,008009,Detailed phase of flight,3,"Level flight, routine observation (LVR)",,,,,Operational,PDF
-bufr4/0/08/009/4,008009,Detailed phase of flight,4,"Level flight, highest wind encountered (LVW)",,,,,Operational,PDF
-bufr4/0/08/009/5,008009,Detailed phase of flight,5,Ascending (ASC),,,,,Operational,PDF
-bufr4/0/08/009/6,008009,Detailed phase of flight,6,Descending (DES),,,,,Operational,PDF
-bufr4/0/08/009/7,008009,Detailed phase of flight,7,"Ascending, observation intervals selected by time increments",,,,,Operational,PDF
-bufr4/0/08/009/8,008009,Detailed phase of flight,8,"Ascending, observation intervals selected by time increments, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/9,008009,Detailed phase of flight,9,"Ascending, observation intervals selected by pressure increments",,,,,Operational,PDF
-bufr4/0/08/009/10,008009,Detailed phase of flight,10,"Ascending, observation intervals selected by pressure increments, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/11,008009,Detailed phase of flight,11,"Descending, observation intervals selected by time increments",,,,,Operational,PDF
-bufr4/0/08/009/12,008009,Detailed phase of flight,12,"Descending, observation intervals selected by time increments, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/13,008009,Detailed phase of flight,13,"Descending, observation intervals selected by pressure increments",,,,,Operational,PDF
-bufr4/0/08/009/14,008009,Detailed phase of flight,14,"Descending, observation intervals selected by pressure increments, unsteady",,,,,Operational,PDF
-bufr4/0/08/009/15,008009,Detailed phase of flight,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/010/0,008010,Surface qualifier (temperature data),0,Reserved,,,,,Operational,PDF
-bufr4/0/08/010/1,008010,Surface qualifier (temperature data),1,Bare soil,,,,,Operational,PDF
-bufr4/0/08/010/2,008010,Surface qualifier (temperature data),2,Bare rock,,,,,Operational,PDF
-bufr4/0/08/010/3,008010,Surface qualifier (temperature data),3,Land grass cover,,,,,Operational,PDF
-bufr4/0/08/010/4,008010,Surface qualifier (temperature data),4,"Water (lake, sea)",,,,,Operational,PDF
-bufr4/0/08/010/5,008010,Surface qualifier (temperature data),5,Flood water underneath,,,,,Operational,PDF
-bufr4/0/08/010/6,008010,Surface qualifier (temperature data),6,Snow,,,,,Operational,PDF
-bufr4/0/08/010/7,008010,Surface qualifier (temperature data),7,Ice,,,,,Operational,PDF
-bufr4/0/08/010/8,008010,Surface qualifier (temperature data),8,Runway or road,,,,,Operational,PDF
-bufr4/0/08/010/9,008010,Surface qualifier (temperature data),9,Ship or platform deck in steel,,,,,Operational,PDF
-bufr4/0/08/010/10,008010,Surface qualifier (temperature data),10,Ship or platform deck in wood,,,,,Operational,PDF
-bufr4/0/08/010/11,008010,Surface qualifier (temperature data),11,Ship or platform deck partly covered with rubber mat,,,,,Operational,PDF
-bufr4/0/08/010/12,008010,Surface qualifier (temperature data),12,Building roof,,,,,Operational,PDF
-bufr4/0/08/010/13-30,008010,Surface qualifier (temperature data),13-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/010/31,008010,Surface qualifier (temperature data),31,Missing value,,,,,Operational,PDF
-bufr4/0/08/011/0,008011,Meteorological feature,0,Quasi-stationary front at the surface,,,,,Operational,PDF
-bufr4/0/08/011/1,008011,Meteorological feature,1,Quasi-stationary front above the surface,,,,,Operational,PDF
-bufr4/0/08/011/2,008011,Meteorological feature,2,Warm front at the surface,,,,,Operational,PDF
-bufr4/0/08/011/3,008011,Meteorological feature,3,Warm front above the surface,,,,,Operational,PDF
-bufr4/0/08/011/4,008011,Meteorological feature,4,Cold front at the surface,,,,,Operational,PDF
-bufr4/0/08/011/5,008011,Meteorological feature,5,Cold front above the surface,,,,,Operational,PDF
-bufr4/0/08/011/6,008011,Meteorological feature,6,Occlusion,,,,,Operational,PDF
-bufr4/0/08/011/7,008011,Meteorological feature,7,Instability line,,,,,Operational,PDF
-bufr4/0/08/011/8,008011,Meteorological feature,8,Intertropical front,,,,,Operational,PDF
-bufr4/0/08/011/9,008011,Meteorological feature,9,Convergence line,,,,,Operational,PDF
-bufr4/0/08/011/10,008011,Meteorological feature,10,Jet stream,,,,,Operational,PDF
-bufr4/0/08/011/11,008011,Meteorological feature,11,Cloud clear,,,,,Operational,PDF
-bufr4/0/08/011/12,008011,Meteorological feature,12,Cloud,,,,,Operational,PDF
-bufr4/0/08/011/13,008011,Meteorological feature,13,Turbulence,,,,,Operational,PDF
-bufr4/0/08/011/14,008011,Meteorological feature,14,Storm,,,,,Operational,PDF
-bufr4/0/08/011/15,008011,Meteorological feature,15,Airframe icing,,,,,Operational,PDF
-bufr4/0/08/011/16,008011,Meteorological feature,16,Phenomenon,,,,,Operational,PDF
-bufr4/0/08/011/17,008011,Meteorological feature,17,Volcano,,,,,Operational,PDF
-bufr4/0/08/011/18,008011,Meteorological feature,18,Atmospherics,,,,,Operational,PDF
-bufr4/0/08/011/19,008011,Meteorological feature,19,Reserved,,,,,Operational,PDF
-bufr4/0/08/011/20,008011,Meteorological feature,20,Special clouds,,,,,Operational,PDF
-bufr4/0/08/011/21,008011,Meteorological feature,21,Thunderstorm,,,,,Operational,PDF
-bufr4/0/08/011/22,008011,Meteorological feature,22,Tropical cyclone,,,,,Operational,PDF
-bufr4/0/08/011/23,008011,Meteorological feature,23,Mountain wave,,,,,Operational,PDF
-bufr4/0/08/011/24,008011,Meteorological feature,24,Duststorm,,,,,Operational,PDF
-bufr4/0/08/011/25,008011,Meteorological feature,25,Sandstorm,,,,,Operational,PDF
-bufr4/0/08/011/26-62,008011,Meteorological feature,26-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/011/63,008011,Meteorological feature,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/012/0,008012,Land/sea qualifier,0,Land,,,,,Operational,PDF
-bufr4/0/08/012/1,008012,Land/sea qualifier,1,Sea,,,,,Operational,PDF
-bufr4/0/08/012/2,008012,Land/sea qualifier,2,Coast,,,,,Operational,PDF
-bufr4/0/08/012/3,008012,Land/sea qualifier,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/013/0,008013,Day/night qualifier,0,Night,,,,,Operational,PDF
-bufr4/0/08/013/1,008013,Day/night qualifier,1,Day,,,,,Operational,PDF
-bufr4/0/08/013/2,008013,Day/night qualifier,2,Twilight,,,,,Operational,PDF
-bufr4/0/08/013/3,008013,Day/night qualifier,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/014/0,008014,Qualifier for runway visual range,0,10-minute mean value - normal value,,,,,Operational,PDF
-bufr4/0/08/014/1,008014,Qualifier for runway visual range,1,10-minute mean value - above the upper limit for assessments of RVR (P),,,,,Operational,PDF
-bufr4/0/08/014/2,008014,Qualifier for runway visual range,2,10-minute mean value - below the lower limit for assessments of RVR (M),,,,,Operational,PDF
-bufr4/0/08/014/3,008014,Qualifier for runway visual range,3,one-minute minimum value - normal value,,,,,Operational,PDF
-bufr4/0/08/014/4,008014,Qualifier for runway visual range,4,one-minute minimum value - above the upper limit for assessments of RVR (P),,,,,Operational,PDF
-bufr4/0/08/014/5,008014,Qualifier for runway visual range,5,one-minute minimum value - below the lower limit for assessments of RVR (M),,,,,Operational,PDF
-bufr4/0/08/014/6,008014,Qualifier for runway visual range,6,one-minute maximum value - normal value,,,,,Operational,PDF
-bufr4/0/08/014/7,008014,Qualifier for runway visual range,7,one-minute maximum value - above the upper limit for assessments of RVR (P),,,,,Operational,PDF
-bufr4/0/08/014/8,008014,Qualifier for runway visual range,8,one-minute maximum value - below the lower limit for assessments of RVR (M),,,,,Operational,PDF
-bufr4/0/08/014/9-14,008014,Qualifier for runway visual range,9-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/014/15,008014,Qualifier for runway visual range,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/015/0,008015,Significant qualifier for sensor,0,Single sensor,,,,,Operational,PDF
-bufr4/0/08/015/1,008015,Significant qualifier for sensor,1,Primary sensor,,,,,Operational,PDF
-bufr4/0/08/015/2,008015,Significant qualifier for sensor,2,Secondary sensor (Backup),,,,,Operational,PDF
-bufr4/0/08/015/3-6,008015,Significant qualifier for sensor,3-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/015/7,008015,Significant qualifier for sensor,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/016/0,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,0,NOSIG,,,,,Operational,PDF
-bufr4/0/08/016/1,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,1,BECMG,,,,,Operational,PDF
-bufr4/0/08/016/2,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,2,TEMPO,,,,,Operational,PDF
-bufr4/0/08/016/3,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,3,FM,,,,,Operational,PDF
-bufr4/0/08/016/4-6,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,4-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/016/7,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/017/0,008017,Qualifier of the time when the forecast change is expected,0,FM,,,,,Operational,PDF
-bufr4/0/08/017/1,008017,Qualifier of the time when the forecast change is expected,1,TL,,,,,Operational,PDF
-bufr4/0/08/017/2,008017,Qualifier of the time when the forecast change is expected,2,AT,,,,,Operational,PDF
-bufr4/0/08/017/3,008017,Qualifier of the time when the forecast change is expected,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/018/1,008018,SEAWINDS land/ice surface type,1,Land is present,,,,,Operational,PDF
-bufr4/0/08/018/2,008018,SEAWINDS land/ice surface type,2,Surface ice map indicates ice is present,,,,,Operational,PDF
-bufr4/0/08/018/3-10,008018,SEAWINDS land/ice surface type,3-10,Reserved,,,,,Operational,PDF
-bufr4/0/08/018/11,008018,SEAWINDS land/ice surface type,11,Ice map data not available,,,,,Operational,PDF
-bufr4/0/08/018/12,008018,SEAWINDS land/ice surface type,12,Attenuation map data not available,,,,,Operational,PDF
-bufr4/0/08/018/13-16,008018,SEAWINDS land/ice surface type,13-16,Reserved,,,,,Operational,PDF
-bufr4/0/08/018/All-17,008018,SEAWINDS land/ice surface type,All 17,Missing value,,,,,Operational,PDF
-bufr4/0/08/019/0,008019,Qualifier for following centre identifier,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/019/1,008019,Qualifier for following centre identifier,1,ATS (Air Traffic Service) unit serving FIR (Flight Information Region),,,,,Operational,PDF
-bufr4/0/08/019/2,008019,Qualifier for following centre identifier,2,FIR (Flight Information Region),,,,,Operational,PDF
-bufr4/0/08/019/3,008019,Qualifier for following centre identifier,3,UIR (Upper Flight Information Region),,,,,Operational,PDF
-bufr4/0/08/019/4,008019,Qualifier for following centre identifier,4,CTA (Control Area),,,,,Operational,PDF
-bufr4/0/08/019/5,008019,Qualifier for following centre identifier,5,VAAC (Volcanic Ash Advisory Centre),,,,,Operational,PDF
-bufr4/0/08/019/6,008019,Qualifier for following centre identifier,6,MWO (Meteorological Watch Office) issuing SIGMET,,,,,Operational,PDF
-bufr4/0/08/019/7-14,008019,Qualifier for following centre identifier,7-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/019/15,008019,Qualifier for following centre identifier,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/021/0,008021,Time significance,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/021/1,008021,Time significance,1,Time series,,,,,Operational,PDF
-bufr4/0/08/021/2,008021,Time significance,2,Time averaged,,,(see Note 1),4,Operational,PDF
-bufr4/0/08/021/3,008021,Time significance,3,Accumulated,,,,,Operational,PDF
-bufr4/0/08/021/4,008021,Time significance,4,Forecast,,,,,Operational,PDF
-bufr4/0/08/021/5,008021,Time significance,5,Forecast time series,,,,,Operational,PDF
-bufr4/0/08/021/6,008021,Time significance,6,Forecast time averaged,,,,,Operational,PDF
-bufr4/0/08/021/7,008021,Time significance,7,Forecast accumulated,,,,,Operational,PDF
-bufr4/0/08/021/8,008021,Time significance,8,Ensemble mean,,,(see Note 2),3,Operational,PDF
-bufr4/0/08/021/9,008021,Time significance,9,Ensemble mean time series,,,,,Operational,PDF
-bufr4/0/08/021/10,008021,Time significance,10,Ensemble mean time averaged,,,,,Operational,PDF
-bufr4/0/08/021/11,008021,Time significance,11,Ensemble mean accumulated,,,,,Operational,PDF
-bufr4/0/08/021/12,008021,Time significance,12,Ensemble mean forecast,,,,,Operational,PDF
-bufr4/0/08/021/13,008021,Time significance,13,Ensemble mean forecast time series,,,,,Operational,PDF
-bufr4/0/08/021/14,008021,Time significance,14,Ensemble mean forecast time averaged,,,,,Operational,PDF
-bufr4/0/08/021/15,008021,Time significance,15,Ensemble mean forecast accumulated,,,,,Operational,PDF
-bufr4/0/08/021/16,008021,Time significance,16,Analysis,,,,,Operational,PDF
-bufr4/0/08/021/17,008021,Time significance,17,Start of phenomenon,,,,,Operational,PDF
-bufr4/0/08/021/18,008021,Time significance,18,Radiosonde launch time,,,,,Operational,PDF
-bufr4/0/08/021/19,008021,Time significance,19,Start of orbit,,,,,Operational,PDF
-bufr4/0/08/021/20,008021,Time significance,20,End of orbit,,,,,Operational,PDF
-bufr4/0/08/021/21,008021,Time significance,21,Time of ascending node,,,,,Operational,PDF
-bufr4/0/08/021/22,008021,Time significance,22,Time of occurrence of wind shift,,,,,Operational,PDF
-bufr4/0/08/021/23,008021,Time significance,23,Monitoring period,,,,,Operational,PDF
-bufr4/0/08/021/24,008021,Time significance,24,Agreed time limit for report reception,,,,,Operational,PDF
-bufr4/0/08/021/25,008021,Time significance,25,Nominal reporting time,,,,,Operational,PDF
-bufr4/0/08/021/26,008021,Time significance,26,Time of last known position,,,,,Operational,PDF
-bufr4/0/08/021/27,008021,Time significance,27,First guess,,,,,Operational,PDF
-bufr4/0/08/021/28,008021,Time significance,28,Start of scan,,,,,Operational,PDF
-bufr4/0/08/021/29,008021,Time significance,29,End of scan or time of ending,,,,,Operational,PDF
-bufr4/0/08/021/30,008021,Time significance,30,Time of occurrence,,,,,Operational,PDF
-bufr4/0/08/021/31,008021,Time significance,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/023/0-1,008023,First-order statistics,0-1,Reserved,,,,,Operational,PDF
-bufr4/0/08/023/2,008023,First-order statistics,2,Maximum value,,,,,Operational,PDF
-bufr4/0/08/023/3,008023,First-order statistics,3,Minimum value,,,,,Operational,PDF
-bufr4/0/08/023/4,008023,First-order statistics,4,Mean value,,,,,Operational,PDF
-bufr4/0/08/023/5,008023,First-order statistics,5,Median value,,,,,Operational,PDF
-bufr4/0/08/023/6,008023,First-order statistics,6,Modal value,,,,,Operational,PDF
-bufr4/0/08/023/7,008023,First-order statistics,7,Mean absolute error,,,,,Operational,PDF
-bufr4/0/08/023/8,008023,First-order statistics,8,Reserved,,,,,Operational,PDF
-bufr4/0/08/023/9,008023,First-order statistics,9,Best estimate of standard deviation (N-1),,,,,Operational,PDF
-bufr4/0/08/023/10,008023,First-order statistics,10,Standard deviation (N),,,,,Operational,PDF
-bufr4/0/08/023/11,008023,First-order statistics,11,Harmonic mean,,,,,Operational,PDF
-bufr4/0/08/023/12,008023,First-order statistics,12,Root-mean-square vector error,,,,,Operational,PDF
-bufr4/0/08/023/13,008023,First-order statistics,13,Root-mean-square,,,,,Operational,PDF
-bufr4/0/08/023/14,008023,First-order statistics,14,Root-mean-square error,,,,,Operational,PDF
-bufr4/0/08/023/15-31,008023,First-order statistics,15-31,Reserved,,,,,Operational,PDF
-bufr4/0/08/023/32,008023,First-order statistics,32,Vector mean,,,,,Operational,PDF
-bufr4/0/08/023/33-62,008023,First-order statistics,33-62,Reserved for local use,,,,,Operational,PDF
-bufr4/0/08/023/63,008023,First-order statistics,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/024/0-1,008024,Difference statistics,0-1,Reserved,,,,,Operational,PDF
-bufr4/0/08/024/2,008024,Difference statistics,2,Observed minus maximum,,,,,Operational,PDF
-bufr4/0/08/024/3,008024,Difference statistics,3,Observed minus minimum,,,,,Operational,PDF
-bufr4/0/08/024/4,008024,Difference statistics,4,Observed minus mean,,,,,Operational,PDF
-bufr4/0/08/024/5,008024,Difference statistics,5,Observed minus median,,,,,Operational,PDF
-bufr4/0/08/024/6,008024,Difference statistics,6,Observed minus mode,,,,,Operational,PDF
-bufr4/0/08/024/7-10,008024,Difference statistics,7-10,Reserved,,,,,Operational,PDF
-bufr4/0/08/024/11,008024,Difference statistics,11,Observed minus climatology (anomaly),,,,,Operational,PDF
-bufr4/0/08/024/12,008024,Difference statistics,12,Observed minus analysed value,,,,,Operational,PDF
-bufr4/0/08/024/13,008024,Difference statistics,13,Observed minus initialized analysed value,,,,,Operational,PDF
-bufr4/0/08/024/14,008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),93,Operational,PDF
-bufr4/0/08/024/15-20,008024,Difference statistics,15-20,Reserved,,,,,Operational,PDF
-bufr4/0/08/024/21,008024,Difference statistics,21,Observed minus interpolated value,,,,,Operational,PDF
-bufr4/0/08/024/22,008024,Difference statistics,22,Observed minus hydrostatically calculated value,,,,,Operational,PDF
-bufr4/0/08/024/23-31,008024,Difference statistics,23-31,Reserved,,,,,Operational,PDF
-bufr4/0/08/024/32-62,008024,Difference statistics,32-62,Reserved for local use,,,,,Operational,PDF
-bufr4/0/08/024/63,008024,Difference statistics,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/025/0,008025,Time difference qualifier,0,Universal Time Coordinated (UTC) minus Local Standard Time (LST),,,,,Operational,PDF
-bufr4/0/08/025/1,008025,Time difference qualifier,1,Local Standard Time,,,,,Operational,PDF
-bufr4/0/08/025/2,008025,Time difference qualifier,2,Universal Time Coordinated (UTC) minus Satellite clock,,,,,Operational,PDF
-bufr4/0/08/025/3-4,008025,Time difference qualifier,3-4,Reserved,,,,,Operational,PDF
-bufr4/0/08/025/5,008025,Time difference qualifier,5,Time difference from edge of processing segment,,,,,Operational,PDF
-bufr4/0/08/025/6-14,008025,Time difference qualifier,6-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/025/15,008025,Time difference qualifier,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/026/0,008026,Matrix significance,0,Averaging kernel matrix,,,,,Operational,PDF
-bufr4/0/08/026/1,008026,Matrix significance,1,Correlation matrix (C),,,,,Operational,PDF
-bufr4/0/08/026/2,008026,Matrix significance,2,Lower triangular correlation matrix square root (L from C=LLT),,,,,Operational,PDF
-bufr4/0/08/026/3,008026,Matrix significance,3,Inverse of lower triangular correlation matrix square root (L-1),,,,,Operational,PDF
-bufr4/0/08/026/4-42,008026,Matrix significance,4-42,Reserved,,,,,Operational,PDF
-bufr4/0/08/026/43-62,008026,Matrix significance,43-62,Reserved for local use,,,,,Operational,PDF
-bufr4/0/08/026/63,008026,Matrix significance,63,Missing or undefined significance,,,,,Operational,PDF
-bufr4/0/08/027/0,008027,Type of sea-surface height anomaly measurement,0,Unfiltered raw measurement including noises,,,,,Operational,PDF
-bufr4/0/08/027/1,008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational,PDF
-bufr4/0/08/027/2-254,008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/027/255,008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/029/0,008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational,PDF
-bufr4/0/08/029/1,008029,Surface type,1,Enclosed sea or lake,,,,,Operational,PDF
-bufr4/0/08/029/2,008029,Surface type,2,Continental ice,,,,,Operational,PDF
-bufr4/0/08/029/3,008029,Surface type,3,Land,,,,,Operational,PDF
-bufr4/0/08/029/4,008029,Surface type,4,Low inland (below sea level),,,,,Operational,PDF
-bufr4/0/08/029/5,008029,Surface type,5,Mix of land and water,,,,,Operational,PDF
-bufr4/0/08/029/6,008029,Surface type,6,Mix of land and low inland,,,,,Operational,PDF
-bufr4/0/08/029/7-10,008029,Surface type,7-10,Reserved,,,,,Operational,PDF
-bufr4/0/08/029/11,008029,Surface type,11,River,,,,,Operational,PDF
-bufr4/0/08/029/12,008029,Surface type,12,Lake,,,,,Operational,PDF
-bufr4/0/08/029/13,008029,Surface type,13,Sea,,,,,Operational,PDF
-bufr4/0/08/029/14,008029,Surface type,14,Glacier,,,,,Operational,PDF
-bufr4/0/08/029/15,008029,Surface type,15,Urban land,,,,,Operational,PDF
-bufr4/0/08/029/16,008029,Surface type,16,Rural land,,,,,Operational,PDF
-bufr4/0/08/029/17,008029,Surface type,17,Suburban land,,,,,Operational,PDF
-bufr4/0/08/029/18,008029,Surface type,18,Sea ice,,,,,Operational,PDF
-bufr4/0/08/029/19,008029,Surface type,19,Forest,,,,,Operational,PDF
-bufr4/0/08/029/20,008029,Surface type,20,Shrublands,,,,,Operational,PDF
-bufr4/0/08/029/21,008029,Surface type,21,Savannah,,,,,Operational,PDF
-bufr4/0/08/029/22,008029,Surface type,22,Desert,,,,,Operational,PDF
-bufr4/0/08/029/23,008029,Surface type,23,Grasslands,,,,,Operational,PDF
-bufr4/0/08/029/24,008029,Surface type,24,Wetlands,,,,,Operational,PDF
-bufr4/0/08/029/25,008029,Surface type,25,Snow/ice,,,,,Operational,PDF
-bufr4/0/08/029/26,008029,Surface type,26,Coast,,,,,Operational,PDF
-bufr4/0/08/029/27-254,008029,Surface type,27-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/029/255,008029,Surface type,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/032/0,008032,Status of operation,0,Routine operation,,,,,Operational,PDF
-bufr4/0/08/032/1,008032,Status of operation,1,Event triggered by storm surge,,,,,Operational,PDF
-bufr4/0/08/032/2,008032,Status of operation,2,Event triggered by tsunami,,,,,Operational,PDF
-bufr4/0/08/032/3,008032,Status of operation,3,Event triggered manually,,,,,Operational,PDF
-bufr4/0/08/032/4,008032,Status of operation,4,Installation testing,,,,,Operational,PDF
-bufr4/0/08/032/5,008032,Status of operation,5,Maintenance testing,,,,,Operational,PDF
-bufr4/0/08/032/6-14,008032,Status of operation,6-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/032/15,008032,Status of operation,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/033/0,008033,Method of derivation of percentage confidence,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/033/1,008033,Method of derivation of percentage confidence,1,Percentage confidence calculated using cloud fraction,,,,,Operational,PDF
-bufr4/0/08/033/2,008033,Method of derivation of percentage confidence,2,Percentage confidence calculated using standard deviation of temperature,,,,,Operational,PDF
-bufr4/0/08/033/3,008033,Method of derivation of percentage confidence,3,Percentage confidence calculated using probability of cloud contamination,,,,,Operational,PDF
-bufr4/0/08/033/4,008033,Method of derivation of percentage confidence,4,Percentage confidence calculated using normality of distribution,,,,,Operational,PDF
-bufr4/0/08/033/5-126,008033,Method of derivation of percentage confidence,5-126,Reserved,,,,,Operational,PDF
-bufr4/0/08/033/127,008033,Method of derivation of percentage confidence,127,Missing value,,,,,Operational,PDF
-bufr4/0/08/034/0,008034,Temperature/salinity measurement qualifier,0,Secondary sampling: averaged,,,,,Operational,PDF
-bufr4/0/08/034/1,008034,Temperature/salinity measurement qualifier,1,Secondary sampling: discrete,,,,,Operational,PDF
-bufr4/0/08/034/2,008034,Temperature/salinity measurement qualifier,2,Secondary sampling: mixed,,,,,Operational,PDF
-bufr4/0/08/034/3,008034,Temperature/salinity measurement qualifier,3,"Near-surface sampling: averaged, pumped",,,,,Operational,PDF
-bufr4/0/08/034/4,008034,Temperature/salinity measurement qualifier,4,"Near-surface sampling: averaged, unpumped",,,,,Operational,PDF
-bufr4/0/08/034/5,008034,Temperature/salinity measurement qualifier,5,"Near-surface sampling: discrete, pumped",,,,,Operational,PDF
-bufr4/0/08/034/6,008034,Temperature/salinity measurement qualifier,6,"Near-surface sampling: discrete, unpumped",,,,,Operational,PDF
-bufr4/0/08/034/7,008034,Temperature/salinity measurement qualifier,7,"Near-surface sampling: mixed, pumped",,,,,Operational,PDF
-bufr4/0/08/034/8,008034,Temperature/salinity measurement qualifier,8,"Near-surface sampling: mixed, unpumped",,,,,Operational,PDF
-bufr4/0/08/034/9-14,008034,Temperature/salinity measurement qualifier,9-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/034/15,008034,Temperature/salinity measurement qualifier,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/035/0,008035,Type of monitoring exercise,0,Global,,,,,Operational,PDF
-bufr4/0/08/035/1,008035,Type of monitoring exercise,1,Regional,,,,,Operational,PDF
-bufr4/0/08/035/2,008035,Type of monitoring exercise,2,National,,,,,Operational,PDF
-bufr4/0/08/035/3,008035,Type of monitoring exercise,3,Special,,,,,Operational,PDF
-bufr4/0/08/035/4,008035,Type of monitoring exercise,4,Bilateral,,,,,Operational,PDF
-bufr4/0/08/035/5,008035,Type of monitoring exercise,5,Reserved,,,,,Operational,PDF
-bufr4/0/08/035/6,008035,Type of monitoring exercise,6,Reserved,,,,,Operational,PDF
-bufr4/0/08/035/7,008035,Type of monitoring exercise,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/036/0,008036,Type of centre or station performing monitoring,0,WMO Secretariat,,,,,Operational,PDF
-bufr4/0/08/036/1,008036,Type of centre or station performing monitoring,1,WMO,,,,,Operational,PDF
-bufr4/0/08/036/2,008036,Type of centre or station performing monitoring,2,RSMC,,,,,Operational,PDF
-bufr4/0/08/036/3,008036,Type of centre or station performing monitoring,3,NMC,,,,,Operational,PDF
-bufr4/0/08/036/4,008036,Type of centre or station performing monitoring,4,RTH,,,,,Operational,PDF
-bufr4/0/08/036/5,008036,Type of centre or station performing monitoring,5,Observing site,,,,,Operational,PDF
-bufr4/0/08/036/6,008036,Type of centre or station performing monitoring,6,Other,,,,,Operational,PDF
-bufr4/0/08/036/7,008036,Type of centre or station performing monitoring,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/037/0,008037,Baseline check significance,0,Manufacturer's baseline check unit,,,,,Operational,PDF
-bufr4/0/08/037/1,008037,Baseline check significance,1,Weather screen,,,,,Operational,PDF
-bufr4/0/08/037/2,008037,Baseline check significance,2,GRUAN standard humidity chamber,,,,,Operational,PDF
-bufr4/0/08/037/3-30,008037,Baseline check significance,3-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/037/31,008037,Baseline check significance,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/038/0,008038,Instrument data significance,0,Verified instrument reading,,,,,Operational,PDF
-bufr4/0/08/038/1,008038,Instrument data significance,1,Reference instrument reading,,,,,Operational,PDF
-bufr4/0/08/038/2-254,008038,Instrument data significance,2-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/038/255,008038,Instrument data significance,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/039/0,008039,Time significance (Aviation forecast),0,Issue time of forecast,,,,,Operational,PDF
-bufr4/0/08/039/1,008039,Time significance (Aviation forecast),1,Time of commencement of period of the forecast,,,,,Operational,PDF
-bufr4/0/08/039/2,008039,Time significance (Aviation forecast),2,Time of ending of period of the forecast,,,,,Operational,PDF
-bufr4/0/08/039/3,008039,Time significance (Aviation forecast),3,Forecast time of maximum temperature,,,,,Operational,PDF
-bufr4/0/08/039/4,008039,Time significance (Aviation forecast),4,Forecast time of minimum temperature,,,,,Operational,PDF
-bufr4/0/08/039/5,008039,Time significance (Aviation forecast),5,Time of beginning of the forecast change,,,,,Operational,PDF
-bufr4/0/08/039/6,008039,Time significance (Aviation forecast),6,Time of ending of the forecast change,,,,,Operational,PDF
-bufr4/0/08/039/7-62,008039,Time significance (Aviation forecast),7-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/039/63,008039,Time significance (Aviation forecast),63,Missing value,,,,,Operational,PDF
-bufr4/0/08/040/0,008040,Flight level significance,0,High-resolution data sample,,,,,Operational,PDF
-bufr4/0/08/040/1,008040,Flight level significance,1,Within 20 hPa of surface,,,,,Operational,PDF
-bufr4/0/08/040/2,008040,Flight level significance,2,"Pressure less than 10 hPa (i.e., 9, 8, 7, etc.) when no other reason applies",,,,,Operational,PDF
-bufr4/0/08/040/3,008040,Flight level significance,3,Base pressure level for stability index,,,,,Operational,PDF
-bufr4/0/08/040/4,008040,Flight level significance,4,"Begin doubtful temperature, height data",,,,,Operational,PDF
-bufr4/0/08/040/5,008040,Flight level significance,5,Begin missing data (all elements),,,,,Operational,PDF
-bufr4/0/08/040/6,008040,Flight level significance,6,Begin missing relative humidity data,,,,,Operational,PDF
-bufr4/0/08/040/7,008040,Flight level significance,7,Begin missing temperature data,,,,,Operational,PDF
-bufr4/0/08/040/8,008040,Flight level significance,8,Highest level reached before balloon descent because of icing or turbulence,,,,,Operational,PDF
-bufr4/0/08/040/9,008040,Flight level significance,9,"End doubtful temperature, height data",,,,,Operational,PDF
-bufr4/0/08/040/10,008040,Flight level significance,10,End missing data (all elements),,,,,Operational,PDF
-bufr4/0/08/040/11,008040,Flight level significance,11,End missing relative humidity data,,,,,Operational,PDF
-bufr4/0/08/040/12,008040,Flight level significance,12,End missing temperature data,,,,,Operational,PDF
-bufr4/0/08/040/13,008040,Flight level significance,13,Zero degrees Celsius crossing(s) for RADAT,,,,,Operational,PDF
-bufr4/0/08/040/14,008040,Flight level significance,14,Standard pressure level,,,,,Operational,PDF
-bufr4/0/08/040/15,008040,Flight level significance,15,Operator-added level,,,,,Operational,PDF
-bufr4/0/08/040/16,008040,Flight level significance,16,Operator-deleted level,,,,,Operational,PDF
-bufr4/0/08/040/17,008040,Flight level significance,17,Balloon re-ascended beyond previous highest ascent level,,,,,Operational,PDF
-bufr4/0/08/040/18,008040,Flight level significance,18,Significant relative humidity level,,,,,Operational,PDF
-bufr4/0/08/040/19,008040,Flight level significance,19,Relative humidity level selection terminated,,,,,Operational,PDF
-bufr4/0/08/040/20,008040,Flight level significance,20,Surface level,,,,,Operational,PDF
-bufr4/0/08/040/21,008040,Flight level significance,21,Significant temperature level,,,,,Operational,PDF
-bufr4/0/08/040/22,008040,Flight level significance,22,Mandatory temperature level,,,,,Operational,PDF
-bufr4/0/08/040/23,008040,Flight level significance,23,Flight termination level,,,,,Operational,PDF
-bufr4/0/08/040/24,008040,Flight level significance,24,Tropopause(s),,,,,Operational,PDF
-bufr4/0/08/040/25,008040,Flight level significance,25,Aircraft report,,,,,Operational,PDF
-bufr4/0/08/040/26,008040,Flight level significance,26,Interpolated (generated) level,,,,,Operational,PDF
-bufr4/0/08/040/27,008040,Flight level significance,27,Mandatory wind level,,,,,Operational,PDF
-bufr4/0/08/040/28,008040,Flight level significance,28,Significant wind level,,,,,Operational,PDF
-bufr4/0/08/040/29,008040,Flight level significance,29,Maximum wind level,,,,,Operational,PDF
-bufr4/0/08/040/30,008040,Flight level significance,30,Incremental wind level (fixed regional),,,,,Operational,PDF
-bufr4/0/08/040/31,008040,Flight level significance,31,Incremental height level (generated),,,,,Operational,PDF
-bufr4/0/08/040/32,008040,Flight level significance,32,Wind termination level,,,,,Operational,PDF
-bufr4/0/08/040/33,008040,Flight level significance,33,"Pressure 100 to 110 hPa, when no other reason applies",,,,,Operational,PDF
-bufr4/0/08/040/34,008040,Flight level significance,34,Freezing level base,,,,,Operational,PDF
-bufr4/0/08/040/35,008040,Flight level significance,35,Freezing level top,,,,,Operational,PDF
-bufr4/0/08/040/36,008040,Flight level significance,36,Flight level base,,,,,Operational,PDF
-bufr4/0/08/040/37,008040,Flight level significance,37,Flight level top,,,,,Operational,PDF
-bufr4/0/08/040/38,008040,Flight level significance,38,Top of wind sounding,,,,,Operational,PDF
-bufr4/0/08/040/39,008040,Flight level significance,39,Bottom of wind sounding,,,,,Operational,PDF
-bufr4/0/08/040/40,008040,Flight level significance,40,Significant thermodynamic level (inversion),,,,,Operational,PDF
-bufr4/0/08/040/41,008040,Flight level significance,41,Significant relative humidity level (according to NCDC criteria),,,,,Operational,PDF
-bufr4/0/08/040/42,008040,Flight level significance,42,Significant temperature level (according to NCDC),,,,,Operational,PDF
-bufr4/0/08/040/43,008040,Flight level significance,43,Begin missing wind data,,,,,Operational,PDF
-bufr4/0/08/040/44,008040,Flight level significance,44,End missing wind data,,,,,Operational,PDF
-bufr4/0/08/040/45-59,008040,Flight level significance,45-59,Reserved,,,,,Operational,PDF
-bufr4/0/08/040/60,008040,Flight level significance,60,Level of 80-knot isotach above jet,,,,,Operational,PDF
-bufr4/0/08/040/61,008040,Flight level significance,61,Level of 80-knot isotach below jet,,,,,Operational,PDF
-bufr4/0/08/040/62,008040,Flight level significance,62,Other,,,,,Operational,PDF
-bufr4/0/08/040/63,008040,Flight level significance,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/041/0,008041,Data significance,0,Parent site,,,,,Operational,PDF
-bufr4/0/08/041/1,008041,Data significance,1,Observation site,,,,,Operational,PDF
-bufr4/0/08/041/2,008041,Data significance,2,Balloon manufacture date,,,,,Operational,PDF
-bufr4/0/08/041/3,008041,Data significance,3,Balloon launch point,,,,,Operational,PDF
-bufr4/0/08/041/4,008041,Data significance,4,Surface observation,,,,,Operational,PDF
-bufr4/0/08/041/5,008041,Data significance,5,Surface observation displacement from launch point,,,,,Operational,PDF
-bufr4/0/08/041/6,008041,Data significance,6,Flight level observation,,,,,Operational,PDF
-bufr4/0/08/041/7,008041,Data significance,7,Flight level termination point,,,,,Operational,PDF
-bufr4/0/08/041/8,008041,Data significance,8,IFR ceiling and visibility,,,,,Operational,PDF
-bufr4/0/08/041/9,008041,Data significance,9,Mountain obscuration,,,,,Operational,PDF
-bufr4/0/08/041/10,008041,Data significance,10,Strong surface wind,,,,,Operational,PDF
-bufr4/0/08/041/11,008041,Data significance,11,Freezing level,,,,,Operational,PDF
-bufr4/0/08/041/12,008041,Data significance,12,Multiple freezing level,,,,,Operational,PDF
-bufr4/0/08/041/13,008041,Data significance,13,Instrument manufacture date,,,,,Operational,PDF
-bufr4/0/08/041/14,008041,Data significance,14,Derived from polarization,,,,,Operational,PDF
-bufr4/0/08/041/15-30,008041,Data significance,15-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/041/31,008041,Data significance,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/042/1,008042,Extended vertical sounding significance,1,Surface,,,,,Operational,PDF
-bufr4/0/08/042/2,008042,Extended vertical sounding significance,2,Standard level,,,,,Operational,PDF
-bufr4/0/08/042/3,008042,Extended vertical sounding significance,3,Tropopause level,,,,,Operational,PDF
-bufr4/0/08/042/4,008042,Extended vertical sounding significance,4,Maximum wind level,,,,,Operational,PDF
-bufr4/0/08/042/5,008042,Extended vertical sounding significance,5,Significant temperature level,,,,,Operational,PDF
-bufr4/0/08/042/6,008042,Extended vertical sounding significance,6,Significant humidity level,,,,,Operational,PDF
-bufr4/0/08/042/7,008042,Extended vertical sounding significance,7,Significant wind level,,,,,Operational,PDF
-bufr4/0/08/042/8,008042,Extended vertical sounding significance,8,Beginning of missing temperature data,,,,,Operational,PDF
-bufr4/0/08/042/9,008042,Extended vertical sounding significance,9,End of missing temperature data,,,,,Operational,PDF
-bufr4/0/08/042/10,008042,Extended vertical sounding significance,10,Beginning of missing humidity data,,,,,Operational,PDF
-bufr4/0/08/042/11,008042,Extended vertical sounding significance,11,End of missing humidity data,,,,,Operational,PDF
-bufr4/0/08/042/12,008042,Extended vertical sounding significance,12,Beginning of missing wind data,,,,,Operational,PDF
-bufr4/0/08/042/13,008042,Extended vertical sounding significance,13,End of missing wind data,,,,,Operational,PDF
-bufr4/0/08/042/14,008042,Extended vertical sounding significance,14,Top of wind sounding,,,,,Operational,PDF
-bufr4/0/08/042/15,008042,Extended vertical sounding significance,15,Level determined by regional decision,,,,,Operational,PDF
-bufr4/0/08/042/16,008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),41,Operational,PDF
-bufr4/0/08/042/17,008042,Extended vertical sounding significance,17,Pressure level originally indicated by height as the vertical coordinate,,,,,Operational,PDF
-bufr4/0/08/042/All-18,008042,Extended vertical sounding significance,All 18,Missing value,,,,,Operational,PDF
-bufr4/0/08/043/0,008043,Atmospheric chemical or physical constituent type,0,Ozone,O3,10028-15-6,,,Operational,PDF
-bufr4/0/08/043/1,008043,Atmospheric chemical or physical constituent type,1,Water vapour,H2O,7732-18-5,,,Operational,PDF
-bufr4/0/08/043/2,008043,Atmospheric chemical or physical constituent type,2,Methane,CH4,74-82-8,,,Operational,PDF
-bufr4/0/08/043/3,008043,Atmospheric chemical or physical constituent type,3,Carbon dioxide,CO2,124-38-9,,,Operational,PDF
-bufr4/0/08/043/4,008043,Atmospheric chemical or physical constituent type,4,Carbon monoxide,CO,630-08-0,,,Operational,PDF
-bufr4/0/08/043/5,008043,Atmospheric chemical or physical constituent type,5,Nitrogen dioxide,NO2,10102-44-0,,,Operational,PDF
-bufr4/0/08/043/6,008043,Atmospheric chemical or physical constituent type,6,Nitrous oxide,N2O,10024-97-2,,,Operational,PDF
-bufr4/0/08/043/7,008043,Atmospheric chemical or physical constituent type,7,Formaldehyde,HCHO,50-00-0,,,Operational,PDF
-bufr4/0/08/043/8,008043,Atmospheric chemical or physical constituent type,8,Sulphur dioxide,SO2,7446-09-5,,,Operational,PDF
-bufr4/0/08/043/9,008043,Atmospheric chemical or physical constituent type,9,Volcanic sulphur dioxide,,,,,Operational,PDF
-bufr4/0/08/043/10-24,008043,Atmospheric chemical or physical constituent type,10-24,Reserved,,,,,Operational,PDF
-bufr4/0/08/043/25,008043,Atmospheric chemical or physical constituent type,25,Particulate matter < 1.0 microns,,,,,Operational,PDF
-bufr4/0/08/043/26,008043,Atmospheric chemical or physical constituent type,26,Particulate matter < 2.5 microns,,,,,Operational,PDF
-bufr4/0/08/043/27,008043,Atmospheric chemical or physical constituent type,27,Particulate matter < 10 microns,,,,,Operational,PDF
-bufr4/0/08/043/28,008043,Atmospheric chemical or physical constituent type,28,Aerosols (generic),,,,,Operational,PDF
-bufr4/0/08/043/29,008043,Atmospheric chemical or physical constituent type,29,Smoke (generic),,,,,Operational,PDF
-bufr4/0/08/043/30,008043,Atmospheric chemical or physical constituent type,30,Crustal material (generic dust),,,,,Operational,PDF
-bufr4/0/08/043/31,008043,Atmospheric chemical or physical constituent type,31,Volcanic ash,,,,,Operational,PDF
-bufr4/0/08/043/32,008043,Atmospheric chemical or physical constituent type,32,Cloud,,,,,Operational,PDF
-bufr4/0/08/043/33,008043,Atmospheric chemical or physical constituent type,33,Cloud and aerosols,,,,,Operational,PDF
-bufr4/0/08/043/34-200,008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,,Operational,PDF
-bufr4/0/08/043/201-254,008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,,Operational,PDF
-bufr4/0/08/043/255,008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/045/0,008045,Character of particulate matter,0,Aerosols all types,,,,,Operational,PDF
-bufr4/0/08/045/1,008045,Character of particulate matter,1,Desert dust,,,,,Operational,PDF
-bufr4/0/08/045/2,008045,Character of particulate matter,2,Black carbon,,,,,Operational,PDF
-bufr4/0/08/045/3,008045,Character of particulate matter,3,Sea salt,,,,,Operational,PDF
-bufr4/0/08/045/4-254,008045,Character of particulate matter,4-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/045/255,008045,Character of particulate matter,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/046,008046,Atmospheric chemical or physical constituent type,,,,,(See Common Code table C–14 in Part C/c.),,Operational,PDF
-bufr4/0/08/050/0,008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/050/1,008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational,PDF
-bufr4/0/08/050/2,008050,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,,Operational,PDF
-bufr4/0/08/050/3,008050,Qualifier for number of missing values in calculation of statistic,3,Extreme temperature,,,,,Operational,PDF
-bufr4/0/08/050/4,008050,Qualifier for number of missing values in calculation of statistic,4,Vapour pressure,,,,,Operational,PDF
-bufr4/0/08/050/5,008050,Qualifier for number of missing values in calculation of statistic,5,Precipitation,,,,,Operational,PDF
-bufr4/0/08/050/6,008050,Qualifier for number of missing values in calculation of statistic,6,Sunshine duration,,,,,Operational,PDF
-bufr4/0/08/050/7,008050,Qualifier for number of missing values in calculation of statistic,7,Maximum temperature,,,,,Operational,PDF
-bufr4/0/08/050/8,008050,Qualifier for number of missing values in calculation of statistic,8,Minimum temperature,,,,,Operational,PDF
-bufr4/0/08/050/9,008050,Qualifier for number of missing values in calculation of statistic,9,Wind,,,,,Operational,PDF
-bufr4/0/08/050/10-14,008050,Qualifier for number of missing values in calculation of statistic,10-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/050/15,008050,Qualifier for number of missing values in calculation of statistic,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/051/1,008051,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational,PDF
-bufr4/0/08/051/2,008051,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,,Operational,PDF
-bufr4/0/08/051/3,008051,Qualifier for number of missing values in calculation of statistic,3,Extreme temperature,,,,,Operational,PDF
-bufr4/0/08/051/4,008051,Qualifier for number of missing values in calculation of statistic,4,Vapour pressure,,,,,Operational,PDF
-bufr4/0/08/051/5,008051,Qualifier for number of missing values in calculation of statistic,5,Precipitation,,,,,Operational,PDF
-bufr4/0/08/051/6,008051,Qualifier for number of missing values in calculation of statistic,6,Sunshine duration,,,,,Operational,PDF
-bufr4/0/08/051/7,008051,Qualifier for number of missing values in calculation of statistic,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/052/0,008052,Condition for which number of days of occurrence follows,0,Mean wind speed over a 10-minute period observed or recorded equal to or more than 10 m s-1 or 20 knots,,,,,Operational,PDF
-bufr4/0/08/052/1,008052,Condition for which number of days of occurrence follows,1,Mean wind speed over a 10-minute period observed or recorded equal to or more than 20 m s-1 or 40 knots,,,,,Operational,PDF
-bufr4/0/08/052/2,008052,Condition for which number of days of occurrence follows,2,Mean wind speed over a 10-minute period observed or recorded equal to or more than 30 m s-1 or 60 knots,,,,,Operational,PDF
-bufr4/0/08/052/3,008052,Condition for which number of days of occurrence follows,3,Maximum temperature less than 273.15 K,,,,,Operational,PDF
-bufr4/0/08/052/4,008052,Condition for which number of days of occurrence follows,4,Maximum temperature equal to or more than 298.15 K,,,,,Operational,PDF
-bufr4/0/08/052/5,008052,Condition for which number of days of occurrence follows,5,Maximum temperature equal to or more than 303.15 K,,,,,Operational,PDF
-bufr4/0/08/052/6,008052,Condition for which number of days of occurrence follows,6,Maximum temperature equal to or more than 308.15 K,,,,,Operational,PDF
-bufr4/0/08/052/7,008052,Condition for which number of days of occurrence follows,7,Maximum temperature equal to or more than 313.15 K,,,,,Operational,PDF
-bufr4/0/08/052/8,008052,Condition for which number of days of occurrence follows,8,Minimum temperature less than 273.15 K,,,,,Operational,PDF
-bufr4/0/08/052/9,008052,Condition for which number of days of occurrence follows,9,Maximum temperature equal to or more than 273.15 K,,,,,Operational,PDF
-bufr4/0/08/052/10,008052,Condition for which number of days of occurrence follows,10,Precipitation equal to or more than 1.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/11,008052,Condition for which number of days of occurrence follows,11,Precipitation equal to or more than 5.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/12,008052,Condition for which number of days of occurrence follows,12,Precipitation equal to or more than 10.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/13,008052,Condition for which number of days of occurrence follows,13,Precipitation equal to or more than 50.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/14,008052,Condition for which number of days of occurrence follows,14,Precipitation equal to or more than 100.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/15,008052,Condition for which number of days of occurrence follows,15,Precipitation equal to or more than 150.0 kg m-2,,,,,Operational,PDF
-bufr4/0/08/052/16,008052,Condition for which number of days of occurrence follows,16,Snow depth more than 0.00 m,,,,,Operational,PDF
-bufr4/0/08/052/17,008052,Condition for which number of days of occurrence follows,17,Snow depth more than 0.01 m,,,,,Operational,PDF
-bufr4/0/08/052/18,008052,Condition for which number of days of occurrence follows,18,Snow depth more than 0.10 m,,,,,Operational,PDF
-bufr4/0/08/052/19,008052,Condition for which number of days of occurrence follows,19,Snow depth more than 0.50 m,,,,,Operational,PDF
-bufr4/0/08/052/20,008052,Condition for which number of days of occurrence follows,20,Horizontal visibility less than 50 m,,,,,Operational,PDF
-bufr4/0/08/052/21,008052,Condition for which number of days of occurrence follows,21,Horizontal visibility less than 100 m,,,,,Operational,PDF
-bufr4/0/08/052/22,008052,Condition for which number of days of occurrence follows,22,Horizontal visibility less than 1000 m,,,,,Operational,PDF
-bufr4/0/08/052/23,008052,Condition for which number of days of occurrence follows,23,Hail,,,,,Operational,PDF
-bufr4/0/08/052/24,008052,Condition for which number of days of occurrence follows,24,Thunderstorm,,,,,Operational,PDF
-bufr4/0/08/052/25-30,008052,Condition for which number of days of occurrence follows,25-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/052/31,008052,Condition for which number of days of occurrence follows,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/053/0,008053,Day of occurrence qualifier,0,Value occurred on only one day in the month,,,,,Operational,PDF
-bufr4/0/08/053/1,008053,Day of occurrence qualifier,1,Value occurred on more than one day in the month,,,,,Operational,PDF
-bufr4/0/08/053/2,008053,Day of occurrence qualifier,2,Reserved,,,,,Operational,PDF
-bufr4/0/08/053/3,008053,Day of occurrence qualifier,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/054/0,008054,Qualifier for wind speed or wind gusts,0,Wind speed or gust is as reported,,,,,Operational,PDF
-bufr4/0/08/054/1,008054,Qualifier for wind speed or wind gusts,1,Wind speed is greater than that reported (P in METAR/TAF/SPECI),,,,,Operational,PDF
-bufr4/0/08/054/2-6,008054,Qualifier for wind speed or wind gusts,2-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/054/7,008054,Qualifier for wind speed or wind gusts,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/055/0,008055,Method used to calculate the average wind components after removing vortex,0,Calculate the area average of the u and v components at pressure levels from 0 to 500km centred on the surface vortex position,,,,,Operational,PDF
-bufr4/0/08/055/1,008055,Method used to calculate the average wind components after removing vortex,1,Calculate the area average of the u and v components at pressure levels from 0 to radius greater than 500km centred on the surface vortex position,,,,,Operational,PDF
-bufr4/0/08/055/2-14,008055,Method used to calculate the average wind components after removing vortex,2-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/055/15,008055,Method used to calculate the average wind components after removing vortex,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/060/0,008060,Sample scanning mode significance,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/060/1,008060,Sample scanning mode significance,1,Range,,,,,Operational,PDF
-bufr4/0/08/060/2,008060,Sample scanning mode significance,2,Azimuth,,,,,Operational,PDF
-bufr4/0/08/060/3,008060,Sample scanning mode significance,3,Horizontal,,,,,Operational,PDF
-bufr4/0/08/060/4,008060,Sample scanning mode significance,4,Vertical,,,,,Operational,PDF
-bufr4/0/08/060/5,008060,Sample scanning mode significance,5,North/south,,,,,Operational,PDF
-bufr4/0/08/060/6,008060,Sample scanning mode significance,6,East/west,,,,,Operational,PDF
-bufr4/0/08/060/7-14,008060,Sample scanning mode significance,7-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/060/15,008060,Sample scanning mode significance,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/065/0,008065,Sun-glint indicator,0,No sun-glint,,,,,Operational,PDF
-bufr4/0/08/065/1,008065,Sun-glint indicator,1,Sun-glint,,,,,Operational,PDF
-bufr4/0/08/065/2,008065,Sun-glint indicator,2,Reserved,,,,,Operational,PDF
-bufr4/0/08/065/3,008065,Sun-glint indicator,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/066/0,008066,Semi-transparency indicator,0,Opaque,,,,,Operational,PDF
-bufr4/0/08/066/1,008066,Semi-transparency indicator,1,Semi-transparent,,,,,Operational,PDF
-bufr4/0/08/066/2,008066,Semi-transparency indicator,2,Reserved,,,,,Operational,PDF
-bufr4/0/08/066/3,008066,Semi-transparency indicator,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/070/0,008070,Vertical sounding product qualifier,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/070/1,008070,Vertical sounding product qualifier,1,Reserved,,,,,Operational,PDF
-bufr4/0/08/070/2,008070,Vertical sounding product qualifier,2,"Earth located instrument counts, calibration coefficients and housekeeping (level 1b)",,,,,Operational,PDF
-bufr4/0/08/070/3,008070,Vertical sounding product qualifier,3,Earth located calibrated radiances (level 1c),,,,,Operational,PDF
-bufr4/0/08/070/4,008070,Vertical sounding product qualifier,4,"Mapped to a common footprint, Earth located calibrated radiances (level 1d)",,,,,Operational,PDF
-bufr4/0/08/070/5-14,008070,Vertical sounding product qualifier,5-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/070/15,008070,Vertical sounding product qualifier,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/071/0,008071,Type of cost estimation,0,First guess,,,,,Operational,PDF
-bufr4/0/08/071/1,008071,Type of cost estimation,1,Y vector,,,,,Operational,PDF
-bufr4/0/08/071/2,008071,Type of cost estimation,2,X vector,,,,,Operational,PDF
-bufr4/0/08/071/3-6,008071,Type of cost estimation,3-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/071/7,008071,Type of cost estimation,7,Missing,,,,,Operational,PDF
-bufr4/0/08/072/0,008072,Pixel(s) type,0,Mixed,,,,,Operational,PDF
-bufr4/0/08/072/1,008072,Pixel(s) type,1,Clear,,,,,Operational,PDF
-bufr4/0/08/072/2,008072,Pixel(s) type,2,Cloudy,,,,,Operational,PDF
-bufr4/0/08/072/3,008072,Pixel(s) type,3,Probably clear,,,,,Operational,PDF
-bufr4/0/08/072/4,008072,Pixel(s) type,4,Probably cloudy,,,,,Operational,PDF
-bufr4/0/08/072/5,008072,Pixel(s) type,5,Ash,,,,,Operational,PDF
-bufr4/0/08/072/6,008072,Pixel(s) type,6,Reserved,,,,,Operational,PDF
-bufr4/0/08/072/7,008072,Pixel(s) type,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/074/0,008074,Altimeter echo type,0,Open ocean or semi-enclosed sea,,,,,Operational,PDF
-bufr4/0/08/074/1,008074,Altimeter echo type,1,Non-ocean like,,,,,Operational,PDF
-bufr4/0/08/074/2,008074,Altimeter echo type,2,Reserved,,,,,Operational,PDF
-bufr4/0/08/074/3,008074,Altimeter echo type,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/075/0,008075,Ascending/descending orbit qualifier,0,Ascending orbit,,,,,Operational,PDF
-bufr4/0/08/075/1,008075,Ascending/descending orbit qualifier,1,Descending orbit,,,,,Operational,PDF
-bufr4/0/08/075/2,008075,Ascending/descending orbit qualifier,2,Reserved,,,,,Operational,PDF
-bufr4/0/08/075/3,008075,Ascending/descending orbit qualifier,3,Missing value,,,,,Operational,PDF
-bufr4/0/08/076/0,008076,Type of band,0,Ku,,,,,Operational,PDF
-bufr4/0/08/076/1,008076,Type of band,1,C,,,,,Operational,PDF
-bufr4/0/08/076/2,008076,Type of band,2,Long-wave infrared,,,,,Operational,PDF
-bufr4/0/08/076/3,008076,Type of band,3,Medium-wave infrared,,,,,Operational,PDF
-bufr4/0/08/076/4,008076,Type of band,4,Short-wave infrared,,,,,Operational,PDF
-bufr4/0/08/076/5,008076,Type of band,5,M,,,,,Operational,PDF
-bufr4/0/08/076/6,008076,Type of band,6,I,,,,,Operational,PDF
-bufr4/0/08/076/7,008076,Type of band,7,Day/night,,,,,Operational,PDF
-bufr4/0/08/076/8-62,008076,Type of band,8-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/076/63,008076,Type of band,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/077/0,008077,Radiometer sensed surface type,0,Land,,,,,Operational,PDF
-bufr4/0/08/077/1,008077,Radiometer sensed surface type,1,Sea,,,,,Operational,PDF
-bufr4/0/08/077/2,008077,Radiometer sensed surface type,2,Coastal,,,,,Operational,PDF
-bufr4/0/08/077/3,008077,Radiometer sensed surface type,3,Open ocean or semi-enclosed sea,,,,,Operational,PDF
-bufr4/0/08/077/4,008077,Radiometer sensed surface type,4,Enclosed sea or lake,,,,,Operational,PDF
-bufr4/0/08/077/5,008077,Radiometer sensed surface type,5,Continental ice,,,,,Operational,PDF
-bufr4/0/08/077/6-126,008077,Radiometer sensed surface type,6-126,Reserved,,,,,Operational,PDF
-bufr4/0/08/077/127,008077,Radiometer sensed surface type,127,Missing value,,,,,Operational,PDF
-bufr4/0/08/079/0,008079,Product status,0,Normal issue,,,,,Operational,PDF
-bufr4/0/08/079/1,008079,Product status,1,Correction to a previously issued product (COR),,,,,Operational,PDF
-bufr4/0/08/079/2,008079,Product status,2,Amendment to a previously issued product (AMD),,,,,Operational,PDF
-bufr4/0/08/079/3,008079,Product status,3,Correction to a previously issued amended product (COR AMD),,,,,Operational,PDF
-bufr4/0/08/079/4,008079,Product status,4,Cancellation of a previously issued product (CNL),,,,,Operational,PDF
-bufr4/0/08/079/5,008079,Product status,5,No product available (NIL),,,,,Operational,PDF
-bufr4/0/08/079/6,008079,Product status,6,Special report (SPECI),,,,,Operational,PDF
-bufr4/0/08/079/7,008079,Product status,7,Corrected special report (SPECI COR),,,,,Operational,PDF
-bufr4/0/08/079/8-14,008079,Product status,8-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/079/15,008079,Product status,15,Missing or not applicable,,,,,Operational,PDF
-bufr4/0/08/080/0,008080,Qualifier for GTSPP quality flag,0,Total water pressure profile,,,,,Operational,PDF
-bufr4/0/08/080/1,008080,Qualifier for GTSPP quality flag,1,Total water temperature profile,,,,,Operational,PDF
-bufr4/0/08/080/2,008080,Qualifier for GTSPP quality flag,2,Total water salinity profile,,,,,Operational,PDF
-bufr4/0/08/080/3,008080,Qualifier for GTSPP quality flag,3,Total water conductivity profile,,,,,Operational,PDF
-bufr4/0/08/080/4,008080,Qualifier for GTSPP quality flag,4,Total water depth,,,,,Operational,PDF
-bufr4/0/08/080/5-9,008080,Qualifier for GTSPP quality flag,5-9,Reserved,,,,,Operational,PDF
-bufr4/0/08/080/10,008080,Qualifier for GTSPP quality flag,10,Water pressure at a level,,,,,Operational,PDF
-bufr4/0/08/080/11,008080,Qualifier for GTSPP quality flag,11,Water temperature at a level,,,,,Operational,PDF
-bufr4/0/08/080/12,008080,Qualifier for GTSPP quality flag,12,Salinity at a level,,,,,Operational,PDF
-bufr4/0/08/080/13,008080,Qualifier for GTSPP quality flag,13,Water depth at a level,,,,,Operational,PDF
-bufr4/0/08/080/14,008080,Qualifier for GTSPP quality flag,14,Sea/water current speed at a level,,,,,Operational,PDF
-bufr4/0/08/080/15,008080,Qualifier for GTSPP quality flag,15,Sea/water current direction at a level,,,,,Operational,PDF
-bufr4/0/08/080/16,008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational,PDF
-bufr4/0/08/080/17-19,008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational,PDF
-bufr4/0/08/080/20,008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational,PDF
-bufr4/0/08/080/21,008080,Qualifier for GTSPP quality flag,21,Chlorophyll-A at a level,,,,,Operational,PDF
-bufr4/0/08/080/22,008080,Qualifier for GTSPP quality flag,22,Nitrate at a level,,,,,Operational,PDF
-bufr4/0/08/080/23,008080,Qualifier for GTSPP quality flag,23,pH at a level,,,,,Operational,PDF
-bufr4/0/08/080/24,008080,Qualifier for GTSPP quality flag,24,BBP700 at a level,,,,,Operational,PDF
-bufr4/0/08/080/25,008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational,PDF
-bufr4/0/08/080/26,008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational,PDF
-bufr4/0/08/080/27-62,008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/080/63,008080,Qualifier for GTSPP quality flag,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/081/0,008081,Type of equipment,0,Sensor,,,,,Operational,PDF
-bufr4/0/08/081/1,008081,Type of equipment,1,Transmitter,,,,,Operational,PDF
-bufr4/0/08/081/2,008081,Type of equipment,2,Receiver,,,,,Operational,PDF
-bufr4/0/08/081/3,008081,Type of equipment,3,Observing platform,,,,,Operational,PDF
-bufr4/0/08/081/4-62,008081,Type of equipment,4-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/081/63,008081,Type of equipment,63,Missing value,,,,,Operational,PDF
-bufr4/0/08/082/0,008082,Modification of sensor height to another value,0,Sensor height is not modified,,,,,Operational,PDF
-bufr4/0/08/082/1,008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),48,Operational,PDF
-bufr4/0/08/082/2-6,008082,Modification of sensor height to another value,2-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/082/7,008082,Modification of sensor height to another value,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/083/1,008083,Nominal value indicator,1,Adjusted to or with respect to representative height of sensor above local ground (or deck of marine platform),,,,,Operational,PDF
-bufr4/0/08/083/2,008083,Nominal value indicator,2,Adjusted to or with respect to representative height of sensor above water surface,,,,,Operational,PDF
-bufr4/0/08/083/3,008083,Nominal value indicator,3,Adjusted with respect to standard surface roughness,,,,,Operational,PDF
-bufr4/0/08/083/4,008083,Nominal value indicator,4,Adjusted with respect to wind speed,,,,,Operational,PDF
-bufr4/0/08/083/5,008083,Nominal value indicator,5,Adjusted with respect to temperature,,,,,Operational,PDF
-bufr4/0/08/083/6,008083,Nominal value indicator,6,Adjusted with respect to pressure,,,,,Operational,PDF
-bufr4/0/08/083/7,008083,Nominal value indicator,7,Adjusted with respect to humidity,,,,,Operational,PDF
-bufr4/0/08/083/8,008083,Nominal value indicator,8,Adjusted with respect to evaporation,,,,,Operational,PDF
-bufr4/0/08/083/9,008083,Nominal value indicator,9,Adjusted with respect to wetting losses,,,,,Operational,PDF
-bufr4/0/08/083/10-14,008083,Nominal value indicator,10-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/083/All-15,008083,Nominal value indicator,All 15,Missing value,,,,,Operational,PDF
-bufr4/0/08/085/0,008085,Beam identifier,0,Fore beam,,,,,Operational,PDF
-bufr4/0/08/085/1,008085,Beam identifier,1,Mid beam,,,,,Operational,PDF
-bufr4/0/08/085/2,008085,Beam identifier,2,Aft beam,,,,,Operational,PDF
-bufr4/0/08/085/3,008085,Beam identifier,3,Combined average,,,,,Operational,PDF
-bufr4/0/08/085/4-6,008085,Beam identifier,4-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/085/7,008085,Beam identifier,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/086/1,008086,Vertical significance for NWP,1,"Model ""ground"" surface",,,,,Operational,PDF
-bufr4/0/08/086/2,008086,Vertical significance for NWP,2,Standard level,,,,,Operational,PDF
-bufr4/0/08/086/3,008086,Vertical significance for NWP,3,Tropopause level,,,,,Operational,PDF
-bufr4/0/08/086/4,008086,Vertical significance for NWP,4,Maximum wind level,,,,,Operational,PDF
-bufr4/0/08/086/5,008086,Vertical significance for NWP,5,Significant temperature level,,,,,Operational,PDF
-bufr4/0/08/086/6,008086,Vertical significance for NWP,6,Significant humidity level,,,,,Operational,PDF
-bufr4/0/08/086/7,008086,Vertical significance for NWP,7,Significant wind level,,,,,Operational,PDF
-bufr4/0/08/086/8,008086,Vertical significance for NWP,8,Vertically interpolated level (This should be set to 1 for points on the vertical profile that fall between the model's native vertical levels.),,,,,Operational,PDF
-bufr4/0/08/086/9,008086,Vertical significance for NWP,9,Virtual station height,,,,,Operational,PDF
-bufr4/0/08/086/10,008086,Vertical significance for NWP,10,Level of best fit,,,,,Operational,PDF
-bufr4/0/08/086/11,008086,Vertical significance for NWP,11,Reserved,,,,,Operational,PDF
-bufr4/0/08/086/All-12,008086,Vertical significance for NWP,All 12,Missing value,,,,,Operational,PDF
-bufr4/0/08/087/0,008087,Corner position of observation,0,Upper left,,,,,Operational,PDF
-bufr4/0/08/087/1,008087,Corner position of observation,1,Upper right,,,,,Operational,PDF
-bufr4/0/08/087/2,008087,Corner position of observation,2,Lower right,,,,,Operational,PDF
-bufr4/0/08/087/3,008087,Corner position of observation,3,Lower left,,,,,Operational,PDF
-bufr4/0/08/087/4-6,008087,Corner position of observation,4-6,Reserved,,,,,Operational,PDF
-bufr4/0/08/087/7,008087,Corner position of observation,7,Missing value,,,,,Operational,PDF
-bufr4/0/08/088/0,008088,Map significance,0,Top view (geographical longitude on x-axis and latitude on y-axis),,,,,Operational,PDF
-bufr4/0/08/088/1,008088,Map significance,1,North-south view (transect with geographical longitude on x-axis and vertical height on y-axis),,,,,Operational,PDF
-bufr4/0/08/088/2,008088,Map significance,2,East-west view (transect with geographical latitude on x-axis and vertical height on y-axis),,,,,Operational,PDF
-bufr4/0/08/088/3-62,008088,Map significance,3-62,Reserved,,,,,Operational,PDF
-bufr4/0/08/088/63,008088,Map significance,63,Missing,,,,,Operational,PDF
-bufr4/0/08/091/0,008091,Coordinates significance,0,Satellite coordinates,,,,,Operational,PDF
-bufr4/0/08/091/1,008091,Coordinates significance,1,Observation coordinates,,,,,Operational,PDF
-bufr4/0/08/091/2,008091,Coordinates significance,2,Start of observation,,,,,Operational,PDF
-bufr4/0/08/091/3,008091,Coordinates significance,3,End of observation,,,,,Operational,PDF
-bufr4/0/08/091/4,008091,Coordinates significance,4,Horizontal centre of gravity of the observation,,,,,Operational,PDF
-bufr4/0/08/091/5,008091,Coordinates significance,5,Vertical centre of gravity of the observation,,,,,Operational,PDF
-bufr4/0/08/091/6,008091,Coordinates significance,6,Top of the observation,,,,,Operational,PDF
-bufr4/0/08/091/7,008091,Coordinates significance,7,Bottom of the observation,,,,,Operational,PDF
-bufr4/0/08/091/8,008091,Coordinates significance,8,Projection origin,,,,,Operational,PDF
-bufr4/0/08/091/9,008091,Coordinates significance,9,Coordinates of true scale,,,,,Operational,PDF
-bufr4/0/08/091/10-254,008091,Coordinates significance,10-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/091/255,008091,Coordinates significance,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/092/0,008092,Measurement uncertainty expression,0,Standard uncertainty,,,,,Operational,PDF
-bufr4/0/08/092/1,008092,Measurement uncertainty expression,1,Combined standard uncertainty,,,(see Note),102,Operational,PDF
-bufr4/0/08/092/2-30,008092,Measurement uncertainty expression,2-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/092/31,008092,Measurement uncertainty expression,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/093/0,008093,Measurement uncertainty significance,0,Total uncertainty,,,,,Operational,PDF
-bufr4/0/08/093/1,008093,Measurement uncertainty significance,1,Systematic component of uncertainty,,,,,Operational,PDF
-bufr4/0/08/093/2,008093,Measurement uncertainty significance,2,Random component of uncertainty,,,,,Operational,PDF
-bufr4/0/08/093/3-30,008093,Measurement uncertainty significance,3-30,Reserved,,,,,Operational,PDF
-bufr4/0/08/093/31,008093,Measurement uncertainty significance,31,Missing value,,,,,Operational,PDF
-bufr4/0/08/094/0,008094,Method used to calculate the average daily temperature,0,Average of maximum and minimum values: Tm = (Tx + Tn)/2,,,(see Note),97,Operational,PDF
-bufr4/0/08/094/1,008094,Method used to calculate the average daily temperature,1,Average of the 8 observations taken every three hours,,,,,Operational,PDF
-bufr4/0/08/094/2,008094,Method used to calculate the average daily temperature,2,Average of the 24 hourly observations,,,,,Operational,PDF
-bufr4/0/08/094/3,008094,Method used to calculate the average daily temperature,3,Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3),,,(see Note),97,Operational,PDF
-bufr4/0/08/094/4,008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),97,Operational,PDF
-bufr4/0/08/094/5,008094,Method used to calculate the average daily temperature,5,Automatic weather station complete integration from minute data,,,,,Operational,PDF
-bufr4/0/08/094/6,008094,Method used to calculate the average daily temperature,6,Average of the 4 observations taken every six hours,,,,,Operational,PDF
-bufr4/0/08/094/7,008094,Method used to calculate the average daily temperature,7,Average of the 144 observations taken every 10 minutes,,,,,Operational,PDF
-bufr4/0/08/094/8-254,008094,Method used to calculate the average daily temperature,8-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/094/255,008094,Method used to calculate the average daily temperature,255,Missing value,,,,,Operational,PDF
-bufr4/0/08/095/0,008095,Siting and measurement quality classification for temperature,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/1,008095,Siting and measurement quality classification for temperature,1,1A,,,,,Operational,PDF
-bufr4/0/08/095/2,008095,Siting and measurement quality classification for temperature,2,1B,,,,,Operational,PDF
-bufr4/0/08/095/3,008095,Siting and measurement quality classification for temperature,3,1C,,,,,Operational,PDF
-bufr4/0/08/095/4,008095,Siting and measurement quality classification for temperature,4,1D,,,,,Operational,PDF
-bufr4/0/08/095/5,008095,Siting and measurement quality classification for temperature,5,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/6,008095,Siting and measurement quality classification for temperature,6,2A,,,,,Operational,PDF
-bufr4/0/08/095/7,008095,Siting and measurement quality classification for temperature,7,2B,,,,,Operational,PDF
-bufr4/0/08/095/8,008095,Siting and measurement quality classification for temperature,8,2C,,,,,Operational,PDF
-bufr4/0/08/095/9,008095,Siting and measurement quality classification for temperature,9,2D,,,,,Operational,PDF
-bufr4/0/08/095/10,008095,Siting and measurement quality classification for temperature,10,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/11,008095,Siting and measurement quality classification for temperature,11,3A,,,,,Operational,PDF
-bufr4/0/08/095/12,008095,Siting and measurement quality classification for temperature,12,3B,,,,,Operational,PDF
-bufr4/0/08/095/13,008095,Siting and measurement quality classification for temperature,13,3C,,,,,Operational,PDF
-bufr4/0/08/095/14,008095,Siting and measurement quality classification for temperature,14,3D,,,,,Operational,PDF
-bufr4/0/08/095/15,008095,Siting and measurement quality classification for temperature,15,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/16,008095,Siting and measurement quality classification for temperature,16,4A,,,,,Operational,PDF
-bufr4/0/08/095/17,008095,Siting and measurement quality classification for temperature,17,4B,,,,,Operational,PDF
-bufr4/0/08/095/18,008095,Siting and measurement quality classification for temperature,18,4C,,,,,Operational,PDF
-bufr4/0/08/095/19,008095,Siting and measurement quality classification for temperature,19,4D,,,,,Operational,PDF
-bufr4/0/08/095/20,008095,Siting and measurement quality classification for temperature,20,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/21,008095,Siting and measurement quality classification for temperature,21,5A,,,,,Operational,PDF
-bufr4/0/08/095/22,008095,Siting and measurement quality classification for temperature,22,5B,,,,,Operational,PDF
-bufr4/0/08/095/23,008095,Siting and measurement quality classification for temperature,23,5C,,,,,Operational,PDF
-bufr4/0/08/095/24,008095,Siting and measurement quality classification for temperature,24,5D,,,,,Operational,PDF
-bufr4/0/08/095/25,008095,Siting and measurement quality classification for temperature,25,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/26,008095,Siting and measurement quality classification for temperature,26,1,,,,,Operational,PDF
-bufr4/0/08/095/27,008095,Siting and measurement quality classification for temperature,27,2,,,,,Operational,PDF
-bufr4/0/08/095/28,008095,Siting and measurement quality classification for temperature,28,3,,,,,Operational,PDF
-bufr4/0/08/095/29,008095,Siting and measurement quality classification for temperature,29,4,,,,,Operational,PDF
-bufr4/0/08/095/30,008095,Siting and measurement quality classification for temperature,30,5,,,,,Operational,PDF
-bufr4/0/08/095/31,008095,Siting and measurement quality classification for temperature,31,A,,,,,Operational,PDF
-bufr4/0/08/095/32,008095,Siting and measurement quality classification for temperature,32,B,,,,,Operational,PDF
-bufr4/0/08/095/33,008095,Siting and measurement quality classification for temperature,33,C,,,,,Operational,PDF
-bufr4/0/08/095/34,008095,Siting and measurement quality classification for temperature,34,D,,,,,Operational,PDF
-bufr4/0/08/095/35-254,008095,Siting and measurement quality classification for temperature,35-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/095/255,008095,Siting and measurement quality classification for temperature,255,Missing,,,,,Operational,PDF
-bufr4/0/08/096/0,008096,Siting and measurement quality classification for precipitation,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/1,008096,Siting and measurement quality classification for precipitation,1,1A,,,,,Operational,PDF
-bufr4/0/08/096/2,008096,Siting and measurement quality classification for precipitation,2,1B,,,,,Operational,PDF
-bufr4/0/08/096/3,008096,Siting and measurement quality classification for precipitation,3,1C,,,,,Operational,PDF
-bufr4/0/08/096/4,008096,Siting and measurement quality classification for precipitation,4,1D,,,,,Operational,PDF
-bufr4/0/08/096/5,008096,Siting and measurement quality classification for precipitation,5,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/6,008096,Siting and measurement quality classification for precipitation,6,2A,,,,,Operational,PDF
-bufr4/0/08/096/7,008096,Siting and measurement quality classification for precipitation,7,2B,,,,,Operational,PDF
-bufr4/0/08/096/8,008096,Siting and measurement quality classification for precipitation,8,2C,,,,,Operational,PDF
-bufr4/0/08/096/9,008096,Siting and measurement quality classification for precipitation,9,2D,,,,,Operational,PDF
-bufr4/0/08/096/10,008096,Siting and measurement quality classification for precipitation,10,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/11,008096,Siting and measurement quality classification for precipitation,11,3A,,,,,Operational,PDF
-bufr4/0/08/096/12,008096,Siting and measurement quality classification for precipitation,12,3B,,,,,Operational,PDF
-bufr4/0/08/096/13,008096,Siting and measurement quality classification for precipitation,13,3C,,,,,Operational,PDF
-bufr4/0/08/096/14,008096,Siting and measurement quality classification for precipitation,14,3D,,,,,Operational,PDF
-bufr4/0/08/096/15,008096,Siting and measurement quality classification for precipitation,15,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/16,008096,Siting and measurement quality classification for precipitation,16,4A,,,,,Operational,PDF
-bufr4/0/08/096/17,008096,Siting and measurement quality classification for precipitation,17,4B,,,,,Operational,PDF
-bufr4/0/08/096/18,008096,Siting and measurement quality classification for precipitation,18,4C,,,,,Operational,PDF
-bufr4/0/08/096/19,008096,Siting and measurement quality classification for precipitation,19,4D,,,,,Operational,PDF
-bufr4/0/08/096/20,008096,Siting and measurement quality classification for precipitation,20,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/21,008096,Siting and measurement quality classification for precipitation,21,5A,,,,,Operational,PDF
-bufr4/0/08/096/22,008096,Siting and measurement quality classification for precipitation,22,5B,,,,,Operational,PDF
-bufr4/0/08/096/23,008096,Siting and measurement quality classification for precipitation,23,5C,,,,,Operational,PDF
-bufr4/0/08/096/24,008096,Siting and measurement quality classification for precipitation,24,5D,,,,,Operational,PDF
-bufr4/0/08/096/25,008096,Siting and measurement quality classification for precipitation,25,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/26,008096,Siting and measurement quality classification for precipitation,26,1,,,,,Operational,PDF
-bufr4/0/08/096/27,008096,Siting and measurement quality classification for precipitation,27,2,,,,,Operational,PDF
-bufr4/0/08/096/28,008096,Siting and measurement quality classification for precipitation,28,3,,,,,Operational,PDF
-bufr4/0/08/096/29,008096,Siting and measurement quality classification for precipitation,29,4,,,,,Operational,PDF
-bufr4/0/08/096/30,008096,Siting and measurement quality classification for precipitation,30,5,,,,,Operational,PDF
-bufr4/0/08/096/31,008096,Siting and measurement quality classification for precipitation,31,A,,,,,Operational,PDF
-bufr4/0/08/096/32,008096,Siting and measurement quality classification for precipitation,32,B,,,,,Operational,PDF
-bufr4/0/08/096/33,008096,Siting and measurement quality classification for precipitation,33,C,,,,,Operational,PDF
-bufr4/0/08/096/34,008096,Siting and measurement quality classification for precipitation,34,D,,,,,Operational,PDF
-bufr4/0/08/096/35-254,008096,Siting and measurement quality classification for precipitation,35-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/096/255,008096,Siting and measurement quality classification for precipitation,255,Missing,,,,,Operational,PDF
-bufr4/0/08/097/0,008097,Method used to calculate the average instrument temperature,0,The average of six temperature sensors placed throughout the payload,,,,,Operational,PDF
-bufr4/0/08/097/1,008097,Method used to calculate the average instrument temperature,1,Average of WF-band IFP and RFE sensors for channels 1 to 8,,,,,Operational,PDF
-bufr4/0/08/097/2,008097,Method used to calculate the average instrument temperature,2,Average of G-band RFE sensor for channels 9 to 12,,,,,Operational,PDF
-bufr4/0/08/097/3-126,008097,Method used to calculate the average instrument temperature,3-126,Reserved,,,,,Operational,PDF
-bufr4/0/08/097/127,008097,Method used to calculate the average instrument temperature,127,Missing,,,,,Operational,PDF
-bufr4/0/08/098/0,008098,Source of temperature measurement,0,On-board calibration target,,,,,Operational,PDF
-bufr4/0/08/098/1,008098,Source of temperature measurement,1,Space view reflector,,,,,Operational,PDF
-bufr4/0/08/098/2,008098,Source of temperature measurement,2,Main reflector,,,,,Operational,PDF
-bufr4/0/08/098/3,008098,Source of temperature measurement,3,Racetrack,,,,,Operational,PDF
-bufr4/0/08/098/4,008098,Source of temperature measurement,4,Sun shield,,,,,Operational,PDF
-bufr4/0/08/098/5,008098,Source of temperature measurement,5,Rotating reflector,,,,,Operational,PDF
-bufr4/0/08/098/6-14,008098,Source of temperature measurement,6-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/098/15,008098,Source of temperature measurement,15,Missing,,,,,Operational,PDF
-bufr4/0/08/099/0,008099,Sensing direction,0,Nadir,,,,,Operational,PDF
-bufr4/0/08/099/1,008099,Sensing direction,1,Oblique,,,,,Operational,PDF
-bufr4/0/08/099/2-14,008099,Sensing direction,2-14,Reserved,,,,,Operational,PDF
-bufr4/0/08/099/15,008099,Sensing direction,15,Missing value,,,,,Operational,PDF
-bufr4/0/08/100/0,008100,Type of following observation value,0,PDF measurement,,,,,Operational,PDF
-bufr4/0/08/100/1,008100,Type of following observation value,1,Corrected,,,,,Operational,PDF
-bufr4/0/08/100/2,008100,Type of following observation value,2,Corrected with correction factor for a shading ring of a pyranometer,,,,,Operational,PDF
-bufr4/0/08/100/3-254,008100,Type of following observation value,3-254,Reserved,,,,,Operational,PDF
-bufr4/0/08/100/255,008100,Type of following observation value,255,Missing,,,,,Operational,PDF
-bufr4/0/08/101/0,008101,Phase of balloon flight,0,Reserved,,,,,Operational,PDF
-bufr4/0/08/101/1,008101,Phase of balloon flight,1,Ascent,,,,,Operational,PDF
-bufr4/0/08/101/2,008101,Phase of balloon flight,2,Ceiling,,,,,Operational,PDF
-bufr4/0/08/101/3,008101,Phase of balloon flight,3,Descent,,,,,Operational,PDF
-bufr4/0/08/101/4,008101,Phase of balloon flight,4,Drop (falling station),,,,,Operational,PDF
-bufr4/0/08/101/5,008101,Phase of balloon flight,5,Unsteady (during maneuvers),,,,,Operational,PDF
-bufr4/0/08/101/15,008101,Phase of balloon flight,15,Missing,,,,,Operational,PDF
+bufr4/0/08/001/1,008001,Vertical sounding significance,1,Surface,,,,,Operational,na
+bufr4/0/08/001/2,008001,Vertical sounding significance,2,Standard level,,,,,Operational,na
+bufr4/0/08/001/3,008001,Vertical sounding significance,3,Tropopause level,,,,,Operational,na
+bufr4/0/08/001/4,008001,Vertical sounding significance,4,Maximum wind level,,,,,Operational,na
+bufr4/0/08/001/5,008001,Vertical sounding significance,5,"Significant level, temperature and/or relative humidity",,,,,Operational,na
+bufr4/0/08/001/6,008001,Vertical sounding significance,6,"Significant level, wind",,,,,Operational,na
+bufr4/0/08/001/All-7,008001,Vertical sounding significance,All 7,Missing value,,,,,Operational,na
+bufr4/0/08/002/0,008002,Vertical significance (surface observations),0,Observing rules for base of lowest cloud and cloud types of FM 12 SYNOP and FM 13 SHIP apply,,,,,Operational,na
+bufr4/0/08/002/1,008002,Vertical significance (surface observations),1,First non-Cumulonimbus significant layer,,,,,Operational,na
+bufr4/0/08/002/2,008002,Vertical significance (surface observations),2,Second non-Cumulonimbus significant layer,,,,,Operational,na
+bufr4/0/08/002/3,008002,Vertical significance (surface observations),3,Third non-Cumulonimbus significant layer,,,,,Operational,na
+bufr4/0/08/002/4,008002,Vertical significance (surface observations),4,Cumulonimbus layer,,,,,Operational,na
+bufr4/0/08/002/5,008002,Vertical significance (surface observations),5,Ceiling,,,,,Operational,na
+bufr4/0/08/002/6,008002,Vertical significance (surface observations),6,Clouds not detected below the following height(s),,,,,Operational,na
+bufr4/0/08/002/7,008002,Vertical significance (surface observations),7,Low cloud,,,,,Operational,na
+bufr4/0/08/002/8,008002,Vertical significance (surface observations),8,Middle cloud,,,,,Operational,na
+bufr4/0/08/002/9,008002,Vertical significance (surface observations),9,High cloud,,,,,Operational,na
+bufr4/0/08/002/10,008002,Vertical significance (surface observations),10,Cloud layer with base below and top above the station,,,,,Operational,na
+bufr4/0/08/002/11,008002,Vertical significance (surface observations),11,Cloud layer with base and top below the station level,,,,,Operational,na
+bufr4/0/08/002/12-19,008002,Vertical significance (surface observations),12-19,Reserved,,,,,Operational,na
+bufr4/0/08/002/20,008002,Vertical significance (surface observations),20,No clouds detected by the cloud detection system,,,,,Operational,na
+bufr4/0/08/002/21,008002,Vertical significance (surface observations),21,First instrument detected cloud layer,,,,,Operational,na
+bufr4/0/08/002/22,008002,Vertical significance (surface observations),22,Second instrument detected cloud layer,,,,,Operational,na
+bufr4/0/08/002/23,008002,Vertical significance (surface observations),23,Third instrument detected cloud layer,,,,,Operational,na
+bufr4/0/08/002/24,008002,Vertical significance (surface observations),24,Fourth instrument detected cloud layer,,,,,Operational,na
+bufr4/0/08/002/25-61,008002,Vertical significance (surface observations),25-61,Reserved,,,,,Operational,na
+bufr4/0/08/002/62,008002,Vertical significance (surface observations),62,Value not applicable,,,,,Operational,na
+bufr4/0/08/002/63,008002,Vertical significance (surface observations),63,Missing value,,,,,Operational,na
+bufr4/0/08/003/0,008003,Vertical significance (satellite observations),0,Surface,,,,,Operational,na
+bufr4/0/08/003/1,008003,Vertical significance (satellite observations),1,Base of satellite sounding,,,,,Operational,na
+bufr4/0/08/003/2,008003,Vertical significance (satellite observations),2,Cloud top,,,,,Operational,na
+bufr4/0/08/003/3,008003,Vertical significance (satellite observations),3,Tropopause,,,,,Operational,na
+bufr4/0/08/003/4,008003,Vertical significance (satellite observations),4,Precipitable water,,,,,Operational,na
+bufr4/0/08/003/5,008003,Vertical significance (satellite observations),5,Sounding radiances,,,,,Operational,na
+bufr4/0/08/003/6,008003,Vertical significance (satellite observations),6,Mean temperatures,,,,,Operational,na
+bufr4/0/08/003/7,008003,Vertical significance (satellite observations),7,Ozone,,,,,Operational,na
+bufr4/0/08/003/8,008003,Vertical significance (satellite observations),8,Low cloud,,,,,Operational,na
+bufr4/0/08/003/9,008003,Vertical significance (satellite observations),9,Med cloud,,,,,Operational,na
+bufr4/0/08/003/10,008003,Vertical significance (satellite observations),10,High cloud,,,,,Operational,na
+bufr4/0/08/003/11-62,008003,Vertical significance (satellite observations),11-62,Reserved,,,,,Operational,na
+bufr4/0/08/003/63,008003,Vertical significance (satellite observations),63,Missing value,,,,,Operational,na
+bufr4/0/08/004/0-1,008004,Phase of aircraft flight,0-1,Reserved,,,,,Operational,na
+bufr4/0/08/004/2,008004,Phase of aircraft flight,2,Unsteady (UNS),,,,,Operational,na
+bufr4/0/08/004/3,008004,Phase of aircraft flight,3,"Level flight, routine observation (LVR)",,,,,Operational,na
+bufr4/0/08/004/4,008004,Phase of aircraft flight,4,"Level flight, highest wind encountered (LVW)",,,,,Operational,na
+bufr4/0/08/004/5,008004,Phase of aircraft flight,5,Ascending (ASC),,,,,Operational,na
+bufr4/0/08/004/6,008004,Phase of aircraft flight,6,Descending (DES),,,,,Operational,na
+bufr4/0/08/004/7,008004,Phase of aircraft flight,7,Missing value,,,,,Operational,na
+bufr4/0/08/005/0,008005,Meteorological attribute significance,0,Reserved,,,,,Operational,na
+bufr4/0/08/005/1,008005,Meteorological attribute significance,1,Storm centre,,,,,Operational,na
+bufr4/0/08/005/2,008005,Meteorological attribute significance,2,Outer limit or edge of storm,,,,,Operational,na
+bufr4/0/08/005/3,008005,Meteorological attribute significance,3,Location of maximum wind,,,,,Operational,na
+bufr4/0/08/005/4,008005,Meteorological attribute significance,4,Location of the storm in the perturbed analysis,,,,,Operational,na
+bufr4/0/08/005/5,008005,Meteorological attribute significance,5,Location of the storm in the analysis,,,,,Operational,na
+bufr4/0/08/005/6-14,008005,Meteorological attribute significance,6-14,Reserved,,,,,Operational,na
+bufr4/0/08/005/15,008005,Meteorological attribute significance,15,Missing value,,,,,Operational,na
+bufr4/0/08/006/1,008006,Ozone vertical sounding significance,1,Surface,,,,,Operational,na
+bufr4/0/08/006/2,008006,Ozone vertical sounding significance,2,Standard level,,,,,Operational,na
+bufr4/0/08/006/3,008006,Ozone vertical sounding significance,3,Tropopause level,,,,,Operational,na
+bufr4/0/08/006/4,008006,Ozone vertical sounding significance,4,Prominent maximum level,,,,,Operational,na
+bufr4/0/08/006/5,008006,Ozone vertical sounding significance,5,Prominent minimum level,,,,,Operational,na
+bufr4/0/08/006/6,008006,Ozone vertical sounding significance,6,Minimum pressure level,,,,,Operational,na
+bufr4/0/08/006/7,008006,Ozone vertical sounding significance,7,Reserved,,,,,Operational,na
+bufr4/0/08/006/8,008006,Ozone vertical sounding significance,8,Level of undetermined significance,,,,,Operational,na
+bufr4/0/08/006/All-9,008006,Ozone vertical sounding significance,All 9,Missing value,,,,,Operational,na
+bufr4/0/08/007/0,008007,Dimensional significance,0,Point,,,,,Operational,na
+bufr4/0/08/007/1,008007,Dimensional significance,1,Line,,,,,Operational,na
+bufr4/0/08/007/2,008007,Dimensional significance,2,Area,,,,,Operational,na
+bufr4/0/08/007/3,008007,Dimensional significance,3,Volume,,,,,Operational,na
+bufr4/0/08/007/4-14,008007,Dimensional significance,4-14,Reserved,,,,,Operational,na
+bufr4/0/08/007/15,008007,Dimensional significance,15,Missing value,,,,,Operational,na
+bufr4/0/08/008/1,008008,Radiation vertical sounding significance,1,Surface,,,,,Operational,na
+bufr4/0/08/008/2,008008,Radiation vertical sounding significance,2,Standard level,,,,,Operational,na
+bufr4/0/08/008/3,008008,Radiation vertical sounding significance,3,Tropopause level,,,,,Operational,na
+bufr4/0/08/008/4,008008,Radiation vertical sounding significance,4,Level of beta radiation maximum,,,,,Operational,na
+bufr4/0/08/008/5,008008,Radiation vertical sounding significance,5,Level of gamma radiation maximum,,,,,Operational,na
+bufr4/0/08/008/6,008008,Radiation vertical sounding significance,6,Minimum pressure level,,,,,Operational,na
+bufr4/0/08/008/7,008008,Radiation vertical sounding significance,7,Reserved,,,,,Operational,na
+bufr4/0/08/008/8,008008,Radiation vertical sounding significance,8,Level of undetermined significance,,,,,Operational,na
+bufr4/0/08/008/All-9,008008,Radiation vertical sounding significance,All 9,Missing value,,,,,Operational,na
+bufr4/0/08/009/0,008009,Detailed phase of flight,0,"Level flight, routine observation, unsteady",,,,,Operational,na
+bufr4/0/08/009/1,008009,Detailed phase of flight,1,"Level flight, highest wind encountered, unsteady",,,,,Operational,na
+bufr4/0/08/009/2,008009,Detailed phase of flight,2,Unsteady (UNS),,,,,Operational,na
+bufr4/0/08/009/3,008009,Detailed phase of flight,3,"Level flight, routine observation (LVR)",,,,,Operational,na
+bufr4/0/08/009/4,008009,Detailed phase of flight,4,"Level flight, highest wind encountered (LVW)",,,,,Operational,na
+bufr4/0/08/009/5,008009,Detailed phase of flight,5,Ascending (ASC),,,,,Operational,na
+bufr4/0/08/009/6,008009,Detailed phase of flight,6,Descending (DES),,,,,Operational,na
+bufr4/0/08/009/7,008009,Detailed phase of flight,7,"Ascending, observation intervals selected by time increments",,,,,Operational,na
+bufr4/0/08/009/8,008009,Detailed phase of flight,8,"Ascending, observation intervals selected by time increments, unsteady",,,,,Operational,na
+bufr4/0/08/009/9,008009,Detailed phase of flight,9,"Ascending, observation intervals selected by pressure increments",,,,,Operational,na
+bufr4/0/08/009/10,008009,Detailed phase of flight,10,"Ascending, observation intervals selected by pressure increments, unsteady",,,,,Operational,na
+bufr4/0/08/009/11,008009,Detailed phase of flight,11,"Descending, observation intervals selected by time increments",,,,,Operational,na
+bufr4/0/08/009/12,008009,Detailed phase of flight,12,"Descending, observation intervals selected by time increments, unsteady",,,,,Operational,na
+bufr4/0/08/009/13,008009,Detailed phase of flight,13,"Descending, observation intervals selected by pressure increments",,,,,Operational,na
+bufr4/0/08/009/14,008009,Detailed phase of flight,14,"Descending, observation intervals selected by pressure increments, unsteady",,,,,Operational,na
+bufr4/0/08/009/15,008009,Detailed phase of flight,15,Missing value,,,,,Operational,na
+bufr4/0/08/010/0,008010,Surface qualifier (temperature data),0,Reserved,,,,,Operational,na
+bufr4/0/08/010/1,008010,Surface qualifier (temperature data),1,Bare soil,,,,,Operational,na
+bufr4/0/08/010/2,008010,Surface qualifier (temperature data),2,Bare rock,,,,,Operational,na
+bufr4/0/08/010/3,008010,Surface qualifier (temperature data),3,Land grass cover,,,,,Operational,na
+bufr4/0/08/010/4,008010,Surface qualifier (temperature data),4,"Water (lake, sea)",,,,,Operational,na
+bufr4/0/08/010/5,008010,Surface qualifier (temperature data),5,Flood water underneath,,,,,Operational,na
+bufr4/0/08/010/6,008010,Surface qualifier (temperature data),6,Snow,,,,,Operational,na
+bufr4/0/08/010/7,008010,Surface qualifier (temperature data),7,Ice,,,,,Operational,na
+bufr4/0/08/010/8,008010,Surface qualifier (temperature data),8,Runway or road,,,,,Operational,na
+bufr4/0/08/010/9,008010,Surface qualifier (temperature data),9,Ship or platform deck in steel,,,,,Operational,na
+bufr4/0/08/010/10,008010,Surface qualifier (temperature data),10,Ship or platform deck in wood,,,,,Operational,na
+bufr4/0/08/010/11,008010,Surface qualifier (temperature data),11,Ship or platform deck partly covered with rubber mat,,,,,Operational,na
+bufr4/0/08/010/12,008010,Surface qualifier (temperature data),12,Building roof,,,,,Operational,na
+bufr4/0/08/010/13-30,008010,Surface qualifier (temperature data),13-30,Reserved,,,,,Operational,na
+bufr4/0/08/010/31,008010,Surface qualifier (temperature data),31,Missing value,,,,,Operational,na
+bufr4/0/08/011/0,008011,Meteorological feature,0,Quasi-stationary front at the surface,,,,,Operational,na
+bufr4/0/08/011/1,008011,Meteorological feature,1,Quasi-stationary front above the surface,,,,,Operational,na
+bufr4/0/08/011/2,008011,Meteorological feature,2,Warm front at the surface,,,,,Operational,na
+bufr4/0/08/011/3,008011,Meteorological feature,3,Warm front above the surface,,,,,Operational,na
+bufr4/0/08/011/4,008011,Meteorological feature,4,Cold front at the surface,,,,,Operational,na
+bufr4/0/08/011/5,008011,Meteorological feature,5,Cold front above the surface,,,,,Operational,na
+bufr4/0/08/011/6,008011,Meteorological feature,6,Occlusion,,,,,Operational,na
+bufr4/0/08/011/7,008011,Meteorological feature,7,Instability line,,,,,Operational,na
+bufr4/0/08/011/8,008011,Meteorological feature,8,Intertropical front,,,,,Operational,na
+bufr4/0/08/011/9,008011,Meteorological feature,9,Convergence line,,,,,Operational,na
+bufr4/0/08/011/10,008011,Meteorological feature,10,Jet stream,,,,,Operational,na
+bufr4/0/08/011/11,008011,Meteorological feature,11,Cloud clear,,,,,Operational,na
+bufr4/0/08/011/12,008011,Meteorological feature,12,Cloud,,,,,Operational,na
+bufr4/0/08/011/13,008011,Meteorological feature,13,Turbulence,,,,,Operational,na
+bufr4/0/08/011/14,008011,Meteorological feature,14,Storm,,,,,Operational,na
+bufr4/0/08/011/15,008011,Meteorological feature,15,Airframe icing,,,,,Operational,na
+bufr4/0/08/011/16,008011,Meteorological feature,16,Phenomenon,,,,,Operational,na
+bufr4/0/08/011/17,008011,Meteorological feature,17,Volcano,,,,,Operational,na
+bufr4/0/08/011/18,008011,Meteorological feature,18,Atmospherics,,,,,Operational,na
+bufr4/0/08/011/19,008011,Meteorological feature,19,Reserved,,,,,Operational,na
+bufr4/0/08/011/20,008011,Meteorological feature,20,Special clouds,,,,,Operational,na
+bufr4/0/08/011/21,008011,Meteorological feature,21,Thunderstorm,,,,,Operational,na
+bufr4/0/08/011/22,008011,Meteorological feature,22,Tropical cyclone,,,,,Operational,na
+bufr4/0/08/011/23,008011,Meteorological feature,23,Mountain wave,,,,,Operational,na
+bufr4/0/08/011/24,008011,Meteorological feature,24,Duststorm,,,,,Operational,na
+bufr4/0/08/011/25,008011,Meteorological feature,25,Sandstorm,,,,,Operational,na
+bufr4/0/08/011/26-62,008011,Meteorological feature,26-62,Reserved,,,,,Operational,na
+bufr4/0/08/011/63,008011,Meteorological feature,63,Missing value,,,,,Operational,na
+bufr4/0/08/012/0,008012,Land/sea qualifier,0,Land,,,,,Operational,na
+bufr4/0/08/012/1,008012,Land/sea qualifier,1,Sea,,,,,Operational,na
+bufr4/0/08/012/2,008012,Land/sea qualifier,2,Coast,,,,,Operational,na
+bufr4/0/08/012/3,008012,Land/sea qualifier,3,Missing value,,,,,Operational,na
+bufr4/0/08/013/0,008013,Day/night qualifier,0,Night,,,,,Operational,na
+bufr4/0/08/013/1,008013,Day/night qualifier,1,Day,,,,,Operational,na
+bufr4/0/08/013/2,008013,Day/night qualifier,2,Twilight,,,,,Operational,na
+bufr4/0/08/013/3,008013,Day/night qualifier,3,Missing value,,,,,Operational,na
+bufr4/0/08/014/0,008014,Qualifier for runway visual range,0,10-minute mean value - normal value,,,,,Operational,na
+bufr4/0/08/014/1,008014,Qualifier for runway visual range,1,10-minute mean value - above the upper limit for assessments of RVR (P),,,,,Operational,na
+bufr4/0/08/014/2,008014,Qualifier for runway visual range,2,10-minute mean value - below the lower limit for assessments of RVR (M),,,,,Operational,na
+bufr4/0/08/014/3,008014,Qualifier for runway visual range,3,one-minute minimum value - normal value,,,,,Operational,na
+bufr4/0/08/014/4,008014,Qualifier for runway visual range,4,one-minute minimum value - above the upper limit for assessments of RVR (P),,,,,Operational,na
+bufr4/0/08/014/5,008014,Qualifier for runway visual range,5,one-minute minimum value - below the lower limit for assessments of RVR (M),,,,,Operational,na
+bufr4/0/08/014/6,008014,Qualifier for runway visual range,6,one-minute maximum value - normal value,,,,,Operational,na
+bufr4/0/08/014/7,008014,Qualifier for runway visual range,7,one-minute maximum value - above the upper limit for assessments of RVR (P),,,,,Operational,na
+bufr4/0/08/014/8,008014,Qualifier for runway visual range,8,one-minute maximum value - below the lower limit for assessments of RVR (M),,,,,Operational,na
+bufr4/0/08/014/9-14,008014,Qualifier for runway visual range,9-14,Reserved,,,,,Operational,na
+bufr4/0/08/014/15,008014,Qualifier for runway visual range,15,Missing value,,,,,Operational,na
+bufr4/0/08/015/0,008015,Significant qualifier for sensor,0,Single sensor,,,,,Operational,na
+bufr4/0/08/015/1,008015,Significant qualifier for sensor,1,Primary sensor,,,,,Operational,na
+bufr4/0/08/015/2,008015,Significant qualifier for sensor,2,Secondary sensor (Backup),,,,,Operational,na
+bufr4/0/08/015/3-6,008015,Significant qualifier for sensor,3-6,Reserved,,,,,Operational,na
+bufr4/0/08/015/7,008015,Significant qualifier for sensor,7,Missing value,,,,,Operational,na
+bufr4/0/08/016/0,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,0,NOSIG,,,,,Operational,na
+bufr4/0/08/016/1,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,1,BECMG,,,,,Operational,na
+bufr4/0/08/016/2,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,2,TEMPO,,,,,Operational,na
+bufr4/0/08/016/3,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,3,FM,,,,,Operational,na
+bufr4/0/08/016/4-6,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,4-6,Reserved,,,,,Operational,na
+bufr4/0/08/016/7,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,7,Missing value,,,,,Operational,na
+bufr4/0/08/017/0,008017,Qualifier of the time when the forecast change is expected,0,FM,,,,,Operational,na
+bufr4/0/08/017/1,008017,Qualifier of the time when the forecast change is expected,1,TL,,,,,Operational,na
+bufr4/0/08/017/2,008017,Qualifier of the time when the forecast change is expected,2,AT,,,,,Operational,na
+bufr4/0/08/017/3,008017,Qualifier of the time when the forecast change is expected,3,Missing value,,,,,Operational,na
+bufr4/0/08/018/1,008018,SEAWINDS land/ice surface type,1,Land is present,,,,,Operational,na
+bufr4/0/08/018/2,008018,SEAWINDS land/ice surface type,2,Surface ice map indicates ice is present,,,,,Operational,na
+bufr4/0/08/018/3-10,008018,SEAWINDS land/ice surface type,3-10,Reserved,,,,,Operational,na
+bufr4/0/08/018/11,008018,SEAWINDS land/ice surface type,11,Ice map data not available,,,,,Operational,na
+bufr4/0/08/018/12,008018,SEAWINDS land/ice surface type,12,Attenuation map data not available,,,,,Operational,na
+bufr4/0/08/018/13-16,008018,SEAWINDS land/ice surface type,13-16,Reserved,,,,,Operational,na
+bufr4/0/08/018/All-17,008018,SEAWINDS land/ice surface type,All 17,Missing value,,,,,Operational,na
+bufr4/0/08/019/0,008019,Qualifier for following centre identifier,0,Reserved,,,,,Operational,na
+bufr4/0/08/019/1,008019,Qualifier for following centre identifier,1,ATS (Air Traffic Service) unit serving FIR (Flight Information Region),,,,,Operational,na
+bufr4/0/08/019/2,008019,Qualifier for following centre identifier,2,FIR (Flight Information Region),,,,,Operational,na
+bufr4/0/08/019/3,008019,Qualifier for following centre identifier,3,UIR (Upper Flight Information Region),,,,,Operational,na
+bufr4/0/08/019/4,008019,Qualifier for following centre identifier,4,CTA (Control Area),,,,,Operational,na
+bufr4/0/08/019/5,008019,Qualifier for following centre identifier,5,VAAC (Volcanic Ash Advisory Centre),,,,,Operational,na
+bufr4/0/08/019/6,008019,Qualifier for following centre identifier,6,MWO (Meteorological Watch Office) issuing SIGMET,,,,,Operational,na
+bufr4/0/08/019/7-14,008019,Qualifier for following centre identifier,7-14,Reserved,,,,,Operational,na
+bufr4/0/08/019/15,008019,Qualifier for following centre identifier,15,Missing value,,,,,Operational,na
+bufr4/0/08/021/0,008021,Time significance,0,Reserved,,,,,Operational,na
+bufr4/0/08/021/1,008021,Time significance,1,Time series,,,,,Operational,na
+bufr4/0/08/021/2,008021,Time significance,2,Time averaged,,,(see Note 1),4,Operational,na
+bufr4/0/08/021/3,008021,Time significance,3,Accumulated,,,,,Operational,na
+bufr4/0/08/021/4,008021,Time significance,4,Forecast,,,,,Operational,na
+bufr4/0/08/021/5,008021,Time significance,5,Forecast time series,,,,,Operational,na
+bufr4/0/08/021/6,008021,Time significance,6,Forecast time averaged,,,,,Operational,na
+bufr4/0/08/021/7,008021,Time significance,7,Forecast accumulated,,,,,Operational,na
+bufr4/0/08/021/8,008021,Time significance,8,Ensemble mean,,,(see Note 2),3,Operational,na
+bufr4/0/08/021/9,008021,Time significance,9,Ensemble mean time series,,,,,Operational,na
+bufr4/0/08/021/10,008021,Time significance,10,Ensemble mean time averaged,,,,,Operational,na
+bufr4/0/08/021/11,008021,Time significance,11,Ensemble mean accumulated,,,,,Operational,na
+bufr4/0/08/021/12,008021,Time significance,12,Ensemble mean forecast,,,,,Operational,na
+bufr4/0/08/021/13,008021,Time significance,13,Ensemble mean forecast time series,,,,,Operational,na
+bufr4/0/08/021/14,008021,Time significance,14,Ensemble mean forecast time averaged,,,,,Operational,na
+bufr4/0/08/021/15,008021,Time significance,15,Ensemble mean forecast accumulated,,,,,Operational,na
+bufr4/0/08/021/16,008021,Time significance,16,Analysis,,,,,Operational,na
+bufr4/0/08/021/17,008021,Time significance,17,Start of phenomenon,,,,,Operational,na
+bufr4/0/08/021/18,008021,Time significance,18,Radiosonde launch time,,,,,Operational,na
+bufr4/0/08/021/19,008021,Time significance,19,Start of orbit,,,,,Operational,na
+bufr4/0/08/021/20,008021,Time significance,20,End of orbit,,,,,Operational,na
+bufr4/0/08/021/21,008021,Time significance,21,Time of ascending node,,,,,Operational,na
+bufr4/0/08/021/22,008021,Time significance,22,Time of occurrence of wind shift,,,,,Operational,na
+bufr4/0/08/021/23,008021,Time significance,23,Monitoring period,,,,,Operational,na
+bufr4/0/08/021/24,008021,Time significance,24,Agreed time limit for report reception,,,,,Operational,na
+bufr4/0/08/021/25,008021,Time significance,25,Nominal reporting time,,,,,Operational,na
+bufr4/0/08/021/26,008021,Time significance,26,Time of last known position,,,,,Operational,na
+bufr4/0/08/021/27,008021,Time significance,27,First guess,,,,,Operational,na
+bufr4/0/08/021/28,008021,Time significance,28,Start of scan,,,,,Operational,na
+bufr4/0/08/021/29,008021,Time significance,29,End of scan or time of ending,,,,,Operational,na
+bufr4/0/08/021/30,008021,Time significance,30,Time of occurrence,,,,,Operational,na
+bufr4/0/08/021/31,008021,Time significance,31,Missing value,,,,,Operational,na
+bufr4/0/08/023/0-1,008023,First-order statistics,0-1,Reserved,,,,,Operational,na
+bufr4/0/08/023/2,008023,First-order statistics,2,Maximum value,,,,,Operational,na
+bufr4/0/08/023/3,008023,First-order statistics,3,Minimum value,,,,,Operational,na
+bufr4/0/08/023/4,008023,First-order statistics,4,Mean value,,,,,Operational,na
+bufr4/0/08/023/5,008023,First-order statistics,5,Median value,,,,,Operational,na
+bufr4/0/08/023/6,008023,First-order statistics,6,Modal value,,,,,Operational,na
+bufr4/0/08/023/7,008023,First-order statistics,7,Mean absolute error,,,,,Operational,na
+bufr4/0/08/023/8,008023,First-order statistics,8,Reserved,,,,,Operational,na
+bufr4/0/08/023/9,008023,First-order statistics,9,Best estimate of standard deviation (N-1),,,,,Operational,na
+bufr4/0/08/023/10,008023,First-order statistics,10,Standard deviation (N),,,,,Operational,na
+bufr4/0/08/023/11,008023,First-order statistics,11,Harmonic mean,,,,,Operational,na
+bufr4/0/08/023/12,008023,First-order statistics,12,Root-mean-square vector error,,,,,Operational,na
+bufr4/0/08/023/13,008023,First-order statistics,13,Root-mean-square,,,,,Operational,na
+bufr4/0/08/023/14,008023,First-order statistics,14,Root-mean-square error,,,,,Operational,na
+bufr4/0/08/023/15-31,008023,First-order statistics,15-31,Reserved,,,,,Operational,na
+bufr4/0/08/023/32,008023,First-order statistics,32,Vector mean,,,,,Operational,na
+bufr4/0/08/023/33-62,008023,First-order statistics,33-62,Reserved for local use,,,,,Operational,na
+bufr4/0/08/023/63,008023,First-order statistics,63,Missing value,,,,,Operational,na
+bufr4/0/08/024/0-1,008024,Difference statistics,0-1,Reserved,,,,,Operational,na
+bufr4/0/08/024/2,008024,Difference statistics,2,Observed minus maximum,,,,,Operational,na
+bufr4/0/08/024/3,008024,Difference statistics,3,Observed minus minimum,,,,,Operational,na
+bufr4/0/08/024/4,008024,Difference statistics,4,Observed minus mean,,,,,Operational,na
+bufr4/0/08/024/5,008024,Difference statistics,5,Observed minus median,,,,,Operational,na
+bufr4/0/08/024/6,008024,Difference statistics,6,Observed minus mode,,,,,Operational,na
+bufr4/0/08/024/7-10,008024,Difference statistics,7-10,Reserved,,,,,Operational,na
+bufr4/0/08/024/11,008024,Difference statistics,11,Observed minus climatology (anomaly),,,,,Operational,na
+bufr4/0/08/024/12,008024,Difference statistics,12,Observed minus analysed value,,,,,Operational,na
+bufr4/0/08/024/13,008024,Difference statistics,13,Observed minus initialized analysed value,,,,,Operational,na
+bufr4/0/08/024/14,008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),93,Operational,na
+bufr4/0/08/024/15-20,008024,Difference statistics,15-20,Reserved,,,,,Operational,na
+bufr4/0/08/024/21,008024,Difference statistics,21,Observed minus interpolated value,,,,,Operational,na
+bufr4/0/08/024/22,008024,Difference statistics,22,Observed minus hydrostatically calculated value,,,,,Operational,na
+bufr4/0/08/024/23-31,008024,Difference statistics,23-31,Reserved,,,,,Operational,na
+bufr4/0/08/024/32-62,008024,Difference statistics,32-62,Reserved for local use,,,,,Operational,na
+bufr4/0/08/024/63,008024,Difference statistics,63,Missing value,,,,,Operational,na
+bufr4/0/08/025/0,008025,Time difference qualifier,0,Universal Time Coordinated (UTC) minus Local Standard Time (LST),,,,,Operational,na
+bufr4/0/08/025/1,008025,Time difference qualifier,1,Local Standard Time,,,,,Operational,na
+bufr4/0/08/025/2,008025,Time difference qualifier,2,Universal Time Coordinated (UTC) minus Satellite clock,,,,,Operational,na
+bufr4/0/08/025/3-4,008025,Time difference qualifier,3-4,Reserved,,,,,Operational,na
+bufr4/0/08/025/5,008025,Time difference qualifier,5,Time difference from edge of processing segment,,,,,Operational,na
+bufr4/0/08/025/6-14,008025,Time difference qualifier,6-14,Reserved,,,,,Operational,na
+bufr4/0/08/025/15,008025,Time difference qualifier,15,Missing value,,,,,Operational,na
+bufr4/0/08/026/0,008026,Matrix significance,0,Averaging kernel matrix,,,,,Operational,na
+bufr4/0/08/026/1,008026,Matrix significance,1,Correlation matrix (C),,,,,Operational,na
+bufr4/0/08/026/2,008026,Matrix significance,2,Lower triangular correlation matrix square root (L from C=LLT),,,,,Operational,na
+bufr4/0/08/026/3,008026,Matrix significance,3,Inverse of lower triangular correlation matrix square root (L-1),,,,,Operational,na
+bufr4/0/08/026/4-42,008026,Matrix significance,4-42,Reserved,,,,,Operational,na
+bufr4/0/08/026/43-62,008026,Matrix significance,43-62,Reserved for local use,,,,,Operational,na
+bufr4/0/08/026/63,008026,Matrix significance,63,Missing or undefined significance,,,,,Operational,na
+bufr4/0/08/027/0,008027,Type of sea-surface height anomaly measurement,0,Unfiltered raw measurement including noises,,,,,Operational,na
+bufr4/0/08/027/1,008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational,na
+bufr4/0/08/027/2-254,008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational,na
+bufr4/0/08/027/255,008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational,na
+bufr4/0/08/029/0,008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational,na
+bufr4/0/08/029/1,008029,Surface type,1,Enclosed sea or lake,,,,,Operational,na
+bufr4/0/08/029/2,008029,Surface type,2,Continental ice,,,,,Operational,na
+bufr4/0/08/029/3,008029,Surface type,3,Land,,,,,Operational,na
+bufr4/0/08/029/4,008029,Surface type,4,Low inland (below sea level),,,,,Operational,na
+bufr4/0/08/029/5,008029,Surface type,5,Mix of land and water,,,,,Operational,na
+bufr4/0/08/029/6,008029,Surface type,6,Mix of land and low inland,,,,,Operational,na
+bufr4/0/08/029/7-10,008029,Surface type,7-10,Reserved,,,,,Operational,na
+bufr4/0/08/029/11,008029,Surface type,11,River,,,,,Operational,na
+bufr4/0/08/029/12,008029,Surface type,12,Lake,,,,,Operational,na
+bufr4/0/08/029/13,008029,Surface type,13,Sea,,,,,Operational,na
+bufr4/0/08/029/14,008029,Surface type,14,Glacier,,,,,Operational,na
+bufr4/0/08/029/15,008029,Surface type,15,Urban land,,,,,Operational,na
+bufr4/0/08/029/16,008029,Surface type,16,Rural land,,,,,Operational,na
+bufr4/0/08/029/17,008029,Surface type,17,Suburban land,,,,,Operational,na
+bufr4/0/08/029/18,008029,Surface type,18,Sea ice,,,,,Operational,na
+bufr4/0/08/029/19,008029,Surface type,19,Forest,,,,,Operational,na
+bufr4/0/08/029/20,008029,Surface type,20,Shrublands,,,,,Operational,na
+bufr4/0/08/029/21,008029,Surface type,21,Savannah,,,,,Operational,na
+bufr4/0/08/029/22,008029,Surface type,22,Desert,,,,,Operational,na
+bufr4/0/08/029/23,008029,Surface type,23,Grasslands,,,,,Operational,na
+bufr4/0/08/029/24,008029,Surface type,24,Wetlands,,,,,Operational,na
+bufr4/0/08/029/25,008029,Surface type,25,Snow/ice,,,,,Operational,na
+bufr4/0/08/029/26,008029,Surface type,26,Coast,,,,,Operational,na
+bufr4/0/08/029/27-254,008029,Surface type,27-254,Reserved,,,,,Operational,na
+bufr4/0/08/029/255,008029,Surface type,255,Missing value,,,,,Operational,na
+bufr4/0/08/032/0,008032,Status of operation,0,Routine operation,,,,,Operational,na
+bufr4/0/08/032/1,008032,Status of operation,1,Event triggered by storm surge,,,,,Operational,na
+bufr4/0/08/032/2,008032,Status of operation,2,Event triggered by tsunami,,,,,Operational,na
+bufr4/0/08/032/3,008032,Status of operation,3,Event triggered manually,,,,,Operational,na
+bufr4/0/08/032/4,008032,Status of operation,4,Installation testing,,,,,Operational,na
+bufr4/0/08/032/5,008032,Status of operation,5,Maintenance testing,,,,,Operational,na
+bufr4/0/08/032/6-14,008032,Status of operation,6-14,Reserved,,,,,Operational,na
+bufr4/0/08/032/15,008032,Status of operation,15,Missing value,,,,,Operational,na
+bufr4/0/08/033/0,008033,Method of derivation of percentage confidence,0,Reserved,,,,,Operational,na
+bufr4/0/08/033/1,008033,Method of derivation of percentage confidence,1,Percentage confidence calculated using cloud fraction,,,,,Operational,na
+bufr4/0/08/033/2,008033,Method of derivation of percentage confidence,2,Percentage confidence calculated using standard deviation of temperature,,,,,Operational,na
+bufr4/0/08/033/3,008033,Method of derivation of percentage confidence,3,Percentage confidence calculated using probability of cloud contamination,,,,,Operational,na
+bufr4/0/08/033/4,008033,Method of derivation of percentage confidence,4,Percentage confidence calculated using normality of distribution,,,,,Operational,na
+bufr4/0/08/033/5-126,008033,Method of derivation of percentage confidence,5-126,Reserved,,,,,Operational,na
+bufr4/0/08/033/127,008033,Method of derivation of percentage confidence,127,Missing value,,,,,Operational,na
+bufr4/0/08/034/0,008034,Temperature/salinity measurement qualifier,0,Secondary sampling: averaged,,,,,Operational,na
+bufr4/0/08/034/1,008034,Temperature/salinity measurement qualifier,1,Secondary sampling: discrete,,,,,Operational,na
+bufr4/0/08/034/2,008034,Temperature/salinity measurement qualifier,2,Secondary sampling: mixed,,,,,Operational,na
+bufr4/0/08/034/3,008034,Temperature/salinity measurement qualifier,3,"Near-surface sampling: averaged, pumped",,,,,Operational,na
+bufr4/0/08/034/4,008034,Temperature/salinity measurement qualifier,4,"Near-surface sampling: averaged, unpumped",,,,,Operational,na
+bufr4/0/08/034/5,008034,Temperature/salinity measurement qualifier,5,"Near-surface sampling: discrete, pumped",,,,,Operational,na
+bufr4/0/08/034/6,008034,Temperature/salinity measurement qualifier,6,"Near-surface sampling: discrete, unpumped",,,,,Operational,na
+bufr4/0/08/034/7,008034,Temperature/salinity measurement qualifier,7,"Near-surface sampling: mixed, pumped",,,,,Operational,na
+bufr4/0/08/034/8,008034,Temperature/salinity measurement qualifier,8,"Near-surface sampling: mixed, unpumped",,,,,Operational,na
+bufr4/0/08/034/9-14,008034,Temperature/salinity measurement qualifier,9-14,Reserved,,,,,Operational,na
+bufr4/0/08/034/15,008034,Temperature/salinity measurement qualifier,15,Missing value,,,,,Operational,na
+bufr4/0/08/035/0,008035,Type of monitoring exercise,0,Global,,,,,Operational,na
+bufr4/0/08/035/1,008035,Type of monitoring exercise,1,Regional,,,,,Operational,na
+bufr4/0/08/035/2,008035,Type of monitoring exercise,2,National,,,,,Operational,na
+bufr4/0/08/035/3,008035,Type of monitoring exercise,3,Special,,,,,Operational,na
+bufr4/0/08/035/4,008035,Type of monitoring exercise,4,Bilateral,,,,,Operational,na
+bufr4/0/08/035/5,008035,Type of monitoring exercise,5,Reserved,,,,,Operational,na
+bufr4/0/08/035/6,008035,Type of monitoring exercise,6,Reserved,,,,,Operational,na
+bufr4/0/08/035/7,008035,Type of monitoring exercise,7,Missing value,,,,,Operational,na
+bufr4/0/08/036/0,008036,Type of centre or station performing monitoring,0,WMO Secretariat,,,,,Operational,na
+bufr4/0/08/036/1,008036,Type of centre or station performing monitoring,1,WMO,,,,,Operational,na
+bufr4/0/08/036/2,008036,Type of centre or station performing monitoring,2,RSMC,,,,,Operational,na
+bufr4/0/08/036/3,008036,Type of centre or station performing monitoring,3,NMC,,,,,Operational,na
+bufr4/0/08/036/4,008036,Type of centre or station performing monitoring,4,RTH,,,,,Operational,na
+bufr4/0/08/036/5,008036,Type of centre or station performing monitoring,5,Observing site,,,,,Operational,na
+bufr4/0/08/036/6,008036,Type of centre or station performing monitoring,6,Other,,,,,Operational,na
+bufr4/0/08/036/7,008036,Type of centre or station performing monitoring,7,Missing value,,,,,Operational,na
+bufr4/0/08/037/0,008037,Baseline check significance,0,Manufacturer's baseline check unit,,,,,Operational,na
+bufr4/0/08/037/1,008037,Baseline check significance,1,Weather screen,,,,,Operational,na
+bufr4/0/08/037/2,008037,Baseline check significance,2,GRUAN standard humidity chamber,,,,,Operational,na
+bufr4/0/08/037/3-30,008037,Baseline check significance,3-30,Reserved,,,,,Operational,na
+bufr4/0/08/037/31,008037,Baseline check significance,31,Missing value,,,,,Operational,na
+bufr4/0/08/038/0,008038,Instrument data significance,0,Verified instrument reading,,,,,Operational,na
+bufr4/0/08/038/1,008038,Instrument data significance,1,Reference instrument reading,,,,,Operational,na
+bufr4/0/08/038/2-254,008038,Instrument data significance,2-254,Reserved,,,,,Operational,na
+bufr4/0/08/038/255,008038,Instrument data significance,255,Missing value,,,,,Operational,na
+bufr4/0/08/039/0,008039,Time significance (Aviation forecast),0,Issue time of forecast,,,,,Operational,na
+bufr4/0/08/039/1,008039,Time significance (Aviation forecast),1,Time of commencement of period of the forecast,,,,,Operational,na
+bufr4/0/08/039/2,008039,Time significance (Aviation forecast),2,Time of ending of period of the forecast,,,,,Operational,na
+bufr4/0/08/039/3,008039,Time significance (Aviation forecast),3,Forecast time of maximum temperature,,,,,Operational,na
+bufr4/0/08/039/4,008039,Time significance (Aviation forecast),4,Forecast time of minimum temperature,,,,,Operational,na
+bufr4/0/08/039/5,008039,Time significance (Aviation forecast),5,Time of beginning of the forecast change,,,,,Operational,na
+bufr4/0/08/039/6,008039,Time significance (Aviation forecast),6,Time of ending of the forecast change,,,,,Operational,na
+bufr4/0/08/039/7-62,008039,Time significance (Aviation forecast),7-62,Reserved,,,,,Operational,na
+bufr4/0/08/039/63,008039,Time significance (Aviation forecast),63,Missing value,,,,,Operational,na
+bufr4/0/08/040/0,008040,Flight level significance,0,High-resolution data sample,,,,,Operational,na
+bufr4/0/08/040/1,008040,Flight level significance,1,Within 20 hPa of surface,,,,,Operational,na
+bufr4/0/08/040/2,008040,Flight level significance,2,"Pressure less than 10 hPa (i.e., 9, 8, 7, etc.) when no other reason applies",,,,,Operational,na
+bufr4/0/08/040/3,008040,Flight level significance,3,Base pressure level for stability index,,,,,Operational,na
+bufr4/0/08/040/4,008040,Flight level significance,4,"Begin doubtful temperature, height data",,,,,Operational,na
+bufr4/0/08/040/5,008040,Flight level significance,5,Begin missing data (all elements),,,,,Operational,na
+bufr4/0/08/040/6,008040,Flight level significance,6,Begin missing relative humidity data,,,,,Operational,na
+bufr4/0/08/040/7,008040,Flight level significance,7,Begin missing temperature data,,,,,Operational,na
+bufr4/0/08/040/8,008040,Flight level significance,8,Highest level reached before balloon descent because of icing or turbulence,,,,,Operational,na
+bufr4/0/08/040/9,008040,Flight level significance,9,"End doubtful temperature, height data",,,,,Operational,na
+bufr4/0/08/040/10,008040,Flight level significance,10,End missing data (all elements),,,,,Operational,na
+bufr4/0/08/040/11,008040,Flight level significance,11,End missing relative humidity data,,,,,Operational,na
+bufr4/0/08/040/12,008040,Flight level significance,12,End missing temperature data,,,,,Operational,na
+bufr4/0/08/040/13,008040,Flight level significance,13,Zero degrees Celsius crossing(s) for RADAT,,,,,Operational,na
+bufr4/0/08/040/14,008040,Flight level significance,14,Standard pressure level,,,,,Operational,na
+bufr4/0/08/040/15,008040,Flight level significance,15,Operator-added level,,,,,Operational,na
+bufr4/0/08/040/16,008040,Flight level significance,16,Operator-deleted level,,,,,Operational,na
+bufr4/0/08/040/17,008040,Flight level significance,17,Balloon re-ascended beyond previous highest ascent level,,,,,Operational,na
+bufr4/0/08/040/18,008040,Flight level significance,18,Significant relative humidity level,,,,,Operational,na
+bufr4/0/08/040/19,008040,Flight level significance,19,Relative humidity level selection terminated,,,,,Operational,na
+bufr4/0/08/040/20,008040,Flight level significance,20,Surface level,,,,,Operational,na
+bufr4/0/08/040/21,008040,Flight level significance,21,Significant temperature level,,,,,Operational,na
+bufr4/0/08/040/22,008040,Flight level significance,22,Mandatory temperature level,,,,,Operational,na
+bufr4/0/08/040/23,008040,Flight level significance,23,Flight termination level,,,,,Operational,na
+bufr4/0/08/040/24,008040,Flight level significance,24,Tropopause(s),,,,,Operational,na
+bufr4/0/08/040/25,008040,Flight level significance,25,Aircraft report,,,,,Operational,na
+bufr4/0/08/040/26,008040,Flight level significance,26,Interpolated (generated) level,,,,,Operational,na
+bufr4/0/08/040/27,008040,Flight level significance,27,Mandatory wind level,,,,,Operational,na
+bufr4/0/08/040/28,008040,Flight level significance,28,Significant wind level,,,,,Operational,na
+bufr4/0/08/040/29,008040,Flight level significance,29,Maximum wind level,,,,,Operational,na
+bufr4/0/08/040/30,008040,Flight level significance,30,Incremental wind level (fixed regional),,,,,Operational,na
+bufr4/0/08/040/31,008040,Flight level significance,31,Incremental height level (generated),,,,,Operational,na
+bufr4/0/08/040/32,008040,Flight level significance,32,Wind termination level,,,,,Operational,na
+bufr4/0/08/040/33,008040,Flight level significance,33,"Pressure 100 to 110 hPa, when no other reason applies",,,,,Operational,na
+bufr4/0/08/040/34,008040,Flight level significance,34,Freezing level base,,,,,Operational,na
+bufr4/0/08/040/35,008040,Flight level significance,35,Freezing level top,,,,,Operational,na
+bufr4/0/08/040/36,008040,Flight level significance,36,Flight level base,,,,,Operational,na
+bufr4/0/08/040/37,008040,Flight level significance,37,Flight level top,,,,,Operational,na
+bufr4/0/08/040/38,008040,Flight level significance,38,Top of wind sounding,,,,,Operational,na
+bufr4/0/08/040/39,008040,Flight level significance,39,Bottom of wind sounding,,,,,Operational,na
+bufr4/0/08/040/40,008040,Flight level significance,40,Significant thermodynamic level (inversion),,,,,Operational,na
+bufr4/0/08/040/41,008040,Flight level significance,41,Significant relative humidity level (according to NCDC criteria),,,,,Operational,na
+bufr4/0/08/040/42,008040,Flight level significance,42,Significant temperature level (according to NCDC),,,,,Operational,na
+bufr4/0/08/040/43,008040,Flight level significance,43,Begin missing wind data,,,,,Operational,na
+bufr4/0/08/040/44,008040,Flight level significance,44,End missing wind data,,,,,Operational,na
+bufr4/0/08/040/45-59,008040,Flight level significance,45-59,Reserved,,,,,Operational,na
+bufr4/0/08/040/60,008040,Flight level significance,60,Level of 80-knot isotach above jet,,,,,Operational,na
+bufr4/0/08/040/61,008040,Flight level significance,61,Level of 80-knot isotach below jet,,,,,Operational,na
+bufr4/0/08/040/62,008040,Flight level significance,62,Other,,,,,Operational,na
+bufr4/0/08/040/63,008040,Flight level significance,63,Missing value,,,,,Operational,na
+bufr4/0/08/041/0,008041,Data significance,0,Parent site,,,,,Operational,na
+bufr4/0/08/041/1,008041,Data significance,1,Observation site,,,,,Operational,na
+bufr4/0/08/041/2,008041,Data significance,2,Balloon manufacture date,,,,,Operational,na
+bufr4/0/08/041/3,008041,Data significance,3,Balloon launch point,,,,,Operational,na
+bufr4/0/08/041/4,008041,Data significance,4,Surface observation,,,,,Operational,na
+bufr4/0/08/041/5,008041,Data significance,5,Surface observation displacement from launch point,,,,,Operational,na
+bufr4/0/08/041/6,008041,Data significance,6,Flight level observation,,,,,Operational,na
+bufr4/0/08/041/7,008041,Data significance,7,Flight level termination point,,,,,Operational,na
+bufr4/0/08/041/8,008041,Data significance,8,IFR ceiling and visibility,,,,,Operational,na
+bufr4/0/08/041/9,008041,Data significance,9,Mountain obscuration,,,,,Operational,na
+bufr4/0/08/041/10,008041,Data significance,10,Strong surface wind,,,,,Operational,na
+bufr4/0/08/041/11,008041,Data significance,11,Freezing level,,,,,Operational,na
+bufr4/0/08/041/12,008041,Data significance,12,Multiple freezing level,,,,,Operational,na
+bufr4/0/08/041/13,008041,Data significance,13,Instrument manufacture date,,,,,Operational,na
+bufr4/0/08/041/14,008041,Data significance,14,Derived from polarization,,,,,Operational,na
+bufr4/0/08/041/15-30,008041,Data significance,15-30,Reserved,,,,,Operational,na
+bufr4/0/08/041/31,008041,Data significance,31,Missing value,,,,,Operational,na
+bufr4/0/08/042/1,008042,Extended vertical sounding significance,1,Surface,,,,,Operational,na
+bufr4/0/08/042/2,008042,Extended vertical sounding significance,2,Standard level,,,,,Operational,na
+bufr4/0/08/042/3,008042,Extended vertical sounding significance,3,Tropopause level,,,,,Operational,na
+bufr4/0/08/042/4,008042,Extended vertical sounding significance,4,Maximum wind level,,,,,Operational,na
+bufr4/0/08/042/5,008042,Extended vertical sounding significance,5,Significant temperature level,,,,,Operational,na
+bufr4/0/08/042/6,008042,Extended vertical sounding significance,6,Significant humidity level,,,,,Operational,na
+bufr4/0/08/042/7,008042,Extended vertical sounding significance,7,Significant wind level,,,,,Operational,na
+bufr4/0/08/042/8,008042,Extended vertical sounding significance,8,Beginning of missing temperature data,,,,,Operational,na
+bufr4/0/08/042/9,008042,Extended vertical sounding significance,9,End of missing temperature data,,,,,Operational,na
+bufr4/0/08/042/10,008042,Extended vertical sounding significance,10,Beginning of missing humidity data,,,,,Operational,na
+bufr4/0/08/042/11,008042,Extended vertical sounding significance,11,End of missing humidity data,,,,,Operational,na
+bufr4/0/08/042/12,008042,Extended vertical sounding significance,12,Beginning of missing wind data,,,,,Operational,na
+bufr4/0/08/042/13,008042,Extended vertical sounding significance,13,End of missing wind data,,,,,Operational,na
+bufr4/0/08/042/14,008042,Extended vertical sounding significance,14,Top of wind sounding,,,,,Operational,na
+bufr4/0/08/042/15,008042,Extended vertical sounding significance,15,Level determined by regional decision,,,,,Operational,na
+bufr4/0/08/042/16,008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),41,Operational,na
+bufr4/0/08/042/17,008042,Extended vertical sounding significance,17,Pressure level originally indicated by height as the vertical coordinate,,,,,Operational,na
+bufr4/0/08/042/All-18,008042,Extended vertical sounding significance,All 18,Missing value,,,,,Operational,na
+bufr4/0/08/043/0,008043,Atmospheric chemical or physical constituent type,0,Ozone,O3,10028-15-6,,,Operational,na
+bufr4/0/08/043/1,008043,Atmospheric chemical or physical constituent type,1,Water vapour,H2O,7732-18-5,,,Operational,na
+bufr4/0/08/043/2,008043,Atmospheric chemical or physical constituent type,2,Methane,CH4,74-82-8,,,Operational,na
+bufr4/0/08/043/3,008043,Atmospheric chemical or physical constituent type,3,Carbon dioxide,CO2,124-38-9,,,Operational,na
+bufr4/0/08/043/4,008043,Atmospheric chemical or physical constituent type,4,Carbon monoxide,CO,630-08-0,,,Operational,na
+bufr4/0/08/043/5,008043,Atmospheric chemical or physical constituent type,5,Nitrogen dioxide,NO2,10102-44-0,,,Operational,na
+bufr4/0/08/043/6,008043,Atmospheric chemical or physical constituent type,6,Nitrous oxide,N2O,10024-97-2,,,Operational,na
+bufr4/0/08/043/7,008043,Atmospheric chemical or physical constituent type,7,Formaldehyde,HCHO,50-00-0,,,Operational,na
+bufr4/0/08/043/8,008043,Atmospheric chemical or physical constituent type,8,Sulphur dioxide,SO2,7446-09-5,,,Operational,na
+bufr4/0/08/043/9,008043,Atmospheric chemical or physical constituent type,9,Volcanic sulphur dioxide,,,,,Operational,na
+bufr4/0/08/043/10-24,008043,Atmospheric chemical or physical constituent type,10-24,Reserved,,,,,Operational,na
+bufr4/0/08/043/25,008043,Atmospheric chemical or physical constituent type,25,Particulate matter < 1.0 microns,,,,,Operational,na
+bufr4/0/08/043/26,008043,Atmospheric chemical or physical constituent type,26,Particulate matter < 2.5 microns,,,,,Operational,na
+bufr4/0/08/043/27,008043,Atmospheric chemical or physical constituent type,27,Particulate matter < 10 microns,,,,,Operational,na
+bufr4/0/08/043/28,008043,Atmospheric chemical or physical constituent type,28,Aerosols (generic),,,,,Operational,na
+bufr4/0/08/043/29,008043,Atmospheric chemical or physical constituent type,29,Smoke (generic),,,,,Operational,na
+bufr4/0/08/043/30,008043,Atmospheric chemical or physical constituent type,30,Crustal material (generic dust),,,,,Operational,na
+bufr4/0/08/043/31,008043,Atmospheric chemical or physical constituent type,31,Volcanic ash,,,,,Operational,na
+bufr4/0/08/043/32,008043,Atmospheric chemical or physical constituent type,32,Cloud,,,,,Operational,na
+bufr4/0/08/043/33,008043,Atmospheric chemical or physical constituent type,33,Cloud and aerosols,,,,,Operational,na
+bufr4/0/08/043/34-200,008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,,Operational,na
+bufr4/0/08/043/201-254,008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,,Operational,na
+bufr4/0/08/043/255,008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,,Operational,na
+bufr4/0/08/045/0,008045,Character of particulate matter,0,Aerosols all types,,,,,Operational,na
+bufr4/0/08/045/1,008045,Character of particulate matter,1,Desert dust,,,,,Operational,na
+bufr4/0/08/045/2,008045,Character of particulate matter,2,Black carbon,,,,,Operational,na
+bufr4/0/08/045/3,008045,Character of particulate matter,3,Sea salt,,,,,Operational,na
+bufr4/0/08/045/4-254,008045,Character of particulate matter,4-254,Reserved,,,,,Operational,na
+bufr4/0/08/045/255,008045,Character of particulate matter,255,Missing value,,,,,Operational,na
+bufr4/0/08/046,008046,Atmospheric chemical or physical constituent type,,,,,(See Common Code table C–14 in Part C/c.),,Operational,na
+bufr4/0/08/050/0,008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,,Operational,na
+bufr4/0/08/050/1,008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational,na
+bufr4/0/08/050/2,008050,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,,Operational,na
+bufr4/0/08/050/3,008050,Qualifier for number of missing values in calculation of statistic,3,Extreme temperature,,,,,Operational,na
+bufr4/0/08/050/4,008050,Qualifier for number of missing values in calculation of statistic,4,Vapour pressure,,,,,Operational,na
+bufr4/0/08/050/5,008050,Qualifier for number of missing values in calculation of statistic,5,Precipitation,,,,,Operational,na
+bufr4/0/08/050/6,008050,Qualifier for number of missing values in calculation of statistic,6,Sunshine duration,,,,,Operational,na
+bufr4/0/08/050/7,008050,Qualifier for number of missing values in calculation of statistic,7,Maximum temperature,,,,,Operational,na
+bufr4/0/08/050/8,008050,Qualifier for number of missing values in calculation of statistic,8,Minimum temperature,,,,,Operational,na
+bufr4/0/08/050/9,008050,Qualifier for number of missing values in calculation of statistic,9,Wind,,,,,Operational,na
+bufr4/0/08/050/10-14,008050,Qualifier for number of missing values in calculation of statistic,10-14,Reserved,,,,,Operational,na
+bufr4/0/08/050/15,008050,Qualifier for number of missing values in calculation of statistic,15,Missing value,,,,,Operational,na
+bufr4/0/08/051/1,008051,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational,na
+bufr4/0/08/051/2,008051,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,,Operational,na
+bufr4/0/08/051/3,008051,Qualifier for number of missing values in calculation of statistic,3,Extreme temperature,,,,,Operational,na
+bufr4/0/08/051/4,008051,Qualifier for number of missing values in calculation of statistic,4,Vapour pressure,,,,,Operational,na
+bufr4/0/08/051/5,008051,Qualifier for number of missing values in calculation of statistic,5,Precipitation,,,,,Operational,na
+bufr4/0/08/051/6,008051,Qualifier for number of missing values in calculation of statistic,6,Sunshine duration,,,,,Operational,na
+bufr4/0/08/051/7,008051,Qualifier for number of missing values in calculation of statistic,7,Missing value,,,,,Operational,na
+bufr4/0/08/052/0,008052,Condition for which number of days of occurrence follows,0,Mean wind speed over a 10-minute period observed or recorded equal to or more than 10 m s-1 or 20 knots,,,,,Operational,na
+bufr4/0/08/052/1,008052,Condition for which number of days of occurrence follows,1,Mean wind speed over a 10-minute period observed or recorded equal to or more than 20 m s-1 or 40 knots,,,,,Operational,na
+bufr4/0/08/052/2,008052,Condition for which number of days of occurrence follows,2,Mean wind speed over a 10-minute period observed or recorded equal to or more than 30 m s-1 or 60 knots,,,,,Operational,na
+bufr4/0/08/052/3,008052,Condition for which number of days of occurrence follows,3,Maximum temperature less than 273.15 K,,,,,Operational,na
+bufr4/0/08/052/4,008052,Condition for which number of days of occurrence follows,4,Maximum temperature equal to or more than 298.15 K,,,,,Operational,na
+bufr4/0/08/052/5,008052,Condition for which number of days of occurrence follows,5,Maximum temperature equal to or more than 303.15 K,,,,,Operational,na
+bufr4/0/08/052/6,008052,Condition for which number of days of occurrence follows,6,Maximum temperature equal to or more than 308.15 K,,,,,Operational,na
+bufr4/0/08/052/7,008052,Condition for which number of days of occurrence follows,7,Maximum temperature equal to or more than 313.15 K,,,,,Operational,na
+bufr4/0/08/052/8,008052,Condition for which number of days of occurrence follows,8,Minimum temperature less than 273.15 K,,,,,Operational,na
+bufr4/0/08/052/9,008052,Condition for which number of days of occurrence follows,9,Maximum temperature equal to or more than 273.15 K,,,,,Operational,na
+bufr4/0/08/052/10,008052,Condition for which number of days of occurrence follows,10,Precipitation equal to or more than 1.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/11,008052,Condition for which number of days of occurrence follows,11,Precipitation equal to or more than 5.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/12,008052,Condition for which number of days of occurrence follows,12,Precipitation equal to or more than 10.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/13,008052,Condition for which number of days of occurrence follows,13,Precipitation equal to or more than 50.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/14,008052,Condition for which number of days of occurrence follows,14,Precipitation equal to or more than 100.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/15,008052,Condition for which number of days of occurrence follows,15,Precipitation equal to or more than 150.0 kg m-2,,,,,Operational,na
+bufr4/0/08/052/16,008052,Condition for which number of days of occurrence follows,16,Snow depth more than 0.00 m,,,,,Operational,na
+bufr4/0/08/052/17,008052,Condition for which number of days of occurrence follows,17,Snow depth more than 0.01 m,,,,,Operational,na
+bufr4/0/08/052/18,008052,Condition for which number of days of occurrence follows,18,Snow depth more than 0.10 m,,,,,Operational,na
+bufr4/0/08/052/19,008052,Condition for which number of days of occurrence follows,19,Snow depth more than 0.50 m,,,,,Operational,na
+bufr4/0/08/052/20,008052,Condition for which number of days of occurrence follows,20,Horizontal visibility less than 50 m,,,,,Operational,na
+bufr4/0/08/052/21,008052,Condition for which number of days of occurrence follows,21,Horizontal visibility less than 100 m,,,,,Operational,na
+bufr4/0/08/052/22,008052,Condition for which number of days of occurrence follows,22,Horizontal visibility less than 1000 m,,,,,Operational,na
+bufr4/0/08/052/23,008052,Condition for which number of days of occurrence follows,23,Hail,,,,,Operational,na
+bufr4/0/08/052/24,008052,Condition for which number of days of occurrence follows,24,Thunderstorm,,,,,Operational,na
+bufr4/0/08/052/25-30,008052,Condition for which number of days of occurrence follows,25-30,Reserved,,,,,Operational,na
+bufr4/0/08/052/31,008052,Condition for which number of days of occurrence follows,31,Missing value,,,,,Operational,na
+bufr4/0/08/053/0,008053,Day of occurrence qualifier,0,Value occurred on only one day in the month,,,,,Operational,na
+bufr4/0/08/053/1,008053,Day of occurrence qualifier,1,Value occurred on more than one day in the month,,,,,Operational,na
+bufr4/0/08/053/2,008053,Day of occurrence qualifier,2,Reserved,,,,,Operational,na
+bufr4/0/08/053/3,008053,Day of occurrence qualifier,3,Missing value,,,,,Operational,na
+bufr4/0/08/054/0,008054,Qualifier for wind speed or wind gusts,0,Wind speed or gust is as reported,,,,,Operational,na
+bufr4/0/08/054/1,008054,Qualifier for wind speed or wind gusts,1,Wind speed is greater than that reported (P in METAR/TAF/SPECI),,,,,Operational,na
+bufr4/0/08/054/2-6,008054,Qualifier for wind speed or wind gusts,2-6,Reserved,,,,,Operational,na
+bufr4/0/08/054/7,008054,Qualifier for wind speed or wind gusts,7,Missing value,,,,,Operational,na
+bufr4/0/08/055/0,008055,Method used to calculate the average wind components after removing vortex,0,Calculate the area average of the u and v components at pressure levels from 0 to 500km centred on the surface vortex position,,,,,Operational,na
+bufr4/0/08/055/1,008055,Method used to calculate the average wind components after removing vortex,1,Calculate the area average of the u and v components at pressure levels from 0 to radius greater than 500km centred on the surface vortex position,,,,,Operational,na
+bufr4/0/08/055/2-14,008055,Method used to calculate the average wind components after removing vortex,2-14,Reserved,,,,,Operational,na
+bufr4/0/08/055/15,008055,Method used to calculate the average wind components after removing vortex,15,Missing value,,,,,Operational,na
+bufr4/0/08/060/0,008060,Sample scanning mode significance,0,Reserved,,,,,Operational,na
+bufr4/0/08/060/1,008060,Sample scanning mode significance,1,Range,,,,,Operational,na
+bufr4/0/08/060/2,008060,Sample scanning mode significance,2,Azimuth,,,,,Operational,na
+bufr4/0/08/060/3,008060,Sample scanning mode significance,3,Horizontal,,,,,Operational,na
+bufr4/0/08/060/4,008060,Sample scanning mode significance,4,Vertical,,,,,Operational,na
+bufr4/0/08/060/5,008060,Sample scanning mode significance,5,North/south,,,,,Operational,na
+bufr4/0/08/060/6,008060,Sample scanning mode significance,6,East/west,,,,,Operational,na
+bufr4/0/08/060/7-14,008060,Sample scanning mode significance,7-14,Reserved,,,,,Operational,na
+bufr4/0/08/060/15,008060,Sample scanning mode significance,15,Missing value,,,,,Operational,na
+bufr4/0/08/065/0,008065,Sun-glint indicator,0,No sun-glint,,,,,Operational,na
+bufr4/0/08/065/1,008065,Sun-glint indicator,1,Sun-glint,,,,,Operational,na
+bufr4/0/08/065/2,008065,Sun-glint indicator,2,Reserved,,,,,Operational,na
+bufr4/0/08/065/3,008065,Sun-glint indicator,3,Missing value,,,,,Operational,na
+bufr4/0/08/066/0,008066,Semi-transparency indicator,0,Opaque,,,,,Operational,na
+bufr4/0/08/066/1,008066,Semi-transparency indicator,1,Semi-transparent,,,,,Operational,na
+bufr4/0/08/066/2,008066,Semi-transparency indicator,2,Reserved,,,,,Operational,na
+bufr4/0/08/066/3,008066,Semi-transparency indicator,3,Missing value,,,,,Operational,na
+bufr4/0/08/070/0,008070,Vertical sounding product qualifier,0,Reserved,,,,,Operational,na
+bufr4/0/08/070/1,008070,Vertical sounding product qualifier,1,Reserved,,,,,Operational,na
+bufr4/0/08/070/2,008070,Vertical sounding product qualifier,2,"Earth located instrument counts, calibration coefficients and housekeeping (level 1b)",,,,,Operational,na
+bufr4/0/08/070/3,008070,Vertical sounding product qualifier,3,Earth located calibrated radiances (level 1c),,,,,Operational,na
+bufr4/0/08/070/4,008070,Vertical sounding product qualifier,4,"Mapped to a common footprint, Earth located calibrated radiances (level 1d)",,,,,Operational,na
+bufr4/0/08/070/5-14,008070,Vertical sounding product qualifier,5-14,Reserved,,,,,Operational,na
+bufr4/0/08/070/15,008070,Vertical sounding product qualifier,15,Missing value,,,,,Operational,na
+bufr4/0/08/071/0,008071,Type of cost estimation,0,First guess,,,,,Operational,na
+bufr4/0/08/071/1,008071,Type of cost estimation,1,Y vector,,,,,Operational,na
+bufr4/0/08/071/2,008071,Type of cost estimation,2,X vector,,,,,Operational,na
+bufr4/0/08/071/3-6,008071,Type of cost estimation,3-6,Reserved,,,,,Operational,na
+bufr4/0/08/071/7,008071,Type of cost estimation,7,Missing,,,,,Operational,na
+bufr4/0/08/072/0,008072,Pixel(s) type,0,Mixed,,,,,Operational,na
+bufr4/0/08/072/1,008072,Pixel(s) type,1,Clear,,,,,Operational,na
+bufr4/0/08/072/2,008072,Pixel(s) type,2,Cloudy,,,,,Operational,na
+bufr4/0/08/072/3,008072,Pixel(s) type,3,Probably clear,,,,,Operational,na
+bufr4/0/08/072/4,008072,Pixel(s) type,4,Probably cloudy,,,,,Operational,na
+bufr4/0/08/072/5,008072,Pixel(s) type,5,Ash,,,,,Operational,na
+bufr4/0/08/072/6,008072,Pixel(s) type,6,Reserved,,,,,Operational,na
+bufr4/0/08/072/7,008072,Pixel(s) type,7,Missing value,,,,,Operational,na
+bufr4/0/08/074/0,008074,Altimeter echo type,0,Open ocean or semi-enclosed sea,,,,,Operational,na
+bufr4/0/08/074/1,008074,Altimeter echo type,1,Non-ocean like,,,,,Operational,na
+bufr4/0/08/074/2,008074,Altimeter echo type,2,Reserved,,,,,Operational,na
+bufr4/0/08/074/3,008074,Altimeter echo type,3,Missing value,,,,,Operational,na
+bufr4/0/08/075/0,008075,Ascending/descending orbit qualifier,0,Ascending orbit,,,,,Operational,na
+bufr4/0/08/075/1,008075,Ascending/descending orbit qualifier,1,Descending orbit,,,,,Operational,na
+bufr4/0/08/075/2,008075,Ascending/descending orbit qualifier,2,Reserved,,,,,Operational,na
+bufr4/0/08/075/3,008075,Ascending/descending orbit qualifier,3,Missing value,,,,,Operational,na
+bufr4/0/08/076/0,008076,Type of band,0,Ku,,,,,Operational,na
+bufr4/0/08/076/1,008076,Type of band,1,C,,,,,Operational,na
+bufr4/0/08/076/2,008076,Type of band,2,Long-wave infrared,,,,,Operational,na
+bufr4/0/08/076/3,008076,Type of band,3,Medium-wave infrared,,,,,Operational,na
+bufr4/0/08/076/4,008076,Type of band,4,Short-wave infrared,,,,,Operational,na
+bufr4/0/08/076/5,008076,Type of band,5,M,,,,,Operational,na
+bufr4/0/08/076/6,008076,Type of band,6,I,,,,,Operational,na
+bufr4/0/08/076/7,008076,Type of band,7,Day/night,,,,,Operational,na
+bufr4/0/08/076/8-62,008076,Type of band,8-62,Reserved,,,,,Operational,na
+bufr4/0/08/076/63,008076,Type of band,63,Missing value,,,,,Operational,na
+bufr4/0/08/077/0,008077,Radiometer sensed surface type,0,Land,,,,,Operational,na
+bufr4/0/08/077/1,008077,Radiometer sensed surface type,1,Sea,,,,,Operational,na
+bufr4/0/08/077/2,008077,Radiometer sensed surface type,2,Coastal,,,,,Operational,na
+bufr4/0/08/077/3,008077,Radiometer sensed surface type,3,Open ocean or semi-enclosed sea,,,,,Operational,na
+bufr4/0/08/077/4,008077,Radiometer sensed surface type,4,Enclosed sea or lake,,,,,Operational,na
+bufr4/0/08/077/5,008077,Radiometer sensed surface type,5,Continental ice,,,,,Operational,na
+bufr4/0/08/077/6-126,008077,Radiometer sensed surface type,6-126,Reserved,,,,,Operational,na
+bufr4/0/08/077/127,008077,Radiometer sensed surface type,127,Missing value,,,,,Operational,na
+bufr4/0/08/079/0,008079,Product status,0,Normal issue,,,,,Operational,na
+bufr4/0/08/079/1,008079,Product status,1,Correction to a previously issued product (COR),,,,,Operational,na
+bufr4/0/08/079/2,008079,Product status,2,Amendment to a previously issued product (AMD),,,,,Operational,na
+bufr4/0/08/079/3,008079,Product status,3,Correction to a previously issued amended product (COR AMD),,,,,Operational,na
+bufr4/0/08/079/4,008079,Product status,4,Cancellation of a previously issued product (CNL),,,,,Operational,na
+bufr4/0/08/079/5,008079,Product status,5,No product available (NIL),,,,,Operational,na
+bufr4/0/08/079/6,008079,Product status,6,Special report (SPECI),,,,,Operational,na
+bufr4/0/08/079/7,008079,Product status,7,Corrected special report (SPECI COR),,,,,Operational,na
+bufr4/0/08/079/8-14,008079,Product status,8-14,Reserved,,,,,Operational,na
+bufr4/0/08/079/15,008079,Product status,15,Missing or not applicable,,,,,Operational,na
+bufr4/0/08/080/0,008080,Qualifier for GTSPP quality flag,0,Total water pressure profile,,,,,Operational,na
+bufr4/0/08/080/1,008080,Qualifier for GTSPP quality flag,1,Total water temperature profile,,,,,Operational,na
+bufr4/0/08/080/2,008080,Qualifier for GTSPP quality flag,2,Total water salinity profile,,,,,Operational,na
+bufr4/0/08/080/3,008080,Qualifier for GTSPP quality flag,3,Total water conductivity profile,,,,,Operational,na
+bufr4/0/08/080/4,008080,Qualifier for GTSPP quality flag,4,Total water depth,,,,,Operational,na
+bufr4/0/08/080/5-9,008080,Qualifier for GTSPP quality flag,5-9,Reserved,,,,,Operational,na
+bufr4/0/08/080/10,008080,Qualifier for GTSPP quality flag,10,Water pressure at a level,,,,,Operational,na
+bufr4/0/08/080/11,008080,Qualifier for GTSPP quality flag,11,Water temperature at a level,,,,,Operational,na
+bufr4/0/08/080/12,008080,Qualifier for GTSPP quality flag,12,Salinity at a level,,,,,Operational,na
+bufr4/0/08/080/13,008080,Qualifier for GTSPP quality flag,13,Water depth at a level,,,,,Operational,na
+bufr4/0/08/080/14,008080,Qualifier for GTSPP quality flag,14,Sea/water current speed at a level,,,,,Operational,na
+bufr4/0/08/080/15,008080,Qualifier for GTSPP quality flag,15,Sea/water current direction at a level,,,,,Operational,na
+bufr4/0/08/080/16,008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational,na
+bufr4/0/08/080/17-19,008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational,na
+bufr4/0/08/080/20,008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational,na
+bufr4/0/08/080/21,008080,Qualifier for GTSPP quality flag,21,Chlorophyll-A at a level,,,,,Operational,na
+bufr4/0/08/080/22,008080,Qualifier for GTSPP quality flag,22,Nitrate at a level,,,,,Operational,na
+bufr4/0/08/080/23,008080,Qualifier for GTSPP quality flag,23,pH at a level,,,,,Operational,na
+bufr4/0/08/080/24,008080,Qualifier for GTSPP quality flag,24,BBP700 at a level,,,,,Operational,na
+bufr4/0/08/080/25,008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational,na
+bufr4/0/08/080/26,008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational,na
+bufr4/0/08/080/27-62,008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational,na
+bufr4/0/08/080/63,008080,Qualifier for GTSPP quality flag,63,Missing value,,,,,Operational,na
+bufr4/0/08/081/0,008081,Type of equipment,0,Sensor,,,,,Operational,na
+bufr4/0/08/081/1,008081,Type of equipment,1,Transmitter,,,,,Operational,na
+bufr4/0/08/081/2,008081,Type of equipment,2,Receiver,,,,,Operational,na
+bufr4/0/08/081/3,008081,Type of equipment,3,Observing platform,,,,,Operational,na
+bufr4/0/08/081/4-62,008081,Type of equipment,4-62,Reserved,,,,,Operational,na
+bufr4/0/08/081/63,008081,Type of equipment,63,Missing value,,,,,Operational,na
+bufr4/0/08/082/0,008082,Modification of sensor height to another value,0,Sensor height is not modified,,,,,Operational,na
+bufr4/0/08/082/1,008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),48,Operational,na
+bufr4/0/08/082/2-6,008082,Modification of sensor height to another value,2-6,Reserved,,,,,Operational,na
+bufr4/0/08/082/7,008082,Modification of sensor height to another value,7,Missing value,,,,,Operational,na
+bufr4/0/08/083/1,008083,Nominal value indicator,1,Adjusted to or with respect to representative height of sensor above local ground (or deck of marine platform),,,,,Operational,na
+bufr4/0/08/083/2,008083,Nominal value indicator,2,Adjusted to or with respect to representative height of sensor above water surface,,,,,Operational,na
+bufr4/0/08/083/3,008083,Nominal value indicator,3,Adjusted with respect to standard surface roughness,,,,,Operational,na
+bufr4/0/08/083/4,008083,Nominal value indicator,4,Adjusted with respect to wind speed,,,,,Operational,na
+bufr4/0/08/083/5,008083,Nominal value indicator,5,Adjusted with respect to temperature,,,,,Operational,na
+bufr4/0/08/083/6,008083,Nominal value indicator,6,Adjusted with respect to pressure,,,,,Operational,na
+bufr4/0/08/083/7,008083,Nominal value indicator,7,Adjusted with respect to humidity,,,,,Operational,na
+bufr4/0/08/083/8,008083,Nominal value indicator,8,Adjusted with respect to evaporation,,,,,Operational,na
+bufr4/0/08/083/9,008083,Nominal value indicator,9,Adjusted with respect to wetting losses,,,,,Operational,na
+bufr4/0/08/083/10-14,008083,Nominal value indicator,10-14,Reserved,,,,,Operational,na
+bufr4/0/08/083/All-15,008083,Nominal value indicator,All 15,Missing value,,,,,Operational,na
+bufr4/0/08/085/0,008085,Beam identifier,0,Fore beam,,,,,Operational,na
+bufr4/0/08/085/1,008085,Beam identifier,1,Mid beam,,,,,Operational,na
+bufr4/0/08/085/2,008085,Beam identifier,2,Aft beam,,,,,Operational,na
+bufr4/0/08/085/3,008085,Beam identifier,3,Combined average,,,,,Operational,na
+bufr4/0/08/085/4-6,008085,Beam identifier,4-6,Reserved,,,,,Operational,na
+bufr4/0/08/085/7,008085,Beam identifier,7,Missing value,,,,,Operational,na
+bufr4/0/08/086/1,008086,Vertical significance for NWP,1,"Model ""ground"" surface",,,,,Operational,na
+bufr4/0/08/086/2,008086,Vertical significance for NWP,2,Standard level,,,,,Operational,na
+bufr4/0/08/086/3,008086,Vertical significance for NWP,3,Tropopause level,,,,,Operational,na
+bufr4/0/08/086/4,008086,Vertical significance for NWP,4,Maximum wind level,,,,,Operational,na
+bufr4/0/08/086/5,008086,Vertical significance for NWP,5,Significant temperature level,,,,,Operational,na
+bufr4/0/08/086/6,008086,Vertical significance for NWP,6,Significant humidity level,,,,,Operational,na
+bufr4/0/08/086/7,008086,Vertical significance for NWP,7,Significant wind level,,,,,Operational,na
+bufr4/0/08/086/8,008086,Vertical significance for NWP,8,Vertically interpolated level (This should be set to 1 for points on the vertical profile that fall between the model's native vertical levels.),,,,,Operational,na
+bufr4/0/08/086/9,008086,Vertical significance for NWP,9,Virtual station height,,,,,Operational,na
+bufr4/0/08/086/10,008086,Vertical significance for NWP,10,Level of best fit,,,,,Operational,na
+bufr4/0/08/086/11,008086,Vertical significance for NWP,11,Reserved,,,,,Operational,na
+bufr4/0/08/086/All-12,008086,Vertical significance for NWP,All 12,Missing value,,,,,Operational,na
+bufr4/0/08/087/0,008087,Corner position of observation,0,Upper left,,,,,Operational,na
+bufr4/0/08/087/1,008087,Corner position of observation,1,Upper right,,,,,Operational,na
+bufr4/0/08/087/2,008087,Corner position of observation,2,Lower right,,,,,Operational,na
+bufr4/0/08/087/3,008087,Corner position of observation,3,Lower left,,,,,Operational,na
+bufr4/0/08/087/4-6,008087,Corner position of observation,4-6,Reserved,,,,,Operational,na
+bufr4/0/08/087/7,008087,Corner position of observation,7,Missing value,,,,,Operational,na
+bufr4/0/08/088/0,008088,Map significance,0,Top view (geographical longitude on x-axis and latitude on y-axis),,,,,Operational,na
+bufr4/0/08/088/1,008088,Map significance,1,North-south view (transect with geographical longitude on x-axis and vertical height on y-axis),,,,,Operational,na
+bufr4/0/08/088/2,008088,Map significance,2,East-west view (transect with geographical latitude on x-axis and vertical height on y-axis),,,,,Operational,na
+bufr4/0/08/088/3-62,008088,Map significance,3-62,Reserved,,,,,Operational,na
+bufr4/0/08/088/63,008088,Map significance,63,Missing,,,,,Operational,na
+bufr4/0/08/091/0,008091,Coordinates significance,0,Satellite coordinates,,,,,Operational,na
+bufr4/0/08/091/1,008091,Coordinates significance,1,Observation coordinates,,,,,Operational,na
+bufr4/0/08/091/2,008091,Coordinates significance,2,Start of observation,,,,,Operational,na
+bufr4/0/08/091/3,008091,Coordinates significance,3,End of observation,,,,,Operational,na
+bufr4/0/08/091/4,008091,Coordinates significance,4,Horizontal centre of gravity of the observation,,,,,Operational,na
+bufr4/0/08/091/5,008091,Coordinates significance,5,Vertical centre of gravity of the observation,,,,,Operational,na
+bufr4/0/08/091/6,008091,Coordinates significance,6,Top of the observation,,,,,Operational,na
+bufr4/0/08/091/7,008091,Coordinates significance,7,Bottom of the observation,,,,,Operational,na
+bufr4/0/08/091/8,008091,Coordinates significance,8,Projection origin,,,,,Operational,na
+bufr4/0/08/091/9,008091,Coordinates significance,9,Coordinates of true scale,,,,,Operational,na
+bufr4/0/08/091/10-254,008091,Coordinates significance,10-254,Reserved,,,,,Operational,na
+bufr4/0/08/091/255,008091,Coordinates significance,255,Missing value,,,,,Operational,na
+bufr4/0/08/092/0,008092,Measurement uncertainty expression,0,Standard uncertainty,,,,,Operational,na
+bufr4/0/08/092/1,008092,Measurement uncertainty expression,1,Combined standard uncertainty,,,(see Note),102,Operational,na
+bufr4/0/08/092/2-30,008092,Measurement uncertainty expression,2-30,Reserved,,,,,Operational,na
+bufr4/0/08/092/31,008092,Measurement uncertainty expression,31,Missing value,,,,,Operational,na
+bufr4/0/08/093/0,008093,Measurement uncertainty significance,0,Total uncertainty,,,,,Operational,na
+bufr4/0/08/093/1,008093,Measurement uncertainty significance,1,Systematic component of uncertainty,,,,,Operational,na
+bufr4/0/08/093/2,008093,Measurement uncertainty significance,2,Random component of uncertainty,,,,,Operational,na
+bufr4/0/08/093/3-30,008093,Measurement uncertainty significance,3-30,Reserved,,,,,Operational,na
+bufr4/0/08/093/31,008093,Measurement uncertainty significance,31,Missing value,,,,,Operational,na
+bufr4/0/08/094/0,008094,Method used to calculate the average daily temperature,0,Average of maximum and minimum values: Tm = (Tx + Tn)/2,,,(see Note),97,Operational,na
+bufr4/0/08/094/1,008094,Method used to calculate the average daily temperature,1,Average of the 8 observations taken every three hours,,,,,Operational,na
+bufr4/0/08/094/2,008094,Method used to calculate the average daily temperature,2,Average of the 24 hourly observations,,,,,Operational,na
+bufr4/0/08/094/3,008094,Method used to calculate the average daily temperature,3,Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3),,,(see Note),97,Operational,na
+bufr4/0/08/094/4,008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),97,Operational,na
+bufr4/0/08/094/5,008094,Method used to calculate the average daily temperature,5,Automatic weather station complete integration from minute data,,,,,Operational,na
+bufr4/0/08/094/6,008094,Method used to calculate the average daily temperature,6,Average of the 4 observations taken every six hours,,,,,Operational,na
+bufr4/0/08/094/7,008094,Method used to calculate the average daily temperature,7,Average of the 144 observations taken every 10 minutes,,,,,Operational,na
+bufr4/0/08/094/8-254,008094,Method used to calculate the average daily temperature,8-254,Reserved,,,,,Operational,na
+bufr4/0/08/094/255,008094,Method used to calculate the average daily temperature,255,Missing value,,,,,Operational,na
+bufr4/0/08/095/0,008095,Siting and measurement quality classification for temperature,0,Reserved,,,,,Operational,na
+bufr4/0/08/095/1,008095,Siting and measurement quality classification for temperature,1,1A,,,,,Operational,na
+bufr4/0/08/095/2,008095,Siting and measurement quality classification for temperature,2,1B,,,,,Operational,na
+bufr4/0/08/095/3,008095,Siting and measurement quality classification for temperature,3,1C,,,,,Operational,na
+bufr4/0/08/095/4,008095,Siting and measurement quality classification for temperature,4,1D,,,,,Operational,na
+bufr4/0/08/095/5,008095,Siting and measurement quality classification for temperature,5,Reserved,,,,,Operational,na
+bufr4/0/08/095/6,008095,Siting and measurement quality classification for temperature,6,2A,,,,,Operational,na
+bufr4/0/08/095/7,008095,Siting and measurement quality classification for temperature,7,2B,,,,,Operational,na
+bufr4/0/08/095/8,008095,Siting and measurement quality classification for temperature,8,2C,,,,,Operational,na
+bufr4/0/08/095/9,008095,Siting and measurement quality classification for temperature,9,2D,,,,,Operational,na
+bufr4/0/08/095/10,008095,Siting and measurement quality classification for temperature,10,Reserved,,,,,Operational,na
+bufr4/0/08/095/11,008095,Siting and measurement quality classification for temperature,11,3A,,,,,Operational,na
+bufr4/0/08/095/12,008095,Siting and measurement quality classification for temperature,12,3B,,,,,Operational,na
+bufr4/0/08/095/13,008095,Siting and measurement quality classification for temperature,13,3C,,,,,Operational,na
+bufr4/0/08/095/14,008095,Siting and measurement quality classification for temperature,14,3D,,,,,Operational,na
+bufr4/0/08/095/15,008095,Siting and measurement quality classification for temperature,15,Reserved,,,,,Operational,na
+bufr4/0/08/095/16,008095,Siting and measurement quality classification for temperature,16,4A,,,,,Operational,na
+bufr4/0/08/095/17,008095,Siting and measurement quality classification for temperature,17,4B,,,,,Operational,na
+bufr4/0/08/095/18,008095,Siting and measurement quality classification for temperature,18,4C,,,,,Operational,na
+bufr4/0/08/095/19,008095,Siting and measurement quality classification for temperature,19,4D,,,,,Operational,na
+bufr4/0/08/095/20,008095,Siting and measurement quality classification for temperature,20,Reserved,,,,,Operational,na
+bufr4/0/08/095/21,008095,Siting and measurement quality classification for temperature,21,5A,,,,,Operational,na
+bufr4/0/08/095/22,008095,Siting and measurement quality classification for temperature,22,5B,,,,,Operational,na
+bufr4/0/08/095/23,008095,Siting and measurement quality classification for temperature,23,5C,,,,,Operational,na
+bufr4/0/08/095/24,008095,Siting and measurement quality classification for temperature,24,5D,,,,,Operational,na
+bufr4/0/08/095/25,008095,Siting and measurement quality classification for temperature,25,Reserved,,,,,Operational,na
+bufr4/0/08/095/26,008095,Siting and measurement quality classification for temperature,26,1,,,,,Operational,na
+bufr4/0/08/095/27,008095,Siting and measurement quality classification for temperature,27,2,,,,,Operational,na
+bufr4/0/08/095/28,008095,Siting and measurement quality classification for temperature,28,3,,,,,Operational,na
+bufr4/0/08/095/29,008095,Siting and measurement quality classification for temperature,29,4,,,,,Operational,na
+bufr4/0/08/095/30,008095,Siting and measurement quality classification for temperature,30,5,,,,,Operational,na
+bufr4/0/08/095/31,008095,Siting and measurement quality classification for temperature,31,A,,,,,Operational,na
+bufr4/0/08/095/32,008095,Siting and measurement quality classification for temperature,32,B,,,,,Operational,na
+bufr4/0/08/095/33,008095,Siting and measurement quality classification for temperature,33,C,,,,,Operational,na
+bufr4/0/08/095/34,008095,Siting and measurement quality classification for temperature,34,D,,,,,Operational,na
+bufr4/0/08/095/35-254,008095,Siting and measurement quality classification for temperature,35-254,Reserved,,,,,Operational,na
+bufr4/0/08/095/255,008095,Siting and measurement quality classification for temperature,255,Missing,,,,,Operational,na
+bufr4/0/08/096/0,008096,Siting and measurement quality classification for precipitation,0,Reserved,,,,,Operational,na
+bufr4/0/08/096/1,008096,Siting and measurement quality classification for precipitation,1,1A,,,,,Operational,na
+bufr4/0/08/096/2,008096,Siting and measurement quality classification for precipitation,2,1B,,,,,Operational,na
+bufr4/0/08/096/3,008096,Siting and measurement quality classification for precipitation,3,1C,,,,,Operational,na
+bufr4/0/08/096/4,008096,Siting and measurement quality classification for precipitation,4,1D,,,,,Operational,na
+bufr4/0/08/096/5,008096,Siting and measurement quality classification for precipitation,5,Reserved,,,,,Operational,na
+bufr4/0/08/096/6,008096,Siting and measurement quality classification for precipitation,6,2A,,,,,Operational,na
+bufr4/0/08/096/7,008096,Siting and measurement quality classification for precipitation,7,2B,,,,,Operational,na
+bufr4/0/08/096/8,008096,Siting and measurement quality classification for precipitation,8,2C,,,,,Operational,na
+bufr4/0/08/096/9,008096,Siting and measurement quality classification for precipitation,9,2D,,,,,Operational,na
+bufr4/0/08/096/10,008096,Siting and measurement quality classification for precipitation,10,Reserved,,,,,Operational,na
+bufr4/0/08/096/11,008096,Siting and measurement quality classification for precipitation,11,3A,,,,,Operational,na
+bufr4/0/08/096/12,008096,Siting and measurement quality classification for precipitation,12,3B,,,,,Operational,na
+bufr4/0/08/096/13,008096,Siting and measurement quality classification for precipitation,13,3C,,,,,Operational,na
+bufr4/0/08/096/14,008096,Siting and measurement quality classification for precipitation,14,3D,,,,,Operational,na
+bufr4/0/08/096/15,008096,Siting and measurement quality classification for precipitation,15,Reserved,,,,,Operational,na
+bufr4/0/08/096/16,008096,Siting and measurement quality classification for precipitation,16,4A,,,,,Operational,na
+bufr4/0/08/096/17,008096,Siting and measurement quality classification for precipitation,17,4B,,,,,Operational,na
+bufr4/0/08/096/18,008096,Siting and measurement quality classification for precipitation,18,4C,,,,,Operational,na
+bufr4/0/08/096/19,008096,Siting and measurement quality classification for precipitation,19,4D,,,,,Operational,na
+bufr4/0/08/096/20,008096,Siting and measurement quality classification for precipitation,20,Reserved,,,,,Operational,na
+bufr4/0/08/096/21,008096,Siting and measurement quality classification for precipitation,21,5A,,,,,Operational,na
+bufr4/0/08/096/22,008096,Siting and measurement quality classification for precipitation,22,5B,,,,,Operational,na
+bufr4/0/08/096/23,008096,Siting and measurement quality classification for precipitation,23,5C,,,,,Operational,na
+bufr4/0/08/096/24,008096,Siting and measurement quality classification for precipitation,24,5D,,,,,Operational,na
+bufr4/0/08/096/25,008096,Siting and measurement quality classification for precipitation,25,Reserved,,,,,Operational,na
+bufr4/0/08/096/26,008096,Siting and measurement quality classification for precipitation,26,1,,,,,Operational,na
+bufr4/0/08/096/27,008096,Siting and measurement quality classification for precipitation,27,2,,,,,Operational,na
+bufr4/0/08/096/28,008096,Siting and measurement quality classification for precipitation,28,3,,,,,Operational,na
+bufr4/0/08/096/29,008096,Siting and measurement quality classification for precipitation,29,4,,,,,Operational,na
+bufr4/0/08/096/30,008096,Siting and measurement quality classification for precipitation,30,5,,,,,Operational,na
+bufr4/0/08/096/31,008096,Siting and measurement quality classification for precipitation,31,A,,,,,Operational,na
+bufr4/0/08/096/32,008096,Siting and measurement quality classification for precipitation,32,B,,,,,Operational,na
+bufr4/0/08/096/33,008096,Siting and measurement quality classification for precipitation,33,C,,,,,Operational,na
+bufr4/0/08/096/34,008096,Siting and measurement quality classification for precipitation,34,D,,,,,Operational,na
+bufr4/0/08/096/35-254,008096,Siting and measurement quality classification for precipitation,35-254,Reserved,,,,,Operational,na
+bufr4/0/08/096/255,008096,Siting and measurement quality classification for precipitation,255,Missing,,,,,Operational,na
+bufr4/0/08/097/0,008097,Method used to calculate the average instrument temperature,0,The average of six temperature sensors placed throughout the payload,,,,,Operational,na
+bufr4/0/08/097/1,008097,Method used to calculate the average instrument temperature,1,Average of WF-band IFP and RFE sensors for channels 1 to 8,,,,,Operational,na
+bufr4/0/08/097/2,008097,Method used to calculate the average instrument temperature,2,Average of G-band RFE sensor for channels 9 to 12,,,,,Operational,na
+bufr4/0/08/097/3-126,008097,Method used to calculate the average instrument temperature,3-126,Reserved,,,,,Operational,na
+bufr4/0/08/097/127,008097,Method used to calculate the average instrument temperature,127,Missing,,,,,Operational,na
+bufr4/0/08/098/0,008098,Source of temperature measurement,0,On-board calibration target,,,,,Operational,na
+bufr4/0/08/098/1,008098,Source of temperature measurement,1,Space view reflector,,,,,Operational,na
+bufr4/0/08/098/2,008098,Source of temperature measurement,2,Main reflector,,,,,Operational,na
+bufr4/0/08/098/3,008098,Source of temperature measurement,3,Racetrack,,,,,Operational,na
+bufr4/0/08/098/4,008098,Source of temperature measurement,4,Sun shield,,,,,Operational,na
+bufr4/0/08/098/5,008098,Source of temperature measurement,5,Rotating reflector,,,,,Operational,na
+bufr4/0/08/098/6-14,008098,Source of temperature measurement,6-14,Reserved,,,,,Operational,na
+bufr4/0/08/098/15,008098,Source of temperature measurement,15,Missing,,,,,Operational,na
+bufr4/0/08/099/0,008099,Sensing direction,0,Nadir,,,,,Operational,na
+bufr4/0/08/099/1,008099,Sensing direction,1,Oblique,,,,,Operational,na
+bufr4/0/08/099/2-14,008099,Sensing direction,2-14,Reserved,,,,,Operational,na
+bufr4/0/08/099/15,008099,Sensing direction,15,Missing value,,,,,Operational,na
+bufr4/0/08/100/0,008100,Type of following observation value,0,na measurement,,,,,Operational,na
+bufr4/0/08/100/1,008100,Type of following observation value,1,Corrected,,,,,Operational,na
+bufr4/0/08/100/2,008100,Type of following observation value,2,Corrected with correction factor for a shading ring of a pyranometer,,,,,Operational,na
+bufr4/0/08/100/3-254,008100,Type of following observation value,3-254,Reserved,,,,,Operational,na
+bufr4/0/08/100/255,008100,Type of following observation value,255,Missing,,,,,Operational,na
+bufr4/0/08/101/0,008101,Phase of balloon flight,0,Reserved,,,,,Operational,na
+bufr4/0/08/101/1,008101,Phase of balloon flight,1,Ascent,,,,,Operational,na
+bufr4/0/08/101/2,008101,Phase of balloon flight,2,Ceiling,,,,,Operational,na
+bufr4/0/08/101/3,008101,Phase of balloon flight,3,Descent,,,,,Operational,na
+bufr4/0/08/101/4,008101,Phase of balloon flight,4,Drop (falling station),,,,,Operational,na
+bufr4/0/08/101/5,008101,Phase of balloon flight,5,Unsteady (during maneuvers),,,,,Operational,na
+bufr4/0/08/101/15,008101,Phase of balloon flight,15,Missing,,,,,Operational,na

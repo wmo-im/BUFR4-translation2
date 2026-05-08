@@ -29,7 +29,7 @@ bufr4/0/33/042,33,Información sobre la calidad,033042,Tipo de límite represent
 bufr4/0/33/043,33,Información sobre la calidad,033043,Grado de confianza de la temperatura media en superficie,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational,PDF
 bufr4/0/33/044,33,Información sobre la calidad,033044,Información sobre la calidad de los datos de ASAR,Tabla de banderines,0,0,15,Tabla de banderines,0,5,,,Operational,PDF
 bufr4/0/33/045,33,Información sobre la calidad,033045,Probabilidad del suceso siguiente,%,0,0,7,%,0,3,(véanse las notas 1 y 3),"168,173",Operational,PDF
-bufr4/0/33/046,33,Información sobre la calidad,033046,"Probabilidad condicional del suceso siguiente con respecto a un suceso condiciote especificado",%,0,0,7,%,0,3,"(véanse las notas 1, 2 y 3)","168,173,174",Operational,PDF
+bufr4/0/33/046,33,Información sobre la calidad,033046,Probabilidad condicional del suceso siguiente con respecto a un suceso condiciote especificado,%,0,0,7,%,0,3,"(véanse las notas 1, 2 y 3)","168,173,174",Operational,PDF
 bufr4/0/33/047,33,Información sobre la calidad,033047,Datos de confianza de las mediciones,Tabla de banderines,0,0,31,Tabla de banderines,0,11,,,Operational,PDF
 bufr4/0/33/048,33,Información sobre la calidad,033048,Medida de confianza de inversión SAR,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/33/049,33,Información sobre la calidad,033049,Medida de confianza de recuperación de viento,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational,PDF

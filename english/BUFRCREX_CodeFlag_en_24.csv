@@ -1,7 +1,7 @@
 ID,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status,translation_source
-bufr4/0/24/003/0,024003,Composition of release,0,Noble gases,,,,,Operational,PDF
-bufr4/0/24/003/1,024003,Composition of release,1,Iodines,,,,,Operational,PDF
-bufr4/0/24/003/2,024003,Composition of release,2,Caesiums,,,,,Operational,PDF
-bufr4/0/24/003/3,024003,Composition of release,3,Transuranics,,,,,Operational,PDF
-bufr4/0/24/003/4-30,024003,Composition of release,4-30,Reserved,,,,,Operational,PDF
-bufr4/0/24/003/31,024003,Composition of release,31,Missing value,,,,,Operational,PDF
+bufr4/0/24/003/0,024003,Composition of release,0,Noble gases,,,,,Operational,na
+bufr4/0/24/003/1,024003,Composition of release,1,Iodines,,,,,Operational,na
+bufr4/0/24/003/2,024003,Composition of release,2,Caesiums,,,,,Operational,na
+bufr4/0/24/003/3,024003,Composition of release,3,Transuranics,,,,,Operational,na
+bufr4/0/24/003/4-30,024003,Composition of release,4-30,Reserved,,,,,Operational,na
+bufr4/0/24/003/31,024003,Composition of release,31,Missing value,,,,,Operational,na

@@ -1,130 +1,130 @@
 ID,Category,CategoryOfSequences_es,FXY1,Title_es,SubTitle_es,FXY2,ElementName_es,ElementDescription_es,Note_es,noteIDs,Status,translation_source
-bufr4/3/04/001/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,008003,Significación vertical (observaciones satelitales,,,,Operational,Original
-bufr4/3/04/001/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,010004,Presión,,,,Operational,Original
-bufr4/3/04/001/3/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,012001,Temperatura/temperatura del aire,,,,Operational,Original
-bufr4/3/04/001/4/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,011001,Dirección del viento,,,,Operational,Original
-bufr4/3/04/001/5/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,011002,Velocidad del viento,,,,Operational,Original
-bufr4/3/04/002/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,008003,Significación vertical (observaciones satelitales,,,,Operational,Original
-bufr4/3/04/002/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,010004,Presión,,,,Operational,Original
-bufr4/3/04/002/3/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,011001,Dirección del viento,,,,Operational,Original
-bufr4/3/04/002/4/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,011002,Velocidad del viento,,,,Operational,Original
-bufr4/3/04/003/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304003,Temperatura en la superficie,,008003,Significación vertical (observaciones satelitales,,,,Operational,Original
-bufr4/3/04/003/2/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304003,Temperatura en la superficie,,012001,Temperatura/temperatura del aire,,,,Operational,Original
-bufr4/3/04/004/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,008003,Significación vertical (observaciones satelitales,,,,Operational,Original
-bufr4/3/04/004/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,010004,Presión,,,,Operational,Original
-bufr4/3/04/004/3/020010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,020010,Cubierta de nubes (total,,,,Operational,Original
-bufr4/3/04/004/4/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,012001,Temperatura/temperatura del aire,,,,Operational,Original
-bufr4/3/04/005/1/002024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,002024,Método de cálculo de la humedad media integrada,,,,Operational,Original
-bufr4/3/04/005/2/007004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,007004,Presión,Definir capa,,,Operational,Original
-bufr4/3/04/005/4/013003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,013003,Humedad relativa,,,,Operational,Original
-bufr4/3/04/006/1/014001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014001,"Radiación de onda larga, integrada durante 24 horas",Radiación saliente de onda larga,,,Operational,Original
-bufr4/3/04/006/2/014001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014001,"Radiación de onda larga, integrada durante 24 horas",Radiación incidente de onda larga,,,Operational,Original
-bufr4/3/04/006/3/014003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014003,"Radiación de onda corta, integrada durante 24 horas",Radiación saliente de onda corta,,,Operational,Original
-bufr4/3/04/011/1/002163,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002163,Método de determinación de la altura,,,,Operational,Original
-bufr4/3/04/011/2/002164,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002164,Método de correlación del trazador,,,,Operational,Original
-bufr4/3/04/011/3/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008012,Calificador tierra/mar,,,,Operational,Original
-bufr4/3/04/011/4/007024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,007024,Ángulo cenital del satélite,,,,Operational,Original
-bufr4/3/04/011/5/002057,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002057,Origen de la información de primera aproximación para sondeos de satélites GOES-I/M,,,,Operational,Original
-bufr4/3/04/011/6/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,Original
-bufr4/3/04/011/7/004001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004001,Año,,,,Operational,Original
-bufr4/3/04/011/8/004002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004002,Mes,,,,Operational,Original
-bufr4/3/04/011/9/004003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004003,Día,,,,Operational,Original
-bufr4/3/04/011/10/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,Original
-bufr4/3/04/011/11/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,Original
-bufr4/3/04/011/12/004024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004024,Período o desplazamiento de tiempo,,,,Operational,Original
-bufr4/3/04/011/13/110004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,110004,Repetir 10 descriptores 4 veces,,,,Operational,Original
-bufr4/3/04/011/14/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,Original
-bufr4/3/04/011/15/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,Original
-bufr4/3/04/011/16/004005,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004005,Minuto,,,,Operational,Original
-bufr4/3/04/011/17/004006,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004006,Segundo,,,,Operational,Original
-bufr4/3/04/011/18/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,Original
-bufr4/3/04/011/19/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,Original
-bufr4/3/04/011/20/004005,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004005,Minuto,,,,Operational,Original
-bufr4/3/04/011/21/004006,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004006,Segundo,,,,Operational,Original
-bufr4/3/04/011/22/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,011001,Dirección del viento,,,,Operational,Original
-bufr4/3/04/011/23/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,011002,Velocidad del viento,,,,Operational,Original
-bufr4/3/04/011/24/103010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,103010,Repetir 3 descriptores 10 veces,,,,Operational,Original
-bufr4/3/04/011/25/002163,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002163,Método de determinación de la altura,,,,Operational,Original
-bufr4/3/04/011/26/007004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,007004,Presión,,,,Operational,Original
-bufr4/3/04/011/27/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,012001,Temperatura/temperatura del aire,,,,Operational,Original
-bufr4/3/04/030/1/027031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,027031,Distancia desde el centro de la Tierra en dirección de 0 grados de longitud,,,,Operational,Original
-bufr4/3/04/030/2/028031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,028031,Distancia desde el centro de la Tierra en dirección 90 grados Este,,,,Operational,Original
-bufr4/3/04/030/3/010031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,010031,Distancia desde el centro de la Tierra en dirección al Polo Norte,,,,Operational,Original
-bufr4/3/04/031/1/001041,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001041,Velocidad absoluta de la plataforma - primer componente,,,,Operational,Original
-bufr4/3/04/031/2/001042,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001042,Velocidad absoluta de la plataforma - segundo componente,,,,Operational,Original
-bufr4/3/04/031/3/001043,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001043,Velocidad absoluta de la plataforma - tercer componente,,,,Operational,Original
-bufr4/3/04/032/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,002153,Frecuencia central del canal del satélite,,,,Operational,Original
-bufr4/3/04/032/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,002154,Ancho de banda del canal del satélite,,,,Operational,Original
-bufr4/3/04/032/3/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020081,Nubosidad en el segmento,,,,Operational,Original
-bufr4/3/04/032/4/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020082,Cantidad de segmento sin nubes,,,,Operational,Original
-bufr4/3/04/032/5/020012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020012,Tipo de nubes,,,,Operational,Original
-bufr4/3/04/033/1/002152,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002152,Instrumento satelital utilizado en el procesamiento de los datos,,,,Operational,Original
-bufr4/3/04/033/2/002166,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002166,Tipo de radiancia,,,,Operational,Original
-bufr4/3/04/033/3/002167,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002167,Método de cálculo de la radiancia,,,,Operational,Original
-bufr4/3/04/033/4/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002153,Frecuencia central del canal del satélite,,,,Operational,Original
-bufr4/3/04/033/5/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002154,Ancho de banda del canal del satélite,,,,Operational,Original
-bufr4/3/04/033/6/012075,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012075,Radiancia espectral,,,,Operational,Original
-bufr4/3/04/033/7/012076,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012076,Radiancia,,,,Operational,Original
-bufr4/3/04/033/8/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012063,Temperatura de lumicia,,,,Operational,Original
-bufr4/3/04/034/1/102004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,102004,Repetir 2 descriptores 4 veces,,,,Operational,Original
-bufr4/3/04/034/2/027001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,027001,Latitud (gran precisión),,,,Operational,Original
-bufr4/3/04/034/3/028001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,028001,Longitud (gran precisión),,,,Operational,Original
-bufr4/3/04/034/4/007022,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,007022,Elevación solar,,,,Operational,Original
-bufr4/3/04/034/5/005043,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,005043,Número del campo de visión,,,,Operational,Original
-bufr4/3/04/034/6/020010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,020010,Cubierta de nubes (total,,,,Operational,Original
-bufr4/3/04/034/7/020016,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,020016,Presión en la cima de las nubes,,,,Operational,Original
-bufr4/3/04/034/8/033003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,033003,Información sobre la calidad,,,,Operational,Original
-bufr4/3/04/034/9/010040,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,010040,Recuperación de datos sobre el número de capas,,,,Operational,Original
-bufr4/3/04/035/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,002153,Frecuencia central del canal del satélite,,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,002154,Ancho de la banda del canal del satélite,,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/3/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/4/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Tipo de píxel: despejado,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/5/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Despejado,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/6/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Tipo de píxel: nuboso,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/7/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nuboso,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/8/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Anular,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/9/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes bajas,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/10/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes bajas,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/11/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes medias,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/12/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes medias,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/13/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes altas,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/14/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes altas,(véase la nota),1,Deprecated,Original
-bufr4/3/04/035/15/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Anular,(véase la nota),1,Deprecated,Original
-bufr4/3/04/036/1/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020082,Cantidad de segmento sin nubes,,,,Operational,Original
-bufr4/3/04/036/2/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008012,Calificador tierra/mar,Mar,,,Operational,Original
-bufr4/3/04/036/3/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020082,Cantidad de segmento sin nubes,Mar,,,Operational,Original
-bufr4/3/04/036/4/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008012,Calificador tierra/mar,Anular,,,Operational,Original
-bufr4/3/04/036/5/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,,,,Operational,Original
-bufr4/3/04/036/6/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes bajas,,,Operational,Original
-bufr4/3/04/036/7/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes bajas,,,Operational,Original
-bufr4/3/04/036/8/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes medias,,,Operational,Original
-bufr4/3/04/036/9/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes medias,,,Operational,Original
-bufr4/3/04/036/10/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes altas,,,Operational,Original
-bufr4/3/04/036/11/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes altas,,,Operational,Original
-bufr4/3/04/036/12/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Anular,,,Operational,Original
-bufr4/3/04/037/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,002153,Frecuencia central del canal del satélite,,,,Operational,Original
-bufr4/3/04/037/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,002154,Ancho de banda del canal del satélite,,,,Operational,Original
-bufr4/3/04/037/3/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,,,,Operational,Original
-bufr4/3/04/037/4/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Tipo de píxel: despejado,,,Operational,Original
-bufr4/3/04/037/5/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Despejado,,,Operational,Original
-bufr4/3/04/037/6/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Tipo de píxel: nuboso,,,Operational,Original
-bufr4/3/04/037/7/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nuboso,,,Operational,Original
-bufr4/3/04/037/8/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Anular,,,Operational,Original
-bufr4/3/04/037/9/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes bajas,,,Operational,Original
-bufr4/3/04/037/10/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes bajas,,,Operational,Original
-bufr4/3/04/037/11/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes medias,,,Operational,Original
-bufr4/3/04/037/12/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes medias,,,Operational,Original
-bufr4/3/04/037/13/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes altas,,,Operational,Original
-bufr4/3/04/037/14/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes altas,,,Operational,Original
-bufr4/3/04/039/1/201136,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,201136,Cambio de anchura de datos,Añadir 8 a la anchura,,,Operational,Original
-bufr4/3/04/039/2/005042,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,005042,Número del canal,,,,Operational,Original
-bufr4/3/04/039/3/201000,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,201000,Cambio de anchura de datos,Anular,,,Operational,Original
-bufr4/3/04/039/4/014046,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,014046,Valor ajustado de la radiancia,,,,Operational,Original
-bufr4/3/04/040/1/025140,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025140,Canal de comienzo,,,,Operational,Original
-bufr4/3/04/040/2/025141,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025141,Canal de terminación,,,,Operational,Original
-bufr4/3/04/040/3/040026,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040026,Factor de cuantificación del índice,,,,Operational,Original
-bufr4/3/04/040/4/040016,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040016,Media cuadrática residual en la banda,,,,Operational,Original
-bufr4/3/04/040/5/025062,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025062,Identificación de la base de datos,,,,Operational,Original
-bufr4/3/04/040/6/101000,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,101000,Repetición diferida de 1 descriptor,,,,Operational,Original
-bufr4/3/04/040/7/031002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,031002,Factor ampliado de repetición diferida del descriptor,,,,Operational,Original
-bufr4/3/04/040/8/040017,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040017,Índice no normalizado del componente principal,,,,Operational,Original
+bufr4/3/04/001/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,008003,Significación vertical (observaciones satelitales,,,,Operational,PDF
+bufr4/3/04/001/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,010004,Presión,,,,Operational,PDF
+bufr4/3/04/001/3/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,012001,Temperatura/temperatura del aire,,,,Operational,PDF
+bufr4/3/04/001/4/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,011001,Dirección del viento,,,,Operational,PDF
+bufr4/3/04/001/5/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304001,"Presión en la cima de la nube, temperatura, viento",,011002,Velocidad del viento,,,,Operational,PDF
+bufr4/3/04/002/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,008003,Significación vertical (observaciones satelitales,,,,Operational,PDF
+bufr4/3/04/002/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,010004,Presión,,,,Operational,PDF
+bufr4/3/04/002/3/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,011001,Dirección del viento,,,,Operational,PDF
+bufr4/3/04/002/4/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304002,"Presión en la cima de la nube, viento",,011002,Velocidad del viento,,,,Operational,PDF
+bufr4/3/04/003/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304003,Temperatura en la superficie,,008003,Significación vertical (observaciones satelitales,,,,Operational,PDF
+bufr4/3/04/003/2/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304003,Temperatura en la superficie,,012001,Temperatura/temperatura del aire,,,,Operational,PDF
+bufr4/3/04/004/1/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,008003,Significación vertical (observaciones satelitales,,,,Operational,PDF
+bufr4/3/04/004/2/010004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,010004,Presión,,,,Operational,PDF
+bufr4/3/04/004/3/020010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,020010,Cubierta de nubes (total,,,,Operational,PDF
+bufr4/3/04/004/4/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304004,"Presión en la cima de la nube, nubosidad, temperatura",,012001,Temperatura/temperatura del aire,,,,Operational,PDF
+bufr4/3/04/005/1/002024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,002024,Método de cálculo de la humedad media integrada,,,,Operational,PDF
+bufr4/3/04/005/2/007004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,007004,Presión,Definir capa,,,Operational,PDF
+bufr4/3/04/005/4/013003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304005,Humedad relativa media de la capa,,013003,Humedad relativa,,,,Operational,PDF
+bufr4/3/04/006/1/014001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014001,"Radiación de onda larga, integrada durante 24 horas",Radiación saliente de onda larga,,,Operational,PDF
+bufr4/3/04/006/2/014001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014001,"Radiación de onda larga, integrada durante 24 horas",Radiación incidente de onda larga,,,Operational,PDF
+bufr4/3/04/006/3/014003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304006,Radiación,,014003,"Radiación de onda corta, integrada durante 24 horas",Radiación saliente de onda corta,,,Operational,PDF
+bufr4/3/04/011/1/002163,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002163,Método de determinación de la altura,,,,Operational,PDF
+bufr4/3/04/011/2/002164,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002164,Método de correlación del trazador,,,,Operational,PDF
+bufr4/3/04/011/3/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008012,Calificador tierra/mar,,,,Operational,PDF
+bufr4/3/04/011/4/007024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,007024,Ángulo cenital del satélite,,,,Operational,PDF
+bufr4/3/04/011/5/002057,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002057,Origen de la información de primera aproximación para sondeos de satélites GOES-I/M,,,,Operational,PDF
+bufr4/3/04/011/6/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,PDF
+bufr4/3/04/011/7/004001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004001,Año,,,,Operational,PDF
+bufr4/3/04/011/8/004002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004002,Mes,,,,Operational,PDF
+bufr4/3/04/011/9/004003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004003,Día,,,,Operational,PDF
+bufr4/3/04/011/10/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,PDF
+bufr4/3/04/011/11/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,PDF
+bufr4/3/04/011/12/004024,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004024,Período o desplazamiento de tiempo,,,,Operational,PDF
+bufr4/3/04/011/13/110004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,110004,Repetir 10 descriptores 4 veces,,,,Operational,PDF
+bufr4/3/04/011/14/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,PDF
+bufr4/3/04/011/15/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,PDF
+bufr4/3/04/011/16/004005,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004005,Minuto,,,,Operational,PDF
+bufr4/3/04/011/17/004006,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004006,Segundo,,,,Operational,PDF
+bufr4/3/04/011/18/008021,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,008021,Significación temporal,,,,Operational,PDF
+bufr4/3/04/011/19/004004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004004,Hora,,,,Operational,PDF
+bufr4/3/04/011/20/004005,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004005,Minuto,,,,Operational,PDF
+bufr4/3/04/011/21/004006,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,004006,Segundo,,,,Operational,PDF
+bufr4/3/04/011/22/011001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,011001,Dirección del viento,,,,Operational,PDF
+bufr4/3/04/011/23/011002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,011002,Velocidad del viento,,,,Operational,PDF
+bufr4/3/04/011/24/103010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,103010,Repetir 3 descriptores 10 veces,,,,Operational,PDF
+bufr4/3/04/011/25/002163,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,002163,Método de determinación de la altura,,,,Operational,PDF
+bufr4/3/04/011/26/007004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,007004,Presión,,,,Operational,PDF
+bufr4/3/04/011/27/012001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304011,Información GOES-I/M,,012001,Temperatura/temperatura del aire,,,,Operational,PDF
+bufr4/3/04/030/1/027031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,027031,Distancia desde el centro de la Tierra en dirección de 0 grados de longitud,,,,Operational,PDF
+bufr4/3/04/030/2/028031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,028031,Distancia desde el centro de la Tierra en dirección 90 grados Este,,,,Operational,PDF
+bufr4/3/04/030/3/010031,04,Secuencias meteorológicas comunes a las observaciones satelitales,304030,Ubicación de la plataforma,,010031,Distancia desde el centro de la Tierra en dirección al Polo Norte,,,,Operational,PDF
+bufr4/3/04/031/1/001041,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001041,Velocidad absoluta de la plataforma - primer componente,,,,Operational,PDF
+bufr4/3/04/031/2/001042,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001042,Velocidad absoluta de la plataforma - segundo componente,,,,Operational,PDF
+bufr4/3/04/031/3/001043,04,Secuencias meteorológicas comunes a las observaciones satelitales,304031,Velocidad de la plataforma,,001043,Velocidad absoluta de la plataforma - tercer componente,,,,Operational,PDF
+bufr4/3/04/032/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,002153,Frecuencia central del canal del satélite,,,,Operational,PDF
+bufr4/3/04/032/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,002154,Ancho de banda del canal del satélite,,,,Operational,PDF
+bufr4/3/04/032/3/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020081,Nubosidad en el segmento,,,,Operational,PDF
+bufr4/3/04/032/4/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020082,Cantidad de segmento sin nubes,,,,Operational,PDF
+bufr4/3/04/032/5/020012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304032,Fracción nubosa,,020012,Tipo de nubes,,,,Operational,PDF
+bufr4/3/04/033/1/002152,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002152,Instrumento satelital utilizado en el procesamiento de los datos,,,,Operational,PDF
+bufr4/3/04/033/2/002166,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002166,Tipo de radiancia,,,,Operational,PDF
+bufr4/3/04/033/3/002167,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002167,Método de cálculo de la radiancia,,,,Operational,PDF
+bufr4/3/04/033/4/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002153,Frecuencia central del canal del satélite,,,,Operational,PDF
+bufr4/3/04/033/5/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,002154,Ancho de banda del canal del satélite,,,,Operational,PDF
+bufr4/3/04/033/6/012075,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012075,Radiancia espectral,,,,Operational,PDF
+bufr4/3/04/033/7/012076,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012076,Radiancia,,,,Operational,PDF
+bufr4/3/04/033/8/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304033,Radiancia en cielo despejado,,012063,Temperatura de lumicia,,,,Operational,PDF
+bufr4/3/04/034/1/102004,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,102004,Repetir 2 descriptores 4 veces,,,,Operational,PDF
+bufr4/3/04/034/2/027001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,027001,Latitud (gran precisión),,,,Operational,PDF
+bufr4/3/04/034/3/028001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,028001,Longitud (gran precisión),,,,Operational,PDF
+bufr4/3/04/034/4/007022,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,007022,Elevación solar,,,,Operational,PDF
+bufr4/3/04/034/5/005043,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,005043,Número del campo de visión,,,,Operational,PDF
+bufr4/3/04/034/6/020010,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,020010,Cubierta de nubes (total,,,,Operational,PDF
+bufr4/3/04/034/7/020016,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,020016,Presión en la cima de las nubes,,,,Operational,PDF
+bufr4/3/04/034/8/033003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,033003,Información sobre la calidad,,,,Operational,PDF
+bufr4/3/04/034/9/010040,04,Secuencias meteorológicas comunes a las observaciones satelitales,304034,"Latitud/longitud, elevación solar, número de capas",,010040,Recuperación de datos sobre el número de capas,,,,Operational,PDF
+bufr4/3/04/035/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,002153,Frecuencia central del canal del satélite,,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,002154,Ancho de la banda del canal del satélite,,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/3/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/4/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Tipo de píxel: despejado,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/5/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Despejado,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/6/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Tipo de píxel: nuboso,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/7/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nuboso,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/8/008001,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008001,Característica meteorológica,Anular,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/9/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes bajas,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/10/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes bajas,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/11/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes medias,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/12/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes medias,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/13/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes altas,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/14/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes altas,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/035/15/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304035,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Anular,(véase la nota),1,Deprecated,PDF
+bufr4/3/04/036/1/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020082,Cantidad de segmento sin nubes,,,,Operational,PDF
+bufr4/3/04/036/2/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008012,Calificador tierra/mar,Mar,,,Operational,PDF
+bufr4/3/04/036/3/020082,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020082,Cantidad de segmento sin nubes,Mar,,,Operational,PDF
+bufr4/3/04/036/4/008012,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008012,Calificador tierra/mar,Anular,,,Operational,PDF
+bufr4/3/04/036/5/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,,,,Operational,PDF
+bufr4/3/04/036/6/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes bajas,,,Operational,PDF
+bufr4/3/04/036/7/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes bajas,,,Operational,PDF
+bufr4/3/04/036/8/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes medias,,,Operational,PDF
+bufr4/3/04/036/9/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes medias,,,Operational,PDF
+bufr4/3/04/036/10/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Nubes altas,,,Operational,PDF
+bufr4/3/04/036/11/020081,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,020081,Nubosidad en el segmento,Nubes altas,,,Operational,PDF
+bufr4/3/04/036/12/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304036,Cobertura de nubes,,008003,Significación vertical (observaciones satelitales,Anular,,,Operational,PDF
+bufr4/3/04/037/1/002153,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,002153,Frecuencia central del canal del satélite,,,,Operational,PDF
+bufr4/3/04/037/2/002154,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,002154,Ancho de banda del canal del satélite,,,,Operational,PDF
+bufr4/3/04/037/3/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,,,,Operational,PDF
+bufr4/3/04/037/4/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Tipo de píxel: despejado,,,Operational,PDF
+bufr4/3/04/037/5/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Despejado,,,Operational,PDF
+bufr4/3/04/037/6/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Tipo de píxel: nuboso,,,Operational,PDF
+bufr4/3/04/037/7/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nuboso,,,Operational,PDF
+bufr4/3/04/037/8/008011,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008011,Característica meteorológica,Anular,,,Operational,PDF
+bufr4/3/04/037/9/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes bajas,,,Operational,PDF
+bufr4/3/04/037/10/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes bajas,,,Operational,PDF
+bufr4/3/04/037/11/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes medias,,,Operational,PDF
+bufr4/3/04/037/12/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes medias,,,Operational,PDF
+bufr4/3/04/037/13/008003,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,008003,Significación vertical (observaciones satelitales,Nubes altas,,,Operational,PDF
+bufr4/3/04/037/14/012063,04,Secuencias meteorológicas comunes a las observaciones satelitales,304037,Datos de radiancia del cielo completo,,012063,Temperatura de lumicia,Nubes altas,,,Operational,PDF
+bufr4/3/04/039/1/201136,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,201136,Cambio de anchura de datos,Añadir 8 a la anchura,,,Operational,PDF
+bufr4/3/04/039/2/005042,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,005042,Número del canal,,,,Operational,PDF
+bufr4/3/04/039/3/201000,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,201000,Cambio de anchura de datos,Anular,,,Operational,PDF
+bufr4/3/04/039/4/014046,04,Secuencias meteorológicas comunes a las observaciones satelitales,304039,Radiancia en el canal,,014046,Valor ajustado de la radiancia,,,,Operational,PDF
+bufr4/3/04/040/1/025140,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025140,Canal de comienzo,,,,Operational,PDF
+bufr4/3/04/040/2/025141,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025141,Canal de terminación,,,,Operational,PDF
+bufr4/3/04/040/3/040026,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040026,Factor de cuantificación del índice,,,,Operational,PDF
+bufr4/3/04/040/4/040016,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040016,Media cuadrática residual en la banda,,,,Operational,PDF
+bufr4/3/04/040/5/025062,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,025062,Identificación de la base de datos,,,,Operational,PDF
+bufr4/3/04/040/6/101000,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,101000,Repetición diferida de 1 descriptor,,,,Operational,PDF
+bufr4/3/04/040/7/031002,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,031002,Factor ampliado de repetición diferida del descriptor,,,,Operational,PDF
+bufr4/3/04/040/8/040017,04,Secuencias meteorológicas comunes a las observaciones satelitales,304040,Índice del componente principal en la banda,,040017,Índice no normalizado del componente principal,,,,Operational,PDF

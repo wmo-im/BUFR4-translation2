@@ -28,7 +28,7 @@ bufr4/0/01/028,01,Identificación,001028,Fuente del espesor óptico de los aeros
 bufr4/0/01/029,01,Identificación,001029,Fuente de la ISS*,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/01/030,01,Identificación,001030,Identificación del modelo numérico,CCITT IA5,0,0,128,Tabla de cifrado,0,16,(véase la nota 13),153,Operational,PDF
 bufr4/0/01/031,01,Identificación,001031,Identificación del centro de origen/ generación,Tabla de cifrado,0,0,16,Tabla de cifrado,0,5,(véase la nota 10),44,Operational,PDF
-bufr4/0/01/032,01,Identificación,001032,"Aplicación de producción definida por el centro de origen/generación",Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,"(véanse las notas 3, 4 y 5)","175,21,38",Operational,PDF
+bufr4/0/01/032,01,Identificación,001032,Aplicación de producción definida por el centro de origen/generación,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,"(véanse las notas 3, 4 y 5)","175,21,38",Operational,PDF
 bufr4/0/01/033,01,Identificación,001033,Identificación del centro de origen/ generación,Tabla de cifrado común C-1,0,0,8,Tabla de cifrado común C-1,0,3,,,Operational,PDF
 bufr4/0/01/034,01,Identificación,001034,Identificación del centro secundario de origen/generación,Tabla de cifrado común C-12,0,0,8,Tabla de cifrado común C-12,0,3,,,Operational,PDF
 bufr4/0/01/035,01,Identificación,001035,Centro de origen/producción,Tabla de cifrado común C-11,0,0,16,Tabla de cifrado común C-11,0,5,,,Operational,PDF

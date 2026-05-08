@@ -744,7 +744,7 @@ bufr4/0/20/063/16,020063,Phénomènes spéciaux,16,Mirage - Soleil ou lune vus d
 bufr4/0/20/063/17,020063,Phénomènes spéciaux,17,"Mirage - Soleil visible, bien qu'astronomiquement il soit en dessous de l'horizon",,,,,Operational,PDF
 bufr4/0/20/063/18,020063,Phénomènes spéciaux,18,"Mirage - Lune visible, bien qu'astronomiquement elle soit en dessous de l'horizon",,,,,Operational,PDF
 bufr4/0/20/063/19,020063,Phénomènes spéciaux,19,En réserve,,,,,Operational,PDF
-bufr4/0/20/063//2,020063,Phénomènes spéciaux,,"20-22   Obscurité pendant la journée, ciel plus sombre dans la direction spécifiée",,,,,,PDF
+bufr4/0/20/063//2,020063,Phénomènes spéciaux,,"20-22 Obscurité pendant la journée, ciel plus sombre dans la direction spécifiée",,,,,,PDF
 bufr4/0/20/063/20,020063,Phénomènes spéciaux,20,"Obscurcissement du jour, jour sombre, plus marqué dans la direction spécifiée",,,,,Operational,PDF
 bufr4/0/20/063/21,020063,Phénomènes spéciaux,21,"Obscurcissement du jour, jour très sombre, plus marqué dans la direction spécifiée",,,,,Operational,PDF
 bufr4/0/20/063/22,020063,Phénomènes spéciaux,22,"Obscurcissement du jour, obscurité complète, plus marqué dans la direction spécifiée",,,,,Operational,PDF
@@ -787,7 +787,7 @@ bufr4/0/20/063/66,020063,Phénomènes spéciaux,66,"Variations irrégulières de
 bufr4/0/20/063/67,020063,Phénomènes spéciaux,67,Variations de température non observées,,,,,Operational,PDF
 bufr4/0/20/063/68,020063,Phénomènes spéciaux,68,Non alloué,,,,,Operational,PDF
 bufr4/0/20/063/69,020063,Phénomènes spéciaux,69,Variations de température inconnues en raison de l'absence de thermographe,,,,,Operational,PDF
-bufr4/0/20/063//7,020063,Phénomènes spéciaux,,70-79   Variation de la visibilité pendant la période spécifiée,,,,,,PDF
+bufr4/0/20/063//7,020063,Phénomènes spéciaux,,70-79 Variation de la visibilité pendant la période spécifiée,,,,,,PDF
 bufr4/0/20/063/70,020063,Phénomènes spéciaux,70,La visibilité n'a pas varié (soleil* visible) dans la direction spécifiée,,,,,Operational,PDF
 bufr4/0/20/063/71,020063,Phénomènes spéciaux,71,La visibilité n'a pas varié (soleil,70-79 Variation de la visibilité pendant la période spécifiée,,*,,Operational,PDF
 bufr4/0/20/063/72,020063,Phénomènes spéciaux,72,La visibilité s'est améliorée (soleil,70-79 Variation de la visibilité pendant la période spécifiée,,*,,Operational,PDF
@@ -986,7 +986,7 @@ bufr4/0/20/124/2,020124,Coup de foudre ou éclair,2,"Éclair, par observation ma
 bufr4/0/20/124/3,020124,Coup de foudre ou éclair,3,Valeur manquante,,,,,Operational,PDF
 bufr4/0/20/136//1,020136,Types de nuages supplémentaires,,0-7 Nature des nuages à développement vertical (Ca – Table de code 0531),,,,,,PDF
 bufr4/0/20/136/0,020136,Types de nuages supplémentaires,0,Cumulus humilis et/ou cumulus mediocris isolés à développement vertical,,,,,Operational,PDF
-bufr4/0/20/136/1,020136,Types de nuages supplémentaires,1,Cumulus humilis et/ou cumulus mediocris nombreux  à développement vertical,,,,,Operational,PDF
+bufr4/0/20/136/1,020136,Types de nuages supplémentaires,1,Cumulus humilis et/ou cumulus mediocris nombreux à développement vertical,,,,,Operational,PDF
 bufr4/0/20/136/2,020136,Types de nuages supplémentaires,2,Cumulus congestus isolés à développement vertical,,,,,Operational,PDF
 bufr4/0/20/136/3,020136,Types de nuages supplémentaires,3,Cumulus congestus nombreux à développement vertical,,,,,Operational,PDF
 bufr4/0/20/136/4,020136,Types de nuages supplémentaires,4,Cumulonimbus isolés à développement vertical,,,,,Operational,PDF

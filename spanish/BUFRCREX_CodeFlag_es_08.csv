@@ -429,15 +429,15 @@ bufr4/0/08/042/15,008042,Significación del sondeo vertical ampliado,15,Nivel de
 bufr4/0/08/042/16,008042,Significación del sondeo vertical ampliado,16,Nivel de congelación,,,Nota,41,Operational,PDF
 bufr4/0/08/042/17,008042,Significación del sondeo vertical ampliado,17,Nivel de presión indicado originariamente por la altura como coordinada vertical,,,,,Operational,PDF
 bufr4/0/08/042/All-18,008042,Significación del sondeo vertical ampliado,Todos los 18,Valor faltante,,,,,Operational,PDF
-bufr4/0/08/043/0,008043,Tipo de componente atmosférico químico o físico,0,Ozono,"O3",10028-15-6,,,Operational,PDF
-bufr4/0/08/043/1,008043,Tipo de componente atmosférico químico o físico,1,Vapor de agua,"H2O",7732-18-5,,,Operational,PDF
-bufr4/0/08/043/2,008043,Tipo de componente atmosférico químico o físico,2,Metano,"CH4",74-82-8,,,Operational,PDF
-bufr4/0/08/043/3,008043,Tipo de componente atmosférico químico o físico,3,Dióxido de carbono,"CO2",124-38-9,,,Operational,PDF
-bufr4/0/08/043/4,008043,Tipo de componente atmosférico químico o físico,4,Monóxido de carbono,"CO",630-08-0,,,Operational,PDF
-bufr4/0/08/043/5,008043,Tipo de componente atmosférico químico o físico,5,Dióxido de nitrógeno,"NO2",10102-44-0,,,Operational,PDF
-bufr4/0/08/043/6,008043,Tipo de componente atmosférico químico o físico,6,Óxido nitroso,"N2O",10024-97-2,,,Operational,PDF
-bufr4/0/08/043/7,008043,Tipo de componente atmosférico químico o físico,7,Formaldehído,"HCHO",50-00-0,,,Operational,PDF
-bufr4/0/08/043/8,008043,Tipo de componente atmosférico químico o físico,8,Dióxido de azufre,"SO2",7446-09-5,,,Operational,PDF
+bufr4/0/08/043/0,008043,Tipo de componente atmosférico químico o físico,0,Ozono,O3,10028-15-6,,,Operational,PDF
+bufr4/0/08/043/1,008043,Tipo de componente atmosférico químico o físico,1,Vapor de agua,H2O,7732-18-5,,,Operational,PDF
+bufr4/0/08/043/2,008043,Tipo de componente atmosférico químico o físico,2,Metano,CH4,74-82-8,,,Operational,PDF
+bufr4/0/08/043/3,008043,Tipo de componente atmosférico químico o físico,3,Dióxido de carbono,CO2,124-38-9,,,Operational,PDF
+bufr4/0/08/043/4,008043,Tipo de componente atmosférico químico o físico,4,Monóxido de carbono,CO,630-08-0,,,Operational,PDF
+bufr4/0/08/043/5,008043,Tipo de componente atmosférico químico o físico,5,Dióxido de nitrógeno,NO2,10102-44-0,,,Operational,PDF
+bufr4/0/08/043/6,008043,Tipo de componente atmosférico químico o físico,6,Óxido nitroso,N2O,10024-97-2,,,Operational,PDF
+bufr4/0/08/043/7,008043,Tipo de componente atmosférico químico o físico,7,Formaldehído,HCHO,50-00-0,,,Operational,PDF
+bufr4/0/08/043/8,008043,Tipo de componente atmosférico químico o físico,8,Dióxido de azufre,SO2,7446-09-5,,,Operational,PDF
 bufr4/0/08/043/9-24,008043,Tipo de componente atmosférico químico o físico,9-24,Reservadas,,,,,Operational,PDF
 bufr4/0/08/043/25,008043,Tipo de componente atmosférico químico o físico,25,"Materia en partículas < 1,0 micrones",,,,,Operational,PDF
 bufr4/0/08/043/26,008043,Tipo de componente atmosférico químico o físico,26,"Materia en partículas < 2,5 micrones",,,,,Operational,PDF

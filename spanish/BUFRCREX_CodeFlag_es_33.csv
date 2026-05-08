@@ -167,7 +167,7 @@ bufr4/0/33/032/7,033032,Banderines de calidad del canal para ATOVS,7,La calidad 
 bufr4/0/33/032/8-23,033032,Banderines de calidad del canal para ATOVS,8-23,Reservados (bits fijos en cero),,,,,Operational,PDF
 bufr4/0/33/032/All-24,033032,Banderines de calidad del canal para ATOVS,Los 24,Valor faltante,,,,,Operational,PDF
 bufr4/0/33/033/1,033033,Banderines de calidad del campo de visión para ATOVS,1,Se indica 1 si se realizó una calibración secundaria,,,,,Operational,PDF
-bufr4/0/33/033/2-21,033033,Banderines de calidad del campo de visión para ATOVS,2-21,El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración,,,Nota 2,"26",Operational,PDF
+bufr4/0/33/033/2-21,033033,Banderines de calidad del campo de visión para ATOVS,2-21,El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración,,,Nota 2,26,Operational,PDF
 bufr4/0/33/033/22,033033,Banderines de calidad del campo de visión para ATOVS,22,Se indica 1 si faltan todos los canales,,,,,Operational,PDF
 bufr4/0/33/033/23,033033,Banderines de calidad del campo de visión para ATOVS,23,Sospechoso,,,,,Operational,PDF
 bufr4/0/33/033/All-24,033033,Banderines de calidad del campo de visión para ATOVS,Los 24,Valor faltante,,,,,Operational,PDF
