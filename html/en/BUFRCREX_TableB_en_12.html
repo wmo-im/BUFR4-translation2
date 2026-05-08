@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 12: Temperature</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 12: Temperature</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 12 001</td><td>Temperature/air temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 002</td><td>Wet-bulb temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 003</td><td>Dewpoint temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 004</td><td>Air temperature at 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 005</td><td>Wet-bulb temperature at 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 006</td><td>Dewpoint temperature at 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 007</td><td>Virtual temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 008</td><td>Uncertainty in virtual temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 011</td><td>Maximum temperature, at height and over period specified</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note B177: Where the expression &quot;at height and over period specified&quot; is entered under element name, an appropriate vertical location shall be specified using descriptors from Class 07, together with an appropriate period using descriptors from Class 04.</td></tr>
+<tr><td>0 12 012</td><td>Minimum temperature, at height and over period specified</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note B177: Where the expression &quot;at height and over period specified&quot; is entered under element name, an appropriate vertical location shall be specified using descriptors from Class 07, together with an appropriate period using descriptors from Class 04.</td></tr>
+<tr><td>0 12 013</td><td>Ground minimum temperature, past 12 hours</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 014</td><td>Maximum temperature at 2 m, past 12 hours</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 015</td><td>Minimum temperature at 2 m, past 12 hours</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 016</td><td>Maximum temperature at 2 m, past 24 hours</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 017</td><td>Minimum temperature at 2 m, past 24 hours</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 021</td><td>Maximum temperature at 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 022</td><td>Minimum temperature at 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 023</td><td>Temperature</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 024</td><td>Dewpoint temperature</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 030</td><td>Soil temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 049</td><td>Temperature change over specified period</td><td>K</td><td>0</td><td>-30</td><td>6</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 051</td><td>Standard deviation temperature</td><td>K</td><td>1</td><td>0</td><td>10</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 052</td><td>Highest daily mean temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 053</td><td>Lowest daily mean temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 060</td><td>AWS enclosure internal temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 061</td><td>Skin temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 062</td><td>Equivalent black body temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 063</td><td>Brightness temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 064</td><td>Instrument temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 065</td><td>Standard deviation brightness temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 066</td><td>Antenna temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 070</td><td>Warm load temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 071</td><td>Coldest cluster temperature</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 072</td><td>Radiance</td><td>W m-2 sr-1</td><td>6</td><td>0</td><td>31</td><td>W m-2 sr-1</td><td>6</td><td>9</td><td></td></tr>
+<tr><td>0 12 075</td><td>Spectral radiance</td><td>W m-3 sr-1</td><td>-3</td><td>0</td><td>16</td><td>W m-3 sr-1</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 12 076</td><td>Radiance</td><td>W m-2 sr-1</td><td>3</td><td>0</td><td>16</td><td>W m-2 sr-1</td><td>3</td><td>5</td><td>Note B52: Descriptor 0 12 076 should be used instead of descriptor 0 12 072 to encode radiance.</td></tr>
+<tr><td>0 12 080</td><td>Brightness temperature real part</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 081</td><td>Brightness temperature imaginary part</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 082</td><td>Pixel radiometric accuracy</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 083</td><td>Temperature difference between observed and computed</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 102</td><td>Wet-bulb temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 103</td><td>Dewpoint temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 104</td><td>Air temperature at 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 105</td><td>Web-bulb temperature at 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 106</td><td>Dewpoint temperature at 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 107</td><td>Virtual temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 111</td><td>Maximum temperature, at height and over period specified</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note B177: Where the expression &quot;at height and over period specified&quot; is entered under element name, an appropriate vertical location shall be specified using descriptors from Class 07, together with an appropriate period using descriptors from Class 04.</td></tr>
+<tr><td>0 12 112</td><td>Minimum temperature, at height and over period specified</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note B177: Where the expression &quot;at height and over period specified&quot; is entered under element name, an appropriate vertical location shall be specified using descriptors from Class 07, together with an appropriate period using descriptors from Class 04.</td></tr>
+<tr><td>0 12 113</td><td>Ground minimum temperature, past 12 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 114</td><td>Maximum temperature at 2 m, past 12 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 115</td><td>Minimum temperature at 2 m, past 12 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 116</td><td>Maximum temperature at 2 m, past 24 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 117</td><td>Minimum temperature at 2 m, past 24 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 118</td><td>Maximum temperature at height specified, past 24 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 119</td><td>Minimum temperature at height specified, past 24 hours</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 120</td><td>Ground temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 121</td><td>Ground minimum temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 122</td><td>Ground minimum temperature of the preceding night</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 128</td><td>Road surface temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 129</td><td>Road subsurface temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 130</td><td>Soil temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 131</td><td>Snow temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 132</td><td>Ice surface temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 133</td><td>Ice temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>0 12 151</td><td>Standard deviation of daily mean temperature</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 152</td><td>Highest daily mean temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 153</td><td>Lowest daily mean temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 158</td><td>Noise-equivalent delta temperature while viewing cold target</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 159</td><td>Noise-equivalent delta temperature while viewing warm target</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 161</td><td>Skin temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 162</td><td>Equivalent black body temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 163</td><td>Brightness temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 164</td><td>Instrument temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 165</td><td>Direct sun brightness temperature</td><td>K</td><td>0</td><td>0</td><td>23</td><td>K</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 12 166</td><td>Snapshot accuracy</td><td>K</td><td>1</td><td>-4000</td><td>13</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 167</td><td>Radiometric accuracy (pure polarization)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 168</td><td>Radiometric accuracy (cross polarization)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 169</td><td>Brightness temperature difference</td><td>K</td><td>3</td><td>-100000</td><td>18</td><td>K</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 12 171</td><td>Coldest cluster temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 180</td><td>Averaged 12 micron BT for all clear pixels at nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 181</td><td>Averaged 11 micron BT for all clear pixels at nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 182</td><td>Averaged 3.7 micron BT for all clear pixels at nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 183</td><td>Averaged 12 micron BT for all clear pixels, forward view</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 184</td><td>Averaged 11 micron BT for all clear pixels, forward view</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 185</td><td>Averaged 3.7 micron BT for all clear pixels, forward view</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 186</td><td>Mean nadir sea-surface temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 187</td><td>Mean dual view sea-surface temperature</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 188</td><td>Interpolated 23.8 GHz brightness T from MWR</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 189</td><td>Interpolated 36.5 GHz brightness T from MWR</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 190</td><td>Brightness temperature error covariance</td><td>K2</td><td>3</td><td>-15000</td><td>15</td><td>K2</td><td>3</td><td>8</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

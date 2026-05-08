@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Categoría 02: Secuencias meteorológicas comunes a los datos de superficie</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Categoría 02: Secuencias meteorológicas comunes a los datos de superficie</h1>
+<p class="fxy-heading">3 02 001 (Presión y cambio de presión en 3 horas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 10 004</td><td>Presión</td><td>Nivel de la estación</td><td></td></tr>
+<tr><td>0 10 051</td><td>Presión reducida al nivel medio del mar</td><td></td><td></td></tr>
+<tr><td>0 10 061</td><td>Cambio de presión en 3 horas</td><td></td><td></td></tr>
+<tr><td>0 10 063</td><td>Característica de la tendencia barométrica</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 002 (Estación de gran altitud)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 10 004</td><td>Presión</td><td>Nivel de la estación</td><td></td></tr>
+<tr><td>0 07 004</td><td>Presión</td><td>Nivel de presión</td><td></td></tr>
+<tr><td>0 10 003</td><td>Geopotencial</td><td>Nivel de presión</td><td></td></tr>
+<tr><td>0 10 061</td><td>Cambios de presión en 3 horas</td><td></td><td></td></tr>
+<tr><td>0 10 063</td><td>Característica de la tendencia barométrica</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 003 (Viento, temperatura, humedad, visibilidad, estado del tiempo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 11 011</td><td>Dirección del viento a 10 m</td><td></td><td></td></tr>
+<tr><td>0 11 012</td><td>Velocidad del viento a 10 m</td><td></td><td></td></tr>
+<tr><td>0 12 004</td><td>Temperatura del aire a 2 m</td><td></td><td></td></tr>
+<tr><td>0 12 006</td><td>Temperatura del punto de rocío a 2 m</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td></td><td></td></tr>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td></td><td></td></tr>
+<tr><td>0 20 004</td><td>Tiempo pasado (1)</td><td></td><td></td></tr>
+<tr><td>0 20 005</td><td>Tiempo pasado (2)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 004 (Información general sobre nubes)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 010</td><td>Cubierta de nubes (total)</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 005 (Capa de nubes)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 006 (Presión y cambio de presión en 24 horas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 10 004</td><td>Presión</td><td>Nivel de la estación</td><td></td></tr>
+<tr><td>0 10 051</td><td>Presión reducida al nivel medio del mar</td><td></td><td></td></tr>
+<tr><td>0 10 062</td><td>Cambio de la presión en 24 horas</td><td></td><td></td></tr>
+<tr><td>0 10 063</td><td>Característica de la tendencia barométrica</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 011 (Estación de baja altitud)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 001</td><td>Presión y cambio de presión en 3 horas</td><td></td><td></td></tr>
+<tr><td>3 02 003</td><td>Viento, temperatura, humedad, visibilidad, estado del tiempo</td><td></td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td>Capa significativa de nubes</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 012 (Estación de gran altitud)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 002</td><td>Estación de gran altitud</td><td>Presión y cambio de presión</td><td></td></tr>
+<tr><td>3 02 003</td><td>Viento, temperatura, humedad, visibilidad, estado del tiempo</td><td></td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td>Capa significativa de nubes</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 013 (Informe básico de superficie)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 006</td><td>Presión y cambio de presión en 24 horas</td><td></td><td></td></tr>
+<tr><td>3 02 003</td><td>Viento, temperatura, humedad, visibilidad, estado del tiempo</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 005</td><td>Capa de nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 021 (Olas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 22 001</td><td>Dirección de las olas</td><td></td><td></td></tr>
+<tr><td>0 22 011</td><td>Período de las olas</td><td></td><td></td></tr>
+<tr><td>0 22 021</td><td>Altura de las olas</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 022 (Olas de viento)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 22 002</td><td>Dirección de las olas de viento</td><td></td><td></td></tr>
+<tr><td>0 22 012</td><td>Período de las olas de viento</td><td></td><td></td></tr>
+<tr><td>0 22 022</td><td>Altura de las olas de viento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 023 (Olas de mar de fondo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 22 003</td><td>Dirección de las olas de mar de fondo</td><td></td><td></td></tr>
+<tr><td>0 22 013</td><td>Período de las olas de mar de fondo</td><td></td><td></td></tr>
+<tr><td>0 22 023</td><td>Altura de las olas de mar de fondo</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 024 (Olas de viento y de mar de fondo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 022</td><td>Olas de viento</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Repetir 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>3 02 023</td><td>Olas de mar de fondo</td><td>2 sistemas de mar de fondo</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 031 (Información sobre la presión)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 001</td><td>Presión y cambio de presión en 3 horas</td><td></td><td></td></tr>
+<tr><td>0 10 062</td><td>Cambio de presión en 24 horas</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Presión</td><td>Nivel estándar</td><td></td></tr>
+<tr><td>0 10 009</td><td>Altura geopotencial</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 032 (Datos de temperatura y humedad)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la temperatura y la humedad</td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 12 103</td><td>Temperatura del punto de rocío</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 033 (Datos de visibilidad)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la visibilidad</td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 034 (Precipitación en las 24 horas anteriores)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la precipitación</td><td></td></tr>
+<tr><td>0 13 023</td><td>Precipitación total en las 24 horas anteriores</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 035 (Datos sinópticos básicos “instantáneos”)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 032</td><td>Datos de temperatura y humedad</td><td></td><td></td></tr>
+<tr><td>3 02 033</td><td>Datos de visibilidad</td><td></td><td></td></tr>
+<tr><td>3 02 034</td><td>Precipitación en las 24 horas anteriores</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 005</td><td>Capa de nubes</td><td>Capa o masa nubosa individual</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 036 (Nubes con bases por debajo del nivel de la estación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1 05 000</td><td>Repetición diferida de 5 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 20 014</td><td>Altura de la cima de las nubes</td><td></td><td></td></tr>
+<tr><td>0 20 017</td><td>Descripción de la cima de las nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 037 (Estado del suelo, espesor de la nieve, temperatura mínima del suelo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 062</td><td>Estado del suelo (con o sin nieve)</td><td></td><td></td></tr>
+<tr><td>0 13 013</td><td>Espesor total de la nieve</td><td></td><td></td></tr>
+<tr><td>0 12 113</td><td>Temperatura mínima del suelo en las 12 horas anteriores</td><td>Escala: 2</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 038 (Tiempo presente y pasado)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 20 004</td><td>Tiempo pasado (1)</td><td></td><td></td></tr>
+<tr><td>0 20 005</td><td>Tiempo pasado (2)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 039 (Datos de insolación (de 1 hora a períodos de 24 horas))</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 024</td><td>(Datos de insolación (de 1 hora a períodos de 24 horas)) Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 14 031</td><td>Insolación total</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 040 (Medición de la precipitación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la precipitación</td><td></td></tr>
+<tr><td>1 02 002</td><td>Repetir 2 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 13 011</td><td>Precipitación total/equivalente total en agua</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 041 (Datos de temperaturas extremas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la temperatura</td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td>Note D78: En la AR IV se notifica la temperatura máxima a las 1200 UTC para el día civil anterior (es decir, la hora final del período no es igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0. | Note D77: En la AR III se notifican las temperaturas máxima diurna y mínima nocturna (es decir, la hora final del período podrá no ser igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0.</td></tr>
+<tr><td>0 12 111</td><td>Temperatura máxima en altura y en un período</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td>Note D77: En la AR III se notifican las temperaturas máxima diurna y mínima nocturna (es decir, la hora final del período podrá no ser igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0.</td></tr>
+<tr><td>0 12 112</td><td>Temperatura mínima en altura y en un período especificado</td><td>Escala: 2</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 042 (Datos de viento)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición del viento</td><td></td></tr>
+<tr><td>0 02 002</td><td>Tipo de instrumentos para la medición del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediado en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= 10 minutos, o número de minutos tras un cambio significativo del viento</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Valor faltante</td><td></td></tr>
+<tr><td>1 03 002</td><td>Repetir 3 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>Minutos</td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas de viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas de viento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 043 (Datos sinópticos básicos del “período”)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 038</td><td>Tiempo presente y pasado</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Replicar 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>3 02 039</td><td>Datos de insolación (de 1 hora a períodos de 24 horas)</td><td></td><td></td></tr>
+<tr><td>3 02 040</td><td>Medición de la precipitación</td><td></td><td></td></tr>
+<tr><td>3 02 041</td><td>Datos de temperaturas extremas</td><td></td><td></td></tr>
+<tr><td>3 02 042</td><td>Datos del viento</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 044 (Datos de evaporación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 02 004</td><td>Tipo de instrumento utilizado para medir la evaporación o tipo de cultivo para el que se notifica la evapotranspiración</td><td></td><td></td></tr>
+<tr><td>0 13 033</td><td>Evaporación/evapotranspiración</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 045 (Datos de radiación (de 1 hora a períodos de 24 horas))</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 14 002</td><td>Radiación de onda larga, integrada en un período especificado</td><td></td><td></td></tr>
+<tr><td>0 14 004</td><td>Radiación de onda corta, integrada en un período especificado</td><td></td><td></td></tr>
+<tr><td>0 14 016</td><td>Radiación neta integrada en un período especificado</td><td></td><td></td></tr>
+<tr><td>0 14 028</td><td>Radiación solar global (gran exactitud), integrada en un período especificado</td><td></td><td></td></tr>
+<tr><td>0 14 029</td><td>Radiación solar difusa (gran exactitud), integrada en un período especificado</td><td></td><td></td></tr>
+<tr><td>0 14 030</td><td>Radiación solar directa (gran exactitud), integrada en un período especificado</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 046 (Cambio de temperatura)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td>Note D73: Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024.</td></tr>
+<tr><td>0 12 049</td><td>Cambio de temperatura en un período especificado</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 047 (Dirección de la deriva de las nubes)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1 02 003</td><td>Replicar 2 descriptores 3 veces</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde donde se desplaza un fenómeno o nubes o en la cual se observan</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 048 (Dirección y elevación de las nubes)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td></td><td></td></tr>
+<tr><td>0 07 021</td><td>Elevación</td><td>Ángulo de elevación</td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nube</td><td></td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 07 021</td><td>Elevación</td><td>Fijar en faltante (anular)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 049 (Información sobre nubes notificada con sondeos verticales)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td>Nubes bajas o medias</td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td>h</td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td>Nubes bajas CL</td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td>Nubes medias CM</td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td>Nubes altas CH</td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td>Fijar en faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 050 (Observación de radiosonda en superficie)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 041</td><td>Significación de datos</td><td>= 5 desplazamiento de observación de superficie con respecto al punto de lanzamiento</td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td></td><td></td></tr>
+<tr><td>0 07 005</td><td>Incremento de altura</td><td></td><td></td></tr>
+<tr><td>2 02 130</td><td>Cambio escala</td><td></td><td></td></tr>
+<tr><td>0 06 021</td><td>Distancia</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>0 08 041</td><td>Significación de datos</td><td>= 4 observación en superficie</td><td></td></tr>
+<tr><td>2 01 131</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>2 02 129</td><td>Cambio de escala</td><td></td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td></td><td></td></tr>
+<tr><td>0 10 004</td><td>Presión</td><td></td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Cambio de escala</td><td>Anular</td><td></td></tr>
+<tr><td>2 01 000</td><td>Cambio de anchura de datos</td><td>Anular</td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td></td><td></td></tr>
+<tr><td>1 02 002</td><td>Repetir 2 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>Horas</td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Temperatura del punto de rocío</td><td></td><td></td></tr>
+<tr><td>0 12 102</td><td>Temperatura de bulbo húmedo</td><td></td><td></td></tr>
+<tr><td>1 01 003</td><td>Repetir 1 descriptor 3 veces</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Repetir 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 051</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 10 004</td><td>Presión</td><td></td><td></td></tr>
+<tr><td>0 10 051</td><td>Presión reducida al nivel medio del mar</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Presión</td><td>Posición vertical</td><td></td></tr>
+<tr><td>0 10 003</td><td>Geopotencial</td><td></td><td></td></tr>
+<tr><td>0 12 004</td><td>Temperatura del aire a 2 m</td><td></td><td></td></tr>
+<tr><td>0 12 051</td><td>Desviación típica de la temperatura</td><td></td><td></td></tr>
+<tr><td>0 12 016</td><td>Temperatura máxima a 2 m, en el curso de las 24 horas anteriores</td><td></td><td></td></tr>
+<tr><td>0 12 017</td><td>Temperatura mínima a 2 m, en el curso de las 24 horas anteriores</td><td></td><td></td></tr>
+<tr><td>0 13 004</td><td>Presión del vapor</td><td></td><td></td></tr>
+<tr><td>1 02 004</td><td>Repetir 2 descriptores 4 veces</td><td></td><td></td></tr>
+<tr><td>0 08 051</td><td>Calificador del número de valores faltantes en el cálculo de estadísticas</td><td></td><td></td></tr>
+<tr><td>0 08 020</td><td>Número total de valores faltantes (con relación a la acumulación o el promedio)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 052 (Datos de temperatura y humedad desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la temperatura y la humedad</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Medición de la temperatura</td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 02 039</td><td>Método de medición de la temperatura con termómetro de bulbo húmedo</td><td></td><td></td></tr>
+<tr><td>0 12 102</td><td>Temperatura de bulbo húmedo</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 12 103</td><td>Temperatura del punto de rocío</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 053 (Datos de visibilidad desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la visibilidad</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Medición de la visibilidad</td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 054 (Datos “instantáneos” desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 052</td><td>Datos de temperatura y humedad desde buques</td><td></td><td></td></tr>
+<tr><td>3 02 053</td><td>Datos de visibilidad desde buques</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>3 02 034</td><td>Precipitación en las 24 horas anteriores</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 005</td><td>Capa de nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 055 (Engelamiento y hielo)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 031</td><td>Depósito de hielo (espesor)</td><td></td><td></td></tr>
+<tr><td>0 20 032</td><td>Velocidad de acumulación del hielo (estimada)</td><td></td><td></td></tr>
+<tr><td>0 20 033</td><td>Causa de la acumulación de hielo</td><td></td><td></td></tr>
+<tr><td>0 20 034</td><td>Concentración de hielo marino</td><td></td><td></td></tr>
+<tr><td>0 20 035</td><td>Cantidad y tipo de hielo</td><td></td><td></td></tr>
+<tr><td>0 20 036</td><td>Situación del hielo</td><td></td><td></td></tr>
+<tr><td>0 20 037</td><td>Desarrollo del hielo</td><td></td><td></td></tr>
+<tr><td>0 20 038</td><td>Rumbo del borde del hielo</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 056 (Temperatura del mar/agua)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 038</td><td>Método de medición de la temperatura del agua y/o de la salinidad</td><td></td><td></td></tr>
+<tr><td>0 07 063</td><td>Profundidad por debajo de la superficie del mar/ agua (cm)</td><td>Medición de la temperatura de la superficie del mar</td><td></td></tr>
+<tr><td>0 22 043</td><td>Temperatura del mar/agua</td><td></td><td></td></tr>
+<tr><td>0 07 063</td><td>Profundidad por debajo de la superficie del mar/agua (cm)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 057 (Datos marinos desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 056</td><td>Temperatura del mar/agua</td><td>Temperatura de la superficie del mar, método de medición y profundidad bajo la superficie del mar</td><td></td></tr>
+<tr><td>3 02 021</td><td>Olas</td><td></td><td></td></tr>
+<tr><td>3 02 024</td><td>Olas de viento y de mar de fondo</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 058 (Datos de temperaturas extremas desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición de la temperatura</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua (para la medición de la temperatura)</td><td>Medición de la temperatura</td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td>Note D78: En la AR IV se notifica la temperatura máxima a las 1200 UTC para el día civil anterior (es decir, la hora final del período no es igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0. | Note D77: En la AR III se notifican las temperaturas máxima diurna y mínima nocturna (es decir, la hora final del período podrá no ser igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0.</td></tr>
+<tr><td>0 12 111</td><td>Temperatura máxima en altura y en un período especificado</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td>Note D77: En la AR III se notifican las temperaturas máxima diurna y mínima nocturna (es decir, la hora final del período podrá no ser igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0.</td></tr>
+<tr><td>0 12 112</td><td>Temperatura mínima en altura y en un período especificado</td><td>Escala: 2</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 059 (Datos del viento desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Medición del viento</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Medición del viento</td><td></td></tr>
+<tr><td>0 02 002</td><td>Tipo de instrumentos para la medición del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediado en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= -10 minutos, o número de minutos tras un cambio significativo del viento</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Valor faltante</td><td></td></tr>
+<tr><td>1 03 002</td><td>Repetir 3 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>Minutos</td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas de viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas de viento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 060 (Datos “del período” desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 038</td><td>Tiempo presente y pasado</td><td></td><td></td></tr>
+<tr><td>3 02 040</td><td>Medición de la precipitación</td><td></td><td></td></tr>
+<tr><td>3 02 058</td><td>Datos de temperaturas extremas desde buques</td><td></td><td></td></tr>
+<tr><td>3 02 059</td><td>Datos del viento desde buques</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 062 (Datos “instantáneos” desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 25 188</td><td>Método para reducir la presión al nivel del mar</td><td></td><td></td></tr>
+<tr><td>3 02 001</td><td>Presión y cambio de presión en 3 horas</td><td></td><td></td></tr>
+<tr><td>3 02 093</td><td>Datos ampliados de temperatura y humedad desde buques</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 053</td><td>Datos de visibilidad desde buques</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 005</td><td>Capa de nubes</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 055</td><td>Engelamiento y hielo</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 056</td><td>Temperatura del mar/agua</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 021</td><td>Olas</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 024</td><td>Olas de viento y de mar de fondo</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 063 (Datos “del período” desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 038</td><td>Tiempo presente y pasado</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 040</td><td>Medición de la precipitación</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 034</td><td>Precipitación en las 24 horas anteriores</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 058</td><td>Datos de temperaturas extremas desde buques</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 064</td><td>Datos del viento desde buques u otras plataformas marinas</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 064 (Datos del viento desde buques u otras plataformas marinas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 02 002</td><td>Tipo de instrumentos para la medición del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante (cancelar)</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas de viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas de viento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 066 (Fenómenos meteorológicos peligrosos)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 023</td><td>Otros fenómenos meteorológicos</td><td></td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensidad de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde la cual se desplaza un fenómeno o nubes o en la cual se observan</td><td></td><td></td></tr>
+<tr><td>0 20 023</td><td>Otros fenómenos meteorológicos</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde la cual se desplaza un fenómeno o nubes o en la cual se observan</td><td></td><td></td></tr>
+<tr><td>0 20 025</td><td>Oscurecimiento</td><td></td><td></td></tr>
+<tr><td>0 20 026</td><td>Naturaleza del oscurecimiento</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 040</td><td>Evolución de la ventisca de nieve</td><td></td><td></td></tr>
+<tr><td>0 20 066</td><td>Diámetro máximo del granizo</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 021</td><td>Tipo de precipitación</td><td></td><td></td></tr>
+<tr><td>0 20 067</td><td>Diámetro del depósito</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 067 (Parámetros sinópticos adicionales)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 01 023</td><td>Número de secuencia de observación</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= 0 minutos</td><td></td></tr>
+<tr><td>0 02 177</td><td>Método de medición del espesor de la nieve</td><td>Véase la columna de la izquierda</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td>960ww, 961ww</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td>981VV-988VV</td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td>VV</td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del</td><td></td><td></td></tr>
+<tr><td>3 02 056</td><td>Temperatura del mar/agua</td><td>Temperatura en la superficie del mar, método de medición y profundidad por debajo de la superficie del mar</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 33 041</td><td>Atributo del valor siguiente</td><td></td><td></td></tr>
+<tr><td>0 20 058</td><td>Visibilidad hacia el mar desde una estación costera</td><td>980VsVs</td><td></td></tr>
+<tr><td>0 22 061</td><td>Estado del mar</td><td>924SVss</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 022</td><td>Olas de viento</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 023</td><td>Olas de mar de fondo</td><td></td><td></td></tr>
+<tr><td>1 04 000</td><td>Repetición diferida de 4 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde la cual se desplaza un fenómeno o nubes o en la cual se observan</td><td>Da, Dp</td><td></td></tr>
+<tr><td>0 20 137</td><td>Evolución de las nubes</td><td>940Cn3</td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td>941CDp, 943CLDp</td><td></td></tr>
+<tr><td>0 20 090</td><td>Nubes especiales</td><td>993CsDa</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde la cual se desplaza un fenómeno o nubes o en la cual se observan</td><td></td><td></td></tr>
+<tr><td>0 20 137</td><td>Evolución de las nubes</td><td></td><td></td></tr>
+<tr><td>0 20 136</td><td>Tipo de nubes suplementario</td><td>948C0Da, 949CaDa, 950Nmn3, 951Nvn4</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>Período de referencia de la nieve recién caída</td><td></td></tr>
+<tr><td>0 13 012</td><td>Espesor de la nieve fresca</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= -60 minutos</td><td></td></tr>
+<tr><td>0 11 042</td><td>Velocidad máxima del viento (media de 10 minutos)</td><td>912ff 902tt 912ff .. obligatorio ff≥18</td><td></td></tr>
+<tr><td>1 04 000</td><td>Repetición diferida de 4 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 30 hora de ocurrencia, = 17 comienzo del fenómeno</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= -xx | 902tt</td><td></td></tr>
+<tr><td>0 11 042</td><td>Velocidad máxima del viento (media de 10 minutos)</td><td>912ff</td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 15 000</td><td>Repetición diferida de 15 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 30 hora de ocurrencia, = 17 comienzo del fenómeno</td><td></td></tr>
+<tr><td>0 04 015</td><td>Incremento de tiempo</td><td>0</td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= -10 minutos, o número de minutos después de un cambio significativo del viento</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td>915dd</td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td>913ff</td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 22 hora de la aparición de un salto de viento</td><td></td></tr>
+<tr><td>0 04 015</td><td>Incremento de tiempo</td><td>#REF!</td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= -10 minutos, o número de minutos después de un cambio significativo del viento</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td>915dd</td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td>913ff</td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= 0 minutos</td><td></td></tr>
+<tr><td>0 04 015</td><td>Incremento de tiempo</td><td>= +(xx1-xx2) | No negativo para reajustar el tiempo al tiempo efectivo</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td>962ww, 963w1w1, 964ww, 965w1w1, 966ww, 967w1w1</td><td></td></tr>
+<tr><td>1 10 000</td><td>Repetición diferida de 10 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td>Da’ Dp</td><td></td></tr>
+<tr><td>0 05 021</td><td>Rumbo o azimut</td><td>Da’ Dp</td><td></td></tr>
+<tr><td>0 20 054</td><td>Dirección verdadera desde la cual se desplaza un fenómeno o nubes o en la cual se observan</td><td>Da’ Dp</td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensidad de los fenómenos</td><td>= 1 ligero,</td><td></td></tr>
+<tr><td>0 20 025</td><td>Oscurecimiento</td><td></td><td></td></tr>
+<tr><td>0 20 026</td><td>Carácter del oscurecimiento</td><td></td><td></td></tr>
+<tr><td>0 20 027</td><td>Ocurrencia de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 063</td><td>Fenómenos especiales</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 069 (Datos de visibilidad)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 33 041</td><td>Atributo del valor siguiente</td><td></td><td></td></tr>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 070 (Datos de viento)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas del viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas del viento</td><td></td><td></td></tr>
+<tr><td>0 11 016</td><td>Dirección sinistrorsa extrema de un viento variable</td><td></td><td></td></tr>
+<tr><td>0 11 017</td><td>Dirección dextrorsa extrema de un viento variable</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 071 (Datos del viento en un período de una hora)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante</td><td></td></tr>
+<tr><td>1 03 002</td><td>Repetir 3 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>= –10 minutos en la primera repetición, = –60 minutos en la segunda repetición</td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas del viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas del viento</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 11 016</td><td>Dirección sinistrorsa extrema de un viento variable</td><td></td><td></td></tr>
+<tr><td>0 11 017</td><td>Dirección dextrorsa extrema de un viento variable</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 072 (Datos de temperatura y humedad)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 12 103</td><td>Temperatura del punto de rocío</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 073 (Datos de nubes)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 010</td><td>Cubierta de nubes (total)</td><td></td><td></td></tr>
+<tr><td>1 05 004</td><td>Repetir 5 descriptores 4 veces</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 33 041</td><td>Atributo del valor siguiente</td><td></td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 074 (Tiempo presente y pasado)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 20 004</td><td>Tiempo pasado (1)</td><td></td><td></td></tr>
+<tr><td>0 20 005</td><td>Tiempo pasado (2)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 075 (Intensidad de la precipitación, tamaño del elemento de precipitación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 13 055</td><td>Intensidad de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 13 058</td><td>Tamaño del elemento de precipitación</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 076 (Precipitación, oscurecimiento y otros fenómenos)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 021</td><td>Tipo de precipitación</td><td></td><td></td></tr>
+<tr><td>0 20 022</td><td>Naturaleza de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 26 020</td><td>Duración de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 20 023</td><td>Otros fenómenos meteorológicos</td><td></td><td></td></tr>
+<tr><td>0 20 024</td><td>Intensidad de los fenómenos</td><td></td><td></td></tr>
+<tr><td>0 20 025</td><td>Oscurecimiento</td><td></td><td></td></tr>
+<tr><td>0 20 026</td><td>Carácter del oscurecimiento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 077 (Datos de temperatura extrema)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 12 111</td><td>Temperatura máxima en altura y durante un período determinado</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 12 112</td><td>Temperatura mínima en altura y durante un período determinado</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Temperatura del suelo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 12 112</td><td>Temperatura mínima en altura y durante un período determinado</td><td>Escala: 2 | Temperatura del suelo</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 078 (Medición del estado del suelo y del espesor de la nieve)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 176</td><td>Método de medición del estado del suelo</td><td></td><td></td></tr>
+<tr><td>0 20 062</td><td>Estado del suelo (con o sin nieve)</td><td></td><td></td></tr>
+<tr><td>0 02 177</td><td>Método de medición del espesor de la nieve</td><td></td><td></td></tr>
+<tr><td>0 13 013</td><td>Espesor total de la nieve</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 079 (Medición de la precipitación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 02 175</td><td>Método de medición de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 02 178</td><td>Método de medición del contenido líquido de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 13 011</td><td>Precipitación total/equivalente total en agua</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 080 (Medición de la evaporación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 185</td><td>Método de medición de la evaporación</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 13 033</td><td>Evaporación/evapotranspiración</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 081 (Datos de insolación total)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 14 031</td><td>Insolación total</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 082 (Datos de radiación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 14 002</td><td>Radiación de onda larga, integrada en un período determinado</td><td></td><td></td></tr>
+<tr><td>0 14 004</td><td>Radiación de onda corta, integrada en un período determinado</td><td></td><td></td></tr>
+<tr><td>0 14 016</td><td>Radiación neta, integrada en un período determinado</td><td></td><td></td></tr>
+<tr><td>0 14 028</td><td>Radiación solar global (gran precisión), integrada en un período determinado</td><td></td><td></td></tr>
+<tr><td>0 14 029</td><td>Radiación solar difusa (gran precisión), integrada en un período determinado</td><td></td><td></td></tr>
+<tr><td>0 14 030</td><td>Radiación solar directa (gran precisión), integrada en un período determinado</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 083 (Datos de estadísticas de primer orden de datos P, W, T, U)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>Estadísticas de primer orden</td><td></td><td></td></tr>
+<tr><td>0 10 004</td><td>Presión</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td>Escala: 2</td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>Estadísticas de primer orden</td><td>Fijar en faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 084 (Datos “instantáneos” de la secuencia 3 07 096)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>3 02 031</td><td>Información sobre la presión</td><td></td><td></td></tr>
+<tr><td>3 02 072</td><td>Datos de temperatura y humedad</td><td></td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>1 01 005</td><td>Repetir 1 descriptor 5 veces</td><td></td><td></td></tr>
+<tr><td>3 07 063</td><td>Profundidad por debajo de la superficie terrestre y temperatura del suelo</td><td></td><td></td></tr>
+<tr><td>0 07 061</td><td>Profundidad por debajo de la superficie terrestre</td><td>Fijar en faltante</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 069</td><td>Datos de visibilidad</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 05 000</td><td>Repetición diferida de 5 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 20 031</td><td>Depósito de hielo (espesor)</td><td></td><td></td></tr>
+<tr><td>0 20 032</td><td>Velocidad de acumulación del hielo (estimada)</td><td></td><td></td></tr>
+<tr><td>0 02 038</td><td>Método de medición de la temperatura y/o la salinidad del agua</td><td></td><td></td></tr>
+<tr><td>0 22 043</td><td>Temperatura del mar/agua</td><td>Escala: 2</td><td></td></tr>
+<tr><td>3 02 021</td><td>Olas</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 078</td><td>Medición del estado del suelo y del espesor de la nieve</td><td></td><td></td></tr>
+<tr><td>0 12 113</td><td>Temperatura mínima del suelo en las 12 horas anteriores</td><td>Escala: 2</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 004</td><td>Información general sobre nubes</td><td></td><td></td></tr>
+<tr><td>1 05 000</td><td>Repetición diferida de 5 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td></td><td></td></tr>
+<tr><td>0 20 011</td><td>Nubosidad</td><td></td><td></td></tr>
+<tr><td>0 20 012</td><td>Tipo de nubes</td><td></td><td></td></tr>
+<tr><td>0 33 041</td><td>Atributo del valor siguiente</td><td></td><td></td></tr>
+<tr><td>0 20 013</td><td>Altura de la base de las nubes</td><td></td><td></td></tr>
+<tr><td>3 02 036</td><td>Nubes con bases por debajo del nivel de la estación</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 047</td><td>Dirección de deriva de las nubes</td><td></td><td></td></tr>
+<tr><td>0 08 002</td><td>Significación vertical (observaciones en superficie)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 048</td><td>Dirección y elevación de las nubes</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 085 (Dato “de período” de la secuencia 3 07 096)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1 05 000</td><td>Repetición diferida de 5 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 20 003</td><td>Tiempo presente</td><td></td><td></td></tr>
+<tr><td>1 03 002</td><td>Repetir 3 descriptores 2 veces</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>= -1 hora en la primera repetición, = -x horas en la segunda repetición, donde x corresponde al período de tiempo de W1W2 en el informe SYNOP</td><td></td></tr>
+<tr><td>0 20 004</td><td>Tiempo pasado (1)</td><td></td><td></td></tr>
+<tr><td>0 20 005</td><td>Tiempo pasado (2)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 175</td><td>Intensidad de la precipitación, tamaño del elemento de precipitación</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>3 02 076</td><td>Precipitación, oscurecimiento y otros fenómenos</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 13 059</td><td>Número de relámpagos (tormenta)</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>= 2 promediada en el tiempo</td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>tiempo= - 10 minutos, o número de minutos tras un cambio significativo de viento</td><td></td></tr>
+<tr><td>0 11 001</td><td>Dirección del viento</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Velocidad del viento</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>Fijar en faltante</td><td></td></tr>
+<tr><td>1 03 003</td><td>Repetir 3 descriptores 3 veces</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>Véase la columna de la izquierda</td><td></td></tr>
+<tr><td>0 11 043</td><td>Dirección de las ráfagas máximas de viento</td><td></td><td></td></tr>
+<tr><td>0 11 041</td><td>Velocidad de las ráfagas máximas de viento</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td>#NAME?</td><td></td></tr>
+<tr><td>0 11 016</td><td>Dirección sinistrorsa extrema de un viento variable</td><td></td><td></td></tr>
+<tr><td>0 11 017</td><td>Dirección dextrorsa extrema de un viento variable</td><td></td><td></td></tr>
+<tr><td>3 02 077</td><td>Datos de temperatura extrema</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>3 02 041</td><td>Datos de temperatura extrema</td><td></td><td></td></tr>
+<tr><td>1 06 000</td><td>Repetición diferida de 6 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 02 175</td><td>Método de medición de la precipitación</td><td></td><td></td></tr>
+<tr><td>0 02 178</td><td>Método de medición del contenido líquido de la precipitación</td><td></td><td></td></tr>
+<tr><td>1 02 005</td><td>Repetir 2 descriptores 5 veces</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td>= -1 en la primera repetición, = -3, -6, -12 y -24 horas en las demás repeticiones</td><td></td></tr>
+<tr><td>0 13 011</td><td>Precipitación total/equivalente total en agua</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>0 02 185</td><td>Método de medición de la evaporación</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Repetir 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>3 02 044</td><td>Datos de evaporación</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Repetir 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>3 02 039</td><td>Datos de insolación (de 1 hora a períodos de 24 horas)</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Repetición diferida de 2 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>1 01 002</td><td>Repetir 1 descriptor 2 veces</td><td></td><td></td></tr>
+<tr><td>3 02 045</td><td>Datos de radiación (de 1 hora a períodos de 24 horas)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 046</td><td>Cambio de temperatura</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td></td><td></td></tr>
+<tr><td>3 02 083</td><td>Estadísticas de primer orden de los datos P, W, T, U</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 089 (Información sobre langostas)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 101</td><td>Nombre de la langosta (acrídido)</td><td>Ln</td><td></td></tr>
+<tr><td>0 20 102</td><td>Color de la langosta (adulta)</td><td>Lc</td><td></td></tr>
+<tr><td>0 20 103</td><td>Fase de desarrollo de las langostas</td><td>Ld</td><td></td></tr>
+<tr><td>0 20 104</td><td>Estado de organización del enjambre o banda de langostas</td><td>Lg</td><td></td></tr>
+<tr><td>0 20 105</td><td>Tamaño del enjambre o banda de langostas y duración del paso del enjambre</td><td>sL</td><td></td></tr>
+<tr><td>0 20 106</td><td>Densidad de población de las langostas</td><td>dL</td><td></td></tr>
+<tr><td>0 20 107</td><td>Dirección de movimiento del enjambre de langostas</td><td>DL</td><td></td></tr>
+<tr><td>0 20 108</td><td>Extensión de la vegetación</td><td>ve</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 090 (Temperatura del mar/agua, gran precisión)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 038</td><td>Método de medición de la temperatura y/o la salinidad del agua</td><td></td><td></td></tr>
+<tr><td>0 07 063</td><td>Profundidad por debajo de la superficie del mar/ agua (cm)</td><td>Medición de la temperatura en la superficie del mar</td><td></td></tr>
+<tr><td>0 22 045</td><td>Temperatura del mar/agua</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 091 (Secuencia para la representación de observaciones meteorológicas complementarias)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 20 001</td><td>Visibilidad horizontal</td><td></td><td></td></tr>
+<tr><td>0 04 024</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 13 011</td><td>Precipitación total/equivalente total en agua</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 092 (Elementos de datos VOSClim)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 11 104</td><td>Rumbo verdadero de la aeronave, buque u otra plataforma móvil</td><td>Rumbo verdadero del buque</td><td></td></tr>
+<tr><td>0 01 012</td><td>Dirección del movimiento de la plataforma de observación móvil</td><td>Ruta del buque sobre el suelo</td><td></td></tr>
+<tr><td>0 01 013</td><td>Velocidad del movimiento de la plataforma de observación móvil</td><td>Velocidad del buque sobre el suelo</td><td></td></tr>
+<tr><td>0 10 038</td><td>Altura máxima de carga en cubierta sobre la línea de carga de verano</td><td></td><td></td></tr>
+<tr><td>0 10 039</td><td>Desviación del nivel de referencia (línea de carga máxima de verano) a partir del nivel del mar real</td><td></td><td></td></tr>
+<tr><td>0 11 007</td><td>Dirección relativa del viento (en grados de desviación respecto a la proa)</td><td></td><td></td></tr>
+<tr><td>0 11 008</td><td>Velocidad relativa del viento</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 093 (Datos ampliados de temperatura y humedad desde buques)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>3 03 099</td><td>Metadatos comunes a los sensores de</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperatura/temperatura del aire</td><td></td><td></td></tr>
+<tr><td>1 03 000</td><td>Repetición diferida de 3 descriptores</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Factor de repetición ligeramente diferida del descriptor</td><td>Fijar en 0 si no hay cambios respecto de los valores anteriores, en 1 si hay cambios</td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td></td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td></td><td></td></tr>
+<tr><td>3 03 099</td><td>Metadatos comunes a los sensores de temperatura/humedad</td><td></td><td></td></tr>
+<tr><td>0 02 039</td><td>Método de medición de la temperatura con termómetro de bulbo húmedo</td><td></td><td></td></tr>
+<tr><td>0 02 097</td><td>Tipo de sensor de humedad</td><td></td><td></td></tr>
+<tr><td>0 03 024</td><td>Coeficiente psicrométrico</td><td>Fijar en faltante si el tipo de sensor de humedad no es psicrométrico</td><td></td></tr>
+<tr><td>0 03 021</td><td>Calefacción del higrómetro</td><td></td><td></td></tr>
+<tr><td>0 12 102</td><td>Temperatura de bulbo húmedo</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Temperatura del punto de rocío</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Humedad relativa</td><td></td><td></td></tr>
+<tr><td>0 07 032</td><td>Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina)</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 07 033</td><td>Altura del sensor sobre la superficie del agua</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>3 03 099</td><td>Metadatos comunes a los sensores de temperatura/humedad</td><td>Fijar en faltante todos los elementos de la secuencia (anular)</td><td></td></tr>
+<tr><td>0 02 039</td><td>Método de medición de la temperatura con termómetro de bulbo húmedo</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 02 097</td><td>Tipo de sensor de humedad</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 03 021</td><td>Calefacción del higrómetro</td><td>Fijar en faltante (anular)</td><td></td></tr>
+<tr><td>0 03 024</td><td>Coeficiente psicrométrico</td><td>Fijar en faltante (anular)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 02 175 (Intensidad de la precipitación, tamaño del elemento de precipitación)</p>
+<table>
+<thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 08 021</td><td>Significación temporal</td><td></td><td></td></tr>
+<tr><td>0 04 025</td><td>Período o desplazamiento de tiempo</td><td></td><td></td></tr>
+<tr><td>0 13 155</td><td>Intensidad de la precipitación (gran exactitud)</td><td></td><td></td></tr>
+<tr><td>0 13 058</td><td>Tamaño del elemento de precipitación</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

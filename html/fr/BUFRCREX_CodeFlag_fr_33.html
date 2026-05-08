@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 33</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 33</h1>
+<p class="fxy-heading">0 33 002  Informations sur la qualité</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Données certaines</td><td></td></tr>
+<tr><td>1</td><td>Données douteuses</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Informations sur la qualité non communiquées</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 003  Informations sur la qualité</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Données certaines</td><td></td></tr>
+<tr><td>1</td><td>Données légèrement douteuses</td><td></td></tr>
+<tr><td>2</td><td>Données très douteuses</td><td></td></tr>
+<tr><td>3</td><td>Données considérées comme inexploitables</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Informations sur la qualité non communiquées</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 005  Informations sur la qualité (données des stations météorologiques automatiques)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Aucune vérification automatique des données météorologiques n&#x27;a été effectuée</td><td></td></tr>
+<tr><td>2</td><td>Données douteuses - Pression</td><td></td></tr>
+<tr><td>3</td><td>Données douteuses - Vent</td><td></td></tr>
+<tr><td>4</td><td>Données douteuses - Température de l&#x27;air</td><td></td></tr>
+<tr><td>5</td><td>Données douteuses - Température du thermomètre mouillé</td><td></td></tr>
+<tr><td>6</td><td>Données douteuses - Humidité</td><td></td></tr>
+<tr><td>7</td><td>Données douteuses - Température au sol</td><td></td></tr>
+<tr><td>8</td><td>Données douteuses - Température du sol (profondeur 1)</td><td></td></tr>
+<tr><td>9</td><td>Données douteuses - Température du sol (profondeur 2)</td><td></td></tr>
+<tr><td>10</td><td>Données douteuses - Température du sol (profondeur 3)</td><td></td></tr>
+<tr><td>11</td><td>Données douteuses - Température du sol (profondeur 4)</td><td></td></tr>
+<tr><td>12</td><td>Données douteuses - Température du sol (profondeur 5)</td><td></td></tr>
+<tr><td>13</td><td>Données douteuses - Nuages</td><td></td></tr>
+<tr><td>14</td><td>Données douteuses - Visibilité</td><td></td></tr>
+<tr><td>15</td><td>Données douteuses - Temps présent</td><td></td></tr>
+<tr><td>16</td><td>Données douteuses - Foudre</td><td></td></tr>
+<tr><td>17</td><td>Données douteuses - Dépôt de glace</td><td></td></tr>
+<tr><td>18</td><td>Données douteuses - Précipitations</td><td></td></tr>
+<tr><td>19</td><td>Données douteuses - état du sol</td><td></td></tr>
+<tr><td>20</td><td>Données douteuses - Neige</td><td></td></tr>
+<tr><td>21</td><td>Données douteuses - Teneur en eau</td><td></td></tr>
+<tr><td>22</td><td>Données douteuses - évaporation/ évapotranspiration</td><td></td></tr>
+<tr><td>23</td><td>Données douteuses - Insolation</td><td></td></tr>
+<tr><td>24-29</td><td>En réserve</td><td></td></tr>
+<tr><td>30 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 006  Informations sur la situation interne des mesures (stations météorologiques automatiques)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Autovérification correcte</td><td></td></tr>
+<tr><td>1</td><td>Au moins un avertissement, aucune alarme</td><td></td></tr>
+<tr><td>2</td><td>Au moins une alarme</td><td></td></tr>
+<tr><td>3</td><td>Panne de capteur</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 015  Indicateur de vérification de la qualité des données</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Valeur acceptée par tous les contrôles</td><td></td></tr>
+<tr><td>1</td><td>Contrôle des données manquantes</td><td></td></tr>
+<tr><td>2</td><td>Contrôle de descente et de nouvelle ascension du ballon</td><td></td></tr>
+<tr><td>3</td><td>Contrôle de plausibilité des données (supérieures aux limites)</td><td></td></tr>
+<tr><td>4</td><td>Contrôle de plausibilité des données (inférieures aux limites)</td><td></td></tr>
+<tr><td>5</td><td>Contrôle du gradient superadiabatique</td><td></td></tr>
+<tr><td>6</td><td>Contrôle des angles limites</td><td></td></tr>
+<tr><td>7</td><td>Contrôle de la vitesse ascensionnelle</td><td></td></tr>
+<tr><td>8</td><td>Écart excessif par rapport au sondage précédent</td><td></td></tr>
+<tr><td>9</td><td>Contrôle général du ballon</td><td></td></tr>
+<tr><td>10</td><td>Contrôle de la vitesse du vent</td><td></td></tr>
+<tr><td>11</td><td>Contrôle de la direction du vent</td><td></td></tr>
+<tr><td>12</td><td>Contrôle de dépendance</td><td></td></tr>
+<tr><td>13</td><td>Données correctes mais modifiées</td><td></td></tr>
+<tr><td>14</td><td>Contrôle des données aberrantes</td><td></td></tr>
+<tr><td>15-62</td><td>En réserve</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 020  Indication du contrôle de la qualité de la valeur suivante</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne</td><td></td></tr>
+<tr><td>1</td><td>Inconsistante</td><td></td></tr>
+<tr><td>2</td><td>Douteuse</td><td></td></tr>
+<tr><td>3</td><td>Mauvaise</td><td></td></tr>
+<tr><td>4</td><td>Non contrôlée</td><td></td></tr>
+<tr><td>5</td><td>A été modifiée</td><td></td></tr>
+<tr><td>6</td><td>Estimation</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 021  Qualité de la valeur suivante</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Dans les limites</td><td></td></tr>
+<tr><td>1</td><td>Hors limites</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 022  Qualité de la transmission par satellite des données provenant de bouées</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne (plusieurs messages identiques ont été reçus)</td><td></td></tr>
+<tr><td>1</td><td>Douteuse (aucun message identique n&#x27;a été reçu)</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 023  Qualité de l&#x27;emplacement de la bouée</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Fiable (l&#x27;emplacement est situé au-dessus de deux passages de satellite)</td><td></td></tr>
+<tr><td>1</td><td>Dernier emplacement connu (pas d&#x27;emplacement sur le passage correspondant)</td><td></td></tr>
+<tr><td>2</td><td>Douteuse (emplacement déterminé sur un passage seulement); une deuxième solution est possible dans 5 % des cas)</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 024  Repère de qualité de l&#x27;altitude de la station (pour les stations mobiles)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Excellent - de l&#x27;ordre de 3 mètres</td><td></td></tr>
+<tr><td>2</td><td>Bonne - de l&#x27;ordre de 10 mètres</td><td></td></tr>
+<tr><td>3</td><td>Passable - de l&#x27;ordre de 20 mètres</td><td></td></tr>
+<tr><td>4</td><td>Médiocre - supérieure à 20 mètres</td><td></td></tr>
+<tr><td>5</td><td>Excellente - de l&#x27;ordre de 10 pieds</td><td></td></tr>
+<tr><td>6</td><td>Bonne - de l&#x27;ordre de 30 pieds</td><td></td></tr>
+<tr><td>7</td><td>Passable - de l&#x27;ordre de 60 pieds</td><td></td></tr>
+<tr><td>8</td><td>Médiocre - supérieure à 60 pieds</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 025  Indicateur de valeurs ACARS interpolées</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Temps interpolé, latitude et longitude transmises</td><td></td></tr>
+<tr><td>1</td><td>Temps transmis, latitude et longitude interpolées</td><td></td></tr>
+<tr><td>2</td><td>Temps, latitude et longitude interpolés</td><td></td></tr>
+<tr><td>3</td><td>Temps, latitude et longitude transmis</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 026  Qualité de la mesure de l&#x27;humidité</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Opérations normales - mesures</td><td></td></tr>
+<tr><td>1</td><td>Opérations normales - pas de mesures</td><td></td></tr>
+<tr><td>2</td><td>Faible humidité relative</td><td></td></tr>
+<tr><td>3</td><td>Organe hygrométrique mouillé</td><td></td></tr>
+<tr><td>4</td><td>Organe hygrométrique contaminé</td><td></td></tr>
+<tr><td>5</td><td>Défaillance du réchauffeur</td><td></td></tr>
+<tr><td>6</td><td>Défaillance du réchauffeur et organe hygrométrique mouillé/contaminé</td><td></td></tr>
+<tr><td>7</td><td>Au moins un des paramètres d&#x27;entrée utilisés dans le calcul du rapport de mélange n&#x27;est pas valable</td><td></td></tr>
+<tr><td>8</td><td>Erreur numérique</td><td></td></tr>
+<tr><td>9</td><td>Capteur pas installé</td><td></td></tr>
+<tr><td>10</td><td>Humidité relative calculée &gt; 100 %</td><td></td></tr>
+<tr><td>11</td><td>Alimentation du laser trop faible</td><td></td></tr>
+<tr><td>12</td><td>Température du capteur de vapeur d&#x27;eau hors limites</td><td></td></tr>
+<tr><td>13</td><td>Pression du capteur de vapeur d&#x27;eau hors limites</td><td></td></tr>
+<tr><td>14</td><td>Décalage spectral hors limite</td><td></td></tr>
+<tr><td>15</td><td>Pas de sortie laser</td><td></td></tr>
+<tr><td>16-62</td><td>En réserve</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 027  Classe de qualité concernant la position (rayon de certitude à 66 %)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Rayon ≥ 1500 m</td><td></td></tr>
+<tr><td>1</td><td>500 m ≤ rayon &lt; 1500 m</td><td></td></tr>
+<tr><td>2</td><td>250 m ≤ rayon &lt; 500 m</td><td></td></tr>
+<tr><td>3</td><td>Rayon &lt; 250 m</td><td></td></tr>
+<tr><td>4</td><td>≤ 100 m</td><td></td></tr>
+<tr><td>5-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 028  Qualité globale de l&#x27;instantané</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nominale</td><td></td></tr>
+<tr><td>2</td><td>Dégradée par une erreur due à un vent fort; toute erreur indiquée par les algorithmes</td><td></td></tr>
+<tr><td>3</td><td>Dégradée par une erreur due à un instrument</td><td></td></tr>
+<tr><td>4</td><td>Dégradée par un ADF corrompu/manquant</td><td></td></tr>
+<tr><td>5-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 030  Indicateurs d&#x27;état pour la ligne de balayage du sondeur ATOVS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ne pas utiliser le balayage pour l&#x27;élaboration des produits</td><td></td></tr>
+<tr><td>2</td><td>Erreur dans la séquence temporelle détectée lors de ce balayage</td><td></td></tr>
+<tr><td>3</td><td>Données manquantes avant ce balayage</td><td></td></tr>
+<tr><td>4</td><td>Pas d&#x27;étalonnage</td><td></td></tr>
+<tr><td>5</td><td>Pas de localisation géographique</td><td></td></tr>
+<tr><td>6</td><td>Première heure correcte après une mise à jour d&#x27;horloge</td><td></td></tr>
+<tr><td>7</td><td>Changement d&#x27;état de l&#x27;instrument lors de ce balayage</td><td></td></tr>
+<tr><td>8-23</td><td>En réserve</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF49: Si le bit est mis à 1, l’indication est valable.</p>
+</div>
+<p class="fxy-heading">0 33 031  Indicateurs de qualité de la ligne de balayage du sondeur ATOVS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Le champ temporel est mauvais mais peut être sans doute déduit de la précédente heure correcte</td><td></td></tr>
+<tr><td>2</td><td>Le champ temporel est mauvais et ne peut pas être déduit de la précédente heure correcte</td><td></td></tr>
+<tr><td>3</td><td>Ce relevé marque le début d&#x27;une séquence qui est en contradiction avec les heures précédentes (discontinuité dans le temps). Cela peut être lié à une mise à jour de l&#x27;horloge du satellite (voir les indicateurs d&#x27;état pour la ligne de balayage du sondeur ATOVS)</td><td></td></tr>
+<tr><td>4</td><td>Début d&#x27;une séquence qui réitère apparemment des heures de balayage précédemment acceptées</td><td></td></tr>
+<tr><td>5</td><td>La ligne de balayage n&#x27;a pas été étalonnée à cause d&#x27;une heure incorrecte</td><td></td></tr>
+<tr><td>6</td><td>L&#x27;étalonnage de la ligne de balayage repose sur un nombre de lignes inférieur au nombre souhaité à cause de la proximité du début ou de la fin d&#x27;une séquence de données ou de données manquantes</td><td></td></tr>
+<tr><td>7</td><td>La ligne de balayage n&#x27;a pas été étalonnée car les données du thermomètre à résistance de platine étaient mauvaises ou insuffisantes</td><td></td></tr>
+<tr><td>8</td><td>La ligne de balayage a été étalonnée avec des données marginales du thermomètre à résistance de platine</td><td></td></tr>
+<tr><td>9</td><td>Certains canaux n&#x27;ont pas été étalonnés pour ce balayage</td><td></td></tr>
+<tr><td>10</td><td>Absence d&#x27;étalonnage à cause du mode de l&#x27;instrument</td><td></td></tr>
+<tr><td>11</td><td>Étalonnage suspect à cause d&#x27;une erreur d&#x27;orientation d&#x27;antenne vers l&#x27;espace</td><td></td></tr>
+<tr><td>12</td><td>Étalonnage suspect à cause d&#x27;une erreur d&#x27;orientation d&#x27;antenne sur le corps noir</td><td></td></tr>
+<tr><td>13</td><td>Pas de localisation géographique à cause d&#x27;une heure incorrecte</td><td></td></tr>
+<tr><td>14</td><td>Localisation géographique suspecte à cause d&#x27;un code horaire douteux (se référer aux bits correspondant à l&#x27;indicatif de défaut de l&#x27;heure)</td><td></td></tr>
+<tr><td>15</td><td>Localisation géographique suspecte - ne satisfait que partiellement au contrôle de vraisemblance</td><td></td></tr>
+<tr><td>16</td><td>Localisation géographique suspecte - ne satisfait pas au contrôle de vraisemblance</td><td></td></tr>
+<tr><td>17</td><td>Localisation géographique suspecte à cause d&#x27;un contrôle de l&#x27;orientation de l&#x27;antenne</td><td></td></tr>
+<tr><td>18</td><td>Étalonnage de la ligne de balayage sur le corps noir froid</td><td></td></tr>
+<tr><td>19</td><td>Étalonnage de la ligne de balayage sur le corps noir chaud</td><td></td></tr>
+<tr><td>20</td><td>Étalonnage de la ligne de balayage vers l&#x27;espace</td><td></td></tr>
+<tr><td>21</td><td>Vers la Terre</td><td></td></tr>
+<tr><td>22-23</td><td>En réserve</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</p>
+<p class="note">Note CF25: Bits 11 a 17: INDICATIF DE DEFAUT DE LOCALISATION GEOGRAPHIQUE. Lorsque tous les bits sont mis a 0, cela signifie que la localisation geographique est normale.</p>
+<p class="note">Note CF27: Bits 5 a 10: INDICATIF DE DEFAUT D&#x27;ETALONNAGE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;etalonnage est normal. Lorsque l&#x27;un ou l&#x27;autre des bits 5, 7 et 10 est mis a 1, cela signifie que des coefficients secondaires d&#x27;etalonnage ont ete utilises.</p>
+<p class="note">Note CF49: Si le bit est mis à 1, l’indication est valable.</p>
+</div>
+<p class="fxy-heading">0 33 032  Indicateurs de qualité du canal du sondeur ATOVS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Aucun relevé correct du corps noir pour la ligne de balayage</td><td></td></tr>
+<tr><td>2</td><td>Aucun relevé correct de l&#x27;espace pour cette ligne</td><td></td></tr>
+<tr><td>3</td><td>Aucune donnée correcte du thermomètre à résistance de platine, pour cette ligne</td><td></td></tr>
+<tr><td>4</td><td>Certains relevés du corps noir sont incorrects, pour cette ligne</td><td></td></tr>
+<tr><td>5</td><td>Certains relevés de l&#x27;espace sont incorrects, pour cette ligne</td><td></td></tr>
+<tr><td>6</td><td>Certaines données du thermomètre à résistance de platine sont incorrectes pour cette ligne</td><td></td></tr>
+<tr><td>7</td><td>Qualité réduite pour ce balayage</td><td></td></tr>
+<tr><td>8-23</td><td>En réserve (bits mis à 0)</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+</div>
+<p class="fxy-heading">0 33 033  Indicateurs de qualité du champ de vision du sondeur ATOVS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Bit mis à 1 en cas d&#x27;étalonnage secondaire</td><td></td></tr>
+<tr><td>2-21</td><td>Bit n mis à 1 si la température de luminance dans le canal n-1 est physiquement invraisemblable ou n&#x27;a pas été calculée à cause de problèmes d&#x27;étalonnage</td><td>Note CF26: Bits 2 a 21 utilises pour le sondeur HIRS, mais seuls les bits 2 a 16 sont utilises pour le sondeur AMSU-A et les bits 2 a 6 pour le sondeur AMSU-B.</td></tr>
+<tr><td>22</td><td>Bit mis à 1 si tous les canaux sont absents</td><td></td></tr>
+<tr><td>23</td><td>Suspect</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+</div>
+<p class="fxy-heading">0 33 035  Contrôle de qualité manuel/automatique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Contrôle de qualité automatique: valeur acceptée, sans vérification manuelle</td><td></td></tr>
+<tr><td>1</td><td>Contrôle de qualité automatique: valeur acceptée, y compris après vérification manuelle</td><td></td></tr>
+<tr><td>2</td><td>Contrôle de qualité automatique: valeur acceptée, puis refusée après vérification manuelle</td><td></td></tr>
+<tr><td>3</td><td>Contrôle de qualité automatique: valeur refusée, sans vérification manuelle</td><td></td></tr>
+<tr><td>4</td><td>Contrôle de qualité automatique: valeur refusée, y compris après vérification manuelle</td><td></td></tr>
+<tr><td>5</td><td>Contrôle de qualité automatique: valeur refusée, puis acceptée après vérification manuelle</td><td></td></tr>
+<tr><td>6</td><td>Contrôle automatique de qualité: valeur indiquée comme douteuse, sans vérification manuelle</td><td></td></tr>
+<tr><td>7</td><td>Contrôle automatique de qualité: valeur indiquée comme douteuse, puis refusée après vérification manuelle</td><td></td></tr>
+<tr><td>8</td><td>Valeur refusée après vérification manuelle</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 037  Erreur de corrélation du vent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Écart de la composante u par rapport à la première approximation</td><td></td></tr>
+<tr><td>2</td><td>Écart de la composante v par rapport à la première approximation</td><td></td></tr>
+<tr><td>3</td><td>Écart des composantes u et v par rapport à la première approximation</td><td></td></tr>
+<tr><td>4</td><td>Accélération de la composante u</td><td></td></tr>
+<tr><td>5</td><td>Accélération de la composante v</td><td></td></tr>
+<tr><td>6</td><td>Accélération des composantes u et v</td><td></td></tr>
+<tr><td>7</td><td>Incidence éventuelle du terrain</td><td></td></tr>
+<tr><td>8</td><td>Accélération de la composante u et incidence éventuelle du terrain</td><td></td></tr>
+<tr><td>9</td><td>Accélération de la composante v et incidence éventuelle du terrain</td><td></td></tr>
+<tr><td>10</td><td>Accélération des composantes u et v et incidence éventuelle du terrain</td><td></td></tr>
+<tr><td>11</td><td>Mauvaises informations de première approximation sur le vent</td><td></td></tr>
+<tr><td>12</td><td>Défaillance de corrélation</td><td></td></tr>
+<tr><td>13</td><td>Case «recherche» hors zone</td><td></td></tr>
+<tr><td>14</td><td>Case «cible» hors zone</td><td></td></tr>
+<tr><td>15</td><td>Brillance des pixels hors limites (ligne bruyante)</td><td></td></tr>
+<tr><td>16</td><td>Cible en dehors de la grille latitude/longitude</td><td></td></tr>
+<tr><td>17</td><td>Cible en dehors de l&#x27;intervalle de pression</td><td></td></tr>
+<tr><td>18</td><td>Vecteur lent marqué par l&#x27;autoéditeur</td><td></td></tr>
+<tr><td>19</td><td>Vecteurs marqués par l&#x27;autoéditeur</td><td></td></tr>
+<tr><td>20 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 038  Indicateurs de qualité pour les données d&#x27;observation au sol du GNSS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Données sur le retard de propagation total pour une visée au zénith considérées de mauvaise qualité</td><td></td></tr>
+<tr><td>2</td><td>Valeurs tirées des données des satellites GALILEO</td><td></td></tr>
+<tr><td>3</td><td>Valeurs tirées des données des satellites GLONASS</td><td></td></tr>
+<tr><td>4</td><td>Valeurs tirées des données des satellites GPS</td><td></td></tr>
+<tr><td>5</td><td>Données météorologiques incluses</td><td></td></tr>
+<tr><td>6</td><td>Correction de la charge atmosphérique incluse</td><td></td></tr>
+<tr><td>7</td><td>Charge des marées océaniques incluse</td><td></td></tr>
+<tr><td>8</td><td>Traitement des données pour des besoins climatologiques</td><td></td></tr>
+<tr><td>9</td><td>Traitement des données en temps quasi réel</td><td></td></tr>
+<tr><td>10 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 039  Indicateurs de qualité pour les données d&#x27;occultation radio</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Qualité non nominale</td><td></td></tr>
+<tr><td>2</td><td>Produit en différé</td><td></td></tr>
+<tr><td>3</td><td>Descripteur d&#x27;occultation ascendante</td><td></td></tr>
+<tr><td>4</td><td>Traitement de phase trop importante non nominal</td><td></td></tr>
+<tr><td>5</td><td>Traitement de l&#x27;angle de courbure non nominal</td><td></td></tr>
+<tr><td>6</td><td>Traitement de la réfractivité non nominal</td><td></td></tr>
+<tr><td>7</td><td>Traitement des phénomènes météorologiques non nominal</td><td></td></tr>
+<tr><td>8-13</td><td>En réserve</td><td></td></tr>
+<tr><td>14</td><td>Profil de fond non nominal</td><td></td></tr>
+<tr><td>15</td><td>Profil de fond inclus (c&#x27;est-à-dire non extrait)</td><td></td></tr>
+<tr><td>16 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 041  Caractéristique de la valeur suivante</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>La valeur suivante est la valeur vraie</td><td></td></tr>
+<tr><td>1</td><td>La valeur suivante est plus élevée que la valeur vraie (la mesure atteint la limite inférieure de l&#x27;instrument)</td><td></td></tr>
+<tr><td>2</td><td>La valeur suivante est inférieure à la valeur vraie (la mesure atteint la limite supérieure de l&#x27;instrument)</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF85: Ce descripteur sera associé à des données relatives à la visibilité ou à la hauteur des nuages pour préciser si la valeur est bornée. Si la donnée transmise est la valeur vraie, le chiffre du code est 0. Toutefois, la mesure peut atteindre la limite de capacité de mesure de l’instrument. Si la valeur transmise est supérieure à la valeur vraie, le chiffre du code est 1; si la valeur transmise est inférieure à la valeur vraie, le chiffre du code est 2.</p>
+</div>
+<p class="fxy-heading">0 33 042  Type de limite représentée par la valeur qui suit</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Limite inférieure exclue (&gt;)</td><td></td></tr>
+<tr><td>1</td><td>Limite inférieure incluse (≥)</td><td></td></tr>
+<tr><td>2</td><td>Limite supérieure exclue (&lt;)</td><td></td></tr>
+<tr><td>3</td><td>Limite supérieure incluse (≤)</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 043  Degré de confiance de la température moyenne en surface</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Série de mesures pour la mer. Température de la surface de la mer extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 µm. Série de mesures pour les terres. En réserve.</td><td></td></tr>
+<tr><td>2</td><td>Série de mesures pour la mer. Température de la surface de la mer extraite d&#x27;une double visée dans le canal de 3,7 µm. Série de mesures pour les terres. En réserve.</td><td></td></tr>
+<tr><td>3</td><td>Données d&#x27;observation diurne au nadir incluses</td><td></td></tr>
+<tr><td>4</td><td>Données d&#x27;observation diurne en visée avant incluses</td><td></td></tr>
+<tr><td>5-7</td><td>En réserve</td><td></td></tr>
+<tr><td>8 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 044  Qualité des données de l&#x27;ASAR</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Moyenne des données d&#x27;entrée en dehors de l&#x27;intervalle nominal indiqué</td><td></td></tr>
+<tr><td>2</td><td>Écart type des données d&#x27;entrée en dehors de l&#x27;intervalle nominal indiqué</td><td></td></tr>
+<tr><td>3</td><td>Nombre de données manquantes à la réception supérieur à la valeur seuil</td><td></td></tr>
+<tr><td>4</td><td>Pourcentage de lignes manquantes supérieur à la valeur seuil</td><td></td></tr>
+<tr><td>5</td><td>Incertitude du point médian Doppler. Degré de confiance inférieur à la valeur spécifique</td><td></td></tr>
+<tr><td>6</td><td>Incertitude de l&#x27;estimation de l&#x27;ambiguïté Doppler. Degré de confiance inférieur à la valeur spécifique</td><td></td></tr>
+<tr><td>7</td><td>Moyenne des données de sortie en dehors de l&#x27;intervalle nominal indiqué</td><td></td></tr>
+<tr><td>8</td><td>Écart type des données de sortie en dehors de l&#x27;intervalle nominal indiqué</td><td></td></tr>
+<tr><td>9</td><td>Échec de la reconstruction du signal chirp ou qualité de la reconstruction indiquée comme faible</td><td></td></tr>
+<tr><td>10</td><td>Jeu de données manquant</td><td></td></tr>
+<tr><td>11</td><td>Paramètres de liaison descendante incorrects</td><td></td></tr>
+<tr><td>12</td><td>Nombre d&#x27;itérations pour la coupure azimutale. Le réglage de la coupure azimutale ne s&#x27;est pas produit en un minimum donné d&#x27;itérations</td><td></td></tr>
+<tr><td>13</td><td>Le réglage de la coupure azimutale ne s&#x27;est pas produit en un minimum donné d&#x27;itérations</td><td></td></tr>
+<tr><td>14</td><td>Degré de confiance concernant les données sur la phase. La crête spectrale imaginaire est inférieure à un seuil minimum ou le décalage du zéro est supérieur à un seuil minimum</td><td></td></tr>
+<tr><td>15 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 047  Degré de confiance des mesures</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Détection d&#x27;erreur suivie d&#x27;essais de récupération</td><td></td></tr>
+<tr><td>2</td><td>Détection d&#x27;une anomalie dans la valeur fournie par le traitement des données à bord</td><td></td></tr>
+<tr><td>3</td><td>Détection d&#x27;une anomalie dans la valeur fournie par le traitement des données de l&#x27;oscillateur ultra-stable</td><td></td></tr>
+<tr><td>4</td><td>Détection d&#x27;erreur par le processeur embarqué</td><td></td></tr>
+<tr><td>5</td><td>Commande automatique de gain hors limites</td><td></td></tr>
+<tr><td>6</td><td>Erreur du délai de réception (Rx). Distance satellite-récepteur hors limites</td><td></td></tr>
+<tr><td>7</td><td>Indicateur d&#x27;erreur des échantillons de formes d&#x27;ondes: erreur</td><td></td></tr>
+<tr><td>8</td><td>Détection d&#x27;erreur ou d&#x27;anomalie dans la bande S</td><td></td></tr>
+<tr><td>9-11</td><td>En réserve</td><td></td></tr>
+<tr><td>12</td><td>Température de luminance (canal 1) hors limites</td><td></td></tr>
+<tr><td>13</td><td>Température de luminance (canal 2) hors limites</td><td></td></tr>
+<tr><td>14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Erreur de retraitement des données océaniques en bande Ku</td><td></td></tr>
+<tr><td>16</td><td>Erreur de retraitement des données océaniques en bande S</td><td></td></tr>
+<tr><td>17</td><td>Erreur de retraitement des données sur les glaces (filtre 1) en bande Ku</td><td></td></tr>
+<tr><td>18</td><td>Erreur de retraitement des données sur les glaces (filtre 1) en bande S</td><td></td></tr>
+<tr><td>19</td><td>Erreur de retraitement des données sur les glaces (filtre 2) en bande Ku</td><td></td></tr>
+<tr><td>20</td><td>Erreur de retraitement des données sur les glaces (filtre 2) en bande S</td><td></td></tr>
+<tr><td>21</td><td>Erreur de retraitement des données sur les glaces de mer en bande Ku</td><td></td></tr>
+<tr><td>22</td><td>Erreur arithmétique</td><td></td></tr>
+<tr><td>23</td><td>État des données météo. Pas de carte</td><td></td></tr>
+<tr><td>24</td><td>État des données météo. 1 carte</td><td></td></tr>
+<tr><td>25</td><td>État des données météo. 2 cartes dégradées</td><td></td></tr>
+<tr><td>26</td><td>État des données météo. 2 cartes symboliques</td><td></td></tr>
+<tr><td>27</td><td>État du logiciel de restitution d&#x27;orbite en mode restitution: plusieurs erreurs</td><td></td></tr>
+<tr><td>28</td><td>État du logiciel de restitution d&#x27;orbite en mode restitution: alarme détectée</td><td></td></tr>
+<tr><td>29</td><td>État du logiciel de restitution d&#x27;orbite en mode initialisation: plusieurs erreurs</td><td></td></tr>
+<tr><td>30</td><td>État du logiciel de restitution d&#x27;orbite en mode initialisation: alarme détectée</td><td></td></tr>
+<tr><td>31 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 048  Degré de confiance pour l&#x27;inversion SAR</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Réussite de l&#x27;inversion</td><td></td></tr>
+<tr><td>1</td><td>Échec de l&#x27;inversion</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 049  Degré de confiance pour l&#x27;extraction du vent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Direction du vent externe utilisée durant l&#x27;inversion</td><td></td></tr>
+<tr><td>1</td><td>Direction du vent externe non utilisée durant l&#x27;inversion</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 050  Indicateur de qualité global pour le GTSPP</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Qualité non évaluée</td><td></td></tr>
+<tr><td>1</td><td>Valeur correcte (acceptée par tous les contrôles)</td><td></td></tr>
+<tr><td>2</td><td>Valeur probablement bonne mais en contradiction avec les données statistiques (ne coïncidant pas avec la climatologie du paramètre)</td><td></td></tr>
+<tr><td>3</td><td>Valeur probablement incorrecte (pointe de bruit, gradient, etc., quand avérée par les autres tests)</td><td></td></tr>
+<tr><td>4</td><td>Valeur incorrecte, valeur impossible (hors échelle, instabilité verticale, profil constant)</td><td></td></tr>
+<tr><td>5</td><td>Valeur modifiée au cours du contrôle de qualité</td><td></td></tr>
+<tr><td>6-7</td><td>En réserve</td><td></td></tr>
+<tr><td>8</td><td>Valeur interpolée</td><td></td></tr>
+<tr><td>9</td><td>Valeur utilisable à des fins opérationnelles; attention, il convient de se reporter à une documentation spécialisée pour d&#x27;autres usages</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 052  Qualité du retraitement des données océaniques en bande S</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>Les 20 premiers bits les moins significatifs correspondent aux 20 valeurs (une par bloc de données) contenant 0 = mesure correcte ou 1 = mesure incorrecte. Le bit 1 s&#x27;applique au vingtième bloc de données</td><td></td></tr>
+<tr><td>21 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 053  Qualité du retraitement des données océaniques en bande Ku</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>Les 20 premiers bits les moins significatifs correspondent aux 20 valeurs (une par bloc de données) contenant 0 = mesure correcte ou 1 = mesure incorrecte. Le bit 1 s&#x27;applique au vingtième bloc de données</td><td></td></tr>
+<tr><td>21 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 060  GqisFlagQual - indicateur de qualité du système IASI pour chaque mesure</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne</td><td></td></tr>
+<tr><td>1</td><td>Mauvaise</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 066  Indicateur de qualité du vecteur de mouvement atmosphérique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-21</td><td>En réserve</td><td></td></tr>
+<tr><td>22</td><td>La contrainte concernant la surface de corrélation fait défaut</td><td></td></tr>
+<tr><td>23</td><td>En réserve</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 070  Qualité de l&#x27;ozone total</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne récupération</td><td></td></tr>
+<tr><td>1</td><td>Indicateur d&#x27;informations sur les aérosols inapproprié ou anomalie dans la luminance énergétique NOAA-16</td><td></td></tr>
+<tr><td>2</td><td>Distance zénithale solaire supérieure à 84 degrés</td><td></td></tr>
+<tr><td>3</td><td>Résidu 380nm supérieur à la limite</td><td></td></tr>
+<tr><td>4</td><td>Divergence de l&#x27;ozone</td><td></td></tr>
+<tr><td>5</td><td>Écart entre le profil de l&#x27;ozone et l&#x27;ozone total de l&#x27;étape 3 supérieur au seuil (fixé à 25 DU)</td><td></td></tr>
+<tr><td>6</td><td>L&#x27;itération concernant l&#x27;ozone de l&#x27;étape 1 ne converge pas</td><td></td></tr>
+<tr><td>7</td><td>Un résidu de canal supérieur à 16 ou mauvaise luminance énergétique</td><td></td></tr>
+<tr><td>8</td><td>Nombre insuffisant de pixels - données non traitées</td><td></td></tr>
+<tr><td>9</td><td>Première approximation correcte - données prévues utilisées</td><td></td></tr>
+<tr><td>10</td><td>Nuage élevé dans pixel - données non traitées</td><td></td></tr>
+<tr><td>11</td><td>Extraction des données d&#x27;ozone réussie</td><td></td></tr>
+<tr><td>12</td><td>Échec de l&#x27;extraction des données d&#x27;ozone</td><td></td></tr>
+<tr><td>13-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 071  Qualité du profil de l&#x27;ozone</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne récupération</td><td></td></tr>
+<tr><td>1</td><td>Distance zénithale solaire supérieure à 84 degrés</td><td></td></tr>
+<tr><td>2</td><td>Écart entre l&#x27;étape 3 et le profil de l&#x27;ozone total supérieur à la limite (25 DU)</td><td></td></tr>
+<tr><td>3</td><td>Résidu final moyen pour les longueurs d&#x27;ondes utilisées dans la récupération supérieur au seuil</td><td></td></tr>
+<tr><td>4</td><td>Résidu final supérieur à 3 fois l&#x27;erreur a priori</td><td></td></tr>
+<tr><td>5</td><td>Écart entre les données récupérées et l&#x27;erreur a priori supérieur à 3 fois l&#x27;erreur a priori</td><td></td></tr>
+<tr><td>6</td><td>Solution non convergente</td><td></td></tr>
+<tr><td>7</td><td>Anomalie du profil dans la couche supérieure ou anomalie due à une lumière parasite</td><td></td></tr>
+<tr><td>8</td><td>Résidu initial supérieur à 18,0 unités N</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 072  Erreur relative à l&#x27;ozone</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne récupération</td><td></td></tr>
+<tr><td>1</td><td>Réflectivité hors limites</td><td></td></tr>
+<tr><td>2</td><td>Pixels plus gros (nombre de pixels dans le plan transversal inférieur à 32) ou erreur dans les balayages arrière</td><td></td></tr>
+<tr><td>3</td><td>Distance zénithale solaire supérieure à 88 degrés</td><td></td></tr>
+<tr><td>4</td><td>Latitude/longitude hors limites</td><td></td></tr>
+<tr><td>5</td><td>Distance zénithale ou distance zénithale solaire de la visée hors limites</td><td></td></tr>
+<tr><td>6</td><td>Échec général du calcul Étape 1</td><td></td></tr>
+<tr><td>7</td><td>Première approximation relative à l&#x27;ozone hors limites</td><td></td></tr>
+<tr><td>8</td><td>Trop d&#x27;itérations (plus de 8)</td><td></td></tr>
+<tr><td>9</td><td>Échec du calcul des résidus Étape 1</td><td></td></tr>
+<tr><td>10</td><td>Échec général du calcul Étape 2</td><td></td></tr>
+<tr><td>11</td><td>Première approximation relative au profil de l&#x27;ozone hors limites</td><td></td></tr>
+<tr><td>12</td><td>Valeur de l&#x27;ozone Étape 2 hors limites</td><td></td></tr>
+<tr><td>13</td><td>Échec du calcul des résidus Étape 2</td><td></td></tr>
+<tr><td>14</td><td>Échec général du calcul Étape 3</td><td></td></tr>
+<tr><td>15</td><td>Alerte concernant la correction de la polarisation</td><td></td></tr>
+<tr><td>16</td><td>Luminance ou éclairement énergétique inférieur ou égal à zéro</td><td></td></tr>
+<tr><td>17-30</td><td>En réserve</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 075  Indicateur de qualité au niveau du balayage</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Détection de données manquantes dans le relevé des données brutes (c&#x27;est-à-dire balayage(s) manquant(s) avant ce balayage)</td><td></td></tr>
+<tr><td>2</td><td>L&#x27;heure enregistrée ne respecte pas l&#x27;ordre chronologique (c&#x27;est-à-dire l&#x27;heure de début du balayage n&#x27;est pas dans l&#x27;ordre chronologique)</td><td></td></tr>
+<tr><td>3</td><td>Le calcul de vérification par lambda ne peut être mis à jour</td><td>Note CF72: Mettre a 1 si le calcul de longueur d&#x27;onde du laser est incorrect en raison d&#x27;un courant de polarisation de la diode laser et/ou de mesures de la temperature de la diode laser se situant en dehors des limites prevues.</td></tr>
+<tr><td>4</td><td>Quel que soit le composant de l&#x27;instrument (exemple: diviseur de faisceau, miroir à balayage, déflecteur de balayage, etc.), les températures mesurées se situent en dehors des limites prévues</td><td>Note CF83: Ces temperatures sont utilisees pour calculer la contribution du milieu aux luminances energetiques servant de cibles d&#x27;etalonnage interne. Quand ce bit est mis a 1, il faut remplacer les temperatures incorrectes par les valeurs confirmees de la temperature de la cible d&#x27;etalonnage interne.</td></tr>
+<tr><td>5</td><td>Au moins une des températures contrôlées pour cet instrument dépasse la valeur de tolérance prévue</td><td></td></tr>
+<tr><td>6-12</td><td>En réserve</td><td></td></tr>
+<tr><td>13 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 076  Indicateur de qualité de l&#x27;étalonnage</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Lune décelée sur la première visée de l&#x27;espace lointain</td><td>Note CF71: Mettre a 1 si au moins un spectre de la moyenne mobile pour l&#x27;espace lointain est indique comme incorrect en raison de la presence de la lune.</td></tr>
+<tr><td>2</td><td>Lune décelée sur la deuxième visée de l&#x27;espace lointain</td><td>Note CF71: Mettre a 1 si au moins un spectre de la moyenne mobile pour l&#x27;espace lointain est indique comme incorrect en raison de la presence de la lune.</td></tr>
+<tr><td>3-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 077  Indicateur de qualité du champ de vision</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Qualité dégradée des enregistrements de données de détecteur</td><td></td></tr>
+<tr><td>2</td><td>Qualité insatisfaisante des enregistrements de données de détecteur</td><td>Note CF68: La qualite des enregistrements des donnees de detecteur est insatisfaisante quand la compensation des bits a echoue (voir le bit 12) ou qu&#x27;une erreur du nombre de franges a ete decelee (voir le bit 11) ou que les releves bruts sont incorrects (voir le bit 10) ou que l&#x27;etalonnage radiometrique est incorrect (voir le bit 5) ou que l&#x27;etalonnage spectral est incorrect (voir le bit 7).</td></tr>
+<tr><td>3</td><td>Informations incorrectes de localisation géographique des enregistrements de données de détecteur</td><td></td></tr>
+<tr><td>4</td><td>Étalonnage radiométrique dégradé</td><td></td></tr>
+<tr><td>5</td><td>Étalonnage radiométrique incorrect</td><td>Note CF67: L&#x27;etalonnage radiometrique est incorrect s&#x27;il n&#x27;est pas execute ou s&#x27;il est execute avec des donnees d&#x27;etalonnage incorrectes (ex.: taille de la fenetre de visee de l&#x27;espace lointain egale a 0).</td></tr>
+<tr><td>6</td><td>Étalonnage spectral dégradé</td><td></td></tr>
+<tr><td>7</td><td>Étalonnage spectral incorrect</td><td>Note CF73: L&#x27;etalonnage spectral est incorrect si une erreur du nombre de franges est decelee et corrigee (voir le bit 8) ou si l&#x27;etalonnage a la lampe au neon est suspect et que le calcul de verification par lambda ne peut etre mis a jour (voir l&#x27;indicateur de qualite au niveau du balayage (0 33 075) - bit 3).</td></tr>
+<tr><td>8</td><td>Erreur du nombre de franges décelée et corrigée</td><td>Note CF70: Bit mis a 0 si aucune erreur du nombre de franges a ete detectee (voir le bit 11) ou si une erreur a ete detectee mais pas corrigee.</td></tr>
+<tr><td>9</td><td>Indicateur jour-nuit</td><td>Note CF69: Bit mis a 0 si c&#x27;est le jour (distance zenithale du soleil &lt; 90 degres). Bit mis a 1 si c&#x27;est la nuit (distance zenithale du soleil &gt;= 90 degres).</td></tr>
+<tr><td>10</td><td>Relevés bruts incorrects</td><td>Note CF87: Cela indique des erreurs de fonctionnement de l&#x27;instrument, un ou plusieurs interferogrammes etant alors exclus du traitement permettant d&#x27;obtenir les enregistrements des donnees de detecteur.</td></tr>
+<tr><td>11</td><td>Erreur significative du nombre de franges décelée</td><td>Note CF86: Cela indique qu&#x27;un nombre non negligeable de franges n&#x27;ont pas ete detectees, avec deplacement de la partie centrale (ZPD) de l&#x27;interferogramme en dehors de la fenetre que controle l&#x27;instrument, si bien que l&#x27;interferogramme est exclu du traitement permettant d&#x27;obtenir les enregistrements des donnees de detecteur.</td></tr>
+<tr><td>12</td><td>La compensation des bits a échoué</td><td></td></tr>
+<tr><td>13-18</td><td>En réserve</td><td></td></tr>
+<tr><td>19 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 078  Qualité de la localisation géographique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nominale - altitude et éphémérides disponibles</td><td></td></tr>
+<tr><td>1</td><td>Manque inférieur à un petit blanc dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>2</td><td>Manque supérieur à un petit blanc mais inférieur à une séparation de granules dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>3</td><td>Manque supérieur à une séparation de granules dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>4-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 079  Indicateur de qualité au niveau des granules</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Échec des vérifications d&#x27;intégrité nº 1 à 7</td><td></td></tr>
+<tr><td>7</td><td>Échec des vérifications d&#x27;intégrité nº 8 à 15</td><td></td></tr>
+<tr><td>8</td><td>Échec des vérifications d&#x27;intégrité nº 16 à 23</td><td></td></tr>
+<tr><td>9</td><td>Échec des vérifications d&#x27;intégrité nº 24 à 31</td><td></td></tr>
+<tr><td>10</td><td>Échec des vérifications d&#x27;intégrité nº 32 à 39</td><td></td></tr>
+<tr><td>11</td><td>Échec des vérifications d&#x27;intégrité nº 40 à 47</td><td></td></tr>
+<tr><td>12</td><td>Échec des vérifications d&#x27;intégrité nº 48 à 55</td><td></td></tr>
+<tr><td>13</td><td>Échec des vérifications d&#x27;intégrité nº 56 à 63</td><td></td></tr>
+<tr><td>14</td><td>Échec des vérifications d&#x27;intégrité nº 64 à 70</td><td></td></tr>
+<tr><td>15</td><td>Correction quadratique appliquée à la fonction de transfert radiométrique pour corriger la non-linéarité</td><td></td></tr>
+<tr><td>16 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 080  Indicateur de qualité au niveau du balayage</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Condition découlant d&#x27;une erreur de division par zéro ou non-convergence de la boucle de calcul pour le thermomètre à résistance de platine - bande K/Ka et V (KAV)</td><td></td></tr>
+<tr><td>8</td><td>Condition découlant d&#x27;une erreur de division par zéro ou non-convergence de la boucle de calcul pour le thermomètre à résistance de platine - bande WG</td><td></td></tr>
+<tr><td>9</td><td>Condition découlant d&#x27;une erreur de division par zéro ou non-convergence de la boucle de calcul pour le thermomètre à résistance de platine - bloc des récepteurs en bande K/Ka, V, W, G, calcul de la température K</td><td></td></tr>
+<tr><td>10</td><td>État hors limites pour le thermomètre à résistance de platine - bande K/Ka et V</td><td></td></tr>
+<tr><td>11</td><td>État hors limites pour le thermomètre à résistance de platine - bande WG</td><td></td></tr>
+<tr><td>12</td><td>Manque d&#x27;uniformité de la température fournie par le thermomètre à résistance de platine KAV</td><td></td></tr>
+<tr><td>13</td><td>Manque d&#x27;uniformité de la température fournie par le thermomètre à résistance de platine WG</td><td></td></tr>
+<tr><td>14</td><td>Erreur dans la séquence temporelle</td><td></td></tr>
+<tr><td>15</td><td>Données manquantes - balayage(s) manquant(s) avant ce balayage</td><td></td></tr>
+<tr><td>16</td><td>Données insuffisantes fournies par le thermomètre à résistance de platine KAV</td><td></td></tr>
+<tr><td>17</td><td>Données insuffisantes fournies par le thermomètre à résistance de platine WG</td><td></td></tr>
+<tr><td>18</td><td>Erreur d&#x27;orientation de l&#x27;antenne vers l&#x27;espace</td><td></td></tr>
+<tr><td>19</td><td>Erreur d&#x27;orientation de l&#x27;antenne vers le corps noir</td><td></td></tr>
+<tr><td>20 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 081  Indicateur de qualité des données du canal</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Lune dans la visée de l&#x27;espace</td><td></td></tr>
+<tr><td>4</td><td>Erreur de gain - le chiffre le plus bas vers le corps noir est inférieur ou égal au chiffre le plus haut vers l&#x27;espace pendant un balayage</td><td></td></tr>
+<tr><td>5</td><td>Étalonnage avec un nombre d&#x27;échantillons inférieur au nombre souhaité</td><td></td></tr>
+<tr><td>6</td><td>Vérification des données de visée vers l&#x27;espace - échantillons insuffisants de visées de l&#x27;espace</td><td></td></tr>
+<tr><td>7</td><td>Vérification des données de visée vers le corps noir - échantillons insuffisants de visées du corps noir</td><td></td></tr>
+<tr><td>8</td><td>État hors limites pour la visée de l&#x27;espace</td><td></td></tr>
+<tr><td>9</td><td>État hors limites pour la visée du corps noir</td><td></td></tr>
+<tr><td>10</td><td>Manque d&#x27;uniformité de la visée de l&#x27;espace</td><td></td></tr>
+<tr><td>11</td><td>Manque d&#x27;uniformité de la visée du corps noir</td><td></td></tr>
+<tr><td>12 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 082  Indicateur de qualité de la localisation géographique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Dans l&#x27;anomalie de l&#x27;Atlantique Sud</td><td></td></tr>
+<tr><td>7</td><td>Donnée initiale invalide (indique que l&#x27;une quelconque des données initiales d&#x27;altitude ou d&#x27;éphémérides provenant de l&#x27;engin spatial est invalide)</td><td></td></tr>
+<tr><td>8</td><td>Mauvais pointage (indique que la ligne de visée du capteur ne coupe pas le géoïde, est proche du limbe, présente des angles invalides ou autre condition similaire)</td><td></td></tr>
+<tr><td>9</td><td>Mauvais terrain (indique que l&#x27;algorithme n&#x27;a pu obtenir une valeur de terrain valide)</td><td></td></tr>
+<tr><td>10</td><td>Angles solaires invalides</td><td></td></tr>
+<tr><td>11</td><td>Manque inférieur à un petit blanc dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>12</td><td>Manque supérieur à un petit blanc mais inférieur à une séparation de granules dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>13</td><td>Manque supérieur à une séparation de granules dans les données d&#x27;altitude et d&#x27;éphémérides</td><td></td></tr>
+<tr><td>14</td><td>Le nombre de valeurs des impulsions de l&#x27;encodeur par temps delta ne correspond pas au chiffre attendu</td><td></td></tr>
+<tr><td>15</td><td>Éclipse solaire pendant le balayage vers la Terre</td><td></td></tr>
+<tr><td>16 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 083  Indicateur de qualité des données sur la luminance énergétique</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Le brouillage radioélectrique a des incidences sur les pixels</td><td></td></tr>
+<tr><td>7</td><td>Étalonnage médiocre dû aux mauvais décalages de visée de l&#x27;espace, décalages de visée du système OBC, etc. ou à l&#x27;utilisation d&#x27;une visée d&#x27;étalonnage antérieure</td><td></td></tr>
+<tr><td>8</td><td>Pixel saturé</td><td></td></tr>
+<tr><td>9</td><td>Données manquantes - les données requises pour l&#x27;étalonnage ne sont pas disponibles pour le traitement</td><td></td></tr>
+<tr><td>10</td><td>Luminance énergétique hors limites pour le pixel étalonné</td><td></td></tr>
+<tr><td>11</td><td>Température équivalente de corps noir ou facteur de réflexion hors limites pour le pixel étalonné</td><td></td></tr>
+<tr><td>12</td><td>Vue de l&#x27;espace altérée par la lune</td><td></td></tr>
+<tr><td>13</td><td>Absence de données de balayage (aucune donnée valide)</td><td></td></tr>
+<tr><td>14</td><td>Qualité réduite pour cette ligne de balayage. La valeur est déterminée par le nombre combiné d&#x27;étapes requises pour trouver un remplacement aux données de la source d&#x27;étalonnage ou de la thermistance</td><td></td></tr>
+<tr><td>15</td><td>Mauvais détecteur</td><td></td></tr>
+<tr><td>16 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 084  Indicateurs de qualité au niveau du pixel</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Température de surface «profonde» hors intervalle de validation</td><td></td></tr>
+<tr><td>7</td><td>Température de la pellicule superficielle hors intervalle de validation</td><td></td></tr>
+<tr><td>8</td><td>Distance zénithale du capteur &gt; 40° (pixel n&#x27;étant pas de qualité élevée car situé hors de 40° du nadir)</td><td></td></tr>
+<tr><td>9</td><td>Dégradation - dimension horizontale de la cellule &gt; 1,3 km (avec fauchée &gt; 1 700 km et distance zénithale du capteur &gt; 50,3°)</td><td></td></tr>
+<tr><td>10</td><td>Exclusion: pas d&#x27;océan dans le pixel</td><td></td></tr>
+<tr><td>11</td><td>Dégradation: épaisseur optique des aérosols (AOT) &gt; 0,6 (AOT dans cellule horizontale &gt; 0,6 sur la trajectoire oblique (AOT@550nm))</td><td></td></tr>
+<tr><td>12</td><td>Exclusion: AOT &gt; 1,0 (AOT dans cellule horizontale &gt; 1,0 sur la trajectoire oblique (AOT@550nm))</td><td></td></tr>
+<tr><td>13</td><td>Reflet solaire dans pixel</td><td></td></tr>
+<tr><td>14</td><td>Dépassement du seuil de concentration de la glace (la température de la surface de la mer n&#x27;est pas extraite, car la concentration de glace dépasse le seuil fixé dans les caractéristiques du système)</td><td></td></tr>
+<tr><td>15</td><td>Cirrus fin détecté dans le pixel</td><td></td></tr>
+<tr><td>16 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 085  Indicateur de qualité de l&#x27;épaisseur optique des aérosols</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>En réserve</td><td></td></tr>
+<tr><td>4</td><td>Exposant d&#x27;Ångström non compris dans la fourchette de valeurs du système</td><td></td></tr>
+<tr><td>5</td><td>Exclu, exposant d&#x27;Ångström pour l&#x27;épaisseur optique de l&#x27;aérosol à 550 nm &lt; 0,15</td><td></td></tr>
+<tr><td>6</td><td>Surface réfléchissante dans la cellule (si au-dessus de la terre), ou eau peu profonde ou turbide dans la cellule (si au-dessus de l&#x27;océan)</td><td></td></tr>
+<tr><td>7</td><td>Soleil bas, exclu, distance zénithale du soleil &gt; 80 degrés</td><td></td></tr>
+<tr><td>8</td><td>Soleil bas, dégradé, 65 degrés &lt; distance zénithale du soleil ≤ 80 degrés</td><td></td></tr>
+<tr><td>9</td><td>Incendie détecté dans la cellule</td><td></td></tr>
+<tr><td>10</td><td>Neige/glace dans la cellule</td><td></td></tr>
+<tr><td>11</td><td>Ombres de nuages dans la cellule</td><td></td></tr>
+<tr><td>12</td><td>Reflet solaire dans la cellule</td><td></td></tr>
+<tr><td>13</td><td>Mauvaise qualité des enregistrements des données de détecteur dans la dimension horizontale de la cellule (dégradation de l&#x27;épaisseur optique des aérosols (AOT) et du paramètre de la taille de l&#x27;aérosol (APSP) ou AOT/APSP non extraits en raison de la mauvaise qualité des enregistrements des données de détecteur dans la dimension horizontale de la cellule)</td><td></td></tr>
+<tr><td>14</td><td>Contamination par des cirrus dans la cellule</td><td></td></tr>
+<tr><td>15</td><td>Nuage adjacent à la cellule</td><td></td></tr>
+<tr><td>16</td><td>Contamination des nuages dans la cellule</td><td></td></tr>
+<tr><td>17</td><td>Épaisseur optique des aérosols non comprise dans la fourchette de valeurs du système</td><td></td></tr>
+<tr><td>18 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 086  Qualité de l&#x27;extraction au niveau du pixel</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Donnée non extraite</td><td></td></tr>
+<tr><td>1</td><td>Donnée exclue</td><td></td></tr>
+<tr><td>2</td><td>Donnée dégradée</td><td></td></tr>
+<tr><td>3</td><td>Qualité élevée</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 087  Portée du satellite dans l&#x27;anomalie de l&#x27;Atlantique Sud (sur la base des données climatologiques)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inférieure ou égale à 10 %</td><td></td></tr>
+<tr><td>1</td><td>Supérieure à 10 % mais inférieure ou égale à 20 %</td><td></td></tr>
+<tr><td>2</td><td>Supérieure à 20 % mais inférieure ou égale à 30 %</td><td></td></tr>
+<tr><td>3</td><td>Supérieure à 30 % mais inférieure ou égale à 40 %</td><td></td></tr>
+<tr><td>4</td><td>Supérieure à 40 % mais inférieure ou égale à 50 %</td><td></td></tr>
+<tr><td>5</td><td>Supérieure à 50 % mais inférieure ou égale à 60 %</td><td></td></tr>
+<tr><td>6</td><td>Supérieure à 60 % mais inférieure ou égale à 70 %</td><td></td></tr>
+<tr><td>7</td><td>Supérieure à 70 % mais inférieure ou égale à 80 %</td><td></td></tr>
+<tr><td>8</td><td>Supérieure à 80 %</td><td></td></tr>
+<tr><td>9-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 088  Indicateur de qualité de la colonne totale d&#x27;ozone</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Réflectivité de la surface hors limites</td><td></td></tr>
+<tr><td>7</td><td>Résiduel trop élevé</td><td></td></tr>
+<tr><td>8</td><td>Limite de l&#x27;indice d&#x27;aérosol dépassée</td><td></td></tr>
+<tr><td>9</td><td>Éclipse solaire (la totalité ou une partie du champ de vision instantanée (IFOV) est affectée par une éclipse solaire, l&#x27;ombre ou la pénombre)</td><td></td></tr>
+<tr><td>10</td><td>Reflets du soleil dans le champ de vision instantanée</td><td></td></tr>
+<tr><td>11</td><td>Surface de neige ou de glace dans le champ de vision instantanée</td><td></td></tr>
+<tr><td>12</td><td>Distance zénithale du soleil en condition d&#x27;exclusion (nuit) (distance zénithale du soleil ≥ 88 degrés)</td><td></td></tr>
+<tr><td>13</td><td>Distance zénithale du soleil en condition dégradée (80 degrés ≤ distance zénithale du soleil &lt; 88 degrés)</td><td></td></tr>
+<tr><td>14</td><td>Indice de SO2 &gt; 6 unités Dobson (condition dégradée)</td><td></td></tr>
+<tr><td>15</td><td>Les résidus ne sont pas homogènes (indique si les résidus des 22 longueurs d&#x27;onde sont homogènes)</td><td></td></tr>
+<tr><td>16</td><td>La sélection d&#x27;O3 triplet n&#x27;est pas homogène dans le produit de l&#x27;extraction (homogénéité de l&#x27;ozone triplet)</td><td></td></tr>
+<tr><td>17</td><td>Mauvaise qualité des données d&#x27;entrée</td><td></td></tr>
+<tr><td>18 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 092  Indicateur de qualité des données sur l&#x27;océan dans une bande précise</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Altimètre en fonction</td><td></td></tr>
+<tr><td>2</td><td>Radiomètre hyperfréquence en fonction</td><td></td></tr>
+<tr><td>3-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

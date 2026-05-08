@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 22</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 22</h1>
+<p class="fxy-heading">0 22 056  Direction of profile</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Upwards profile</td><td></td></tr>
+<tr><td>1</td><td>Downwards profile</td><td></td></tr>
+<tr><td>2</td><td>Horizontal</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 060  Lagrangian drifter drogue status</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Drogue is detached</td><td></td></tr>
+<tr><td>1</td><td>Drogue is attached</td><td></td></tr>
+<tr><td>2</td><td>Drogue status unknown</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 061  State of the sea</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Calm (glassy)</td><td>0</td><td></td></tr>
+<tr><td>1</td><td>Calm (rippled)</td><td>0 - 0.1</td><td></td></tr>
+<tr><td>2</td><td>Smooth (wavelets)</td><td>0.1 - 0.5</td><td></td></tr>
+<tr><td>3</td><td>Slight</td><td>0.5 - 1.25</td><td></td></tr>
+<tr><td>4</td><td>Moderate</td><td>1.25 - 2.5</td><td></td></tr>
+<tr><td>5</td><td>Rough</td><td>2.5 - 4</td><td></td></tr>
+<tr><td>6</td><td>Very rough</td><td>4 - 6</td><td></td></tr>
+<tr><td>7</td><td>High</td><td>6 - 9</td><td></td></tr>
+<tr><td>8</td><td>Very high</td><td>9 - 14</td><td></td></tr>
+<tr><td>9</td><td>Phenomenal</td><td>Over 14</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF76: The exact bounding height shall be assigned for the lower code figure; e.g., a height of 4 m is coded as 5.</p>
+<p class="note">Note CF84: These values refer to well-developed wind waves of the open sea. While priority shall be given to the descriptive terms, these height values may be used for guidance by the observer when reporting the total state of agitation of the sea resulting from various factors such as wind, swell, currents, angle between swell and wind, etc.</p>
+</div>
+<p class="fxy-heading">0 22 067  Instrument type for water temperature/salinity profile measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF8: (See Common Code table C-3)</p>
+</div>
+<p class="fxy-heading">0 22 068  Water temperature profile recorder types</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF9: (See Common Code table C-4)</p>
+</div>
+<p class="fxy-heading">0 22 120  Tide station automated water level check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good data</td><td></td></tr>
+<tr><td>1</td><td>Maximum (high) water level limit exceeded</td><td></td></tr>
+<tr><td>2</td><td>Minimum (low) water level limit exceeded</td><td></td></tr>
+<tr><td>3</td><td>Rate of change limit for water level exceeded</td><td></td></tr>
+<tr><td>4</td><td>Flat limit for water level exceeded</td><td></td></tr>
+<tr><td>5</td><td>Observed minus predicted water level value limit exceeded</td><td></td></tr>
+<tr><td>6</td><td>Observed value from primary water level sensor minus backup water level sensor</td><td></td></tr>
+<tr><td>7</td><td>Value exceeded specified tolerance from expected value</td><td></td></tr>
+<tr><td>8</td><td>Water level QA parameter (sigmas and/or outliers) limits exceeded</td><td></td></tr>
+<tr><td>9</td><td>Sea temperature outside of expected range</td><td></td></tr>
+<tr><td>10</td><td>Multiple QC checks (above) failed</td><td></td></tr>
+<tr><td>11</td><td>No automated water level checks performed</td><td></td></tr>
+<tr><td>12-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 121  Tide station manual water level check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Operational</td><td></td></tr>
+<tr><td>1</td><td>Possible clogging problem or otherwise degraded water level data</td><td></td></tr>
+<tr><td>2</td><td>Possible datum shift</td><td></td></tr>
+<tr><td>3</td><td>Unknown status of water level sensor</td><td></td></tr>
+<tr><td>4</td><td>Suspected or known sea temperature sensor problem</td><td></td></tr>
+<tr><td>5</td><td>Multiple possible problems (above)</td><td></td></tr>
+<tr><td>6</td><td>Bad data - DO NOT DISSEMINATE!</td><td></td></tr>
+<tr><td>7</td><td>No manual water level checks performed</td><td></td></tr>
+<tr><td>8-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 122  Tide station automated meteorological data check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good data from all sensors</td><td></td></tr>
+<tr><td>1</td><td>Wind direction outside of allowable range</td><td></td></tr>
+<tr><td>2</td><td>Wind speed outside of expected range</td><td></td></tr>
+<tr><td>3</td><td>Barometric pressure outside of expected range</td><td></td></tr>
+<tr><td>4</td><td>Air temperature outside of expected range</td><td></td></tr>
+<tr><td>5</td><td>Multiple sensors failed QC checks</td><td></td></tr>
+<tr><td>6</td><td>No automated meteorological data checks performed</td><td></td></tr>
+<tr><td>7-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 123  Tide station manual meteorological data check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Operational</td><td></td></tr>
+<tr><td>1</td><td>Suspected or known problem with wind sensor</td><td></td></tr>
+<tr><td>2</td><td>Suspected or known problem with barometric pressure sensor</td><td></td></tr>
+<tr><td>3</td><td>Suspected or known problem with air temperature sensor</td><td></td></tr>
+<tr><td>4</td><td>Unknown status of all sensors</td><td></td></tr>
+<tr><td>5</td><td>Suspected or known problems with multiple sensors</td><td></td></tr>
+<tr><td>6</td><td>Bad data - DO NOT DISSEMINATE!</td><td></td></tr>
+<tr><td>7</td><td>No manual meteorological data checks performed</td><td></td></tr>
+<tr><td>8-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 22 178  XBT/XCTD launcher type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unknown</td><td></td></tr>
+<tr><td>1</td><td>LM-2A Deck-mounted</td><td></td></tr>
+<tr><td>2</td><td>LM-3A Hand-Held</td><td></td></tr>
+<tr><td>3</td><td>LM-4A Thru-Hull</td><td></td></tr>
+<tr><td>4-9</td><td>Reserved</td><td></td></tr>
+<tr><td>10</td><td>AL-12 TSK Autolauncher (up to 12 probes)</td><td></td></tr>
+<tr><td>11-19</td><td>Reserved</td><td></td></tr>
+<tr><td>20</td><td>SIO XBT Autolauncher (up to 6 probes)</td><td></td></tr>
+<tr><td>21-29</td><td>Reserved</td><td></td></tr>
+<tr><td>30</td><td>AOML XBT V6 Autolauncher (up to 6 Deep Blue probes)</td><td></td></tr>
+<tr><td>31</td><td>AOML XBT V8.0 Autolauncher (up to 8 Deep Blue probes)</td><td></td></tr>
+<tr><td>32</td><td>AOML XBT V8.1 Autolauncher (up to 8 Deep Blue and Fast Deep probes)</td><td></td></tr>
+<tr><td>33-89</td><td>Reserved</td><td></td></tr>
+<tr><td>90</td><td>CSIRO Devil Autolauncher</td><td></td></tr>
+<tr><td>91-99</td><td>Reserved</td><td></td></tr>
+<tr><td>100</td><td>MFSTEP Autolauncher (Mediterranean)</td><td></td></tr>
+<tr><td>101-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

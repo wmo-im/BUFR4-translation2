@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 40</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 40</h1>
+<p class="fxy-heading">0 40 005  Soil moisture correction flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Soil moisture between -20% and 0%</td><td></td></tr>
+<tr><td>2</td><td>Soil moisture between 100% and 120%</td><td></td></tr>
+<tr><td>3</td><td>Correction of wet backscatter reference</td><td></td></tr>
+<tr><td>4</td><td>Correction of dry backscatter reference</td><td></td></tr>
+<tr><td>5</td><td>Correction of volume scattering in sand</td><td></td></tr>
+<tr><td>6-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF81: The nominal range for the surface soil moisture is 0% - 100%. In extreme cases, the extrapolated backscatter at 40 degrees incidence angle may exceed the dry or the wet backscatter reference. In these cases, the value provided by the measurement process of surface soil moisture is, respectively,less than 0% or more than 100%.</p>
+</div>
+<p class="fxy-heading">0 40 006  Soil moisture processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Not soil</td><td></td></tr>
+<tr><td>2</td><td>Sensitivity to soil moisture below limit</td><td></td></tr>
+<tr><td>3</td><td>Azimuthal noise above limit</td><td></td></tr>
+<tr><td>4</td><td>Backscatter Fore-Aft beam out of range</td><td></td></tr>
+<tr><td>5</td><td>Slope Mid-Fore beam out of range</td><td></td></tr>
+<tr><td>6</td><td>Slope Mid-Aft beam out of range</td><td></td></tr>
+<tr><td>7</td><td>Soil moisture below -20%</td><td></td></tr>
+<tr><td>8</td><td>Soil moisture above 120%</td><td></td></tr>
+<tr><td>9-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF81: The nominal range for the surface soil moisture is 0% - 100%. In extreme cases, the extrapolated backscatter at 40 degrees incidence angle may exceed the dry or the wet backscatter reference. In these cases, the value provided by the measurement process of surface soil moisture is, respectively,less than 0% or more than 100%.</p>
+</div>
+<p class="fxy-heading">0 40 011  Interpolation flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Mean sea-surface (MSS) interpolation flag</td><td></td></tr>
+<tr><td>2</td><td>Ocean tide solution 1 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)</td><td></td></tr>
+<tr><td>3</td><td>Ocean tide solution 2 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)</td><td></td></tr>
+<tr><td>4</td><td>Meteorological data interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)</td><td></td></tr>
+<tr><td>5-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 012  Radiometer data quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>18.7 GHz brightness temperature</td><td></td></tr>
+<tr><td>2</td><td>23.8 GHz brightness temperature</td><td></td></tr>
+<tr><td>3</td><td>34 GHz brightness temperature</td><td></td></tr>
+<tr><td>4-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 013  Radiometer brightness temperature interpretation flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Interpolation with no gap between JMR data</td><td></td></tr>
+<tr><td>1</td><td>Interpolation with gaps between JMR data</td><td></td></tr>
+<tr><td>2</td><td>Extrapolation of JMR data</td><td></td></tr>
+<tr><td>3</td><td>Failure of extrapolation and interpolation</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 020  GqisFlagQualDetailed - quality flag for the system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>NZPD and complex calibration error</td><td></td></tr>
+<tr><td>2</td><td>Band 3 affected by spike</td><td></td></tr>
+<tr><td>3</td><td>Band 3 affected by saturation</td><td></td></tr>
+<tr><td>4</td><td>Band 2 affected by spike</td><td></td></tr>
+<tr><td>5</td><td>Band 1 affected by spike</td><td></td></tr>
+<tr><td>6</td><td>Overflow/under flow</td><td></td></tr>
+<tr><td>7</td><td>On-board processing error</td><td></td></tr>
+<tr><td>8</td><td>Spectral calibration error</td><td></td></tr>
+<tr><td>9</td><td>Radiometric calibration error</td><td></td></tr>
+<tr><td>10</td><td>Missing AVHRR data</td><td></td></tr>
+<tr><td>11</td><td>Missing IIS data</td><td></td></tr>
+<tr><td>12</td><td>Missing sounder data</td><td></td></tr>
+<tr><td>13</td><td>GqisFlagQual summary flag for all bands</td><td></td></tr>
+<tr><td>14</td><td>On-ground processing error</td><td></td></tr>
+<tr><td>15</td><td>Inter-calibration error IASI/AVHRR</td><td></td></tr>
+<tr><td>16</td><td>Spare</td><td></td></tr>
+<tr><td>All 17</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 023  Auxiliary altimeter state flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Band sequence (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)</td><td></td></tr>
+<tr><td>2</td><td>C band frequency (0 = 320 MHz, 1 = 100 MHz)</td><td></td></tr>
+<tr><td>3</td><td>C band status (0 = On, 1 = Off)</td><td></td></tr>
+<tr><td>4</td><td>Ku band status (0 = On, 1 = Off)</td><td></td></tr>
+<tr><td>All 5</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 024  Meteorological map availability</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>2 maps available (6 hours apart)</td><td></td></tr>
+<tr><td>1</td><td>2 maps available (&gt; 6 hours apart)</td><td></td></tr>
+<tr><td>2</td><td>1 map available; data extrapolated</td><td></td></tr>
+<tr><td>3</td><td>No maps used</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 025  Interpolation flag for mean diurnal tide</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Bad</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 028  GMI quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good data</td><td></td></tr>
+<tr><td>1</td><td>Possible sun glint</td><td></td></tr>
+<tr><td>2</td><td>Possible radio-frequency interference</td><td></td></tr>
+<tr><td>3</td><td>Degraded geolocation data</td><td></td></tr>
+<tr><td>4</td><td>Data corrected for warm load intrusion</td><td></td></tr>
+<tr><td>5</td><td>Scan blanking on</td><td></td></tr>
+<tr><td>6</td><td>Data is missing from file or unreadable</td><td></td></tr>
+<tr><td>7</td><td>Unphysical brightness temperature</td><td></td></tr>
+<tr><td>8</td><td>Error in geolocation data</td><td></td></tr>
+<tr><td>9</td><td>Data missing in one channel</td><td></td></tr>
+<tr><td>10</td><td>Data missing in multiple channels</td><td></td></tr>
+<tr><td>11</td><td>Lat/lon values are out of range</td><td></td></tr>
+<tr><td>12</td><td>Non-normal status modes</td><td></td></tr>
+<tr><td>13</td><td>Distance to corresponding low frequency pixel &gt; 7 km</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value (no quality information available)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 036  Lidar L2b classification type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Clear</td><td></td></tr>
+<tr><td>1</td><td>Cloud</td><td></td></tr>
+<tr><td>2</td><td>Aerosol</td><td></td></tr>
+<tr><td>3</td><td>Attenuated</td><td></td></tr>
+<tr><td>4</td><td>Surface</td><td></td></tr>
+<tr><td>5-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 043  Satellite manoeuvre indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>The platform is not undergoing a manoeuvre</td><td></td></tr>
+<tr><td>1</td><td>The platform is undergoing a manoeuvre, nominal processing</td><td></td></tr>
+<tr><td>2</td><td>The platform is undergoing a manoeuvre, no processing</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 045  Cloud formation and height assignment</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Cloud products retrieved with the chi-squared method</td><td></td></tr>
+<tr><td>2</td><td>Cloud products retrieved with the CO2-slicing</td><td></td></tr>
+<tr><td>3</td><td>Height assignment performed with statistical first guess retrieval</td><td></td></tr>
+<tr><td>4</td><td>Height assignment performed with NWP forecasts</td><td></td></tr>
+<tr><td>All 5</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 046  Cloudiness summary</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>The IASI IFOV is clear</td><td></td></tr>
+<tr><td>1</td><td>Small cloud contamination possible</td><td></td></tr>
+<tr><td>2</td><td>The IASI IFOV is partially covered by clouds</td><td></td></tr>
+<tr><td>3</td><td>High or full cloud coverage</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 047  Validation flag for IASI or IASI-NG level 1 product</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>The measurements and side information are available and of good quality for L2 processing</td><td></td></tr>
+<tr><td>1</td><td>The L1c products are of degraded quality according to L1c flags, no L2 processing</td><td></td></tr>
+<tr><td>2</td><td>Quality control indicates that the L1c data are of degraded quality (not indicated by the IASI L1c flags), no L2 processing</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 048  Validation flag of AMSU-A level 1 data flow</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>The expected AMSU measurements are available, of good quality and collocated with IASI for processing</td><td></td></tr>
+<tr><td>1</td><td>AMSU-A data are available but of degraded quality (according to AMSU L1 flags or QC tests) and not used for processing</td><td></td></tr>
+<tr><td>2</td><td>No coincident (time and space) AMSU measurements available for processing</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 049  Cloud tests executed and results</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>Reserved</td><td></td></tr>
+<tr><td>4</td><td>IASI cloud optical thickness indicates a cloud</td><td></td></tr>
+<tr><td>5</td><td>IASI cloud optical thickness computed</td><td></td></tr>
+<tr><td>6</td><td>AVHRR heterogeneity test indicates a cloud</td><td></td></tr>
+<tr><td>7</td><td>AVHRR heterogeneity test executed</td><td></td></tr>
+<tr><td>8</td><td>IASI-AVHRR ANN cloud test indicates a cloud</td><td></td></tr>
+<tr><td>9</td><td>IASI-AVHRR ANN cloud test executed</td><td></td></tr>
+<tr><td>10</td><td>AVHRR integrated cloud fraction indicates a cloud</td><td></td></tr>
+<tr><td>11</td><td>AVHRR integrated cloud fraction assessed</td><td></td></tr>
+<tr><td>12</td><td>AMSU cloud test indicates a cloud</td><td></td></tr>
+<tr><td>13</td><td>AMSU cloud test executed</td><td></td></tr>
+<tr><td>14</td><td>IASI Window cloud test indicates a cloud</td><td></td></tr>
+<tr><td>15</td><td>IASI Window cloud test executed</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 050  Retrieval initialisation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>Reserved</td><td></td></tr>
+<tr><td>5</td><td>MHS included</td><td></td></tr>
+<tr><td>6</td><td>AMSU included</td><td></td></tr>
+<tr><td>7</td><td>IASI included</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 051  Convergence of the iterative retrieval</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Optimal estimation methods (OEM) not attempted</td><td></td></tr>
+<tr><td>1</td><td>OEM aborted because first guess residuals too high</td><td></td></tr>
+<tr><td>2</td><td>The minimization did not converge, sounding rejected</td><td></td></tr>
+<tr><td>3</td><td>The minimization did not converge, sounding accepted</td><td></td></tr>
+<tr><td>4</td><td>The minimization converged but sounding rejected</td><td></td></tr>
+<tr><td>5</td><td>The minimization converged, sounding accepted</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 052  Indication of super-adiabatic and super-saturation in final retrieval</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>Reserved</td><td></td></tr>
+<tr><td>4</td><td>Supersaturation conditions in the OEM retrieval</td><td></td></tr>
+<tr><td>5</td><td>Superadiabatic conditions in the OEM retrieval</td><td></td></tr>
+<tr><td>6</td><td>Supersaturation conditions in the first guess</td><td></td></tr>
+<tr><td>7</td><td>Superadiabatic conditions in the first guess</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 054  Potential processing and inputs errors</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>An error has been detected</td><td></td></tr>
+<tr><td>2</td><td>Message from L1</td><td></td></tr>
+<tr><td>3</td><td>Message from L2</td><td></td></tr>
+<tr><td>4</td><td>Message from ancillary data</td><td></td></tr>
+<tr><td>5</td><td>Message from fitting procedure</td><td></td></tr>
+<tr><td>6</td><td>File opening</td><td></td></tr>
+<tr><td>7</td><td>File reading</td><td></td></tr>
+<tr><td>8</td><td>Quality flag</td><td></td></tr>
+<tr><td>9</td><td>Level 2 &quot;from linear regression&quot;(F_Qual), report a pixel where L2 are not fully trusted</td><td></td></tr>
+<tr><td>10</td><td>Empty field or data</td><td></td></tr>
+<tr><td>11</td><td>Missing surface pressure value</td><td></td></tr>
+<tr><td>12</td><td>Radiance filtering</td><td></td></tr>
+<tr><td>All 13</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 055  Diagnostics on the retrieval</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Radiance filtering</td><td></td></tr>
+<tr><td>2</td><td>Polar regions</td><td></td></tr>
+<tr><td>3</td><td>Location in the night</td><td></td></tr>
+<tr><td>4</td><td>Negative altitude surface below mean sea level</td><td></td></tr>
+<tr><td>5</td><td>Cloud covered scene</td><td></td></tr>
+<tr><td>6</td><td>Scene above the sea</td><td></td></tr>
+<tr><td>7</td><td>Scene above desert</td><td></td></tr>
+<tr><td>8</td><td>Skin temperature</td><td></td></tr>
+<tr><td>9</td><td>Skin temperature differential</td><td></td></tr>
+<tr><td>10</td><td>Spectral line contrast too weak</td><td></td></tr>
+<tr><td>11</td><td>Maximum number of iterations exceeded</td><td></td></tr>
+<tr><td>12</td><td>Negative partial columns</td><td></td></tr>
+<tr><td>13</td><td>Matrix ill conditioned</td><td></td></tr>
+<tr><td>14</td><td>Fit diverged</td><td></td></tr>
+<tr><td>15</td><td>Error in GNU scientific library (GSL) usage</td><td></td></tr>
+<tr><td>16</td><td>Residuals &quot;biased&quot;</td><td></td></tr>
+<tr><td>17</td><td>Residuals &quot;sloped&quot;</td><td></td></tr>
+<tr><td>18</td><td>Residuals root mean square (RMS) error is large</td><td></td></tr>
+<tr><td>19</td><td>Weird averaging kernels</td><td></td></tr>
+<tr><td>20</td><td>Ice presence detected</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 056  General retrieval quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Use not recommended</td><td></td></tr>
+<tr><td>1</td><td>Use with caution</td><td></td></tr>
+<tr><td>2</td><td>Best quality</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 057  IASI level 2 retrieval flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>An error has been detected</td><td></td></tr>
+<tr><td>2</td><td>Message from L1</td><td></td></tr>
+<tr><td>3</td><td>Message from L2</td><td></td></tr>
+<tr><td>4</td><td>Message from ancillary data</td><td></td></tr>
+<tr><td>5</td><td>Message from fitting procedure</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Bad L1 or L2 flag raised</td><td></td></tr>
+<tr><td>8</td><td>Level 2 not fully trusted</td><td></td></tr>
+<tr><td>9</td><td>Missing temperature or humidity levels in the vertical profile</td><td></td></tr>
+<tr><td>10</td><td>Missing surface pressure value</td><td></td></tr>
+<tr><td>11</td><td>Radiance filtering</td><td></td></tr>
+<tr><td>12</td><td>Polar regions</td><td></td></tr>
+<tr><td>13</td><td>Location in the night</td><td></td></tr>
+<tr><td>14</td><td>Negative altitude</td><td></td></tr>
+<tr><td>15</td><td>Cloud covered scene</td><td></td></tr>
+<tr><td>16</td><td>Scene above the sea</td><td></td></tr>
+<tr><td>17</td><td>Scene above desert</td><td></td></tr>
+<tr><td>18</td><td>Missing skin temperature</td><td></td></tr>
+<tr><td>19</td><td>Retrieved skin temperature too different from model</td><td></td></tr>
+<tr><td>20</td><td>Spectral line contrast too weak</td><td></td></tr>
+<tr><td>21</td><td>Maximum number of iterations exceeds</td><td></td></tr>
+<tr><td>22</td><td>Negative partial columns</td><td></td></tr>
+<tr><td>23</td><td>Matrix ill conditioned</td><td></td></tr>
+<tr><td>24</td><td>Fit diverged</td><td></td></tr>
+<tr><td>25</td><td>Error in GSL usage</td><td></td></tr>
+<tr><td>26</td><td>Residuals biased</td><td></td></tr>
+<tr><td>27</td><td>Residuals sloped</td><td></td></tr>
+<tr><td>28</td><td>Residuals RMS error is large</td><td></td></tr>
+<tr><td>29</td><td>Weird averaging kernels</td><td></td></tr>
+<tr><td>30</td><td>Ice presence detected</td><td></td></tr>
+<tr><td>All 31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 068  General retrieval quality flag for SO2</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Values calculated with IASI L2</td><td></td></tr>
+<tr><td>1</td><td>Pressure and temperature profiles missing in IASI L2 data; model/forecast data used instead</td><td></td></tr>
+<tr><td>2</td><td>Best quality</td><td></td></tr>
+<tr><td>3-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 074  General interferometry quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Incompatibility of a scan angle for electroencephalogram</td><td></td></tr>
+<tr><td>2</td><td>Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)</td><td></td></tr>
+<tr><td>3</td><td>Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue</td><td></td></tr>
+<tr><td>4</td><td>High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed</td><td></td></tr>
+<tr><td>5</td><td>Interferometry package flag</td><td></td></tr>
+<tr><td>6</td><td>General accuracy flag</td><td></td></tr>
+<tr><td>7</td><td>Noise present during the interferometry</td><td></td></tr>
+<tr><td>8</td><td>Outgassing of the radiation cooler</td><td></td></tr>
+<tr><td>9</td><td>Flag preceding the first 24 hours/day mark (set to on as a rule)</td><td></td></tr>
+<tr><td>10</td><td>Telemetry package flag</td><td></td></tr>
+<tr><td>11-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 077  Ocean product quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Sea surface temperature not OK</td><td></td></tr>
+<tr><td>2</td><td>Sea surface wind speed not OK</td><td></td></tr>
+<tr><td>3</td><td>Atmospheric water vapour content not OK</td><td></td></tr>
+<tr><td>4</td><td>Cloud liquid water content not OK</td><td></td></tr>
+<tr><td>5-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 080  Cloud test results for IASI-NG level 2</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Thin cirrus detection executed</td><td></td></tr>
+<tr><td>2</td><td>Thin cirrus detection indicates a cloud</td><td></td></tr>
+<tr><td>3</td><td>Aerosol dust detection executed</td><td></td></tr>
+<tr><td>4</td><td>Aerosol dust detected</td><td></td></tr>
+<tr><td>All 5</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 40 081  OLCI Level 1 classification and quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-17</td><td>Reserved</td><td></td></tr>
+<tr><td>18</td><td>Land</td><td></td></tr>
+<tr><td>19</td><td>Coastline</td><td></td></tr>
+<tr><td>20</td><td>Fresh inland water</td><td></td></tr>
+<tr><td>21</td><td>Tidal regions</td><td></td></tr>
+<tr><td>22</td><td>Preliminary cloud</td><td></td></tr>
+<tr><td>23</td><td>Stray light risk</td><td></td></tr>
+<tr><td>24</td><td>Invalid</td><td></td></tr>
+<tr><td>25</td><td>Cosmetic</td><td></td></tr>
+<tr><td>26</td><td>Duplicated</td><td></td></tr>
+<tr><td>27</td><td>Sun glint risk</td><td></td></tr>
+<tr><td>28</td><td>Dubious</td><td></td></tr>
+<tr><td>29</td><td>Saturated</td><td></td></tr>
+<tr><td>30</td><td>Partly saturated</td><td></td></tr>
+<tr><td>All 31</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

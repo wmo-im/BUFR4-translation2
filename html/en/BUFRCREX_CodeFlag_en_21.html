@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 21</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 21</h1>
+<p class="fxy-heading">0 21 026  ASCAT sigma-0 usability</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nominal</td><td></td></tr>
+<tr><td>1</td><td>Close to nominal</td><td></td></tr>
+<tr><td>2</td><td>Far from nominal</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 066  Wave scatterometer product confidence data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Processing equipment not working</td><td></td></tr>
+<tr><td>2</td><td>Equipment failed</td><td></td></tr>
+<tr><td>3</td><td>PRF code changed during image generation</td><td></td></tr>
+<tr><td>4</td><td>Sampling window changed during image generation</td><td></td></tr>
+<tr><td>5</td><td>Gain changed during image generation</td><td></td></tr>
+<tr><td>6</td><td>Chirp replica exceeds specified value</td><td></td></tr>
+<tr><td>7</td><td>Input data mean and standard deviation of in-phase and quadrature out of range</td><td></td></tr>
+<tr><td>8</td><td>Doppler centroid confidence &gt; MMCC value</td><td></td></tr>
+<tr><td>9</td><td>Doppler centroid absolute value &gt; PRF/2</td><td></td></tr>
+<tr><td>10</td><td>Doppler ambiguity confidence &lt; MMCC value</td><td></td></tr>
+<tr><td>11</td><td>Output data mean and standard deviation =&lt; MMCC value</td><td></td></tr>
+<tr><td>All 12</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 067  Wind product confidence data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No forebeam calculation</td><td></td></tr>
+<tr><td>2</td><td>No midbeam calculation</td><td></td></tr>
+<tr><td>3</td><td>No aftbeam calculation</td><td></td></tr>
+<tr><td>4</td><td>Forebeam arcing detected</td><td></td></tr>
+<tr><td>5</td><td>Midbeam arcing detected</td><td></td></tr>
+<tr><td>6</td><td>Aftbeam arcing detected</td><td></td></tr>
+<tr><td>7</td><td>Any beam noise content above or equal to threshold</td><td></td></tr>
+<tr><td>8</td><td>Land (any land in cell footprint)</td><td></td></tr>
+<tr><td>9</td><td>Autonomous ambiguity removal not used</td><td></td></tr>
+<tr><td>10</td><td>Meteorological background not used</td><td></td></tr>
+<tr><td>11</td><td>Minimum residual exceeded threshold</td><td></td></tr>
+<tr><td>12</td><td>Frame checksum error detected</td><td></td></tr>
+<tr><td>All 13</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 068  Radar altimeter product confidence data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Standard deviation of wind speed outside MMCC limit</td><td></td></tr>
+<tr><td>2</td><td>Standard deviation of significant wave height outside MMCC limit</td><td></td></tr>
+<tr><td>3</td><td>Standard deviation of altitude outside MMCC limit</td><td></td></tr>
+<tr><td>4</td><td>Mean peakiness outside MMCC limit</td><td></td></tr>
+<tr><td>5</td><td>Frame checksum error detected</td><td></td></tr>
+<tr><td>6</td><td>Height-time loop time constant correction not performed</td><td></td></tr>
+<tr><td>7</td><td>Not enough measurements (N &lt; 10)</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 069  SST product confidence data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>12.0 micron channel present in source data</td><td></td></tr>
+<tr><td>2</td><td>11.0 micron channel present in source data</td><td></td></tr>
+<tr><td>3</td><td>3.7 micron channel present in source data</td><td></td></tr>
+<tr><td>4</td><td>1.6 micron channel present in source data</td><td></td></tr>
+<tr><td>5</td><td>Cloud identification used 1.6 micron histogram reflectance cloud test</td><td></td></tr>
+<tr><td>6</td><td>1.6 micron histogram reflectance cloud test used dynamic threshold</td><td></td></tr>
+<tr><td>7</td><td>Sun glint detected by 1.6 micron reflectance cloud test</td><td></td></tr>
+<tr><td>8</td><td>3.7 micron channel used in sea-surface temperature retrieval</td><td></td></tr>
+<tr><td>9</td><td>Sea-surface temperature derivation used daytime data (night-time if zero)</td><td></td></tr>
+<tr><td>All 10</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 070  SST product confidence data (SADIST-2)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>1-9 Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell)</td><td></td></tr>
+<tr><td>1</td><td>Cell 1: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>2</td><td>Cell 2: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>3</td><td>Cell 3: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>4</td><td>Cell 4: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>5</td><td>Cell 5: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>6</td><td>Cell 6: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>7</td><td>Cell 7: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>8</td><td>Cell 8: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>9</td><td>Cell 9: nadir-only view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td></td><td>10-18 Dual view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell)</td><td></td></tr>
+<tr><td>10</td><td>Cell 1: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>11</td><td>Cell 2: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>12</td><td>Cell 3: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>13</td><td>Cell 4: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>14</td><td>Cell 5: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>15</td><td>Cell 6: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>16</td><td>Cell 7: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>17</td><td>Cell 8: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>18</td><td>Cell 9: dual view SST used 3.7 micron channel</td><td></td></tr>
+<tr><td>19</td><td>Nadir view contains day-time data (night if zero)</td><td></td></tr>
+<tr><td>20</td><td>Forward view contains day-time data (night if zero)</td><td></td></tr>
+<tr><td>21</td><td>Record contains contributions from instrument scans acquired when ERS platform not in yaw-steering mode</td><td></td></tr>
+<tr><td>22</td><td>Record contains contributions from instrument scans for which product confidence data show quality is poor or unknown</td><td></td></tr>
+<tr><td>All 23</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 072  Satellite altimeter calibration status</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Height error correction applied instead of open loop calibration</td><td></td></tr>
+<tr><td>2</td><td>Microwave sounder used for troposphere correction</td><td></td></tr>
+<tr><td>3</td><td>AGC output correction applied instead of open loop calibration</td><td></td></tr>
+<tr><td>All 4</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 073  Satellite altimeter instrument mode</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Blank data record</td><td></td></tr>
+<tr><td>2</td><td>Test</td><td></td></tr>
+<tr><td>3</td><td>Calibration (closed loop)</td><td></td></tr>
+<tr><td>4</td><td>BITE</td><td></td></tr>
+<tr><td>5</td><td>Acquisition on ice</td><td></td></tr>
+<tr><td>6</td><td>Acquisition on ocean</td><td></td></tr>
+<tr><td>7</td><td>Tracking on ice</td><td></td></tr>
+<tr><td>8</td><td>Tracking on ocean</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 076  Representation of intensities</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Linear</td><td></td></tr>
+<tr><td>1</td><td>Logarithmic (base e)</td><td></td></tr>
+<tr><td>2</td><td>Logarithmic (base 10)</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 109  SEAWINDS wind vector cell quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Not enough good sigma-0 available for wind retrieval</td><td></td></tr>
+<tr><td>2</td><td>Poor azimuth diversity among sigma-0 for wind retrieval</td><td></td></tr>
+<tr><td>3-7</td><td>Reserved</td><td></td></tr>
+<tr><td>8</td><td>Some portion of wind vector cell is over land</td><td></td></tr>
+<tr><td>9</td><td>Some portion of wind vector cell is over ice</td><td></td></tr>
+<tr><td>10</td><td>Wind retrieval not performed for wind vector cell</td><td></td></tr>
+<tr><td>11</td><td>Reported wind speed is greater than 30 m s-1</td><td></td></tr>
+<tr><td>12</td><td>Reported wind speed is less than or equal to 3 m s-1</td><td></td></tr>
+<tr><td>13-16</td><td>Reserved</td><td></td></tr>
+<tr><td>All 17</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 115  SEAWINDS sigma-0 quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Sigma-0 measurement is not usable</td><td></td></tr>
+<tr><td>2</td><td>Signal to noise ratio is low</td><td></td></tr>
+<tr><td>3</td><td>Sigma-0 is negative</td><td></td></tr>
+<tr><td>4</td><td>Sigma-0 is outside of acceptable range</td><td></td></tr>
+<tr><td>5</td><td>Scatterometer pulse quality is not acceptable</td><td></td></tr>
+<tr><td>6</td><td>Sigma-0 cell location algorithm does not converge</td><td></td></tr>
+<tr><td>7</td><td>Frequency shift lies beyond the range of the x factor table</td><td></td></tr>
+<tr><td>8</td><td>Spacecraft temperature is beyond calibration coefficient range</td><td></td></tr>
+<tr><td>9</td><td>No applicable altitude records were found for this sigma-0</td><td></td></tr>
+<tr><td>10</td><td>Interpolated ephemeris data are not acceptable for this sigma-0</td><td></td></tr>
+<tr><td>11-16</td><td>Reserved</td><td></td></tr>
+<tr><td>All 17</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 116  SEAWINDS sigma-0 mode</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Calibration/measurement pulse flag (1)</td><td></td></tr>
+<tr><td>2</td><td>Calibration/measurement pulse flag (2)</td><td></td></tr>
+<tr><td>3</td><td>Outer antenna beam</td><td></td></tr>
+<tr><td>4</td><td>Sigma-0 cell is aft of spacecraft</td><td></td></tr>
+<tr><td>5</td><td>Current mode (1)</td><td></td></tr>
+<tr><td>6</td><td>Current mode (2)</td><td></td></tr>
+<tr><td>7</td><td>Effective gate width - slice resolution (1)</td><td></td></tr>
+<tr><td>8</td><td>Effective gate width - slice resolution (2)</td><td></td></tr>
+<tr><td>9</td><td>Effective gate width - slice resolution (3)</td><td></td></tr>
+<tr><td>10</td><td>Low-resolution mode - whole pulse data</td><td></td></tr>
+<tr><td>11</td><td>Scatterometer electronic subsystem B</td><td></td></tr>
+<tr><td>12</td><td>Alternate spin rate - 19.8 rpm</td><td></td></tr>
+<tr><td>13</td><td>Receiver protection on</td><td></td></tr>
+<tr><td>14</td><td>Slices per composite flag (1)</td><td></td></tr>
+<tr><td>15</td><td>Slices per composite flag (2)</td><td></td></tr>
+<tr><td>16</td><td>Slices per composite flag (3)</td><td></td></tr>
+<tr><td>All 17</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 119  Wind scatterometer geophysical model function</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>SASS</td><td></td></tr>
+<tr><td>2</td><td>SASS2</td><td></td></tr>
+<tr><td>3</td><td>NSCAT0</td><td></td></tr>
+<tr><td>4</td><td>NSCAT1</td><td></td></tr>
+<tr><td>5</td><td>NSCAT2</td><td></td></tr>
+<tr><td>6</td><td>QSCAT0</td><td></td></tr>
+<tr><td>7</td><td>QSCAT1</td><td></td></tr>
+<tr><td>8-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>CMOD1</td><td></td></tr>
+<tr><td>32</td><td>CMOD2</td><td></td></tr>
+<tr><td>33</td><td>CMOD3</td><td></td></tr>
+<tr><td>34</td><td>CMOD4</td><td></td></tr>
+<tr><td>35</td><td>CMOD5</td><td></td></tr>
+<tr><td>36-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 144  Altimeter rain flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Rain</td><td></td></tr>
+<tr><td>All 2</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 148  Trailing edge variation flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Non short scale variation</td><td></td></tr>
+<tr><td>2</td><td>Short scale variation</td><td></td></tr>
+<tr><td>3-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 150  Beam co-location</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Data from single ground station (no co-location)</td><td></td></tr>
+<tr><td>1</td><td>Data from multiple ground station (co-located data)</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 155  Wind vector cell quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Not enough good sigma-0 available for wind retrieval</td><td></td></tr>
+<tr><td>2</td><td>Poor azimuth diversity among sigma-0 for wind retrieval</td><td></td></tr>
+<tr><td>3</td><td>Any beam noise content above threshold</td><td></td></tr>
+<tr><td>4</td><td>Product monitoring not used</td><td></td></tr>
+<tr><td>5</td><td>Product monitoring flag</td><td></td></tr>
+<tr><td>6</td><td>KNMI quality control fails</td><td></td></tr>
+<tr><td>7</td><td>Variational quality control fails</td><td></td></tr>
+<tr><td>8</td><td>Some portion of wind vector cell is over land</td><td></td></tr>
+<tr><td>9</td><td>Some portion of wind vector cell is over ice</td><td></td></tr>
+<tr><td>10</td><td>Wind retrieval not performed for wind vector cell</td><td></td></tr>
+<tr><td>11</td><td>Reported wind speed is greater than 30 m/s</td><td></td></tr>
+<tr><td>12</td><td>Reported wind speed is less than or equal to 3 m/s</td><td></td></tr>
+<tr><td>13</td><td>Rain flag for the wind vector cell is not usable</td><td></td></tr>
+<tr><td>14</td><td>Rain flag algorithm detects rain</td><td></td></tr>
+<tr><td>15</td><td>No meteorological background used</td><td></td></tr>
+<tr><td>16</td><td>Data are redundant</td><td></td></tr>
+<tr><td>17-23</td><td>Reserved</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 158  ASCAT Kp estimate quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Acceptable</td><td></td></tr>
+<tr><td>1</td><td>Not acceptable</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 159  ASCAT sigma-0 usability</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Usable</td><td></td></tr>
+<tr><td>2</td><td>Bad</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 169  Ice presence indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No ice present</td><td></td></tr>
+<tr><td>1</td><td>Ice present</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

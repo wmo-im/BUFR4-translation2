@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 26: Ubicación sin coordenadas (tiempo)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 26: Ubicación sin coordenadas (tiempo)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 26 001</td><td>Hora principal de lectura diaria en UTC de la temperatura máxima</td><td>h</td><td>1</td><td>0</td><td>12</td><td>h</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 26 002</td><td>Hora principal de lectura diaria en UTC de la temperatura mínima</td><td>h</td><td>1</td><td>0</td><td>12</td><td>h</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 26 003</td><td>Diferencia de tiempo</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note B58: El descriptor 0 26 003 se utiliza con el 0 08 025 (calificador de diferencia de tiempo).</td></tr>
+<tr><td>0 26 010</td><td>Horas incluidas</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>26</td><td>Tabla de banderines</td><td>0</td><td>9</td><td></td></tr>
+<tr><td>0 26 020</td><td>Duración de la precipitación</td><td>min</td><td>0</td><td>0</td><td>11</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 26 021</td><td>Año</td><td>a</td><td>0</td><td>0</td><td>12</td><td>a</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 26 022</td><td>Mes</td><td>mes</td><td>0</td><td>0</td><td>4</td><td>mes</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 26 023</td><td>Día</td><td>d</td><td>0</td><td>0</td><td>6</td><td>d</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 26 030</td><td>Tiempo de integración de la medición</td><td>s</td><td>2</td><td>0</td><td>8</td><td>s</td><td>2</td><td>3</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 14: Radiation and radiance</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 14: Radiation and radiance</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 14 001</td><td>Long-wave radiation, integrated over 24 hours</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 002</td><td>Long-wave radiation, integrated over period specified</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 003</td><td>Short-wave radiation, integrated over 24 hours</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 004</td><td>Short-wave radiation, integrated over period specified</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 011</td><td>Net long-wave radiation, integrated over 24 hours</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 012</td><td>Net long-wave radiation, integrated over period specified</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 013</td><td>Net short-wave radiation, integrated over 24 hours</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 014</td><td>Net short-wave radiation, integrated over period specified</td><td>J m-2</td><td>-3</td><td>-65536</td><td>17</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 015</td><td>Net radiation, integrated over 24 hours</td><td>J m-2</td><td>-4</td><td>-16384</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 016</td><td>Net radiation, integrated over period specified</td><td>J m-2</td><td>-4</td><td>-16384</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 017</td><td>Instantaneous long-wave radiation</td><td>W m-2</td><td>0</td><td>-512</td><td>10</td><td>W m-2</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 14 018</td><td>Instantaneous short-wave radiation</td><td>W m-2</td><td>0</td><td>-2048</td><td>12</td><td>W m-2</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 14 019</td><td>Surface albedo</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 14 020</td><td>Global solar radiation, integrated over 24 hours</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 021</td><td>Global solar radiation, integrated over period specified</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 022</td><td>Diffuse solar radiation, integrated over 24 hours</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 023</td><td>Diffuse solar radiation, integrated over period specified</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 024</td><td>Direct solar radiation, integrated over 24 hours</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 025</td><td>Direct solar radiation, integrated over period specified</td><td>J m-2</td><td>-4</td><td>0</td><td>15</td><td>J m-2</td><td>-4</td><td>5</td><td></td></tr>
+<tr><td>0 14 026</td><td>Albedo at the top of clouds</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 14 027</td><td>Albedo</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 14 028</td><td>Global solar radiation (high accuracy), integrated over period specified</td><td>J m-2</td><td>-2</td><td>0</td><td>20</td><td>J m-2</td><td>-2</td><td>6</td><td></td></tr>
+<tr><td>0 14 029</td><td>Diffuse solar radiation (high accuracy), integrated over period specified</td><td>J m-2</td><td>-2</td><td>0</td><td>20</td><td>J m-2</td><td>-2</td><td>6</td><td></td></tr>
+<tr><td>0 14 030</td><td>Direct solar radiation (high accuracy), integrated over period specified</td><td>J m-2</td><td>-2</td><td>0</td><td>20</td><td>J m-2</td><td>-2</td><td>6</td><td></td></tr>
+<tr><td>0 14 031</td><td>Total sunshine</td><td>min</td><td>0</td><td>0</td><td>11</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 14 032</td><td>Total sunshine</td><td>h</td><td>0</td><td>0</td><td>10</td><td>h</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 14 033</td><td>Total sunshine</td><td>%</td><td>0</td><td>0</td><td>9</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 14 034</td><td>Sunshine over period specified</td><td>min</td><td>0</td><td>0</td><td>11</td><td>min</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 14 035</td><td>Solar radiation flux</td><td>W m-2</td><td>1</td><td>0</td><td>14</td><td>W m-2</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 14 042</td><td>Bidirectional reflectance</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 14 043</td><td>Channel radiance</td><td>W m-2 sr-1 um-1</td><td>4</td><td>0</td><td>23</td><td>W m-2 sr-1 um-1</td><td>4</td><td>7</td><td>Note B35: Channel radiance (0 14 043) uses μm to represent the wave number.</td></tr>
+<tr><td>0 14 044</td><td>Channel radiance</td><td>W m-2 sr-1 cm</td><td>7</td><td>-100000</td><td>22</td><td>W m-2 sr-1 cm</td><td>7</td><td>7</td><td></td></tr>
+<tr><td>0 14 045</td><td>Channel radiance</td><td>W m-2 sr-1 cm</td><td>0</td><td>0</td><td>11</td><td>W m-2 sr-1 cm</td><td>0</td><td>4</td><td>Note B36: Channel radiance (0 14 045) uses cm to represent the wave number.</td></tr>
+<tr><td>0 14 046</td><td>Scaled radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>-5000</td><td>16</td><td>W m-2 sr-1 m</td><td>0</td><td>5</td><td>Note B29: An offset has been introduced for the scaled radiances (0 14 046). This is to accommodate the negative radiances which can be measured at some wave numbers,either due to effects of noise or remaining after apodization. The offset is an order of magnitude larger than the expected maximum negative excursion based on instrument noise, and so would leave sufficient margin. At the same time the dynamic range is not significantly degraded.</td></tr>
+<tr><td>0 14 047</td><td>Scaled mean AVHRR radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>0</td><td>31</td><td>W m-2 sr-1 m</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 14 048</td><td>Scaled standard deviation AVHRR radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>0</td><td>31</td><td>W m-2 sr-1 m</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 14 049</td><td>Noise equivalent delta radiance</td><td>W m-2 sr-1 cm</td><td>7</td><td>0</td><td>22</td><td>W m-2 sr-1 cm</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>0 14 050</td><td>Emissivity</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td>Note B69: Emissivity is the ratio of the amount of energy emitted from a particular object compared to the amount that would be emitted by a blackbody at the same temperature(i.e. the Planck function). Multiplying by 100 gives a percent (and provides 2 digits of precision at the same time).</td></tr>
+<tr><td>0 14 051</td><td>Direct solar radiation integrated over last hour</td><td>J m-2</td><td>-3</td><td>0</td><td>14</td><td>J m-2</td><td>-3</td><td>4</td><td></td></tr>
+<tr><td>0 14 052</td><td>Global upward solar radiation, integrated over period specified</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>20</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
+<tr><td>0 14 053</td><td>Net radiation (high accuracy), integrated over period specified</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>21</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
+<tr><td>0 14 054</td><td>Photosynthetically active radiation, integrated over period specified</td><td>J m-2</td><td>-3</td><td>0</td><td>16</td><td>J m-2</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 14 055</td><td>Solar activity index</td><td>Numeric</td><td>0</td><td>-32768</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 14 056</td><td>Background luminance</td><td>Cd m-2</td><td>0</td><td>0</td><td>18</td><td>Cd m-2</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 14 057</td><td>Soil heat flux</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>21</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
+<tr><td>0 14 058</td><td>Corrected cross-pole backscatter</td><td>dB</td><td>2</td><td>-5000</td><td>13</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 14 072</td><td>Global UV irradiation</td><td>J m-2</td><td>0</td><td>-4000000</td><td>23</td><td>J m-2</td><td>0</td><td>7</td><td>Note B83: Global UV irradiation (0 14 072) is UV energy integrated over period specified for spectral band specified. 0 14 072 shall be preceded by a time period descriptor and by Spectrographic wavelength (0 02 071) and Spectrographic width (0 02 072). For example, if 0 14 072 is used for global UV-B irradiation, 0 02 071 and 0 02 072shall specify spectral band 280 to 315 nm.</td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note B63: Downward radiation shall be assigned positive values.</p>
+<p class="note">Note B160: Upward radiation shall be assigned negative values.</p>
+<p class="note">Note B178: Where the expression &quot;period specified&quot; is entered under element name, an appropriate period shall be specified using descriptors from Class 04.</p>
+</div>
+</body>
+</html>

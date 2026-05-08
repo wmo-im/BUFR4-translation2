@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 31</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 31</h1>
+<p class="fxy-heading">0 31 021  Associated field significance</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>SUB 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>1</td><td>1-bit indicator of quality</td><td>0 = Good, 1 = Suspect or bad</td><td></td></tr>
+<tr><td>2</td><td>2-bit indicator of quality</td><td>0 = Good, 1 = Slightly suspect, 2 = Highly suspect, 3 = Bad</td><td></td></tr>
+<tr><td>3-4</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>5</td><td>8-bit indicator of quality control</td><td>0 = Data checked and declared good; 1 = Data checked and declared suspect; 2 = Data checked and declared aggregated; 3 = Data checked and declared out of instrument range; 4 = Data checked, declared aggregated, and out of instrument range; 5 = Parameter is not measured at the station; 6 = Daily value not provided; 7 = Data unchecked, 8-254 = Reserved; 255 = Missing (QC info not available)</td><td></td></tr>
+<tr><td>6</td><td>4-bit indicator of quality control class according to GTSPP</td><td>0 = Unqualified, 1 = Correct value (all checks passed), 2 = Probably good but value inconsistent with statistics (differ from climatology), 3 = Probably bad (spike, gradient, ... if other tests passed), 4 = Bad value, impossible value (out of scale, vertical instability, constant profile), 5 = Value modified during quality control, 6-7 = Not used (reserved), 8 = Interpolated value, 9 = Missing value</td><td></td></tr>
+<tr><td>7</td><td>Percentage confidence</td><td></td><td></td></tr>
+<tr><td>8</td><td>0 = Not suspected, 1 = Suspected, 2 = Reserved, 3 = Information not required</td><td></td><td></td></tr>
+<tr><td>9</td><td>0 = Data present, good, collocated, 1 = Data available but of degraded quality and not used, 2 = No spatiotemporally collocated data available, 3-14 = Not used (reserved), 15 = Missing value</td><td></td><td></td></tr>
+<tr><td>10-20</td><td>Reserved</td><td></td><td></td></tr>
+<tr><td>21</td><td>1-bit indicator of correction</td><td>0 = Original value, 1 = Substituted/corrected value</td><td>Note CF74: The code figure 21 may be used within corrected messages with the substituted/corrected values identified.</td></tr>
+<tr><td>22-62</td><td>Reserved for local use</td><td></td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF19: Associated field significance shall be used initially in conjunction with the quality of observed data.</p>
+<p class="note">Note CF42: Further applications may be developed.</p>
+</div>
+<p class="fxy-heading">0 31 031  Data present indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>0 = Data present, 1 = Data not present</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

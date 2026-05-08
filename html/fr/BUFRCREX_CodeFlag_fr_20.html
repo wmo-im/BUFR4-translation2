@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 20</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 20</h1>
+<p class="fxy-heading">0 20 003  Temps présent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>00-49 Pas de précipitations à la station au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td></td><td>00-19 Pas de précipitations, de brouillard, de brouillard glacé (exception faite pour 11 et 12), de tempête de poussière, de tempête de sable, de chasse-neige basse ou élevée à la station au moment de l&#x27;observation ou, exception faite pour 09 et 17, durant l&#x27;heure précédente</td><td></td><td></td></tr>
+<tr><td></td><td>00-03 Pas de météores excepté des photométéores</td><td></td><td></td></tr>
+<tr><td>00</td><td>On n&#x27;a pas observé d&#x27;évolution des nuages ou l&#x27;on n&#x27;a pas pu suivre cette évolution</td><td>Changement caractéristique de l&#x27;état du ciel durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td></tr>
+<tr><td>01</td><td>Dans l&#x27;ensemble, nuages se dissipant ou devenant moins épais</td><td>Changement caractéristique de l&#x27;état du ciel durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td></tr>
+<tr><td>02</td><td>État du ciel inchangé dans l&#x27;ensemble</td><td>Changement caractéristique de l&#x27;état du ciel durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td></tr>
+<tr><td>03</td><td>Nuages en formation ou en train de se développer</td><td>Changement caractéristique de l&#x27;état du ciel durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td></tr>
+<tr><td></td><td>04-09 Brume sèche, poussière, sable ou fumée</td><td></td><td></td></tr>
+<tr><td>04</td><td>Visibilité réduite par de la fumée, par exemple: feu de brousse ou incendie de forêt, des fumées industrielles ou des cendres volcaniques</td><td></td><td></td></tr>
+<tr><td>05</td><td>Brume sèche</td><td></td><td></td></tr>
+<tr><td>06</td><td>Poussières en suspension dans l&#x27;air d&#x27;une manière généralisée, non brassées par le vent à la station ou à proximité de celle-ci au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td>07</td><td>Poussières ou sable brassés par le vent à la station ou à proximité de celle-ci au moment de l&#x27;observation, mais absence de tourbillon(s) de poussière ou de sable caractérisé(s), et pas de tempête de poussière ou de sable observée; ou embruns observés à la station, lorsqu&#x27;il s&#x27;agit d&#x27;une station en mer ou d&#x27;une station côtière</td><td></td><td></td></tr>
+<tr><td>08</td><td>Tourbillon(s) de poussière ou de sable caractérisé(s), observé(s) à la station ou à proximité de celle-ci durant l&#x27;heure précédente ou au moment de l&#x27;observation, mais pas de tempête de poussière ou de sable</td><td></td><td></td></tr>
+<tr><td>09</td><td>Tempête de poussière ou de sable en vue de la station au moment de l&#x27;observation, ou à la station même pendant l&#x27;heure précédente</td><td></td><td></td></tr>
+<tr><td>10</td><td>Brume</td><td>Mince couche de brouillard ou de brouillard glacé à la station, qu&#x27;il s&#x27;agisse d&#x27;une station terrestre ou d&#x27;une station en mer, d&#x27;une épaisseur n&#x27;excédant pas 2 mètres sur terre ou 10 mètres en mer</td><td></td></tr>
+<tr><td>11</td><td>En bancs</td><td>Mince couche de brouillard ou de brouillard glacé à la station, qu&#x27;il s&#x27;agisse d&#x27;une station terrestre ou d&#x27;une station en mer, d&#x27;une épaisseur n&#x27;excédant pas 2 mètres sur terre ou 10 mètres en mer</td><td></td></tr>
+<tr><td>12</td><td>Plus ou moins continue</td><td>Mince couche de brouillard ou de brouillard glacé à la station, qu&#x27;il s&#x27;agisse d&#x27;une station terrestre ou d&#x27;une station en mer, d&#x27;une épaisseur n&#x27;excédant pas 2 mètres sur terre ou 10 mètres en mer</td><td></td></tr>
+<tr><td>13</td><td>Éclairs visibles, tonnerre non perceptible</td><td></td><td></td></tr>
+<tr><td>14</td><td>Précipitations en vue, n&#x27;atteignant pas le sol ou la surface de la mer</td><td></td><td></td></tr>
+<tr><td>15</td><td>Précipitations en vue, atteignant le sol ou la surface de la mer, mais distantes (c&#x27;est-à-dire à plus de 5 km à l&#x27;estime) de la station</td><td></td><td></td></tr>
+<tr><td>16</td><td>Précipitations en vue, atteignant le sol ou la surface de la mer, près de la station mais pas à la station même</td><td></td><td></td></tr>
+<tr><td>17</td><td>Orage, mais pas de précipitations au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td>18</td><td>Grains</td><td>à la station ou en vue de celle-ci pendant l&#x27;heure précédente ou au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>19</td><td>Trombe(s)</td><td>à la station ou en vue de celle-ci pendant l&#x27;heure précédente ou au moment de l&#x27;observation</td><td>Note CF89: Conjointement a l&#x27;observation de trombes marines ou de nuages en entonnoir a plus de 3 km de la station.</td></tr>
+<tr><td></td><td>20-29 Précipitations, brouillard, brouillard glacé ou orage à la station au cours de l&#x27;heure précédente, mais non au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td>20</td><td>Bruine (ne se congelant pas) ou neige en grains</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>21</td><td>Pluie (ne se congelant pas)</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>22</td><td>Neige</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>23</td><td>Pluie et neige mêlées ou granules de glace</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>24</td><td>Bruine ou pluie se congelant</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>25</td><td>Averse(s) de pluie</td><td>pas sous forme d&#x27;averse(s)</td><td></td></tr>
+<tr><td>26</td><td>Averse(s) de neige, ou de pluie et de neige</td><td></td><td></td></tr>
+<tr><td>27</td><td>Averse(s) de grêle, ou de pluie et de grêle</td><td></td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>28</td><td>Brouillard ou brouillard glacé</td><td></td><td></td></tr>
+<tr><td>29</td><td>Orage (avec ou sans précipitations)</td><td></td><td></td></tr>
+<tr><td></td><td>30-39 Tempête de poussière, tempête de sable, chasse-neige basse ou élevée</td><td></td><td></td></tr>
+<tr><td>30</td><td>Tempête de poussière ou de sable faible ou modérée</td><td>a diminué au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>31</td><td>Tempête de poussière ou de sable faible ou modérée</td><td>sans changement appréciable au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>32</td><td>Tempête de poussière ou de sable faible ou modérée</td><td>a débuté ou a augmenté au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>33</td><td>Violente tempête de poussière ou de sable</td><td>a diminué au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>34</td><td>Violente tempête de poussière ou de sable</td><td>sans changement appréciable au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>35</td><td>Violente tempête de poussière ou de sable</td><td>a débuté ou a augmenté au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>36</td><td>Chasse-neige faible ou modérée</td><td>généralement basse (au-dessous du niveau de l&#x27;œil)</td><td></td></tr>
+<tr><td>37</td><td>Forte chasse-neige</td><td>généralement basse (au-dessous du niveau de l&#x27;œil)</td><td></td></tr>
+<tr><td>38</td><td>Chasse-neige faible ou modérée</td><td>généralement élevée (au-dessus du niveau de l&#x27;œil)</td><td></td></tr>
+<tr><td>39</td><td>Forte chasse-neige</td><td>généralement élevée (au-dessus du niveau de l&#x27;œil)</td><td></td></tr>
+<tr><td></td><td>40-49 Brouillard ou brouillard glacé au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td>40</td><td>Brouillard ou brouillard glacé à distance au moment de l&#x27;observation, mais non à la station même au cours de l&#x27;heure précédente, le brouillard ou le brouillard glacé s&#x27;étendant jusqu&#x27;à un niveau supérieur à celui de l&#x27;observateur</td><td></td><td></td></tr>
+<tr><td>41</td><td>Brouillard ou brouillard glacé en bancs</td><td></td><td></td></tr>
+<tr><td>42</td><td>Brouillard ou brouillard glacé, ciel visible</td><td>s&#x27;est aminci au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>43</td><td>Brouillard ou brouillard glacé, ciel invisible</td><td>s&#x27;est aminci au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>44</td><td>Brouillard ou brouillard glacé, ciel visible</td><td>sans changement appréciable au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>45</td><td>Brouillard ou brouillard glacé, ciel invisible</td><td>sans changement appréciable au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>46</td><td>Brouillard ou brouillard glacé, ciel visible</td><td>a commencé ou est devenu plus épais au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>47</td><td>Brouillard ou brouillard glacé, ciel invisible</td><td>a commencé ou est devenu plus épais au cours de l&#x27;heure précédente</td><td></td></tr>
+<tr><td>48</td><td>Brouillard, déposant du givre, ciel visible</td><td></td><td></td></tr>
+<tr><td>49</td><td>Brouillard, déposant du givre, ciel invisible</td><td></td><td></td></tr>
+<tr><td></td><td>50-99 Précipitations à la station au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td></td><td>50-59 Bruine</td><td></td><td></td></tr>
+<tr><td>50</td><td>Bruine, sans congélation, intermittente</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>51</td><td>Bruine, sans congélation, continue</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>52</td><td>Bruine, sans congélation, intermittente</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>53</td><td>Bruine, sans congélation, continue</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>54</td><td>Bruine, sans congélation, intermittente</td><td>forte (dense) au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>55</td><td>Bruine, sans congélation, continue</td><td>forte (dense) au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>56</td><td>Bruine, se congelant, faible</td><td></td><td></td></tr>
+<tr><td>57</td><td>Bruine, se congelant, modérée ou forte (dense)</td><td></td><td></td></tr>
+<tr><td>58</td><td>Bruine et pluie, faibles</td><td></td><td></td></tr>
+<tr><td>59</td><td>Bruine et pluie, modérées ou fortes</td><td></td><td></td></tr>
+<tr><td></td><td>60-69 Pluie</td><td></td><td></td></tr>
+<tr><td>60</td><td>Pluie, sans congélation, intermittente</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>61</td><td>Pluie, sans congélation, continue</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>62</td><td>Pluie, sans congélation, intermittente</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>63</td><td>Pluie, sans congélation, continue</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>64</td><td>Pluie, sans congélation, intermittente</td><td>forte au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>65</td><td>Pluie, sans congélation, continue</td><td>forte au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>66</td><td>Pluie, se congelant, faible</td><td></td><td></td></tr>
+<tr><td>67</td><td>Pluie, se congelant, modérée ou forte</td><td></td><td></td></tr>
+<tr><td>68</td><td>Pluie ou bruine et neige, faibles</td><td></td><td></td></tr>
+<tr><td>69</td><td>Pluie ou bruine et neige, modérées ou fortes</td><td></td><td></td></tr>
+<tr><td></td><td>70-79 Précipitations solides non sous forme d&#x27;averses</td><td></td><td></td></tr>
+<tr><td>70</td><td>Chute intermittente de flocons de neige</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>71</td><td>Chute continue de flocons de neige</td><td>faible au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>72</td><td>Chute intermittente de flocons de neige</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>73</td><td>Chute continue de flocons de neige</td><td>modérée au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>74</td><td>Chute intermittente de flocons de neige</td><td>forte au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>75</td><td>Chute continue de flocons de neige</td><td>forte au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>76</td><td>Poudrin de glace (avec ou sans brouillard)</td><td></td><td></td></tr>
+<tr><td>77</td><td>Neige en grains (avec ou sans brouillard)</td><td></td><td></td></tr>
+<tr><td>78</td><td>Etoiles de neige isolées (avec ou sans brouillard)</td><td></td><td></td></tr>
+<tr><td>79</td><td>Granules de glace</td><td></td><td></td></tr>
+<tr><td></td><td>80-99 Précipitations sous forme d&#x27;averses, ou précipitations avec orage ou après un orage</td><td></td><td></td></tr>
+<tr><td>80</td><td>Averse(s) de pluie, faible(s)</td><td></td><td></td></tr>
+<tr><td>81</td><td>Averse(s) de pluie, modérée(s) ou forte(s)</td><td></td><td></td></tr>
+<tr><td>82</td><td>Averse(s) de pluie, violente(s)</td><td></td><td></td></tr>
+<tr><td>83</td><td>Averse(s) de pluie et neige mêlées, faible(s)</td><td></td><td></td></tr>
+<tr><td>84</td><td>Averse(s) de pluie et neige mêlées, modérée(s) ou forte(s)</td><td></td><td></td></tr>
+<tr><td>85</td><td>Averse(s) de neige, faible(s)</td><td></td><td></td></tr>
+<tr><td>86</td><td>Averse(s) de neige, modérée(s) ou forte(s)</td><td></td><td></td></tr>
+<tr><td>87</td><td>Averse(s) de grésil ou neige roulée, avec ou sans pluie ou pluie et neige mêlées</td><td>faible(s)</td><td></td></tr>
+<tr><td>88</td><td>Averse(s) de grésil ou neige roulée, avec ou sans pluie ou pluie et neige mêlées</td><td>modérée(s) ou forte(s)</td><td></td></tr>
+<tr><td>89</td><td>Averse(s) de grêle, avec ou sans pluie ou pluie et neige mêlées, sans tonnerre</td><td>faible(s)</td><td></td></tr>
+<tr><td>90</td><td>Averse(s) de grêle, avec ou sans pluie ou pluie et neige mêlées, sans tonnerre</td><td>modérée(s) ou forte(s)</td><td></td></tr>
+<tr><td>91</td><td>Pluie faible au moment de l&#x27;observation</td><td>Orage durant l&#x27;heure précédente, mais non au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>92</td><td>Pluie modérée ou forte au moment de l&#x27;observation</td><td>Orage durant l&#x27;heure précédente, mais non au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>93</td><td>Faible chute de neige, ou pluie et neige mêlées ou grêle au moment de l&#x27;observation</td><td>Orage durant l&#x27;heure précédente, mais non au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>94</td><td>Chute modérée ou forte de neige, ou pluie et neige mêlées ou grêle au moment de l&#x27;observation</td><td>Orage durant l&#x27;heure précédente, mais non au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>95</td><td>Orage faible ou modéré, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l&#x27;observation</td><td>Orage au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>96</td><td>Orage faible ou modéré, avec grêle au moment de l&#x27;observation</td><td>Orage au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>97</td><td>Orage fort, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l&#x27;observation</td><td>Orage au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>98</td><td>Orage avec tempête de poussière ou de sable au moment de l&#x27;observation</td><td>Orage au moment de l&#x27;observation</td><td></td></tr>
+<tr><td>99</td><td>Orage fort, avec grêle au moment de l&#x27;observation</td><td>Orage au moment de l&#x27;observation</td><td>Note CF46: &#x27;Hail&#x27; refers to hail, small hail or snow pellets.</td></tr>
+<tr><td>100</td><td>On n&#x27;a pas observé de temps significatif</td><td></td><td></td></tr>
+<tr><td>101</td><td>Dans l&#x27;ensemble, nuages se dissipant ou devenant moins épais durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td><td></td></tr>
+<tr><td>102</td><td>État du ciel inchangé dans l&#x27;ensemble durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td><td></td></tr>
+<tr><td>103</td><td>Dans l&#x27;ensemble, nuages se formant ou se développant durant l&#x27;heure qui vient de s&#x27;écouler</td><td></td><td></td></tr>
+<tr><td>104</td><td>Brume sèche ou fumée, ou poussière en suspension dans l&#x27;air, visibilité égale ou supérieure à 1 km</td><td></td><td></td></tr>
+<tr><td>105</td><td>Brume sèche ou fumée, ou poussière en suspension dans l&#x27;air, visibilité inférieure à 1 km</td><td></td><td></td></tr>
+<tr><td>106-109</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>110</td><td>Brume</td><td></td><td></td></tr>
+<tr><td>111</td><td>Poudrin de glace</td><td></td><td></td></tr>
+<tr><td>112</td><td>Éclair à distance</td><td></td><td></td></tr>
+<tr><td>113-117</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>118</td><td>Grains</td><td></td><td></td></tr>
+<tr><td>119</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>Les chiffres du code 120-126 sont utilisés pour signaler les précipitations, le brouillard (ou brouillard glacé) à la station au cours de l&#x27;heure précédente mais pas à l&#x27;heure même de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td>120</td><td>Brouillard</td><td></td><td></td></tr>
+<tr><td>121</td><td>PRÉCIPITATIONS</td><td></td><td></td></tr>
+<tr><td>122</td><td>Bruine (ne se congelant pas) ou neige en grains</td><td></td><td></td></tr>
+<tr><td>123</td><td>Pluie (ne se congelant pas)</td><td></td><td></td></tr>
+<tr><td>124</td><td>Neige</td><td></td><td></td></tr>
+<tr><td>125</td><td>Bruine ou pluie se congelant</td><td></td><td></td></tr>
+<tr><td>126</td><td>Orage (avec ou sans précipitations)</td><td></td><td></td></tr>
+<tr><td>127</td><td>CHASSE-NEIGE OU CHASSE-SABLE ÉLEVÉE OU BASSE</td><td></td><td></td></tr>
+<tr><td>128</td><td>Chasse-neige ou chasse-sable élevée ou basse, visibilité égale ou supérieure à 1 km</td><td></td><td></td></tr>
+<tr><td>129</td><td>Chasse-neige ou chasse-sable élevée ou basse, visibilité inférieure à 1 km</td><td></td><td></td></tr>
+<tr><td>130</td><td>BROUILLARD</td><td></td><td></td></tr>
+<tr><td>131</td><td>Brouillard ou brouillard glacé en bancs</td><td></td><td></td></tr>
+<tr><td>132</td><td>Brouillard ou brouillard glacé, s&#x27;est aminci au cours de l&#x27;heure précédente</td><td></td><td></td></tr>
+<tr><td>133</td><td>Brouillard ou brouillard glacé, sans changement appréciable au cours de l&#x27;heure précédente</td><td></td><td></td></tr>
+<tr><td>134</td><td>Brouillard ou brouillard glacé, a commencé ou est devenu plus épais au cours de l&#x27;heure précédente</td><td></td><td></td></tr>
+<tr><td>135</td><td>Brouillard, déposant du givre</td><td></td><td></td></tr>
+<tr><td>136-139</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>140</td><td>PRÉCIPITATIONS</td><td></td><td></td></tr>
+<tr><td>141</td><td>Précipitations, faibles ou modérées</td><td></td><td></td></tr>
+<tr><td>142</td><td>Précipitations, fortes</td><td></td><td></td></tr>
+<tr><td>143</td><td>Précipitations liquides, faibles ou modérées</td><td></td><td></td></tr>
+<tr><td>144</td><td>Précipitations liquides, fortes</td><td></td><td></td></tr>
+<tr><td>145</td><td>Précipitations solides, faibles ou modérées</td><td></td><td></td></tr>
+<tr><td>146</td><td>Précipitations solides, fortes</td><td></td><td></td></tr>
+<tr><td>147</td><td>Précipitations se congelant, faibles ou modérées</td><td></td><td></td></tr>
+<tr><td>148</td><td>Précipitations se congelant, fortes</td><td></td><td></td></tr>
+<tr><td>149</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>150</td><td>BRUINE</td><td></td><td></td></tr>
+<tr><td>151</td><td>Bruine, sans congélation, faible</td><td></td><td></td></tr>
+<tr><td>152</td><td>Bruine, sans congélation, modérée</td><td></td><td></td></tr>
+<tr><td>153</td><td>Bruine, sans congélation, forte</td><td></td><td></td></tr>
+<tr><td>154</td><td>Bruine, se congelant, faible</td><td></td><td></td></tr>
+<tr><td>155</td><td>Bruine, se congelant, modérée</td><td></td><td></td></tr>
+<tr><td>156</td><td>Bruine, se congelant, forte</td><td></td><td></td></tr>
+<tr><td>157</td><td>Bruine et pluie, faibles</td><td></td><td></td></tr>
+<tr><td>158</td><td>Bruine et pluie, modérées ou fortes</td><td></td><td></td></tr>
+<tr><td>159</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>160</td><td>PLUIE</td><td></td><td></td></tr>
+<tr><td>161</td><td>Pluie, sans congélation, faible</td><td></td><td></td></tr>
+<tr><td>162</td><td>Pluie, sans congélation, modérée</td><td></td><td></td></tr>
+<tr><td>163</td><td>Pluie, sans congélation, forte</td><td></td><td></td></tr>
+<tr><td>164</td><td>Pluie, se congelant, faible</td><td></td><td></td></tr>
+<tr><td>165</td><td>Pluie, se congelant, modérée</td><td></td><td></td></tr>
+<tr><td>166</td><td>Pluie, se congelant, forte</td><td></td><td></td></tr>
+<tr><td>167</td><td>Pluie (ou bruine) et neige, faibles</td><td></td><td></td></tr>
+<tr><td>168</td><td>Pluie (ou bruine) et neige, modérées ou fortes</td><td></td><td></td></tr>
+<tr><td>169</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>170</td><td>NEIGE</td><td></td><td></td></tr>
+<tr><td>171</td><td>Neige, faible</td><td></td><td></td></tr>
+<tr><td>172</td><td>Neige, modérée</td><td></td><td></td></tr>
+<tr><td>173</td><td>Neige, forte</td><td></td><td></td></tr>
+<tr><td>174</td><td>Granules de glace, faibles</td><td></td><td></td></tr>
+<tr><td>175</td><td>Granules de glace, modérées</td><td></td><td></td></tr>
+<tr><td>176</td><td>Granules de glace, fortes</td><td></td><td></td></tr>
+<tr><td>177</td><td>Flocons de neige</td><td></td><td></td></tr>
+<tr><td>178</td><td>Cristaux de glace</td><td></td><td></td></tr>
+<tr><td>179</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>180</td><td>AVERSE(S) ou PRÉCIPITATIONS INTERMITTENTES</td><td></td><td></td></tr>
+<tr><td>181</td><td>Averse(s) de pluie ou pluie intermittente, faible(s)</td><td></td><td></td></tr>
+<tr><td>182</td><td>Averse(s) de pluie ou pluie intermittente, modérée(s)</td><td></td><td></td></tr>
+<tr><td>183</td><td>Averse(s) de pluie ou pluie intermittente, forte(s)</td><td></td><td></td></tr>
+<tr><td>184</td><td>Averse(s) de pluie ou pluie intermittente, violente(s)</td><td></td><td></td></tr>
+<tr><td>185</td><td>Averse(s) de neige ou neige intermittente, faible(s)</td><td></td><td></td></tr>
+<tr><td>186</td><td>Averse(s) de neige ou neige intermittente, modérée(s)</td><td></td><td></td></tr>
+<tr><td>187</td><td>Averse(s) de neige ou neige intermittente, forte(s)</td><td></td><td></td></tr>
+<tr><td>188</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>189</td><td>Grêle</td><td></td><td></td></tr>
+<tr><td>190</td><td>ORAGE</td><td></td><td></td></tr>
+<tr><td>191</td><td>Orage, faible ou modéré, sans précipitations</td><td></td><td></td></tr>
+<tr><td>192</td><td>Orage, faible ou modéré, avec averses de pluie et/ou averses de neige</td><td></td><td></td></tr>
+<tr><td>193</td><td>Orage, faible ou modéré, avec grêle</td><td></td><td></td></tr>
+<tr><td>194</td><td>Orage, fort, sans précipitations</td><td></td><td></td></tr>
+<tr><td>195</td><td>Orage, fort, avec averses de pluie et/ou averses de neige</td><td></td><td></td></tr>
+<tr><td>196</td><td>Orage, fort, avec grêle</td><td></td><td></td></tr>
+<tr><td>197-198</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>199</td><td>Tornade</td><td></td><td></td></tr>
+<tr><td></td><td>Temps présent (s&#x27;ajoute au temps présent transmis par une station météorologique automatique ou non)</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 200-209</td><td></td><td></td></tr>
+<tr><td>200-203</td><td>Inutilisés</td><td></td><td></td></tr>
+<tr><td>204</td><td>Cendres volcaniques suspendues dans l&#x27;air en altitude</td><td></td><td></td></tr>
+<tr><td>205</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td>206</td><td>Épaisse brume de poussière, visibilité inférieure à 1 km</td><td></td><td></td></tr>
+<tr><td>207</td><td>Embruns à la station</td><td></td><td></td></tr>
+<tr><td>208</td><td>Chasse-poussière (ou chasse-sable) basse</td><td></td><td></td></tr>
+<tr><td>209</td><td>Mur de poussière ou de sable au loin (comme le haboob)</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 210-219</td><td></td><td></td></tr>
+<tr><td>210</td><td>Brume de neige</td><td></td><td></td></tr>
+<tr><td>211</td><td>Whiteout</td><td></td><td></td></tr>
+<tr><td>212</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td>213</td><td>Éclair, du nuage à la surface</td><td></td><td></td></tr>
+<tr><td>214-216</td><td>Inutilisés</td><td></td><td></td></tr>
+<tr><td>217</td><td>Orage sans précipitations</td><td></td><td></td></tr>
+<tr><td>218</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td>219</td><td>Tornade (dévastatrice) à la station ou en vue de celle-ci pendant l&#x27;heure précédente ou au moment de l&#x27;observation</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 220-229</td><td></td><td></td></tr>
+<tr><td>220</td><td>Dépôt de cendres volcaniques</td><td></td><td></td></tr>
+<tr><td>221</td><td>Dépôt de poussière ou de sable</td><td></td><td></td></tr>
+<tr><td>222</td><td>Dépôt de rosée</td><td></td><td></td></tr>
+<tr><td>223</td><td>Dépôt de neige mouillée</td><td></td><td></td></tr>
+<tr><td>224</td><td>Dépôt de givre en grains</td><td></td><td></td></tr>
+<tr><td>225</td><td>Dépôt de givre cristallisé</td><td></td><td></td></tr>
+<tr><td>226</td><td>Dépôt de gelée blanche</td><td></td><td></td></tr>
+<tr><td>227</td><td>Dépôt de verglas</td><td></td><td></td></tr>
+<tr><td>228</td><td>Dépôt de croûte de glace (nappe de glace)</td><td></td><td></td></tr>
+<tr><td>229</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 230-239</td><td></td><td></td></tr>
+<tr><td>230</td><td>Tempête de poussière ou de sable avec une température inférieure à 0 °C</td><td></td><td></td></tr>
+<tr><td>231-238</td><td>Inutilisés</td><td></td><td></td></tr>
+<tr><td>239</td><td>Chasse-neige, impossible de déterminer si la neige tombe ou non</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 240-249</td><td></td><td></td></tr>
+<tr><td>240</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td>241</td><td>Brouillard en mer</td><td></td><td></td></tr>
+<tr><td>242</td><td>Brouillard dans les vallées</td><td></td><td></td></tr>
+<tr><td>243</td><td>Fumée de mer arctique ou antarctique</td><td></td><td></td></tr>
+<tr><td>244</td><td>Brouillard d&#x27;évaporation (en mer, sur lac ou rivière)</td><td></td><td></td></tr>
+<tr><td>245</td><td>Brouillard d&#x27;évaporation (à terre)</td><td></td><td></td></tr>
+<tr><td>246</td><td>Brouillard au-dessus d&#x27;une couverture de glace ou de neige</td><td></td><td></td></tr>
+<tr><td>247</td><td>Brouillard dense, visibilité 60-90 m</td><td></td><td></td></tr>
+<tr><td>248</td><td>Brouillard dense, visibilité 30-60 m</td><td></td><td></td></tr>
+<tr><td>249</td><td>Brouillard dense, visibilité inférieure à 30 m</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 250-259</td><td></td><td></td></tr>
+<tr><td>250</td><td>Bruine, intensité</td><td>moins de 0,10 mm h-1</td><td></td></tr>
+<tr><td>251</td><td>Bruine, intensité</td><td>0,10-0,19 mm h-¹</td><td></td></tr>
+<tr><td>252</td><td>Bruine, intensité</td><td>0,20-0,39 mm h-¹</td><td></td></tr>
+<tr><td>253</td><td>Bruine, intensité</td><td>0,40-0,79 mm h-1</td><td></td></tr>
+<tr><td>254</td><td>Bruine, intensité</td><td>0,80-1,59 mm h-¹</td><td></td></tr>
+<tr><td>255</td><td>Bruine, intensité</td><td>1,60-3,19 mm h-1</td><td></td></tr>
+<tr><td>256</td><td>Bruine, intensité</td><td>3,20-6,39 mm h-¹</td><td></td></tr>
+<tr><td>257</td><td>Bruine, intensité</td><td>6,4 mm h-¹ ou plus</td><td></td></tr>
+<tr><td>258</td><td>Inutilisé</td><td></td><td></td></tr>
+<tr><td>259</td><td>Bruine et neige</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 260-269</td><td></td><td></td></tr>
+<tr><td>260</td><td>Pluie, intensité</td><td>moins de 1,0 mm h-¹</td><td></td></tr>
+<tr><td>261</td><td>Pluie, intensité</td><td>1,0-1,9 mm h-1</td><td></td></tr>
+<tr><td>262</td><td>Pluie, intensité</td><td>2,0-3,9 mm h-1</td><td></td></tr>
+<tr><td>263</td><td>Pluie, intensité</td><td>4,0-7,9 mm h-¹</td><td></td></tr>
+<tr><td>264</td><td>Pluie, intensité</td><td>8,0-15,9 mm h-1</td><td></td></tr>
+<tr><td>265</td><td>Pluie, intensité</td><td>16,0-31,9 mm h-¹</td><td></td></tr>
+<tr><td>266</td><td>Pluie, intensité</td><td>32,0-63,9 mm h-1</td><td></td></tr>
+<tr><td>267</td><td>Pluie, intensité</td><td>64,0 mm h-¹ ou plus</td><td></td></tr>
+<tr><td>268-269</td><td>Inutilisés</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaine 270-279</td><td></td><td></td></tr>
+<tr><td>270</td><td>Neige, intensité</td><td>moins de 1,0 cm h-¹</td><td></td></tr>
+<tr><td>271</td><td>Neige, intensité</td><td>1,0-1,9 cm h-1</td><td></td></tr>
+<tr><td>272</td><td>Neige, intensité</td><td>2,0-3,9 cm h-¹</td><td></td></tr>
+<tr><td>273</td><td>Neige, intensité</td><td>4,0-7,9 cm h-1</td><td></td></tr>
+<tr><td>274</td><td>Neige, intensité</td><td>8,0-15,9 cm h-1</td><td></td></tr>
+<tr><td>275</td><td>Neige, intensité</td><td>16,0-31,9 cm h-¹</td><td></td></tr>
+<tr><td>276</td><td>Neige, intensité</td><td>32,0-63,9 cm h-1</td><td></td></tr>
+<tr><td>277</td><td>Neige, intensité</td><td>64,0 cm h-¹ ou plus</td><td></td></tr>
+<tr><td>278</td><td>Chute de cristaux de neige ou de glace dans un ciel clair</td><td></td><td></td></tr>
+<tr><td>279</td><td>Neige mouillée, se congelant au contact</td><td></td><td></td></tr>
+<tr><td></td><td>Dizaines 280-299</td><td></td><td></td></tr>
+<tr><td>280</td><td>Chute de pluie</td><td></td><td></td></tr>
+<tr><td>281</td><td>Chute de pluie, se congelant</td><td></td><td></td></tr>
+<tr><td>282</td><td>Chute de pluie et neige mêlées</td><td></td><td></td></tr>
+<tr><td>283</td><td>Chute de neige</td><td></td><td></td></tr>
+<tr><td>284</td><td>Chute de granules de neige ou de grêle fine</td><td></td><td></td></tr>
+<tr><td>285</td><td>Chute de granules de neige ou de grêle fine, avec pluie</td><td></td><td></td></tr>
+<tr><td>286</td><td>Chute de granules de neige ou de grêle fine, avec pluie et neige mêlées</td><td></td><td></td></tr>
+<tr><td>287</td><td>Chute de granules de neige ou de grêle fine, avec neige</td><td></td><td></td></tr>
+<tr><td>288</td><td>Chute de grêle</td><td></td><td></td></tr>
+<tr><td>289</td><td>Chute de grêle, avec pluie</td><td></td><td></td></tr>
+<tr><td>290</td><td>Chute de grêle, avec pluie et neige mêlées</td><td></td><td></td></tr>
+<tr><td>291</td><td>Chute de grêle, avec neige</td><td></td><td></td></tr>
+<tr><td>292</td><td>Averse(s) ou orage en mer</td><td></td><td></td></tr>
+<tr><td>293</td><td>Averse(s) ou orage au-dessus des montagnes</td><td></td><td></td></tr>
+<tr><td>294-299</td><td>Inutilisés</td><td></td><td></td></tr>
+<tr><td>300-507</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>508</td><td>Pas de phénomène important à signaler, temps présent et passé omis</td><td></td><td></td></tr>
+<tr><td>509</td><td>Pas d&#x27;observation, données non disponibles, temps présent et passé omis</td><td></td><td></td></tr>
+<tr><td>510</td><td>Valeur manquante, mais attendue, pour le temps présent et passé</td><td></td><td></td></tr>
+<tr><td>511</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF34: 1) Entre les chiffres du code 100–199, la présente table de code comprend des termes à plusieurs niveaux afin de servir aux stations simples et aux stations automatiques devenant de plus en plus complexes. 2) Les termes génériques se rapportant au temps (par exemple brouillard, bruine) sont destinés à être utilisés dans des stations automatiques pouvant déterminer les types de temps sans pouvoir fournir d&#x27;autres informations.  Les termes génériques figurent tous dans la table de code en lettres majuscules. 3) Les chiffres du code pour les catégories de précipitations (chiffres du code 140 à 148) sont disposés par ordre de complexité croissante.  Par exemple, une station très simple qui ne peut déceler que la présence ou l&#x27;absence de précipitations utilise le chiffre du code 140 (précipitations).  Au niveau suivant, une station automatique pouvant déceler le volume, mais pas le type, utilise le chiffre du code 141 ou 142.  Une station automatique qui peut déceler le type général (liquide, solide, se congelant) et le volume général utilise les chiffres du code 143 à 148.  Une station automatique qui peut signaler les types réels de précipitations (par exemple bruine ou pluie), mais non leur volume, utilise le nombre entier de la dizaine correspondante (par exemple 150 pour la catégorie bruine; 160 pour la catégorie pluie).</p>
+<p class="note">Note CF43: 1) Entre les chiffres du code 100–199, la présente table de code comprend des termes à plusieurs niveaux afin de servir aux stations simples et aux stations automatiques devenant de plus en plus complexes. 2) Les termes génériques se rapportant au temps (par exemple brouillard, bruine) sont destinés à être utilisés dans des stations automatiques pouvant déterminer les types de temps sans pouvoir fournir d&#x27;autres informations.  Les termes génériques figurent tous dans la table de code en lettres majuscules. 3) Les chiffres du code pour les catégories de précipitations (chiffres du code 140 à 148) sont disposés par ordre de complexité croissante.  Par exemple, une station très simple qui ne peut déceler que la présence ou l&#x27;absence de précipitations utilise le chiffre du code 140 (précipitations).  Au niveau suivant, une station automatique pouvant déceler le volume, mais pas le type, utilise le chiffre du code 141 ou 142.  Une station automatique qui peut déceler le type général (liquide, solide, se congelant) et le volume général utilise les chiffres du code 143 à 148.  Une station automatique qui peut signaler les types réels de précipitations (par exemple bruine ou pluie), mais non leur volume, utilise le nombre entier de la dizaine correspondante (par exemple 150 pour la catégorie bruine; 160 pour la catégorie pluie).</p>
+<p class="note">Note CF80: 1) Entre les chiffres du code 100–199, la présente table de code comprend des termes à plusieurs niveaux afin de servir aux stations simples et aux stations automatiques devenant de plus en plus complexes. 2) Les termes génériques se rapportant au temps (par exemple brouillard, bruine) sont destinés à être utilisés dans des stations automatiques pouvant déterminer les types de temps sans pouvoir fournir d&#x27;autres informations.  Les termes génériques figurent tous dans la table de code en lettres majuscules. 3) Les chiffres du code pour les catégories de précipitations (chiffres du code 140 à 148) sont disposés par ordre de complexité croissante.  Par exemple, une station très simple qui ne peut déceler que la présence ou l&#x27;absence de précipitations utilise le chiffre du code 140 (précipitations).  Au niveau suivant, une station automatique pouvant déceler le volume, mais pas le type, utilise le chiffre du code 141 ou 142.  Une station automatique qui peut déceler le type général (liquide, solide, se congelant) et le volume général utilise les chiffres du code 143 à 148.  Une station automatique qui peut signaler les types réels de précipitations (par exemple bruine ou pluie), mais non leur volume, utilise le nombre entier de la dizaine correspondante (par exemple 150 pour la catégorie bruine; 160 pour la catégorie pluie).</p>
+</div>
+<p class="fxy-heading">0 20 004  Temps passé (1)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nuages ne couvrant pas plus de la moitié du ciel pendant toute la période considérée</td><td></td></tr>
+<tr><td>1</td><td>Nuages couvrant plus de la moitié du ciel pendant une partie de la période considérée et couvrant la moitié du ciel, ou moins, pendant l&#x27;autre partie</td><td></td></tr>
+<tr><td>2</td><td>Nuages couvrant plus de la moitié du ciel pendant toute la période considérée</td><td></td></tr>
+<tr><td>3</td><td>Tempête de sable ou de poussière, ou chasse-neige élevée</td><td></td></tr>
+<tr><td>4</td><td>Brouillard ou brouillard glacé ou brume sèche épaisse</td><td></td></tr>
+<tr><td>5</td><td>Bruine</td><td></td></tr>
+<tr><td>6</td><td>Pluie</td><td></td></tr>
+<tr><td>7</td><td>Neige, ou pluie et neige mêlées</td><td></td></tr>
+<tr><td>8</td><td>Averse(s)</td><td></td></tr>
+<tr><td>9</td><td>Orage(s) avec ou sans précipitations</td><td></td></tr>
+<tr><td>10</td><td>On n&#x27;a pas observé de temps significatif</td><td></td></tr>
+<tr><td>11</td><td>VISIBILITÉ RÉDUITE</td><td></td></tr>
+<tr><td>12</td><td>Chasse-neige ou chasse-sable, visibilité réduite</td><td></td></tr>
+<tr><td>13</td><td>BROUILLARD</td><td></td></tr>
+<tr><td>14</td><td>PRÉCIPITATIONS</td><td></td></tr>
+<tr><td>15</td><td>Bruine</td><td></td></tr>
+<tr><td>16</td><td>Pluie</td><td></td></tr>
+<tr><td>17</td><td>Neige ou granules de glace</td><td></td></tr>
+<tr><td>18</td><td>Averses ou précipitations intermittentes</td><td></td></tr>
+<tr><td>19</td><td>Orage</td><td></td></tr>
+<tr><td>20-30</td><td>En réserve</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 005  Temps passé (2)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nuages ne couvrant pas plus de la moitié du ciel pendant toute la période considérée</td><td></td></tr>
+<tr><td>1</td><td>Nuages couvrant plus de la moitié du ciel pendant une partie de la période considérée et couvrant la moitié du ciel, ou moins, pendant l&#x27;autre partie</td><td></td></tr>
+<tr><td>2</td><td>Nuages couvrant plus de la moitié du ciel pendant toute la période considérée</td><td></td></tr>
+<tr><td>3</td><td>Tempête de sable ou de poussière, ou chasse-neige élevée</td><td></td></tr>
+<tr><td>4</td><td>Brouillard ou brouillard glacé ou brume sèche épaisse</td><td></td></tr>
+<tr><td>5</td><td>Bruine</td><td></td></tr>
+<tr><td>6</td><td>Pluie</td><td></td></tr>
+<tr><td>7</td><td>Neige, ou pluie et neige mêlées</td><td></td></tr>
+<tr><td>8</td><td>Averse(s)</td><td></td></tr>
+<tr><td>9</td><td>Orage(s) avec ou sans précipitations</td><td></td></tr>
+<tr><td>10</td><td>On n&#x27;a pas observé de temps significatif</td><td></td></tr>
+<tr><td>11</td><td>VISIBILITÉ RÉDUITE</td><td></td></tr>
+<tr><td>12</td><td>Chasse-neige ou chasse-sable, visibilité réduite</td><td></td></tr>
+<tr><td>13</td><td>BROUILLARD</td><td></td></tr>
+<tr><td>14</td><td>PRÉCIPITATIONS</td><td></td></tr>
+<tr><td>15</td><td>Bruine</td><td></td></tr>
+<tr><td>16</td><td>Pluie</td><td></td></tr>
+<tr><td>17</td><td>Neige ou granules de glace</td><td></td></tr>
+<tr><td>18</td><td>Averses ou précipitations intermittentes</td><td></td></tr>
+<tr><td>19</td><td>Orage</td><td></td></tr>
+<tr><td>20-30</td><td>En réserve</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 006  Règles de vol</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Règles de vol aux instruments à bas niveau - Plafond &lt; 500 pieds et/ou visibilité &lt; 1 mile</td><td></td></tr>
+<tr><td>1</td><td>Règles de vol aux instruments - Plafond &lt; 1 000 pieds et/ou visibilité &lt; 3 miles</td><td></td></tr>
+<tr><td>2</td><td>Règles de vol à vue marginales - 1 000 pieds ≤ plafond &lt; 3 000 pieds et/ou 3 miles ≤ visibilité &lt; 5 miles</td><td></td></tr>
+<tr><td>3</td><td>Règles de vol à vue - Plafond ≥ 3 000 pieds et/ou visibilité ≥ 5 miles</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 008  Répartition des nuages, pour l&#x27;aviation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ciel clair</td><td></td><td></td></tr>
+<tr><td>1</td><td>Ciel peu nuageux</td><td></td><td></td></tr>
+<tr><td>2</td><td>Nuages épars</td><td></td><td></td></tr>
+<tr><td>3</td><td>Nuages fragmentés</td><td></td><td></td></tr>
+<tr><td>4</td><td>Ciel couvert</td><td></td><td></td></tr>
+<tr><td>5</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>6</td><td>Nuages épars/fragmentés</td><td>(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s))</td><td></td></tr>
+<tr><td>7</td><td>Nuages fragmentés/ciel couvert</td><td>(de nombreuses prévisions contiennent la mention nuages épars/fragmentés ou nuages fragmentés/ciel couvert, suivie du (des) type(s) de nuage(s))</td><td></td></tr>
+<tr><td>8</td><td>Nuages isolés</td><td>(sert à décrire sur les cartes aéronautiques les nuages de type Cb)</td><td></td></tr>
+<tr><td>9</td><td>Nuages isolés noyés</td><td>(sert à décrire sur les cartes aéronautiques les nuages de type Cb)</td><td></td></tr>
+<tr><td>10</td><td>Nuages occasionnels</td><td>(sert à décrire sur les cartes aéronautiques les nuages de type Cb)</td><td></td></tr>
+<tr><td>11</td><td>Nuages occasionnels noyés</td><td>(sert à décrire sur les cartes aéronautiques les nuages de type Cb)</td><td></td></tr>
+<tr><td>12</td><td>Nuages fréquents</td><td>(sert à décrire sur les cartes aéronautiques les nuages de type Cb)</td><td></td></tr>
+<tr><td>13</td><td>Nuages denses</td><td>(sert à décrire sur les cartes aéronautiques les nuages susceptible de réduire brusquement la visibilité (à moins de 1 000 m))</td><td></td></tr>
+<tr><td>14</td><td>Couches</td><td></td><td></td></tr>
+<tr><td>15</td><td>Ciel obscurci (OBSC)</td><td></td><td></td></tr>
+<tr><td>16</td><td>Nuages noyés (EMBD)</td><td></td><td></td></tr>
+<tr><td>17</td><td>Nuages fréquents noyés</td><td></td><td></td></tr>
+<tr><td>18-30</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 009  Indicateur général du temps (TAF/METAR)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Pas de nuage significatif (NSC)</td><td></td></tr>
+<tr><td>2</td><td>CAVOK</td><td></td></tr>
+<tr><td>3</td><td>Ciel clair (SKC)</td><td></td></tr>
+<tr><td>4</td><td>Pas de temps significatif (NSW)</td><td></td></tr>
+<tr><td>5-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 011  Nébulosité</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>1</td><td>1 octa ou moins, mais pas nulle</td><td>1/10 ou moins, mais pas nulle</td><td></td></tr>
+<tr><td>2</td><td>2 octas</td><td>2/10 - 3/10</td><td></td></tr>
+<tr><td>3</td><td>3 octas</td><td>4/10</td><td></td></tr>
+<tr><td>4</td><td>4 octas</td><td>5/10</td><td></td></tr>
+<tr><td>5</td><td>5 octas</td><td>6/10</td><td></td></tr>
+<tr><td>6</td><td>6 octas</td><td>7/10 - 8/10</td><td></td></tr>
+<tr><td>7</td><td>7 octas ou plus, mais pas 8 octas</td><td>9/10 ou plus, mais pas 10/10</td><td></td></tr>
+<tr><td>8</td><td>8 octas</td><td>10/10</td><td></td></tr>
+<tr><td>9</td><td>Ciel obscurci par le brouillard et/ou d&#x27;autres phénomènes météorologiques</td><td></td><td></td></tr>
+<tr><td>10</td><td>Ciel partiellement obscurci par le brouillard et/ou d&#x27;autres phénomènes météorologiques</td><td></td><td></td></tr>
+<tr><td>11</td><td>Nuages épars</td><td></td><td></td></tr>
+<tr><td>12</td><td>Nuages fragmentés</td><td></td><td></td></tr>
+<tr><td>13</td><td>Quelques nuages</td><td></td><td></td></tr>
+<tr><td>14</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>15</td><td>Impossibilité de discerner la couverture de nuages pour des raisons autres que la présence de brouillard ou d&#x27;autres phénomènes météorologiques, ou observation non effectuée</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF2: (voir Note 1) 1) Pour l’emploi du chiffre du code 15, voir la règle 12.1.4. 2) «Clair» et «couvert» portent les chiffres 0 et 8 respectivement.</p>
+</div>
+<p class="fxy-heading">0 20 012  Type de nuage</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cirrus (Ci)</td><td></td></tr>
+<tr><td>1</td><td>Cirrocumulus (Cc)</td><td></td></tr>
+<tr><td>2</td><td>Cirrostratus (Cs)</td><td></td></tr>
+<tr><td>3</td><td>Altocumulus (Ac)</td><td></td></tr>
+<tr><td>4</td><td>Altostratus (As)</td><td></td></tr>
+<tr><td>5</td><td>Nimbostratus (Ns)</td><td></td></tr>
+<tr><td>6</td><td>Stratocumulus (Sc)</td><td></td></tr>
+<tr><td>7</td><td>Stratus (St)</td><td></td></tr>
+<tr><td>8</td><td>Cumulus (Cu)</td><td></td></tr>
+<tr><td>9</td><td>Cumulonimbus (Cb)</td><td></td></tr>
+<tr><td>10</td><td>Pas de nuages CH</td><td></td></tr>
+<tr><td>11</td><td>Cirrus fibratus, parfois uncinus, n&#x27;envahissant pas progressivement le ciel</td><td></td></tr>
+<tr><td>12</td><td>Cirrus spissatus, en bancs ou en gerbes enchevêtrées, qui, en général, n&#x27;augmentent pas et semblent être parfois les résidus de la partie supérieure d&#x27;un cumulonimbus; ou cirrus des espèces castellanus ou floccus</td><td></td></tr>
+<tr><td>13</td><td>Cirrus spissatus cumulonimbogenitus</td><td></td></tr>
+<tr><td>14</td><td>Cirrus uncinus ou cirrus fibratus, ou les deux, envahissant progressivement le ciel; ces nuages deviennent, en général, plus épais dans leur ensemble</td><td></td></tr>
+<tr><td>15</td><td>Cirrus (souvent en bandes) et cirrostratus, ou cirrostratus seul, envahissant progressivement le ciel; ces nuages deviennent, en général, plus épais dans leur ensemble, mais le voile continu n&#x27;atteint pas 45 degrés au-dessus de l&#x27;horizon</td><td></td></tr>
+<tr><td>16</td><td>Cirrus (souvent en bandes) et cirrostratus, ou cirrostratus seul, envahissant progressivement le ciel; ces nuages deviennent, en général, plus épais dans leur ensemble; le voile continu dépasse 45 degrés au-dessus de l&#x27;horizon, sans que le ciel soit totalement couvert</td><td></td></tr>
+<tr><td>17</td><td>Cirrostratus couvrant entièrement le ciel</td><td></td></tr>
+<tr><td>18</td><td>Cirrostratus n&#x27;envahissant pas progressivement le ciel et ne le couvrant pas entièrement</td><td></td></tr>
+<tr><td>19</td><td>Cirrocumulus seuls, ou cirrocumulus prédominants parmi les nuages CH</td><td></td></tr>
+<tr><td>20</td><td>Pas de nuages CM</td><td></td></tr>
+<tr><td>21</td><td>Altostratus translucidus</td><td></td></tr>
+<tr><td>22</td><td>Altostratus opacus ou nimbostratus</td><td></td></tr>
+<tr><td>23</td><td>Altocumulus translucidus à un seul niveau</td><td></td></tr>
+<tr><td>24</td><td>Altocumulus translucidus en bancs (souvent de forme lenticulaire), changeant continuellement d&#x27;aspect et se présentant à un ou plusieurs niveaux</td><td></td></tr>
+<tr><td>25</td><td>Altocumulus translucidus en bandes, ou une ou plusieurs couches d&#x27;altocumulus translucidus ou opacus, envahissant progressivement le ciel; ces altocumulus s&#x27;épaississent, en général, dans leur ensemble</td><td></td></tr>
+<tr><td>26</td><td>Altocumulus cumulogenitus (ou altocumulus cumulonimbogenitus)</td><td></td></tr>
+<tr><td>27</td><td>Altocumulus translucidus ou opacus en deux ou plusieurs couches, ou altocumulus opacus en une seule couche, n&#x27;envahissant pas progressivement le ciel, ou altocumulus avec altostratus ou nimbostratus</td><td></td></tr>
+<tr><td>28</td><td>Altocumulus castellanus ou altocumulus floccus</td><td></td></tr>
+<tr><td>29</td><td>Altocumulus d&#x27;un ciel chaotique, situés généralement à plusieurs niveaux</td><td></td></tr>
+<tr><td>30</td><td>Pas de nuages CL</td><td></td></tr>
+<tr><td>31</td><td>Cumulus humilis ou cumulus fractus autres que de mauvais temps*, ou les deux</td><td></td></tr>
+<tr><td>32</td><td>Cumulus mediocris ou cumulus congestus, cumulus bourgeonnant (TCU), avec ou sans cumulus des espèces fractus ou humilis, avec ou sans stratocumulus, tous ayant leurs bases au même niveau</td><td></td></tr>
+<tr><td>33</td><td>Cumulonimbus calvus, avec ou sans cumulus, stratocumulus ou stratus</td><td></td></tr>
+<tr><td>34</td><td>Stratocumulus cumulogenitus</td><td></td></tr>
+<tr><td>35</td><td>Stratocumulus autres que stratocumulus cumulogenitus</td><td></td></tr>
+<tr><td>36</td><td>Stratus nebulosus ou stratus fractus autres que de mauvais temps*, ou les deux</td><td></td></tr>
+<tr><td>37</td><td>Stratus fractus ou cumulus fractus de mauvais temps*, ou les deux (pannus), généralement au-dessous d&#x27;un altostratus ou d&#x27;un nimbostratus</td><td></td></tr>
+<tr><td>38</td><td>Cumulus et Stratocumulus autres que stratocumulus cumulogenitus, ayant leurs bases à des niveaux différents</td><td></td></tr>
+<tr><td>39</td><td>Cumulonimbus capillatus (souvent avec enclume), avec ou sans cumulonimbus calvus, cumulus, stratocumulus, stratus ou pannus</td><td></td></tr>
+<tr><td>40</td><td>CH</td><td></td></tr>
+<tr><td>41</td><td>CM</td><td></td></tr>
+<tr><td>42</td><td>CL</td><td></td></tr>
+<tr><td>43</td><td>Clair</td><td></td></tr>
+<tr><td>44</td><td>Eau liquide</td><td></td></tr>
+<tr><td>45</td><td>Eau surfondue</td><td></td></tr>
+<tr><td>46</td><td>Phase mixte</td><td></td></tr>
+<tr><td>47</td><td>Glace de grande épaisseur optique</td><td></td></tr>
+<tr><td>48</td><td>Glace de faible épaisseur optique</td><td></td></tr>
+<tr><td>49</td><td>Glace multicouche</td><td></td></tr>
+<tr><td>50-58</td><td>En réserve</td><td></td></tr>
+<tr><td>59</td><td>Nuage invisible par suite d&#x27;obscurité, de brouillard, de tempête de poussière, de tempête de sable ou d&#x27;autres phénomènes analogues</td><td></td></tr>
+<tr><td>60</td><td>Nuages C invisibles par suite d&#x27;obscurité, de brouillard, de chasse-poussière ou de chasse-sable, ou d&#x27;autres phénomènes semblables, ou en raison d&#x27;une couche continue de nuages situés à un niveau plus bas</td><td></td></tr>
+<tr><td>61</td><td>Nuages CM invisibles par suite d&#x27;obscurité, de brouillard, de chasse-poussière ou de chasse-sable, ou d&#x27;autres phénomènes semblables, ou en raison d&#x27;une couche continue de nuages situés à un niveau plus bas</td><td></td></tr>
+<tr><td>62</td><td>Nuages CL invisibles par suite d&#x27;obscurité, de brouillard, de chasse-poussière ou de chasse-sable, ou d&#x27;autres phénomènes semblables</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 017  Description du sommet des nuages</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nuages isolés ou fragments de nuages</td><td></td><td></td></tr>
+<tr><td>1</td><td>Nuages continus</td><td>sommets plats</td><td></td></tr>
+<tr><td>2</td><td>Nuages fragmentés - petites éclaircies</td><td>sommets plats</td><td></td></tr>
+<tr><td>3</td><td>Nuages fragmentés - grandes éclaircies</td><td>sommets plats</td><td></td></tr>
+<tr><td>4</td><td>Nuages continus</td><td>surface supérieure ondulée</td><td></td></tr>
+<tr><td>5</td><td>Nuages fragmentés - petites éclaircies</td><td>surface supérieure ondulée</td><td></td></tr>
+<tr><td>6</td><td>Nuages fragmentés - grandes éclaircies</td><td>surface supérieure ondulée</td><td></td></tr>
+<tr><td>7</td><td>Ondulations continues ou presque continues avec des nuages bourgeonnants au-dessus de la surface supérieure de la couche</td><td></td><td></td></tr>
+<tr><td>8</td><td>Groupes d&#x27;ondulations avec des nuages bourgeonnants au-dessus de la surface supérieure de la couche</td><td></td><td></td></tr>
+<tr><td>9</td><td>Deux ou plusieurs couches à des niveaux différents</td><td></td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 018  Tendance de la portée visuelle de piste</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En augmentation (U)</td><td></td></tr>
+<tr><td>1</td><td>En diminution (D)</td><td></td></tr>
+<tr><td>2</td><td>Pas de modification distincte (N)</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 021  Type de précipitation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Précipitation de type inconnu</td><td></td></tr>
+<tr><td>2</td><td>Précipitation liquide sans congélation</td><td></td></tr>
+<tr><td>3</td><td>Précipitation liquide avec congélation</td><td></td></tr>
+<tr><td>4</td><td>Bruine</td><td></td></tr>
+<tr><td>5</td><td>Pluie</td><td></td></tr>
+<tr><td>6</td><td>Précipitation solide</td><td></td></tr>
+<tr><td>7</td><td>Neige</td><td></td></tr>
+<tr><td>8</td><td>Flocons de neige</td><td></td></tr>
+<tr><td>9</td><td>Neige roulée</td><td></td></tr>
+<tr><td>10</td><td>Granules de glace</td><td></td></tr>
+<tr><td>11</td><td>Cristaux de glace</td><td></td></tr>
+<tr><td>12</td><td>Poudrin de glace</td><td></td></tr>
+<tr><td>13</td><td>Grésil</td><td></td></tr>
+<tr><td>14</td><td>Grêle</td><td></td></tr>
+<tr><td>15</td><td>Verglas</td><td></td></tr>
+<tr><td>16</td><td>Givre</td><td></td></tr>
+<tr><td>17</td><td>Givre léger</td><td></td></tr>
+<tr><td>18</td><td>Givre épais</td><td></td></tr>
+<tr><td>19</td><td>Givre transparent</td><td></td></tr>
+<tr><td>20</td><td>Neige mouillée</td><td></td></tr>
+<tr><td>21</td><td>Gelée blanche</td><td></td></tr>
+<tr><td>22</td><td>Rosée</td><td></td></tr>
+<tr><td>23</td><td>Rosée blanche</td><td></td></tr>
+<tr><td>24-29</td><td>En réserve</td><td></td></tr>
+<tr><td>30 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF57: Le mélange de précipitation est indiqué en mettant à 1 les bits de tous les types de précipitation observés.</p>
+</div>
+<p class="fxy-heading">0 20 022  Caractéristique de la précipitation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de précipitation</td><td></td></tr>
+<tr><td>1</td><td>Continue</td><td></td></tr>
+<tr><td>2</td><td>Intermittente</td><td></td></tr>
+<tr><td>3</td><td>Averse</td><td></td></tr>
+<tr><td>4</td><td>N&#x27;atteignant pas le sol</td><td></td></tr>
+<tr><td>5</td><td>Dépôt</td><td></td></tr>
+<tr><td>6-14</td><td>En réserver</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 023  Autres phénomènes météorologiques</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Tourbillon de sable/poussière</td><td></td></tr>
+<tr><td>2</td><td>Grains</td><td></td></tr>
+<tr><td>3</td><td>Tempête de sable</td><td></td></tr>
+<tr><td>4</td><td>Tempête de poussière</td><td></td></tr>
+<tr><td>5</td><td>Foudre - nuage à surface</td><td></td></tr>
+<tr><td>6</td><td>Foudre - nuage à nuage</td><td></td></tr>
+<tr><td>7</td><td>Foudre - distante</td><td></td></tr>
+<tr><td>8</td><td>Orage</td><td></td></tr>
+<tr><td>9</td><td>Nuage en entonnoir ne touchant pas la surface</td><td></td></tr>
+<tr><td>10</td><td>Nuage en entonnoir touchant la surface</td><td></td></tr>
+<tr><td>11</td><td>Embruns</td><td></td></tr>
+<tr><td>12</td><td>Trombe marine</td><td></td></tr>
+<tr><td>13</td><td>Cisaillement du vent</td><td></td></tr>
+<tr><td>14</td><td>Tourbillons de poussière</td><td></td></tr>
+<tr><td>15-17</td><td>En réserve</td><td></td></tr>
+<tr><td>18 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 024  Intensité du phénomène</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de phénomène</td><td></td></tr>
+<tr><td>1</td><td>Léger</td><td></td></tr>
+<tr><td>2</td><td>Modéré</td><td></td></tr>
+<tr><td>3</td><td>Fort</td><td></td></tr>
+<tr><td>4</td><td>Violent</td><td></td></tr>
+<tr><td>5</td><td>Dangereux</td><td></td></tr>
+<tr><td>6</td><td>Très dangereux</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 025  Obscurcissement</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Brouillard</td><td></td></tr>
+<tr><td>2</td><td>Brouillard glacé</td><td></td></tr>
+<tr><td>3</td><td>Brouillard d&#x27;évaporation</td><td></td></tr>
+<tr><td>4-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Brume</td><td></td></tr>
+<tr><td>8</td><td>Brume sèche</td><td></td></tr>
+<tr><td>9</td><td>Fumée</td><td></td></tr>
+<tr><td>10</td><td>Cendre volcanique</td><td></td></tr>
+<tr><td>11</td><td>Poussière</td><td></td></tr>
+<tr><td>12</td><td>Sable</td><td></td></tr>
+<tr><td>13</td><td>Neige</td><td></td></tr>
+<tr><td>14</td><td>Nébulosité</td><td></td></tr>
+<tr><td>15</td><td>Précipitations</td><td></td></tr>
+<tr><td>16</td><td>Impossible de déterminer s&#x27;il neige ou non</td><td></td></tr>
+<tr><td>17-20</td><td>En réserve</td><td></td></tr>
+<tr><td>21 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 026  Caractéristique de l&#x27;obscurcissement</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de changement</td><td></td></tr>
+<tr><td>1</td><td>Eau profonde</td><td></td></tr>
+<tr><td>2</td><td>Parcelles</td><td></td></tr>
+<tr><td>3</td><td>Partiel</td><td></td></tr>
+<tr><td>4</td><td>Gel</td><td></td></tr>
+<tr><td>5</td><td>Dérive basse</td><td></td></tr>
+<tr><td>6</td><td>Rafale</td><td></td></tr>
+<tr><td>7</td><td>Croissant</td><td></td></tr>
+<tr><td>8</td><td>Décroissant</td><td></td></tr>
+<tr><td>9</td><td>En suspension dans l&#x27;air</td><td></td></tr>
+<tr><td>10</td><td>Mur</td><td></td></tr>
+<tr><td>11</td><td>Dense</td><td></td></tr>
+<tr><td>12</td><td>Whiteout</td><td></td></tr>
+<tr><td>13</td><td>Dérive et rafale</td><td></td></tr>
+<tr><td>14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 027  Apparition du phénomène*</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>À l&#x27;heure de l&#x27;observation</td><td></td></tr>
+<tr><td>2</td><td>Dans l&#x27;heure écoulée</td><td></td></tr>
+<tr><td>3</td><td>Dans la période de temps passé W₁W₂</td><td></td></tr>
+<tr><td>4</td><td>Dans la période spécifiée</td><td></td></tr>
+<tr><td>5</td><td>En réserve</td><td></td></tr>
+<tr><td>6</td><td>Au-dessous du niveau de la station</td><td></td></tr>
+<tr><td>7</td><td>À la station</td><td>(voir note 1)</td></tr>
+<tr><td>8</td><td>Dans le voisinage</td><td>(voir note 2)</td></tr>
+<tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF63: Dans cette table d&#x27;indicateurs, &#x27;phenomene&#x27; signifie tout phenomene, y compris les precipitations et l&#x27;obscurcissement.</p>
+</div>
+<p class="fxy-heading">0 20 028  Changement d&#x27;intensité prévu</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucun changement (NC)</td><td></td></tr>
+<tr><td>1</td><td>Affaiblissement des phénomènes prévus (WKN)</td><td></td></tr>
+<tr><td>2</td><td>Intensification des phénomènes prévus (INTSF)</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 029  Indicateur de pluie</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de pluie</td><td></td></tr>
+<tr><td>1</td><td>Pluie</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 032  Vitesse d&#x27;accumulation de la glace (estimée)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Glace ne s&#x27;accumulant pas</td><td></td></tr>
+<tr><td>1</td><td>Glace s&#x27;accumulant lentement</td><td></td></tr>
+<tr><td>2</td><td>Glace s&#x27;accumulant rapidement</td><td></td></tr>
+<tr><td>3</td><td>Glace fondant ou se désagrégeant lentement</td><td></td></tr>
+<tr><td>4</td><td>Glace fondant ou se désagrégeant rapidement</td><td></td></tr>
+<tr><td>5-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 033  Cause de l&#x27;accumulation de la glace</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Givrage dû aux embruns</td><td></td></tr>
+<tr><td>2</td><td>Givrage dû au brouillard</td><td></td></tr>
+<tr><td>3</td><td>Givrage dû à la pluie</td><td></td></tr>
+<tr><td>4 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 034  Concentration des glaces de mer</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>SOUS 2</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de glaces de mer en vue</td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Navire dans un chenal ouvert ayant plus de 1,0 mille marin de large, ou navire dans la banquise côtière avec ligne de démarcation au-delà de la limite de visibilité</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>Présence de glaces de mer en concentrations inférieures à 3/10 (3/8), eau libre ou banquise très lâche</td><td>La concentration des glaces de mer est uniforme dans la zone d&#x27;observation</td><td></td><td></td></tr>
+<tr><td>3</td><td>4/10 à 6/10 (3/8 à moins de 6/8), banquise lâche</td><td>La concentration des glaces de mer est uniforme dans la zone d&#x27;observation</td><td></td><td></td></tr>
+<tr><td>4</td><td>7/10 à 8/10 (6/8 à moins de 7/8), banquise serrée</td><td>La concentration des glaces de mer est uniforme dans la zone d&#x27;observation</td><td></td><td></td></tr>
+<tr><td>5</td><td>9/10 ou plus, mais inférieure à 10/10 (7/8 à moins de 8/8), banquise très serrée</td><td>La concentration des glaces de mer est uniforme dans la zone d&#x27;observation</td><td></td><td></td></tr>
+<tr><td>6</td><td>Cordons et bancs de glace séparés par de l&#x27;eau libre</td><td>La concentration des glaces de mer n&#x27;est pas uniforme dans la zone d&#x27;observation</td><td>Navire dans les glaces ou à moins de 0,5 mille marin de la lisière des glaces</td><td></td></tr>
+<tr><td>7</td><td>Cordons et bancs de glace, constitués de banquise serrée ou très serrée, séparés par des zones où la concentration est plus faible</td><td>La concentration des glaces de mer n&#x27;est pas uniforme dans la zone d&#x27;observation</td><td>Navire dans les glaces ou à moins de 0,5 mille marin de la lisière des glaces</td><td></td></tr>
+<tr><td>8</td><td>Banquise côtière avec eau libre, banquise très lâche ou banquise lâche du côté du large de la ligne de démarcation des glaces</td><td>La concentration des glaces de mer n&#x27;est pas uniforme dans la zone d&#x27;observation</td><td>Navire dans les glaces ou à moins de 0,5 mille marin de la lisière des glaces</td><td></td></tr>
+<tr><td>9</td><td>Banquise côtière avec banquise serrée ou très serrée du côté du large de la ligne de démarcation des glaces</td><td>La concentration des glaces de mer n&#x27;est pas uniforme dans la zone d&#x27;observation</td><td>Navire dans les glaces ou à moins de 0,5 mille marin de la lisière des glaces</td><td></td></tr>
+<tr><td>10-13</td><td>En réserve</td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>Chiffrement impossible en raison de l&#x27;obscurité, du manque de visibilité, ou du fait que le navire se trouve à plus de 0,5 mille marin de la lisière des glaces</td><td></td><td></td><td></td></tr>
+<tr><td>15-30</td><td>En réserve</td><td></td><td></td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 035  Quantité et type de glace</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de glace d&#x27;origine terrestre</td><td></td></tr>
+<tr><td>1</td><td>1 à 5 icebergs, pas de bourguignons ni de fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>2</td><td>6 à 10 icebergs, pas de bourguignons ni de fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>3</td><td>11 à 20 icebergs, pas de bourguignons ni de fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>4</td><td>Jusqu&#x27;à 10 bourguignons et fragments d&#x27;iceberg, pas d&#x27;icebergs</td><td></td></tr>
+<tr><td>5</td><td>Plus de 10 bourguignons et fragments d&#x27;iceberg, pas d&#x27;icebergs</td><td></td></tr>
+<tr><td>6</td><td>1 à 5 icebergs, avec bourguignons et fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>7</td><td>6 à 10 icebergs, avec bourguignons et fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>8</td><td>11 à 20 icebergs, avec bourguignons et fragments d&#x27;iceberg</td><td></td></tr>
+<tr><td>9</td><td>Plus de 20 icebergs, avec bourguignons et fragments d&#x27;iceberg - grand danger pour la navigation</td><td></td></tr>
+<tr><td>10-13</td><td>En réserve</td><td></td></tr>
+<tr><td>14</td><td>Chiffrement impossible en raison de l&#x27;obscurité, du manque de visibilité, ou du fait que seules des glaces de mer sont visibles</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 036  Situation des glaces</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Navire en eau libre, avec glace flottante en vue</td><td></td></tr>
+<tr><td>1</td><td>Navire dans de la glace facilement pénétrable; les conditions s&#x27;améliorent</td><td></td></tr>
+<tr><td>2</td><td>Navire dans de la glace facilement pénétrable; les conditions ne varient pas</td><td></td></tr>
+<tr><td>3</td><td>Navire dans de la glace facilement pénétrable; les conditions s&#x27;aggravent</td><td></td></tr>
+<tr><td>4</td><td>Navire dans de la glace difficilement pénétrable; les conditions s&#x27;améliorent</td><td></td></tr>
+<tr><td>5</td><td>Navire dans de la glace difficilement pénétrable; les conditions ne varient pas</td><td></td></tr>
+<tr><td>6</td><td>Navire dans de la glace difficilement pénétrable; les conditions s&#x27;aggravent. De la glace se forme et les floes se soudent ensemble</td><td></td></tr>
+<tr><td>7</td><td>Navire dans de la glace difficilement pénétrable; les conditions s&#x27;aggravent. Glace soumise à une faible pression</td><td></td></tr>
+<tr><td>8</td><td>Navire dans de la glace difficilement pénétrable; les conditions s&#x27;aggravent. Glace soumise à une pression modérée ou forte</td><td></td></tr>
+<tr><td>9</td><td>Navire dans de la glace difficilement pénétrable; les conditions s&#x27;aggravent. Navire coincé</td><td></td></tr>
+<tr><td>10-29</td><td>En réserve</td><td></td></tr>
+<tr><td>30</td><td>Chiffrement impossible en raison de l&#x27;obscurité ou du manque de visibilité</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 037  Évolution de la glace</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nouvelle glace exclusivement (frasil, sorbet, gadoue, shuga)</td><td></td></tr>
+<tr><td>1</td><td>Nilas ou glace vitrée, de moins de 10 cm d&#x27;épaisseur</td><td></td></tr>
+<tr><td>2</td><td>Jeune glace (glace grise, glace banchâtre), de 10 à 30 cm d&#x27;épaisseur</td><td></td></tr>
+<tr><td>3</td><td>Nouvelle glace et/ou jeune glace prédominantes, avec un peu de glace de première année</td><td></td></tr>
+<tr><td>4</td><td>Glace mince de première année prédominante, avec un peu de nouvelle glace et/ou de jeune glace</td><td></td></tr>
+<tr><td>5</td><td>Glace mince de première année exclusivement (de 30 à 70 cm d&#x27;épaisseur)</td><td></td></tr>
+<tr><td>6</td><td>Glace moyenne de première année prédominante (de 70 à 120 cm d&#x27;épaisseur) et glace épaisse de première année (&gt;120 cm d&#x27;épaisseur), avec un peu de glace de première année plus mince (plus jeune)</td><td></td></tr>
+<tr><td>7</td><td>Glace moyenne et glace épaisse de première année exclusivement</td><td></td></tr>
+<tr><td>8</td><td>Glace moyenne et glace épaisse de première année prédominantes, avec un peu de vieille glace (généralement plus de 2 m d&#x27;épaisseur)</td><td></td></tr>
+<tr><td>9</td><td>Vieille glace prédominante</td><td></td></tr>
+<tr><td>10-29</td><td>En réserve</td><td></td></tr>
+<tr><td>30</td><td>Chiffrement impossible en raison de l&#x27;obscurité, du manque de visibilité, ou du fait que seules des glaces d&#x27;origine terrestre sont visibles, ou parce que le navire se trouve à plus de 0,5 mille marin de la lisière des glaces</td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 040  Évolution de la chasse-neige</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>La chasse-neige a pris fin avant l&#x27;heure de l&#x27;observation</td><td></td></tr>
+<tr><td>1</td><td>L&#x27;intensité de la chasse-neige diminue</td><td></td></tr>
+<tr><td>2</td><td>Sans changement</td><td></td></tr>
+<tr><td>3</td><td>L&#x27;intensité de la chasse-neige augmente</td><td></td></tr>
+<tr><td>4</td><td>La chasse-neige continue, avec des interruptions inférieures à 30 minutes</td><td></td></tr>
+<tr><td>5</td><td>La chasse-neige générale s&#x27;est transformée en chasse-neige près du sol</td><td></td></tr>
+<tr><td>6</td><td>La chasse-neige près du sol s&#x27;est transformée en chasse-neige générale</td><td></td></tr>
+<tr><td>7</td><td>La chasse-neige a repris après une interruption de plus de 30 minutes</td><td></td></tr>
+<tr><td>8-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 041  Givrage d&#x27;aéronef</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de givrage</td><td></td></tr>
+<tr><td>1</td><td>Givrage faible</td><td></td></tr>
+<tr><td>2</td><td>Givrage faible dans les nuages</td><td></td></tr>
+<tr><td>3</td><td>Givrage faible dans les précipitations</td><td></td></tr>
+<tr><td>4</td><td>Givrage modéré</td><td></td></tr>
+<tr><td>5</td><td>Givrage modéré dans les nuages</td><td></td></tr>
+<tr><td>6</td><td>Givrage modéré dans les précipitations</td><td></td></tr>
+<tr><td>7</td><td>Givrage fort</td><td></td></tr>
+<tr><td>8</td><td>Givrage fort dans les nuages</td><td></td></tr>
+<tr><td>9</td><td>Givrage fort dans les précipitations</td><td></td></tr>
+<tr><td>10</td><td>Trace de givrage</td><td></td></tr>
+<tr><td>11</td><td>Trace de givrage dans les nuages</td><td></td></tr>
+<tr><td>12</td><td>Trace de givrage dans les précipitations</td><td></td></tr>
+<tr><td>13-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 042  Givrage de la cellule</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de givrage</td><td></td></tr>
+<tr><td>1</td><td>Givrage</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 045  Grosses gouttes d&#x27;eau surfondues</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de grosses gouttes d&#x27;eau surfondues</td><td></td></tr>
+<tr><td>1</td><td>Présence de grosses gouttes d&#x27;eau</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 048  Évolution du phénomène</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Stabilité</td><td></td></tr>
+<tr><td>1</td><td>Diminution</td><td></td></tr>
+<tr><td>2</td><td>Intensification</td><td></td></tr>
+<tr><td>3</td><td>Inconnu</td><td></td></tr>
+<tr><td>4-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 050  Index des nuages</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Nuages de l&#x27;étage inférieur - première couche</td><td></td></tr>
+<tr><td>2</td><td>Nuages de l&#x27;étage inférieur - deuxième couche</td><td></td></tr>
+<tr><td>3</td><td>Nuages de l&#x27;étage inférieur - troisième couche</td><td></td></tr>
+<tr><td>4</td><td>Nuages de l&#x27;étage moyen - première couche</td><td></td></tr>
+<tr><td>5</td><td>Nuages de l&#x27;étage moyen - deuxième couche</td><td></td></tr>
+<tr><td>6</td><td>Nuages de l&#x27;étage moyen - troisième couche</td><td></td></tr>
+<tr><td>7</td><td>Nuages de l&#x27;étage supérieur - première couche</td><td></td></tr>
+<tr><td>8</td><td>Nuages de l&#x27;étage supérieur - deuxième couche</td><td></td></tr>
+<tr><td>9-254</td><td>En réserve</td><td></td></tr>
+<tr><td>255</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 055  État du ciel dans les régions tropicales</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cumulus inexistants ou très peu développés; couvrent en général moins de 2/8 de la voûte céleste, sauf sur les pentes au vent du relief; leur largeur moyenne est au moins égale à leur hauteur</td><td></td></tr>
+<tr><td>1</td><td>Cumulus de dimensions intermédiaires couvrant moins de 5/8 de la voûte céleste; leur hauteur est inférieure à leur largeur moyenne; les colonnes nuageuses sont verticales avec peu ou pas de signes de précipitations sauf le long des pentes du relief; absence générale de nuages moyens et supérieurs</td><td></td></tr>
+<tr><td>2</td><td>Cumulus bourgeonnants avec cheminées d&#x27;ascendance à développement rapide, allant en s&#x27;amincissant avec la hauteur, dont les sommets tendent à se détacher de la masse inférieure des nuages et s&#x27;évaporent en quelques minutes</td><td></td></tr>
+<tr><td>3</td><td>Cumulus bourgeonnants avec cheminées d&#x27;ascendance ayant une inclinaison prononcée dans le sens du vent; la hauteur des nuages est égale à plus d&#x27;une fois et demie leur largeur moyenne</td><td></td></tr>
+<tr><td>4</td><td>Cumulus bourgeonnants avec cheminées d&#x27;ascendance ayant une inclinaison prononcée dans le sens opposé au vent; la hauteur des nuages est égale à plus d&#x27;une fois et demie leur largeur moyenne</td><td></td></tr>
+<tr><td>5</td><td>Cumulus congestus très développés dont la hauteur est égale à plus de deux fois leur largeur moyenne; ne sont pas organisés en grappes ou en lignes; une ou plusieurs couches de nuages émergent des colonnes nuageuses, bien qu&#x27;il n&#x27;existe pas de couches continues</td><td>(voir la note)</td></tr>
+<tr><td>6</td><td>Cumulonimbus isolés ou concentrations étendues de colonnes de cumulus séparées par de grandes trouées; la base des nuages est généralement sombre et l&#x27;on observe des averses dans la plupart des cellules; on peut noter la présence de quelques nuages moyens et supérieurs épars; les différentes cellules de cumulus sont une ou deux fois plus hautes que larges</td><td></td></tr>
+<tr><td>7</td><td>Nombreux cumulus s&#x27;étendant jusqu&#x27;à la troposphère moyenne avec des nappes continues ou discontinues de nuages moyens et/ou des cirrostratus; les dimensions des colonnes de cumulus ne diminuent généralement pas avec la hauteur; la base des nuages est sombre et déchiquetée et il se produit quelques averses</td><td></td></tr>
+<tr><td>8</td><td>Nuages moyens denses et continus et/ou nappes de cirrostratus avec quelques grands cumulonimbus ou cumulus congestus isolés pénétrant à travers ces nappes; on observe occa- sionnellement de faibles chutes de pluie provenant des altostratus; la base des cumulonimbus est déchiquetée et sombre avec averses visibles</td><td>(voir la note)</td></tr>
+<tr><td>9</td><td>Nappes continues de nuages moyens et/ou cirrostratus avec cumulonimbus et cumulus congestus en lignes organisées ou en bandes; on observe généralement des chutes de pluie provenant des nappes d&#x27;altostratus et de fortes averses provenant des cumulonimbus; le vent est irrégulier, avec grains</td><td></td></tr>
+<tr><td>10</td><td>État du ciel inconnu ou non décrit par l&#x27;un quelconque des chiffres ci-dessus</td><td></td></tr>
+<tr><td>11-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 056  Phase des nuages</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inconnu</td><td></td></tr>
+<tr><td>1</td><td>Eau</td><td></td></tr>
+<tr><td>2</td><td>Glace</td><td></td></tr>
+<tr><td>3</td><td>Mélange</td><td></td></tr>
+<tr><td>4</td><td>Clair</td><td></td></tr>
+<tr><td>5</td><td>Eau surfondue</td><td></td></tr>
+<tr><td>6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 062  État du sol (recouvert ou non d&#x27;une couche de neige)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Surface du sol sèche (sans fissure et sans poussière ni sable meuble en quantité appréciable)</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>1</td><td>Surface du sol humide</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>2</td><td>Surface du sol mouillée (eau stagnante en mares, petites ou grandes, à la surface)</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>3</td><td>Inondé</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>4</td><td>Surface du sol gelée</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>5</td><td>Verglas au sol</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>6</td><td>Poussière ou sable meuble sec ne couvrant pas complètement le sol</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>7</td><td>Couche fine de poussière ou de sable meuble sec couvrant complète- ment le sol</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>8</td><td>Couche épaisse ou d&#x27;épaisseur moyenne de poussière ou de sable meuble sec couvrant complètement le sol</td><td>sans couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>9</td><td>Très sec avec fissures</td><td></td><td></td></tr>
+<tr><td>10</td><td>Sol en grande partie couvert de glace</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>11</td><td>Neige compacte ou mouillée (avec ou sans glace) couvrant moins de la moitié du sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>12</td><td>Neige compacte ou mouillée (avec ou sans glace) couvrant au moins la moitié du sol, mais ne le couvrant pas complètement</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>13</td><td>Couche uniforme de neige compacte ou mouillée couvrant complète- ment le sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>14</td><td>Couche non uniforme de neige compacte ou mouillée couvrant com- plètement le sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>15</td><td>Neige sèche poudreuse couvrant moins de la moitié du sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>16</td><td>Neige sèche poudreuse couvrant au moins la moitié du sol, mais ne le couvrant pas complètement</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>17</td><td>Couche uniforme de neige sèche poudreuse couvrant complètement le sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>18</td><td>Couche non uniforme de neige sèche poudreuse couvrant complète- ment le sol</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>19</td><td>Neige couvrant complètement le sol; congères élevées</td><td>avec couche de neige ou de glace mesurable</td><td></td></tr>
+<tr><td>20-30</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>31</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF50: 1) Les définitions données pour les chiffres du code 0 à 2 et 4 s’appliquent à une superficie représentative de sol nu, et les chiffres 3, 5 à 9 et 10 à 19 à une zone dégagée représentative. 2) En toutes circonstances, on choisit le chiffre du code le plus élevé qui puisse s’appliquer. 3) Dans la table de code ci-dessus, toute référence à de la glace comprend aussi les précipitations solides autres que la neige.</p>
+<p class="note">Note CF54: 1) Les définitions données pour les chiffres du code 0 à 2 et 4 s’appliquent à une superficie représentative de sol nu, et les chiffres 3, 5 à 9 et 10 à 19 à une zone dégagée représentative. 2) En toutes circonstances, on choisit le chiffre du code le plus élevé qui puisse s’appliquer. 3) Dans la table de code ci-dessus, toute référence à de la glace comprend aussi les précipitations solides autres que la neige.</p>
+<p class="note">Note CF75: 1) Les définitions données pour les chiffres du code 0 à 2 et 4 s’appliquent à une superficie représentative de sol nu, et les chiffres 3, 5 à 9 et 10 à 19 à une zone dégagée représentative. 2) En toutes circonstances, on choisit le chiffre du code le plus élevé qui puisse s’appliquer. 3) Dans la table de code ci-dessus, toute référence à de la glace comprend aussi les précipitations solides autres que la neige.</p>
+</div>
+<p class="fxy-heading">0 20 063  Phénomènes spéciaux</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>1</td><td>Vitesse maximale des rafales de vent supérieure à 11,5 m/s</td><td></td><td></td></tr>
+<tr><td>2</td><td>Vitesse maximale du vent moyen supérieure à 17,5 m/s</td><td></td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>7</td><td>Visibilité supérieure à 100 000 m</td><td></td><td></td></tr>
+<tr><td>8-9</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>10-19 Mirage</td><td></td><td></td></tr>
+<tr><td>10</td><td>Mirage - Pas de spécification</td><td></td><td></td></tr>
+<tr><td>11</td><td>Mirage - Image des objets lointains soulevée</td><td></td><td></td></tr>
+<tr><td>12</td><td>Mirage - Image des objets lointains soulevée complètement au-dessus de l&#x27;horizon</td><td></td><td></td></tr>
+<tr><td>13</td><td>Mirage - Image renversée des objets lointains</td><td></td><td></td></tr>
+<tr><td>14</td><td>Mirage - Images multiples complexes des objets lointains (images non renversées)</td><td></td><td></td></tr>
+<tr><td>15</td><td>Mirage - Images multiples complexes des objets lointains (certaines étant renversées)</td><td></td><td></td></tr>
+<tr><td>16</td><td>Mirage - Soleil ou lune vus déformés de façon appréciable</td><td></td><td></td></tr>
+<tr><td>17</td><td>Mirage - Soleil visible, bien qu&#x27;astronomiquement il soit en dessous de l&#x27;horizon</td><td></td><td></td></tr>
+<tr><td>18</td><td>Mirage - Lune visible, bien qu&#x27;astronomiquement elle soit en dessous de l&#x27;horizon</td><td></td><td></td></tr>
+<tr><td>19</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>20-22 Obscurité pendant la journée, ciel plus sombre dans la direction spécifiée</td><td></td><td></td></tr>
+<tr><td>20</td><td>Obscurcissement du jour, jour sombre, plus marqué dans la direction spécifiée</td><td></td><td></td></tr>
+<tr><td>21</td><td>Obscurcissement du jour, jour très sombre, plus marqué dans la direction spécifiée</td><td></td><td></td></tr>
+<tr><td>22</td><td>Obscurcissement du jour, obscurité complète, plus marqué dans la direction spécifiée</td><td></td><td></td></tr>
+<tr><td>23-30</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>31-39 Coloration et/ou convergence des nuages associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>31</td><td>Légère coloration des nuages au lever du soleil associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>32</td><td>Coloration rouge foncé des nuages au lever du soleil associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>33</td><td>Légère coloration des nuages au coucher du soleil associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>34</td><td>Coloration rouge foncé des nuages au coucher du soleil associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>35</td><td>Convergence de nuages C₁ en un point inférieur à 45°, en formation ou en augmentation, associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>36</td><td>Convergence de nuages Cہ en un point supérieur à 45° associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>37</td><td>Convergence de nuages C₁ en un point inférieur à 45°, en voie de dissipation ou en diminution, associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>38</td><td>Convergence de nuages C₁ en un point supérieur à 45° associée à une perturbation tropicale</td><td></td><td></td></tr>
+<tr><td>39</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>40-43 Gelée blanche ou précipitations colorées</td><td></td><td></td></tr>
+<tr><td>40</td><td>Gelée blanche sur les surfaces horizontales</td><td></td><td></td></tr>
+<tr><td>41</td><td>Gelée blanche sur les surfaces horizontales et verticales</td><td></td><td></td></tr>
+<tr><td>42</td><td>Précipitations contenant du sable ou des poussières désertiques</td><td></td><td></td></tr>
+<tr><td>43</td><td>Précipitations contenant des cendres volcaniques</td><td></td><td></td></tr>
+<tr><td>44-49</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td></td><td>50-59 Nature et/ou type de grain</td><td></td><td></td></tr>
+<tr><td>50</td><td>Calme ou vent léger suivi d&#x27;un grain</td><td></td><td></td></tr>
+<tr><td>51</td><td>Calme ou vent léger suivi d&#x27;une série de grains</td><td></td><td></td></tr>
+<tr><td>52</td><td>Rafales suivies d&#x27;un grain</td><td></td><td></td></tr>
+<tr><td>53</td><td>Rafales suivies d&#x27;une série de grains</td><td></td><td></td></tr>
+<tr><td>54</td><td>Grain suivi de rafales</td><td></td><td></td></tr>
+<tr><td>55</td><td>Rafales généralisées accompagnées par moments de grains</td><td></td><td></td></tr>
+<tr><td>56</td><td>Grain s&#x27;approchant de la station</td><td></td><td></td></tr>
+<tr><td>57</td><td>Grain en ligne</td><td></td><td></td></tr>
+<tr><td>58</td><td>Grain avec chasse-sable ou chasse-poussière basse ou élevée</td><td></td><td></td></tr>
+<tr><td>59</td><td>Grain en ligne avec chasse-sable ou chasse-poussière basse ou élevée</td><td></td><td></td></tr>
+<tr><td></td><td>60-69 Variation de la température durant la période spécifiée, lorsqu&#x27;il y a du verglas ou du givre</td><td></td><td></td></tr>
+<tr><td>60</td><td>Température stationnaire</td><td></td><td></td></tr>
+<tr><td>61</td><td>Température en baisse, sans descendre en dessous de 0 °C</td><td></td><td></td></tr>
+<tr><td>62</td><td>Température en hausse, sans dépasser 0 °C</td><td></td><td></td></tr>
+<tr><td>63</td><td>Température s&#x27;abaissant au-dessous de 0 °C</td><td></td><td></td></tr>
+<tr><td>64</td><td>Température s&#x27;élevant au-dessus de 0 °C</td><td></td><td></td></tr>
+<tr><td>65</td><td>Variations irrégulières de la température, les oscillations passant par 0 °C</td><td></td><td></td></tr>
+<tr><td>66</td><td>Variations irrégulières de la température, les oscillations ne passant pas par 0 °C</td><td></td><td></td></tr>
+<tr><td>67</td><td>Variations de température non observées</td><td></td><td></td></tr>
+<tr><td>68</td><td>Non alloué</td><td></td><td></td></tr>
+<tr><td>69</td><td>Variations de température inconnues en raison de l&#x27;absence de thermographe</td><td></td><td></td></tr>
+<tr><td></td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td></td><td></td></tr>
+<tr><td>70</td><td>La visibilité n&#x27;a pas varié (soleil* visible) dans la direction spécifiée</td><td></td><td></td></tr>
+<tr><td>71</td><td>La visibilité n&#x27;a pas varié (soleil</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td>*</td></tr>
+<tr><td>72</td><td>La visibilité s&#x27;est améliorée (soleil</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td>*</td></tr>
+<tr><td>73</td><td>La visibilité s&#x27;est améliorée (soleil</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td>*</td></tr>
+<tr><td>74</td><td>La visibilité a diminué (soleil</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td>*</td></tr>
+<tr><td>75</td><td>La visibilité a diminué (soleil</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td>*</td></tr>
+<tr><td>76</td><td>Arrivée de brouillard à partir de la direction spécifiée</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td></td></tr>
+<tr><td>77</td><td>Le brouillard s&#x27;est élevé sans se dissiper</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td></td></tr>
+<tr><td>78</td><td>Le brouillard s&#x27;est déchiré sans considération de direction</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td></td></tr>
+<tr><td>79</td><td>Passage de bancs de brouillard plus ou moins continus</td><td>70-79 Variation de la visibilité pendant la période spécifiée</td><td></td></tr>
+<tr><td></td><td>80-89 Phénomènes optiques</td><td></td><td></td></tr>
+<tr><td>80</td><td>Spectre de Brocken</td><td></td><td></td></tr>
+<tr><td>81</td><td>Arc-en-ciel</td><td></td><td></td></tr>
+<tr><td>82</td><td>Halo (solaire ou lunaire)</td><td></td><td></td></tr>
+<tr><td>83</td><td>Parhélies ou anthélies</td><td></td><td></td></tr>
+<tr><td>84</td><td>Colonne solaire</td><td></td><td></td></tr>
+<tr><td>85</td><td>Couronne</td><td></td><td></td></tr>
+<tr><td>86</td><td>Lueurs crépusculaires</td><td></td><td></td></tr>
+<tr><td>87</td><td>Lueurs crépusculaires sur les montagnes (Alpenglühen)</td><td></td><td></td></tr>
+<tr><td>88</td><td>Mirage</td><td></td><td></td></tr>
+<tr><td>89</td><td>Lumière zodiacale</td><td></td><td></td></tr>
+<tr><td>90</td><td>Feu Saint-Elme</td><td></td><td></td></tr>
+<tr><td>91-1022</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>1023</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 071  Précision du relevé et proportion des atmosphériques</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Aucune évaluation</td><td>Aucune évaluation</td><td></td></tr>
+<tr><td>1</td><td>Moins de 50 km</td><td>Moins de 1 par seconde</td><td></td></tr>
+<tr><td>2</td><td>De 50 à 200 km</td><td>Moins de 1 par seconde</td><td></td></tr>
+<tr><td>3</td><td>Plus de 200 km</td><td>Moins de 1 par seconde</td><td></td></tr>
+<tr><td>4</td><td>Moins de 50 km</td><td>1 ou davantage par seconde</td><td></td></tr>
+<tr><td>5</td><td>De 50 à 200 km</td><td>1 ou davantage par seconde</td><td></td></tr>
+<tr><td>6</td><td>Plus de 200 km</td><td>1 ou davantage par seconde</td><td></td></tr>
+<tr><td>7</td><td>Moins de 50 km</td><td>Taux tellement rapide que le nombre ne peut être compté</td><td></td></tr>
+<tr><td>8</td><td>De 50 à 200 km</td><td>Taux tellement rapide que le nombre ne peut être compté</td><td></td></tr>
+<tr><td>9</td><td>Plus de 200 km</td><td>Taux tellement rapide que le nombre ne peut être compté</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 085  État général de la piste</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Déblayée (CLRD//)</td><td></td></tr>
+<tr><td>1</td><td>Toutes les pistes sont fermées (SNOCLO)</td><td></td></tr>
+<tr><td>2-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 086  Dépôts sur la piste</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Déblayée et sèche</td><td></td></tr>
+<tr><td>1</td><td>Humide</td><td></td></tr>
+<tr><td>2</td><td>Mouillée avec flaques d&#x27;eau</td><td></td></tr>
+<tr><td>3</td><td>Givre et gelée (épaisseur généralement inférieure à 1 mm)</td><td></td></tr>
+<tr><td>4</td><td>Neige sèche</td><td></td></tr>
+<tr><td>5</td><td>Neige mouillée</td><td></td></tr>
+<tr><td>6</td><td>Bouillie neigeuse</td><td></td></tr>
+<tr><td>7</td><td>Glace</td><td></td></tr>
+<tr><td>8</td><td>Neige compactée ou roulée</td><td></td></tr>
+<tr><td>9</td><td>Ornières ou sillons gelés</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante ou non transmise (par ex: piste en cours de déblaiement)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 087  Contamination de la piste</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Piste couverte à moins de 10 %</td><td></td></tr>
+<tr><td>2</td><td>Piste couverte de 11 % à 25 %</td><td></td></tr>
+<tr><td>3-4</td><td>En réserve</td><td></td></tr>
+<tr><td>5</td><td>Piste couverte de 26 % à 50 %</td><td></td></tr>
+<tr><td>6-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9</td><td>Piste couverte de 51 % à 100 %</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante ou non transmise (par ex: piste en cours de déblaiement)</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 089  Coefficient de frottement de la piste</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0,00</td><td></td></tr>
+<tr><td>1</td><td>0,01</td><td></td></tr>
+<tr><td>2-88</td><td>0,02...0,88</td><td></td></tr>
+<tr><td>89</td><td>0,89</td><td></td></tr>
+<tr><td>90</td><td>0,90</td><td></td></tr>
+<tr><td>91</td><td>Efficacité de freinage médiocre</td><td></td></tr>
+<tr><td>92</td><td>Efficacité de freinage moyenne à médiocre</td><td></td></tr>
+<tr><td>93</td><td>Efficacité de freinage moyenne</td><td></td></tr>
+<tr><td>94</td><td>Efficacité de freinage moyenne à bonne</td><td></td></tr>
+<tr><td>95</td><td>Efficacité de freinage bonne</td><td></td></tr>
+<tr><td>96-98</td><td>En réserve</td><td></td></tr>
+<tr><td>99</td><td>Peu fiable</td><td></td></tr>
+<tr><td>100-126</td><td>En réserve</td><td></td></tr>
+<tr><td>127</td><td>Valeur manquante, non transmise et/ou piste hors service</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 090  Nuages spéciaux</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Nuages nacrés</td><td></td></tr>
+<tr><td>2</td><td>Nuages nocturnes lumineux</td><td></td></tr>
+<tr><td>3</td><td>Nuages provoqués par des chutes d&#x27;eau</td><td></td></tr>
+<tr><td>4</td><td>Nuages provoqués par des incendies</td><td></td></tr>
+<tr><td>5</td><td>Nuages provoqués par des éruptions volcaniques</td><td></td></tr>
+<tr><td>6-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 101  Nom de l&#x27;acridien</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Schistocerca gregaria</td><td></td></tr>
+<tr><td>2</td><td>Locusta migratoria</td><td></td></tr>
+<tr><td>3</td><td>Nomadacris septemfasciata</td><td></td></tr>
+<tr><td>4</td><td>Oedaleus senegalensis</td><td></td></tr>
+<tr><td>5</td><td>Anracridium spp</td><td></td></tr>
+<tr><td>6</td><td>Autres acridiens</td><td></td></tr>
+<tr><td>7</td><td>Autres sauterelles</td><td></td></tr>
+<tr><td>8</td><td>Autres criquets</td><td></td></tr>
+<tr><td>9</td><td>Spodoptera exempta</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 102  Couleur de l&#x27;acridien (maturité)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Vert</td><td></td></tr>
+<tr><td>1</td><td>Vert ou noir</td><td></td></tr>
+<tr><td>2</td><td>Noir</td><td></td></tr>
+<tr><td>3</td><td>Jaune et noir</td><td></td></tr>
+<tr><td>4</td><td>Paille/gris</td><td></td></tr>
+<tr><td>5</td><td>Rose</td><td></td></tr>
+<tr><td>6</td><td>Rouge foncé/brun</td><td></td></tr>
+<tr><td>7</td><td>Rouge et jaune mélangés</td><td></td></tr>
+<tr><td>8</td><td>Jaune</td><td></td></tr>
+<tr><td>9</td><td>Autres couleurs</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 103  Stade de développement des acridiens</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sauteurs (nymphes, larves), stade 1</td><td></td></tr>
+<tr><td>1</td><td>Sauteurs (nymphes, larves), stade 2 ou mixte 1 et 2</td><td></td></tr>
+<tr><td>2</td><td>Sauteurs (nymphes, larves), stade 3 ou mixte 2 et 3</td><td></td></tr>
+<tr><td>3</td><td>Sauteurs (nymphes, larves), stade 4 ou mixte 3 et 4</td><td></td></tr>
+<tr><td>4</td><td>Sauteurs (nymphes, larves), stade 5 ou mixte 4 et 5</td><td></td></tr>
+<tr><td>5</td><td>Sauteurs (nymphes, larves), stade mixte, plusieurs ou tous les stades</td><td></td></tr>
+<tr><td>6</td><td>Jeunes (ailes trop molles pour vol soutenu)</td><td></td></tr>
+<tr><td>7</td><td>Adultes immatures</td><td></td></tr>
+<tr><td>8</td><td>Adultes (mixtes)</td><td></td></tr>
+<tr><td>9</td><td>Adultes parvenus à maturité</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 104  Degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sauteurs uniquement, essentiellement en bandes ou en groupes</td><td></td></tr>
+<tr><td>1</td><td>Adultes ailés au voisinage, à plus de 10 km du point d&#x27;observation</td><td></td></tr>
+<tr><td>2</td><td>Acridiens en vol, quelques-uns vus à la station</td><td></td></tr>
+<tr><td>3</td><td>Acridiens à la station, la plupart au sol</td><td></td></tr>
+<tr><td>4</td><td>Acridiens, certains au sol et d&#x27;autres en vol, à une hauteur inférieure à 10 mètres</td><td></td></tr>
+<tr><td>5</td><td>Acridiens, certains au sol et d&#x27;autres en vol, à une hauteur supérieure à 10 mètres</td><td></td></tr>
+<tr><td>6</td><td>Acridiens, la plupart en vol, à une hauteur inférieure à 10 mètres</td><td></td></tr>
+<tr><td>7</td><td>Acridiens, la plupart en vol, à une hauteur supérieure à 10 mètres</td><td></td></tr>
+<tr><td>8</td><td>Acridiens présents partout, causant de graves dommages à la végétation, pas d&#x27;opération d&#x27;extermination</td><td></td></tr>
+<tr><td>9</td><td>Acridiens présents partout, causant de graves dommages à la végétation, opération d&#x27;extermination en cours</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 105  Dimension de l&#x27;essaim ou de la bande d&#x27;acridiens et durée du passage de l&#x27;essaim</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td><td></td></tr>
+<tr><td>0</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>1</td><td>Zone couverte par des bandes isolées &lt; 10 m²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>2</td><td>Zone couverte par des bandes isolées 10 - 100 m²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>3</td><td>Zone couverte par des bandes isolées 100 – 1000 m²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>4</td><td>Zone couverte par des bandes isolées 1000 – 10000 m²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>5</td><td>Zone couverte par des bandes isolées 1 - 10 ha</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>6</td><td>Zone couverte par des bandes isolées &gt; 10 ha</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>7</td><td>Zone couverte par des bandes dispersées &lt; 100 km²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>8</td><td>Zone couverte par des bandes dispersées 100 - 1000 km²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>9</td><td>Zone couverte par des bandes dispersées &gt; 1000 km²</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 0:</td><td></td></tr>
+<tr><td></td><td>Lorsque 0 020 104 (degré d&#x27;organisation de l&#x27;essaim ou de la bande d&#x27;acridiens) est chiffré 1 à 9:</td><td></td><td></td></tr>
+<tr><td>0</td><td>Petit essaim inférieur à 1 km², ou dizaines ou centaines d&#x27;individus adultes visibles simultanément au sol, passage remontant à moins d&#x27;1 heure</td><td></td><td></td></tr>
+<tr><td>1</td><td>Petit essaim inférieur à 1 km², ou dizaines ou centaines d&#x27;individus adultes visibles simultanément au sol, passage remontant à entre 1 et 6 heures</td><td></td><td></td></tr>
+<tr><td>2</td><td>Petit essaim inférieur à 1 km², ou dizaines ou centaines d&#x27;individus adultes visibles simultanément au sol, passage remontant à plus de 6 heures</td><td></td><td></td></tr>
+<tr><td>3</td><td>Essaim moyen ou adultes dispersés, plusieurs visibles simultanément, passage remontant à moins de 1 heure</td><td></td><td></td></tr>
+<tr><td>4</td><td>Essaim moyen ou adultes dispersés, plusieurs visibles simultanément, passage remontant à entre 1 et 6 heures</td><td></td><td></td></tr>
+<tr><td>5</td><td>Essaim moyen ou adultes dispersés, plusieurs visibles simultanément, passage remontant à plus de 6 heures</td><td></td><td></td></tr>
+<tr><td>6</td><td>Essaim de grande dimension ou adultes isolés, vus séparément, passage remontant à moins de 1 heure</td><td></td><td></td></tr>
+<tr><td>7</td><td>Essaim de grande dimension ou adultes isolés, vus séparément, passage remontant à entre 1 et 6 heures</td><td></td><td></td></tr>
+<tr><td>8</td><td>Essaim de grande dimension ou adultes isolés, vus séparément, passage remontant à plus de 6 heures</td><td></td><td></td></tr>
+<tr><td>9</td><td>Plus d&#x27;un essaim d&#x27;acridiens</td><td></td><td></td></tr>
+<tr><td>10</td><td>La dimension de l&#x27;essaim et/ou la durée du passage n&#x27;ont pas pu être déterminées en raison de l&#x27;obscurité ou de phénomènes similaires</td><td></td><td></td></tr>
+<tr><td>11-14</td><td>En réserve</td><td></td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 106  Densité de la population d&#x27;acridiens</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Essaim de faible densité (essaim visible uniquement lorsqu&#x27;il se trouve suffisamment proche pour que l&#x27;on distingue chaque individu)</td><td></td></tr>
+<tr><td>2</td><td>Essaim de densité moyenne</td><td></td></tr>
+<tr><td>3</td><td>Essaim dense (obscurcissant les éléments proches tels que les arbres)</td><td></td></tr>
+<tr><td>4</td><td>Sauteurs isolés vus séparément</td><td></td></tr>
+<tr><td>5</td><td>Sauteurs dispersés, plusieurs visibles simultanément</td><td></td></tr>
+<tr><td>6-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 107  Direction des déplacements de l&#x27;essaim d&#x27;acridiens</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>Direction générale NE</td><td></td></tr>
+<tr><td>2</td><td>Direction générale E</td><td></td></tr>
+<tr><td>3</td><td>Direction générale SE</td><td></td></tr>
+<tr><td>4</td><td>Direction générale S</td><td></td></tr>
+<tr><td>5</td><td>Direction générale SW</td><td></td></tr>
+<tr><td>6</td><td>Direction générale W</td><td></td></tr>
+<tr><td>7</td><td>Direction générale NW</td><td></td></tr>
+<tr><td>8</td><td>Direction générale N</td><td></td></tr>
+<tr><td>9</td><td>Impossible de déterminer une direction précise</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 108  Étendue de la végétation</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Sol nu</td><td></td></tr>
+<tr><td>1</td><td>Végétation sèche, présence de quelques arbustes isolés</td><td></td></tr>
+<tr><td>2</td><td>Végétation clairsemée (pousses)</td><td></td></tr>
+<tr><td>3</td><td>Végétation dense (pousses)</td><td></td></tr>
+<tr><td>4</td><td>Végétation clairsemée (croissance)</td><td></td></tr>
+<tr><td>5</td><td>Végétation dense (croissance)</td><td></td></tr>
+<tr><td>6</td><td>Végétation clairsemée en fleurs</td><td></td></tr>
+<tr><td>7</td><td>Végétation dense en fleurs</td><td></td></tr>
+<tr><td>8-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 119  Polarité de décharge des éclairs</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Non établie</td><td></td></tr>
+<tr><td>1</td><td>Positive</td><td></td></tr>
+<tr><td>2</td><td>Négative</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 124  Coup de foudre ou éclair</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Non défini</td><td></td></tr>
+<tr><td>1</td><td>Coup de foudre</td><td></td></tr>
+<tr><td>2</td><td>Éclair, par observation manuelle, ou si l&#x27;équipement est insensible à la résolution de décharge</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 136  Types de nuages supplémentaires</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td>0-7 Nature des nuages à développement vertical (Ca – Table de code 0531)</td><td></td></tr>
+<tr><td>0</td><td>Cumulus humilis et/ou cumulus mediocris isolés à développement vertical</td><td></td></tr>
+<tr><td>1</td><td>Cumulus humilis et/ou cumulus mediocris nombreux à développement vertical</td><td></td></tr>
+<tr><td>2</td><td>Cumulus congestus isolés à développement vertical</td><td></td></tr>
+<tr><td>3</td><td>Cumulus congestus nombreux à développement vertical</td><td></td></tr>
+<tr><td>4</td><td>Cumulonimbus isolés à développement vertical</td><td></td></tr>
+<tr><td>5</td><td>Cumulonimbus nombreux à développement vertical</td><td></td></tr>
+<tr><td>6</td><td>Cumulus et cumulonimbus isolés à développement vertical</td><td></td></tr>
+<tr><td>7</td><td>Cumulus et cumulonimbus nombreux à développement vertical</td><td></td></tr>
+<tr><td>8-9</td><td>En réserve</td><td></td></tr>
+<tr><td></td><td>10-19 Nuages orographiques (Co – Table de code 0561)</td><td></td></tr>
+<tr><td>11</td><td>Nuages orographiques isolés, pileus, incus, en formation</td><td></td></tr>
+<tr><td>12</td><td>Nuages orographiques isolés, pileus, incus, sans évolution</td><td></td></tr>
+<tr><td>13</td><td>Nuages orographiques isolés, pileus, incus, se dissipant</td><td></td></tr>
+<tr><td>14</td><td>Bancs irréguliers de nuages orographiques, mur de foehn, etc., en formation</td><td></td></tr>
+<tr><td>15</td><td>Bancs irréguliers de nuages orographiques, mur de foehn, etc., sans évolution</td><td></td></tr>
+<tr><td>16</td><td>Bancs irréguliers de nuages orographiques, mur de foehn, etc., se dissipant</td><td></td></tr>
+<tr><td>17</td><td>Couche compacte de nuages orographiques, mur de foehn, etc., en formation</td><td></td></tr>
+<tr><td>18</td><td>Couche compacte de nuages orographiques, mur de foehn, etc., sans évolution</td><td></td></tr>
+<tr><td>19</td><td>Couche compacte de nuages orographiques, mur de foehn, etc., se dissipant</td><td></td></tr>
+<tr><td></td><td>20-29 Conditions nuageuses sur les montagnes et les cols (Nm – Table de code 2745)</td><td></td></tr>
+<tr><td>20</td><td>Toutes les montagnes sont dégagées, seuls quelques nuages peuvent être présents</td><td></td></tr>
+<tr><td>21</td><td>Les montagnes sont partiellement couvertes par des nuages épars (on ne peut voir plus de la moitié des sommets)</td><td></td></tr>
+<tr><td>22</td><td>Tous les versants sont dans les nuages, les sommets et les cols sont dégagés</td><td></td></tr>
+<tr><td>23</td><td>Les montagnes sont dégagées du côté de l&#x27;observateur (seuls quelques nuages peuvent être présents) mais, du côté opposé des montagnes, il y a un mur continu de nuages</td><td></td></tr>
+<tr><td>24</td><td>Nuages rasant les montagnes, mais tous les versants et les montagnes sont dégagés (seuls quelques nuages peuvent exister sur les versants)</td><td></td></tr>
+<tr><td>25</td><td>Nuages rasant les montagnes, les sommets sont partiellement couverts par des traînées de précipitations ou par des nuages</td><td></td></tr>
+<tr><td>26</td><td>Tous les sommets sont dans les nuages, mais les cols restent dégagés; les versants peuvent être dégagés ou dans les nuages</td><td></td></tr>
+<tr><td>27</td><td>Les montagnes sont généralement dans les nuages et quelques sommets sont dégagés; les versants sont dans les nuages, complètement ou partiellement</td><td></td></tr>
+<tr><td>28</td><td>Tous les sommets, cols et versants sont dans les nuages</td><td></td></tr>
+<tr><td>29</td><td>On ne peut voir les montagnes à cause de l&#x27;obscurité, du brouillard, des chutes de neige, des précipitations, etc.</td><td></td></tr>
+<tr><td>30-34</td><td>En réserve</td><td></td></tr>
+<tr><td></td><td>35-39 Traînées de condensation (N – Table de code 2752)</td><td></td></tr>
+<tr><td>35</td><td>Traînées de condensation non persistantes</td><td></td></tr>
+<tr><td>36</td><td>Traînées de condensation persistantes, couvrant moins de 1/8 du ciel</td><td></td></tr>
+<tr><td>37</td><td>Traînées de condensation persistantes, couvrant 1/8 du ciel</td><td></td></tr>
+<tr><td>38</td><td>Traînées de condensation persistantes, couvrant 2/8 du ciel</td><td></td></tr>
+<tr><td>39</td><td>Traînées de condensation persistantes, couvrant 3/8 du ciel ou plus</td><td></td></tr>
+<tr><td></td><td>40-49 Conditions nuageuses observées d&#x27;un niveau supérieur (N – Table de code 2754)</td><td></td></tr>
+<tr><td>40</td><td>Pas de nuages ni de brume observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>41</td><td>Brume et ciel clair au-dessus observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>42</td><td>Bancs de brouillard épars observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>43</td><td>Couche de brouillard léger observée d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>44</td><td>Couche de brouillard épais observée d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>45</td><td>Quelques nuages isolés observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>46</td><td>Nuages isolés et brouillard au-dessous observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>47</td><td>Nombreux nuages isolés observés d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>48</td><td>Mer de nuages observée d&#x27;un niveau supérieur</td><td></td></tr>
+<tr><td>49</td><td>Mauvaise visibilité empêchant l&#x27;observation vers le bas depuis un niveau supérieur</td><td></td></tr>
+<tr><td>50-510</td><td>En réserve</td><td></td></tr>
+<tr><td>511</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 137  Évolution des nuages</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de modification</td><td></td></tr>
+<tr><td>1</td><td>Cumulification</td><td></td></tr>
+<tr><td>2</td><td>Élévation lente</td><td></td></tr>
+<tr><td>3</td><td>Élévation rapide</td><td></td></tr>
+<tr><td>4</td><td>Élévation et stratification</td><td></td></tr>
+<tr><td>5</td><td>Abaissement lent</td><td></td></tr>
+<tr><td>6</td><td>Abaissement rapide</td><td></td></tr>
+<tr><td>7</td><td>Stratification</td><td></td></tr>
+<tr><td>8</td><td>Stratification et abaissement</td><td></td></tr>
+<tr><td>9</td><td>Variations rapides</td><td></td></tr>
+<tr><td>10-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 20 138  État du revêtement</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Route sèche</td><td></td></tr>
+<tr><td>1</td><td>Route humide</td><td></td></tr>
+<tr><td>2</td><td>Route mouillée</td><td></td></tr>
+<tr><td>3</td><td>Givre</td><td></td></tr>
+<tr><td>4</td><td>Neige</td><td></td></tr>
+<tr><td>5</td><td>Glace</td><td></td></tr>
+<tr><td>6</td><td>Verglas</td><td></td></tr>
+<tr><td>7</td><td>Route pas sèche</td><td></td></tr>
+<tr><td>8-14</td><td>En réserve</td><td></td></tr>
+<tr><td>15</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

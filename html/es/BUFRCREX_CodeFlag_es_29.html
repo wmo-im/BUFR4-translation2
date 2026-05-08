@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 29</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 29</h1>
+<p class="fxy-heading">0 29 001  Tipo de proyección</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Proyección gnomónica</td><td></td></tr>
+<tr><td>1</td><td>Proyección estereográfica polar</td><td></td></tr>
+<tr><td>2</td><td>Proyección cónica de Lambert</td><td></td></tr>
+<tr><td>3</td><td>Proyección de Mercator</td><td></td></tr>
+<tr><td>4</td><td>Cono de barrido (radar)</td><td>Note CF65: El tipo de proyección 4 indica una retícula cartesiana situada directamente en el cono de exploración definido por el barrido azimutal del radar.</td></tr>
+<tr><td>5</td><td>Reservada</td><td></td></tr>
+<tr><td>6</td><td>Sin proyección</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 29 002  Tipo de retícula de coordenadas</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Cartesiana</td><td></td></tr>
+<tr><td>1</td><td>Polar</td><td></td></tr>
+<tr><td>2</td><td>De otro tipo</td><td></td></tr>
+<tr><td>3-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

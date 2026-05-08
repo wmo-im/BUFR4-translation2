@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 12 : Température</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 12 : Température</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 12 001</td><td>Température/température de l&#x27;air</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 002</td><td>Température du thermomètre humide</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 003</td><td>Température du point de rosée</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 004</td><td>Température de l&#x27;air à 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 005</td><td>Température du thermomètre humide à 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 006</td><td>Température du point de rosée à 2 m</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 007</td><td>Température virtuelle</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 008</td><td>Incertitude relative à la température virtuelle</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 011</td><td>Température maximale, à une hauteur et sur une période déterminées</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note B177: Lorsque la colonne Nom de l’élément porte la mention «à une hauteur et sur une période déterminées», on précise, à l’aide de descripteurs de la classe 07, la position verticale et, à l’aide de descripteurs de la classe 04, la période considérée.</td></tr>
+<tr><td>0 12 012</td><td>Température minimale, à une hauteur et sur une période déterminées</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td>Note B177: Lorsque la colonne Nom de l’élément porte la mention «à une hauteur et sur une période déterminées», on précise, à l’aide de descripteurs de la classe 07, la position verticale et, à l’aide de descripteurs de la classe 04, la période considérée.</td></tr>
+<tr><td>0 12 013</td><td>Température minimale au sol, au cours des 12 heures précédentes</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 014</td><td>Température maximale à 2 m, au cours des 12 heures précédentes</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 015</td><td>Température minimale à 2 m, au cours des 12 heures précédentes</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 016</td><td>Température maximale à 2 m, au cours des 24 heures précédentes</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 017</td><td>Température minimale à 2 m, au cours des 24 heures précédentes</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 021</td><td>Température maximale à 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 022</td><td>Température minimale à 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 023</td><td>Température</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 024</td><td>Température du point de rosée</td><td>C</td><td>0</td><td>-99</td><td>8</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 030</td><td>Température du sol</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 049</td><td>Variation de température sur une période déterminée</td><td>K</td><td>0</td><td>-30</td><td>6</td><td>C</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 12 051</td><td>Écart type de la température</td><td>K</td><td>1</td><td>0</td><td>10</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 052</td><td>Température moyenne journalière la plus élevée</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 053</td><td>Température moyenne journalière la plus basse</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 060</td><td>Température à l&#x27;intérieur de la station météorologique automatique</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 061</td><td>Température de la pellicule superficielle</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 062</td><td>Température équivalente du corps noir</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 063</td><td>Température de luminance</td><td>K</td><td>1</td><td>0</td><td>12</td><td>C</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 064</td><td>Température de l&#x27;instrument</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 065</td><td>Écart type de la température de luminance</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 066</td><td>Température d&#x27;antenne</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 070</td><td>Température de la charge chaude</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 071</td><td>Température la plus basse de l&#x27;amas</td><td>K</td><td>1</td><td>0</td><td>12</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 072</td><td>Luminance énergétique</td><td>W m-2 sr-1</td><td>6</td><td>0</td><td>31</td><td>W m-2 sr-1</td><td>6</td><td>9</td><td></td></tr>
+<tr><td>0 12 075</td><td>Luminance énergétique spectrale</td><td>W m-3 sr-1</td><td>-3</td><td>0</td><td>16</td><td>W m-3 sr-1</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 12 076</td><td>Luminance énergétique</td><td>W m-2 sr-1</td><td>3</td><td>0</td><td>16</td><td>W m-2 sr-1</td><td>3</td><td>5</td><td>Note B52: Le descripteur 0 12 076 devrait être utilisé à la place de 0 12 072 pour coder la luminance.</td></tr>
+<tr><td>0 12 080</td><td>Partie réelle de la température de luminance</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 081</td><td>Partie imaginaire de la température de luminance</td><td>K</td><td>2</td><td>-10000</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 082</td><td>Précision radiométrique des pixels</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 101</td><td>Température/température de l&#x27;air</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 102</td><td>Température du thermomètre mouillé</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 103</td><td>Point de rosée</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 104</td><td>Température de l&#x27;air à 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 105</td><td>Température du thermomètre mouillé à 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 106</td><td>Température du point de rosée à 2 m</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 107</td><td>Température virtuelle</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 111</td><td>Température maximale, à une hauteur et sur une période déterminées</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note B177: Lorsque la colonne Nom de l’élément porte la mention «à une hauteur et sur une période déterminées», on précise, à l’aide de descripteurs de la classe 07, la position verticale et, à l’aide de descripteurs de la classe 04, la période considérée.</td></tr>
+<tr><td>0 12 112</td><td>Température minimale, à une hauteur et sur une période déterminées</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td>Note B177: Lorsque la colonne Nom de l’élément porte la mention «à une hauteur et sur une période déterminées», on précise, à l’aide de descripteurs de la classe 07, la position verticale et, à l’aide de descripteurs de la classe 04, la période considérée.</td></tr>
+<tr><td>0 12 113</td><td>Température minimale au sol, au cours des 12 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 114</td><td>Température maximale à 2 m, au cours des 12 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 115</td><td>Température minimale à 2 m, au cours des 12 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 116</td><td>Température maximale à 2 m, au cours des 24 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 117</td><td>Température minimale à 2 m, au cours des 24 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 118</td><td>Température maximale à une hauteur déterminée, au cours des 24 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 119</td><td>Température minimale à une hauteur déterminée, au cours des 24 heures précédentes</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 120</td><td>Température au sol</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 121</td><td>Température minimale au sol</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 122</td><td>Température minimale au sol la nuit précédente</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 128</td><td>Température à la surface de la route</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 129</td><td>Température sous la surface de la route</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 130</td><td>Température du sol</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 131</td><td>Température de la neige</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 132</td><td>Température à la surface de la glace</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 151</td><td>Écart-type de la température moyenne journalière</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 152</td><td>Température moyenne journalière la plus élevée</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 153</td><td>Température moyenne journalière la plus basse</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 158</td><td>Équivalent en bruit du différentiel de température sur cible froide</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 159</td><td>Équivalent en bruit du différentiel de température sur cible chaude</td><td>K</td><td>2</td><td>0</td><td>12</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 161</td><td>Température de la pellicule superficielle</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 162</td><td>Température équivalente du corps noir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 163</td><td>Température de luminance</td><td>K</td><td>2</td><td>0</td><td>16</td><td>C</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 12 164</td><td>Température de l&#x27;instrument</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 165</td><td>Température de luminance du rayonnement solaire direct</td><td>K</td><td>0</td><td>0</td><td>23</td><td>K</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 12 166</td><td>Précision de l&#x27;instantané</td><td>K</td><td>1</td><td>-4000</td><td>13</td><td>K</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 12 167</td><td>Précision radiométrique (polarisation pure)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 168</td><td>Précision radiométrique (polarisation croisée)</td><td>K</td><td>1</td><td>0</td><td>9</td><td>K</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 12 171</td><td>Température la plus basse de l&#x27;amas</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 180</td><td>Température de luminance moyenne observée à 12 µm pour tous les pixels clairs au nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 181</td><td>Température de luminance moyenne observée à 11 µm pour tous les pixels clairs au nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 182</td><td>Température de luminance moyenne observée à 3,7 µm pour tous les pixels clairs au nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 183</td><td>Température de luminance moyenne observée à 12 µm pour tous les pixels clairs en visée avant</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 184</td><td>Température de luminance moyenne observée à 11 µm pour tous les pixels clairs en visée avant</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 185</td><td>Température de luminance moyenne observée à 3,7 µm pour tous les pixels clairs en visée avant</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 186</td><td>Température moyenne de surface de la mer au nadir</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 187</td><td>Température moyenne de surface de la mer en double visée</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 188</td><td>Température de luminance par interpolation - données MWR en bande 23,8 GHz</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 12 189</td><td>Température de luminance par interpolation - données MWR en bande 36,5 GHz</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

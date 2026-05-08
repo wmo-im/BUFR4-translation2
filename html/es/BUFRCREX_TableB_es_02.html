@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 02: Instrumentos</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 02: Instrumentos</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 02 001</td><td>Tipo de estación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 002</td><td>Tipo de instrumentos para la medición del viento</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>4</td><td>Tabla de banderines</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 003</td><td>Tipo de instrumentos de medición utilizados</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 004</td><td>Tipo de instrumento utilizado para medir la evaporación o tipo de cultivo para el que se informa la evapotranspiración</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 005</td><td>Precisión de las observaciones de la temperatura</td><td>K</td><td>2</td><td>0</td><td>7</td><td>K</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 02 006</td><td>Tipo de instrumento de teledetección en altitud</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>0 02 007</td><td>Tipo de sensor del instrumento de medición del nivel de agua</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 008</td><td>Tipo de plataforma marina</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 011</td><td>Tipo de radiosonda</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 012</td><td>Método de cálculo de la radiosonda</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 013</td><td>Corrección de la radiación solar y de infrarrojo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 014</td><td>Técnica de seguimiento de trayectoria/situación del sistema</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 015</td><td>Integralidad de la radiosonda</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 016</td><td>Configuración de la radiosonda</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>5</td><td>Tabla de banderines</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 017</td><td>Algoritmos de corrección de las mediciones de humedad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 019</td><td>Instrumentos de satélite</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>11</td><td>Tabla de cifrado</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 020</td><td>Clasificación de los satélites</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>9</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 021</td><td>Datos de instrumentos satelitales utilizados en el proceso*</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td>Note B47: Se recomienda utilizar el descriptor 0 02 152 en vez del 0 02 021 para cifrar este elemento.</td></tr>
+<tr><td>0 02 022</td><td>Técnica utilizada en el proceso de datos satelitales</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>8</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 023</td><td>Método de cálculo del viento a partir de datos satelitales</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 024</td><td>Método de cálculo de la humedad media integrada</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 025</td><td>Canal(es) satelital(es) utilizado(s) en el cálculo</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>25</td><td>Tabla de banderines</td><td>0</td><td>9</td><td></td></tr>
+<tr><td>0 02 026</td><td>Resolución transversal a la trayectoria</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 027</td><td>Resolución en el sentido de la trayectoria</td><td>m</td><td>2</td><td>0</td><td>12</td><td>m</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 028</td><td>Dimensión del segmento en el nadir en la dirección X</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 029</td><td>Dimensión del segmento en el nadir en la dirección Y</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 030</td><td>Método de medición de la corriente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 031</td><td>Duración y hora de medición de la corriente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 032</td><td>Indicador de digitalización</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 033</td><td>Método de medición de la salinidad/profundidad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 034</td><td>Tipo de ancla flotante</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 035</td><td>Longitud del cable</td><td>m</td><td>0</td><td>0</td><td>9</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 036</td><td>Tipo de boya</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 037</td><td>Método de observación de las mareas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 038</td><td>Método de medición de la temperatura y/o la salinidad del agua</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 039</td><td>Método de medición de la temperatura con bulbo húmedo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 040</td><td>Método para eliminar los efectos de la velocidad y del movimiento de la plataforma en la medición de la corriente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 041</td><td>Método de estimación utilizado en los informes relativos a la configuración sinóptica</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 042</td><td>Indicador de la velocidad de la corriente en la superficie del mar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 044</td><td>Indicador del método de cálculo de los datos espectrales de las olas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 045</td><td>Indicador del tipo de plataforma</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 046</td><td>Instrumentos de medición de las olas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 047</td><td>Tipo de tsunámetro para niveles profundos del océano</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 048</td><td>Indicador del sensor del satélite</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 049</td><td>Técnica utilizada para el proceso de datos de satélites geoestacionarios</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>8</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 050</td><td>Canales utilizados por un satélite geoestacionario de sondeo</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>20</td><td>Tabla de banderines</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 051</td><td>Indicador que determina el método de observación de las temperaturas extremas</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 052</td><td>Canales utilizados por un satélite geoestacionario productor de imágenes</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>6</td><td>Tabla de banderines</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 053</td><td>Características de la temperatura de luminancia obtenida mediante un satélite GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 054</td><td>Características de los parámetros de sondeo efectuados por un satélite GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 055</td><td>Parámetros estadísticos de los sondeos de satélites geoestacionarios</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 056</td><td>Estadísticas de la precisión de los sondeos de satélites geoestacionarios</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 057</td><td>Origen de la información de primera aproximación para sondeos de satélites GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 058</td><td>Tiempo de validez de la información de primera aproximación para sondeos de satélites GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 059</td><td>Origen de la información de análisis para sondeos de satélites GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 060</td><td>Origen de la información de superficie para sondeos de satélites GOES-I/M</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 061</td><td>Sistema de navegación de la aeronave</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 062</td><td>Tipo de sistema de retransmisión de datos procedentes de aeronaves</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 063</td><td>Ángulo de balanceo de la aeronave</td><td>°</td><td>2</td><td>-18000</td><td>16</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 064</td><td>Calidad del ángulo de balanceo de la aeronave</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 065</td><td>Estación ACARS de recepción en tierra</td><td>CCITT IA5</td><td>0</td><td>0</td><td>40</td><td>Carácter</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 066</td><td>Sistema de recepción en tierra de la radiosonda</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 067</td><td>Frecuencia de funcionamiento de la radiosonda</td><td>Hz</td><td>-5</td><td>0</td><td>15</td><td>Hz</td><td>-5</td><td>5</td><td></td></tr>
+<tr><td>0 02 070</td><td>Especificación original de latitud/longitud</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 071</td><td>Longitud de onda espectrográfica</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
+<tr><td>0 02 072</td><td>Anchura espectrográfica</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
+<tr><td>0 02 080</td><td>Fabricante del globo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 081</td><td>Tipo de globo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 082</td><td>Peso del globo</td><td>kg</td><td>3</td><td>0</td><td>12</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 083</td><td>Tipo de refugio para globos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 084</td><td>Tipo de gas utilizado en el globo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 085</td><td>Cantidad de gas utilizada en el globo</td><td>kg</td><td>3</td><td>0</td><td>13</td><td>kg</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 086</td><td>Longitud de arrastre de vuelo del globo</td><td>m</td><td>1</td><td>0</td><td>10</td><td>m</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 087</td><td>Superficie del paracaídas</td><td>m²</td><td>4</td><td>0</td><td>15</td><td>m²</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>0 02 088</td><td>Volumen de gas utilizado en el globo</td><td>m³</td><td>3</td><td>0</td><td>13</td><td>m³</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 091</td><td>Sensor de entrada 4/20 mA</td><td>A</td><td>4</td><td>0</td><td>10</td><td>A</td><td>4</td><td>3</td><td></td></tr>
+<tr><td>0 02 092</td><td>Método de cálculo del perfil de ozono</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 095</td><td>Tipo de sensor de presión</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 096</td><td>Tipo de sensor de temperatura</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 097</td><td>Tipo de sensor de humedad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 099</td><td>Polarización</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 100</td><td>Constante de radar+</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note B157: Esta constante se define como sigue: Z = P + constante radar donde / Z = reflectividad del objetivo en la dirección del haz (dBZ) / P = potencia a la entrada del receptor por encima de 1 mW (dBm) / Esta constante se emplea para normalizar la señal, para un alcance equivalente a 100 km.</td></tr>
+<tr><td>0 02 101</td><td>Tipo de antena</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 102</td><td>Altura de la antena sobre la base de la torre</td><td>m</td><td>0</td><td>0</td><td>8</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 103</td><td>Radomo</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>2</td><td>Tabla de banderines</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 104</td><td>Polarización de la antena</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 105</td><td>Ganancia máxima de la antena</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 106</td><td>Anchura del haz a 3 dB</td><td>°</td><td>1</td><td>0</td><td>6</td><td>°</td><td>1</td><td>2</td><td></td></tr>
+<tr><td>0 02 107</td><td>Supresión de los lóbulos laterales</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 108</td><td>Discriminación de la polarización cruzada (en el eje)</td><td>dB</td><td>0</td><td>0</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 109</td><td>Velocidad angular de la antena (en azimut)</td><td>grado/s</td><td>2</td><td>0</td><td>12</td><td>grado/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 110</td><td>Velocidad angular de la antena (en elevación)</td><td>grado/s</td><td>2</td><td>0</td><td>12</td><td>grado/s</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 02 111</td><td>Ángulo de incidencia del radar</td><td>°</td><td>1</td><td>0</td><td>10</td><td>°</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 112</td><td>Ángulo de abertura del haz radar</td><td>°</td><td>1</td><td>0</td><td>12</td><td>°</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 02 113</td><td>Número de visiones azimutales</td><td>Numérica</td><td>0</td><td>0</td><td>4</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 114</td><td>Superficie equivalente de la antena</td><td>m²</td><td>0</td><td>0</td><td>15</td><td>m²</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 115</td><td>Tipo de equipo de observación en superficie</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 116</td><td>Porcentaje procesado de banda de 320 MHz</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 117</td><td>Porcentaje procesado de banda de 80 MHz</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 118</td><td>Porcentaje procesado de banda de 20 MHz</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 119</td><td>Operaciones de instrumento RA-2</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 120</td><td>Frecuencia de ola oceánica</td><td>Hz</td><td>3</td><td>0</td><td>10</td><td>Hz</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 02 121</td><td>Frecuencia media</td><td>Hz</td><td>-8</td><td>0</td><td>7</td><td>Hz</td><td>-8</td><td>3</td><td></td></tr>
+<tr><td>0 02 122</td><td>Alcance de la agilidad de la frecuencia</td><td>Hz</td><td>-6</td><td>-128</td><td>8</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
+<tr><td>0 02 123</td><td>Potencia de cresta</td><td>W</td><td>-4</td><td>0</td><td>7</td><td>W</td><td>-4</td><td>3</td><td></td></tr>
+<tr><td>0 02 124</td><td>Potencia media</td><td>W</td><td>-1</td><td>0</td><td>7</td><td>W</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 02 125</td><td>Frecuencia de repetición de los impulsos</td><td>Hz</td><td>-1</td><td>0</td><td>8</td><td>Hz</td><td>-1</td><td>3</td><td></td></tr>
+<tr><td>0 02 126</td><td>Anchura de impulso</td><td>s</td><td>7</td><td>0</td><td>6</td><td>s</td><td>7</td><td>2</td><td></td></tr>
+<tr><td>0 02 127</td><td>Frecuencia intermedia del receptor</td><td>Hz</td><td>-6</td><td>0</td><td>7</td><td>Hz</td><td>-6</td><td>3</td><td></td></tr>
+<tr><td>0 02 128</td><td>Anchura de banda de las frecuencias intermedias</td><td>Hz</td><td>-5</td><td>0</td><td>6</td><td>Hz</td><td>-5</td><td>2</td><td></td></tr>
+<tr><td>0 02 129</td><td>Señal mínima detectable</td><td>dB</td><td>0</td><td>-150</td><td>5</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 130</td><td>Alcance dinámico</td><td>dB</td><td>0</td><td>0</td><td>7</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 131</td><td>Control de sensibilidad en función del tiempo (STC)</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>2</td><td>Tabla de banderines</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 132</td><td>Precisión de puntería en azimut</td><td>°</td><td>2</td><td>0</td><td>6</td><td>°</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 02 133</td><td>Precisión de puntería en elevación</td><td>°</td><td>2</td><td>0</td><td>6</td><td>°</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 02 134</td><td>Azimut del haz de la antena</td><td>°</td><td>2</td><td>0</td><td>16</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 135</td><td>Elevación de la antena</td><td>°</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 02 136</td><td>Alcance procesado por la corrección de atenuación de alcance</td><td>m</td><td>-3</td><td>0</td><td>16</td><td>m</td><td>-3</td><td>5</td><td></td></tr>
+<tr><td>0 02 137</td><td>Relación de frecuencia de repetición de impulsos dual del radar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 138</td><td>Dirección de rotación de la antena</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 139</td><td>Configuración del instrumento SIRAL</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 140</td><td>Ángulo azimutal del haz del radar del satélite</td><td>°</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td>Note B111: Nótese que el descriptor 0 02 140 es el ángulo azimutal medido en sentido sinistrorso desde el vector guía del satélite. I.2 – BUFR/CREX Tabla B/02 – 11 (Clase 02 – continuación)</td></tr>
+<tr><td>0 02 141</td><td>Tipo de medición</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Carácter</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 142</td><td>Número de serie/indicador del tipo de instrumento de medición del ozono</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Carácter</td><td>0</td><td>4</td><td>Note B91: En el descriptor 0 02 142, el número de serie o de identificación del tipo de instrumento de medición del ozono tiene una longitud de cuatro caracteres. Tratándose de instrumentos Dobson japoneses debe((n) omitirse el (los) dígito((s) inicial(es).</td></tr>
+<tr><td>0 02 143</td><td>Tipo de instrumento de medición del ozono</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 144</td><td>Tipo de fuente luminosa para el espectrofotómetro de Brewer</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 145</td><td>Ajuste de la longitud de onda para los instrumentos Dobson</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 146</td><td>Condiciones de la fuente para los instrumentos Dobson</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 147</td><td>Método de transmisión al centro de recopilación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 148</td><td>Sistema de recopilación de datos y/o ubicación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 149</td><td>Tipo de boya de datos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 150</td><td>Número de canal de los instrumentos TOVS/ATOVS/AVHRR</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 151</td><td>Identificador del radiómetro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>11</td><td>Tabla de cifrado</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 152</td><td>Instrumento de satélite utilizado en el proceso de los datos</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>31</td><td>Tabla de banderines</td><td>0</td><td>10</td><td>Note B46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
+<tr><td>0 02 153</td><td>Frecuencia central del canal del satélite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
+<tr><td>0 02 154</td><td>Anchura de banda del canal del satélite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
+<tr><td>0 02 155</td><td>Longitud de onda del canal satelital</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
+<tr><td>0 02 156</td><td>Porcentaje de mediciones válidas de reseguimiento de océano en banda Ku</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 157</td><td>Porcentaje de mediciones válidas de reseguimiento de océano en banda S</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 158</td><td>Instrumento RA-2</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 159</td><td>Instrumento MWR</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>8</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 160</td><td>Longitud de onda del radar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 161</td><td>Método de procesamiento del viento</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>16</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 162</td><td>Método ampliado de asignación de la altura</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 163</td><td>Método de asignación de la altura</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 164</td><td>Método de correlación del trazador</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 02 165</td><td>Banderines del tipo de radiancia</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>15</td><td>Tabla de banderines</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 166</td><td>Tipo de radiancia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 167</td><td>Método de cálculo de la radiancia</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 168</td><td>Presión hidrostática en el extremo inferior del cable (cadena de termistores)</td><td>Pa</td><td>-3</td><td>0</td><td>16</td><td>KPa</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 02 169</td><td>Tipo de anemómetro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 170</td><td>Sensores de humedad de la aeronave</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 171</td><td>Número de serie del instrumento para mediciones del perfil de temperatura del agua</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Carácter</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 02 172</td><td>Tipo de producto para la recuperación de datos sobre gases atmosféricos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 173</td><td>Cuadrado del ángulo de desviación del nadir</td><td>grado²</td><td>4</td><td>0</td><td>10</td><td>grado²</td><td>4</td><td>4</td><td>Note B124: Cuadrado del ángulo de desviación del nadir contabilizado a partir de parámetros derivados en forma de onda Ku, unidad 10 –4 grado2, valor mínimo común 0, valor común 900. I.2 – BUFR/CREX Tabla B/02 – 12</td></tr>
+<tr><td>0 02 174</td><td>Número medio de píxeles transversales por pista</td><td>Numérica</td><td>0</td><td>0</td><td>9</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 175</td><td>Método de medición de la precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 176</td><td>Método de medición del estado del suelo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 177</td><td>Método de medición del espesor de la nieve</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 178</td><td>Método de medición del contenido líquido de la precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 179</td><td>Tipo de algoritmo de la condición del cielo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 180</td><td>Principal sistema de detección de tiempo presente</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 181</td><td>Sensor suplementario de tiempo presente</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>21</td><td>Tabla de banderines</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 182</td><td>Sistema de medición de la visibilidad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 183</td><td>Sistema de detección de nubes</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 184</td><td>Tipo de sensor de detección del rayo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 185</td><td>Método de medición de la evaporación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 186</td><td>Capacidad para detectar fenómenos de precipitación</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>30</td><td>Tabla de banderines</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 02 187</td><td>Capacidad para detectar otros fenómenos meteorológicos</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>18</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 02 188</td><td>Capacidad para detectar el oscurecimiento</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>21</td><td>Tabla de banderines</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 02 189</td><td>Capacidad para distinguir entre descargas eléctricas</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>12</td><td>Tabla de banderines</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 02 190</td><td>Inmersión de una boya lagrangiana a la deriva (% de tiempo en que permanece sumergida)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 02 191</td><td>Cálculo de la altura geopotencial</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note B121: En relación con determinados elementos de esta clase, pueden consignarse algunas indicaciones sobre la precisión prevista.</p>
+<p class="note">Note B155: Esta clase también puede contener elementos relativos a los procedimientos de observación.</p>
+<p class="note">Note B156: Esta clase incluirá elementos que describen los instrumentos que se utilizan para obtener los elementos meteorológicos transmitidos.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Category 11: Single level report sequences (conventional data)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Category 11: Single level report sequences (conventional data)</h1>
+<p class="fxy-heading">3 11 001 (Aircraft reports)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 051</td><td>Flight number, navigational system, date/time, location, phase of flight</td><td>ASDAR</td><td></td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degree of turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 032</td><td>Height of base of turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 033</td><td>Height of top of turbulence</td><td></td><td></td></tr>
+<tr><td>0 20 041</td><td>Airframe icing</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 002 (ACARS reports)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 065</td><td>ACARS identification</td><td></td><td></td></tr>
+<tr><td>3 01 066</td><td>ACARS location</td><td></td><td></td></tr>
+<tr><td>3 11 003</td><td>ACARS standard reported variables</td><td></td><td></td></tr>
+<tr><td>3 11 004</td><td>ACARS supplementary reported variables</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 003 (ACARS standard reported variables)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 10 070</td><td>Indicated aircraft altitude</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 004 (ACARS supplementary reported variables)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 034</td><td>Vertical gust velocity</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 035</td><td>Vertical gust acceleration</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 075</td><td>Mean turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 076</td><td>Peak turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 33 025</td><td>ACARS interpolated values indicator</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 33 026</td><td>Moisture quality</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 005 (Standard AMDAR reports)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>0 01 023</td><td>Observation sequence number</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>0 07 010</td><td>Flight level</td><td></td><td></td></tr>
+<tr><td>0 08 009</td><td>Detailed phase of flight</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 11 031</td><td>Degree of turbulence</td><td></td><td></td></tr>
+<tr><td>0 11 036</td><td>Maximum derived equivalent vertical gust speed</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 33 025</td><td>ACARS interpolated values indicator</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 006 (AMDAR data or aircraft data for one level without latitude/longitude)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 07 010</td><td>Flight level</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Aircraft roll angle quality</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Dewpoint temperature</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 007 (Aircraft data for one level with latitude/longitude indicated)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 07 010</td><td>Flight level</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Aircraft roll angle quality</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Dewpoint temperature</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 008 (Aircraft ascent/descent profile without latitude/longitude indicated at each level)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase of aircraft flight</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>3 11 006</td><td>AMDAR data or aircraft data for one level without latitude/longitude</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 009 (Aircraft ascent/descent profile with latitude/longitude given for each level)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase of aircraft flight</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>3 11 007</td><td>Aircraft data for one level with latitude/longitude indicated</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 010 (BUFR template for AMDAR, version 7)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>0 01 023</td><td>Observation sequence number</td><td></td><td></td></tr>
+<tr><td>0 01 006</td><td>Aircraft flight number</td><td></td><td></td></tr>
+<tr><td>0 01 110</td><td>Aircraft tail number</td><td></td><td></td></tr>
+<tr><td>0 01 111</td><td>Origination airport</td><td></td><td></td></tr>
+<tr><td>0 01 112</td><td>Destination airport</td><td></td><td></td></tr>
+<tr><td>2 04 002</td><td>Add associated field</td><td>2 bits long</td><td></td></tr>
+<tr><td>0 31 021</td><td>Associated field significance</td><td>= 8 Two bits quality information</td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 010</td><td>Flight level</td><td>Pressure altitude</td><td></td></tr>
+<tr><td>0 10 053</td><td>Global navigation satellite system altitude</td><td></td><td></td></tr>
+<tr><td>0 08 009</td><td>Detailed phase of flight</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 02 064</td><td>Aircraft roll angle quality</td><td></td><td></td></tr>
+<tr><td>0 11 100</td><td>Aircraft true airspeed</td><td></td><td></td></tr>
+<tr><td>0 11 101</td><td>Aircraft ground speed u-component</td><td></td><td></td></tr>
+<tr><td>0 11 102</td><td>Aircraft ground speed v-component</td><td></td><td></td></tr>
+<tr><td>0 11 103</td><td>Aircraft ground speed w-component</td><td></td><td></td></tr>
+<tr><td>0 11 104</td><td>True heading of aircraft, ship or other mobile platform</td><td>True heading of aircraft</td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 02 170</td><td>Aircraft humidity sensors</td><td></td><td></td></tr>
+<tr><td>2 01 144</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 133</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Relative humidity</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 12 103</td><td>Dewpoint temperature</td><td></td><td></td></tr>
+<tr><td>0 33 026</td><td>Moisture quality</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 20 042</td><td>Airframe icing present</td><td></td><td></td></tr>
+<tr><td>1 03 000</td><td>Delayed replication of 3 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 20 043</td><td>Peak liquid water content</td><td></td><td></td></tr>
+<tr><td>0 20 044</td><td>Average liquid water content</td><td></td><td></td></tr>
+<tr><td>0 20 045</td><td>Supercooled large droplet (SLD) conditions</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 33 025</td><td>ACARS interpolated values indicator</td><td></td><td></td></tr>
+<tr><td>1 03 000</td><td>Delayed replication of 3 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 075</td><td>Mean turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>0 11 076</td><td>Peak turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>0 11 039</td><td>Extended time of occurrence of peak eddy dissipation rate</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 037</td><td>Turbulence index</td><td>EDR</td><td></td></tr>
+<tr><td>0 11 077</td><td>Reporting interval or averaging time for eddy dissipation rate</td><td></td><td></td></tr>
+<tr><td>1 03 000</td><td>Delayed replication of 3 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 000</td><td>Short delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 11 034</td><td>Vertical gust velocity</td><td></td><td></td></tr>
+<tr><td>0 11 035</td><td>Vertical gust acceleration</td><td></td><td></td></tr>
+<tr><td>0 11 036</td><td>Maximum derived equivalent vertical gust speed</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr><td>1 19 000</td><td>Delayed replication of 19 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 007</td><td>Height</td><td></td><td></td></tr>
+<tr><td>0 11 105</td><td>EDR algorithm version</td><td></td><td></td></tr>
+<tr><td>2 04 007</td><td>Add associated field</td><td>7 bits long</td><td></td></tr>
+<tr><td>0 31 021</td><td>Associated field significance</td><td>= 7 Percentage confidence</td><td></td></tr>
+<tr><td>0 11 076</td><td>Peak turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>0 11 075</td><td>Mean turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+<tr><td>2 04 000</td><td>Add associated field</td><td>Cancel</td><td></td></tr>
+<tr><td>0 11 106</td><td>Running minimum confidence</td><td></td><td></td></tr>
+<tr><td>0 11 107</td><td>Maximum number bad inputs</td><td></td><td></td></tr>
+<tr><td>0 11 108</td><td>Peak location</td><td></td><td></td></tr>
+<tr><td>0 11 109</td><td>Number of good EDR</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>2 01 130</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>0 11 084</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 011 (IAGOS template for a single observation), version 2</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 01 023</td><td>Observation sequence number</td><td></td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase of aircraft flight</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>0 05 002</td><td>Latitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 06 002</td><td>Longitude (coarse accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>1 06 000</td><td>Delayed replication of 6 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 08 046</td><td>Atmospheric chemical or physical constituent type</td><td></td><td></td></tr>
+<tr><td>2 01 139</td><td>Change data width</td><td>20 bits long</td><td></td></tr>
+<tr><td>2 02 126</td><td>Change scale</td><td>Scale: 7</td><td></td></tr>
+<tr><td>0 15 026</td><td>Concentration of pollutant (mol mol-1)</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>1 06 000</td><td>Delayed replication of 6 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 08 046</td><td>Atmospheric chemical or physical constituent type</td><td></td><td></td></tr>
+<tr><td>2 01 138</td><td>Change data width</td><td>19 bits long</td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td>Scale: 11</td><td></td></tr>
+<tr><td>0 15 026</td><td>Concentration of pollutant (mol mol-1)</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 15 052</td><td>Log10 of number density of aerosol particles with diameter greater than 5 nm</td><td></td><td></td></tr>
+<tr><td>0 15 053</td><td>Log10 of number density of aerosol particles with diameter greater than 14 nm</td><td></td><td></td></tr>
+<tr><td>0 15 054</td><td>Log10 of number density of aerosol particles with diameter between 0.25 and 2.5 µm</td><td></td><td></td></tr>
+<tr><td>0 15 055</td><td>Non volatile aerosol ratio</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 13 099</td><td>Log10 of integrated cloud particle density</td><td></td><td></td></tr>
+<tr><td>0 13 100</td><td>Log10 of integrated cloud particle area</td><td></td><td></td></tr>
+<tr><td>0 13 101</td><td>Log10 of integrated cloud particle volume</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 012 (BUFR template for aircraft ascent/descent profile with latitude and longitude given for each level)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 150</td><td>WIGOS identifier</td><td></td><td></td></tr>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>0 01 111</td><td>Origination airport</td><td>To be reported in case of an ascent profile</td><td></td></tr>
+<tr><td>0 01 112</td><td>Destination airport</td><td>To be reported in case of an descent profile</td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td>Date/time and position of first level in profile (for ascent profile first report/take off, for descent profile last report/touch down)</td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, Min, second</td><td>Date/time and position of first level in profile (for ascent profile first report/take off, for descent profile last report/touch down)</td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/Longitude</td><td>Date/time and position of first level in profile (for ascent profile first report/take off, for descent profile last report/touch down)</td><td></td></tr>
+<tr><td>0 08 004</td><td>Phase of flight</td><td>Ascent or descent profile</td><td></td></tr>
+<tr><td>1 10 000</td><td>Delayed replication of 10 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td>Number of levels following</td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td>Date of single level report</td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, Min, second</td><td>Time of single level report</td><td></td></tr>
+<tr><td>3 11 007</td><td>Aircraft data for one level with latitude/longitude indicated</td><td>Flight level = pressure altitude</td><td></td></tr>
+<tr><td>2 01 144</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 133</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td>naly measured value</td><td></td></tr>
+<tr><td>2 02 000</td><td>Cancel change scale</td><td></td><td></td></tr>
+<tr><td>2 01 000</td><td>Cancel change data width</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Relative humidity</td><td>Value derived from Mixing ratio, limited to ≤ 100%</td><td></td></tr>
+<tr><td>0 33 026</td><td>Moisture quality</td><td>Code table</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 013 (Uncrewed aircraft systems (UAS))</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 150</td><td>WIGOS identifier</td><td></td><td></td></tr>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td></td></tr>
+<tr><td>0 01 095</td><td>Observer identification</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td></td></tr>
+<tr><td>0 08 009</td><td>Detailed phase of flight</td><td></td><td></td></tr>
+<tr><td>0 07 010</td><td>Flight level</td><td></td><td></td></tr>
+<tr><td>0 33 003</td><td>Quality information</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 02 170</td><td>Aircraft humidity sensor</td><td></td><td></td></tr>
+<tr><td>2 01 144</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 133</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Relative humidity</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 11 073</td><td>Turbulent kinetic energy</td><td></td><td></td></tr>
+<tr><td>0 11 075</td><td>Mean turbulence intensity (eddy dissipation rate)</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 11 014 (Template for drifting balloon systems)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 01 150</td><td>WIGOS identifier</td><td></td><td></td></tr>
+<tr><td>3 01 005</td><td>Originating centre/sub-centre</td><td></td><td></td></tr>
+<tr><td>3 01 134</td><td>Balloon and instrumentation information</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
+<tr><td>3 01 013</td><td>Hour, minute, second</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td></td><td></td></tr>
+<tr><td>0 07 007</td><td>Height</td><td>Is derived from GNSS measurements</td><td></td></tr>
+<tr><td>0 33 024</td><td>Station elevation quality mark (for mobile stations)</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Time significance</td><td>= 2 Time averaged</td><td></td></tr>
+<tr><td>0 25 170</td><td>Sampling interval (time)</td><td>Seconds</td><td></td></tr>
+<tr><td>0 04 026</td><td>Time period or displacement</td><td></td><td></td></tr>
+<tr><td>0 07 077</td><td>Height of sensor with respect to station</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>0 10 009</td><td>Geopotential height</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Time significance</td><td>= 2 Time averaged</td><td></td></tr>
+<tr><td>0 25 170</td><td>Sampling interval (time)</td><td>Seconds</td><td></td></tr>
+<tr><td>0 04 026</td><td>Time period or displacement</td><td></td><td></td></tr>
+<tr><td>0 07 077</td><td>Height of sensor with respect to station</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 08 021</td><td>Time significance</td><td>= 2 Time averaged</td><td></td></tr>
+<tr><td>0 25 170</td><td>Sampling interval (time)</td><td>Seconds</td><td></td></tr>
+<tr><td>0 04 026</td><td>Time period or displacement</td><td></td><td></td></tr>
+<tr><td>0 07 077</td><td>Height of sensor with respect to station</td><td></td><td></td></tr>
+<tr><td>0 12 003</td><td>Dewpoint temperature</td><td></td><td></td></tr>
+<tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Relative humidity</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 144</td><td>Change data width</td><td></td><td></td></tr>
+<tr><td>2 02 133</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 01 000</td><td>Change data width</td><td>Cancel</td><td></td></tr>
+<tr><td>0 08 021</td><td>Time significance</td><td>= 2 Time averaged</td><td></td></tr>
+<tr><td>0 25 170</td><td>Sampling interval (time)</td><td>Seconds</td><td></td></tr>
+<tr><td>0 04 026</td><td>Time period or displacement</td><td></td><td></td></tr>
+<tr><td>0 07 077</td><td>Height of sensor with respect to station</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>0 08 023</td><td>First-order statistics</td><td>=10 means standard-deviation (N)</td><td></td></tr>
+<tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 12 001</td><td>Temperature/air temperature</td><td></td><td></td></tr>
+<tr><td>0 12 003</td><td>Dewpoint temperature</td><td></td><td></td></tr>
+<tr><td>0 13 003</td><td>Relative humidity</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 02 132</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 13 002</td><td>Mixing ratio</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>2 02 129</td><td>Change scale</td><td></td><td></td></tr>
+<tr><td>0 11 001</td><td>Wind direction</td><td></td><td></td></tr>
+<tr><td>0 11 002</td><td>Wind speed</td><td></td><td></td></tr>
+<tr><td>2 02 000</td><td>Change scale</td><td>Cancel</td><td></td></tr>
+<tr><td>0 08 023</td><td>First-order statistics</td><td>Cancel</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>
