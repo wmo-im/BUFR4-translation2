@@ -134,11 +134,14 @@ def set_cell_with_units(cell, text, style, is_unit_col=False):
 
 # ── Global notes loader ─────────────────────────────────────────────
 
-def load_global_notes(lang, base_dir, table_type):
-    """Load global noteIDs for a table type and return resolved note text list."""
+def load_global_notes(lang, base_dir, table_type, class_or_category=None):
+    """Load global notes for a specific class/category.
+
+    For Table B/D: class_or_category = class number like "02"
+    For CodeFlag: notes are per-FXY, loaded separately via load_codeflag_fxy_notes()
+    """
     notes_dir = os.path.join(base_dir, 'notes')
 
-    # Map table type to global noteIDs file prefix
     prefix_map = {
         'table_b': 'BUFRCREX_TableB',
         'table_d': 'BUFR_TableD',
@@ -148,19 +151,24 @@ def load_global_notes(lang, base_dir, table_type):
     if not prefix:
         return []
 
-    # Read global noteIDs
+    # Read global noteIDs — filter by tableNo matching our class/category
     global_file = os.path.join(notes_dir, f'{prefix}_global_noteIDs.csv')
     if not os.path.exists(global_file):
         return []
 
-    global_ids = set()
+    relevant_ids = set()
     with open(global_file, encoding='utf-8-sig') as f:
         for r in csv.DictReader(f):
+            tno = r.get('tableNo', '').strip()
             nid = r.get('noteID', '').strip()
-            if nid:
-                global_ids.add(nid)
+            if not nid:
+                continue
+            if class_or_category is None:
+                relevant_ids.add(nid)
+            elif tno == class_or_category:
+                relevant_ids.add(nid)
 
-    if not global_ids:
+    if not relevant_ids:
         return []
 
     # Read notes file for this language
@@ -173,10 +181,20 @@ def load_global_notes(lang, base_dir, table_type):
         for r in csv.DictReader(f):
             nid = r.get('noteID', '').strip()
             text = r.get(f'note_{lang}', r.get('note', '')).strip()
-            if nid in global_ids and text:
+            if nid in relevant_ids and text:
                 notes_text.append(f'Note {nid}: {text}')
 
     return notes_text
+
+
+def load_codeflag_fxy_notes(lang, base_dir, fxy):
+    """Load notes for a specific CodeFlag FXY (e.g., '0 02 003' or '002003')."""
+    # Normalize FXY to spaced format for matching
+    fxy_spaced = fxy.strip()
+    if len(fxy_spaced) == 6 and fxy_spaced.isdigit():
+        fxy_spaced = f'{fxy_spaced[0]} {fxy_spaced[1:3]} {fxy_spaced[3:]}'
+
+    return load_global_notes(lang, base_dir, 'codeflag', class_or_category=fxy_spaced)
 
 
 # ── Styling helpers ──────────────────────────────────────────────────
@@ -347,9 +365,9 @@ def generate_table_b(lang, csv_path, doc, notes_db, config):
             else:
                 set_cell(cell, val, style)
 
-    # Global notes at the end
+    # Global notes at the end — only for THIS class
     base_dir = os.path.dirname(os.path.dirname(csv_path))
-    global_notes = load_global_notes(lang, base_dir, 'table_b')
+    global_notes = load_global_notes(lang, base_dir, 'table_b', class_or_category=class_no)
     if global_notes:
         doc.add_paragraph()
         for note in global_notes:
@@ -434,9 +452,9 @@ def generate_table_d(lang, csv_path, doc, notes_db, config):
 
         doc.add_paragraph()  # spacing between sequences
 
-    # Global notes at the end
+    # Global notes at the end — only for THIS category
     base_dir = os.path.dirname(os.path.dirname(csv_path))
-    global_notes = load_global_notes(lang, base_dir, 'table_d')
+    global_notes = load_global_notes(lang, base_dir, 'table_d', class_or_category=cat)
     if global_notes:
         doc.add_paragraph()
         for note in global_notes:
@@ -519,19 +537,18 @@ def generate_codeflag(lang, csv_path, doc, notes_db, config):
             for cell, val in zip(row_cells, vals):
                 set_cell(cell, val, style)
 
-        doc.add_paragraph()  # spacing between FXY tables
+        # Notes for THIS FXY — after its sub-table
+        base_dir = os.path.dirname(os.path.dirname(csv_path))
+        fxy_notes = load_codeflag_fxy_notes(lang, base_dir, fxy)
+        if fxy_notes:
+            for note in fxy_notes:
+                p = doc.add_paragraph()
+                run = p.add_run(note)
+                run.font.name = style['font']
+                run.font.size = Pt(7)
+                run.font.italic = True
 
-    # Global notes at the end
-    base_dir = os.path.dirname(os.path.dirname(csv_path))
-    global_notes = load_global_notes(lang, base_dir, 'codeflag')
-    if global_notes:
-        doc.add_paragraph()
-        for note in global_notes:
-            p = doc.add_paragraph()
-            run = p.add_run(note)
-            run.font.name = style['font']
-            run.font.size = Pt(7)
-            run.font.italic = True
+        doc.add_paragraph()  # spacing between FXY tables
 
 
 # ── Main ─────────────────────────────────────────────────────────────
