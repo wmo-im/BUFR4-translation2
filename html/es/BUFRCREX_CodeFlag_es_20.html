@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -326,6 +327,11 @@
 <tr><td>511</td><td>Valor faltante</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 34: Las cifras de clave que indican la precipitación genérica (cifras de clave 140–148) están dispuestas en orden de complejidad creciente. Por ejemplo: una estación muy sencilla que tan solo puede determinar la presencia o ausencia de precipitación utilizará la cifra de clave 140 (precipitación). En el siguiente nivel, una estación automática capaz de captar la cantidad pero no el tipo de precipitación utilizará la cifra de clave 141 o 142. Una estación automática capaz de captar el tipo de precipitación (líquida, sólida, engelante) y la cantidad en líneas generales, utilizará las cifras de clave 143–148. Una estación automática capaz de comunicar tipos reales de precipitación (por ejemplo, llovizna o lluvia) pero no su cantidad, utilizará la correspondiente decena (por ejemplo, 150 para llovizna en general y 160 para lluvia en general).</p>
+<p class="note">Note 43: Los términos genéricos para las condiciones meteorológicas (por ejemplo, niebla, llovizna) se destinan a las estaciones automáticas que pueden determinar tipos de tiempo, pero no dar más información. Los términos genéricos de la tabla de cifrado se indican mediante mayúsculas.</p>
+<p class="note">Note 80: La parte central de la presente tabla de cifrado (cifras de clave 100–199) incluye términos a diversos niveles, referidos a estaciones automáticas sencillas y luego cada vez más complejas.</p>
+</div>
 <p class="fxy-heading">0 20 004  Tiempo pasado (1)</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -455,6 +461,9 @@
 <tr><td>15</td><td>La cubierta de nubes es indefinible por razones distintas de la niebla u otros fenómenos meteorológicos, o no se ha hecho ninguna observación</td><td></td><td>Note 40: Los niveles no superficiales sobre la coordenada vertical nativa del modelo son transpuestos a una coordenada de presión. Con ello, los niveles son más fácilmente interpretables por las personas y más fáciles de utilizar por aplicaciones de visualización genéricas. Los niveles pueden corresponder exactamente a niveles nativos del modelo o haber sido interpolados entre niveles del modelo a unos niveles de presión seleccionados por el centro generador.</td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 2: Los términos “despejado” y “cubierto” se cifran con 0 y 8, respectivamente.</p>
+</div>
 <p class="fxy-heading">0 20 012  Tipo de nubes</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -576,6 +585,9 @@
 <tr><td>Todos los 30</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 57: La precipitación combinada se indica fijando en uno los bits de cada uno de los tipos de precipitación observados.</p>
+</div>
 <p class="fxy-heading">0 20 022  Naturaleza de la precipitación</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -685,6 +697,9 @@
 <tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 63: En esta tabla de banderines se entiende por fenómeno cualquier tipo de fenómeno, incluidos la precipitación y el oscurecimiento.</p>
+</div>
 <p class="fxy-heading">0 20 028  Cambio esperado en intensidad</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -953,6 +968,11 @@
 <tr><td>31</td><td>Valor faltante</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 50: En todos los casos, se indicarán las cifras de clave más altas aplicables.</p>
+<p class="note">Note 54: En esta tabla de cifrado, siempre que se haga referencia al hielo, se incluye también toda precipitación sólida que no sea nieve.</p>
+<p class="note">Note 75: Las definiciones referidas a las cifras de clave 0, 1, 2 y 4 se aplican al suelo representativo y las cifras de clave 3, 5 a 9 y 10 a 19, a una zona abierta representativa.</p>
+</div>
 <p class="fxy-heading">0 20 063  Fenómenos especiales</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>

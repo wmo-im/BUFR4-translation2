@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -245,6 +246,9 @@
 <tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 49: Si todos los bits indican 0, eso significa una buena calibración.</p>
+</div>
 <p class="fxy-heading">0 33 031  Banderines de calidad de la línea de exploración para ATOVS</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -274,6 +278,12 @@
 <tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 24: Los bits 1 a 4 representan la clave de defectos horarios. Si todos los bits indican 0, eso significa que la hora de barrido corresponde a la prevista.</p>
+<p class="note">Note 25: Los bits 11 a 17 representan la clave de problemas de localización geográfica. Si todos los bits indican 0, eso significa que la localización geográfica ha sido normal.</p>
+<p class="note">Note 27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
+<p class="note">Note 49: Si todos los bits indican 0, eso significa una buena calibración.</p>
+</div>
 <p class="fxy-heading">0 33 032  Banderines de calidad del canal para ATOVS</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -289,6 +299,9 @@
 <tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: Si todos los bits indican 0, eso significa una buena calibración.</p>
+</div>
 <p class="fxy-heading">0 33 033  Banderines de calidad del campo de visión para ATOVS</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -300,6 +313,9 @@
 <tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: Si todos los bits indican 0, eso significa una buena calibración.</p>
+</div>
 <p class="fxy-heading">0 33 035  Control de calidad manual/automático</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
@@ -386,6 +402,9 @@
 <tr><td>3</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 85: Este descriptor se asociará a los datos de la visibilidad o a los de la altura de las nubes para especificar si se trata de un valor limitado. Si los datos transmitidos son el valor verdadero, la cifra de clave es 0. Sin-embargo, la medición puede alcanzar el límite de la capacidad de medición del instrumento. Si el valor transmitido es mayor que el valor verdadero, la cifra de clave es 1; y si el valor transmitido es menor que el valor verdadero, la cifra de clave es 2.</p>
+</div>
 <p class="fxy-heading">0 33 042  Tipo de límite representado por el valor siguiente</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>

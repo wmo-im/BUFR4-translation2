@@ -15,43 +15,80 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
 <body>
 <h1>Category 00: BUFR table entries sequences</h1>
+<p class="fxy-heading">3 00 002</p>
 <table>
-<thead><tr><th>FXY1</th><th>TITLE</th><th>SUBTITLE</th><th>FXY2</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr class="seq-header"><td>3 00 002</td><td></td><td></td><td>0 00 002</td><td>Table A: data category description, line 1</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 003</td><td>Table A: data category description, line 2</td><td></td><td></td></tr>
-<tr class="seq-header"><td>3 00 003</td><td>(F, X, Y of descriptor to be added or defined)</td><td></td><td>0 00 010</td><td>F descriptor to be added or defined</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 011</td><td>X descriptor to be added or defined</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 012</td><td>Y descriptor to be added or defined</td><td></td><td></td></tr>
-<tr class="seq-header"><td>3 00 004</td><td></td><td></td><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 013</td><td>Element name, line 1</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 014</td><td>Element name, line 2</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 015</td><td>Units name</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 016</td><td>Units scale sign</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 017</td><td>Units scale</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 018</td><td>Units reference sign</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 019</td><td>Units reference value</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 020</td><td>Element data width</td><td></td><td></td></tr>
-<tr class="seq-header"><td>3 00 010</td><td></td><td></td><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
-<tr class="seq-header"><td>3 00 015</td><td>(Code table definition)</td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 024</td><td>Code figure</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 025</td><td>Code figure meaning</td><td></td><td></td></tr>
-<tr class="seq-header"><td>3 00 016</td><td>(Flag table definition)</td><td></td><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 026</td><td>Bit number</td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td>0 00 027</td><td>Bit number meaning</td><td></td><td></td></tr>
+<tr><td>0 00 002</td><td>Table A: data category description, line 1</td><td></td><td></td></tr>
+<tr><td>0 00 003</td><td>Table A: data category description, line 2</td><td></td><td></td></tr>
 </tbody>
 </table>
+<p class="fxy-heading">3 00 003 (F, X, Y of descriptor to be added or defined)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 00 010</td><td>F descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td>0 00 011</td><td>X descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td>0 00 012</td><td>Y descriptor to be added or defined</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 004</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td>0 00 013</td><td>Element name, line 1</td><td></td><td></td></tr>
+<tr><td>0 00 014</td><td>Element name, line 2</td><td></td><td></td></tr>
+<tr><td>0 00 015</td><td>Units name</td><td></td><td></td></tr>
+<tr><td>0 00 016</td><td>Units scale sign</td><td></td><td></td></tr>
+<tr><td>0 00 017</td><td>Units scale</td><td></td><td></td></tr>
+<tr><td>0 00 018</td><td>Units reference sign</td><td></td><td></td></tr>
+<tr><td>0 00 019</td><td>Units reference value</td><td></td><td></td></tr>
+<tr><td>0 00 020</td><td>Element data width</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 010</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>3 00 003</td><td>F, X, Y of descriptor to be added or defined</td><td></td><td></td></tr>
+<tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 015 (Code table definition)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 00 024</td><td>Code figure</td><td></td><td></td></tr>
+<tr><td>0 00 025</td><td>Code figure meaning</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">3 00 016 (Flag table definition)</p>
+<table>
+<thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 00 030</td><td>Descriptor defining sequence</td><td></td><td></td></tr>
+<tr><td>1 02 000</td><td>Delayed replication of 2 descriptors</td><td></td><td></td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td></td></tr>
+<tr><td>0 00 026</td><td>Bit number</td><td></td><td></td></tr>
+<tr><td>0 00 027</td><td>Bit number meaning</td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note 32: It could be argued that, as only additions are possible, only complete lines should be allowed; but it is conceivable that local areas will require changes as well as additions, so it is better and in any case clearer to provide descriptions for all the fields.</p>
+<p class="note">Note 33: It is better to use different Class 00 descriptors for the defining and defined elements, in the same way as different descriptors correspond to pressure considered as a coordinate and pressure measured at a given point; otherwise special rules would be needed to interpret such message. Entries 0 00 010 to 0 00 012 define F, X and Y for Tables B and D; entry 0 00 030 is a descriptor used as data and provides the F, X and Y values defining a sequence for Table D entries.</p>
+<p class="note">Note 63: These entries include the facility to update the Table A code figure and data description.</p>
+</div>
 </body>
 </html>

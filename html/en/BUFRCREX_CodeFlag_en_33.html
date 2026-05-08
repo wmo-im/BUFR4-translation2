@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -246,6 +247,9 @@
 <tr><td>All 24</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 49: If bit is set to 1 then statement is true.</p>
+</div>
 <p class="fxy-heading">0 33 031  Scan line quality flags for ATOVS</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -275,6 +279,12 @@
 <tr><td>All 24</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 24: Bits 1-4 represent time problem code. All bits off implies the scan time is as expected.</p>
+<p class="note">Note 25: Bits 11-17 represent Earth location problem code. All bits set to zero implies the Earth location was normal.</p>
+<p class="note">Note 27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
+<p class="note">Note 49: If bit is set to 1 then statement is true.</p>
+</div>
 <p class="fxy-heading">0 33 032  Channel quality flags for ATOVS</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -290,6 +300,9 @@
 <tr><td>All 24</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: All bits off implies a good calibration.</p>
+</div>
 <p class="fxy-heading">0 33 033  Field of view quality flags for ATOVS</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -301,6 +314,9 @@
 <tr><td>All 24</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: All bits off implies a good calibration.</p>
+</div>
 <p class="fxy-heading">0 33 035  Manual/automatic quality control</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -390,6 +406,9 @@
 <tr><td>3</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 85: This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2.</p>
+</div>
 <p class="fxy-heading">0 33 042  Type of limit represented by following value</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>

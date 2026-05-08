@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -245,6 +246,9 @@
 <tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 49: Si le bit est mis à 1, l’indication est valable.</p>
+</div>
 <p class="fxy-heading">0 33 031  Indicateurs de qualité de la ligne de balayage du sondeur ATOVS</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -274,6 +278,12 @@
 <tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</p>
+<p class="note">Note 25: Bits 11 a 17: INDICATIF DE DEFAUT DE LOCALISATION GEOGRAPHIQUE. Lorsque tous les bits sont mis a 0, cela signifie que la localisation geographique est normale.</p>
+<p class="note">Note 27: Bits 5 a 10: INDICATIF DE DEFAUT D&#x27;ETALONNAGE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;etalonnage est normal. Lorsque l&#x27;un ou l&#x27;autre des bits 5, 7 et 10 est mis a 1, cela signifie que des coefficients secondaires d&#x27;etalonnage ont ete utilises.</p>
+<p class="note">Note 49: Si le bit est mis à 1, l’indication est valable.</p>
+</div>
 <p class="fxy-heading">0 33 032  Indicateurs de qualité du canal du sondeur ATOVS</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -289,6 +299,9 @@
 <tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+</div>
 <p class="fxy-heading">0 33 033  Indicateurs de qualité du champ de vision du sondeur ATOVS</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -300,6 +313,9 @@
 <tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+</div>
 <p class="fxy-heading">0 33 035  Contrôle de qualité manuel/automatique</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -386,6 +402,9 @@
 <tr><td>3</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 85: Ce descripteur sera associé à des données relatives à la visibilité ou à la hauteur des nuages pour préciser si la valeur est bornée. Si la donnée transmise est la valeur vraie, le chiffre du code est 0. Toutefois, la mesure peut atteindre la limite de capacité de mesure de l’instrument. Si la valeur transmise est supérieure à la valeur vraie, le chiffre du code est 1; si la valeur transmise est inférieure à la valeur vraie, le chiffre du code est 2.</p>
+</div>
 <p class="fxy-heading">0 33 042  Type de limite représentée par la valeur qui suit</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>

@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -40,6 +41,9 @@
 <tr><td>4 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 90: Type d&#x27;instrument et unites initiales pour la mesure du vent (en m s-1 sauf indication contraire).</p>
+</div>
 <p class="fxy-heading">0 02 003  Type d&#x27;équipement de mesure utilisé</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -117,6 +121,9 @@
 <tr><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 7: (Voir la table de code commune C-2 dans la Partie C/c.)</p>
+</div>
 <p class="fxy-heading">0 02 012  Méthode de calcul des données de radiosondage (À établir)</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -124,6 +131,9 @@
 <tr><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 15: (A etablir)</p>
+</div>
 <p class="fxy-heading">0 02 013  Correction du rayonnement solaire et infrarouge</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -149,6 +159,9 @@
 <tr><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 11: (Voir la table de code commune C-7 dans la Partie C/c.)</p>
+</div>
 <p class="fxy-heading">0 02 015  Degré d&#x27;équipement de la radiosonde</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -195,6 +208,9 @@
 <tr><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 12: (Voir la table de code commune C-8 dans la Partie C/c.)</p>
+</div>
 <p class="fxy-heading">0 02 020  Classification des satellites</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -263,6 +279,9 @@
 <tr><td>8 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 22: L&#x27;expression &#x27;mesure ciel couvert&#x27; indique que les valeurs de sondage sont obtenues uniquement a partir de donnees HIRS stratospheriques, de donnees MSU et de donnees SSU. Le ciel etant couvert, on n&#x27;a pas utilise de donnees HIRS tropospheriques.</p>
+</div>
 <p class="fxy-heading">0 02 023  Méthode de calcul du vent à partir de données satellitaires</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -324,6 +343,9 @@
 <tr><td>25 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 23: HIRS* signifie: canaux HIRS 1 (669 cm–1) 2 (679 cm–1) 3 (690 cm–1) 4 (2358 cm–1)</p>
+</div>
 <p class="fxy-heading">0 02 030  Méthode de mesure du courant</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -366,6 +388,11 @@
 <tr><td>31</td><td>Valeur manquante</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 32: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</p>
+<p class="note">Note 33: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</p>
+<p class="note">Note 45: 1) Chiffres du code 1 à 9:  durée et heure de la mesure du courant (méthode vectorielle ou méthode Doppler d’établissement du profil du courant). 2) Chiffres du code 11 à 19:  période de la mesure du courant (méthode de la dérive). 3) H = heure d’observation.</p>
+</div>
 <p class="fxy-heading">0 02 032  Indicateur de numérisation</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -611,6 +638,9 @@
 <tr><td>20 bits mis à 1</td><td>Valeur manquante</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 21: En commençant par la position du premier bit (bit de plus fort poids), si le bit est mis à 1, le canal est utilisé. Si le bit est mis à zéro, le canal n’est pas utilisé.</p>
+</div>
 <p class="fxy-heading">0 02 051  Indicateur servant à préciser la méthode d&#x27;observation des températures extrêmes</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
@@ -635,6 +665,9 @@
 <tr><td>6 bits mis à 1</td><td>Valeur manquante</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 21: En commençant par la position du premier bit (bit de plus fort poids), si le bit est mis à 1, le canal est utilisé. Si le bit est mis à zéro, le canal n’est pas utilisé.</p>
+</div>
 <p class="fxy-heading">0 02 053  Caractéristiques de la température de luminance observée par satellite GOES-I/M</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>

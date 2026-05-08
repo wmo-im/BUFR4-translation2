@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -326,6 +327,11 @@
 <tr><td>511</td><td>Missing value</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 34: Code figures for generic precipitation (code figures 140-148) are arranged in order of increasing complexity. For example, a very simple station that can sense only the presence or absence of precipitation would use code figure 140 (precipitation). At the next level, an automatic station capable of sensing amount but not type would use code figure 141 or 142. An automatic station capable of sensing gross type (liquid, solid, freezing) and amount would use code figures 143-148. An automatic station capable of reporting actual types of precipitation (e.g. drizzle rain), but not the amount, would use the appropriate whole decile number (e.g. 150 for generic drizzle, 160 for generic rain).</p>
+<p class="note">Note 43: Generic terms for weather (e.g. fog, drizzle) are intended for use at automatic stations capable of determining types of weather but no other information. Generic terms are included in the code table using all capital letters.</p>
+<p class="note">Note 80: The middle portion of this code table (code figures 100-199) includes terms on several levels to cover simple and increasingly complex automatic stations.</p>
+</div>
 <p class="fxy-heading">0 20 004  Past weather (1)</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -456,6 +462,9 @@
 <tr><td>15</td><td>Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made</td><td></td><td>Note 40: Non-surface levels on the model’s native vertical coordinate are transposed to pressure coordinate. This makes the levels more readily intelligible for human interpretation and easier to use by generic display applications. The levels may correspond exactly to native model levels, or be interpolated between model levels to pressure levels chosen by the generating centre.</td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 2: &#x27;Clear&#x27; and &#x27;overcast&#x27; are coded by 0 and 8, respectively.</p>
+</div>
 <p class="fxy-heading">0 20 012  Cloud type</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -577,6 +586,9 @@
 <tr><td>All 30</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 57: Mixed precipitation is indicated by setting to one the bits of all the observed single types of precipitation.</p>
+</div>
 <p class="fxy-heading">0 20 022  Character of precipitation</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -686,6 +698,9 @@
 <tr><td>All 9</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 63: Phenomenon in this flag table means any phenomenon, including precipitation and obscuration.</p>
+</div>
 <p class="fxy-heading">0 20 028  Expected change in intensity</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
@@ -954,6 +969,11 @@
 <tr><td>31</td><td>Missing value</td><td></td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 50: In all instances the highest code figures applicable are to be reported.</p>
+<p class="note">Note 54: In the above code table, whenever reference is made to ice, it also includes solid precipitation other than snow.</p>
+<p class="note">Note 75: The definitions in code numbers 0 to 2 and 4 apply to representative bare ground and numbers 3, 5 to 9 and 10 to 19 to an open representative area.</p>
+</div>
 <p class="fxy-heading">0 20 063  Special phenomena</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>

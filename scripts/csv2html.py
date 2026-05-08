@@ -13,7 +13,9 @@ import argparse, csv, json, os, sys, glob
 from html import escape
 
 # Reuse config/notes/FXY logic from csv2docx
-from csv2docx import load_config, get_lang_config, load_notes, resolve_note, format_fxy, get_row_values
+from csv2docx import (load_config, get_lang_config, load_notes, resolve_note,
+                       format_fxy, get_row_values, load_global_notes,
+                       load_codeflag_fxy_notes)
 
 
 CSS = """
@@ -28,6 +30,7 @@ CSS = """
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 """
 
@@ -55,6 +58,17 @@ def html_row(vals, css_class=''):
     return f'<tr{cls}>{cells}</tr>\n'
 
 
+def html_notes(notes_list):
+    """Render notes as paragraphs."""
+    if not notes_list:
+        return ''
+    out = '<div class="notes">\n'
+    for note in notes_list:
+        out += f'<p class="note">{escape(note)}</p>\n'
+    out += '</div>\n'
+    return out
+
+
 # ── Table B ──────────────────────────────────────────────────────────
 
 def generate_table_b_html(lang, csv_path, config, notes_db):
@@ -71,21 +85,30 @@ def generate_table_b_html(lang, csv_path, config, notes_db):
     class_name = rows[0].get(f'ClassName_{lang}', '')
     title = lc.get('title', '').format(class_no=class_no, class_name=class_name)
 
-    fxy_fmt = lc.get('fxy_format', 'compact')
+    fxy_fmt = lc.get('fxy_format', 'spaced')
     out = html_header(title) + html_table_start(headers)
     for r in rows:
         vals = get_row_values(r, col_map, lang, notes_db, fxy_fmt)
         out += html_row(vals)
-    out += html_table_end() + html_footer()
+    out += html_table_end()
+
+    # Filtered notes for this class at end
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
+    global_notes = load_global_notes(lang, base_dir, 'table_b', class_or_category=class_no)
+    out += html_notes(global_notes)
+
+    out += html_footer()
     return out
 
 
-# ── Table D ──────────────────────────────────────────────────────────
+# ── Table D (sub-tables per FXY1) ────────────────────────────────────
 
 def generate_table_d_html(lang, csv_path, config, notes_db):
     lc = get_lang_config(config, lang, 'table_d')
-    headers = lc.get('headers', [])
-    col_map = lc.get('column_map', [])
+    sub_headers = lc.get('sub_headers', ['TABLE REFERENCES', 'ELEMENT NAME',
+                                          'ELEMENT DESCRIPTION', 'NOTE'])
+    sub_col_map = lc.get('sub_column_map', ['FXY2', 'ElementName_{lang}',
+                                             'ElementDescription_{lang}', 'Note_{lang}'])
 
     with open(csv_path, encoding='utf-8-sig') as f:
         rows = list(csv.DictReader(f))
@@ -96,19 +119,47 @@ def generate_table_d_html(lang, csv_path, config, notes_db):
     cat_name = rows[0].get(f'CategoryOfSequences_{lang}', '')
     title = lc.get('title', '').format(category=cat, category_name=cat_name)
 
-    fxy_fmt = lc.get('fxy_format', 'spaced')
-    out = html_header(title) + html_table_start(headers)
-    prev_fxy1 = None
+    # Group rows by FXY1
+    fxy1_groups = []
+    current_fxy1 = None
+    current_group = []
     for r in rows:
         fxy1 = r.get('FXY1', '')
-        vals = get_row_values(r, col_map, lang, notes_db, fxy_fmt)
-        is_new_seq = fxy1 != prev_fxy1
-        if not is_new_seq:
-            vals[0] = ''
-            vals[1] = ''
-        prev_fxy1 = fxy1
-        out += html_row(vals, 'seq-header' if is_new_seq else '')
-    out += html_table_end() + html_footer()
+        if fxy1 != current_fxy1:
+            if current_group:
+                fxy1_groups.append((current_fxy1, current_group))
+            current_fxy1 = fxy1
+            current_group = [r]
+        else:
+            current_group.append(r)
+    if current_group:
+        fxy1_groups.append((current_fxy1, current_group))
+
+    fxy_fmt = lc.get('fxy_format', 'spaced')
+    out = html_header(title)
+
+    for fxy1, group in fxy1_groups:
+        title_text = group[0].get(f'Title_{lang}', '')
+        heading = format_fxy(fxy1, fxy_fmt)
+        if title_text:
+            if title_text.startswith('('):
+                heading += f' {title_text}'
+            else:
+                heading += f' ({title_text})'
+
+        out += f'<p class="fxy-heading">{escape(heading)}</p>\n'
+        out += html_table_start(sub_headers)
+        for r in group:
+            vals = get_row_values(r, sub_col_map, lang, notes_db, fxy_fmt)
+            out += html_row(vals)
+        out += html_table_end()
+
+    # Filtered notes for this category at end
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
+    global_notes = load_global_notes(lang, base_dir, 'table_d', class_or_category=cat)
+    out += html_notes(global_notes)
+
+    out += html_footer()
     return out
 
 
@@ -129,10 +180,11 @@ def generate_codeflag_html(lang, csv_path, config, notes_db):
     cls = os.path.basename(csv_path).split('_')[-1].replace('.csv', '')
     title = lc.get('title', '').format(class_no=cls)
     out = html_header(title)
+    base_dir = os.path.dirname(os.path.dirname(csv_path))
 
     for fxy, group in fxy_groups.items():
         elem = group[0].get(f'ElementName_{lang}', '')
-        fxy_fmt = lc.get('fxy_format', 'compact')
+        fxy_fmt = lc.get('fxy_format', 'spaced')
         out += f'<p class="fxy-heading">{escape(format_fxy(fxy, fxy_fmt))}  {escape(elem)}</p>\n'
 
         has_sub1 = any(r.get(f'EntryName_sub1_{lang}', '').strip() for r in group)
@@ -154,6 +206,10 @@ def generate_codeflag_html(lang, csv_path, config, notes_db):
             out += html_row(vals)
         out += html_table_end()
 
+        # Per-FXY notes
+        fxy_notes = load_codeflag_fxy_notes(lang, base_dir, fxy)
+        out += html_notes(fxy_notes)
+
     out += html_footer()
     return out
 
@@ -168,7 +224,6 @@ def main():
     parser.add_argument('--outdir', default=None)
     args = parser.parse_args()
 
-    # Add scripts dir to path for csv2docx imports
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
     config = load_config()

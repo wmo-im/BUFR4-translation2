@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -35,5 +36,9 @@
 <tr><td>0 30 034</td><td>Number of azimuths</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 92: In order to distinguish unambiguously the cases of missing data and saturated pixels, n-bit image data should be encoded using a data width of n+1. Where such a descriptor is not already available in Class 30, operator descriptor 2 01 YYY should be used to modify the data width of the existing entry as required.</p>
+<p class="note">Note 115: Pixel data width can be changed with descriptor 2 01 YYY.</p>
+</div>
 </body>
 </html>

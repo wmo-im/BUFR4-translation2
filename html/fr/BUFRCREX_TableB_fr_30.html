@@ -15,6 +15,7 @@
        vertical-align: top; }
   tr.seq-header td { font-weight: bold; }
   .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
 </style>
 
 </head>
@@ -35,5 +36,9 @@
 <tr><td>0 30 034</td><td>Nombre d&#x27;azimuts</td><td>Numérique</td><td>0</td><td>0</td><td>12</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
 </tbody>
 </table>
+<div class="notes">
+<p class="note">Note 92: Afin qu’il soit possible de distinguer sans ambiguïté les cas de valeurs manquantes et de pixels saturés, les données d’image de n bits doivent être codées à l’aide d’un champs de données de n+1. Lorsqu’un tel descripteur n’est pas déjà disponible dans la classe 30, on utilise un descripteur d’opération 2 01 YYY pour modifier le champ de données de l’entrée existante, selon les besoins.</p>
+<p class="note">Note 115: Le champ de données des pixels peut être modifié au moyen du descripteur 2 01 YYY.</p>
+</div>
 </body>
 </html>
