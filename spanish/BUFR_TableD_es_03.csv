@@ -50,17 +50,17 @@ bufr4/3/03/023/3/204000,03,Secuencias meteorológicas comunes a los datos de los
 bufr4/3/03/024/1/303021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303024,Agua precipitable,,303021,"Capa, calidad",,,,Operational,PDF
 bufr4/3/03/024/2/013016,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303024,Agua precipitable,,013016,Agua precipitable,,,,Operational,PDF
 bufr4/3/03/024/3/204000,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303024,Agua precipitable,,204000,Añadir campo asociado,Anular,,,Operational,PDF
-bufr4/3/03/025/1/002025,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la lumicia,,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,,,,Operational,PDF
-bufr4/3/03/025/2/204007,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la lumicia,,204007,Añadir campo asociado,7 bits,,,Operational,PDF
-bufr4/3/03/025/3/031021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la lumicia,,031021,Significación del campo asociado,,,,Operational,PDF
-bufr4/3/03/025/4/012063,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la lumicia,,012063,Temperatura de la lumicia,,,,Operational,PDF
-bufr4/3/03/025/5/204000,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la lumicia,,204000,Añadir campo asociado,Anular,,,Operational,PDF
-bufr4/3/03/026/1/007004,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,007004,Presión,,,,Operational,PDF
-bufr4/3/03/026/2/008003,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,008003,Significación vertical (observaciones satelitales),,,,Operational,PDF
-bufr4/3/03/026/3/204007,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,204007,Añadir campo asociado,7 bits,,,Operational,PDF
-bufr4/3/03/026/4/031021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,031021,Significación del campo asociado,,,,Operational,PDF
-bufr4/3/03/026/5/012001,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,012001,Temperatura/temperatura del aire,,,,Operational,PDF
-bufr4/3/03/026/6/204000,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,Canal satelital y temperatura de la lumicia,,204000,Añadir campo asociado,Anular,,,Operational,PDF
+bufr4/3/03/025/1/002025,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la luminancia,,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,,,,Operational,PDF
+bufr4/3/03/025/2/204007,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la luminancia,,204007,Añadir campo asociado,7 bits,,,Operational,PDF
+bufr4/3/03/025/3/031021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la luminancia,,031021,Significación del campo asociado,,,,Operational,PDF
+bufr4/3/03/025/4/012063,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la luminancia,,012063,Temperatura de la luminancia,,,,Operational,PDF
+bufr4/3/03/025/5/204000,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303025,Canal satelital y temperatura de la luminancia,,204000,Añadir campo asociado,Anular,,,Operational,PDF
+bufr4/3/03/026/1/007004,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,007004,Presión,,,,Operational,PDF
+bufr4/3/03/026/2/008003,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,008003,Significación vertical (observaciones satelitales),,,,Operational,PDF
+bufr4/3/03/026/3/204007,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,204007,Añadir campo asociado,7 bits,,,Operational,PDF
+bufr4/3/03/026/4/031021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,031021,Significación del campo asociado,,,,Operational,PDF
+bufr4/3/03/026/5/012001,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,012001,Temperatura/temperatura del aire,,,,Operational,PDF
+bufr4/3/03/026/6/204000,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303026,,,204000,Añadir campo asociado,Anular,,,Operational,PDF
 bufr4/3/03/027/1/007004,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303027,,,007004,Presión,,,,Operational,PDF
 bufr4/3/03/027/2/204007,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303027,,,204007,Añadir campo asociado,7 bits,,,Operational,PDF
 bufr4/3/03/027/3/031021,03,Secuencias meteorológicas comunes a los datos de los sondeos verticales,303027,,,031021,Significación del campo asociado,,,,Operational,PDF

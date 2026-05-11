@@ -42,9 +42,9 @@ bufr4/3/01/025/2/004003,01,Secuencias correspondientes a la posición y a la ide
 bufr4/3/01/025/3/301012,01,Secuencias correspondientes a la posición y a la identificación,301025,"Latitud/longitud (precisión aproximada), día/hora",,301012,"Hora, minuto",,,,Operational,PDF
 bufr4/3/01/026/1/301021,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,301021,Latitud/longitud (gran precisión),,,,Operational,PDF
 bufr4/3/01/026/2/004003,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004003,Día,Período de tiempo,,,Operational,PDF
-bufr4/3/01/026/3/004003,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004003,Día,en días,,,Operational,PDF
+bufr4/3/01/026/3/004003,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004003,Día,,,,Operational,PDF
 bufr4/3/01/026/4/004004,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004004,Hora,Período de tiempo,,,Operational,PDF
-bufr4/3/01/026/5/004004,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004004,Hora,en horas,,,Operational,PDF
+bufr4/3/01/026/5/004004,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004004,Hora,,,,Operational,PDF
 bufr4/3/01/026/6/004005,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004005,Minuto,Período de tiempo,,,Operational,PDF
 bufr4/3/01/026/7/004005,01,Secuencias correspondientes a la posición y a la identificación,301026,"Latitud/longitud (gran precisión), período de tiempo (día, hora, minuto)",,004005,Minuto,en minutos,,,Operational,PDF
 bufr4/3/01/027/1/008007,01,Secuencias correspondientes a la posición y a la identificación,301027,Descripción de un elemento en 3-D o 2-D,,008007,Significación dimensional,"= 0 punto, = 1 línea, = 2 área, = 3 volumen",,,Operational,PDF
@@ -88,12 +88,12 @@ bufr4/3/01/034/3/301011,01,Secuencias correspondientes a la posición y a la ide
 bufr4/3/01/034/4/301012,01,Secuencias correspondientes a la posición y a la identificación,301034,Boya/plataforma — fija,,301012,"Hora, minuto",,,,Operational,PDF
 bufr4/3/01/034/5/301023,01,Secuencias correspondientes a la posición y a la identificación,301034,Boya/plataforma — fija,,301023,Latitud/longitud (precisión aproximada),,,,Operational,PDF
 bufr4/3/01/035/1/001005,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,001005,Identificador de la boya/plataforma,,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/2/001012,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,001012,Dirección del movimiento de la plataforma de observación,,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/3/001013,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,001013,Velocidad del movimiento de la plataforma de observación,,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/4/002001,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,002001,Tipo de estación,,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/5/301011,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301011,"Año, mes, día",,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/6/301012,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301012,"Hora, minuto",,(véase la nota 8),D12,Operational,PDF
-bufr4/3/01/035/7/301023,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301023,Latitud/longitud (precisión aproximada),,(véase la nota 8),D12,Operational,PDF
+bufr4/3/01/035/2/001012,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,001012,Dirección del movimiento de la plataforma de observación,,,,Operational,PDF
+bufr4/3/01/035/3/001013,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,001013,Velocidad del movimiento de la plataforma de observación,,,,Operational,PDF
+bufr4/3/01/035/4/002001,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,002001,Tipo de estación,,,,Operational,PDF
+bufr4/3/01/035/5/301011,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301011,"Año, mes, día",,,,Operational,PDF
+bufr4/3/01/035/6/301012,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301012,"Hora, minuto",,,,Operational,PDF
+bufr4/3/01/035/7/301023,01,Secuencias correspondientes a la posición y a la identificación,301035,Movimiento de la boya/plataforma),,301023,Latitud/longitud (precisión aproximada),,,,Operational,PDF
 bufr4/3/01/036/1/301003,01,Secuencias correspondientes a la posición y a la identificación,301036,Buque,,301003,Señal de llamada y movimiento del buque,,,,Operational,PDF
 bufr4/3/01/036/2/002001,01,Secuencias correspondientes a la posición y a la identificación,301036,Buque,,002001,Tipo de estación,,,,Operational,PDF
 bufr4/3/01/036/3/301011,01,Secuencias correspondientes a la posición y a la identificación,301036,Buque,,301011,"Año, mes, día",,,,Operational,PDF
@@ -252,7 +252,7 @@ bufr4/3/01/058/34/025036,01,Secuencias correspondientes a la posición y a la id
 bufr4/3/01/058/35/101000,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,Procesamiento con detección,101000,Repetición diferida de 1 descriptor,,,,Operational,PDF
 bufr4/3/01/058/36/031002,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,Procesamiento con detección,031002,Factor ampliado de repetición diferida del descriptor,Número de sensores considerados,,,Operational,PDF
 bufr4/3/01/058/37/301059,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,Procesamiento con detección,301059,Identificación de emplazamiento del sensor e instrumentos,,,,Operational,PDF
-bufr4/3/01/059/1/301021,01,Secuencias correspondientes a la posición y a la identificación,301059,Identificación del emplazamiento del sensor e instrumentos,Procesamiento con detección,301021,Latitud/longitud (gran precisión),Sensor,,,Operational,PDF
+bufr4/3/01/059/1/301021,01,Secuencias correspondientes a la posición y a la identificación,301059,Identificación del emplazamiento del sensor e instrumentos,,301021,Latitud/longitud (gran precisión),Sensor,,,Operational,PDF
 bufr4/3/01/059/2/007030,01,Secuencias correspondientes a la posición y a la identificación,301059,Identificación del emplazamiento del sensor e instrumentos,,007030,Altura del suelo de la estación sobre el nivel medio del mar,,,,Operational,PDF
 bufr4/3/01/059/3/007032,01,Secuencias correspondientes a la posición y a la identificación,301059,Identificación del emplazamiento del sensor e instrumentos,,007032,Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina),Sensor para relámpagos,,,Operational,PDF
 bufr4/3/01/062/1/101000,01,Secuencias correspondientes a la posición y a la identificación,301062,Posición(es) del radar,,101000,Repetición diferida de 1 descriptor,,,,Operational,PDF
@@ -291,7 +291,7 @@ bufr4/3/01/074/4/002146,01,Secuencias correspondientes a la posición y a la ide
 bufr4/3/01/075/1/301001,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,301001,Números de bloque y de la estación de la OMM,,,,Operational,PDF
 bufr4/3/01/075/2/001015,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,001015,Nombre de la estación o emplazamiento,,,,Operational,PDF
 bufr4/3/01/075/3/301024,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,301024,"Latitud/ longitud (precisión aproximada), altura de la estación",,,,Operational,PDF
-bufr4/3/01/075/4/008021,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,008021,Significación temporal,,,,Operational,PDF
+bufr4/3/01/075/4/008021,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,008021,Significación temporal,= 18 Hora de lanzamiento,,,Operational,PDF
 bufr4/3/01/075/5/301011,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,301011,"Año, mes, día",,,,Operational,PDF
 bufr4/3/01/075/6/301012,01,Secuencias correspondientes a la posición y a la identificación,301075,Identificación del sondeo,,301012,"Hora, minuto",,,,Operational,PDF
 bufr4/3/01/076/1/002011,01,Secuencias correspondientes a la posición y a la identificación,301076,Instrumento de sondeo para medir el ozono,,002011,Tipo de radiosonda,,,,Operational,PDF

@@ -6,8 +6,8 @@ bufr4/3/08/002/1/301034,08,Surface report sequences (sea),308002,(Buoy/platform 
 bufr4/3/08/002/2/302011,08,Surface report sequences (sea),308002,(Buoy/platform - fixed),,302011,Low altitude station,Basic surface report,,,Operational,na
 bufr4/3/08/002/3/022042,08,Surface report sequences (sea),308002,(Buoy/platform - fixed),,022042,Sea/water temperature,,,,Operational,na
 bufr4/3/08/003/1/301035,08,Surface report sequences (sea),308003,(Buoy/platform - moving),,301035,Buoy/platform - moving,"Identification, movement, type, date/time, position (coarse accuracy)",(see Note 1),D13,Operational,na
-bufr4/3/08/003/2/302011,08,Surface report sequences (sea),308003,(Buoy/platform - moving),,302011,Low altitude station,Basic surface report,(see Note 1),D13,Operational,na
-bufr4/3/08/003/3/022042,08,Surface report sequences (sea),308003,(Buoy/platform - moving),,022042,Sea/water temperature,,(see Note 1),D13,Operational,na
+bufr4/3/08/003/2/302011,08,Surface report sequences (sea),308003,(Buoy/platform - moving),,302011,Low altitude station,Basic surface report,,,Operational,na
+bufr4/3/08/003/3/022042,08,Surface report sequences (sea),308003,(Buoy/platform - moving),,022042,Sea/water temperature,,,,Operational,na
 bufr4/3/08/004/1/301036,08,Surface report sequences (sea),308004,(Ship),,301036,Ship,"Identification, movement, type, date/time, position (coarse accuracy)",,,Operational,na
 bufr4/3/08/004/2/302011,08,Surface report sequences (sea),308004,(Ship),,302011,Low altitude station,Basic surface report,,,Operational,na
 bufr4/3/08/004/3/022042,08,Surface report sequences (sea),308004,(Ship),,022042,Sea/water temperature,,,,Operational,na
