@@ -21,15 +21,15 @@ bufr4/0/08/019,08,Caractéristiques,008019,Indicateur d'identification du centre
 bufr4/0/08/020,08,Caractéristiques,008020,Nombre total de valeurs manquantes (pour le calcul du total ou de la moyenne),Numérique,0,0,16,Numérique,0,5,,,Operational,PDF
 bufr4/0/08/021,08,Caractéristiques,008021,Caractéristique temporelle,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/022,08,Caractéristiques,008022,Nombre total (dans le contexte d'une somme ou d'une moyenne),Numérique,0,0,16,Numérique,0,5,,,Operational,PDF
-bufr4/0/08/023,08,Caractéristiques,008023,Statistiques de premier ordre,Table de code,0,0,6,Table de code,0,2,(voir Note 3),70,Operational,PDF
-bufr4/0/08/024,08,Caractéristiques,008024,Statistiques sur les différences,Table de code,0,0,6,Table de code,0,2,(voir Note 4),61,Operational,PDF
-bufr4/0/08/025,08,Caractéristiques,008025,Décalage dans le temps,Table de code,0,0,4,Table de code,0,2,(voir Note 5),49,Operational,PDF
+bufr4/0/08/023,08,Caractéristiques,008023,Statistiques de premier ordre,Table de code,0,0,6,Table de code,0,2,(voir Note 3),B70,Operational,PDF
+bufr4/0/08/024,08,Caractéristiques,008024,Statistiques sur les différences,Table de code,0,0,6,Table de code,0,2,(voir Note 4),B61,Operational,PDF
+bufr4/0/08/025,08,Caractéristiques,008025,Décalage dans le temps,Table de code,0,0,4,Table de code,0,2,(voir Note 5),B49,Operational,PDF
 bufr4/0/08/026,08,Caractéristiques,008026,Caractéristique matricielle,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/029,08,Caractéristiques,008029,Type de surface,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
 bufr4/0/08/030,08,Caractéristiques,008030,"Manuel des codes (Volume I.1, Section C), Table de code d'où sont tirées les données",Numérique,0,0,13,Numérique,0,4,,,Operational,PDF
 bufr4/0/08/031,08,Caractéristiques,008031,Catégorie de données de la Table A du code CREX,Numérique,0,0,8,Numérique,0,3,,,Operational,PDF
 bufr4/0/08/032,08,Caractéristiques,008032,Mode de fonctionnement,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
-bufr4/0/08/033,08,Caractéristiques,008033,Méthode de dérivation du pourcentage de confiance,Table de code,0,0,7,Table de code,0,3,(voir Note 6),50,Operational,PDF
+bufr4/0/08/033,08,Caractéristiques,008033,Méthode de dérivation du pourcentage de confiance,Table de code,0,0,7,Table de code,0,3,(voir Note 6),B50,Operational,PDF
 bufr4/0/08/034,08,Caractéristiques,008034,Indicateur de la mesure de la température ou de la salinité,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/035,08,Caractéristiques,008035,Type d'exercice de contrôle,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/08/036,08,Caractéristiques,008036,Type de centre ou de station effectuant le contrôle,Table de code,0,0,3,Table de code,0,2,,,Operational,PDF
@@ -39,7 +39,7 @@ bufr4/0/08/039,08,Caractéristiques,008039,Caractéristique temporelle (prévisi
 bufr4/0/08/040,08,Caractéristiques,008040,Caractéristique du niveau de vol,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/041,08,Caractéristiques,008041,Caractéristique des données,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/042,08,Caractéristiques,008042,Caractéristique étendue correspondant à des données de sondage vertical,Table d'indicateurs,0,0,18,Table d'indicateurs,0,6,,,Operational,PDF
-bufr4/0/08/043,08,Caractéristiques,008043,Type de constituants chimiques ou physiques de l'atmosphère,Table de code,0,0,8,Table de code,0,3,(voir Note 7),169,Operational,PDF
+bufr4/0/08/043,08,Caractéristiques,008043,Type de constituants chimiques ou physiques de l'atmosphère,Table de code,0,0,8,Table de code,0,3,(voir Note 7),B169,Operational,PDF
 bufr4/0/08/044,08,Caractéristiques,008044,Numéro d'enregistrement CAS,CCITT IA5,0,0,88,Caractère,0,11,,,Operational,PDF
 bufr4/0/08/046,08,Caractéristiques,008046,Type de constituants chimiques ou physiques de l'atmosphère,Table de code commune C-14,0,0,16,Table de code commune C-14,0,5,,,Operational,PDF
 bufr4/0/08/049,08,Caractéristiques,008049,Nombre d'observations,Numérique,0,0,8,Numérique,0,3,,,Operational,PDF
@@ -66,7 +66,7 @@ bufr4/0/08/085,08,Caractéristiques,008085,Identification du faisceau,Table de c
 bufr4/0/08/086,08,Caractéristiques,008086,Caractéristique verticale pour la prévision numérique du temps,Table d'indicateurs,0,0,12,Table d'indicateurs,0,4,,,Operational,PDF
 bufr4/0/08/087,08,Caractéristiques,008087,Position des coins déterminant la colonne observée,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/08/088,08,Caractéristiques,008088,Caractéristiques cartographiques,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
-bufr4/0/08/090,08,Caractéristiques,008090,Échelle décimale des mantisses suivantes,Numérique,0,-127,8,Numérique,0,3,(voir Note 8),51,Operational,PDF
+bufr4/0/08/090,08,Caractéristiques,008090,Échelle décimale des mantisses suivantes,Numérique,0,-127,8,Numérique,0,3,(voir Note 8),B51,Operational,PDF
 bufr4/0/08/091,08,Caractéristiques,008091,Caractéristique des coordonnées,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
 bufr4/0/08/092,08,Caractéristiques,008092,Expression de l'incertitude de mesure,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/08/093,08,Caractéristiques,008093,Caractéristique de l'incertitude de mesure,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF

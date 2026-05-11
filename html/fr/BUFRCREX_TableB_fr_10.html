@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 10 : Position d&#x27;éléments autres que des coordonnées (verticale)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 10 : Position d&#x27;éléments autres que des coordonnées (verticale)</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>UNITÉ BUFR</th><th>ÉCHELLE</th><th>VAL. RÉF.</th><th>BITS</th><th>UNITÉ CREX</th><th>ÉCHELLE</th><th>CAR.</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 10 001</td><td>Hauteur de la surface terrestre</td><td>m</td><td>0</td><td>-400</td><td>15</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 002</td><td>Hauteur</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 003</td><td>Géopotentiel</td><td>m2 s-2</td><td>-1</td><td>-400</td><td>17</td><td>m2 s-2</td><td>-1</td><td>6</td><td></td></tr>
+<tr><td>0 10 004</td><td>Pression</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 007</td><td>Hauteur</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 10 008</td><td>Géopotentiel</td><td>m2 s-2</td><td>0</td><td>-10000</td><td>20</td><td>m2 s-2</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 10 009</td><td>Hauteur géopotentielle</td><td>gpm</td><td>0</td><td>-1000</td><td>17</td><td>gpm</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 010</td><td>Pression minimale réduite au niveau moyen des mers</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 011</td><td>Pression maximale réduite au niveau moyen des mers</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 031</td><td>En direction du pôle Nord, distance à partir du centre de la Terre</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>10</td><td>Note B93: Des axes xyz situés à gauche ont été choisis pour le descripteur 0 10 031. | Note B150: La valeur du descripteur 0 10 031 a été sélectionnée de façon à convenir pour des satellites à orbite polaire plus ou moins synchrone avec le Soleil. Les orbites géostationnaires nécessiteraient des champs de données plus grands en ce qui concerne la distance et légèrement moins grands en ce qui concerne la vitesse.</td></tr>
+<tr><td>0 10 032</td><td>Distance du satellite au centre de la Terre</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>0 10 033</td><td>Altitude (de la plate-forme par rapport à l&#x27;ellipsoïde)</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>0 10 034</td><td>Rayon de la Terre</td><td>m</td><td>1</td><td>0</td><td>27</td><td>m</td><td>2</td><td>9</td><td></td></tr>
+<tr><td>0 10 035</td><td>Rayon de la courbure locale de la Terre</td><td>m</td><td>1</td><td>62000000</td><td>22</td><td>m</td><td>1</td><td>8</td><td></td></tr>
+<tr><td>0 10 036</td><td>Ondulation du géoïde</td><td>m</td><td>2</td><td>-15000</td><td>15</td><td>m</td><td>2</td><td>6</td><td>Note B128: L’ondulation du géoïde correspond à la différence entre l’ellipsoïde de référence (WGS-84) et la hauteur au-dessus du géoïde (EGM-96) au lieu géographique de l’observation, les deux valeurs étant données par rapport au centre de gravité de la Terre.</td></tr>
+<tr><td>0 10 038</td><td>Hauteur maximale de la pontée au-dessus de la ligne de charge d&#x27;été</td><td>m</td><td>0</td><td>0</td><td>6</td><td>m</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 10 039</td><td>Écart entre le niveau de référence (ligne de charge d&#x27;été maximale) et le niveau réel de la mer</td><td>m</td><td>0</td><td>-32</td><td>6</td><td>m</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 10 040</td><td>Données extraites concernant le nombre de couches</td><td>Numérique</td><td>0</td><td>0</td><td>10</td><td>Numérique</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 10 050</td><td>Écart type de l&#x27;altitude</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 10 051</td><td>Pression ramenée au niveau moyen de la mer</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 052</td><td>Calage de l&#x27;altimètre (QNH)</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 10 053</td><td>Altitude GNSS (Système mondial de navigation par satellite)</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 060</td><td>Variation de pression</td><td>Pa</td><td>-1</td><td>-1024</td><td>11</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 10 061</td><td>Variation de pression en 3 heures</td><td>Pa</td><td>-1</td><td>-500</td><td>10</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 10 062</td><td>Variation de pression en 24 heures</td><td>Pa</td><td>-1</td><td>-1000</td><td>11</td><td>Pa</td><td>-1</td><td>4</td><td></td></tr>
+<tr><td>0 10 063</td><td>Caractéristique de la tendance barométrique</td><td>Table de code</td><td>0</td><td>0</td><td>4</td><td>Table de code</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 10 064</td><td>Niveau de croisière-SIGMET</td><td>Table de code</td><td>0</td><td>0</td><td>3</td><td>Table de code</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 10 070</td><td>Altitude de l&#x27;aéronef indiquée</td><td>m</td><td>0</td><td>-400</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 071</td><td>Résolution verticale</td><td>m</td><td>0</td><td>0</td><td>14</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 079</td><td>Angle de décalage du satellite par rapport au nadir, calculé à partir de l&#x27;assiette de la plate-forme</td><td>deg</td><td>4</td><td>0</td><td>16</td><td>°</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>0 10 080</td><td>Distance zénithale de la visée</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>°</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 10 081</td><td>Altitude du centre de gravité au-dessus de l&#x27;ellipsoïde de référence</td><td>m</td><td>3</td><td>0</td><td>31</td><td>m</td><td>3</td><td>10</td><td></td></tr>
+<tr><td>0 10 082</td><td>Taux de variation d&#x27;altitude instantané</td><td>m/s</td><td>3</td><td>-65536</td><td>17</td><td>m/s</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 10 083</td><td>Carré de l&#x27;angle de décalage du satellite par rapport au nadir, calculé à partir de l&#x27;assiette de la plate-forme</td><td>deg2</td><td>2</td><td>0</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 10 084</td><td>Carré de l&#x27;angle de décalage du satellite par rapport au nadir, calculé à partir de la forme des ondes</td><td>deg2</td><td>2</td><td>0</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 10 085</td><td>Hauteur moyenne de la surface de la mer</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 10 086</td><td>Hauteur du géoïde</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 10 087</td><td>Profondeur de l&#x27;océan ou altitude des terres émergées</td><td>m</td><td>1</td><td>-131072</td><td>18</td><td>m</td><td>1</td><td>6</td><td></td></tr>
+<tr><td>0 10 088</td><td>Hauteur géocentrique totale de marée océanique (solution 1)</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 089</td><td>Hauteur géocentrique totale de marée océanique (solution 2)</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 090</td><td>Hauteur de marée pour une période prolongée</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 091</td><td>Hauteur de marée incluant l&#x27;effet de charge</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 092</td><td>Hauteur de marée terrestre</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 093</td><td>Hauteur géocentrique de marée polaire</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 095</td><td>Hauteur utilisée pour l&#x27;atmosphère</td><td>m</td><td>0</td><td>0</td><td>16</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 10 096</td><td>Topographie dynamique moyenne</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 10 097</td><td>Hauteur moyenne de la surface de la mer fournie par l&#x27;altimètre seulement</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 10 098</td><td>Hauteur de la marée de charge pour le calcul de la marée géocentrique - solution 1</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 10 099</td><td>Hauteur de la marée de charge pour le calcul de la marée géocentrique - solution 2</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 10 100</td><td>Hauteur de marée pour une période prolongée hors d&#x27;équilibre</td><td>m</td><td>4</td><td>-2000</td><td>12</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 10 101</td><td>Carré de l&#x27;angle de décalage du satellite par rapport au nadir, calculé à partir de la forme des ondes</td><td>deg2</td><td>2</td><td>-32768</td><td>16</td><td>deg2</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 10 102</td><td>Anomalie de hauteur de la surface de la mer</td><td>m</td><td>3</td><td>-32768</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 10 103</td><td>Précision de la topographie dynamique moyenne</td><td>m</td><td>3</td><td>-131072</td><td>18</td><td>m</td><td>3</td><td>6</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note B165: Des données correspondant à des éléments verticaux et à la pression sont utilisées pour définir des valeurs de ces éléments indépendantes de l’élément ou de la variable déterminant la coordonnée verticale.</p>
+</div>
+</body>
+</html>

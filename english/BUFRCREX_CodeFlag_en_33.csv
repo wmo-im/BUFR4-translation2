@@ -168,7 +168,7 @@ bufr4/0/33/032/7,033032,Channel quality flags for ATOVS,7,Quality for this scan 
 bufr4/0/33/032/8-23,033032,Channel quality flags for ATOVS,8-23,Reserved (bits set to zero),,,,,Operational,na
 bufr4/0/33/032/All-24,033032,Channel quality flags for ATOVS,All 24,Missing value,,,,,Operational,na
 bufr4/0/33/033/1,033033,Field of view quality flags for ATOVS,1,Set if secondary calibration used,,,,,Operational,na
-bufr4/0/33/033/2-21,033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,(see Note 2),26,Operational,na
+bufr4/0/33/033/2-21,033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,(see Note 2),CF26,Operational,na
 bufr4/0/33/033/22,033033,Field of view quality flags for ATOVS,22,Set if all the channels are missing,,,,,Operational,na
 bufr4/0/33/033/23,033033,Field of view quality flags for ATOVS,23,Suspect,,,,,Operational,na
 bufr4/0/33/033/All-24,033033,Field of view quality flags for ATOVS,All 24,Missing value,,,,,Operational,na
@@ -404,26 +404,26 @@ bufr4/0/33/072/17-30,033072,Ozone error,17-30,Reserved,,,,,Operational,na
 bufr4/0/33/072/31,033072,Ozone error,31,Missing value,,,,,Operational,na
 bufr4/0/33/075/1,033075,Scan-level quality flags,1,"Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,,Operational,na
 bufr4/0/33/075/2,033075,Scan-level quality flags,2,"Recorded time is not in sequence (i.e., the scan start time is out of sequence)",,,,,Operational,na
-bufr4/0/33/075/3,033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),72,Operational,na
-bufr4/0/33/075/4,033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),83,Operational,na
+bufr4/0/33/075/3,033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),CF72,Operational,na
+bufr4/0/33/075/4,033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),CF83,Operational,na
 bufr4/0/33/075/5,033075,Scan-level quality flags,5,At least one of the monitored instrument temperatures has drifted more than a specified tolerance value,,,,,Operational,na
 bufr4/0/33/075/6-12,033075,Scan-level quality flags,6-12,Reserved,,,,,Operational,na
 bufr4/0/33/075/All-13,033075,Scan-level quality flags,All 13,Missing value,,,,,Operational,na
-bufr4/0/33/076/1,033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),71,Operational,na
-bufr4/0/33/076/2,033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),71,Operational,na
+bufr4/0/33/076/1,033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),CF71,Operational,na
+bufr4/0/33/076/2,033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),CF71,Operational,na
 bufr4/0/33/076/3-8,033076,Calibration quality flags,3-8,Reserved,,,,,Operational,na
 bufr4/0/33/076/All-9,033076,Calibration quality flags,All 9,Missing value,,,,,Operational,na
 bufr4/0/33/077/1,033077,Field-of-view quality flags,1,Degraded SDR quality,,,,,Operational,na
-bufr4/0/33/077/2,033077,Field-of-view quality flags,2,Invalid SDR quality,,,(see Note 1),68,Operational,na
+bufr4/0/33/077/2,033077,Field-of-view quality flags,2,Invalid SDR quality,,,(see Note 1),CF68,Operational,na
 bufr4/0/33/077/3,033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,,,Operational,na
 bufr4/0/33/077/4,033077,Field-of-view quality flags,4,Degraded radiometric calibration,,,,,Operational,na
-bufr4/0/33/077/5,033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),67,Operational,na
+bufr4/0/33/077/5,033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),CF67,Operational,na
 bufr4/0/33/077/6,033077,Field-of-view quality flags,6,Degraded spectral calibration,,,,,Operational,na
-bufr4/0/33/077/7,033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),73,Operational,na
-bufr4/0/33/077/8,033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),70,Operational,na
-bufr4/0/33/077/9,033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),69,Operational,na
-bufr4/0/33/077/10,033077,Field-of-view quality flags,10,Invalid RDR data,,,(see Note 6),87,Operational,na
-bufr4/0/33/077/11,033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),86,Operational,na
+bufr4/0/33/077/7,033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),CF73,Operational,na
+bufr4/0/33/077/8,033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),CF70,Operational,na
+bufr4/0/33/077/9,033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),CF69,Operational,na
+bufr4/0/33/077/10,033077,Field-of-view quality flags,10,Invalid RDR data,,,(see Note 6),CF87,Operational,na
+bufr4/0/33/077/11,033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),CF86,Operational,na
 bufr4/0/33/077/12,033077,Field-of-view quality flags,12,Bit trim failed,,,,,Operational,na
 bufr4/0/33/077/13-18,033077,Field-of-view quality flags,13-18,Reserved,,,,,Operational,na
 bufr4/0/33/077/All-19,033077,Field-of-view quality flags,All 19,Missing value,,,,,Operational,na

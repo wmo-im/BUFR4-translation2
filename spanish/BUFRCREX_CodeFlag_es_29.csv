@@ -3,7 +3,7 @@ bufr4/0/29/001/0,029001,Tipo de proyección,0,Proyección gnomónica,,,,,Operati
 bufr4/0/29/001/1,029001,Tipo de proyección,1,Proyección estereográfica polar,,,,,Operational,PDF
 bufr4/0/29/001/2,029001,Tipo de proyección,2,Proyección cónica de Lambert,,,,,Operational,PDF
 bufr4/0/29/001/3,029001,Tipo de proyección,3,Proyección de Mercator,,,,,Operational,PDF
-bufr4/0/29/001/4,029001,Tipo de proyección,4,Cono de barrido (radar),,,Nota,65,Operational,PDF
+bufr4/0/29/001/4,029001,Tipo de proyección,4,Cono de barrido (radar),,,Nota,CF65,Operational,PDF
 bufr4/0/29/001/5,029001,Tipo de proyección,5,Reservada,,,,,Operational,PDF
 bufr4/0/29/001/6,029001,Tipo de proyección,6,Sin proyección,,,,,Operational,PDF
 bufr4/0/29/001/7,029001,Tipo de proyección,7,Valor faltante,,,,,Operational,PDF

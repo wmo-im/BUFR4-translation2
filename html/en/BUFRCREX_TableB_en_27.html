@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 27: Non-coordinate location (horizontal - 1)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 27: Non-coordinate location (horizontal - 1)</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 27 001</td><td>Latitude (high accuracy)</td><td>deg</td><td>5</td><td>-9000000</td><td>25</td><td>deg</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>0 27 002</td><td>Latitude (coarse accuracy)</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 27 003</td><td>Alternate latitude (coarse accuracy)</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>4</td><td>Note B132: The alternate latitude may be used when the computation of the position yields multiple solutions and there is no a priori way to distinguish between them.</td></tr>
+<tr><td>0 27 004</td><td>Alternate latitude (high accuracy)</td><td>deg</td><td>5</td><td>-9000000</td><td>25</td><td>deg</td><td>5</td><td>7</td><td>Note B132: The alternate latitude may be used when the computation of the position yields multiple solutions and there is no a priori way to distinguish between them.</td></tr>
+<tr><td>0 27 010</td><td>Footprint axis 1</td><td>m</td><td>-1</td><td>0</td><td>14</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 27 020</td><td>Satellite location counter</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td>Note B143: The satellite location counter is calculated as:counter = superswath No. x 1000 + box No. x 10 + minibox No.</td></tr>
+<tr><td>0 27 021</td><td>Satellite sublocation dimension</td><td>Numeric</td><td>0</td><td>0</td><td>16</td><td>Numeric</td><td>0</td><td>5</td><td>Note B144: The satellite sublocation dimension is calculated as:dimension = minibox dimension + box dimension where: minibox dimension = lines x 1000 + spots x 100 box dimension = lines x 10 + spots</td></tr>
+<tr><td>0 27 031</td><td>In direction of 0 degrees longitude, distance from the Earth&#x27;s centre</td><td>m</td><td>2</td><td>-1073741824</td><td>31</td><td>m</td><td>2</td><td>10</td><td>Note B96: Left-handed x, y and z axes have been chosen for descriptor 0 27 031. | Note B151: The value for descriptor 0 27 031 has been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed.</td></tr>
+<tr><td>0 27 079</td><td>Horizontal width of sampled volume</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 27 080</td><td>Viewing azimuth angle</td><td>degree true</td><td>2</td><td>0</td><td>16</td><td>degree true</td><td>0</td><td>5</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

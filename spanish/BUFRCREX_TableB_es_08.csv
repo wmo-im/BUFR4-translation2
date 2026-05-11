@@ -21,15 +21,15 @@ bufr4/0/08/019,08,Calificadores de significación,008019,Calificador para el ide
 bufr4/0/08/020,08,Calificadores de significación,008020,Número total de períodos sin valores (para el cálculo del total o de la media),Numérica,0,0,16,Numérica,0,5,,,Operational,PDF
 bufr4/0/08/021,08,Calificadores de significación,008021,Significación temporal,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/022,08,Calificadores de significación,008022,Número total (en relación a la acumulación o promedios),Numérica,0,0,16,Numérica,0,5,,,Operational,PDF
-bufr4/0/08/023,08,Calificadores de significación,008023,Estadísticas de primer orden,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,(véase la nota 3),70,Operational,PDF
-bufr4/0/08/024,08,Calificadores de significación,008024,Estadísticas de diferencia,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,(véase la nota 4),61,Operational,PDF
-bufr4/0/08/025,08,Calificadores de significación,008025,Calificador de diferencia de tiempo,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,(véase la nota 5),49,Operational,PDF
+bufr4/0/08/023,08,Calificadores de significación,008023,Estadísticas de primer orden,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,(véase la nota 3),B70,Operational,PDF
+bufr4/0/08/024,08,Calificadores de significación,008024,Estadísticas de diferencia,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,(véase la nota 4),B61,Operational,PDF
+bufr4/0/08/025,08,Calificadores de significación,008025,Calificador de diferencia de tiempo,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,(véase la nota 5),B49,Operational,PDF
 bufr4/0/08/026,08,Calificadores de significación,008026,Significación matricial,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/029,08,Calificadores de significación,008029,Tipo de superficie,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational,PDF
 bufr4/0/08/030,08,Calificadores de significación,008030,"Manual de claves (vol. I.1, sec. C) - Tabla de cifrado de la cual se obtienen los datos",Numérica,0,0,13,Numérica,0,4,,,Operational,PDF
 bufr4/0/08/031,08,Calificadores de significación,008031,Categoría de datos de la Tabla A de CREX,Numérica,0,0,8,Numérica,0,3,,,Operational,PDF
 bufr4/0/08/032,08,Calificadores de significación,008032,Estado de funcionamiento,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
-bufr4/0/08/033,08,Calificadores de significación,008033,Método de derivación del porcentaje de confianza,Tabla de cifrado,0,0,7,Tabla de cifrado,0,3,(véase la nota 6),50,Operational,PDF
+bufr4/0/08/033,08,Calificadores de significación,008033,Método de derivación del porcentaje de confianza,Tabla de cifrado,0,0,7,Tabla de cifrado,0,3,(véase la nota 6),B50,Operational,PDF
 bufr4/0/08/034,08,Calificadores de significación,008034,Calificador de medición de la temperatura/salinidad,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/035,08,Calificadores de significación,008035,Tipo de ejercicio de control,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/08/036,08,Calificadores de significación,008036,Tipo de centro o estación que realiza el control,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational,PDF
@@ -39,7 +39,7 @@ bufr4/0/08/039,08,Calificadores de significación,008039,Significación temporal
 bufr4/0/08/040,08,Calificadores de significación,008040,Significación del nivel de vuelo,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/041,08,Calificadores de significación,008041,Significación de datos,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/042,08,Calificadores de significación,008042,Significación del sondeo vertical ampliado,Tabla de banderines,0,0,18,Tabla de banderines,0,6,,,Operational,PDF
-bufr4/0/08/043,08,Calificadores de significación,008043,Tipo de componente atmosférico químico o físico,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,(véase la nota 7),169,Operational,PDF
+bufr4/0/08/043,08,Calificadores de significación,008043,Tipo de componente atmosférico químico o físico,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,(véase la nota 7),B169,Operational,PDF
 bufr4/0/08/044,08,Calificadores de significación,008044,Número de registro del CAS,CCITT IA5,0,0,88,Caracteres,0,11,,,Operational,PDF
 bufr4/0/08/046,08,Calificadores de significación,008046,Tipo de componente químico o físico atmosférico,Tabla de cifrado común C-14,0,0,16,Tabla de cifrado común C-14,0,5,,,Operational,PDF
 bufr4/0/08/049,08,Calificadores de significación,008049,Número de observaciones,Numérica,0,0,8,Numérica,0,3,,,Operational,PDF
@@ -66,7 +66,7 @@ bufr4/0/08/085,08,Calificadores de significación,008085,Identificador del haz,T
 bufr4/0/08/086,08,Calificadores de significación,008086,Significación vertical para predicción numérica del tiempo,Tabla de banderines,0,0,12,Tabla de banderines,0,4,,,Operational,PDF
 bufr4/0/08/087,08,Calificadores de significación,008087,Posición esquinera de la observación,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational,PDF
 bufr4/0/08/088,08,Calificadores de significación,008088,Significación del mapa,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational,PDF
-bufr4/0/08/090,08,Calificadores de significación,008090,Escala decimal de los significandos siguientes,Numérica,0,-127,8,Numérica,0,3,(véase la nota 8),51,Operational,PDF
+bufr4/0/08/090,08,Calificadores de significación,008090,Escala decimal de los significandos siguientes,Numérica,0,-127,8,Numérica,0,3,(véase la nota 8),B51,Operational,PDF
 bufr4/0/08/091,08,Calificadores de significación,008091,Significación de las coordenadas,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational,PDF
 bufr4/0/08/092,08,Calificadores de significación,008092,Expresión de la incertidumbre en la medición,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF
 bufr4/0/08/093,08,Calificadores de significación,008093,Significación de la incertidumbre en la medición,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational,PDF

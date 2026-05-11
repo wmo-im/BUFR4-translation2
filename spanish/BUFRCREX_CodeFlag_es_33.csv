@@ -167,7 +167,7 @@ bufr4/0/33/032/7,033032,Banderines de calidad del canal para ATOVS,7,La calidad 
 bufr4/0/33/032/8-23,033032,Banderines de calidad del canal para ATOVS,8-23,Reservados (bits fijos en cero),,,,,Operational,PDF
 bufr4/0/33/032/All-24,033032,Banderines de calidad del canal para ATOVS,Los 24,Valor faltante,,,,,Operational,PDF
 bufr4/0/33/033/1,033033,Banderines de calidad del campo de visión para ATOVS,1,Se indica 1 si se realizó una calibración secundaria,,,,,Operational,PDF
-bufr4/0/33/033/2-21,033033,Banderines de calidad del campo de visión para ATOVS,2-21,El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración,,,Nota 2,26,Operational,PDF
+bufr4/0/33/033/2-21,033033,Banderines de calidad del campo de visión para ATOVS,2-21,El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración,,,Nota 2,CF26,Operational,PDF
 bufr4/0/33/033/22,033033,Banderines de calidad del campo de visión para ATOVS,22,Se indica 1 si faltan todos los canales,,,,,Operational,PDF
 bufr4/0/33/033/23,033033,Banderines de calidad del campo de visión para ATOVS,23,Sospechoso,,,,,Operational,PDF
 bufr4/0/33/033/All-24,033033,Banderines de calidad del campo de visión para ATOVS,Los 24,Valor faltante,,,,,Operational,PDF
@@ -394,26 +394,26 @@ bufr4/0/33/072/17-30,033072,Error en ozono,17-30,Reservadas,,,,,Operational,PDF
 bufr4/0/33/072/31,033072,Error en ozono,31,Valor faltante,,,,,Operational,PDF
 bufr4/0/33/075/1,033075,Banderines de calidad del nivel de exploración,1,"Se ha detectado la falta de datos en el registro de datos en bruto (es decir, la falta de exploración (es) antes de la exploración actual)",,,,,Operational,PDF
 bufr4/0/33/075/2,033075,Banderines de calidad del nivel de exploración,2,"El tiempo registrado no sigue la secuencia (es decir, la hora de inicio de la exploración queda fuera de la secuencia)",,,,,Operational,PDF
-bufr4/0/33/075/3,033075,Banderines de calidad del nivel de exploración,3,No puede actualizarse el cálculo lamda (véase la Nota 1),,,(véase la Nota 1),72,Operational,PDF
-bufr4/0/33/075/4,033075,Banderines de calidad del nivel de exploración,4,"Las temperaturas medidas de todo componente de un instrumento (por ejemplo, un divisor de haz, un espejo de exploración, un deflector de exploración, etc.) quedan fuera de los intervalos permitidos (véase la Nota 2)",,,(véase la Nota 2),83,Operational,PDF
+bufr4/0/33/075/3,033075,Banderines de calidad del nivel de exploración,3,No puede actualizarse el cálculo lamda (véase la Nota 1),,,(véase la Nota 1),CF72,Operational,PDF
+bufr4/0/33/075/4,033075,Banderines de calidad del nivel de exploración,4,"Las temperaturas medidas de todo componente de un instrumento (por ejemplo, un divisor de haz, un espejo de exploración, un deflector de exploración, etc.) quedan fuera de los intervalos permitidos (véase la Nota 2)",,,(véase la Nota 2),CF83,Operational,PDF
 bufr4/0/33/075/5,033075,Banderines de calidad del nivel de exploración,5,Al menos una de las temperaturas controladas de los instrumentos ha variado más allá de un valor específico de tolerancia,,,,,Operational,PDF
 bufr4/0/33/075/6-12,033075,Banderines de calidad del nivel de exploración,6-12,Reservados,,,,,Operational,PDF
 bufr4/0/33/075/All-13,033075,Banderines de calidad del nivel de exploración,Los 13,Valor faltante,,,,,Operational,PDF
-bufr4/0/33/076/1,033076,Banderines de calidad de la calibración,1,Interferencia lunar en la primera visión del espacio lejano,,,(véase la Nota),71,Operational,PDF
-bufr4/0/33/076/2,033076,Banderines de calidad de la calibración,2,Interferencia lunar en la segunda visión del espacio lejano,,,(véase la Nota),71,Operational,PDF
+bufr4/0/33/076/1,033076,Banderines de calidad de la calibración,1,Interferencia lunar en la primera visión del espacio lejano,,,(véase la Nota),CF71,Operational,PDF
+bufr4/0/33/076/2,033076,Banderines de calidad de la calibración,2,Interferencia lunar en la segunda visión del espacio lejano,,,(véase la Nota),CF71,Operational,PDF
 bufr4/0/33/076/3-8,033076,Banderines de calidad de la calibración,3-8,Reservados,,,,,Operational,PDF
 bufr4/0/33/076/All-9,033076,Banderines de calidad de la calibración,Los 9,Valor faltante,,,,,Operational,PDF
 bufr4/0/33/077/1,033077,Banderines de calidad del campo de visión,1,Calidad degradada del registro de datos científicos,,,,,Operational,PDF
-bufr4/0/33/077/2,033077,Banderines de calidad del campo de visión,2,Calidad inválida del registro de datos científicos,,,(véase la nota 1),68,Operational,PDF
+bufr4/0/33/077/2,033077,Banderines de calidad del campo de visión,2,Calidad inválida del registro de datos científicos,,,(véase la nota 1),CF68,Operational,PDF
 bufr4/0/33/077/3,033077,Banderines de calidad del campo de visión,3,Información inválida sobre el geoposicionamiento del registro de datos científicos,,,,,Operational,PDF
 bufr4/0/33/077/4,033077,Banderines de calidad del campo de visión,4,Calibración radiométrica degradada,,,,,Operational,PDF
-bufr4/0/33/077/5,033077,Banderines de calidad del campo de visión,5,Calibración radiométrica inválida,,,(véase la nota 2),67,Operational,PDF
+bufr4/0/33/077/5,033077,Banderines de calidad del campo de visión,5,Calibración radiométrica inválida,,,(véase la nota 2),CF67,Operational,PDF
 bufr4/0/33/077/6,033077,Banderines de calidad del campo de visión,6,Calibración espectral degradada,,,,,Operational,PDF
-bufr4/0/33/077/7,033077,Banderines de calidad del campo de visión,7,Calibración espectral inválida,,,(véase la nota 3),73,Operational,PDF
-bufr4/0/33/077/8,033077,Banderines de calidad del campo de visión,8,Error en el cálculo de franjas detectado y corregido,,,(véase la nota 4),70,Operational,PDF
-bufr4/0/33/077/9,033077,Banderines de calidad del campo de visión,9,Indicador día/noche,,,(véase la nota 5),69,Operational,PDF
-bufr4/0/33/077/10,033077,Banderines de calidad del campo de visión,10,Datos inválidos del registro de datos en bruto,,,(véase la nota 6),87,Operational,PDF
-bufr4/0/33/077/11,033077,Banderines de calidad del campo de visión,11,Error significativo en el cálculo de franjas detectado,,,(véase la nota 7),86,Operational,PDF
+bufr4/0/33/077/7,033077,Banderines de calidad del campo de visión,7,Calibración espectral inválida,,,(véase la nota 3),CF73,Operational,PDF
+bufr4/0/33/077/8,033077,Banderines de calidad del campo de visión,8,Error en el cálculo de franjas detectado y corregido,,,(véase la nota 4),CF70,Operational,PDF
+bufr4/0/33/077/9,033077,Banderines de calidad del campo de visión,9,Indicador día/noche,,,(véase la nota 5),CF69,Operational,PDF
+bufr4/0/33/077/10,033077,Banderines de calidad del campo de visión,10,Datos inválidos del registro de datos en bruto,,,(véase la nota 6),CF87,Operational,PDF
+bufr4/0/33/077/11,033077,Banderines de calidad del campo de visión,11,Error significativo en el cálculo de franjas detectado,,,(véase la nota 7),CF86,Operational,PDF
 bufr4/0/33/077/12,033077,Banderines de calidad del campo de visión,12,Falla de reajuste del bit,,,,,Operational,PDF
 bufr4/0/33/077/13-18,033077,Banderines de calidad del campo de visión,13-18,Reservados,,,,,Operational,PDF
 bufr4/0/33/077/All-19,033077,Banderines de calidad del campo de visión,Los 19,Valor faltante,,,,,Operational,PDF

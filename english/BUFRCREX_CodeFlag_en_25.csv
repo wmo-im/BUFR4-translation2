@@ -192,7 +192,7 @@ bufr4/0/25/090/5,025090,Orbit state flag,5,(Preliminary/precise) orbit is interp
 bufr4/0/25/090/6,025090,Orbit state flag,6,(Preliminary/precise) orbit is extrapolated for a duration less than 1 day,,,,,Operational,na
 bufr4/0/25/090/7,025090,Orbit state flag,7,(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days,,,,,Operational,na
 bufr4/0/25/090/8,025090,Orbit state flag,8,"(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre",,,,,Operational,na
-bufr4/0/25/090/9,025090,Orbit state flag,9,DORIS DIODE navigator orbit,,,(see Note),37,Operational,na
+bufr4/0/25/090/9,025090,Orbit state flag,9,DORIS DIODE navigator orbit,,,(see Note),CF37,Operational,na
 bufr4/0/25/090/10-14,025090,Orbit state flag,10-14,Reserved,,,,,Operational,na
 bufr4/0/25/090/15,025090,Orbit state flag,15,Missing value,,,,,Operational,na
 bufr4/0/25/093/1,025093,RASS computation correction,1,No correction,,,,,Operational,na
@@ -310,7 +310,7 @@ bufr4/0/25/187/0,025187,Confidence flag,0,Valid,,,,,Operational,na
 bufr4/0/25/187/1,025187,Confidence flag,1,Invalid,,,,,Operational,na
 bufr4/0/25/187/2-14,025187,Confidence flag,2-14,Reserved,,,,,Operational,na
 bufr4/0/25/187/15,025187,Confidence flag,15,Missing value,,,,,Operational,na
-bufr4/0/25/188/0,025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,(see Note),44,Operational,na
+bufr4/0/25/188/0,025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,(see Note),CF44,Operational,na
 bufr4/0/25/188/1,025188,Method for reducing pressure to sea level,1,Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m,,,,,Operational,na
 bufr4/0/25/188/2,025188,Method for reducing pressure to sea level,2,Pressure adjusted to sea level following national practice,,,,,Operational,na
 bufr4/0/25/188/3,025188,Method for reducing pressure to sea level,3,Pressure adjusted to local water level following national practice,,,,,Operational,na

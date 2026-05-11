@@ -1,48 +1,48 @@
 tableNo,tableName,noteID,notation
 0 01 003,WMO Region number/geographical area,,
-0 01 007,Satellite identifier,10,0
+0 01 007,Satellite identifier,CF10,0
 0 01 024,Wind speed source,,
 0 01 028,Aerosol optical depth (AOD) source,,
 0 01 029,,,
-0 01 031,Identification of originating/generating centre,6,0
-0 01 033,Identification of originating/generating centre,6,0
-0 01 034,Identification of originating/generating sub-centre,14,0
-0 01 035,Originating/generating centre,6,0
-0 01 036,Agency in charge of operating the observing platform,78,0
+0 01 031,Identification of originating/generating centre,CF6,0
+0 01 033,Identification of originating/generating centre,CF6,0
+0 01 034,Identification of originating/generating sub-centre,CF14,0
+0 01 035,Originating/generating centre,CF6,0
+0 01 036,Agency in charge of operating the observing platform,CF78,0
 0 01 038,Source of sea-ice fraction,,
 0 01 044,Standard generating application,,
 0 01 052,Platform transmitter ID,,
 0 01 090,Technique for making up initial perturbations,,
 0 01 092,Type of ensemble forecast,,
 0 01 101,State identifier,,
-0 01 150,Coordinate reference system,39,1
+0 01 150,Coordinate reference system,CF39,1
 0 01 151,Fixed mean sea-level reference datum,,
 0 01 155,Retrieval identifier,,
 0 02 001,Type of station,,
-0 02 002,Type of instrumentation for wind measurement,90,0
+0 02 002,Type of instrumentation for wind measurement,CF90,0
 0 02 003,Type of measuring equipment used,,
 0 02 004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,,
 0 02 006,Upper Air Remote Sensing Instrument Type,,
 0 02 007,Type of sensor for water level measuring instrument,,
 0 02 008,Type of offshore platform,,
-0 02 011,Radiosonde type,7,0
-0 02 012,Radiosonde computational method,15,0
+0 02 011,Radiosonde type,CF7,0
+0 02 012,Radiosonde computational method,CF15,0
 0 02 013,Solar and infrared radiation correction,,
-0 02 014,Tracking technique/status of system used,11,0
+0 02 014,Tracking technique/status of system used,CF11,0
 0 02 015,Radiosonde completeness,,
 0 02 016,Radiosonde configuration,,
 0 02 017,Correction algorithms for humidity measurements,,
-0 02 019,Satellite instruments,12,0
+0 02 019,Satellite instruments,CF12,0
 0 02 020,Satellite classification,,
 0 02 021,Satellite instrument data used in processing,,
-0 02 022,Satellite data-processing technique used,22,4
+0 02 022,Satellite data-processing technique used,CF22,4
 0 02 023,Satellite-derived wind computation method,,
 0 02 024,Integrated mean humidity computational method,,
-0 02 025,Satellite channel(s) used in computation,23,1
+0 02 025,Satellite channel(s) used in computation,CF23,1
 0 02 030,Method of current measurement,,
-0 02 031,Duration and time of current measurement,32,1
-0 02 031,Duration and time of current measurement,33,2
-0 02 031,Duration and time of current measurement,45,3
+0 02 031,Duration and time of current measurement,CF32,1
+0 02 031,Duration and time of current measurement,CF33,2
+0 02 031,Duration and time of current measurement,CF45,3
 0 02 032,Indicator for digitization,,
 0 02 033,Method of salinity/depth measurement,,
 0 02 034,Drogue type,,
@@ -59,9 +59,9 @@ tableNo,tableName,noteID,notation
 0 02 047,Deep-ocean tsunameter type,,
 0 02 048,Satellite sensor indicator,,
 0 02 049,Geostationary satellite data-processing technique used,,
-0 02 050,Geostationary sounder satellite channels used,21,0
+0 02 050,Geostationary sounder satellite channels used,CF21,0
 0 02 051,Indicator to specify observing method for extreme temperatures,,
-0 02 052,Geostationary imager satellite channels used,21,0
+0 02 052,Geostationary imager satellite channels used,CF21,0
 0 02 053,GOES-I/M brightness temperature characteristics,,
 0 02 054,GOES-I/M soundings parameter characteristics,,
 0 02 055,Geostationary soundings statistical parameters,,
@@ -158,7 +158,7 @@ tableNo,tableName,noteID,notation
 0 08 004,Phase of aircraft flight,,
 0 08 005,Meteorological attribute significance,,
 0 08 006,Ozone vertical sounding significance,,
-0 08 007,Dimensional significance,16,0
+0 08 007,Dimensional significance,CF16,0
 0 08 008,Radiation vertical sounding significance,,
 0 08 009,Detailed phase of flight,,
 0 08 010,Surface qualifier (for temperature data),,
@@ -171,9 +171,9 @@ tableNo,tableName,noteID,notation
 0 08 017,Qualifier of the time when the forecast change is expected,,
 0 08 018,SEAWINDS land/ice surface type,,
 0 08 019,Qualifier for following centre identifier,,
-0 08 021,Time significance,88,3
-0 08 023,First-order statistics,18,0
-0 08 024,Difference statistics,36,1
+0 08 021,Time significance,CF88,3
+0 08 023,First-order statistics,CF18,0
+0 08 024,Difference statistics,CF36,1
 0 08 025,Time difference qualifier,,
 0 08 026,Matrix significance,,
 0 08 029,Surface type,,
@@ -188,8 +188,8 @@ tableNo,tableName,noteID,notation
 0 08 040,Flight level significance,,
 0 08 041,Data significance,,
 0 08 042,Extended vertical sounding significance,,
-0 08 043,Atmospheric chemical or physical constituent type,79,0
-0 08 046,Atmospheric chemical or physical constituent type,13,0
+0 08 043,Atmospheric chemical or physical constituent type,CF79,0
+0 08 046,Atmospheric chemical or physical constituent type,CF13,0
 0 08 050,Qualifier for number of missing values in calculation of statistic,,
 0 08 051,Qualifier for number of missing values in calculation of statistic,,
 0 08 052,Condition for which number of days of occurrence follows,,
@@ -217,16 +217,16 @@ tableNo,tableName,noteID,notation
 0 08 092,Measurement uncertainty expression,,
 0 08 093,Measurement uncertainty significance,,
 0 08 094,Method used to calculate the average daily temperature,,
-0 08 095,Siting and measurement quality classification for temperature,98,1
-0 08 095,Siting and measurement quality classification for temperature,99,2
-0 08 095,Siting and measurement quality classification for temperature,100,3
-0 08 095,Siting and measurement quality classification for temperature,101,4
-0 08 096,Siting and measurement quality classification for precipitation,98,1
-0 08 096,Siting and measurement quality classification for precipitation,99,2
-0 08 096,Siting and measurement quality classification for precipitation,100,3
-0 08 096,Siting and measurement quality classification for precipitation,101,4
-0 10 063,Characteristic of pressure tendency,52,1
-0 10 063,Characteristic of pressure tendency,53,2
+0 08 095,Siting and measurement quality classification for temperature,CF98,1
+0 08 095,Siting and measurement quality classification for temperature,CF99,2
+0 08 095,Siting and measurement quality classification for temperature,CF100,3
+0 08 095,Siting and measurement quality classification for temperature,CF101,4
+0 08 096,Siting and measurement quality classification for precipitation,CF98,1
+0 08 096,Siting and measurement quality classification for precipitation,CF99,2
+0 08 096,Siting and measurement quality classification for precipitation,CF100,3
+0 08 096,Siting and measurement quality classification for precipitation,CF101,4
+0 10 063,Characteristic of pressure tendency,CF52,1
+0 10 063,Characteristic of pressure tendency,CF53,2
 0 10 064,SIGMET cruising level,,
 0 11 030,Extended degree of turbulence,,
 0 11 031,Degree of turbulence,,
@@ -241,7 +241,7 @@ tableNo,tableName,noteID,notation
 0 13 056,Character and intensity of precipitation,,
 0 13 057,Time of beginning or end of precipitation,,
 0 15 025,Type of pollutant,,
-0 19 001,Type of synoptic feature,59,0
+0 19 001,Type of synoptic feature,CF59,0
 0 19 008,Vertical extent of circulation,,
 0 19 010,Method for tracking the centre of synoptic feature,,
 0 19 100,Time interval to calculate the movement of the tropical cyclone,,
@@ -257,24 +257,24 @@ tableNo,tableName,noteID,notation
 0 19 113,Cloud pattern type of the DT-number,,
 0 19 117,Cloud picture type of the PT-number,,
 0 19 119,Type of the final T-number,,
-0 20 003,Present weather,34,3
-0 20 003,Present weather,43,2
-0 20 003,Present weather,80,1
+0 20 003,Present weather,CF34,3
+0 20 003,Present weather,CF43,2
+0 20 003,Present weather,CF80,1
 0 20 004/0 20 005,Past weather (1) and (2),,
 0 20 006,Flight rules,,
 0 20 008,Cloud distribution for aviation,,
 0 20 009,General weather indicator (TAF/METAR),,
-0 20 011,Cloud amount,2,2
+0 20 011,Cloud amount,CF2,2
 0 20 012,Cloud type,,
 0 20 017,Cloud top description,,
 0 20 018,Tendency of runway visual range,,
-0 20 021,Type of precipitation,57,0
+0 20 021,Type of precipitation,CF57,0
 0 20 022,Character of precipitation,,
 0 20 023,Other weather phenomena,,
 0 20 024,Intensity of phenomena,,
 0 20 025,Obscuration,,
 0 20 026,Character of obscuration,,
-0 20 027,Phenomena occurrence,63,1
+0 20 027,Phenomena occurrence,CF63,1
 0 20 028,Expected change in intensity,,
 0 20 029,Rain flag,,
 0 20 032,Rate of ice accretion (estimated),,
@@ -291,9 +291,9 @@ tableNo,tableName,noteID,notation
 0 20 050,Cloud index,,
 0 20 055,State of sky in the tropics,,
 0 20 056,Cloud phase,,
-0 20 062,State of the ground (with or without snow),50,2
-0 20 062,State of the ground (with or without snow),54,3
-0 20 062,State of the ground (with or without snow),75,1
+0 20 062,State of the ground (with or without snow),CF50,2
+0 20 062,State of the ground (with or without snow),CF54,3
+0 20 062,State of the ground (with or without snow),CF75,1
 0 20 063,Special phenomena,,
 0 20 071,Accuracy of fix and rate of atmospherics,,
 0 20 085,General condition of runway,,
@@ -335,10 +335,10 @@ tableNo,tableName,noteID,notation
 0 21 169,Ice presence indicator,,
 0 22 056,Direction of profile,,
 0 22 060,Lagrangian drifter drogue status,,
-0 22 061,State of the sea,76,2
-0 22 061,State of the sea,84,1
-0 22 067,Instrument type for water temperature/salinity profile measurement,8,0
-0 22 068,Water temperature profile recorder types,9,0
+0 22 061,State of the sea,CF76,2
+0 22 061,State of the sea,CF84,1
+0 22 067,Instrument type for water temperature/salinity profile measurement,CF8,0
+0 22 068,Water temperature profile recorder types,CF9,0
 0 22 120,Tide station automated water level check,,
 0 22 121,Tide station manual water level check,,
 0 22 122,Tide station automated meteorological data check,,
@@ -360,7 +360,7 @@ tableNo,tableName,noteID,notation
 0 25 004,Echo processing,,
 0 25 005,Echo integration,,
 0 25 006,Z to R conversion,,
-0 25 009,Calibration method,35,0
+0 25 009,Calibration method,CF35,0
 0 25 010,Clutter treatment,,
 0 25 011,Ground occultation correction (screening),,
 0 25 012,Range attenuation correction,,
@@ -374,15 +374,15 @@ tableNo,tableName,noteID,notation
 0 25 024,GHRSST data quality,,
 0 25 029,Calibration method,,
 0 25 030,Running mean sea-surface temperature usage,,
-0 25 031,NWP-generated vertical profile thinning method,60,0
+0 25 031,NWP-generated vertical profile thinning method,CF60,0
 0 25 032,Wind profiler mode information,,
 0 25 033,Wind profiler submode information,,
 0 25 034,Wind profiler quality control test results,,
 0 25 035,Decision method for polarity,,
 0 25 036,Atmospherics location method,,
 0 25 040,CO2 wind product derivation,,
-0 25 041,Moving platform direction reporting method,94,0
-0 25 042,Moving platform speed reporting method,95,0
+0 25 041,Moving platform direction reporting method,CF94,0
+0 25 042,Moving platform speed reporting method,CF95,0
 0 25 045,HIRS channel combination,,
 0 25 046,MSU channel combination,,
 0 25 047,SSU channel combination,,
@@ -398,11 +398,11 @@ tableNo,tableName,noteID,notation
 0 25 095,Altimeter state flag,,
 0 25 096,Radiometer state flag,,
 0 25 097,Three-dimensional error estimate of the navigator orbit,,
-0 25 098,Altimeter data quality flag,5,0
-0 25 099,Altimeter correction quality flag,5,0
+0 25 098,Altimeter data quality flag,CF5,0
+0 25 099,Altimeter correction quality flag,CF5,0
 0 25 110,Image processing summary,,
-0 25 112,Band specific altimeter data quality flag,5,0
-0 25 113,Band specific altimeter correction quality flag,5,0
+0 25 112,Band specific altimeter data quality flag,CF5,0
+0 25 113,Band specific altimeter correction quality flag,CF5,0
 0 25 120,RA2-L2-processing flag,,
 0 25 122,Hardware configuration for RF,,
 0 25 123,Hardware configuration for HPA,,
@@ -422,8 +422,8 @@ tableNo,tableName,noteID,notation
 0 29 002,Coordinate grid type,,
 0 30 031,Picture type,,
 0 30 032,Combination with other data,,
-0 31 021,Associated field significance,19,1
-0 31 021,Associated field significance,42,3
+0 31 021,Associated field significance,CF19,1
+0 31 021,Associated field significance,CF42,3
 0 31 031,Data present indicator,,
 0 33 002,Quality information,,
 0 33 003,Quality information,,
@@ -439,18 +439,18 @@ tableNo,tableName,noteID,notation
 0 33 026,Moisture quality,,
 0 33 027,Location quality class (range of radius of 66% confidence),,
 0 33 028,Snapshot overall quality,,
-0 33 030,Scan line status flags for ATOVS,49,0
-0 33 031,Scan line quality flags for ATOVS,49,1
-0 33 031,Scan line quality flags for ATOVS,24,2
-0 33 031,Scan line quality flags for ATOVS,25,3
-0 33 031,Scan line quality flags for ATOVS,27,4
-0 33 032,Channel quality flags for ATOVS,17,0
-0 33 033,Field of view quality flags for ATOVS,17,1
+0 33 030,Scan line status flags for ATOVS,CF49,0
+0 33 031,Scan line quality flags for ATOVS,CF49,1
+0 33 031,Scan line quality flags for ATOVS,CF24,2
+0 33 031,Scan line quality flags for ATOVS,CF25,3
+0 33 031,Scan line quality flags for ATOVS,CF27,4
+0 33 032,Channel quality flags for ATOVS,CF17,0
+0 33 033,Field of view quality flags for ATOVS,CF17,1
 0 33 035,Manual/automatic quality control,,
 0 33 037,Wind correlation error,,
 0 33 038,Quality flags for ground-based GNSS data,,
 0 33 039,Quality flags for radio occultation data,,
-0 33 041,Attribute of following value,85,0
+0 33 041,Attribute of following value,CF85,0
 0 33 042,Type of limit represented by following value,,
 0 33 043,AST confidence,,
 0 33 044,ASAR quality information,,
@@ -491,8 +491,8 @@ tableNo,tableName,noteID,notation
 0 35 033,Observation and collection deficiencies,,
 0 35 034,Statistical trends for availability of data (during the survey period(s)),,
 0 35 035,Reason for termination,,
-0 40 005,Soil moisture correction flag,81,0
-0 40 006,Soil moisture processing flag,81,0
+0 40 005,Soil moisture correction flag,CF81,0
+0 40 006,Soil moisture processing flag,CF81,0
 0 40 011,Interpolation flag,,
 0 40 012,Radiometer data quality flag,,
 0 40 013,Radiometer brightness temperature interpretation flag,,

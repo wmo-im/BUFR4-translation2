@@ -1,12 +1,12 @@
-﻿ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
+ID,ClassNo,ClassName_ru,FXY,ElementName_ru,BUFR_Unit_ru,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_ru,CREX_Scale,CREX_DataWidth_Char,Note_ru,noteIDs,Status,translation_source
 bufr4/0/00/001,00,Элементы таблицы кодов,000001,Таблица A: элемент,CCITT IA5,0,0,24,Символ,0,3,,,Operational,PDF
 bufr4/0/00/002,00,Элементы таблицы кодов,000002,"Таблица A: описание категории данных, строка 1",CCITT IA5,0,0,256,Символ,0,32,,,Operational,PDF
 bufr4/0/00/003,00,Элементы таблицы кодов,000003,"Таблица A: описание категории данных, строка 2",CCITT IA5,0,0,256,Символ,0,32,,,Operational,PDF
-bufr4/0/00/004,00,Элементы таблицы кодов,000004,Эталонная таблица BUFR/CREX,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 1),98,Operational,PDF
+bufr4/0/00/004,00,Элементы таблицы кодов,000004,Эталонная таблица BUFR/CREX,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 1),B98,Operational,PDF
 bufr4/0/00/005,00,Элементы таблицы кодов,000005,Номер издания кодов BUFR/CREX,CCITT IA5,0,0,24,Символ,0,3,,,Operational,PDF
-bufr4/0/00/006,00,Элементы таблицы кодов,000006,Номер версии эталонной таблицы для кода BUFR,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 2),33,Operational,PDF
-bufr4/0/00/007,00,Элементы таблицы кодов,000007,Номер версии эталонной таблицы для кода CREX,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 3),40,Operational,PDF
-bufr4/0/00/008,00,Элементы таблицы кодов,000008,Номер версии местной таблицы для кода BUFR,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 4),76,Operational,PDF
+bufr4/0/00/006,00,Элементы таблицы кодов,000006,Номер версии эталонной таблицы для кода BUFR,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 2),B33,Operational,PDF
+bufr4/0/00/007,00,Элементы таблицы кодов,000007,Номер версии эталонной таблицы для кода CREX,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 3),B40,Operational,PDF
+bufr4/0/00/008,00,Элементы таблицы кодов,000008,Номер версии местной таблицы для кода BUFR,CCITT IA5,0,0,16,Символ,0,2,(см. примечание 4),B76,Operational,PDF
 bufr4/0/00/010,00,Элементы таблицы кодов,000010,Добавить или определить дескриптор F,CCITT IA5,0,0,8,Символ,0,1,,,Operational,PDF
 bufr4/0/00/011,00,Элементы таблицы кодов,000011,Добавить или определить дескриптор X,CCITT IA5,0,0,16,Символ,0,2,,,Operational,PDF
 bufr4/0/00/012,00,Элементы таблицы кодов,000012,Добавить или определить дескриптор Y,CCITT IA5,0,0,24,Символ,0,3,,,Operational,PDF

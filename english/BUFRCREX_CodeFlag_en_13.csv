@@ -14,7 +14,7 @@ bufr4/0/13/040/3,013040,Surface flag,3,Ice,,,,,Operational,na
 bufr4/0/13/040/4,013040,Surface flag,4,Possible ice,,,,,Operational,na
 bufr4/0/13/040/5,013040,Surface flag,5,Ocean,,,,,Operational,na
 bufr4/0/13/040/6,013040,Surface flag,6,Coast,,,,,Operational,na
-bufr4/0/13/040/7,013040,Surface flag,7,Inland water,,,(see Note),56,Operational,na
+bufr4/0/13/040/7,013040,Surface flag,7,Inland water,,,(see Note),CF56,Operational,na
 bufr4/0/13/040/8,013040,Surface flag,8,Snow cover,,,,,Operational,na
 bufr4/0/13/040/9,013040,Surface flag,9,Sea ice,,,,,Operational,na
 bufr4/0/13/040/10,013040,Surface flag,10,Standing water,,,,,Operational,na

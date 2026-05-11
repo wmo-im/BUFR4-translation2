@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 21: Datos de radar</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 21: Datos de radar</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 21 001</td><td>Reflectividad horizontal</td><td>dB</td><td>0</td><td>-64</td><td>7</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 002</td><td>Reflectividad vertical</td><td>dB</td><td>0</td><td>-64</td><td>7</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 003</td><td>Reflectividad diferencial</td><td>dB</td><td>1</td><td>-5</td><td>7</td><td>dB</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 21 004</td><td>Reflectividad diferencial</td><td>dB</td><td>2</td><td>-800</td><td>11</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 005</td><td>Relación de despolarización lineal</td><td>dB</td><td>0</td><td>-65</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 006</td><td>Relación de despolarización circular</td><td>dB</td><td>0</td><td>-65</td><td>6</td><td>dB</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 011</td><td>Velocidad media Doppler en la dirección X</td><td>m s-1</td><td>0</td><td>-128</td><td>8</td><td>m s-1</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 012</td><td>Velocidad media Doppler en la dirección Y</td><td>m s-1</td><td>0</td><td>-128</td><td>8</td><td>m s-1</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 013</td><td>Velocidad media Doppler en la dirección Z</td><td>m s-1</td><td>0</td><td>-128</td><td>8</td><td>m s-1</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 014</td><td>Velocidad media Doppler (radial)</td><td>m s-1</td><td>1</td><td>-4096</td><td>13</td><td>m s-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 017</td><td>Ancho espectral de la velocidad Doppler</td><td>m s-1</td><td>1</td><td>0</td><td>8</td><td>m s-1</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 21 018</td><td>Velocidad de NYQUIST ampliada</td><td>m s-1</td><td>1</td><td>0</td><td>10</td><td>m s-1</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 019</td><td>Velocidad de NYQUIST alta</td><td>m s-1</td><td>1</td><td>0</td><td>10</td><td>m s-1</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 21 021</td><td>Altura máxima de los ecos</td><td>m</td><td>-3</td><td>0</td><td>4</td><td>m</td><td>-3</td><td>2</td><td></td></tr>
+<tr><td>0 21 022</td><td>Desplazamiento de la cuadrícula de alcance</td><td>m</td><td>1</td><td>0</td><td>14</td><td>m</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 21 023</td><td>Tamaño de la cuadrícula de alcance</td><td>m</td><td>0</td><td>0</td><td>14</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 024</td><td>Desplazamiento azimutal</td><td>°</td><td>1</td><td>0</td><td>12</td><td>°</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 025</td><td>Resolución azimutal</td><td>°</td><td>1</td><td>0</td><td>8</td><td>°</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 21 028</td><td>Fase diferencial</td><td>°</td><td>1</td><td>0</td><td>12</td><td>°</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 029</td><td>Coeficiente de correlación de la polarización cruzada</td><td>Numérica</td><td>2</td><td>-100</td><td>8</td><td>Numérica</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 21 030</td><td>Relación señal-ruido</td><td>dB</td><td>0</td><td>-32</td><td>8</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 031</td><td>Contenido de agua líquida integrado verticalmente</td><td>kg m-2</td><td>0</td><td>0</td><td>7</td><td>kg m-2</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 036</td><td>Intensidad de las precipitaciones medidas por radar</td><td>m s-1</td><td>7</td><td>0</td><td>12</td><td>m s-1</td><td>7</td><td>4</td><td></td></tr>
+<tr><td>0 21 041</td><td>Altura de la banda brillante</td><td>m</td><td>-2</td><td>0</td><td>8</td><td>m</td><td>-2</td><td>3</td><td></td></tr>
+<tr><td>0 21 051</td><td>Potencia de la señal superior a 1 mW</td><td>dB</td><td>0</td><td>-256</td><td>8</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 062</td><td>Retrodispersión</td><td>dB</td><td>2</td><td>-5000</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 063</td><td>Resolución radiométrica (valor del ruido)</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 064</td><td>Ruido estimado de los ecos parásitos</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 065</td><td>Contador de paquetes faltantes</td><td>Numérica</td><td>0</td><td>-127</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 066</td><td>Datos sobre el grado de confianza del producto del dispersímetro de onda</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>12</td><td>Tabla de banderines</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 21 067</td><td>Datos sobre el grado de confianza del producto del viento</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>13</td><td>Tabla de banderines</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 068</td><td>Datos sobre el grado de confianza del producto del altímetro del radar</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>8</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 069</td><td>Datos sobre el grado de confianza del producto de la medición de la temperatura de la superficie del mar</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>10</td><td>Tabla de banderines</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 21 070</td><td>Datos sobre el grado de confianza del producto de la medición de la temperatura de la superficie del mar (SADIST-2)</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>23</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 21 071</td><td>Máximas</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 072</td><td>Estado de la calibración del altímetro del satélite</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>4</td><td>Tabla de banderines</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 073</td><td>Modo del instrumento del altímetro del satélite</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 075</td><td>Intensidad del espectro de la imagen</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 076</td><td>Representación de intensidades</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 077</td><td>Corrección de la altitud (ionosfera)</td><td>m</td><td>3</td><td>0</td><td>14</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 078</td><td>Corrección de la altitud (troposfera seca)</td><td>m</td><td>3</td><td>0</td><td>9</td><td>m</td><td>3</td><td>3</td><td></td></tr>
+<tr><td>0 21 079</td><td>Corrección de la altitud (troposfera húmeda)</td><td>m</td><td>3</td><td>2000</td><td>10</td><td>m</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 080</td><td>Corrección de la altitud (constante de calibración)</td><td>m</td><td>3</td><td>0</td><td>11</td><td>m</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 081</td><td>Corrección en bucle abierto (bucle altura-tiempo)</td><td>m</td><td>3</td><td>0</td><td>10</td><td>m</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 082</td><td>Corrección en bucle abierto (control automático de gacia)</td><td>dB</td><td>3</td><td>-3000</td><td>14</td><td>dB</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 083</td><td>Calibración de objetivo caliente</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 084</td><td>Calibración de objetivo frío</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 085</td><td>Número de bandas transversales del radiómetro ATSR para la exploración de la temperatura de la superficie del mar</td><td>Numérica</td><td>0</td><td>0</td><td>4</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 086</td><td>Número de píxeles en el nadir solamente, promedio</td><td>Numérica</td><td>0</td><td>0</td><td>9</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 087</td><td>Número de píxeles en vista dual, promedio</td><td>Numérica</td><td>0</td><td>0</td><td>9</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 088</td><td>Retrodifusor húmedo</td><td>dB</td><td>2</td><td>-5000</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 091</td><td>Momento 0 del espectro Doppler de la señal del radar</td><td>dB</td><td>0</td><td>-100</td><td>8</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 092</td><td>Momento 0 del espectro Doppler de la señal RASS (sistema de sondeo radio-acústico), con referencia a la señal RASS</td><td>dB</td><td>0</td><td>-100</td><td>8</td><td>dB</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 093</td><td>Máximas de la banda Ku</td><td>Numérica</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 094</td><td>Encrestamiento (máximas) de la banda S</td><td>Numérica</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 095</td><td>Coeficiente Kp A</td><td>Numérica</td><td>6</td><td>0</td><td>20</td><td>Numérica</td><td>6</td><td>7</td><td></td></tr>
+<tr><td>0 21 096</td><td>Coeficiente Kp B</td><td>Numérica</td><td>6</td><td>0</td><td>20</td><td>Numérica</td><td>6</td><td>7</td><td></td></tr>
+<tr><td>0 21 097</td><td>Coeficiente Kp C</td><td>Numérica</td><td>6</td><td>0</td><td>20</td><td>Numérica</td><td>6</td><td>7</td><td></td></tr>
+<tr><td>0 21 101</td><td>Número de ambigüedades del vector</td><td>Numérica</td><td>0</td><td>0</td><td>3</td><td>Numérica</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 102</td><td>Índice del vector seleccionado del viento</td><td>Numérica</td><td>0</td><td>0</td><td>3</td><td>Numérica</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 103</td><td>Número total de mediciones de sigma-0</td><td>Numérica</td><td>0</td><td>0</td><td>5</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 104</td><td>Probabilidad calculada para la solución</td><td>Numérica</td><td>3</td><td>-30000</td><td>15</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 105</td><td>Sección representativa normalizada del radar</td><td>dB</td><td>2</td><td>-10000</td><td>14</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 106</td><td>Coeficiente de variancia Kp (alfa)</td><td>Numérica</td><td>3</td><td>0</td><td>14</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 107</td><td>Coeficiente de variancia Kp (beta)</td><td>Numérica</td><td>8</td><td>0</td><td>16</td><td>Numérica</td><td>8</td><td>5</td><td></td></tr>
+<tr><td>0 21 109</td><td>Calidad del vector viento medida en el interior de la célula por SeaWinds</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>17</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 21 110</td><td>Número de sigma-0 del haz interior (delante del satélite)</td><td>Numérica</td><td>0</td><td>0</td><td>6</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 111</td><td>Número de sigma-0 del haz exterior (delante del satélite)</td><td>Numérica</td><td>0</td><td>0</td><td>6</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 112</td><td>Número de sigma-0 del haz interior (detrás del satélite)</td><td>Numérica</td><td>0</td><td>0</td><td>6</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 113</td><td>Número de sigma-0 del haz exterior (detrás del satélite)</td><td>Numérica</td><td>0</td><td>0</td><td>6</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 114</td><td>Coeficiente de variancia Kp (gamma)</td><td>dB</td><td>3</td><td>-140000</td><td>18</td><td>dB</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 21 115</td><td>Calidad de sigma-0 determinada por SeaWinds</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>17</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 21 116</td><td>Modo de sigma-0 determinado por SeaWinds</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>17</td><td>Tabla de banderines</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 21 117</td><td>Control de calidad de la variancia de sigma-0</td><td>Numérica</td><td>2</td><td>0</td><td>16</td><td>Numérica</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 118</td><td>Corrección de atenuación aplicada a sigma-0</td><td>dB</td><td>2</td><td>-10000</td><td>14</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 119</td><td>Función geofísica modélica del dispersómetro de viento</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 120</td><td>Probabilidad de lluvia</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 121</td><td>Índice de lluvia determinado por SeaWinds a partir de una función objetiva normalizada</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 122</td><td>Corrección de atenuación aplicada a sigma-0 (a partir de tB)</td><td>dB</td><td>2</td><td>-10000</td><td>14</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 123</td><td>Sección representativa normalizada del radar determinada por SeaWinds</td><td>dB</td><td>2</td><td>-30000</td><td>15</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 128</td><td>Número de puntos válidos por segundo utilizados para derivar parámetros anteriores</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 130</td><td>Energía total del espectro</td><td>Numérica</td><td>6</td><td>0</td><td>28</td><td>Numérica</td><td>6</td><td>9</td><td></td></tr>
+<tr><td>0 21 131</td><td>Energía máxima del espectro</td><td>Numérica</td><td>6</td><td>0</td><td>28</td><td>Numérica</td><td>6</td><td>9</td><td></td></tr>
+<tr><td>0 21 132</td><td>Dirección de la energía espectral máxima en la retícula de alta resolución</td><td>°</td><td>3</td><td>0</td><td>19</td><td>°</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 21 133</td><td>Longitud de onda de la energía espectral máxima en la retícula de alta resolución</td><td>m</td><td>3</td><td>0</td><td>29</td><td>m</td><td>3</td><td>9</td><td></td></tr>
+<tr><td>0 21 134</td><td>Intervalo de resolución del espectro de covarianza transversal</td><td>rad m-1</td><td>3</td><td>0</td><td>19</td><td>rad m-1</td><td>3</td><td>6</td><td></td></tr>
+<tr><td>0 21 135</td><td>Parte real del número de células del espectro transversal en una retícula polar</td><td>Numérica</td><td>3</td><td>-524288</td><td>20</td><td>Numérica</td><td>3</td><td>7</td><td></td></tr>
+<tr><td>0 21 136</td><td>Parte imaginaria del número de células del espectro transversal en una retícula polar</td><td>Numérica</td><td>3</td><td>-524288</td><td>20</td><td>Numérica</td><td>3</td><td>7</td><td></td></tr>
+<tr><td>0 21 137</td><td>Coeficiente corregido de retrodispersión oceánica en banda Ku</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 138</td><td>Coeficiente corregido estándar de retrodispersión oceánica en banda Ku</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 139</td><td>Corrección instrumental neta en banda Ku para control automático de gacia</td><td>dB</td><td>2</td><td>-2048</td><td>12</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 140</td><td>Coeficiente corregido de retrodispersión oceánica en banda S</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 141</td><td>Coeficiente corregido estándar de retrodispersión oceánica en banda S</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 142</td><td>Corrección instrumental neta en banda S para control automático de gacia</td><td>dB</td><td>2</td><td>-1024</td><td>11</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 143</td><td>Atenuación por lluvia en banda Ku</td><td>dB</td><td>2</td><td>-1073741824</td><td>31</td><td>dB</td><td>2</td><td>10</td><td></td></tr>
+<tr><td>0 21 144</td><td>Banderín de lluvia de altímetro</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>2</td><td>Tabla de banderines</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 145</td><td>Control automático de gacia en banda Ku</td><td>dB</td><td>2</td><td>0</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 146</td><td>Media cuadrática del control automático de gacia en banda Ku</td><td>dB</td><td>2</td><td>0</td><td>8</td><td>dB</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 21 147</td><td>Número de puntos válidos respecto del control automático de gacia en banda Ku</td><td>Numérica</td><td>0</td><td>0</td><td>5</td><td>Numérica</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 21 148</td><td>Banderín de variación en borde posterior</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 150</td><td>Coubicación de haces</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 151</td><td>Error estimado en Sigma-0 en un ángulo de incidencia de 40°</td><td>dB</td><td>2</td><td>0</td><td>9</td><td>dB</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 21 152</td><td>Pendiente a un ángulo de incidencia de 40°</td><td>dB grado-1</td><td>2</td><td>-80</td><td>7</td><td>dB grado-1</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 21 153</td><td>Error estimado en la pendiente en un ángulo de incidencia de 40°</td><td>dB grado-1</td><td>2</td><td>-40</td><td>6</td><td>dB grado-1</td><td>2</td><td>2</td><td></td></tr>
+<tr><td>0 21 154</td><td>Sensibilidad de la humedad del suelo</td><td>dB</td><td>2</td><td>0</td><td>12</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 155</td><td>Calidad de la célula del vector viento</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>24</td><td>Tabla de banderines</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 21 156</td><td>Distancia del retrodifusor</td><td>Numérica</td><td>1</td><td>-4096</td><td>13</td><td>Numérica</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>0 21 157</td><td>Pérdida por unidad de longitud de la atmósfera utilizada</td><td>dB m⁻¹</td><td>10</td><td>0</td><td>22</td><td>dB m-1</td><td>10</td><td>7</td><td></td></tr>
+<tr><td>0 21 158</td><td>Calidad de estimación de la Kp de ASCAT</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 159</td><td>Utilizabilidad de Sigma-0 ASCAT</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 160</td><td>Utilización de datos sintéticos ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 161</td><td>Cantidad de los datos sintéticos de ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 162</td><td>Calidad de la órbita y actitud satelital ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 163</td><td>Contaminación de la reflexión del panel solar ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 164</td><td>Presencia y calidad de telemetría de ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 165</td><td>Presencia de la función de referencia extrapolada de ASCAT</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 166</td><td>Fracción terrestre</td><td>Numérica</td><td>3</td><td>0</td><td>10</td><td>Numérica</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 21 169</td><td>Indicador de presencia de hielo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 21 170</td><td>Coeficiente de retrodispersión oceánica corregido en banda C</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 171</td><td>Media cuadrática del coeficiente de retrodispersión oceánica corregido en banda C</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 172</td><td>Corrección instrumental neta del CAG en banda C</td><td>dB</td><td>2</td><td>-2048</td><td>12</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 173</td><td>Control automático de gacia en banda C</td><td>dB</td><td>2</td><td>0</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 174</td><td>Media cuadrática del control automático de gacia en banda C</td><td>dB</td><td>2</td><td>0</td><td>9</td><td>dB</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 21 175</td><td>Número de puntos válidos respecto del control automático de gacia en banda C</td><td>Numérica</td><td>0</td><td>0</td><td>10</td><td>Numérica</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 21 176</td><td>Corrección de variabilidad de alta frecuencia</td><td>m</td><td>3</td><td>0</td><td>16</td><td>m</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 177</td><td>Coeficiente corregido de retrodispersión del desplazamiento del centro de gravedad</td><td>dB</td><td>2</td><td>0</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 178</td><td>Desviación típica del coeficiente de retrodispersión del desplazamiento del centro de gravedad a 20 Hz</td><td>dB</td><td>2</td><td>0</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 179</td><td>Número de puntos válidos respecto del coeficiente de retrodispersión del desplazamiento del centro de gravedad a 20 Hz</td><td>Numérica</td><td>0</td><td>0</td><td>16</td><td>Numérica</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 21 180</td><td>Número de puntos válidos respecto del coeficiente de retrodispersión oceánico a 20 Hz</td><td>Numérica</td><td>0</td><td>0</td><td>8</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 181</td><td>Coeficiente de retrodispersión oceánico a 20 Hz</td><td>dB</td><td>2</td><td>0</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 182</td><td>Máximas en banda Ku a 20 Hz</td><td>Numérica</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 21 183</td><td>Coeficiente corregido de retrodispersión oceánica en banda específica</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 184</td><td>Coeficiente corregido estándar de retrodispersión oceánica en banda específica</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 21 185</td><td>Corrección instrumental neta en banda específica para control automático de gacia</td><td>dB</td><td>2</td><td>-2048</td><td>12</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 186</td><td>Control automático de gacia en banda específica</td><td>dB</td><td>2</td><td>0</td><td>13</td><td>dB</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 21 187</td><td>Media cuadrática del control automático de gacia específica</td><td>dB</td><td>2</td><td>0</td><td>8</td><td>dB</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 21 188</td><td>Número de puntos válidos respecto del control automático de gacia en banda específica</td><td>Numérica</td><td>0</td><td>0</td><td>7</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 21 189</td><td>Coeficiente corregido de retrodispersión del desplazamiento del centro de gravedad (referencia negativa)</td><td>dB</td><td>2</td><td>-32768</td><td>16</td><td>dB</td><td>2</td><td>6</td><td>Note B11: El descriptor 0 21 189 es similar al descriptor 0 21 177, pero con un valor de referencia negativo.</td></tr>
+</tbody>
+</table>
+</body>
+</html>

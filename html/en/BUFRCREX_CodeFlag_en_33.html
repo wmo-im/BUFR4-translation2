@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 33</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 33</h1>
+<p class="fxy-heading">0 33 002  Quality information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Data not suspect</td><td></td></tr>
+<tr><td>1</td><td>Data suspect</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Quality information not given</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 003  Quality information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Data not suspect</td><td></td></tr>
+<tr><td>1</td><td>Data slightly suspect</td><td></td></tr>
+<tr><td>2</td><td>Data highly suspect</td><td></td></tr>
+<tr><td>3</td><td>Data considered unfit for use</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Quality information not given</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 005  Quality information (AWS data)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No automated meteorological data checks performed</td><td></td></tr>
+<tr><td>2</td><td>Pressure data suspect</td><td></td></tr>
+<tr><td>3</td><td>Wind data suspect</td><td></td></tr>
+<tr><td>4</td><td>Air temperature data suspect</td><td></td></tr>
+<tr><td>5</td><td>Wet-bulb temperature data suspect</td><td></td></tr>
+<tr><td>6</td><td>Humidity data suspect</td><td></td></tr>
+<tr><td>7</td><td>Ground temperature data suspect</td><td></td></tr>
+<tr><td>8</td><td>Soil temperature (depth 1) data suspect</td><td></td></tr>
+<tr><td>9</td><td>Soil temperature (depth 2) data suspect</td><td></td></tr>
+<tr><td>10</td><td>Soil temperature (depth 3) data suspect</td><td></td></tr>
+<tr><td>11</td><td>Soil temperature (depth 4) data suspect</td><td></td></tr>
+<tr><td>12</td><td>Soil temperature (depth 5) data suspect</td><td></td></tr>
+<tr><td>13</td><td>Cloud data suspect</td><td></td></tr>
+<tr><td>14</td><td>Visibility data suspect</td><td></td></tr>
+<tr><td>15</td><td>Present weather data suspect</td><td></td></tr>
+<tr><td>16</td><td>Lightning data suspect</td><td></td></tr>
+<tr><td>17</td><td>Ice deposit data suspect</td><td></td></tr>
+<tr><td>18</td><td>Precipitation data suspect</td><td></td></tr>
+<tr><td>19</td><td>State of ground data suspect</td><td></td></tr>
+<tr><td>20</td><td>Snow data suspect</td><td></td></tr>
+<tr><td>21</td><td>Water content data suspect</td><td></td></tr>
+<tr><td>22</td><td>Evaporation/evapotranspiration data suspect</td><td></td></tr>
+<tr><td>23</td><td>Sunshine data suspect</td><td></td></tr>
+<tr><td>24-29</td><td>Reserved</td><td></td></tr>
+<tr><td>All 30</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 006  Internal measurement status information (AWS)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Self-check OK</td><td></td></tr>
+<tr><td>1</td><td>At least one warning active, no alarms</td><td></td></tr>
+<tr><td>2</td><td>At least one alarm active</td><td></td></tr>
+<tr><td>3</td><td>Sensor failure</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 015  Data quality-check indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Passed all checks</td><td></td></tr>
+<tr><td>1</td><td>Missing data check</td><td></td></tr>
+<tr><td>2</td><td>Descending/reascending balloon check</td><td></td></tr>
+<tr><td>3</td><td>Data plausibility check (above limits)</td><td></td></tr>
+<tr><td>4</td><td>Data plausibility check (below limits)</td><td></td></tr>
+<tr><td>5</td><td>Superadiabatic lapse rate check</td><td></td></tr>
+<tr><td>6</td><td>Limiting angles check</td><td></td></tr>
+<tr><td>7</td><td>Ascension rate check</td><td></td></tr>
+<tr><td>8</td><td>Excessive change from previous flight</td><td></td></tr>
+<tr><td>9</td><td>Balloon overhead check</td><td></td></tr>
+<tr><td>10</td><td>Wind speed check</td><td></td></tr>
+<tr><td>11</td><td>Wind direction check</td><td></td></tr>
+<tr><td>12</td><td>Dependency check</td><td></td></tr>
+<tr><td>13</td><td>Data valid but modified</td><td></td></tr>
+<tr><td>14</td><td>Data outlier check</td><td></td></tr>
+<tr><td>15-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 020  Quality control indication of following value</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Inconsistent</td><td></td></tr>
+<tr><td>2</td><td>Doubtful</td><td></td></tr>
+<tr><td>3</td><td>Wrong</td><td></td></tr>
+<tr><td>4</td><td>Not checked</td><td></td></tr>
+<tr><td>5</td><td>Has been changed</td><td></td></tr>
+<tr><td>6</td><td>Estimated</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 021  Quality of following value</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Within limits</td><td></td></tr>
+<tr><td>1</td><td>Outside limits</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 022  Quality of buoy satellite transmission</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good (several identical reports have been received)</td><td></td></tr>
+<tr><td>1</td><td>Dubious (no identical reports have been received)</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 023  Quality of buoy location</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reliable (location was made over two satellite passes)</td><td></td></tr>
+<tr><td>1</td><td>Latest known (no location over the corresponding pass)</td><td></td></tr>
+<tr><td>2</td><td>Dubious (location made over one pass only; a second solution is possible in 5 per cent of the cases)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 024  Station elevation quality mark (for mobile stations)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Excellent - within 3 metres</td><td></td></tr>
+<tr><td>2</td><td>Good - within 10 metres</td><td></td></tr>
+<tr><td>3</td><td>Fair - within 20 metres</td><td></td></tr>
+<tr><td>4</td><td>Poor - more than 20 metres</td><td></td></tr>
+<tr><td>5</td><td>Excellent - within 10 feet</td><td></td></tr>
+<tr><td>6</td><td>Good - within 30 feet</td><td></td></tr>
+<tr><td>7</td><td>Fair - within 60 feet</td><td></td></tr>
+<tr><td>8</td><td>Poor - more than 60 feet</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 025  ACARS interpolated values indicator</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Time interpolated, latitude and longitude reported</td><td></td></tr>
+<tr><td>1</td><td>Time reported, latitude and longitude interpolated</td><td></td></tr>
+<tr><td>2</td><td>Time, latitude, and longitude interpolated</td><td></td></tr>
+<tr><td>3</td><td>Time, latitude, and longitude reported</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 026  Moisture quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Normal operations - measurement mode</td><td></td></tr>
+<tr><td>1</td><td>Normal operations - non-measurement mode</td><td></td></tr>
+<tr><td>2</td><td>Small RH</td><td></td></tr>
+<tr><td>3</td><td>Humidity element is wet</td><td></td></tr>
+<tr><td>4</td><td>Humidity element contaminated</td><td></td></tr>
+<tr><td>5</td><td>Heater fail</td><td></td></tr>
+<tr><td>6</td><td>Heater fail and wet/contaminated humidity element</td><td></td></tr>
+<tr><td>7</td><td>At least one of the input parameters used in the calculation of mixing ratio is invalid</td><td></td></tr>
+<tr><td>8</td><td>Numeric error</td><td></td></tr>
+<tr><td>9</td><td>Sensor not installed</td><td></td></tr>
+<tr><td>10</td><td>Calculated RH &gt; 100%</td><td></td></tr>
+<tr><td>11</td><td>Input laser power too low</td><td></td></tr>
+<tr><td>12</td><td>Probe WV temperature out of range</td><td></td></tr>
+<tr><td>13</td><td>Probe WV pressure out of range</td><td></td></tr>
+<tr><td>14</td><td>Spectral line out of range</td><td></td></tr>
+<tr><td>15</td><td>No laser output</td><td></td></tr>
+<tr><td>16-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 027  Location quality class (range of radius of 66 % confidence)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Radius &gt;= 1500 m</td><td></td></tr>
+<tr><td>1</td><td>500 m =&lt; Radius &lt;1500 m</td><td></td></tr>
+<tr><td>2</td><td>250 m =&lt; Radius &lt; 500 m</td><td></td></tr>
+<tr><td>3</td><td>Radius &lt; 250 m</td><td></td></tr>
+<tr><td>4</td><td>=&lt; 100 m</td><td></td></tr>
+<tr><td>5-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 028  Snapshot overall quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nominal</td><td></td></tr>
+<tr><td>2</td><td>Degraded by SW error; any error reported by the algorithms</td><td></td></tr>
+<tr><td>3</td><td>Degraded by instrument error</td><td></td></tr>
+<tr><td>4</td><td>Degraded by corrupted /missing ADF</td><td></td></tr>
+<tr><td>5</td><td>General degradation</td><td></td></tr>
+<tr><td>6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 030  Scan line status flags for ATOVS</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Do not use scan for product generation</td><td></td></tr>
+<tr><td>2</td><td>Time sequence error detected with this scan</td><td></td></tr>
+<tr><td>3</td><td>Data gap precedes this scan</td><td></td></tr>
+<tr><td>4</td><td>No calibration</td><td></td></tr>
+<tr><td>5</td><td>No Earth location</td><td></td></tr>
+<tr><td>6</td><td>First good time following a clock update</td><td></td></tr>
+<tr><td>7</td><td>Instrument status changed with this scan</td><td></td></tr>
+<tr><td>8-23</td><td>Reserved</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF49: If bit is set to 1 then statement is true.</p>
+</div>
+<p class="fxy-heading">0 33 031  Scan line quality flags for ATOVS</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Time field is bad but can probably be inferred from the previous good time</td><td></td></tr>
+<tr><td>2</td><td>Time field is bad and cannot be inferred from the previous good time</td><td></td></tr>
+<tr><td>3</td><td>This record starts a sequence that is inconsistent with previous times (i.e. there is a time discontinuity). This may or may not be associated with a spacecraft clock update (see scan line status flags for ATOVS)</td><td></td></tr>
+<tr><td>4</td><td>Start of a sequence that apparently repeats scan times that have been previously accepted</td><td></td></tr>
+<tr><td>5</td><td>Scan line was not calibrated because of bad time</td><td></td></tr>
+<tr><td>6</td><td>Scan line was calibrated using fewer than the preferred number of scan lines because of proximity to start or end of data or to a data gap</td><td></td></tr>
+<tr><td>7</td><td>Scan line was not calibrated because of bad or insufficient PRT data</td><td></td></tr>
+<tr><td>8</td><td>Scan line was calibrated but with marginal PRT data</td><td></td></tr>
+<tr><td>9</td><td>Some uncalibrated channels on this scan</td><td></td></tr>
+<tr><td>10</td><td>Uncalibrated due to instrument mode</td><td></td></tr>
+<tr><td>11</td><td>Questionable calibration because of antenna position error of space view</td><td></td></tr>
+<tr><td>12</td><td>Questionable calibration because of antenna position error of black body</td><td></td></tr>
+<tr><td>13</td><td>Not Earth located because of bad time</td><td></td></tr>
+<tr><td>14</td><td>Earth location questionable because of questionable time code (see time problem code bits)</td><td></td></tr>
+<tr><td>15</td><td>Earth location questionable - only marginal agreement with reasonableness check</td><td></td></tr>
+<tr><td>16</td><td>Earth location questionable - fails reasonableness check</td><td></td></tr>
+<tr><td>17</td><td>Earth location questionable because of antenna position check</td><td></td></tr>
+<tr><td>18</td><td>Scan line calibration cold black body</td><td></td></tr>
+<tr><td>19</td><td>Scan line calibration warm black body</td><td></td></tr>
+<tr><td>20</td><td>Scan line calibration space view</td><td></td></tr>
+<tr><td>21</td><td>Earth view</td><td></td></tr>
+<tr><td>22-23</td><td>Reserved</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF24: Bits 1-4 represent time problem code. All bits off implies the scan time is as expected.</p>
+<p class="note">Note CF25: Bits 11-17 represent Earth location problem code. All bits set to zero implies the Earth location was normal.</p>
+<p class="note">Note CF27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
+<p class="note">Note CF49: If bit is set to 1 then statement is true.</p>
+</div>
+<p class="fxy-heading">0 33 032  Channel quality flags for ATOVS</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No good blackbody counts for scan line</td><td></td></tr>
+<tr><td>2</td><td>No good space view counts for this line</td><td></td></tr>
+<tr><td>3</td><td>No good PRTs for this line</td><td></td></tr>
+<tr><td>4</td><td>Some bad blackbody view counts for this line</td><td></td></tr>
+<tr><td>5</td><td>Some bad space view counts for this line</td><td></td></tr>
+<tr><td>6</td><td>Some bad PRT temps on this line</td><td></td></tr>
+<tr><td>7</td><td>Quality for this scan is reduced</td><td></td></tr>
+<tr><td>8-23</td><td>Reserved (bits set to zero)</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF17: All bits off implies a good calibration.</p>
+</div>
+<p class="fxy-heading">0 33 033  Field of view quality flags for ATOVS</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Set if secondary calibration used</td><td></td></tr>
+<tr><td>2-21</td><td>Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems</td><td>Note CF26: Bits 2-21 used for HIRS, but only bits 2-16 used for AMSU-A and only bits 2-6 used for AMSU-B.</td></tr>
+<tr><td>22</td><td>Set if all the channels are missing</td><td></td></tr>
+<tr><td>23</td><td>Suspect</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF17: All bits off implies a good calibration.</p>
+</div>
+<p class="fxy-heading">0 33 035  Manual/automatic quality control</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Automatic quality control passed and not manually checked</td><td></td></tr>
+<tr><td>1</td><td>Automatic quality control passed and manually checked and passed</td><td></td></tr>
+<tr><td>2</td><td>Automatic quality control passed and manually checked and deleted</td><td></td></tr>
+<tr><td>3</td><td>Automatic quality control failed and manually not checked</td><td></td></tr>
+<tr><td>4</td><td>Automatic quality control failed and manually checked and failed</td><td></td></tr>
+<tr><td>5</td><td>Automatic quality control failed and manually checked and re-inserted</td><td></td></tr>
+<tr><td>6</td><td>Automatic quality control flagged data as questionable and not manually checked</td><td></td></tr>
+<tr><td>7</td><td>Automatic quality control flagged data as questionable and manually checked and failed</td><td></td></tr>
+<tr><td>8</td><td>Manually checked and failed</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 037  Wind correlation error</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>u departure from guess</td><td></td></tr>
+<tr><td>2</td><td>v departure from guess</td><td></td></tr>
+<tr><td>3</td><td>u and v departure from guess</td><td></td></tr>
+<tr><td>4</td><td>u acceleration</td><td></td></tr>
+<tr><td>5</td><td>v acceleration</td><td></td></tr>
+<tr><td>6</td><td>u and v acceleration</td><td></td></tr>
+<tr><td>7</td><td>Possible land feature</td><td></td></tr>
+<tr><td>8</td><td>u acceleration and possible land feature</td><td></td></tr>
+<tr><td>9</td><td>v acceleration and possible land feature</td><td></td></tr>
+<tr><td>10</td><td>u and v acceleration and possible land feature</td><td></td></tr>
+<tr><td>11</td><td>Bad wind guess</td><td></td></tr>
+<tr><td>12</td><td>Correlation failure</td><td></td></tr>
+<tr><td>13</td><td>Search box off edge of area</td><td></td></tr>
+<tr><td>14</td><td>Target box off edge of area</td><td></td></tr>
+<tr><td>15</td><td>Pixel brightness out of bounds (noisy line)</td><td></td></tr>
+<tr><td>16</td><td>Target outside of latitude/longitude box</td><td></td></tr>
+<tr><td>17</td><td>Target outside of pressure minimum/maximum</td><td></td></tr>
+<tr><td>18</td><td>Autoeditor flagged slow vector</td><td></td></tr>
+<tr><td>19</td><td>Autoeditor flagged vectors</td><td></td></tr>
+<tr><td>All 20</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 038  Quality flags for ground-based GNSS data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Total zenith delay quality is considered poor</td><td></td></tr>
+<tr><td>2</td><td>GALILEO satellites used</td><td></td></tr>
+<tr><td>3</td><td>GLONASS satellites used</td><td></td></tr>
+<tr><td>4</td><td>GPS satellites used</td><td></td></tr>
+<tr><td>5</td><td>Meteorological data applied</td><td></td></tr>
+<tr><td>6</td><td>Atmospheric loading correction applied</td><td></td></tr>
+<tr><td>7</td><td>Ocean tide loading applied</td><td></td></tr>
+<tr><td>8</td><td>Climate quality data processing</td><td></td></tr>
+<tr><td>9</td><td>Near-real time data processing</td><td></td></tr>
+<tr><td>All 10</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 039  Quality flags for radio occultation data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Non-nominal quality</td><td></td></tr>
+<tr><td>2</td><td>Offline product</td><td></td></tr>
+<tr><td>3</td><td>Ascending occultation flag</td><td></td></tr>
+<tr><td>4</td><td>Excess phase processing non-nominal</td><td></td></tr>
+<tr><td>5</td><td>Bending angle processing non-nominal</td><td></td></tr>
+<tr><td>6</td><td>Refractivity processing non-nominal</td><td></td></tr>
+<tr><td>7</td><td>Meteorological processing non-nominal</td><td></td></tr>
+<tr><td>8</td><td>Open loop data included</td><td></td></tr>
+<tr><td>9</td><td>Surface reflections detected</td><td></td></tr>
+<tr><td>10</td><td>L2C GNSS signals used</td><td></td></tr>
+<tr><td>11-13</td><td>Reserved</td><td></td></tr>
+<tr><td>14</td><td>Background profile non-nominal</td><td></td></tr>
+<tr><td>15</td><td>Background (i.e. not retrieved) profile present</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 041  Attribute of following value</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>The following value is the true value</td><td></td></tr>
+<tr><td>1</td><td>The following value is higher than the true value (the measurement hit the lower limit of the instrument)</td><td></td></tr>
+<tr><td>2</td><td>The following value is lower than the true value (the measurement hit the higher limit of the instrument)</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF85: This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2.</p>
+</div>
+<p class="fxy-heading">0 33 042  Type of limit represented by following value</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Exclusive lower limit (&gt;)</td><td></td></tr>
+<tr><td>1</td><td>Inclusive lower limit (&gt;=)</td><td></td></tr>
+<tr><td>2</td><td>Exclusive upper limit (&lt;)</td><td></td></tr>
+<tr><td>3</td><td>Inclusive upper limit (=&lt;)</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 043  AST confidence</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Sea MDS. Nadir only SST retrieval used 3.7 micron channel. Land MDS reserved</td><td></td></tr>
+<tr><td>2</td><td>Sea MDS. Dual view SST retrieval used 3.7 micron channel. Land MDS reserved</td><td></td></tr>
+<tr><td>3</td><td>Nadir view contains day time data</td><td></td></tr>
+<tr><td>4</td><td>Forward view contains day time data</td><td></td></tr>
+<tr><td>5-7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 044  ASAR quality information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Input data mean outside nominal range flag</td><td></td></tr>
+<tr><td>2</td><td>Input data standard deviation outside nominal range flag</td><td></td></tr>
+<tr><td>3</td><td>Number of input data gaps &gt; threshold value</td><td></td></tr>
+<tr><td>4</td><td>Percentage of missing lines &gt; threshold value</td><td></td></tr>
+<tr><td>5</td><td>Doppler centroid uncertain. Confidence measure &lt; specific value</td><td></td></tr>
+<tr><td>6</td><td>Doppler ambiguity estimate uncertain. Confidence measure &lt; specific value</td><td></td></tr>
+<tr><td>7</td><td>Output data mean outside nominal range flag</td><td></td></tr>
+<tr><td>8</td><td>Output data standard deviation outside nominal range flag</td><td></td></tr>
+<tr><td>9</td><td>Chirp reconstruction failed or is of low quality flag</td><td></td></tr>
+<tr><td>10</td><td>Data set missing</td><td></td></tr>
+<tr><td>11</td><td>Invalid downlink parameters</td><td></td></tr>
+<tr><td>12</td><td>Azimuth cut-off iteration count. The azimuth cut-off fit did not converge within a minimum number of iterations</td><td></td></tr>
+<tr><td>13</td><td>Azimuth cut-off fit did not converge within a minimum number of iterations</td><td></td></tr>
+<tr><td>14</td><td>Phase information confidence measure. The imaginary spectral peak is less than a minimum threshold, or the zero lag shift is greater than a minimum threshold</td><td></td></tr>
+<tr><td>All 15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 047  Measurement confidence data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Error detected and attempts to recover made</td><td></td></tr>
+<tr><td>2</td><td>Anomaly in on-board data handling (OBDH) value detected</td><td></td></tr>
+<tr><td>3</td><td>Anomaly in ultra stable oscillator processing (USOP) value detected</td><td></td></tr>
+<tr><td>4</td><td>Errors detected by on-board computer</td><td></td></tr>
+<tr><td>5</td><td>Automatic gain control (AGC) out of range</td><td></td></tr>
+<tr><td>6</td><td>Reception (Rx) delay fault. Rx distance out of range</td><td></td></tr>
+<tr><td>7</td><td>Wave form samples fault identifier. Error</td><td></td></tr>
+<tr><td>8</td><td>S band anomaly/error detected</td><td></td></tr>
+<tr><td>9-11</td><td>Reserved</td><td></td></tr>
+<tr><td>12</td><td>Brightness temperature (channel 1) out of range</td><td></td></tr>
+<tr><td>13</td><td>Brightness temperature (channel 2) out of range</td><td></td></tr>
+<tr><td>14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Ku band ocean retracking error</td><td></td></tr>
+<tr><td>16</td><td>S band ocean retracking error</td><td></td></tr>
+<tr><td>17</td><td>Ku band ice 1 retracking error</td><td></td></tr>
+<tr><td>18</td><td>S band ice 1 retracking error</td><td></td></tr>
+<tr><td>19</td><td>Ku band ice 2 retracking error</td><td></td></tr>
+<tr><td>20</td><td>S band ice 2 retracking error</td><td></td></tr>
+<tr><td>21</td><td>Ku band sea ice retracking error</td><td></td></tr>
+<tr><td>22</td><td>Arithmetic fault error</td><td></td></tr>
+<tr><td>23</td><td>Meteo data state. No map</td><td></td></tr>
+<tr><td>24</td><td>Meteo data state. 1 map</td><td></td></tr>
+<tr><td>25</td><td>Meteo data state. 2 maps degraded</td><td></td></tr>
+<tr><td>26</td><td>Meteo data state. 2 maps nominal</td><td></td></tr>
+<tr><td>27</td><td>Orbit propagator status for propagation mode, several errors</td><td></td></tr>
+<tr><td>28</td><td>Orbit propagator status for propagation mode, warning detected</td><td></td></tr>
+<tr><td>29</td><td>Orbit propagator status for initialization mode, several errors</td><td></td></tr>
+<tr><td>30</td><td>Orbit propagator status for initialization mode, warning detected</td><td></td></tr>
+<tr><td>All 31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 048  Confidence measure of SAR inversion</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Inversion successful</td><td></td></tr>
+<tr><td>1</td><td>Inversion not successful</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 049  Confidence measure of wind retrieval</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>External wind direction used during inversion</td><td></td></tr>
+<tr><td>1</td><td>External wind direction not used during inversion</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 050  Global GTSPP quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unqualified</td><td></td></tr>
+<tr><td>1</td><td>Correct value (all checks passed)</td><td></td></tr>
+<tr><td>2</td><td>Probably good but value inconsistent with statistics (differ from climatology)</td><td></td></tr>
+<tr><td>3</td><td>Probably bad (spike, gradient, etc., if other tests passed)</td><td></td></tr>
+<tr><td>4</td><td>Bad value, impossible value (out of scale, vertical instability, constant profile)</td><td></td></tr>
+<tr><td>5</td><td>Value modified during quality control</td><td></td></tr>
+<tr><td>6-7</td><td>Reserved</td><td></td></tr>
+<tr><td>8</td><td>Interpolated value</td><td></td></tr>
+<tr><td>9</td><td>Good for operational use; Caution; check literature for other uses</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 052  S band ocean retracking quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid). Bit 1 applies to the 20th data block</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 053  Ku band ocean retracking quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block</td><td></td></tr>
+<tr><td>All 21</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 054  Overall quality of retrieved atmospheric profile</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Profile values good</td><td></td></tr>
+<tr><td>1</td><td>Profile values suspected</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Profile values not good</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 055  Wind vector quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-10</td><td>Reserved</td><td></td></tr>
+<tr><td>11</td><td>Ocean sigma-0 is not available for wind retrievals</td><td></td></tr>
+<tr><td>12</td><td>Background wind is not available</td><td></td></tr>
+<tr><td>13</td><td>Background model detect land</td><td></td></tr>
+<tr><td>14</td><td>Background model detect ice</td><td></td></tr>
+<tr><td>15</td><td>Sigma-0 is not land/ice free</td><td></td></tr>
+<tr><td>16</td><td>Sigma-0 land contamination</td><td></td></tr>
+<tr><td>17</td><td>Sigma-0 ice contamination</td><td></td></tr>
+<tr><td>18</td><td>Not enough azimuthal diversity</td><td></td></tr>
+<tr><td>19</td><td>Inversion is not done</td><td></td></tr>
+<tr><td>20</td><td>Overall WVC flag</td><td></td></tr>
+<tr><td>21</td><td>Inversion is attempted (flag is set)</td><td></td></tr>
+<tr><td>22</td><td>Rainflag is attempted (flag is set)</td><td></td></tr>
+<tr><td>23</td><td>Rain is detected</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 056  Sigma-0 quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-7</td><td>Reserved</td><td></td></tr>
+<tr><td>8</td><td>Ascending</td><td></td></tr>
+<tr><td>9</td><td>VV polarisation</td><td></td></tr>
+<tr><td>10</td><td>Fore of spacecraft</td><td></td></tr>
+<tr><td>11</td><td>Land</td><td></td></tr>
+<tr><td>12</td><td>Poor sigma-0 (summary)</td><td></td></tr>
+<tr><td>13</td><td>Invalid sigma-0 (summary)</td><td></td></tr>
+<tr><td>14</td><td>Poor BT</td><td></td></tr>
+<tr><td>15</td><td>Invalid BT</td><td></td></tr>
+<tr><td>16</td><td>Land-sea boundary</td><td></td></tr>
+<tr><td>17</td><td>Negative sigma-0</td><td></td></tr>
+<tr><td>18-20</td><td>Reserved</td><td></td></tr>
+<tr><td>21</td><td>Ice</td><td></td></tr>
+<tr><td>22</td><td>Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more days</td><td></td></tr>
+<tr><td>23</td><td>Ice-ocean contamination</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 060  GqisFlagQual - individual IASI-System quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Bad</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 066  AMV quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-19</td><td>Reserved</td><td></td></tr>
+<tr><td>20</td><td>Good wind, but an alternative channel used for feature tracking</td><td></td></tr>
+<tr><td>21</td><td>Good wind, but an alternative set of channels used for the determination of cloud-top height/AMV height assignment</td><td></td></tr>
+<tr><td>22</td><td>Correlation surface constraint fails</td><td></td></tr>
+<tr><td>23</td><td>Reserved</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 070  Total ozone quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good retrieval</td><td></td></tr>
+<tr><td>1</td><td>Bad aerosol information flag or NOAA-16 radiance anomaly</td><td></td></tr>
+<tr><td>2</td><td>Solar zenith angle greater than 84 degrees</td><td></td></tr>
+<tr><td>3</td><td>380 nm residue greater than limit</td><td></td></tr>
+<tr><td>4</td><td>Ozone inconsistency</td><td></td></tr>
+<tr><td>5</td><td>Difference between profile ozone and step 3 total ozone exceeds threshold (set to 25 DU)</td><td></td></tr>
+<tr><td>6</td><td>Step 1 ozone iteration did not converge</td><td></td></tr>
+<tr><td>7</td><td>Any channel residue greater than 16 or bad radiance</td><td></td></tr>
+<tr><td>8</td><td>Insufficient pixels - not processed</td><td></td></tr>
+<tr><td>9</td><td>First guess good - ozone forecast data used</td><td></td></tr>
+<tr><td>10</td><td>High cloud in pixel - not processed</td><td></td></tr>
+<tr><td>11</td><td>Successful ozone retrieval</td><td></td></tr>
+<tr><td>12</td><td>Unsuccessful ozone retrieval</td><td></td></tr>
+<tr><td>13-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 071  Profile ozone quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good retrieval</td><td></td></tr>
+<tr><td>1</td><td>Solar zenith angle greater than 84 degrees</td><td></td></tr>
+<tr><td>2</td><td>Difference between step 3 and profile total ozone greater than limit (25 DU)</td><td></td></tr>
+<tr><td>3</td><td>Average final residue for wavelengths used in retrieval greater than threshold</td><td></td></tr>
+<tr><td>4</td><td>Final residue greater than 3 times a priori error</td><td></td></tr>
+<tr><td>5</td><td>Difference between retrieved and a priori greater than 3 times a priori error</td><td></td></tr>
+<tr><td>6</td><td>Non-convergent solution</td><td></td></tr>
+<tr><td>7</td><td>Upper level profile anomaly or stray light anomaly</td><td></td></tr>
+<tr><td>8</td><td>Initial residue greater than 18.0 N-value units</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 072  Ozone error</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good retrieval</td><td></td></tr>
+<tr><td>1</td><td>Reflectivity out of range</td><td></td></tr>
+<tr><td>2</td><td>Larger pixels (Number of cross-track pixels less than 32) or backward scans error</td><td></td></tr>
+<tr><td>3</td><td>Solar zenith angle greater than 88 degrees</td><td></td></tr>
+<tr><td>4</td><td>Latitude/longitude out of range</td><td></td></tr>
+<tr><td>5</td><td>Viewing zenith angle or solar zenith angle out of range</td><td></td></tr>
+<tr><td>6</td><td>Step-one process failed in general</td><td></td></tr>
+<tr><td>7</td><td>First guess ozone out of range</td><td></td></tr>
+<tr><td>8</td><td>Too many iterations (exceed 8)</td><td></td></tr>
+<tr><td>9</td><td>Step-one residue calculation failed</td><td></td></tr>
+<tr><td>10</td><td>Step-two process failed in general</td><td></td></tr>
+<tr><td>11</td><td>First guess ozone profile out of range</td><td></td></tr>
+<tr><td>12</td><td>Step-two ozone value out of range</td><td></td></tr>
+<tr><td>13</td><td>Step-two residue calculation failed</td><td></td></tr>
+<tr><td>14</td><td>Step-three process failed in general</td><td></td></tr>
+<tr><td>15</td><td>Polarization correction accuracy alert</td><td></td></tr>
+<tr><td>16</td><td>Radiance or irradiance less or equal to zero</td><td></td></tr>
+<tr><td>17-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 075  Scan-level quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)</td><td></td></tr>
+<tr><td>2</td><td>Recorded time is not in sequence (i.e., the scan start time is out of sequence)</td><td></td></tr>
+<tr><td>3</td><td>Lambda monitored calculation cannot be updated</td><td>Note CF72: Set to 1 if laser wavelength calculation is invalid due to laser diode bias current and/or laser diode temperature measurements being outside the predetermined allowable ranges. These ranges are tunable.In this case Lambda monitored calculation shall have 1 bit per scan.</td></tr>
+<tr><td>4</td><td>The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges</td><td>Note CF83: These temperatures are used to compute the &#x27;environmental&#x27; contribution to the internal calibration target (ICT) radiances. When this bit is set to 1, the invalid temperatures shall be replaced with the validated temperature values of the ICT.</td></tr>
+<tr><td>5</td><td>At least one of the monitored instrument temperatures has drifted more than a specified tolerance value</td><td></td></tr>
+<tr><td>6-12</td><td>Reserved</td><td></td></tr>
+<tr><td>All 13</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 076  Calibration quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Lunar intrusion on first deep space view</td><td>Note CF71: Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.</td></tr>
+<tr><td>2</td><td>Lunar intrusion on second deep space view</td><td>Note CF71: Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.</td></tr>
+<tr><td>3-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 077  Field-of-view quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Degraded SDR quality</td><td></td></tr>
+<tr><td>2</td><td>Invalid SDR quality</td><td>Note CF68: SDR quality is invalid if bit trim failed (see bit 12), or fringe count error detected (see bit 11), or invalid raw data record (RDR) data (see bit 10), or invalid radiometric calibration (see bit 5), or invalid spectral calibration (see bit 7).</td></tr>
+<tr><td>3</td><td>Invalid SDR geolocation information</td><td></td></tr>
+<tr><td>4</td><td>Degraded radiometric calibration</td><td></td></tr>
+<tr><td>5</td><td>Invalid radiometric calibration</td><td>Note CF67: Radiometric calibration is invalid if radiometric calibration is not performed, or if it is performed with invalid calibration data (e.g., deep space window size = 0).</td></tr>
+<tr><td>6</td><td>Degraded spectral calibration</td><td></td></tr>
+<tr><td>7</td><td>Invalid spectral calibration</td><td>Note CF73: Spectral calibration is invalid if fringe count error detected and corrected (see bit 8), or if neon calibration is suspect and Lambda monitored calculation cannot be updated (see &#x27;Scan-level quality flags&#x27; (0 33 075) -bit 3).</td></tr>
+<tr><td>8</td><td>Fringe count error detected and corrected</td><td>Note CF70: Set to 0 if no fringe count error was detected (see bit 11), or a fringe count error was detected but it was not corrected.</td></tr>
+<tr><td>9</td><td>Day/night indicator</td><td>Note CF69: Set to 0 if day (solar zenith angle &lt; 90°). Set to 1 if night (solar zenith angle ≥ 90°).</td></tr>
+<tr><td>10</td><td>Invalid RDR data</td><td>Note CF87: This flag indicates the instrument exhibited operational errors and the associated interferogram(s) is/are excluded from SDR processing.</td></tr>
+<tr><td>11</td><td>Significant fringe count error detected</td><td>Note CF86: This flag indicates that a significant number of fringes have been missed, shifting the interferogram ZPD outside of a window monitored by the instrument, and the interferogram is excluded from SDR processing.</td></tr>
+<tr><td>12</td><td>Bit trim failed</td><td></td></tr>
+<tr><td>13-18</td><td>Reserved</td><td></td></tr>
+<tr><td>All 19</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 078  Geolocation quality</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Nominal - altitude and ephemeris data available</td><td></td></tr>
+<tr><td>1</td><td>Missing at most a small gap of altitude and ephemeris data</td><td></td></tr>
+<tr><td>2</td><td>Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary</td><td></td></tr>
+<tr><td>3</td><td>Missing more than a granule boundary of altitude and ephemeris data</td><td></td></tr>
+<tr><td>4-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 079  Granule level quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>The No. 1-No. 7 health checks failed</td><td></td></tr>
+<tr><td>7</td><td>The No. 8-No. 15 health checks failed</td><td></td></tr>
+<tr><td>8</td><td>The No. 16-No. 23 health checks failed</td><td></td></tr>
+<tr><td>9</td><td>The No. 24-No. 31 health checks failed</td><td></td></tr>
+<tr><td>10</td><td>The No. 32-No. 39 health checks failed</td><td></td></tr>
+<tr><td>11</td><td>The No. 40-No. 47 health checks failed</td><td></td></tr>
+<tr><td>12</td><td>The No. 48-No. 55 health checks failed</td><td></td></tr>
+<tr><td>13</td><td>The No. 56-No. 63 health checks failed</td><td></td></tr>
+<tr><td>14</td><td>The No. 64-No. 70 health checks failed</td><td></td></tr>
+<tr><td>15</td><td>Quadratic correction applied to the radiometric transfer function for non-linearity correction</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 080  Scan level quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT</td><td></td></tr>
+<tr><td>8</td><td>Divide-by-zero condition or computation loop failed to converge in the WG band PRT</td><td></td></tr>
+<tr><td>9</td><td>Divide-by-zero condition or computation loop failed to converge in the K/Ka, V, W, G band receiver shelf PRT K temperature computation</td><td></td></tr>
+<tr><td>10</td><td>Out of range condition for the K/Ka and V band PRT</td><td></td></tr>
+<tr><td>11</td><td>Out of range condition for the WG band PRT</td><td></td></tr>
+<tr><td>12</td><td>KAV PRT temperature inconsistency</td><td></td></tr>
+<tr><td>13</td><td>WG PRT temperature inconsistency</td><td></td></tr>
+<tr><td>14</td><td>Time sequence error</td><td></td></tr>
+<tr><td>15</td><td>Data gap - missing scan(s) preceding the current scan</td><td></td></tr>
+<tr><td>16</td><td>KAV PRT sufficiency - insufficient KAV PRT data are available</td><td></td></tr>
+<tr><td>17</td><td>WG PRT sufficiency - insufficient WG PRT data are available</td><td></td></tr>
+<tr><td>18</td><td>Space view antenna position error</td><td></td></tr>
+<tr><td>19</td><td>Blackbody antenna position error</td><td></td></tr>
+<tr><td>All 20</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 081  Channel data quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Moon in space view</td><td></td></tr>
+<tr><td>4</td><td>Gain error - the lowest blackbody count is smaller than or equal to the highest space view count in a scan</td><td></td></tr>
+<tr><td>5</td><td>Calibration with fewer than preferred samples</td><td></td></tr>
+<tr><td>6</td><td>Space view data sufficiency check - insufficient space view samples are available</td><td></td></tr>
+<tr><td>7</td><td>Blackbody view data sufficiency check - insufficient blackbody view samples are available</td><td></td></tr>
+<tr><td>8</td><td>Out of range condition for the space view</td><td></td></tr>
+<tr><td>9</td><td>Out of range condition for the blackbody view</td><td></td></tr>
+<tr><td>10</td><td>Space view inconsistency</td><td></td></tr>
+<tr><td>11</td><td>Blackbody view inconsistency</td><td></td></tr>
+<tr><td>All 12</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 082  Geolocation quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Within South Atlantic anomaly</td><td></td></tr>
+<tr><td>7</td><td>Invalid input data (indicates that any of the spacecraft ephemeris or attitude data are invalid)</td><td></td></tr>
+<tr><td>8</td><td>Bad pointing (indicates that the sensor LOS does not intersect the geoid, is near the limb, has invalid sensor angles or other similar condition)</td><td></td></tr>
+<tr><td>9</td><td>Bad terrain (indicates that the algorithm could not obtain a valid terrain value)</td><td></td></tr>
+<tr><td>10</td><td>Invalid solar angles</td><td></td></tr>
+<tr><td>11</td><td>Missing at most a small gap of altitude and ephemeris data</td><td></td></tr>
+<tr><td>12</td><td>Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary</td><td></td></tr>
+<tr><td>13</td><td>Missing more than a granule boundary of altitude and ephemeris data</td><td></td></tr>
+<tr><td>14</td><td>The number of encoder pulse values per delta time is not as expected</td><td></td></tr>
+<tr><td>15</td><td>Solar eclipse during Earth view scan</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 083  Radiance data quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Pixel is affected by radio-frequency interference</td><td></td></tr>
+<tr><td>7</td><td>Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view</td><td></td></tr>
+<tr><td>8</td><td>Saturated pixel</td><td></td></tr>
+<tr><td>9</td><td>Missing data -data required for calibration processing are not available for processing</td><td></td></tr>
+<tr><td>10</td><td>Calibrated pixel radiance out of range</td><td></td></tr>
+<tr><td>11</td><td>Calibrated pixel reflectance or EBBT out of range</td><td></td></tr>
+<tr><td>12</td><td>The moon has corrupted the space view</td><td></td></tr>
+<tr><td>13</td><td>Scan data is not present (no valid data)</td><td></td></tr>
+<tr><td>14</td><td>Quality for this scan-line is reduced. The value is determined by the combined number of steps required to find a replacement for thermistor or calibration source data</td><td></td></tr>
+<tr><td>15</td><td>Bad detector</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 084  Pixel level quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Bulk SST outside of validation range</td><td></td></tr>
+<tr><td>7</td><td>Skin SST outside of validation range</td><td></td></tr>
+<tr><td>8</td><td>Sensor zenith angle &gt; 40 degrees (pixel is not within 40 degrees of nadir and therefore is not of high quality)</td><td></td></tr>
+<tr><td>9</td><td>Degradation - horizontal cell size (HCS) &gt; 1.3 km (HCS &gt; 1.3 km, swath width &gt; 1 700 km, sensor zenith angle &gt; 50.3 degrees)</td><td></td></tr>
+<tr><td>10</td><td>Exclusion: no ocean in pixel</td><td></td></tr>
+<tr><td>11</td><td>Degradation: aerosol optical thickness (AOT) &gt; 0.6 (AOT in horizontal cell &gt; 0.6 on the slant path (AOT @550 nm))</td><td></td></tr>
+<tr><td>12</td><td>Exclusion: AOT &gt; 1.0 (AOT in horizontal cell &gt; 1.0 on the slant path (AOT @550 nm))</td><td></td></tr>
+<tr><td>13</td><td>Sun glint present in pixel</td><td></td></tr>
+<tr><td>14</td><td>Ice concentration threshold exceeded (SST not retrieved due to ice concentration exceeding threshold in system spec)</td><td></td></tr>
+<tr><td>15</td><td>Thin cirrus detected in pixel</td><td></td></tr>
+<tr><td>All 16</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 085  Aerosol optical thickness quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>Reserved</td><td></td></tr>
+<tr><td>4</td><td>Angstrom exponent is outside of the system specification range</td><td></td></tr>
+<tr><td>5</td><td>Excluded, Angstrom exponent for AOT at 550 nm &lt; 0.15</td><td></td></tr>
+<tr><td>6</td><td>Bright surface in cell (if over land), or shallow or turbid water in cell (if over ocean)</td><td></td></tr>
+<tr><td>7</td><td>Low sun, excluded, Solar Zenith Angle &gt; 80 degrees</td><td></td></tr>
+<tr><td>8</td><td>Low sun, degraded, 65 degrees &lt; Solar Zenith Angle =&lt; 80 degrees</td><td></td></tr>
+<tr><td>9</td><td>Fire detected in cell</td><td></td></tr>
+<tr><td>10</td><td>Snow/Ice in cell</td><td></td></tr>
+<tr><td>11</td><td>Cloud shadow in cell</td><td></td></tr>
+<tr><td>12</td><td>Sun glint in cell</td><td></td></tr>
+<tr><td>13</td><td>Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell)</td><td></td></tr>
+<tr><td>14</td><td>Cirrus contamination in cell</td><td></td></tr>
+<tr><td>15</td><td>Cloud adjacent to cell</td><td></td></tr>
+<tr><td>16</td><td>Cloud contamination in cell</td><td></td></tr>
+<tr><td>17</td><td>AOT is outside of the system specification range</td><td></td></tr>
+<tr><td>All 18</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 086  Quality of pixel level retrieval</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Not retrieved</td><td></td></tr>
+<tr><td>1</td><td>Excluded</td><td></td></tr>
+<tr><td>2</td><td>Degraded</td><td></td></tr>
+<tr><td>3</td><td>High quality</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 087  Extent of satellite within South Atlantic anomaly (based on climatological data)</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Less than or equal to 10%</td><td></td></tr>
+<tr><td>1</td><td>Greater than 10% but less than or equal to 20%</td><td></td></tr>
+<tr><td>2</td><td>Greater than 20% but less than or equal to 30%</td><td></td></tr>
+<tr><td>3</td><td>Greater than 30% but less than or equal to 40%</td><td></td></tr>
+<tr><td>4</td><td>Greater than 40% but less than or equal to 50%</td><td></td></tr>
+<tr><td>5</td><td>Greater than 50% but less than or equal to 60%</td><td></td></tr>
+<tr><td>6</td><td>Greater than 60% but less than or equal to 70%</td><td></td></tr>
+<tr><td>7</td><td>Greater than 70% but less than or equal to 80%</td><td></td></tr>
+<tr><td>8</td><td>Greater than 80%</td><td></td></tr>
+<tr><td>9-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 088  Ozone total column quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Reserved</td><td></td></tr>
+<tr><td>6</td><td>Surface reflectivity out of range</td><td></td></tr>
+<tr><td>7</td><td>Residual too large</td><td></td></tr>
+<tr><td>8</td><td>Aerosol index limit exceeded</td><td></td></tr>
+<tr><td>9</td><td>Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)</td><td></td></tr>
+<tr><td>10</td><td>Sun glint present within IFOV</td><td></td></tr>
+<tr><td>11</td><td>Snow or ice surface is within the IFOV</td><td></td></tr>
+<tr><td>12</td><td>Solar zenith angle in excluded (night) condition (solar zenith angle &gt;= 88 degrees)</td><td></td></tr>
+<tr><td>13</td><td>Solar zenith angle in degraded condition (80 degrees =&lt; solar zenith angle &lt; 88 degrees)</td><td></td></tr>
+<tr><td>14</td><td>SO2 index &gt; 6 DU (degraded condition)</td><td></td></tr>
+<tr><td>15</td><td>Residues are not consistent (indicates whether the residues from the 22 wavelengths are consistent)</td><td></td></tr>
+<tr><td>16</td><td>O3 triplet selection is not consistent within retrieval (ozone triplet consistency)</td><td></td></tr>
+<tr><td>17</td><td>Input data quality is not good</td><td></td></tr>
+<tr><td>All 18</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 092  Band specific ocean quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Altimeter operating</td><td></td></tr>
+<tr><td>2</td><td>Microwave radiometer (MWR) operating</td><td></td></tr>
+<tr><td>3-8</td><td>Reserved</td><td></td></tr>
+<tr><td>All 9</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 093  Extended quality flags for ground-based GNSS data</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Path delay quality is considered poor</td><td></td></tr>
+<tr><td>2</td><td>GALILEO satellites used</td><td></td></tr>
+<tr><td>3</td><td>GLONASS satellites used</td><td></td></tr>
+<tr><td>4</td><td>GPS satellites used</td><td></td></tr>
+<tr><td>5</td><td>BeiDou satellites used</td><td></td></tr>
+<tr><td>6-8</td><td>Reserved for new GNSS</td><td></td></tr>
+<tr><td>9</td><td>Meteorological data applied</td><td></td></tr>
+<tr><td>10</td><td>Atmospheric loading correction applied</td><td></td></tr>
+<tr><td>11</td><td>Ocean tide loading applied</td><td></td></tr>
+<tr><td>12</td><td>Second order ionosphere corrections applied</td><td></td></tr>
+<tr><td>13</td><td>Third order ionosphere corrections applied</td><td></td></tr>
+<tr><td>14</td><td>PPP solution</td><td></td></tr>
+<tr><td>15</td><td>Gradients applied to path delay</td><td></td></tr>
+<tr><td>16</td><td>Multipath corrections applied to path delay</td><td></td></tr>
+<tr><td>17</td><td>Residual applied to path delay</td><td></td></tr>
+<tr><td>18</td><td>Climate quality data processing</td><td></td></tr>
+<tr><td>19</td><td>Re-processing</td><td></td></tr>
+<tr><td>20</td><td>Post-processing</td><td></td></tr>
+<tr><td>21</td><td>Near-real time data processing</td><td></td></tr>
+<tr><td>22</td><td>Real time data processing</td><td></td></tr>
+<tr><td>23-30</td><td>Reserved</td><td></td></tr>
+<tr><td>All 31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 094  Calibration quality control flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-15</td><td>Reserved</td><td></td></tr>
+<tr><td>16</td><td>Non-ocean</td><td></td></tr>
+<tr><td>17</td><td>Lunar or solar intrusion</td><td></td></tr>
+<tr><td>18</td><td>Spacecraft manoeuvre</td><td></td></tr>
+<tr><td>19</td><td>Cold calibration consistency</td><td></td></tr>
+<tr><td>20</td><td>Warm calibration consistency</td><td></td></tr>
+<tr><td>21</td><td>Descending</td><td></td></tr>
+<tr><td>22</td><td>Night</td><td></td></tr>
+<tr><td>23</td><td>Payload rear orientation</td><td></td></tr>
+<tr><td>All 24</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 095  MWI temperatures flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>PRT or THM temperatures are missing or with anomalous readings</td><td></td></tr>
+<tr><td>2</td><td>PRT temperatures of OBCT used in the radiometric calibrations are missing or with anomalous readings</td><td></td></tr>
+<tr><td>3</td><td>THM temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings</td><td></td></tr>
+<tr><td>4</td><td>THM temperatures of main reflector are missing or with anomalous readings</td><td></td></tr>
+<tr><td>5</td><td>THM temperatures of the racetrack are missing or with anomalous readings</td><td></td></tr>
+<tr><td>6</td><td>THM temperatures of the receivers are missing or with anomalous readings</td><td></td></tr>
+<tr><td>7</td><td>Reserved</td><td></td></tr>
+<tr><td>All 8</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 096  MWI calibration flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Radiometric calibration failed or is degraded</td><td></td></tr>
+<tr><td>2</td><td>OBCT view counts averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>3</td><td>Cold space view counts averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>4</td><td>OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>5</td><td>Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>6</td><td>OBCT view radiance averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>7</td><td>Cold space view radiance averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>8</td><td>OBCT view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>9</td><td>Cold space view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>10</td><td>Non-linearity parameter computed using noise diodes is missing (meaningful only for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>11</td><td>Non-linearity parameter computed using noise diodes is degraded (meaningful only for channels MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>12</td><td>PRT or THM temperatures of current scan are missing or with anomalous readings</td><td></td></tr>
+<tr><td>13</td><td>Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan)</td><td></td></tr>
+<tr><td>14</td><td>Back-up calibration with noise diodes performed (meaningful only for MWI-1 to MWI-3)</td><td></td></tr>
+<tr><td>15</td><td>Degraded receiver temperatures lead to degraded calibration</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 097  MWI scan quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Scan is degraded in raw data record</td><td></td></tr>
+<tr><td>2</td><td>Time sequence error</td><td></td></tr>
+<tr><td>3</td><td>Current scan is acquired after a gap</td><td></td></tr>
+<tr><td>4</td><td>Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps).</td><td></td></tr>
+<tr><td>5</td><td>Moon intrusion angle in space view below threshold for at least one channel</td><td></td></tr>
+<tr><td>6</td><td>Moon correction is applied but is degraded for at least one channel</td><td></td></tr>
+<tr><td>7</td><td>Sun glint angle below threshold for at least one channel</td><td></td></tr>
+<tr><td>8</td><td>RFI contamination in the Earth view or RFI packet missing for the considered scan (only for MWI-1V and MWI-1H)</td><td></td></tr>
+<tr><td>9</td><td>Satellite manoeuvre occurs in current scan</td><td></td></tr>
+<tr><td>10</td><td>Missing warm or cold L0 packets for the considered scan</td><td></td></tr>
+<tr><td>11-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 098  MWI data quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>MWI spectral radiance data of channel is missing or degraded</td><td></td></tr>
+<tr><td>2</td><td>Earth view counts of channel within scan are missing or out of bounds</td><td></td></tr>
+<tr><td>3</td><td>Radiometric calibration failed or is degraded</td><td></td></tr>
+<tr><td>4</td><td>Geolocation of channel is erroneous or degraded</td><td></td></tr>
+<tr><td>5</td><td>NEΔT of this data granule is above threshold</td><td></td></tr>
+<tr><td>6</td><td>MR emissivity and spillover correction failed or degraded</td><td></td></tr>
+<tr><td>7</td><td>MR sidelobe correction failed or degraded</td><td></td></tr>
+<tr><td>8</td><td>Channel is defective</td><td></td></tr>
+<tr><td>All 9</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 099  MWI navigation status flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Geolocation of channel is erroneous or degraded</td><td></td></tr>
+<tr><td>2</td><td>Time sequence error</td><td></td></tr>
+<tr><td>3</td><td>Missing or corrupted NAVATT file led to the use of predicted orbit files</td><td></td></tr>
+<tr><td>4</td><td>NAVATT attitude data is degraded</td><td></td></tr>
+<tr><td>5</td><td>Time correlation error (missing IERS bulletin)</td><td></td></tr>
+<tr><td>6</td><td>Invalid ephemeris or attitude data</td><td></td></tr>
+<tr><td>7</td><td>Satellite manoeuvre occurs in current scan</td><td></td></tr>
+<tr><td>8</td><td>Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)</td><td></td></tr>
+<tr><td>9</td><td>Sampling time not within prescribed limits</td><td></td></tr>
+<tr><td>10</td><td>Scan velocity not within prescribed limits</td><td></td></tr>
+<tr><td>11</td><td>Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits)</td><td></td></tr>
+<tr><td>12</td><td>Invalid solar azimuth/zenith angles computed</td><td></td></tr>
+<tr><td>13</td><td>DEM geolocation not performed (with use_DEM_flag = 1)</td><td></td></tr>
+<tr><td>14</td><td>Error in land fraction computation</td><td></td></tr>
+<tr><td>15</td><td>Predicted orbit file not available</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 100  ICI temperatures flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>PRT or THM temperatures are missing or with anomalous readings</td><td></td></tr>
+<tr><td>2</td><td>PRT temperatures of OBCT used in the radiometric calibrations is missing or with anomalous readings</td><td></td></tr>
+<tr><td>3</td><td>PRT temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings</td><td></td></tr>
+<tr><td>4</td><td>PRT temperatures of IRP and sun shield are missing or with anomalous readings</td><td></td></tr>
+<tr><td>5</td><td>THM temperature of back-end are missing or with anomalous readings</td><td></td></tr>
+<tr><td>6</td><td>THM temperature of front-end are missing or with anomalous readings</td><td></td></tr>
+<tr><td>7</td><td>PRT temperatures of main reflector are missing or with anomalous readings</td><td></td></tr>
+<tr><td>All 8</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 101  ICI calibration flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Radiometric calibration failed or is degraded</td><td></td></tr>
+<tr><td>2</td><td>OBCT view counts averaged value over scans is missing</td><td></td></tr>
+<tr><td>3</td><td>Cold space view counts averaged value over scans is missing</td><td></td></tr>
+<tr><td>4</td><td>OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values</td><td></td></tr>
+<tr><td>5</td><td>Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values</td><td></td></tr>
+<tr><td>6</td><td>OBCT view radiance averaged value over scans is missing</td><td></td></tr>
+<tr><td>7</td><td>Cold space view radiance averaged value over scans is missing</td><td></td></tr>
+<tr><td>8</td><td>OBCT view radiance averaged value over scans is degraded due to missing or anomalous values</td><td></td></tr>
+<tr><td>9</td><td>Cold space view radiance averaged value over scans is degraded due to missing or anomalous values</td><td></td></tr>
+<tr><td>10</td><td>PRT or THM temperatures of current scan are missing or with anomalous readings</td><td></td></tr>
+<tr><td>11</td><td>Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan)</td><td></td></tr>
+<tr><td>12</td><td>Degraded or missing back-end temperatures lead to degraded calibration</td><td></td></tr>
+<tr><td>13-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 102  ICI navigation status flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Scan is degraded in raw data records</td><td></td></tr>
+<tr><td>2</td><td>Time sequence error</td><td></td></tr>
+<tr><td>3</td><td>Current scan is acquired after a gap</td><td></td></tr>
+<tr><td>4</td><td>Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps)</td><td></td></tr>
+<tr><td>5</td><td>Moon intrusion angle in space view below threshold for at least one channel</td><td></td></tr>
+<tr><td>6</td><td>Moon correction is applied but is degraded for at least one channel</td><td></td></tr>
+<tr><td>7</td><td>Sun glint angle below threshold for at least one channel</td><td></td></tr>
+<tr><td>8</td><td>Satellite manoeuvre occurs in current scan</td><td></td></tr>
+<tr><td>9</td><td>Missing warm or cold L0 packets for the considered scan</td><td></td></tr>
+<tr><td>10-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 103  ICI scan quality flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>ICI spectral radiance data of channel is missing or degraded</td><td></td></tr>
+<tr><td>2</td><td>Earth view counts of channel within scan are missing or out of bounds</td><td></td></tr>
+<tr><td>3</td><td>Radiometric calibration failed or is degraded</td><td></td></tr>
+<tr><td>4</td><td>Geolocation of channel is erroneous or degraded</td><td></td></tr>
+<tr><td>5</td><td>NEΔT of this data granule is above threshold</td><td></td></tr>
+<tr><td>6</td><td>MR emissivity and spillover correction failed or degraded</td><td></td></tr>
+<tr><td>7</td><td>MR sidelobe correction failed or degraded</td><td></td></tr>
+<tr><td>8</td><td>Channel is defective</td><td></td></tr>
+<tr><td>All 9</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 104  ICI navigation status flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Geolocation of channels is erroneous or degraded</td><td></td></tr>
+<tr><td>2</td><td>Time sequence error</td><td></td></tr>
+<tr><td>3</td><td>Missing or corrupted NAVATT file led to the use of predicted orbit files</td><td></td></tr>
+<tr><td>4</td><td>NAVATT attitude data is degraded</td><td></td></tr>
+<tr><td>5</td><td>Time correlation error (missing IERS bulletin)</td><td></td></tr>
+<tr><td>6</td><td>Invalid ephemeris or attitude data</td><td></td></tr>
+<tr><td>7</td><td>Satellite manoeuvre occurs in current scan</td><td></td></tr>
+<tr><td>8</td><td>Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)</td><td></td></tr>
+<tr><td>9</td><td>Sampling time not within prescribed limits</td><td></td></tr>
+<tr><td>10</td><td>Scan velocity not within prescribed limits</td><td></td></tr>
+<tr><td>11</td><td>Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits)</td><td></td></tr>
+<tr><td>12</td><td>Invalid solar azimuth/zenith angles computed</td><td></td></tr>
+<tr><td>13</td><td>DEM geolocation not performed (with use_DEM_flag = 1)</td><td></td></tr>
+<tr><td>14</td><td>Error in land fraction computation</td><td></td></tr>
+<tr><td>15</td><td>Predicted orbit file not available</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 105  ICI processing flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Moon contamination correction on cold space view counts is not applied</td><td></td></tr>
+<tr><td>2</td><td>MR spillover correction relative to emission by instrument platform is not applied</td><td></td></tr>
+<tr><td>3</td><td>SVR spillover correction relative to emission by instrument platform is not applied</td><td></td></tr>
+<tr><td>4</td><td>SVR sidelobe correction is not applied</td><td></td></tr>
+<tr><td>5</td><td>Full cross-polarization correction including small angle correction is applied</td><td></td></tr>
+<tr><td>6</td><td>Dynamic sidelobe correction is not applied for ICI-1</td><td></td></tr>
+<tr><td>7</td><td>Dynamic sidelobe correction is not applied for ICI-2</td><td></td></tr>
+<tr><td>8</td><td>Dynamic sidelobe correction is not applied for ICI-3</td><td></td></tr>
+<tr><td>9</td><td>Dynamic sidelobe correction is not applied for ICI-4 V and ICI-4 H</td><td></td></tr>
+<tr><td>10-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 106  MWI processing flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Moon contamination correction on cold space view counts is not applied</td><td></td></tr>
+<tr><td>2</td><td>Calibration with noise diodes is not applied for at least one channel among MWI-1 to MWI-3</td><td></td></tr>
+<tr><td>3</td><td>MR spillover correction relative to emission by instrument platform is not applied</td><td></td></tr>
+<tr><td>4</td><td>SVR spillover correction relative to emission by instrument platform is not applied</td><td></td></tr>
+<tr><td>5</td><td>SVR sidelobe correction is not applied</td><td></td></tr>
+<tr><td>6</td><td>Full cross-polarization correction including small angle correction is applied</td><td></td></tr>
+<tr><td>7</td><td>RFI correction in the Earth view is not applied</td><td></td></tr>
+<tr><td>8</td><td>Dynamic sidelobe correction is not applied for MWI-1</td><td></td></tr>
+<tr><td>9</td><td>Dynamic sidelobe correction is not applied for MWI-2</td><td></td></tr>
+<tr><td>10</td><td>Dynamic sidelobe correction is not applied for MWI-3</td><td></td></tr>
+<tr><td>11</td><td>Dynamic sidelobe correction is not applied for MWI-4</td><td></td></tr>
+<tr><td>12</td><td>Dynamic sidelobe correction is not applied for MWI-8</td><td></td></tr>
+<tr><td>13-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 107  MWS scan line processing flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Non-nominal scan due to gap</td><td></td></tr>
+<tr><td>2</td><td>Non-nominal warm target temperature</td><td></td></tr>
+<tr><td>3</td><td>Non-nominal along-track averaging of warm target temperatures</td><td></td></tr>
+<tr><td>4</td><td>Non-nominal instrument temperature</td><td></td></tr>
+<tr><td>5</td><td>Non-nominal along-track averaging of instrument temperatures</td><td></td></tr>
+<tr><td>6</td><td>Non-nominal rotating reflector temperature</td><td></td></tr>
+<tr><td>7</td><td>Non-nominal along-track averaging of rotating reflector temperatures</td><td></td></tr>
+<tr><td>8</td><td>Non-nominal antenna scan angle Earth view</td><td></td></tr>
+<tr><td>9</td><td>Non-nominal antenna scan angle cold view</td><td></td></tr>
+<tr><td>10</td><td>Non-nominal antenna scan angle warm view</td><td></td></tr>
+<tr><td>11</td><td>Non-nominal geolocation</td><td></td></tr>
+<tr><td>12</td><td>Non-nominal LSM and DEM assignment</td><td></td></tr>
+<tr><td>13</td><td>Ongoing satellite manoeuvre</td><td></td></tr>
+<tr><td>14</td><td>Redundant 50GHz rec and PRT set in use</td><td></td></tr>
+<tr><td>15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 108  MWS navigation status flag</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Non-nominal condition</td><td></td></tr>
+<tr><td>2</td><td>Scan not processed</td><td></td></tr>
+<tr><td>3</td><td>Geolocation not successful</td><td></td></tr>
+<tr><td>4</td><td>Orbit not initialized with NAVATT</td><td></td></tr>
+<tr><td>5</td><td>Attitude not initialized with NAVATT</td><td></td></tr>
+<tr><td>6</td><td>Predicted orbit file ingest error</td><td></td></tr>
+<tr><td>7</td><td>Manoeuvre</td><td></td></tr>
+<tr><td>8</td><td>IERS bulletin A ingest error</td><td></td></tr>
+<tr><td>9</td><td>Time correlation and EOP initialized with predicted orbit file</td><td></td></tr>
+<tr><td>10</td><td>Full accuracy of NAVATT initialized attitude not reached</td><td></td></tr>
+<tr><td>11</td><td>Pointing mode not YSM</td><td></td></tr>
+<tr><td>12</td><td>NAVATT ingest error</td><td></td></tr>
+<tr><td>13-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 109  MWS overall quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Missing input product(s)</td><td></td></tr>
+<tr><td>2</td><td>Data gap(s)</td><td></td></tr>
+<tr><td>3</td><td>Corrupted input product(s)</td><td></td></tr>
+<tr><td>4</td><td>Instrument anomaly</td><td></td></tr>
+<tr><td>5</td><td>Missing or degraded auxiliary data</td><td></td></tr>
+<tr><td>6</td><td>Degraded due to manoeuvre</td><td></td></tr>
+<tr><td>7-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 110  MWS channel processing flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Channel is off</td><td></td></tr>
+<tr><td>2</td><td>Non-nominal mean warm view count</td><td></td></tr>
+<tr><td>3</td><td>Non-nominal along-track averaging of warm view counts</td><td></td></tr>
+<tr><td>4</td><td>Non-nominal mean cold view count</td><td></td></tr>
+<tr><td>5</td><td>Non-nominal along-track averaging of cold view counts</td><td></td></tr>
+<tr><td>6</td><td>Non-nominal calibration coefficients</td><td></td></tr>
+<tr><td>7</td><td>Moon intrusion in some of the cold view FOVS</td><td></td></tr>
+<tr><td>8</td><td>Non-nominal processing or excessive value for NEDT (cold or warm)</td><td></td></tr>
+<tr><td>All 9</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 111  SCA quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Predicted orbit file used</td><td></td></tr>
+<tr><td>2</td><td>Manoeuvre taking place</td><td></td></tr>
+<tr><td>3</td><td>Reserved</td><td></td></tr>
+<tr><td>4</td><td>Satellite is not in yaw steering mode</td><td></td></tr>
+<tr><td>5</td><td>Transponder signal is present</td><td></td></tr>
+<tr><td>6</td><td>Noise estimate is poor</td><td></td></tr>
+<tr><td>7</td><td>Noise estimate is very poor</td><td></td></tr>
+<tr><td>8</td><td>Noise outlier is present</td><td></td></tr>
+<tr><td>9</td><td>Ancillary data is poor</td><td></td></tr>
+<tr><td>10</td><td>Ancillary data is very poor</td><td></td></tr>
+<tr><td>11</td><td>Characterization table limits exceeded</td><td></td></tr>
+<tr><td>12</td><td>Power-gain estimate is poor</td><td></td></tr>
+<tr><td>13</td><td>Power-gain estimate is very poor</td><td></td></tr>
+<tr><td>14</td><td>Power-gain out of limits</td><td></td></tr>
+<tr><td>15</td><td>Waveguide loss estimate is poor</td><td></td></tr>
+<tr><td>16</td><td>Waveguide loss estimate is very poor</td><td></td></tr>
+<tr><td>17</td><td>Waveguide table limits exceeded</td><td></td></tr>
+<tr><td>18</td><td>Echo is out of ADC range</td><td></td></tr>
+<tr><td>19</td><td>Reserved</td><td></td></tr>
+<tr><td>20</td><td>Missing normalization tables</td><td></td></tr>
+<tr><td>21</td><td>Number of samples in window is low</td><td></td></tr>
+<tr><td>22</td><td>Number of samples in window is very low</td><td></td></tr>
+<tr><td>23</td><td>Negative backscatter in resampled data</td><td></td></tr>
+<tr><td>24</td><td>Possible interference from solar array</td><td></td></tr>
+<tr><td>25</td><td>Reserved</td><td></td></tr>
+<tr><td>26</td><td>Reserved</td><td></td></tr>
+<tr><td>27</td><td>Reserved</td><td></td></tr>
+<tr><td>28</td><td>Land</td><td></td></tr>
+<tr><td>29</td><td>Water</td><td></td></tr>
+<tr><td>30</td><td>Ascending pass</td><td></td></tr>
+<tr><td>31</td><td>Descending pass</td><td></td></tr>
+<tr><td>All 32</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 113  IASI-NG general quality flags</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>General quality (0 if bits 2 to 11 are all 0, 1 otherwise)</td><td></td></tr>
+<tr><td>2</td><td>Sounder radiometric</td><td></td></tr>
+<tr><td>3</td><td>Sounder spectral</td><td></td></tr>
+<tr><td>4</td><td>Imager geometric</td><td></td></tr>
+<tr><td>5</td><td>Imager classification</td><td></td></tr>
+<tr><td>6</td><td>Imager radiometric</td><td></td></tr>
+<tr><td>7</td><td>General sounder</td><td></td></tr>
+<tr><td>8</td><td>Presence of mathematical errors</td><td></td></tr>
+<tr><td>9</td><td>TM data missing</td><td></td></tr>
+<tr><td>10</td><td>TM data corrupt</td><td></td></tr>
+<tr><td>11</td><td>TM integrity instrument</td><td></td></tr>
+<tr><td>12-15</td><td>Reserved</td><td></td></tr>
+<tr><td>All 16</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 114  Out of bounds check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Temperature profile</td><td></td></tr>
+<tr><td>2</td><td>Water vapour profile</td><td></td></tr>
+<tr><td>3</td><td>Ozone profile</td><td></td></tr>
+<tr><td>4</td><td>Surface skin temperature</td><td></td></tr>
+<tr><td>5</td><td>Surface air temperature</td><td></td></tr>
+<tr><td>6</td><td>Surface air dew point temperature</td><td></td></tr>
+<tr><td>7</td><td>Surface pressure</td><td></td></tr>
+<tr><td>8</td><td>Surface skin temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>9</td><td>Surface air temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>10</td><td>Surface air dew point temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>11</td><td>Surface pressure error estimate (quality indicator)</td><td></td></tr>
+<tr><td>12</td><td>Surface emissivity coarse infrared spectrum</td><td></td></tr>
+<tr><td>13</td><td>Surface emissivity microwave spectrum</td><td></td></tr>
+<tr><td>14</td><td>CO2 profile</td><td></td></tr>
+<tr><td>15</td><td>CH4 profile</td><td></td></tr>
+<tr><td>16</td><td>N2O profile</td><td></td></tr>
+<tr><td>All 17</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 115  Aerosol optical depth quality information</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Good</td><td></td></tr>
+<tr><td>1</td><td>Cloudy nadir</td><td></td></tr>
+<tr><td>2</td><td>Cloudy oblique</td><td></td></tr>
+<tr><td>3</td><td>Glint nadir</td><td></td></tr>
+<tr><td>4</td><td>Glint oblique</td><td></td></tr>
+<tr><td>5-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 116  First guess in bounds check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Temperature profile</td><td></td></tr>
+<tr><td>2</td><td>Water vapour profile</td><td></td></tr>
+<tr><td>3</td><td>Ozone profile</td><td></td></tr>
+<tr><td>4</td><td>Surface skin temperature</td><td></td></tr>
+<tr><td>5</td><td>Surface air temperature</td><td></td></tr>
+<tr><td>6</td><td>Surface air dew point temperature</td><td></td></tr>
+<tr><td>7</td><td>Surface pressure</td><td></td></tr>
+<tr><td>8</td><td>Surface skin temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>9</td><td>Surface air temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>10</td><td>Surface air dew point temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>11</td><td>Surface pressure error estimate (quality indicator)</td><td></td></tr>
+<tr><td>12</td><td>Surface emissivity coarse infrared spectrum</td><td></td></tr>
+<tr><td>13</td><td>Surface emissivity microwave spectrum</td><td></td></tr>
+<tr><td>14</td><td>CO2 profile</td><td></td></tr>
+<tr><td>15</td><td>CH4 profile</td><td></td></tr>
+<tr><td>16</td><td>N2O profile</td><td></td></tr>
+<tr><td>All 17</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 33 117  In bounds check</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Temperature profile</td><td></td></tr>
+<tr><td>2</td><td>Water vapour profile</td><td></td></tr>
+<tr><td>3</td><td>Ozone profile</td><td></td></tr>
+<tr><td>4</td><td>Surface skin temperature</td><td></td></tr>
+<tr><td>5</td><td>Surface air temperature</td><td></td></tr>
+<tr><td>6</td><td>Surface air dew point temperature</td><td></td></tr>
+<tr><td>7</td><td>Surface pressure</td><td></td></tr>
+<tr><td>8</td><td>Surface skin temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>9</td><td>Surface air temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>10</td><td>Surface air dew point temperature error estimate (quality indicator)</td><td></td></tr>
+<tr><td>11</td><td>Surface pressure error estimate (quality indicator)</td><td></td></tr>
+<tr><td>12</td><td>Surface emissivity coarse infrared spectrum</td><td></td></tr>
+<tr><td>13</td><td>Surface emissivity microwave spectrum</td><td></td></tr>
+<tr><td>14</td><td>CO2 profile</td><td></td></tr>
+<tr><td>15</td><td>CH4 profile</td><td></td></tr>
+<tr><td>16</td><td>N2O profile</td><td></td></tr>
+<tr><td>All 17</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

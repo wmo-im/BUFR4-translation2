@@ -158,9 +158,9 @@ bufr4/0/02/021/8,002021,Satellite instrument data used in processing,8,ATSR (alo
 bufr4/0/02/021/All-9,002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational,na
 bufr4/0/02/022/1,002022,Satellite data-processing technique used,1,Processing technique not defined,,,,,Operational,na
 bufr4/0/02/022/2,002022,Satellite data-processing technique used,2,Automated statistical regression,,,,,Operational,na
-bufr4/0/02/022/3,002022,Satellite data-processing technique used,3,Clear path,,,(see Note 2),28,Operational,na
-bufr4/0/02/022/4,002022,Satellite data-processing technique used,4,Partly cloudy path,,,(see Note 3),62,Operational,na
-bufr4/0/02/022/5,002022,Satellite data-processing technique used,5,Cloudy path,,,(see Note 4),30,Operational,na
+bufr4/0/02/022/3,002022,Satellite data-processing technique used,3,Clear path,,,(see Note 2),CF28,Operational,na
+bufr4/0/02/022/4,002022,Satellite data-processing technique used,4,Partly cloudy path,,,(see Note 3),CF62,Operational,na
+bufr4/0/02/022/5,002022,Satellite data-processing technique used,5,Cloudy path,,,(see Note 4),CF30,Operational,na
 bufr4/0/02/022/6-7,002022,Satellite data-processing technique used,6-7,Reserved,,,,,Operational,na
 bufr4/0/02/022/All-8,002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational,na
 bufr4/0/02/023/0,002023,Satellite-derived wind computation method,0,Reserved,,,,,Operational,na
@@ -196,18 +196,18 @@ bufr4/0/02/025/12,002025,Satellite channel(s) used in computation,12,MSU,,,,,Ope
 bufr4/0/02/025/13-14,002025,Satellite channel(s) used in computation,13-14,Reserved,,,,,Operational,na
 bufr4/0/02/025//4,002025,Satellite channel(s) used in computation,,"Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa",,,,,Operational,na
 bufr4/0/02/025/15,002025,Satellite channel(s) used in computation,15,HIRS,,,,,Operational,na
-bufr4/0/02/025/16,002025,Satellite channel(s) used in computation,16,HIRS*,,,(see Note 2),47,Operational,na
+bufr4/0/02/025/16,002025,Satellite channel(s) used in computation,16,HIRS*,,,(see Note 2),CF47,Operational,na
 bufr4/0/02/025/17,002025,Satellite channel(s) used in computation,17,MSU,,,,,Operational,na
 bufr4/0/02/025/18,002025,Satellite channel(s) used in computation,18,SKINTK (ocean only),,,,,Operational,na
 bufr4/0/02/025/19-20,002025,Satellite channel(s) used in computation,19-20,Reserved,,,,,Operational,na
 bufr4/0/02/025//5,002025,Satellite channel(s) used in computation,,"Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa",,,,,Operational,na
-bufr4/0/02/025/21,002025,Satellite channel(s) used in computation,21,HIRS,,,(see Note 2),47,Operational,na
+bufr4/0/02/025/21,002025,Satellite channel(s) used in computation,21,HIRS,,,(see Note 2),CF47,Operational,na
 bufr4/0/02/025/22,002025,Satellite channel(s) used in computation,22,SSU,,,,,Operational,na
 bufr4/0/02/025/23,002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,,Operational,na
 bufr4/0/02/025/24,002025,Satellite channel(s) used in computation,24,Reserved,,,,,Operational,na
 bufr4/0/02/025/All-25,002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational,na
 bufr4/0/02/030/0,002030,Method of current measurement,0,Reserved,,,,,Operational,na
-bufr4/0/02/030/1,002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,(see Note),91,Operational,na
+bufr4/0/02/030/1,002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,(see Note),CF91,Operational,na
 bufr4/0/02/030/2,002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational,na
 bufr4/0/02/030/3,002030,Method of current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational,na
 bufr4/0/02/030/4,002030,Method of current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational,na
@@ -356,8 +356,8 @@ bufr4/0/02/048/14,002048,Satellite sensor indicator,14,Reserved,,,,,Operational,
 bufr4/0/02/048/15,002048,Satellite sensor indicator,15,Missing value,,,,,Operational,na
 bufr4/0/02/049/1,002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,,Operational,na
 bufr4/0/02/049/2,002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,,Operational,na
-bufr4/0/02/049/3,002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,(see Note 1),29,Operational,na
-bufr4/0/02/049/4,002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,(see Note 2),31,Operational,na
+bufr4/0/02/049/3,002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,(see Note 1),CF29,Operational,na
+bufr4/0/02/049/4,002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,(see Note 2),CF31,Operational,na
 bufr4/0/02/049/5-7,002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,,Operational,na
 bufr4/0/02/049/All-8,002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational,na
 bufr4/0/02/050/1,002050,Geostationary sounder satellite channels used,1,1,14.71,,,,Operational,na
@@ -464,7 +464,7 @@ bufr4/0/02/062/5,002062,Type of aircraft data relay system,5,ACARS (ASDAR also a
 bufr4/0/02/062/6-14,002062,Type of aircraft data relay system,6-14,Reserved,,,,,Operational,na
 bufr4/0/02/062/15,002062,Type of aircraft data relay system,15,Missing value,,,,,Operational,na
 bufr4/0/02/064/0,002064,Aircraft roll angle quality,0,Good,,,,,Operational,na
-bufr4/0/02/064/1,002064,Aircraft roll angle quality,1,Bad,,,(see Note),20,Operational,na
+bufr4/0/02/064/1,002064,Aircraft roll angle quality,1,Bad,,,(see Note),CF20,Operational,na
 bufr4/0/02/064/2,002064,Aircraft roll angle quality,2,Reserved,,,,,Operational,na
 bufr4/0/02/064/3,002064,Aircraft roll angle quality,3,Missing value,,,,,Operational,na
 bufr4/0/02/066/0,002066,Radiosonde ground receiving system,0,InterMet IMS 2000,,,,,Operational,na
@@ -662,8 +662,8 @@ bufr4/0/02/143/19,002143,Ozone instrument type,19,ECC sonde,,,,,Operational,na
 bufr4/0/02/143/20-126,002143,Ozone instrument type,20-126,Reserved,,,,,Operational,na
 bufr4/0/02/143/127,002143,Ozone instrument type,127,Missing value,,,,,Operational,na
 bufr4/0/02/144/0,002144,Light source type for Brewer spectrophotometer,0,Direct sun,,,,,Operational,na
-bufr4/0/02/144/1,002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,(see Note),38,Operational,na
-bufr4/0/02/144/2,002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,(see Note),38,Operational,na
+bufr4/0/02/144/1,002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,(see Note),CF38,Operational,na
+bufr4/0/02/144/2,002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,(see Note),CF38,Operational,na
 bufr4/0/02/144/3,002144,Light source type for Brewer spectrophotometer,3,Focused moon,,,,,Operational,na
 bufr4/0/02/144/4,002144,Light source type for Brewer spectrophotometer,4,Focused sun,,,,,Operational,na
 bufr4/0/02/144/5,002144,Light source type for Brewer spectrophotometer,5,Focused sun corrected with adjacent sky measurements,,,,,Operational,na

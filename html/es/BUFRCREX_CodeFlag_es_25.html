@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 25</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 25</h1>
+<p class="fxy-heading">0 25 004  Proceso de datos sobre ecos</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Incoherente</td><td></td></tr>
+<tr><td>1</td><td>Coherente (Doppler)</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 005  Integración de los ecos</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Logarítmica - 2,5 dB</td><td></td></tr>
+<tr><td>1</td><td>Lineal</td><td></td></tr>
+<tr><td>2</td><td>Especial</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 006  Conversión Z a R</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Conversión ZH a R</td><td></td></tr>
+<tr><td>1</td><td>(ZH, ZDR) a (NO, DO) a R</td><td></td></tr>
+<tr><td>2</td><td>(Z (F1), Z (F2)) a atenuación a R</td><td></td></tr>
+<tr><td>3-5</td><td>Reservadas</td><td></td></tr>
+<tr><td>6</td><td>Otros</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 009  Método de calibración</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ninguno</td><td></td></tr>
+<tr><td>2</td><td>Blanco o señal de calibración</td><td></td></tr>
+<tr><td>3</td><td>Con relación a los pluviómetros</td><td></td></tr>
+<tr><td>4</td><td>Con relación a otros instrumentos (distrómetro, atenuación)</td><td></td></tr>
+<tr><td>Los 4</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF35: El descriptor 0 25 009 ha dejado de utilizarse. Utilícese en su lugar el descriptor 0 25 029.</p>
+</div>
+<p class="fxy-heading">0 25 010  Tratamiento de los ecos parásitos</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ninguno</td><td></td></tr>
+<tr><td>1</td><td>Mapa</td><td></td></tr>
+<tr><td>2</td><td>Inserción de datos para un ángulo del lugar más elevado y mapa</td><td></td></tr>
+<tr><td>3</td><td>Análisis de la variación de la señal logarítmica (detección de ecos parásitos)</td><td></td></tr>
+<tr><td>4</td><td>Extracción de la parte variable de la señal lineal (supresión de ecos parásitos)</td><td></td></tr>
+<tr><td>5</td><td>Supresión de ecos parásitos - Doppler</td><td></td></tr>
+<tr><td>6</td><td>Análisis multiparamétrico</td><td></td></tr>
+<tr><td>7-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 011  Corrección de los ecos de suelo (filtrado)</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Ninguna</td><td></td></tr>
+<tr><td>1</td><td>Mapa de factores de corrección</td><td></td></tr>
+<tr><td>2</td><td>Interpolación (azimut o elevación)</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 012  Corrección de la atenuación del alcance</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Equipo de computación</td><td></td></tr>
+<tr><td>1</td><td>Programación</td><td></td></tr>
+<tr><td>2</td><td>Equipo de computación y programación</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 013  Corrección de la banda brillante</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Corrección de la banda brillante</td><td></td></tr>
+<tr><td>Los 2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 015  Corrección de la atenuación por el radomo</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Corrección de la atenuación por el radomo</td><td></td></tr>
+<tr><td>Los 2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 017  Corrección de la atenuación por las precipitaciones</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Corrección de la atenuación por las precipitaciones</td><td></td></tr>
+<tr><td>Los 2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 020  Estimación de la velocidad media</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>FFT (transformación rápida de Fourier)</td><td></td></tr>
+<tr><td>1</td><td>PPP (par de impulsos)</td><td></td></tr>
+<tr><td>2</td><td>VPC (cambio de fase vectorial)</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 021  Refuerzo del cálculo del viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Promedio simple</td><td></td></tr>
+<tr><td>2</td><td>Promedio de consenso</td><td></td></tr>
+<tr><td>3</td><td>Verificación de la mediana</td><td></td></tr>
+<tr><td>4</td><td>Verificación de la coherencia vertical</td><td></td></tr>
+<tr><td>5</td><td>Otros</td><td></td></tr>
+<tr><td>6-7</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 022  Banderín de rechazo GHRSST</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>No procesado</td><td></td></tr>
+<tr><td>2</td><td>Sospecha de tierra</td><td></td></tr>
+<tr><td>3</td><td>Velocidad de viento demasiado grande</td><td></td></tr>
+<tr><td>4</td><td>Hielo detectado</td><td></td></tr>
+<tr><td>5</td><td>Lluvia detectada (datos en microondas únicamente)</td><td></td></tr>
+<tr><td>6</td><td>Nubosidad detectada (datos en infrarrojos únicamente)</td><td></td></tr>
+<tr><td>7</td><td>Valor cosmético</td><td></td></tr>
+<tr><td>8</td><td>Temperatura de la superficie del mar (SST) fuera de dial</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 023  Banderín de confianza GHRSST</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Se ha utilizado el valor de confianza por defecto</td><td></td></tr>
+<tr><td>2</td><td>Se han utilizado la desviación típica y el error sistemático por defecto</td><td></td></tr>
+<tr><td>3</td><td>Sospecha de destello solar</td><td></td></tr>
+<tr><td>4</td><td>Toma de datos de hielo marino para microondas</td><td></td></tr>
+<tr><td>5</td><td>Toma de datos de velocidad de viento alta</td><td></td></tr>
+<tr><td>6</td><td>SST inexactas debido a valores de la SST bajos (&lt; 285K) (aplicable solo al instrumento TMI)</td><td></td></tr>
+<tr><td>7</td><td>Sospecha de contaminación por lluvia aminorada</td><td></td></tr>
+<tr><td>8</td><td>Posibilidad de contaminación por lóbulo lateral</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 024  Calidad de los datos GHRSST</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Toma de datos infrarrojos no procesados</td><td></td></tr>
+<tr><td>1</td><td>Toma de datos con nubosidad</td><td></td></tr>
+<tr><td>2</td><td>Deficiente: Datos probablemente contaminados por nubes</td><td></td></tr>
+<tr><td>3</td><td>Datos sospechosos</td><td></td></tr>
+<tr><td>4</td><td>Datos aceptables</td><td></td></tr>
+<tr><td>5</td><td>Datos excelentes</td><td></td></tr>
+<tr><td>6</td><td>Sospecha de epidermis enfriada</td><td></td></tr>
+<tr><td>7-9</td><td>Reservadas</td><td></td></tr>
+<tr><td>10</td><td>Toma de datos en microondas no procesados</td><td></td></tr>
+<tr><td>11</td><td>Toma de datos en microondas cuestionable por posible contaminación</td><td></td></tr>
+<tr><td>12</td><td>Toma de datos en microondas aceptables</td><td></td></tr>
+<tr><td>13</td><td>Alta probabilidad de variación diurna</td><td></td></tr>
+<tr><td>14</td><td>Reservada</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 029  Método de calibración</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Reservado</td><td></td></tr>
+<tr><td>2</td><td>Blanco o señal de calibración</td><td></td></tr>
+<tr><td>3</td><td>Con relación a los pluviómetros</td><td></td></tr>
+<tr><td>4</td><td>Con relación a otros instrumentos (distrómetro, atenuación)</td><td></td></tr>
+<tr><td>5</td><td>Reservado</td><td></td></tr>
+<tr><td>Los 6</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 030  Media móvil de la temperatura en la superficie del mar</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Media móvil en la temperatura del mar no utilizada, por no respetarse los criterios de utilización</td><td></td></tr>
+<tr><td>1</td><td>Media móvil en la temperatura del mar no utilizada, por no disponerse de datos</td><td></td></tr>
+<tr><td>2</td><td>Media móvil en la temperatura del mar utilizada como predictor</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 031  Método de adelgazamiento del perfil vertical generado por predicción numérica del tiempo</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reservada</td><td></td></tr>
+<tr><td>1</td><td>No se aplica ningún adelgazamiento (se incluyen todos los niveles nativos del modelo desde la base hasta la cima del pseudosondeo).</td><td></td></tr>
+<tr><td>2</td><td>Los niveles nativos del modelo están presentes sólo cuando son niveles significantes conforme a las reglamentaciones B/C 25 sobre sondeos TEMP convencionales</td><td></td></tr>
+<tr><td>3</td><td>Está presente un subconjunto predefinido de niveles nativos del modelo</td><td></td></tr>
+<tr><td>4</td><td>No hay niveles nativos del modelo presentes. Todos los niveles del perfil son interpolados para obtener un conjunto definido de niveles de coordenadas de presión</td><td></td></tr>
+<tr><td>5-6</td><td>Reservadas</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF60: Ninguna de las cifras de clave excluye la adición de niveles interpolados a discreción del centro generador.</p>
+</div>
+<p class="fxy-heading">0 25 032  Información sobre el modo del perfilador del viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reservada</td><td></td></tr>
+<tr><td>1</td><td>Datos de modo bajo</td><td></td></tr>
+<tr><td>2</td><td>Datos de modo alto</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 033  Información sobre el submodo del perfilador del viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Perfilador del viento que funciona en el submodo A</td><td></td></tr>
+<tr><td>1</td><td>Perfilador del viento que funciona en el submodo B</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 034  Resultados de las pruebas de control de calidad del perfilador del viento</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Prueba A realizada y negativa</td><td></td></tr>
+<tr><td>2</td><td>Prueba B realizada y negativa</td><td></td></tr>
+<tr><td>3</td><td>Resultados de la prueba no concluyentes</td><td></td></tr>
+<tr><td>Los 4</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 035  Método de decisión para la polaridad</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No definida</td><td></td></tr>
+<tr><td>1</td><td>Desviación del voltaje individual</td><td></td></tr>
+<tr><td>2</td><td>Basado en la corriente, superior a umbral</td><td></td></tr>
+<tr><td>3</td><td>Basado en el voltaje, superior a un umbral</td><td></td></tr>
+<tr><td>4</td><td>Consenso de sensores, corriente superior a umbral</td><td></td></tr>
+<tr><td>5</td><td>Consenso de sensores, voltaje superior a umbral</td><td></td></tr>
+<tr><td>6</td><td>Reservada</td><td></td></tr>
+<tr><td>7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 036  Método de ubicación de parásitos atmosféricos</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Red de goniómetros diversos que operan para los mismos parásitos atmosféricos</td><td></td></tr>
+<tr><td>1</td><td>Red de estaciones de tiempos de llegada diversas que operan para los mismos parásitos atmosféricos</td><td></td></tr>
+<tr><td>2-5</td><td>Reservadas</td><td></td></tr>
+<tr><td>6</td><td>Técnica de alcance-rumbo para una sola estación</td><td></td></tr>
+<tr><td>7-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 040  Producto de viento obtenido por el trazador de CO2</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Modo no específico</td><td></td></tr>
+<tr><td>1</td><td>Datos de primera aproximación</td><td></td></tr>
+<tr><td>2</td><td>Datos de nubes</td><td></td></tr>
+<tr><td>3</td><td>Datos vectoriales medios</td><td></td></tr>
+<tr><td>4</td><td>Datos primarios</td><td></td></tr>
+<tr><td>5</td><td>Datos aproximados</td><td></td></tr>
+<tr><td>6</td><td>Datos vectoriales</td><td></td></tr>
+<tr><td>7</td><td>Datos del trazador para esta imagen</td><td></td></tr>
+<tr><td>8</td><td>Datos del trazador para la imagen siguiente</td><td></td></tr>
+<tr><td>9-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 041  Método de información sobre la dirección de la plataforma móvil</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Dirección comunicada originariamente en grados verdaderos</td><td></td></tr>
+<tr><td>1</td><td>Dirección comunicada originariamente utilizando la Tabla de cifrado 0700, FM 13</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF94: Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 012: Valor comunicado</p>
+</div>
+<p class="fxy-heading">0 25 042  Método de información sobre la velocidad de la plataforma móvil</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Velocidad comunicada originariamente en metros por segundo</td><td></td></tr>
+<tr><td>1</td><td>Velocidad comunicada originariamente utilizando la Tabla de cifrado 4451, FM 13</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF95: Si el método de información originario es el indicado por la cifra de clave 1, se recomienda la siguiente conversión para obtener un valor adecuado de los datos correspondiente al descriptor 0 01 013: Valor comunicado</p>
+</div>
+<p class="fxy-heading">0 25 045  Combinación de los canales de la sonda HIRS</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-20</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 21</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 046  Combinación de los canales de la sonda MSU</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 5</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 047  Combinación de los canales de la sonda SSU</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-3</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 4</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 048  Combinación de los canales de la sonda AMSU-A</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-15</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 16</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 049  Combinación de los canales de la sonda AMSU-B</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-5</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 6</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 051  Combinación de los canales del radiómetro AVHRR</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1-6</td><td>Empezando por la posición del primer bit (bit más significativo) si el bit es 1, entonces el canal está presente si el bit es 0, entonces el canal está ausente</td><td></td></tr>
+<tr><td>Los 7</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 053  Calidad de la observación</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Buena</td><td></td></tr>
+<tr><td>2</td><td>Redundante</td><td></td></tr>
+<tr><td>3</td><td>Cuestionable</td><td></td></tr>
+<tr><td>4</td><td>Mala</td><td></td></tr>
+<tr><td>5</td><td>Experimental</td><td></td></tr>
+<tr><td>6</td><td>Precipitada</td><td></td></tr>
+<tr><td>7-11</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 12</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 063  Procesador central o identificador de sistema</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No definida</td><td></td></tr>
+<tr><td>1</td><td>Procesador principal</td><td></td></tr>
+<tr><td>2</td><td>Procesador auxiliar</td><td></td></tr>
+<tr><td>3-254</td><td>Reservadas</td><td></td></tr>
+<tr><td>255</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 069  Correcciones de presión del nivel de vuelo</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Uniforme</td><td></td></tr>
+<tr><td>2</td><td>Línea de base ajustada</td><td></td></tr>
+<tr><td>3</td><td>Intervalo de tiempo normalizado</td><td></td></tr>
+<tr><td>4</td><td>Valor atípico verificado</td><td></td></tr>
+<tr><td>5</td><td>Plausibilidad verificada</td><td></td></tr>
+<tr><td>6</td><td>Consistencia verificada</td><td></td></tr>
+<tr><td>7</td><td>Interpolado</td><td></td></tr>
+<tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 086  Indicador de la corrección de la profundidad</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Las profundidades no se corrigen</td><td></td></tr>
+<tr><td>1</td><td>Las profundidades se corrigen</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 090  Banderín de estado orbital</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Órbita computada durante una maniobra</td><td></td></tr>
+<tr><td>1</td><td>Órbita ajustada de las operaciones de la misión</td><td></td></tr>
+<tr><td>2</td><td>Órbita extrapolada de las operaciones de la misión</td><td></td></tr>
+<tr><td>3</td><td>Órbita ajustada (preliminar/precisa)</td><td></td></tr>
+<tr><td>4</td><td>La órbita (preliminar/precisa) es estimada durante un período de maniobra</td><td></td></tr>
+<tr><td>5</td><td>La órbita (preliminar/precisa) es interpolada como relleno de datos de seguimiento</td><td></td></tr>
+<tr><td>6</td><td>La órbita (preliminar/precisa) es extrapolada respecto de una duración inferior a un día</td><td></td></tr>
+<tr><td>7</td><td>La órbita (preliminar/precisa) es extrapolada respecto de una duración de uno a dos días</td><td></td></tr>
+<tr><td>8</td><td>La órbita (preliminar/precisa) es extrapolada respecto de una duración superior a dos días, o inmediatamente a continuación de una maniobra</td><td></td></tr>
+<tr><td>9</td><td>Órbita del navegador DORIS DIODE</td><td>Note CF37: DIODE son las siglas de &quot;détermination immédiate d&#x27;orbite par DORIS embarqué&quot; (determinación inmediata de órbita mediante DORIS instalado a bordo). Es una de las funciones del instrumento DORIS, que calcula la posición y velocidad del satélite.</td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 093  Corrección del cálculo RASS (sistema de sondeo radioacústico)</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Sin corrección</td><td></td></tr>
+<tr><td>2</td><td>Corrección de la velocidad vertical</td><td></td></tr>
+<tr><td>3-6</td><td>Reservados</td><td></td></tr>
+<tr><td>7</td><td>Todas las correcciones</td><td></td></tr>
+<tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 095  Banderín de estado del altímetro</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Altímetro en funcionamiento (0 si nominal, 1 si reserva)</td><td></td></tr>
+<tr><td>Los 2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 096  Banderín de estado del radiómetro</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Indicador de modo (0 si modo 2, 1 si modo 1)</td><td></td></tr>
+<tr><td>2</td><td>Indicador de secuencia de calibración de modo 1 (0 si los datos normales están en modo 1 ó 2, 1 si secuencia de calibración en modo 1)</td><td></td></tr>
+<tr><td>3</td><td>Canal 2 (0 si activo, 1 si inactivo)</td><td></td></tr>
+<tr><td>4</td><td>Canal 3 (0 si activo, 1 si inactivo)</td><td></td></tr>
+<tr><td>Los 5</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 097  Estimación del error tridimensional de la órbita del navegador</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Entre 0 y 30 cm</td><td></td></tr>
+<tr><td>1</td><td>Entre 30 y 60 cm</td><td></td></tr>
+<tr><td>2</td><td>Entre 60 y 90 cm</td><td></td></tr>
+<tr><td>3</td><td>Entre 90 y 120 cm</td><td></td></tr>
+<tr><td>4</td><td>Entre 120 y 150 cm</td><td></td></tr>
+<tr><td>5</td><td>Entre 150 y 180 cm</td><td></td></tr>
+<tr><td>6</td><td>Entre 180 y 210 cm</td><td></td></tr>
+<tr><td>7</td><td>Entre 210 y 240 cm</td><td></td></tr>
+<tr><td>8</td><td>Entre 240 y 270 cm</td><td></td></tr>
+<tr><td>9</td><td>Más de 270 cm</td><td></td></tr>
+<tr><td>10-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 098  Banderín de calidad de los datos altimétricos</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Alcance en banda Ku</td><td></td></tr>
+<tr><td>2</td><td>Alcance en banda C</td><td></td></tr>
+<tr><td>3</td><td>AOS en banda Ku</td><td></td></tr>
+<tr><td>4</td><td>AOS en banda C</td><td></td></tr>
+<tr><td>5</td><td>Coeficiente de retrodispersión en banda Ku</td><td></td></tr>
+<tr><td>6</td><td>Coeficiente de retrodispersión en banda C</td><td></td></tr>
+<tr><td>7</td><td>Ángulo respecto del nadir mediante los parámetros de la forma de onda en banda Ku</td><td></td></tr>
+<tr><td>8</td><td>Ángulo respecto del nadir mediante la plataforma</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF5: 0 es satisfactorio, 1 es insatisfactorio</p>
+</div>
+<p class="fxy-heading">0 25 099  Banderín de calidad de la corrección altimétrica</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Corrección instrumental del alcance en banda Ku</td><td></td></tr>
+<tr><td>2</td><td>Corrección instrumental del alcance en banda C</td><td></td></tr>
+<tr><td>3</td><td>Corrección instrumental de la AOS* en banda Ku</td><td></td></tr>
+<tr><td>4</td><td>Corrección instrumental de la AOS* en banda C</td><td></td></tr>
+<tr><td>5</td><td>Corrección instrumental del coeficiente de retrodispersión en banda Ku</td><td></td></tr>
+<tr><td>6</td><td>Corrección instrumental del coeficiente de retrodispersión en banda C</td><td></td></tr>
+<tr><td>7-8</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF5: 0 es satisfactorio, 1 es insatisfactorio</p>
+</div>
+<p class="fxy-heading">0 25 110  Resumen de proceso de imagen</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Análisis de datos en bruto utilizado para la corrección de datos en bruto. Corrección realizada en base a parámetros por defecto</td><td></td></tr>
+<tr><td>2</td><td>Análisis de datos en bruto utilizado para la corrección de datos en bruto. Corrección realizada en base a los resultados del análisis de datos en bruto</td><td></td></tr>
+<tr><td>3</td><td>Corrección de la configuración de elevación de la antena aplicada</td><td></td></tr>
+<tr><td>4</td><td>Réplica de la fluctuación del largo de onda (&quot;chirp&quot;) nominal utilizada</td><td></td></tr>
+<tr><td>5</td><td>Fluctuación del largo de onda (&quot;chirp&quot;) reconstruida utilizada</td><td></td></tr>
+<tr><td>6</td><td>Conversión de alcance oblicuo a alcance terrestre aplicada</td><td></td></tr>
+<tr><td>7-9</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 10</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 112  Banderín de calidad de los datos altimétricos en banda específica</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Alcance en banda específica</td><td></td></tr>
+<tr><td>2</td><td>Altura de ola significativa en banda específica</td><td></td></tr>
+<tr><td>3</td><td>Coeficiente de retrodispersión en banda específica</td><td></td></tr>
+<tr><td>4</td><td>Ángulo respecto del nadir mediante los parámetros de la forma de onda en banda específica</td><td></td></tr>
+<tr><td>5</td><td>Ángulo respecto del nadir mediante la plataforma</td><td></td></tr>
+<tr><td>6-8</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF5: 0 es satisfactorio, 1 es insatisfactorio</p>
+</div>
+<p class="fxy-heading">0 25 113  Banderín de calidad de la corrección altimétrica en banda específica</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Corrección instrumental del alcance en banda específica</td><td></td></tr>
+<tr><td>2</td><td>Corrección instrumental de la altura de ola significativa en banda específica</td><td></td></tr>
+<tr><td>3</td><td>Corrección instrumental del coeficiente de retrodispersión en banda específica</td><td></td></tr>
+<tr><td>4-8</td><td>Reservados</td><td></td></tr>
+<tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF5: 0 es satisfactorio, 1 es insatisfactorio</p>
+</div>
+<p class="fxy-heading">0 25 120  Banderín de proceso de nivel 2 – RA-2</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>El porcentaje de DSR* sin errores de proceso durante el proceso en nivel 2 es superior al umbral aceptable</td><td></td></tr>
+<tr><td>1</td><td>El porcentaje de DSR sin errores de proceso durante el proceso en nivel 2 es inferior al nivel aceptable</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 122  Configuración del equipo informático para radiofrecuencia</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>La configuración del equipo informático para RF* es A</td><td></td></tr>
+<tr><td>1</td><td>La configuración del equipo informático para RF es B</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 123  Configuración del equipo informático para amplificador de gran potencia</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>La configuración del equipo informático para HPA* es A</td><td></td></tr>
+<tr><td>1</td><td>La configuración del equipo informático para HPA es B</td><td></td></tr>
+<tr><td>2</td><td>Reservado</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 124  Banderín de proceso de nivel 2 – MWR</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>El porcentaje de DSR sin errores de proceso durante el proceso en nivel 2 es superior al umbral aceptable</td><td></td></tr>
+<tr><td>1</td><td>El porcentaje de DSR sin errores de proceso durante el proceso en nivel 2 es inferior al nivel aceptable</td><td></td></tr>
+<tr><td>2</td><td>Reservada</td><td></td></tr>
+<tr><td>3</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 150  Método de análisis de la intensidad de los ciclones tropicales a partir de datos obtenidos por satélites</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Análisis Dvorak de la intensidad en VIS (imágenes visuales)</td><td></td></tr>
+<tr><td>2</td><td>Análisis Dvorak de la intensidad en EIR (imágenes de infrarrojos realzadas)</td><td></td></tr>
+<tr><td>3-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 174  Banderín de información de SMOS</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Píxel afectado por efectos IRF</td><td></td></tr>
+<tr><td>2</td><td>Píxel ubicado en la dirección del alias hexagonal, centrado en el alias solar</td><td></td></tr>
+<tr><td>3</td><td>Píxel cercano al borde de la zona sin alias ampliada</td><td></td></tr>
+<tr><td>4</td><td>Píxel interior de la zona sin alias ampliada</td><td></td></tr>
+<tr><td>5</td><td>Píxel interior de la zona sin alias exclusiva</td><td></td></tr>
+<tr><td>6</td><td>Píxel ubicado en una zona en que se ha reconstruido el alias lunar</td><td></td></tr>
+<tr><td>7</td><td>Píxel ubicado en una zona en que se ha detectado reflexión solar</td><td></td></tr>
+<tr><td>8</td><td>Píxel ubicado en una zona en que se ha reconstruido el alias solar</td><td></td></tr>
+<tr><td>9</td><td>Se ha efectuado una transformación del objetivo plano durante la reconstrucción de imagen de este píxel</td><td></td></tr>
+<tr><td>10</td><td>Se ha combinado la escena con una escena de ajuste de polarización opuesta durante la reconstrucción de la imagen para dar cuenta de las pérdidas por polarización cruzada</td><td></td></tr>
+<tr><td>11</td><td>Se ha efectuado una corrección lunar directa durante la reconstrucción de este píxel</td><td></td></tr>
+<tr><td>12</td><td>Se ha efectuado una corrección de reflejo solar durante la reconstrucción de este píxel</td><td></td></tr>
+<tr><td>13</td><td>Se ha efectuado una corrección solar directa durante la reconstrucción de esta imagen</td><td></td></tr>
+<tr><td>Los 14</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 181  Banderín de procesamiento de nivel 2</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>El porcentaje de registros de nivel 2b exentos de errores de procesamiento es inferior al umbral aceptable</td><td></td></tr>
+<tr><td>2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 182  Banderín de procesamiento de nivel 1</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>El porcentaje de registros de nivel 1b exentos de errores de procesamiento es inferior al umbral aceptable</td><td></td></tr>
+<tr><td>2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 184  Estado del producto de nivel 2</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>OK</td><td></td></tr>
+<tr><td>1</td><td>El producto tiene una duración inferior a la del producto entrante</td><td></td></tr>
+<tr><td>2</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 185  Método de encriptación</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>AES 256</td><td></td></tr>
+<tr><td>1-254</td><td>Reservadas</td><td></td></tr>
+<tr><td>255</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 187  Banderín de confianza</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Válido</td><td></td></tr>
+<tr><td>1</td><td>Inválido</td><td></td></tr>
+<tr><td>2-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 188  Método para reducir la presión al nivel del mar</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Presión ajustada al nivel medio del mar con arreglo a la publicación OMM-N° 8 para las estaciones de bajo nivel (&lt; 50 m)</td><td>Note CF44: Guía de Instrumentos y Métodos de Observación Meteorológicos.</td></tr>
+<tr><td>1</td><td>Presión ajustada al nivel medio del mar con arreglo a la publicación OMM-N° 8 para las estaciones por debajo de 750 m</td><td></td></tr>
+<tr><td>2</td><td>Presión ajustada al nivel del mar con arreglo a la práctica nacional</td><td></td></tr>
+<tr><td>3</td><td>Presión ajustada al nivel del mar local con arreglo a la práctica nacional</td><td></td></tr>
+<tr><td>4</td><td>Presión no corregida para la altura</td><td></td></tr>
+<tr><td>5-14</td><td>Reservadas</td><td></td></tr>
+<tr><td>15</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 190  Modo de cálculo del eco del altímetro</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Modo de baja resolución (LRM)</td><td></td></tr>
+<tr><td>1</td><td>Radar de apertura sintética (SAR)</td><td></td></tr>
+<tr><td>2</td><td>LRM y SAR (intercalados)</td><td></td></tr>
+<tr><td>3</td><td>Reservadas</td><td></td></tr>
+<tr><td>4</td><td>Pseudo-LRM (PLRM)</td><td></td></tr>
+<tr><td>5</td><td>Modo SAR interferométrico (SARin)</td><td></td></tr>
+<tr><td>6-254</td><td>Reservadas</td><td></td></tr>
+<tr><td>255</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 25 191  Modo de seguimiento del altímetro</p>
+<table>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bucle abierto</td><td></td></tr>
+<tr><td>1</td><td>Bucle cerrado</td><td></td></tr>
+<tr><td>2</td><td>Ganancia fija de bucle abierto</td><td></td></tr>
+<tr><td>3-254</td><td>Reservadas</td><td></td></tr>
+<tr><td>255</td><td>Valor faltante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

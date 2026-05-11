@@ -1,9 +1,9 @@
 ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status,translation_source
 bufr4/3/01/001/1/001001,01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational,na
 bufr4/3/01/001/2/001002,01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational,na
-bufr4/3/01/002/1/001003,01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational,na
-bufr4/3/01/002/2/001004,01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),11,Operational,na
-bufr4/3/01/002/3/001005,01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),11,Operational,na
+bufr4/3/01/002/1/001003,01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),D11,Operational,na
+bufr4/3/01/002/2/001004,01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),D11,Operational,na
+bufr4/3/01/002/3/001005,01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),D11,Operational,na
 bufr4/3/01/003/1/001011,01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational,na
 bufr4/3/01/003/2/001012,01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational,na
 bufr4/3/01/003/3/001013,01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational,na
@@ -24,7 +24,7 @@ bufr4/3/01/013/3/004006,01,Location and identification sequences,301013,"(Hour, 
 bufr4/3/01/014/1/102002,01,Location and identification sequences,301014,(Time period),,102002,Replicate 2 descriptors 2 times,,,,Operational,na
 bufr4/3/01/014/2/301011,01,Location and identification sequences,301014,(Time period),,301011,"Year, month, day",,,,Operational,na
 bufr4/3/01/014/3/301012,01,Location and identification sequences,301014,(Time period),,301012,"Hour, minute",,,,Operational,na
-bufr4/3/01/018/1/001114,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),,(see Notes 2 and 3),"57,23",Operational,na
+bufr4/3/01/018/1/001114,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),,(see Notes 2 and 3),"D57,D23",Operational,na
 bufr4/3/01/018/2/025185,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025185,Encryption method,,,,Operational,na
 bufr4/3/01/018/3/025186,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025186,Encryption key version,,,,Operational,na
 bufr4/3/01/021/1/005001,01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,005001,Latitude (high accuracy),,,,Operational,na
@@ -49,16 +49,16 @@ bufr4/3/01/026/6/004005,01,Location and identification sequences,301026,"(Latitu
 bufr4/3/01/026/7/004005,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,,,,Operational,na
 bufr4/3/01/027/1/008007,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,"= 0 Point, = 1 Line, = 2 Area, = 3 Volume",,,Operational,na
 bufr4/3/01/027/2/101000,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,101000,Delayed replication of 1 descriptor,,,,Operational,na
-bufr4/3/01/027/3/031001,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 4),65,Operational,na
+bufr4/3/01/027/3/031001,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 4),D65,Operational,na
 bufr4/3/01/027/4/301028,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,301028,"Horizontal section of a feature described as a polygon, circle, line or point",,,,Operational,na
 bufr4/3/01/027/5/008007,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,Set to missing (cancel),,,Operational,na
 bufr4/3/01/028/1/008040,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,,,,Operational,na
 bufr4/3/01/028/2/033042,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,033042,Type of limit represented by following value,,,,Operational,na
 bufr4/3/01/028/3/007010,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,007010,Flight level,,,,Operational,na
 bufr4/3/01/028/4/101000,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,101000,Delayed replication of 1 descriptor,,,,Operational,na
-bufr4/3/01/028/5/031002,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 5),66,Operational,na
+bufr4/3/01/028/5/031002,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 5),D66,Operational,na
 bufr4/3/01/028/6/301023,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,301023,Latitude/longitude (coarse accuracy),,,,Operational,na
-bufr4/3/01/028/7/019007,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 6),61,Operational,na
+bufr4/3/01/028/7/019007,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 6),D61,Operational,na
 bufr4/3/01/028/8/008040,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,Set to missing (cancel),,,Operational,na
 bufr4/3/01/029/1/001018,01,Location and identification sequences,301029,(Identification),,001018,Short station or site name,,,,Operational,na
 bufr4/3/01/029/2/002001,01,Location and identification sequences,301029,(Identification),,002001,Type of station,,,,Operational,na
@@ -87,13 +87,13 @@ bufr4/3/01/034/2/002001,01,Location and identification sequences,301034,(Buoy/pl
 bufr4/3/01/034/3/301011,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational,na
 bufr4/3/01/034/4/301012,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational,na
 bufr4/3/01/034/5/301023,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301023,Latitude/longitude (coarse accuracy),,,,Operational,na
-bufr4/3/01/035/1/001005,01,Location and identification sequences,301035,(Buoy/platform - moving),,001005,Buoy/platform identifier,,(see Note 7),12,Operational,na
-bufr4/3/01/035/2/001012,01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,(see Note 7),12,Operational,na
-bufr4/3/01/035/3/001013,01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,(see Note 7,12,Operational,na
-bufr4/3/01/035/4/002001,01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,(see Note 7),12,Operational,na
-bufr4/3/01/035/5/301011,01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,(see Note 7),12,Operational,na
-bufr4/3/01/035/6/301012,01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,(see Note 7),12,Operational,na
-bufr4/3/01/035/7/301023,01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,(see Note 7),12,Operational,na
+bufr4/3/01/035/1/001005,01,Location and identification sequences,301035,(Buoy/platform - moving),,001005,Buoy/platform identifier,,(see Note 7),D12,Operational,na
+bufr4/3/01/035/2/001012,01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,(see Note 7),D12,Operational,na
+bufr4/3/01/035/3/001013,01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,(see Note 7,D12,Operational,na
+bufr4/3/01/035/4/002001,01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,(see Note 7),D12,Operational,na
+bufr4/3/01/035/5/301011,01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,(see Note 7),D12,Operational,na
+bufr4/3/01/035/6/301012,01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,(see Note 7),D12,Operational,na
+bufr4/3/01/035/7/301023,01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,(see Note 7),D12,Operational,na
 bufr4/3/01/036/1/301003,01,Location and identification sequences,301036,(Ship),,301003,Ship's call sign and motion,,,,Operational,na
 bufr4/3/01/036/2/002001,01,Location and identification sequences,301036,(Ship),,002001,Type of station,,,,Operational,na
 bufr4/3/01/036/3/301011,01,Location and identification sequences,301036,(Ship),,301011,"Year, month, day",,,,Operational,na
@@ -259,8 +259,8 @@ bufr4/3/01/059/3/007032,01,Location and identification sequences,301059,(Identif
 bufr4/3/01/062/1/101000,01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,,,Operational,na
 bufr4/3/01/062/2/031001,01,Location and identification sequences,301062,(Radar location(s)),,031001,Delayed descriptor replication factor,,,,Operational,na
 bufr4/3/01/062/3/301001,01,Location and identification sequences,301062,(Radar location(s)),,301001,WMO block and station numbers,,,,Operational,na
-bufr4/3/01/065/1/001006,01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 9),5,Operational,na
-bufr4/3/01/065/2/001008,01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 9),5,Operational,na
+bufr4/3/01/065/1/001006,01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 9),D5,Operational,na
+bufr4/3/01/065/2/001008,01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 9),D5,Operational,na
 bufr4/3/01/065/3/002001,01,Location and identification sequences,301065,(ACARS identification),,002001,Type of station,,,,Operational,na
 bufr4/3/01/065/4/002002,01,Location and identification sequences,301065,(ACARS identification),,002002,Type of instrumentation for wind measurement,,,,Operational,na
 bufr4/3/01/065/5/002005,01,Location and identification sequences,301065,(ACARS identification),,002005,Precision of temperature observation,,,,Operational,na
@@ -344,7 +344,7 @@ bufr4/3/01/112/2/002011,01,Location and identification sequences,301112,(Identif
 bufr4/3/01/112/3/002013,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002013,Solar and infrared radiation correction,,,,Operational,na
 bufr4/3/01/112/4/002014,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002014,Tracking technique/status of system used,,,,Operational,na
 bufr4/3/01/112/5/002003,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002003,Type of measuring equipment used,,,,Operational,na
-bufr4/3/01/113/1/008021,01,Location and identification sequences,301113,(Date/time of launch),,008021,Time significance,= 18 Launch time,(see Note 10),72,Operational,na
+bufr4/3/01/113/1/008021,01,Location and identification sequences,301113,(Date/time of launch),,008021,Time significance,= 18 Launch time,(see Note 10),D72,Operational,na
 bufr4/3/01/113/2/301011,01,Location and identification sequences,301113,(Date/time of launch),,301011,"Year, month, day",Launch time,,,Operational,na
 bufr4/3/01/113/3/301013,01,Location and identification sequences,301113,(Date/time of launch),,301013,"Hour, minute, second",Launch time,,,Operational,na
 bufr4/3/01/114/1/301021,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,301021,Latitude/longitude (high accuracy),,,,Operational,na
@@ -361,7 +361,7 @@ bufr4/3/01/121/2/301122,01,Location and identification sequences,301121,(Radioso
 bufr4/3/01/121/3/301021,01,Location and identification sequences,301121,(Radiosonde launch point location),,301021,Latitude/longitude (high accuracy),,,,Operational,na
 bufr4/3/01/121/4/007031,01,Location and identification sequences,301121,(Radiosonde launch point location),,007031,Height of barometer above mean sea level,,,,Operational,na
 bufr4/3/01/121/5/007007,01,Location and identification sequences,301121,(Radiosonde launch point location),,007007,Height,Release of radiosonde above mean sea level,,,Operational,na
-bufr4/3/01/122/1/301011,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301011,"Year, month, day",,(see Note 10),72,Operational,na
+bufr4/3/01/122/1/301011,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301011,"Year, month, day",,(see Note 10),D72,Operational,na
 bufr4/3/01/122/2/301012,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301012,"Hour, minute",,,,Operational,na
 bufr4/3/01/122/3/201135,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201135,Change data width,,,,Operational,na
 bufr4/3/01/122/4/202130,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202130,Change scale,,,,Operational,na
@@ -454,7 +454,7 @@ bufr4/3/01/131/4/007025,01,Location and identification sequences,301131,(Pixel g
 bufr4/3/01/131/5/005022,01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,,Operational,na
 bufr4/3/01/132/1/301150,01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS identifiers,,,,Operational,na
 bufr4/3/01/132/2/301001,01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,,Operational,na
-bufr4/3/01/132/3/301021,01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,(see Note 11),48,Operational,na
+bufr4/3/01/132/3/301021,01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,(see Note 11),D48,Operational,na
 bufr4/3/01/132/4/007030,01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,,Operational,na
 bufr4/3/01/132/5/008021,01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,,Operational,na
 bufr4/3/01/132/6/301011,01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,,Operational,na

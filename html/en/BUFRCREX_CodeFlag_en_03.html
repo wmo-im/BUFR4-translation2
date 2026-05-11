@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 03</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 03</h1>
+<p class="fxy-heading">0 03 001  Surface station type</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Land station (synoptic network)</td><td></td></tr>
+<tr><td>1</td><td>Shallow water station (fixed to sea/lake floor)</td><td></td></tr>
+<tr><td>2</td><td>Ship</td><td></td></tr>
+<tr><td>3</td><td>Rig/platform</td><td></td></tr>
+<tr><td>4</td><td>Moored buoy</td><td></td></tr>
+<tr><td>5</td><td>Drifting buoy (or drifter)</td><td></td></tr>
+<tr><td>6</td><td>Ice buoy</td><td></td></tr>
+<tr><td>7</td><td>Land station (local network)</td><td></td></tr>
+<tr><td>8</td><td>Land vehicle</td><td></td></tr>
+<tr><td>9</td><td>Autonomous marine vehicle</td><td></td></tr>
+<tr><td>10</td><td>Tag attached to marine animal</td><td></td></tr>
+<tr><td>11-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 003  Thermometer/hygrometer housing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Screen</td><td></td></tr>
+<tr><td>1</td><td>Sling/whirling</td><td></td></tr>
+<tr><td>2</td><td>Unscreened</td><td></td></tr>
+<tr><td>3</td><td>Radiation shield</td><td></td></tr>
+<tr><td>4</td><td>Aspirated (e.g. Assmann)</td><td></td></tr>
+<tr><td>5</td><td>Other shelter</td><td></td></tr>
+<tr><td>6</td><td>Handheld</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 004  Type of screen/shelter/radiation shield</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Stevenson screen</td><td></td></tr>
+<tr><td>1</td><td>Marine Stevenson screen</td><td></td></tr>
+<tr><td>2</td><td>Cylindrical section plate shield</td><td></td></tr>
+<tr><td>3</td><td>Concentric tube</td><td></td></tr>
+<tr><td>4</td><td>Rectangular section shield</td><td></td></tr>
+<tr><td>5</td><td>Square section shield</td><td></td></tr>
+<tr><td>6</td><td>Triangular section shield</td><td></td></tr>
+<tr><td>7</td><td>Open covered lean-to</td><td></td></tr>
+<tr><td>8</td><td>Open covered inverted V roof</td><td></td></tr>
+<tr><td>9</td><td>Integrated (e.g. chilled mirror)</td><td></td></tr>
+<tr><td>10-14</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 008  Artificially ventilated screen or shield</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Natural ventilation in use</td><td></td></tr>
+<tr><td>1</td><td>Artificial aspiration in use: constant flow at time of reading</td><td></td></tr>
+<tr><td>2</td><td>Artificial aspiration in use: variable flow at time of reading</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 010  Method of sea/water current measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>ADCP</td><td>Note CF91: Code figure 1 is deprecated. Code figure 6 should be used instead.</td></tr>
+<tr><td>2</td><td>GEK (Geomagnetic ElectroKinetograph)</td><td></td></tr>
+<tr><td>3</td><td>Ship&#x27;s set and drift determined by fixes 3-6 hours apart</td><td></td></tr>
+<tr><td>4</td><td>Ship&#x27;s set and drift determined by fixes more than 6 hours but less than 12 hours apart</td><td></td></tr>
+<tr><td>5</td><td>Drift of buoy</td><td></td></tr>
+<tr><td>6</td><td>ADCP</td><td></td></tr>
+<tr><td>7</td><td>ADCP bottom tracking mode</td><td></td></tr>
+<tr><td>8</td><td>Electromagnetic sensor</td><td></td></tr>
+<tr><td>9</td><td>Rotor and vane</td><td></td></tr>
+<tr><td>10</td><td>Lowered ADCP</td><td></td></tr>
+<tr><td>11-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 011  Method of depth calculation</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Depth calculated using fall rate equation</td><td></td></tr>
+<tr><td>1</td><td>Depth calculated from water pressure/equation of state</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 012  Instrument type/sensor for dissolved oxygen measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Anderraa oxygen optode</td><td></td></tr>
+<tr><td>1</td><td>Winkler bottle</td><td></td></tr>
+<tr><td>2-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 016  Position of road sensors</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Fast lane between the wheel tracks</td><td></td></tr>
+<tr><td>1</td><td>Fast lane between the wheel tracks in the opposite direction</td><td></td></tr>
+<tr><td>2</td><td>Fast lane in the wheel tracks</td><td></td></tr>
+<tr><td>3</td><td>Fast lane in the wheel tracks in the opposite direction</td><td></td></tr>
+<tr><td>4</td><td>Slow lane between the wheel tracks</td><td></td></tr>
+<tr><td>5</td><td>Slow lane between the wheel tracks in the opposite direction</td><td></td></tr>
+<tr><td>6</td><td>Slow lane in the wheel tracks</td><td></td></tr>
+<tr><td>7</td><td>Slow lane in the wheel tracks in the opposite direction</td><td></td></tr>
+<tr><td>8-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 017  Extended type of station</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Automatic</td><td></td></tr>
+<tr><td>2</td><td>Manned</td><td></td></tr>
+<tr><td>3</td><td>Event triggered</td><td></td></tr>
+<tr><td>4</td><td>Longer time period than the standard</td><td></td></tr>
+<tr><td>5</td><td>Reserved</td><td></td></tr>
+<tr><td>All 6</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 018  Type of road</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Free track without further information</td><td></td></tr>
+<tr><td>1</td><td>Free track, embankment</td><td></td></tr>
+<tr><td>2</td><td>Free track, flat relative to surroundings</td><td></td></tr>
+<tr><td>3</td><td>Free track, water basin(s) in vicinity</td><td></td></tr>
+<tr><td>4</td><td>Free track, forest</td><td></td></tr>
+<tr><td>5</td><td>Free track, cleft</td><td></td></tr>
+<tr><td>6</td><td>Free track, on hilltop</td><td></td></tr>
+<tr><td>7</td><td>Free track, on hilltop, forest</td><td></td></tr>
+<tr><td>8</td><td>Free track, in valley</td><td></td></tr>
+<tr><td>9</td><td>Free track, in valley, forest</td><td></td></tr>
+<tr><td>10</td><td>Free track, north inclination</td><td></td></tr>
+<tr><td>11</td><td>Free track, north inclination, forest</td><td></td></tr>
+<tr><td>12</td><td>Free track, south inclination</td><td></td></tr>
+<tr><td>13</td><td>Free track, south inclination, forest</td><td></td></tr>
+<tr><td>14-19</td><td>Reserved</td><td></td></tr>
+<tr><td>20</td><td>Bridge without further information</td><td></td></tr>
+<tr><td>21</td><td>Bridge across a valley in an urban area</td><td></td></tr>
+<tr><td>22</td><td>Bridge across a valley with forest/meadows/fields</td><td></td></tr>
+<tr><td>23</td><td>Bridge across street/track</td><td></td></tr>
+<tr><td>24</td><td>Bridge across big river/canal</td><td></td></tr>
+<tr><td>25</td><td>Bridge across river/canal of medium size</td><td></td></tr>
+<tr><td>26</td><td>Bridge across a small stream/loading canal</td><td></td></tr>
+<tr><td>27-30</td><td>Reserved</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 019  Type of construction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Asphalt</td><td></td></tr>
+<tr><td>1</td><td>Concrete</td><td></td></tr>
+<tr><td>2</td><td>Concrete construction</td><td></td></tr>
+<tr><td>3</td><td>Steel-girder construction</td><td></td></tr>
+<tr><td>4</td><td>Box girder bridge</td><td></td></tr>
+<tr><td>5</td><td>Orthotropic slab</td><td></td></tr>
+<tr><td>6</td><td>Drain asphalt</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 020  Material for thermometer/hygrometer housing</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Wood</td><td></td></tr>
+<tr><td>1</td><td>Metal alloy</td><td></td></tr>
+<tr><td>2</td><td>Plastic/GRP</td><td></td></tr>
+<tr><td>3</td><td>Reed/grass/leaf</td><td></td></tr>
+<tr><td>4-6</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 021  Hygrometer heating</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unheated</td><td></td></tr>
+<tr><td>1</td><td>Heated</td><td></td></tr>
+<tr><td>2</td><td>Not applicable</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 022  Instrument owner</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>National hydrometeorological/weather service</td><td></td></tr>
+<tr><td>1</td><td>Other</td><td></td></tr>
+<tr><td>2</td><td>Standards institute</td><td></td></tr>
+<tr><td>3-6</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 023  Configuration of louvers for thermometer/hygrometer screen</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Single v-section louvers</td><td></td></tr>
+<tr><td>1</td><td>Overlapping louvers</td><td></td></tr>
+<tr><td>2</td><td>Double v-section louvers</td><td></td></tr>
+<tr><td>3</td><td>Non-overlapping louvers</td><td></td></tr>
+<tr><td>4</td><td>Vented, non-louvered</td><td></td></tr>
+<tr><td>5</td><td>Not applicable</td><td></td></tr>
+<tr><td>6</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 027  Type of flight rig</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Solo (single radiosonde)</td><td></td></tr>
+<tr><td>1</td><td>Block</td><td></td></tr>
+<tr><td>2</td><td>Bar</td><td></td></tr>
+<tr><td>3</td><td>Cross</td><td></td></tr>
+<tr><td>4</td><td>T-rig</td><td></td></tr>
+<tr><td>5</td><td>Double T-rig</td><td></td></tr>
+<tr><td>6</td><td>Complex</td><td></td></tr>
+<tr><td>7-14</td><td>Reserved</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 028  Method of snow water equivalent measurement</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Multi point manual snow survey</td><td></td></tr>
+<tr><td>1</td><td>Single point manual snow water equivalent measurement</td><td></td></tr>
+<tr><td>2</td><td>Snow pillow or snow scale</td><td></td></tr>
+<tr><td>3</td><td>Passive gamma</td><td></td></tr>
+<tr><td>4</td><td>GNSS/GPS methods</td><td></td></tr>
+<tr><td>5</td><td>Cosmic ray attenuation</td><td></td></tr>
+<tr><td>6</td><td>Time domain reflectometry</td><td></td></tr>
+<tr><td>7-62</td><td>Reserved</td><td></td></tr>
+<tr><td>63</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 029  Swath</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Left hand side</td><td></td></tr>
+<tr><td>1</td><td>Right hand side</td><td></td></tr>
+<tr><td>2-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 03 030  Antenna status</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Transmitting</td><td></td></tr>
+<tr><td>1</td><td>Receiving</td><td></td></tr>
+<tr><td>2-6</td><td>Reserved</td><td></td></tr>
+<tr><td>7</td><td>Missing</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

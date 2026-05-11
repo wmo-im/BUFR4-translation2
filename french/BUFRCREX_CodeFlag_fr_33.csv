@@ -167,7 +167,7 @@ bufr4/0/33/032/7,033032,Indicateurs de qualité du canal du sondeur ATOVS,7,Qual
 bufr4/0/33/032/8-23,033032,Indicateurs de qualité du canal du sondeur ATOVS,8-23,En réserve (bits mis à 0),,,,,Operational,PDF
 bufr4/0/33/032/All-24,033032,Indicateurs de qualité du canal du sondeur ATOVS,24 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/33/033/1,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,1,Bit mis à 1 en cas d'étalonnage secondaire,,,,,Operational,PDF
-bufr4/0/33/033/2-21,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,2-21,Bit n mis à 1 si la température de luminance dans le canal n-1 est physiquement invraisemblable ou n'a pas été calculée à cause de problèmes d'étalonnage,,,(voir Note 2),26,Operational,PDF
+bufr4/0/33/033/2-21,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,2-21,Bit n mis à 1 si la température de luminance dans le canal n-1 est physiquement invraisemblable ou n'a pas été calculée à cause de problèmes d'étalonnage,,,(voir Note 2),CF26,Operational,PDF
 bufr4/0/33/033/22,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,22,Bit mis à 1 si tous les canaux sont absents,,,,,Operational,PDF
 bufr4/0/33/033/23,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,23,Suspect,,,,,Operational,PDF
 bufr4/0/33/033/All-24,033033,Indicateurs de qualité du champ de vision du sondeur ATOVS,24 bits mis à 1,Valeur manquante,,,,,Operational,PDF
@@ -361,26 +361,26 @@ bufr4/0/33/072/17-30,033072,Erreur relative à l'ozone,17-30,En réserve,,,,,Ope
 bufr4/0/33/072/31,033072,Erreur relative à l'ozone,31,Valeur manquante,,,,,Operational,PDF
 bufr4/0/33/075/1,033075,Indicateur de qualité au niveau du balayage,1,Détection de données manquantes dans le relevé des données brutes (c'est-à-dire balayage(s) manquant(s) avant ce balayage),,,,,Operational,PDF
 bufr4/0/33/075/2,033075,Indicateur de qualité au niveau du balayage,2,L'heure enregistrée ne respecte pas l'ordre chronologique (c'est-à-dire l'heure de début du balayage n'est pas dans l'ordre chronologique),,,,,Operational,PDF
-bufr4/0/33/075/3,033075,Indicateur de qualité au niveau du balayage,3,Le calcul de vérification par lambda ne peut être mis à jour,,,(voir Note 1),72,Operational,PDF
-bufr4/0/33/075/4,033075,Indicateur de qualité au niveau du balayage,4,"Quel que soit le composant de l'instrument (exemple: diviseur de faisceau, miroir à balayage, déflecteur de balayage, etc.), les températures mesurées se situent en dehors des limites prévues",,,(voir Note 2),83,Operational,PDF
+bufr4/0/33/075/3,033075,Indicateur de qualité au niveau du balayage,3,Le calcul de vérification par lambda ne peut être mis à jour,,,(voir Note 1),CF72,Operational,PDF
+bufr4/0/33/075/4,033075,Indicateur de qualité au niveau du balayage,4,"Quel que soit le composant de l'instrument (exemple: diviseur de faisceau, miroir à balayage, déflecteur de balayage, etc.), les températures mesurées se situent en dehors des limites prévues",,,(voir Note 2),CF83,Operational,PDF
 bufr4/0/33/075/5,033075,Indicateur de qualité au niveau du balayage,5,Au moins une des températures contrôlées pour cet instrument dépasse la valeur de tolérance prévue,,,,,Operational,PDF
 bufr4/0/33/075/6-12,033075,Indicateur de qualité au niveau du balayage,6-12,En réserve,,,,,Operational,PDF
 bufr4/0/33/075/All-13,033075,Indicateur de qualité au niveau du balayage,13 bits mis à 1,Valeur manquante,,,,,Operational,PDF
-bufr4/0/33/076/1,033076,Indicateur de qualité de l'étalonnage,1,Lune décelée sur la première visée de l'espace lointain,,,(voir Note),71,Operational,PDF
-bufr4/0/33/076/2,033076,Indicateur de qualité de l'étalonnage,2,Lune décelée sur la deuxième visée de l'espace lointain,,,(voir Note),71,Operational,PDF
+bufr4/0/33/076/1,033076,Indicateur de qualité de l'étalonnage,1,Lune décelée sur la première visée de l'espace lointain,,,(voir Note),CF71,Operational,PDF
+bufr4/0/33/076/2,033076,Indicateur de qualité de l'étalonnage,2,Lune décelée sur la deuxième visée de l'espace lointain,,,(voir Note),CF71,Operational,PDF
 bufr4/0/33/076/3-8,033076,Indicateur de qualité de l'étalonnage,3-8,En réserve,,,,,Operational,PDF
 bufr4/0/33/076/All-9,033076,Indicateur de qualité de l'étalonnage,9 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/33/077/1,033077,Indicateur de qualité du champ de vision,1,Qualité dégradée des enregistrements de données de détecteur,,,,,Operational,PDF
-bufr4/0/33/077/2,033077,Indicateur de qualité du champ de vision,2,Qualité insatisfaisante des enregistrements de données de détecteur,,,(voir Note 1),68,Operational,PDF
+bufr4/0/33/077/2,033077,Indicateur de qualité du champ de vision,2,Qualité insatisfaisante des enregistrements de données de détecteur,,,(voir Note 1),CF68,Operational,PDF
 bufr4/0/33/077/3,033077,Indicateur de qualité du champ de vision,3,Informations incorrectes de localisation géographique des enregistrements de données de détecteur,,,,,Operational,PDF
 bufr4/0/33/077/4,033077,Indicateur de qualité du champ de vision,4,Étalonnage radiométrique dégradé,,,,,Operational,PDF
-bufr4/0/33/077/5,033077,Indicateur de qualité du champ de vision,5,Étalonnage radiométrique incorrect,,,(voir Note 2),67,Operational,PDF
+bufr4/0/33/077/5,033077,Indicateur de qualité du champ de vision,5,Étalonnage radiométrique incorrect,,,(voir Note 2),CF67,Operational,PDF
 bufr4/0/33/077/6,033077,Indicateur de qualité du champ de vision,6,Étalonnage spectral dégradé,,,,,Operational,PDF
-bufr4/0/33/077/7,033077,Indicateur de qualité du champ de vision,7,Étalonnage spectral incorrect,,,(voir Note 3),73,Operational,PDF
-bufr4/0/33/077/8,033077,Indicateur de qualité du champ de vision,8,Erreur du nombre de franges décelée et corrigée,,,(voir Note 4),70,Operational,PDF
-bufr4/0/33/077/9,033077,Indicateur de qualité du champ de vision,9,Indicateur jour-nuit,,,(voir Note 5),69,Operational,PDF
-bufr4/0/33/077/10,033077,Indicateur de qualité du champ de vision,10,Relevés bruts incorrects,,,(voir Note 6),87,Operational,PDF
-bufr4/0/33/077/11,033077,Indicateur de qualité du champ de vision,11,Erreur significative du nombre de franges décelée,,,(voir Note 7),86,Operational,PDF
+bufr4/0/33/077/7,033077,Indicateur de qualité du champ de vision,7,Étalonnage spectral incorrect,,,(voir Note 3),CF73,Operational,PDF
+bufr4/0/33/077/8,033077,Indicateur de qualité du champ de vision,8,Erreur du nombre de franges décelée et corrigée,,,(voir Note 4),CF70,Operational,PDF
+bufr4/0/33/077/9,033077,Indicateur de qualité du champ de vision,9,Indicateur jour-nuit,,,(voir Note 5),CF69,Operational,PDF
+bufr4/0/33/077/10,033077,Indicateur de qualité du champ de vision,10,Relevés bruts incorrects,,,(voir Note 6),CF87,Operational,PDF
+bufr4/0/33/077/11,033077,Indicateur de qualité du champ de vision,11,Erreur significative du nombre de franges décelée,,,(voir Note 7),CF86,Operational,PDF
 bufr4/0/33/077/12,033077,Indicateur de qualité du champ de vision,12,La compensation des bits a échoué,,,,,Operational,PDF
 bufr4/0/33/077/13-18,033077,Indicateur de qualité du champ de vision,13-18,En réserve,,,,,Operational,PDF
 bufr4/0/33/077/All-19,033077,Indicateur de qualité du champ de vision,19 bits mis à 1,Valeur manquante,,,,,Operational,PDF

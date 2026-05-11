@@ -14,7 +14,7 @@ bufr4/0/11/013,11,Vent et turbulence,011013,Direction du vent à 5 m,degré vrai
 bufr4/0/11/014,11,Vent et turbulence,011014,Vitesse du vent à 5 m,m/s,1,0,12,m/s,1,4,,,Operational,PDF
 bufr4/0/11/016,11,Vent et turbulence,011016,Direction du vent extrême dans le sens contraire des aiguilles d'une montre (vent variable),degré vrai,0,0,9,degré vrai,0,3,,,Operational,PDF
 bufr4/0/11/017,11,Vent et turbulence,011017,Direction du vent extrême dans le sens des aiguilles d'une montre (vent variable),degré vrai,0,0,9,degré vrai,0,3,,,Operational,PDF
-bufr4/0/11/019,11,Vent et turbulence,011019,Stabilité du vent,%,0,0,7,%,0,3,(voir Note 6),147,Operational,PDF
+bufr4/0/11/019,11,Vent et turbulence,011019,Stabilité du vent,%,0,0,7,%,0,3,(voir Note 6),B147,Operational,PDF
 bufr4/0/11/021,11,Vent et turbulence,011021,Tourbillon relatif,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/022,11,Vent et turbulence,011022,Divergence,/s,9,-65536,17,/s,9,6,,,Operational,PDF
 bufr4/0/11/023,11,Vent et turbulence,011023,Vitesse potentielle,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational,PDF

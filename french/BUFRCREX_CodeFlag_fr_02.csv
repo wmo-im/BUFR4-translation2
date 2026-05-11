@@ -135,9 +135,9 @@ bufr4/0/02/021/8,002021,Données instrumentales satellitaires utilisées dans le
 bufr4/0/02/021/All-9,002021,Données instrumentales satellitaires utilisées dans le traitement,9 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/022/1,002022,Technique utilisée pour le traitement des données satellitaires,1,Technique de traitement non définie,,,,,Operational,PDF
 bufr4/0/02/022/2,002022,Technique utilisée pour le traitement des données satellitaires,2,Régression statistique automatique,,,,,Operational,PDF
-bufr4/0/02/022/3,002022,Technique utilisée pour le traitement des données satellitaires,3,Mesure ciel clair,,,(voir Note 2),28,Operational,PDF
-bufr4/0/02/022/4,002022,Technique utilisée pour le traitement des données satellitaires,4,Mesure ciel partiellement couvert,,,(voir Note 3),62,Operational,PDF
-bufr4/0/02/022/5,002022,Technique utilisée pour le traitement des données satellitaires,5,Mesure ciel couvert,,,(voir Note 4),30,Operational,PDF
+bufr4/0/02/022/3,002022,Technique utilisée pour le traitement des données satellitaires,3,Mesure ciel clair,,,(voir Note 2),CF28,Operational,PDF
+bufr4/0/02/022/4,002022,Technique utilisée pour le traitement des données satellitaires,4,Mesure ciel partiellement couvert,,,(voir Note 3),CF62,Operational,PDF
+bufr4/0/02/022/5,002022,Technique utilisée pour le traitement des données satellitaires,5,Mesure ciel couvert,,,(voir Note 4),CF30,Operational,PDF
 bufr4/0/02/022/6-7,002022,Technique utilisée pour le traitement des données satellitaires,6-7,En réserve,,,,,Operational,PDF
 bufr4/0/02/022/All-8,002022,Technique utilisée pour le traitement des données satellitaires,8 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/023/0,002023,Méthode de calcul du vent à partir de données satellitaires,0,En réserve,,,,,Operational,PDF
@@ -173,12 +173,12 @@ bufr4/0/02/025/12,002025,Canal (canaux) de satellite utilisé(s) pour les calcul
 bufr4/0/02/025/13-14,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,13-14,En réserve,,,,,Operational,PDF
 bufr4/0/02/025//4,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,,"Groupe 4 - Température moyenne pour les couches: surface à 850 hPa, 850 à 700 hPa, 700 à 500 hPa, 500 à 400 hPa, 400 à 300 hPa, 300 à 200 hPa, et 200 à 100 hPa",,,,,Operational,PDF
 bufr4/0/02/025/15,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,15,HIRS,,,,,Operational,PDF
-bufr4/0/02/025/16,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,16,HIRS,,,(voir Note 2),47,Operational,PDF
+bufr4/0/02/025/16,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,16,HIRS,,,(voir Note 2),CF47,Operational,PDF
 bufr4/0/02/025/17,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,17,MSU,,,,,Operational,PDF
 bufr4/0/02/025/18,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,18,SKINTK (océan uniquement),,,,,Operational,PDF
 bufr4/0/02/025/19-20,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,19-20,En réserve,,,,,Operational,PDF
 bufr4/0/02/025//5,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,,"Groupe 5 - Combinaison de canaux utilisés pour obtenir des températures moyennes pour les couches: 100 à 70 hPa, 70 à 50 hPa, 50 à 30 hPa, 30 à 10 hPa, 10 à 5 hPa, 5 à 2 hPa, 2 à 1 hPa, 1 à 0,4 hPa",,,,,Operational,PDF
-bufr4/0/02/025/21,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,21,HIRS,,,(voir Note 2),47,Operational,PDF
+bufr4/0/02/025/21,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,21,HIRS,,,(voir Note 2),CF47,Operational,PDF
 bufr4/0/02/025/22,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,22,SSU,,,,,Operational,PDF
 bufr4/0/02/025/23,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,23,"MSU (3, 4)",,,,,Operational,PDF
 bufr4/0/02/025/24,002025,Canal (canaux) de satellite utilisé(s) pour les calculs d'indicateurs,24,En réserve,,,,,Operational,PDF
@@ -332,8 +332,8 @@ bufr4/0/02/048/13-14,002048,Indicateur de détecteur de satellite,13-14,En rése
 bufr4/0/02/048/15,002048,Indicateur de détecteur de satellite,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/049/1,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,1,Technique de traitement non définie,,,,,Operational,PDF
 bufr4/0/02/049/2,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,2,Extraction physique simultanée,,,,,Operational,PDF
-bufr4/0/02/049/3,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,3,Sondage par atmosphère claire,,,(voir Note 1),29,Operational,PDF
-bufr4/0/02/049/4,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,4,Sondage par atmosphère nuageuse,,,(voir Note 2),31,Operational,PDF
+bufr4/0/02/049/3,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,3,Sondage par atmosphère claire,,,(voir Note 1),CF29,Operational,PDF
+bufr4/0/02/049/4,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,4,Sondage par atmosphère nuageuse,,,(voir Note 2),CF31,Operational,PDF
 bufr4/0/02/049/5-7,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,5-7,En réserve pour utilisation future,,,,,Operational,PDF
 bufr4/0/02/049/All-8,002049,Technique utilisée pour le traitement des données de satellite géostationnaire,8 bits mis à 1,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/050/1,002050,Canaux utilisés par le sondeur du satellite géostationnaire,1,1,"14,71",,,,Operational,PDF
@@ -440,7 +440,7 @@ bufr4/0/02/062/5,002062,Type de système de retransmission des données d'aéron
 bufr4/0/02/062/6-14,002062,Type de système de retransmission des données d'aéronef,6-14,En réserve,,,,,Operational,PDF
 bufr4/0/02/062/15,002062,Type de système de retransmission des données d'aéronef,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/064/0,002064,Qualité de l'angle de roulis de l'aéronef,0,Bonne,,,,,Operational,PDF
-bufr4/0/02/064/1,002064,Qualité de l'angle de roulis de l'aéronef,1,Mauvaise,,,(voir Note),20,Operational,PDF
+bufr4/0/02/064/1,002064,Qualité de l'angle de roulis de l'aéronef,1,Mauvaise,,,(voir Note),CF20,Operational,PDF
 bufr4/0/02/064/2,002064,Qualité de l'angle de roulis de l'aéronef,2,En réserve,,,,,Operational,PDF
 bufr4/0/02/064/3,002064,Qualité de l'angle de roulis de l'aéronef,3,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/066/0,002066,Système de réception au sol des données de radiosondage,0,InterMet IMS 2000,,,,,Operational,PDF
@@ -632,8 +632,8 @@ bufr4/0/02/143/19,002143,Type d'instrument de mesure de l'ozone,19,Sonde à cell
 bufr4/0/02/143/20-126,002143,Type d'instrument de mesure de l'ozone,20-126,En réserve,,,,,Operational,PDF
 bufr4/0/02/143/127,002143,Type d'instrument de mesure de l'ozone,127,Valeur manquante,,,,,Operational,PDF
 bufr4/0/02/144/0,002144,Type de source lumineuse pour spectrophotomètres Brewer,0,Rayonnement solaire direct,,,,,Operational,PDF
-bufr4/0/02/144/1,002144,Type de source lumineuse pour spectrophotomètres Brewer,1,"Rayonnement solaire direct, atténuateur #1",,,(voir Note),38,Operational,PDF
-bufr4/0/02/144/2,002144,Type de source lumineuse pour spectrophotomètres Brewer,2,"Rayonnement solaire direct, atténuateur #2",,,(voir Note),38,Operational,PDF
+bufr4/0/02/144/1,002144,Type de source lumineuse pour spectrophotomètres Brewer,1,"Rayonnement solaire direct, atténuateur #1",,,(voir Note),CF38,Operational,PDF
+bufr4/0/02/144/2,002144,Type de source lumineuse pour spectrophotomètres Brewer,2,"Rayonnement solaire direct, atténuateur #2",,,(voir Note),CF38,Operational,PDF
 bufr4/0/02/144/3,002144,Type de source lumineuse pour spectrophotomètres Brewer,3,Mise au point sur la Lune,,,,,Operational,PDF
 bufr4/0/02/144/4,002144,Type de source lumineuse pour spectrophotomètres Brewer,4,Mise au point sur le Soleil,,,,,Operational,PDF
 bufr4/0/02/144/5,002144,Type de source lumineuse pour spectrophotomètres Brewer,5,Mise au point sur le Soleil avec corrections provenant de mesures du ciel adjacent,,,,,Operational,PDF

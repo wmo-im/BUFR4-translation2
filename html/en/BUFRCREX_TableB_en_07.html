@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 07: Location (vertical)</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 07: Location (vertical)</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 07 001</td><td>Height of station</td><td>m</td><td>0</td><td>-400</td><td>15</td><td>m</td><td>0</td><td>5</td><td>Note B116: Regarding data from ground-based stations, this descriptor should be used for archived data only. Descriptors 0 07 030 and 0 07 031 should be used and preferred to represent ground elevation and elevation of barometer, respectively, as defined in Weather Reporting (WMO-No. 9), Volume A - Observing Stations. Regarding marine stations, this descriptor refers to the height above mean sea level of the deck of marine platform where the instruments stand.</td></tr>
+<tr><td>0 07 002</td><td>Height or altitude</td><td>m</td><td>-1</td><td>-40</td><td>16</td><td>m</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 07 003</td><td>Geopotential</td><td>m2 s-2</td><td>-1</td><td>-400</td><td>17</td><td>m2 s-2</td><td>-1</td><td>6</td><td></td></tr>
+<tr><td>0 07 004</td><td>Pressure</td><td>Pa</td><td>-1</td><td>0</td><td>14</td><td>Pa</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 07 005</td><td>Height increment</td><td>m</td><td>0</td><td>-400</td><td>12</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 07 006</td><td>Height above station</td><td>m</td><td>0</td><td>0</td><td>15</td><td>m</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 07 007</td><td>Height</td><td>m</td><td>0</td><td>-1000</td><td>17</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 07 008</td><td>Geopotential</td><td>m2 s-2</td><td>0</td><td>-10000</td><td>20</td><td>m2 s-2</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 07 009</td><td>Geopotential height</td><td>gpm</td><td>0</td><td>-1000</td><td>17</td><td>gpm</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 07 010</td><td>Flight level</td><td>m</td><td>0</td><td>-1024</td><td>16</td><td>ft</td><td>-1</td><td>5</td><td></td></tr>
+<tr><td>0 07 012</td><td>Grid point altitude</td><td>m</td><td>2</td><td>-50000</td><td>20</td><td>m</td><td>2</td><td>7</td><td></td></tr>
+<tr><td>0 07 021</td><td>Elevation</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td>Note B68: Elevation shall only be used with respect to a stated location and a bearing, azimuth or distance; it shall not redefine that location.</td></tr>
+<tr><td>0 07 022</td><td>Solar elevation</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 024</td><td>Satellite zenith angle</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 025</td><td>Solar zenith angle</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 026</td><td>Satellite zenith angle</td><td>deg</td><td>4</td><td>-900000</td><td>21</td><td>deg</td><td>4</td><td>7</td><td></td></tr>
+<tr><td>0 07 030</td><td>Height of station ground above mean sea level</td><td>m</td><td>1</td><td>-4000</td><td>17</td><td>m</td><td>1</td><td>5</td><td>Note B87: Height of station ground above mean sea level is defined as the height above mean sea level of the ground on which the rain gauge stands or, if there is no rain gauge,the ground beneath the thermometer screen. If there is neither rain gauge nor screen, it is the average level of terrain in the vicinity of the station (Reference: Guide to Meteorological Instruments and Methods of Observation (WMO-No. 8), 1996).</td></tr>
+<tr><td>0 07 031</td><td>Height of barometer above mean sea level</td><td>m</td><td>1</td><td>-4000</td><td>17</td><td>m</td><td>1</td><td>5</td><td>Note B84: Height of barometer above mean sea level, referring to the location of barometer of a station, does not redefine the descriptor 0 07 030.</td></tr>
+<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td>Note B85: Height of sensor above local ground (or deck of marine platform) is the actual height of sensor above ground (or deck of marine platform) at the point where the sensor is located. This descriptor does not redefine the descriptors 0 07 030 or 0 07 033. Previously defined value of 0 07 032 may be cancelled by setting 0 07 032 to a&quot;missing value&quot;.</td></tr>
+<tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>m</td><td>1</td><td>0</td><td>12</td><td>m</td><td>1</td><td>4</td><td>Note B86: Height of sensor above water surface is the height of sensor above water surface of sea or lake. This descriptor does not redefine descriptors 0 07 030 or 0 07 032.Previously defined value 0 07 033 may be cancelled by setting 0 07 033 to a &quot;missing value&quot;.</td></tr>
+<tr><td>0 07 034</td><td>Vertical distance of sensor</td><td>m</td><td>2</td><td>-65000</td><td>17</td><td></td><td></td><td></td><td>Note B193: From WIGOS Metadata Standard (WMO-No. 1192), Chapter 7, Category 5, 5-05, Vertical distance of sensor, that is the &#x27;Vertical distance of the sensor from a (specified) reference level, such as local ground, deck of a marine platform at the point where the sensor is located, or sea surface.&#x27;</td></tr>
+<tr><td>0 07 035</td><td>Maximum size of z-dimension</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 07 036</td><td>Level index of z</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 07 040</td><td>Impact parameter</td><td>m</td><td>1</td><td>62000000</td><td>22</td><td>m</td><td>1</td><td>8</td><td>Note B74: For an atmospheric limb sounder, the &quot;impact parameter&quot; is the distance between the ray asymptote and the centre of curvature of the Earth’s surface at the tangent point.</td></tr>
+<tr><td>0 07 061</td><td>Depth below land surface</td><td>m</td><td>2</td><td>0</td><td>14</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 062</td><td>Depth below sea/water surface</td><td>m</td><td>1</td><td>0</td><td>17</td><td>m</td><td>1</td><td>6</td><td></td></tr>
+<tr><td>0 07 063</td><td>Depth below sea/water surface (cm)</td><td>m</td><td>2</td><td>0</td><td>20</td><td>m</td><td>2</td><td>7</td><td></td></tr>
+<tr><td>0 07 064</td><td>Representative height of sensor above station</td><td>m</td><td>0</td><td>0</td><td>4</td><td>m</td><td>0</td><td>2</td><td>Note B117: Representative height of sensor above station is the standard height of a sensor required by WMO documentation. The value of the following meteorological elements should be adjusted using a formula. For example, standard height recommended in WMO documentation for surface wind sensors is 10 metres. If the sensor is placed at a different height, the wind speed may be adjusted using a formula.</td></tr>
+<tr><td>0 07 065</td><td>Water pressure</td><td>Pa</td><td>-3</td><td>0</td><td>17</td><td>Pa</td><td>-3</td><td>6</td><td></td></tr>
+<tr><td>0 07 070</td><td>Drogue depth</td><td>m</td><td>0</td><td>0</td><td>10</td><td>m</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 07 071</td><td>Height (high resolution)</td><td>m</td><td>3</td><td>-10000000</td><td>26</td><td>m</td><td>3</td><td>8</td><td></td></tr>
+<tr><td>0 07 072</td><td>Scan angle</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>0 07 073</td><td>Angle between moon and space view</td><td>deg</td><td>2</td><td>0</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 074</td><td>Solar elevation angle in instrument reference frame</td><td>deg</td><td>2</td><td>-9000</td><td>15</td><td>deg</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 07 075</td><td>Scattering angle</td><td>deg</td><td>0</td><td>0</td><td>8</td><td>deg</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 07 076</td><td>Relative azimuth angle</td><td>deg</td><td>0</td><td>0</td><td>8</td><td>deg</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 07 077</td><td>Height of sensor with respect to station</td><td>m</td><td>0</td><td>-400</td><td>12</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

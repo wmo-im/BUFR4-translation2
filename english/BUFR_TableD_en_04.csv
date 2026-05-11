@@ -76,21 +76,21 @@ bufr4/3/04/034/6/020010,04,Meteorological sequences common to satellite observat
 bufr4/3/04/034/7/020016,04,Meteorological sequences common to satellite observations,304034,"(Latitude/longitude, solar elevation, number of layers)",,020016,Pressure at top of cloud,,,,Operational,na
 bufr4/3/04/034/8/033003,04,Meteorological sequences common to satellite observations,304034,"(Latitude/longitude, solar elevation, number of layers)",,033003,Quality information,,,,Operational,na
 bufr4/3/04/034/9/010040,04,Meteorological sequences common to satellite observations,304034,"(Latitude/longitude, solar elevation, number of layers)",,010040,Number of retrieved layers,,,,Operational,na
-bufr4/3/04/035/1/002153,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,002153,Satellite channel centre frequency,,(see Note),1,Deprecated,na
-bufr4/3/04/035/2/002154,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,002154,Satellite channel band width,,(see Note),1,Deprecated,na
-bufr4/3/04/035/3/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,,(see Note),1,Deprecated,na
-bufr4/3/04/035/4/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Pixel type: clear,(see Note),1,Deprecated,na
-bufr4/3/04/035/5/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Clear,(see Note),1,Deprecated,na
-bufr4/3/04/035/6/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Pixel type: cloudy,(see Note),1,Deprecated,na
-bufr4/3/04/035/7/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Cloudy,(see Note),1,Deprecated,na
-bufr4/3/04/035/8/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Cancel,(see Note),1,Deprecated,na
-bufr4/3/04/035/9/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Low cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/10/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Low cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/11/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Mid cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/12/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Mid cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/13/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),High cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/14/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,High cloud,(see Note),1,Deprecated,na
-bufr4/3/04/035/15/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Cancel,(see Note),1,Deprecated,na
+bufr4/3/04/035/1/002153,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,002153,Satellite channel centre frequency,,(see Note),D1,Deprecated,na
+bufr4/3/04/035/2/002154,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,002154,Satellite channel band width,,(see Note),D1,Deprecated,na
+bufr4/3/04/035/3/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,,(see Note),D1,Deprecated,na
+bufr4/3/04/035/4/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Pixel type: clear,(see Note),D1,Deprecated,na
+bufr4/3/04/035/5/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Clear,(see Note),D1,Deprecated,na
+bufr4/3/04/035/6/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Pixel type: cloudy,(see Note),D1,Deprecated,na
+bufr4/3/04/035/7/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Cloudy,(see Note),D1,Deprecated,na
+bufr4/3/04/035/8/008001,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008001,Meteorological feature,Cancel,(see Note),D1,Deprecated,na
+bufr4/3/04/035/9/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Low cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/10/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Low cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/11/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Mid cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/12/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,Mid cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/13/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),High cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/14/012063,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,012063,Brightness temperature,High cloud,(see Note),D1,Deprecated,na
+bufr4/3/04/035/15/008003,04,Meteorological sequences common to satellite observations,304035,(All sky radiance data),,008003,Vertical significance (satellite observations),Cancel,(see Note),D1,Deprecated,na
 bufr4/3/04/036/1/020082,04,Meteorological sequences common to satellite observations,304036,(Cloud coverage),,020082,Amount segment cloud free,,,,Operational,na
 bufr4/3/04/036/2/008012,04,Meteorological sequences common to satellite observations,304036,(Cloud coverage),,008012,Land/sea qualifier,Sea,,,Operational,na
 bufr4/3/04/036/3/020082,04,Meteorological sequences common to satellite observations,304036,(Cloud coverage),,020082,Amount segment cloud free,Sea,,,Operational,na

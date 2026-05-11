@@ -7,12 +7,12 @@ bufr4/0/25/005,25,Informations sur le traitement,025005,Intégration des échos,
 bufr4/0/25/006,25,Informations sur le traitement,025006,Conversion Z - R,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/25/007,25,Informations sur le traitement,025007,Facteur de conversion Z - R,Numérique,0,0,12,Numérique,0,4,,,Operational,PDF
 bufr4/0/25/008,25,Informations sur le traitement,025008,Exposant de conversion Z - R,Numérique,2,0,9,Numérique,2,3,,,Operational,PDF
-bufr4/0/25/009,25,Informations sur le traitement,025009,Méthode d'étalonnage,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,(voir Note 3),56,Operational,PDF
+bufr4/0/25/009,25,Informations sur le traitement,025009,Méthode d'étalonnage,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,(voir Note 3),B56,Operational,PDF
 bufr4/0/25/010,25,Informations sur le traitement,025010,Traitement des échos fixes,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/25/011,25,Informations sur le traitement,025011,Correction des échos de sol (filtrage),Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/25/012,25,Informations sur le traitement,025012,Correction de l'atténuation de portée,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/25/013,25,Informations sur le traitement,025013,Correction de la bande brillante,Table d'indicateurs,0,0,2,Table d'indicateurs,0,1,,,Operational,PDF
-bufr4/0/25/014,25,Informations sur le traitement,025014,Coupure azimutale due au fouillis,Numérique,0,0,12,Numérique,0,4,(voir Note 1),15,Operational,PDF
+bufr4/0/25/014,25,Informations sur le traitement,025014,Coupure azimutale due au fouillis,Numérique,0,0,12,Numérique,0,4,(voir Note 1),B15,Operational,PDF
 bufr4/0/25/015,25,Informations sur le traitement,025015,Correction de l'atténuation par le radôme,Table d'indicateurs,0,0,2,Table d'indicateurs,0,1,,,Operational,PDF
 bufr4/0/25/016,25,Informations sur le traitement,025016,Correction de l'atténuation en air clair,dB/m,5,0,6,dB/m,5,2,,,Operational,PDF
 bufr4/0/25/017,25,Informations sur le traitement,025017,Correction de l'atténuation par les précipitations,Table d'indicateurs,0,0,2,Table d'indicateurs,0,1,,,Operational,PDF
@@ -26,13 +26,13 @@ bufr4/0/25/024,25,Informations sur le traitement,025024,Qualité des données GH
 bufr4/0/25/025,25,Informations sur le traitement,025025,Voltage de la batterie,V,1,0,9,V,1,3,,,Operational,PDF
 bufr4/0/25/026,25,Informations sur le traitement,025026,Tension de la batterie (grande portée),V,1,0,12,V,1,4,,,Operational,PDF
 bufr4/0/25/028,25,Informations sur le traitement,025028,Paramètre défini par l'exploitant ou le fabricant,Numérique,1,-16384,15,Numérique,1,5,,,Operational,PDF
-bufr4/0/25/029,25,Informations sur le traitement,025029,Méthode d'étalonnage,Table d'indicateurs,0,0,6,Table d'indicateurs,0,2,(voir Note 3),56,Operational,PDF
+bufr4/0/25/029,25,Informations sur le traitement,025029,Méthode d'étalonnage,Table d'indicateurs,0,0,6,Table d'indicateurs,0,2,(voir Note 3),B56,Operational,PDF
 bufr4/0/25/030,25,Informations sur le traitement,025030,Moyenne mobile de la température de la mer en surface,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/25/031,25,Informations sur le traitement,025031,Méthode d'éclaircissage des profils verticaux établis par la prévision numérique du temps,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
-bufr4/0/25/032,25,Informations sur le traitement,025032,Information sur le mode du profileur de vent,Table de code,0,0,2,Table de code,0,1,(voir Note 2),131,Operational,PDF
-bufr4/0/25/033,25,Informations sur le traitement,025033,Information sur le sous-mode du profileur de vent,Table de code,0,0,2,Table de code,0,1,(voir Note 2),131,Operational,PDF
-bufr4/0/25/034,25,Informations sur le traitement,025034,Résultats des essais de contrôle de la qualité du profileur de vent,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,(voir Note 2),131,Operational,PDF
-bufr4/0/25/035,25,Informations sur le traitement,025035,Méthode de décision pour la polarité,Table de code,0,0,3,Table de code,0,1,(voir Note 5),34,Operational,PDF
+bufr4/0/25/032,25,Informations sur le traitement,025032,Information sur le mode du profileur de vent,Table de code,0,0,2,Table de code,0,1,(voir Note 2),B131,Operational,PDF
+bufr4/0/25/033,25,Informations sur le traitement,025033,Information sur le sous-mode du profileur de vent,Table de code,0,0,2,Table de code,0,1,(voir Note 2),B131,Operational,PDF
+bufr4/0/25/034,25,Informations sur le traitement,025034,Résultats des essais de contrôle de la qualité du profileur de vent,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,(voir Note 2),B131,Operational,PDF
+bufr4/0/25/035,25,Informations sur le traitement,025035,Méthode de décision pour la polarité,Table de code,0,0,3,Table de code,0,1,(voir Note 5),B34,Operational,PDF
 bufr4/0/25/036,25,Informations sur le traitement,025036,Méthode de localisation des atmosphériques,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/25/037,25,Informations sur le traitement,025037,Biais de la SST,K,2,-127,8,K,2,3,,,Operational,PDF
 bufr4/0/25/038,25,Informations sur le traitement,025038,Différence entre la valeur observée de la SST et la valeur analysée,K,1,-127,8,K,1,3,,,Operational,PDF
@@ -52,10 +52,10 @@ bufr4/0/25/052,25,Informations sur le traitement,025052,Log10 de l'ajustement no
 bufr4/0/25/053,25,Informations sur le traitement,025053,Qualité des observations,Table d'indicateurs,0,0,12,Table d'indicateurs,0,4,,,Operational,PDF
 bufr4/0/25/054,25,Informations sur le traitement,025054,Numéro d'identification de la sous-trame SSMIS,Numérique,0,0,5,Numérique,0,2,,,Operational,PDF
 bufr4/0/25/055,25,Informations sur le traitement,025055,Télémaintenance du multiplexeur,K,2,0,16,K,2,5,,,Operational,PDF
-bufr4/0/25/060,25,Informations sur le traitement,025060,Identification du logiciel,Numérique,0,0,14,Numérique,0,5,(voir Note 2),131,Operational,PDF
+bufr4/0/25/060,25,Informations sur le traitement,025060,Identification du logiciel,Numérique,0,0,14,Numérique,0,5,(voir Note 2),B131,Operational,PDF
 bufr4/0/25/061,25,Informations sur le traitement,025061,Identification du logiciel et numéro de version,CCITT IA5,0,0,96,Caractère,0,12,,,Operational,PDF
 bufr4/0/25/062,25,Informations sur le traitement,025062,Identification de la base de données,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
-bufr4/0/25/063,25,Informations sur le traitement,025063,Indicateur du système ou processeur central,Table de code,0,0,8,Table de code,0,3,(voir Note 6),71,Operational,PDF
+bufr4/0/25/063,25,Informations sur le traitement,025063,Indicateur du système ou processeur central,Table de code,0,0,8,Table de code,0,3,(voir Note 6),B71,Operational,PDF
 bufr4/0/25/065,25,Informations sur le traitement,025065,Correction de l'orientation (azimut),°,2,-1000,11,°,2,4,,,Operational,PDF
 bufr4/0/25/066,25,Informations sur le traitement,025066,Correction de l'orientation (altitude),°,2,-1000,11,°,2,4,,,Operational,PDF
 bufr4/0/25/067,25,Informations sur le traitement,025067,Correction de pression au point de lâcher de la radiosonde,Pa,0,-8000,14,Pa,0,4,,,Operational,PDF
@@ -119,7 +119,7 @@ bufr4/0/25/138,25,Informations sur le traitement,025138,Rapport signal-bruit moy
 bufr4/0/25/140,25,Informations sur le traitement,025140,Début canal,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
 bufr4/0/25/141,25,Informations sur le traitement,025141,Fin canal,Numérique,0,0,14,Numérique,0,5,,,Operational,PDF
 bufr4/0/25/142,25,Informations sur le traitement,025142,Facteur d'échelle du canal,Numérique,0,0,6,Numérique,0,2,,,Operational,PDF
-bufr4/0/25/143,25,Informations sur le traitement,025143,Coefficient linéaire,Numérique,6,-5000000,24,Numérique,6,8,(voir Note 4),57,Operational,PDF
+bufr4/0/25/143,25,Informations sur le traitement,025143,Coefficient linéaire,Numérique,6,-5000000,24,Numérique,6,8,(voir Note 4),B57,Operational,PDF
 bufr4/0/25/148,25,Informations sur le traitement,025148,Coefficient de variation,Numérique,2,-10000,15,Numérique,2,5,,,Operational,PDF
 bufr4/0/25/149,25,Informations sur le traitement,025149,Coût estimatif optimal,Numérique,0,0,8,Numérique,0,3,,,Operational,PDF
 bufr4/0/25/150,25,Informations sur le traitement,025150,Méthode d'analyse de l'intensité du cyclone tropical par les images de satellite,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
@@ -135,7 +135,7 @@ bufr4/0/25/170,25,Informations sur le traitement,025170,Intervalle d'échantillo
 bufr4/0/25/171,25,Informations sur le traitement,025171,Période à laquelle correspond la valeur moyenne de l'échantillon,s,0,0,10,s,0,4,,,Operational,PDF
 bufr4/0/25/172,25,Informations sur le traitement,025172,Nombre d'échantillons,Numérique,0,0,10,Numérique,0,4,,,Operational,PDF
 bufr4/0/25/174,25,Informations sur le traitement,025174,Indicateur des informations SMOS,Table d'indicateurs,0,0,14,Table d'indicateurs,0,5,,,Operational,PDF
-bufr4/0/25/175,25,Informations sur le traitement,025175,Valeur résiduelle modifiée,Numérique,2,0,13,Numérique,2,4,(voir Note 7),103,Operational,PDF
+bufr4/0/25/175,25,Informations sur le traitement,025175,Valeur résiduelle modifiée,Numérique,2,0,13,Numérique,2,4,(voir Note 7),B103,Operational,PDF
 bufr4/0/25/180,25,Informations sur le traitement,025180,Pourcentage en mode basse résolution,%,2,0,16,%,2,5,,,Operational,PDF
 bufr4/0/25/181,25,Informations sur le traitement,025181,Indicateur de traitement de niveau 2,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/25/182,25,Informations sur le traitement,025182,Indicateur de traitement de niveau 1,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 01</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 01</h1>
+<p class="fxy-heading">0 01 003  WMO Region number/geographical area</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Antarctica</td><td></td></tr>
+<tr><td>1</td><td>Region I</td><td></td></tr>
+<tr><td>2</td><td>Region II</td><td></td></tr>
+<tr><td>3</td><td>Region III</td><td></td></tr>
+<tr><td>4</td><td>Region IV</td><td></td></tr>
+<tr><td>5</td><td>Region V</td><td></td></tr>
+<tr><td>6</td><td>Region VI</td><td></td></tr>
+<tr><td>7</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 007  Satellite identifier</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF10: (See Common Code table C-5 Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 024  Wind speed source</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No wind speed data available</td><td></td></tr>
+<tr><td>1</td><td>AMSR-E data</td><td></td></tr>
+<tr><td>2</td><td>TMI data</td><td></td></tr>
+<tr><td>3</td><td>NWP: ECMWF</td><td></td></tr>
+<tr><td>4</td><td>NWP: UK Met Office</td><td></td></tr>
+<tr><td>5</td><td>NWP: NCEP</td><td></td></tr>
+<tr><td>6</td><td>Reference climatology</td><td></td></tr>
+<tr><td>7</td><td>ERS_scatterometer</td><td></td></tr>
+<tr><td>8-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 028  Aerosol optical depth (AOD) source</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No AOD data available</td><td></td></tr>
+<tr><td>1</td><td>NESDIS</td><td></td></tr>
+<tr><td>2</td><td>NAVOCEANO</td><td></td></tr>
+<tr><td>3</td><td>NAAPS</td><td></td></tr>
+<tr><td>4</td><td>MERIS</td><td></td></tr>
+<tr><td>5</td><td>AATSR</td><td></td></tr>
+<tr><td>6-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 029  SSI source</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No SSI data available</td><td></td></tr>
+<tr><td>1</td><td>MSG_SEVIRI</td><td></td></tr>
+<tr><td>2</td><td>GOES East</td><td></td></tr>
+<tr><td>3</td><td>GOES West</td><td></td></tr>
+<tr><td>4</td><td>ECMWF</td><td></td></tr>
+<tr><td>5</td><td>NCEP</td><td></td></tr>
+<tr><td>6</td><td>UK Met Office</td><td></td></tr>
+<tr><td>7-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 031  Identification of originating/generating centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF6: (See Common Code table C-1 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 033  Identification of originating/generating centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF6: (See Common Code table C-1 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 034  Identification of originating/generating sub-centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF14: (To be defined by centres themselves - See Common Code table C-12 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 035  Originating/generating centre</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF6: (See Common Code table C-1 in Part C/c.)</p>
+</div>
+<p class="fxy-heading">0 01 036  Agency in charge of operating the observing platform</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-36000</td><td>Reserved</td><td></td></tr>
+<tr><td>36001</td><td>Australia, Bureau of Meteorology (BoM)</td><td></td></tr>
+<tr><td>36002</td><td>Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)</td><td></td></tr>
+<tr><td>36003</td><td>Australia, the Commonwealth Scientific and Industrial Research Organization (CSIRO)</td><td></td></tr>
+<tr><td>36004-124000</td><td>Reserved</td><td></td></tr>
+<tr><td>124001</td><td>Canada, Marine Environmental Data Service (MEDS)</td><td></td></tr>
+<tr><td>124002</td><td>Canada, Institute of Ocean Sciences (IOS)</td><td></td></tr>
+<tr><td>124003-124172</td><td>Reserved</td><td></td></tr>
+<tr><td>124173</td><td>Canada, Environment Canada</td><td></td></tr>
+<tr><td>124174</td><td>Canada, Department of National Defence</td><td></td></tr>
+<tr><td>124175</td><td>Canada, Nav Canada</td><td></td></tr>
+<tr><td>124176-156000</td><td>Reserved</td><td></td></tr>
+<tr><td>156001</td><td>China, The State Oceanic Administration</td><td></td></tr>
+<tr><td>156002</td><td>China, Second Institute of Oceanography, State Oceanic Administration</td><td></td></tr>
+<tr><td>156003</td><td>China, Institute of Ocean Technology</td><td></td></tr>
+<tr><td>156004-250000</td><td>Reserved</td><td></td></tr>
+<tr><td>250001</td><td>France, Institut de Recherche pour le Développement (IRD)</td><td></td></tr>
+<tr><td>250002</td><td>France, Institut Français de Recherche pour l&#x27;Exploitation de la mer (IFREMER)</td><td></td></tr>
+<tr><td>250003-276000</td><td>Reserved</td><td></td></tr>
+<tr><td>276001</td><td>Germany, Bundesamt fuer Seeschiffahrt und Hydrographie (BSH)</td><td></td></tr>
+<tr><td>276002</td><td>Germany, Institut fuer Meereskunde, Kiel</td><td></td></tr>
+<tr><td>276003-356000</td><td>Reserved</td><td></td></tr>
+<tr><td>356001</td><td>India, National Institute of Oceanography (NIO)</td><td></td></tr>
+<tr><td>356002</td><td>India, National Institute for Ocean Technology (NIOT)</td><td></td></tr>
+<tr><td>356003</td><td>India, National Centre for Ocean Information Service</td><td></td></tr>
+<tr><td>356004-392000</td><td>Reserved</td><td></td></tr>
+<tr><td>392001</td><td>Japan, Japan Meteorological Agency (JMA)</td><td></td></tr>
+<tr><td>392002</td><td>Japan, Frontier Observational Research System for Global Change</td><td></td></tr>
+<tr><td>392003</td><td>Japan, Japan Marine Science and Technology Centre (JAMSTEC)</td><td></td></tr>
+<tr><td>392004-410000</td><td>Reserved</td><td></td></tr>
+<tr><td>410001</td><td>Republic of Korea, Seoul National University</td><td></td></tr>
+<tr><td>410002</td><td>Republic of Korea, Korea Ocean Research and Development Institute (KORDI)</td><td></td></tr>
+<tr><td>410003</td><td>Republic of Korea, Meteorological Research Institute</td><td></td></tr>
+<tr><td>410004-540000</td><td>Reserved</td><td></td></tr>
+<tr><td>540001</td><td>New Caledonia, Institut de Recherche pour le Développement (IRD)</td><td></td></tr>
+<tr><td>540002-554000</td><td>Reserved</td><td></td></tr>
+<tr><td>554001</td><td>New Zealand, National Institute of Water and Atmospheric Research (NIWA)</td><td></td></tr>
+<tr><td>554002-643000</td><td>Reserved</td><td></td></tr>
+<tr><td>643001</td><td>Russian Federation, State Oceanographic Institute of Roshydromet</td><td></td></tr>
+<tr><td>643002</td><td>Russian Federation, Federal Service for Hydrometeorology and Environmental Monitoring</td><td></td></tr>
+<tr><td>643003-724000</td><td>Reserved</td><td></td></tr>
+<tr><td>724001</td><td>Spain, Instituto Español de Oceanografia</td><td></td></tr>
+<tr><td>724002-826000</td><td>Reserved</td><td></td></tr>
+<tr><td>826001</td><td>United Kingdom, Hydrographic Office</td><td></td></tr>
+<tr><td>826002</td><td>United Kingdom, National Oceanography Centre (NOC)</td><td></td></tr>
+<tr><td>826003</td><td>United Kingdom, Centre for Environment, Fisheries and Aquaculture Science (Cefas)</td><td></td></tr>
+<tr><td>826004</td><td>United Kingdom, Marine Scotland (MS)</td><td></td></tr>
+<tr><td>826005</td><td>United Kingdom, Plymouth Marine Laboratory (PML)</td><td></td></tr>
+<tr><td>826006</td><td>United Kingdom, British Antarctic Survey (BAS)</td><td></td></tr>
+<tr><td>826007-840000</td><td>Reserved</td><td></td></tr>
+<tr><td>840001</td><td>USA, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML)</td><td></td></tr>
+<tr><td>840002</td><td>USA, NOAA Pacific Marine Environmental Laboratory (PMEL)</td><td></td></tr>
+<tr><td>840003</td><td>USA, Scripps Institution of Oceanography (SIO)</td><td></td></tr>
+<tr><td>840004</td><td>USA, Woods Hole Oceanographic Institution (WHOI)</td><td></td></tr>
+<tr><td>840005</td><td>USA, University of Washington</td><td></td></tr>
+<tr><td>840006</td><td>USA, Naval Oceanographic Office</td><td></td></tr>
+<tr><td>840007-1048574</td><td>Reserved</td><td></td></tr>
+<tr><td>1048575</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF78: The first three digits represent the ISO country code.</p>
+</div>
+<p class="fxy-heading">0 01 038  Source of sea ice fraction</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>No sea ice set</td><td></td></tr>
+<tr><td>1</td><td>NSIDC SSM/I Cavalieri et al (1992)</td><td></td></tr>
+<tr><td>2</td><td>AMSR-E</td><td></td></tr>
+<tr><td>3</td><td>ECMWF</td><td></td></tr>
+<tr><td>4</td><td>CMS (France) cloud mask used by Medspiration</td><td></td></tr>
+<tr><td>5</td><td>EUMETSAT OSI-SAF</td><td></td></tr>
+<tr><td>6-30</td><td>Reserved for future use</td><td></td></tr>
+<tr><td>31</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 044  Standard generating application</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Full weighted mixture of individual quality tests</td><td></td></tr>
+<tr><td>2</td><td>Weighted mixture of individual tests, but excluding forecast comparison</td><td></td></tr>
+<tr><td>3</td><td>Recursive filter function</td><td></td></tr>
+<tr><td>4</td><td>Common quality index (QI) without forecast</td><td></td></tr>
+<tr><td>5</td><td>QI without forecast</td><td></td></tr>
+<tr><td>6</td><td>QI with forecast</td><td></td></tr>
+<tr><td>7</td><td>Estimated error in m/s converted to a percent confidence</td><td></td></tr>
+<tr><td>8-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 052  Platform transmitter ID</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Primary</td><td></td></tr>
+<tr><td>1</td><td>Secondary</td><td></td></tr>
+<tr><td>2</td><td>Reserved</td><td></td></tr>
+<tr><td>3</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 090  Technique for making up initial perturbations</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Lagged-average forecasting (LAF)</td><td></td></tr>
+<tr><td>1</td><td>Breeding</td><td></td></tr>
+<tr><td>2</td><td>Singular vectors</td><td></td></tr>
+<tr><td>3</td><td>Multiple analysis cycles</td><td></td></tr>
+<tr><td>4-191</td><td>Reserved</td><td></td></tr>
+<tr><td>192-254</td><td>Reserved for local use</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 092  Type of ensemble forecast</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Unperturbed high-resolution control forecast</td><td></td></tr>
+<tr><td>1</td><td>Unperturbed low-resolution control forecast</td><td></td></tr>
+<tr><td>2</td><td>Negatively perturbed forecast</td><td></td></tr>
+<tr><td>3</td><td>Positively perturbed forecast</td><td></td></tr>
+<tr><td>4</td><td>Perturbed forecast</td><td></td></tr>
+<tr><td>5-191</td><td>Reserved</td><td></td></tr>
+<tr><td>192-254</td><td>Reserved for local use</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 101  State identifier</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0-99</td><td>Reserved</td><td></td></tr>
+<tr><td>100</td><td>Algeria</td><td></td></tr>
+<tr><td>101</td><td>Angola</td><td></td></tr>
+<tr><td>102</td><td>Benin</td><td></td></tr>
+<tr><td>103</td><td>Botswana</td><td></td></tr>
+<tr><td>104</td><td>Burkina Faso</td><td></td></tr>
+<tr><td>105</td><td>Burundi</td><td></td></tr>
+<tr><td>106</td><td>Cameroon</td><td></td></tr>
+<tr><td>107</td><td>Cabo Verde</td><td></td></tr>
+<tr><td>108</td><td>Central African Republic</td><td></td></tr>
+<tr><td>109</td><td>Chad</td><td></td></tr>
+<tr><td>110</td><td>Comoros</td><td></td></tr>
+<tr><td>111</td><td>Congo</td><td></td></tr>
+<tr><td>112</td><td>Côte d&#x27;Ivoire</td><td></td></tr>
+<tr><td>113</td><td>Democratic Republic of the Congo</td><td></td></tr>
+<tr><td>114</td><td>Djibouti</td><td></td></tr>
+<tr><td>115</td><td>Egypt</td><td></td></tr>
+<tr><td>116</td><td>Eritrea</td><td></td></tr>
+<tr><td>117</td><td>Ethiopia</td><td></td></tr>
+<tr><td>118</td><td>France (RA I)</td><td></td></tr>
+<tr><td>119</td><td>Gabon</td><td></td></tr>
+<tr><td>120</td><td>Gambia</td><td></td></tr>
+<tr><td>121</td><td>Ghana</td><td></td></tr>
+<tr><td>122</td><td>Guinea</td><td></td></tr>
+<tr><td>123</td><td>Guinea-Bissau</td><td></td></tr>
+<tr><td>124</td><td>Kenya</td><td></td></tr>
+<tr><td>125</td><td>Lesotho</td><td></td></tr>
+<tr><td>126</td><td>Liberia</td><td></td></tr>
+<tr><td>127</td><td>Libya</td><td></td></tr>
+<tr><td>128</td><td>Madagascar</td><td></td></tr>
+<tr><td>129</td><td>Malawi</td><td></td></tr>
+<tr><td>130</td><td>Mali</td><td></td></tr>
+<tr><td>131</td><td>Mauritania</td><td></td></tr>
+<tr><td>132</td><td>Mauritius</td><td></td></tr>
+<tr><td>133</td><td>Morocco</td><td></td></tr>
+<tr><td>134</td><td>Mozambique</td><td></td></tr>
+<tr><td>135</td><td>Namibia</td><td></td></tr>
+<tr><td>136</td><td>Niger</td><td></td></tr>
+<tr><td>137</td><td>Nigeria</td><td></td></tr>
+<tr><td>138</td><td>Portugal (RA I)</td><td></td></tr>
+<tr><td>139</td><td>Rwanda</td><td></td></tr>
+<tr><td>140</td><td>Sao Tome and Principe</td><td></td></tr>
+<tr><td>141</td><td>Senegal</td><td></td></tr>
+<tr><td>142</td><td>Seychelles</td><td></td></tr>
+<tr><td>143</td><td>Sierra Leone</td><td></td></tr>
+<tr><td>144</td><td>Somalia</td><td></td></tr>
+<tr><td>145</td><td>South Africa</td><td></td></tr>
+<tr><td>146</td><td>Spain (RA I)</td><td></td></tr>
+<tr><td>147</td><td>Sudan</td><td></td></tr>
+<tr><td>148</td><td>Eswatini</td><td></td></tr>
+<tr><td>149</td><td>Togo</td><td></td></tr>
+<tr><td>150</td><td>Tunisia</td><td></td></tr>
+<tr><td>151</td><td>Uganda</td><td></td></tr>
+<tr><td>152</td><td>United Kingdom of Great Britain and Northern Ireland (RA I)</td><td></td></tr>
+<tr><td>153</td><td>United Republic of Tanzania</td><td></td></tr>
+<tr><td>154</td><td>Zambia</td><td></td></tr>
+<tr><td>155</td><td>Zimbabwe</td><td></td></tr>
+<tr><td>156-199</td><td>Reserved for Region I (Africa)</td><td></td></tr>
+<tr><td>200</td><td>Afghanistan</td><td></td></tr>
+<tr><td>201</td><td>Bahrain</td><td></td></tr>
+<tr><td>202</td><td>Bangladesh</td><td></td></tr>
+<tr><td>203</td><td>Bhutan</td><td></td></tr>
+<tr><td>204</td><td>Cambodia</td><td></td></tr>
+<tr><td>205</td><td>China</td><td></td></tr>
+<tr><td>206</td><td>Democratic People&#x27;s Republic of Korea</td><td></td></tr>
+<tr><td>207</td><td>Hong Kong, China</td><td></td></tr>
+<tr><td>208</td><td>India</td><td></td></tr>
+<tr><td>209</td><td>Iran, Islamic Republic of</td><td></td></tr>
+<tr><td>210</td><td>Iraq</td><td></td></tr>
+<tr><td>211</td><td>Japan</td><td></td></tr>
+<tr><td>212</td><td>Kazakhstan</td><td></td></tr>
+<tr><td>213</td><td>Kuwait</td><td></td></tr>
+<tr><td>214</td><td>Kyrgyzstan</td><td></td></tr>
+<tr><td>215</td><td>Lao People&#x27;s Democratic Republic</td><td></td></tr>
+<tr><td>216</td><td>Macao, China</td><td></td></tr>
+<tr><td>217</td><td>Maldives</td><td></td></tr>
+<tr><td>218</td><td>Mongolia</td><td></td></tr>
+<tr><td>219</td><td>Myanmar</td><td></td></tr>
+<tr><td>220</td><td>Nepal</td><td></td></tr>
+<tr><td>221</td><td>Oman</td><td></td></tr>
+<tr><td>222</td><td>Pakistan</td><td></td></tr>
+<tr><td>223</td><td>Qatar</td><td></td></tr>
+<tr><td>224</td><td>Republic of Korea</td><td></td></tr>
+<tr><td>225</td><td>Yemen</td><td></td></tr>
+<tr><td>226</td><td>Russian Federation (RA II)</td><td></td></tr>
+<tr><td>227</td><td>Saudi Arabia</td><td></td></tr>
+<tr><td>228</td><td>Sri Lanka</td><td></td></tr>
+<tr><td>229</td><td>Tajikistan</td><td></td></tr>
+<tr><td>230</td><td>Thailand</td><td></td></tr>
+<tr><td>231</td><td>Turkmenistan</td><td></td></tr>
+<tr><td>232</td><td>United Arab Emirates</td><td></td></tr>
+<tr><td>233</td><td>Uzbekistan</td><td></td></tr>
+<tr><td>234</td><td>Viet Nam</td><td></td></tr>
+<tr><td>235-299</td><td>Reserved for Region II (Asia)</td><td></td></tr>
+<tr><td>300</td><td>Argentina</td><td></td></tr>
+<tr><td>301</td><td>Bolivia (Plurinational State of)</td><td></td></tr>
+<tr><td>302</td><td>Brazil</td><td></td></tr>
+<tr><td>303</td><td>Chile</td><td></td></tr>
+<tr><td>304</td><td>Colombia</td><td></td></tr>
+<tr><td>305</td><td>Ecuador</td><td></td></tr>
+<tr><td>306</td><td>France (RA III)</td><td></td></tr>
+<tr><td>307</td><td>Guyana</td><td></td></tr>
+<tr><td>308</td><td>Paraguay</td><td></td></tr>
+<tr><td>309</td><td>Peru</td><td></td></tr>
+<tr><td>310</td><td>Suriname</td><td></td></tr>
+<tr><td>311</td><td>Uruguay</td><td></td></tr>
+<tr><td>312</td><td>Venezuela (Bolivarian Republic of)</td><td></td></tr>
+<tr><td>313-399</td><td>Reserved for Region III (South America)</td><td></td></tr>
+<tr><td>400</td><td>Antigua and Barbuda</td><td></td></tr>
+<tr><td>401</td><td>Bahamas</td><td></td></tr>
+<tr><td>402</td><td>Barbados</td><td></td></tr>
+<tr><td>403</td><td>Belize</td><td></td></tr>
+<tr><td>404</td><td>British Caribbean Territories</td><td></td></tr>
+<tr><td>405</td><td>Canada</td><td></td></tr>
+<tr><td>406</td><td>Colombia</td><td></td></tr>
+<tr><td>407</td><td>Costa Rica</td><td></td></tr>
+<tr><td>408</td><td>Cuba</td><td></td></tr>
+<tr><td>409</td><td>Dominica</td><td></td></tr>
+<tr><td>410</td><td>Dominican Republic</td><td></td></tr>
+<tr><td>411</td><td>El Salvador</td><td></td></tr>
+<tr><td>412</td><td>France (RA IV)</td><td></td></tr>
+<tr><td>413</td><td>Guatemala</td><td></td></tr>
+<tr><td>414</td><td>Haiti</td><td></td></tr>
+<tr><td>415</td><td>Honduras</td><td></td></tr>
+<tr><td>416</td><td>Jamaica</td><td></td></tr>
+<tr><td>417</td><td>Mexico</td><td></td></tr>
+<tr><td>418</td><td>Curaçao and Sint Maarten</td><td></td></tr>
+<tr><td>419</td><td>Nicaragua</td><td></td></tr>
+<tr><td>420</td><td>Panama</td><td></td></tr>
+<tr><td>421</td><td>Saint Lucia</td><td></td></tr>
+<tr><td>422</td><td>Trinidad and Tobago</td><td></td></tr>
+<tr><td>423</td><td>United Kingdom of Great Britain and Northern Ireland (RA IV)</td><td></td></tr>
+<tr><td>424</td><td>United States of America (RA IV)</td><td></td></tr>
+<tr><td>425</td><td>Venezuela (Bolivarian Republic of)</td><td></td></tr>
+<tr><td>426-499</td><td>Reserved for Region IV (North America, Central America and the Caribbean)</td><td></td></tr>
+<tr><td>500</td><td>Australia</td><td></td></tr>
+<tr><td>501</td><td>Brunei Darussalam</td><td></td></tr>
+<tr><td>502</td><td>Cook Islands</td><td></td></tr>
+<tr><td>503</td><td>Fiji</td><td></td></tr>
+<tr><td>504</td><td>French Polynesia</td><td></td></tr>
+<tr><td>505</td><td>Indonesia</td><td></td></tr>
+<tr><td>506</td><td>Kiribati</td><td></td></tr>
+<tr><td>507</td><td>Malaysia</td><td></td></tr>
+<tr><td>508</td><td>Micronesia, Federated States of</td><td></td></tr>
+<tr><td>509</td><td>New Caledonia</td><td></td></tr>
+<tr><td>510</td><td>New Zealand</td><td></td></tr>
+<tr><td>511</td><td>Niue</td><td></td></tr>
+<tr><td>512</td><td>Papua New Guinea</td><td></td></tr>
+<tr><td>513</td><td>Philippines</td><td></td></tr>
+<tr><td>514</td><td>Samoa</td><td></td></tr>
+<tr><td>515</td><td>Singapore</td><td></td></tr>
+<tr><td>516</td><td>Solomon Islands</td><td></td></tr>
+<tr><td>517</td><td>Tonga</td><td></td></tr>
+<tr><td>518</td><td>United Kingdom of Great Britain and Northern Ireland (RA V)</td><td></td></tr>
+<tr><td>519</td><td>United States of America (RA V)</td><td></td></tr>
+<tr><td>520</td><td>Vanuatu</td><td></td></tr>
+<tr><td>521-599</td><td>Reserved for Region V (South-West Pacific)</td><td></td></tr>
+<tr><td>600</td><td>Albania</td><td></td></tr>
+<tr><td>601</td><td>Armenia</td><td></td></tr>
+<tr><td>602</td><td>Austria</td><td></td></tr>
+<tr><td>603</td><td>Azerbaijan</td><td></td></tr>
+<tr><td>604</td><td>Belarus</td><td></td></tr>
+<tr><td>605</td><td>Belgium</td><td></td></tr>
+<tr><td>606</td><td>Bosnia and Herzegovina</td><td></td></tr>
+<tr><td>607</td><td>Bulgaria</td><td></td></tr>
+<tr><td>608</td><td>Croatia</td><td></td></tr>
+<tr><td>609</td><td>Cyprus</td><td></td></tr>
+<tr><td>610</td><td>Czechia</td><td></td></tr>
+<tr><td>611</td><td>Denmark</td><td></td></tr>
+<tr><td>612</td><td>Estonia</td><td></td></tr>
+<tr><td>613</td><td>Finland</td><td></td></tr>
+<tr><td>614</td><td>France (RA VI)</td><td></td></tr>
+<tr><td>615</td><td>Georgia</td><td></td></tr>
+<tr><td>616</td><td>Germany</td><td></td></tr>
+<tr><td>617</td><td>Greece</td><td></td></tr>
+<tr><td>618</td><td>Hungary</td><td></td></tr>
+<tr><td>619</td><td>Iceland</td><td></td></tr>
+<tr><td>620</td><td>Ireland</td><td></td></tr>
+<tr><td>621</td><td>Israel</td><td></td></tr>
+<tr><td>622</td><td>Italy</td><td></td></tr>
+<tr><td>623</td><td>Jordan</td><td></td></tr>
+<tr><td>624</td><td>Kazakhstan</td><td></td></tr>
+<tr><td>625</td><td>Latvia</td><td></td></tr>
+<tr><td>626</td><td>Lebanon</td><td></td></tr>
+<tr><td>627</td><td>Lithuania</td><td></td></tr>
+<tr><td>628</td><td>Luxembourg</td><td></td></tr>
+<tr><td>629</td><td>Malta</td><td></td></tr>
+<tr><td>630</td><td>Monaco</td><td></td></tr>
+<tr><td>631</td><td>Montenegro</td><td></td></tr>
+<tr><td>632</td><td>Netherlands</td><td></td></tr>
+<tr><td>633</td><td>Norway</td><td></td></tr>
+<tr><td>634</td><td>Poland</td><td></td></tr>
+<tr><td>635</td><td>Portugal (RA VI)</td><td></td></tr>
+<tr><td>636</td><td>Republic of Moldova</td><td></td></tr>
+<tr><td>637</td><td>Romania</td><td></td></tr>
+<tr><td>638</td><td>Russian Federation (RA VI)</td><td></td></tr>
+<tr><td>639</td><td>Serbia</td><td></td></tr>
+<tr><td>640</td><td>Slovakia</td><td></td></tr>
+<tr><td>641</td><td>Slovenia</td><td></td></tr>
+<tr><td>642</td><td>Spain (RA VI)</td><td></td></tr>
+<tr><td>643</td><td>Sweden</td><td></td></tr>
+<tr><td>644</td><td>Switzerland</td><td></td></tr>
+<tr><td>645</td><td>Syrian Arab Republic</td><td></td></tr>
+<tr><td>646</td><td>The former Yugoslav Republic of Macedonia</td><td></td></tr>
+<tr><td>647</td><td>Turkiye</td><td></td></tr>
+<tr><td>648</td><td>Ukraine</td><td></td></tr>
+<tr><td>649</td><td>United Kingdom of Great Britain and Northern Ireland (RA VI)</td><td></td></tr>
+<tr><td>650-699</td><td>Reserved for Region VI (Europe)</td><td></td></tr>
+<tr><td>700-999</td><td>Reserved</td><td></td></tr>
+<tr><td>1000-1022</td><td>Not used</td><td></td></tr>
+<tr><td>1023</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 150  Coordinate reference system</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>WGS84, as used by ICAO since 1998</td><td></td></tr>
+<tr><td>1</td><td>ETRS89, as defined by EPSG:4258</td><td></td></tr>
+<tr><td>2</td><td>NAD83, as defined by EPSG:4269</td><td></td></tr>
+<tr><td>3</td><td>DHDN, as defined by EPSG:4314</td><td></td></tr>
+<tr><td>4</td><td>Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)</td><td>Note CF92: When Code figure 4 is used to specify a custom coordinate reference system, the ellipsoidal datum shall be an oblate ellipsoid of revolution, where the major axis is uniplanar with the equatorial plane and the minor axis traverses the prime meridian towards the prime pole. North corresponds to the direction from the Equator to the prime pole. East corresponds to the counterclockwise direction from the prime meridian as viewed from above the North Pole. In this case, the semi-major and semi-minor axes must be specified (e.g. by descriptors 0 01 152 and 0 01 153).</td></tr>
+<tr><td>5</td><td>Earth-centered, earth-fixed (ECEF) coordinate system or Earth-centred rotational (ECR) system. This is a right-handed Cartesian coordinate system (X, Y, Z) rotating with the Earth. The origin is defined by the centre of mass of the Earth. (Footnote (5) of class 27 does not apply if ECEF coordinates are specified.)</td><td></td></tr>
+<tr><td>6-65534</td><td>Reserved</td><td></td></tr>
+<tr><td>65535</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<div class="notes">
+<p class="note">Note CF39: EPSG is a dataset of coordinate system and coordinate system transformations, originally produced and maintained by the European Petroleum Survey Group. It is now maintained by the Geodesy Subcommittee of the International Association of Oil and Gas Producers Geomatics Committee.</p>
+</div>
+<p class="fxy-heading">0 01 151  Fixed mean sea-level reference datum</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Earth Gravitational Model 1996</td><td></td></tr>
+<tr><td>1</td><td>Baltic height system 1977</td><td></td></tr>
+<tr><td>2-4094</td><td>Reserved</td><td></td></tr>
+<tr><td>4095</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 155  Retrieval identifier</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Standard Correct Algorithm (SCA)</td><td></td></tr>
+<tr><td>1</td><td>Standard Correct Algorithm mid-bin (SCA mid-bin)</td><td></td></tr>
+<tr><td>2</td><td>Maximum Likelihood Estimation (MLE)</td><td></td></tr>
+<tr><td>3</td><td>Optimal Estimation Profile (OE-PRO)</td><td></td></tr>
+<tr><td>4</td><td>Group</td><td></td></tr>
+<tr><td>5</td><td>Group mid-bin</td><td></td></tr>
+<tr><td>6</td><td>Maximum Likelihood Estimation – High horizontal resolution (MLEsub)</td><td></td></tr>
+<tr><td>7-254</td><td>Reserved</td><td></td></tr>
+<tr><td>255</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 01 158  Type of balloon envelope</p>
+<table>
+<thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Reserved</td><td></td></tr>
+<tr><td>1</td><td>Super-pressure balloon (SPB) without altitude control</td><td></td></tr>
+<tr><td>2</td><td>SPB with altitude control</td><td></td></tr>
+<tr><td>3</td><td>Zero-pressure balloon (ZPB)</td><td></td></tr>
+<tr><td>4</td><td>Infra-Red Montgolfier (MIR)</td><td></td></tr>
+<tr><td>5</td><td>Airship (airship-shaped balloon)</td><td></td></tr>
+<tr><td>6</td><td>Tetroon (NOAA tetraedric balloon)</td><td></td></tr>
+<tr><td>15</td><td>Missing value</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

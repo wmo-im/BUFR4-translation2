@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Classe 21</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Classe 21</h1>
+<p class="fxy-heading">0 21 066  Données sur le degré de confiance du produit SAR mode vague</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Équipement de traitement ne fonctionne pas</td><td></td></tr>
+<tr><td>2</td><td>Équipement en panne</td><td></td></tr>
+<tr><td>3</td><td>Code de fréquence de répétition (PRF) modifié pendant la formation de l&#x27;image</td><td></td></tr>
+<tr><td>4</td><td>Fenêtre d&#x27;échantillonnage modifiée pendant la formation de l&#x27;image</td><td></td></tr>
+<tr><td>5</td><td>Gain modifié pendant la formation de l&#x27;image</td><td></td></tr>
+<tr><td>6</td><td>La réplique de &quot;Chirp&quot; dépasse la valeur spécifiée</td><td></td></tr>
+<tr><td>7</td><td>Écart moyen et écart type de données d&#x27;entrée en phase et en quadrature hors de portée</td><td></td></tr>
+<tr><td>8</td><td>Degré de confiance du point médian Doppler &gt; à valeur MMCC</td><td></td></tr>
+<tr><td>9</td><td>Valeur absolue du point médian Doppler &gt; PRF/2</td><td></td></tr>
+<tr><td>10</td><td>Degré de confiance d&#x27;ambiguité Doppler &lt; à valeur MMCC</td><td></td></tr>
+<tr><td>11</td><td>Écart moyen et écart type de données de sortie ≤ valeur MMCC</td><td></td></tr>
+<tr><td>12 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 067  Données sur le degré de confiance du produit concernant le vent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Pas de calcul faisceau avant</td><td></td></tr>
+<tr><td>2</td><td>Pas de calcul faisceau médian</td><td></td></tr>
+<tr><td>3</td><td>Pas de calcul faisceau arrière</td><td></td></tr>
+<tr><td>4</td><td>Arcage faisceau avant détecté</td><td></td></tr>
+<tr><td>5</td><td>Arcage faisceau médian détecté</td><td></td></tr>
+<tr><td>6</td><td>Arcage faisceau arrière détecté</td><td></td></tr>
+<tr><td>7</td><td>Tout contenu de bruit de faisceau supérieur ou égal au seuil</td><td></td></tr>
+<tr><td>8</td><td>Terre (toute portion de terre située dans la cellule d&#x27;empreinte au sol)</td><td></td></tr>
+<tr><td>9</td><td>Retrait d&#x27;ambiguïté autonome non utilisé</td><td></td></tr>
+<tr><td>10</td><td>Arrière-plan météorologique non utilisé</td><td></td></tr>
+<tr><td>11</td><td>Minimum résiduel dépasse le seuil</td><td></td></tr>
+<tr><td>12</td><td>Erreur de contrôle de trame détectée</td><td></td></tr>
+<tr><td>13 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 068  Données sur le degré de confiance du produit du radioaltimètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Écart type de la vitesse du vent à l&#x27;extérieur de la limite du MMCC</td><td></td></tr>
+<tr><td>2</td><td>Écart type de la hauteur de vague significative à l&#x27;extérieur de la limite du MMCC</td><td></td></tr>
+<tr><td>3</td><td>Écart type de l&#x27;altitude à l&#x27;extérieur de la limite du MMCC</td><td></td></tr>
+<tr><td>4</td><td>Maxima (valeur moyenne) à l&#x27;extérieur de la limite du MMCC</td><td></td></tr>
+<tr><td>5</td><td>Erreur de vérification de trame détectée</td><td></td></tr>
+<tr><td>6</td><td>Correction de la constante de temps de la courbe hauteur-temps non effectuée</td><td></td></tr>
+<tr><td>7</td><td>Mesures insuffisantes (N &lt; 10)</td><td></td></tr>
+<tr><td>8 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 069  Données sur le degré de confiance du produit concernant la température de la mer en surface</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Canal à 12,0 μm présent dans les données de base</td><td></td></tr>
+<tr><td>2</td><td>Canal à 11,0 μm présent dans les données de base</td><td></td></tr>
+<tr><td>3</td><td>Canal à 3,7 μm présent dans les données de base</td><td></td></tr>
+<tr><td>4</td><td>Canal à 1,6 μm présent dans les données de base</td><td></td></tr>
+<tr><td>5</td><td>Identification des nuages par test de nuage avec histogramme de facteur de réflexion à 1,6 μm</td><td></td></tr>
+<tr><td>6</td><td>Seuil dynamique utilisé pour test de nuage avec histogramme de facteur de réflexion à 1,6 μm</td><td></td></tr>
+<tr><td>7</td><td>Reflets du soleil détectés par test de nuages avec un facteur de réflexion de 1,6 μm</td><td></td></tr>
+<tr><td>8</td><td>Canal à 3,7 μm utilisé pour l&#x27;extraction des données sur la température de la mer en surface</td><td></td></tr>
+<tr><td>9</td><td>Données de jour utilisées pour le calcul de la température de la mer en surface (données de nuit si zéro)</td><td></td></tr>
+<tr><td>10 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 070  Données sur le degré de confiance du produit concernant la température de surface de la mer (SADIST-2)</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>SOUS 1</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1-9</td><td>Température de surface de la mer (SST) extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns (1 bit par cellule de 10 minutes d&#x27;arc)</td><td>Numérotation</td><td></td></tr>
+<tr><td>1</td><td>Cellule 1: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>2</td><td>Cellule 2: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>3</td><td>Cellule 3: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>4</td><td>Cellule 4: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>5</td><td>Cellule 5: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>6</td><td>Cellule 6: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>7</td><td>Cellule 7: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>8</td><td>Cellule 8: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>9</td><td>Cellule 9: SST extraite uniquement d&#x27;une visée au nadir dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>10-18</td><td>SST extraite d&#x27;une visée double dans le canal de 3,7 microns (1 bit par cellule de 10 mn d&#x27;arc)</td><td>Numérotation</td><td></td></tr>
+<tr><td>10</td><td>Cellule 1: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>11</td><td>Cellule 2: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>12</td><td>Cellule 3: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>13</td><td>Cellule 4: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>14</td><td>Cellule 5: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>15</td><td>Cellule 6: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>16</td><td>Cellule 7: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>17</td><td>Cellule 8: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>18</td><td>Cellule 9: SST extraite d&#x27;une visée double dans le canal de 3,7 microns</td><td></td><td></td></tr>
+<tr><td>19</td><td>Données d&#x27;observation diurne au nadir incluses (nocturne si zéro)</td><td></td><td></td></tr>
+<tr><td>20</td><td>Données d&#x27;observation diurne par visée vers l&#x27;avant incluses (nocturne si zéro)</td><td></td><td></td></tr>
+<tr><td>21</td><td>Sont également prises en compte les mesures effectuées par les instruments pendant que la plate-forme ERS n&#x27;est pas en mode de contrôle du mouvement latéral</td><td></td><td></td></tr>
+<tr><td>22</td><td>Sont également prises en compte les mesures effectuées par les instruments pour lesquelles le degré de confiance du produit indique une qualité de données médiocre ou inconnue</td><td></td><td></td></tr>
+<tr><td>23 bits mis à 1</td><td>Valeur manquante</td><td></td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 072  État d&#x27;étalonnage de l&#x27;altimètre sur satellite</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Correction d&#x27;erreur de la hauteur appliquée à la place de l&#x27;étalonnage en boucle ouverte</td><td></td></tr>
+<tr><td>2</td><td>Sondeur à hyperfréquences appliqué pour la correction de la troposphère</td><td></td></tr>
+<tr><td>3</td><td>Correction de sortie de la commande automatique de gain appliquée à la place de l&#x27;étalonnage en boucle ouverte</td><td></td></tr>
+<tr><td>4 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 073  Mode de l&#x27;altimètre sur satellite</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Enregistrement de données vierges</td><td></td></tr>
+<tr><td>2</td><td>Essais</td><td></td></tr>
+<tr><td>3</td><td>Étalonnage (boucle fermée)</td><td></td></tr>
+<tr><td>4</td><td>BITE (Équipement d&#x27;essais incorporé)</td><td></td></tr>
+<tr><td>5</td><td>Saisie de données sur glace</td><td></td></tr>
+<tr><td>6</td><td>Saisie de données sur l&#x27;océan</td><td></td></tr>
+<tr><td>7</td><td>Recherche de données sur glace</td><td></td></tr>
+<tr><td>8</td><td>Recherche de données sur océan</td><td></td></tr>
+<tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 076  Représentation des intensités</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Linéaire</td><td></td></tr>
+<tr><td>1</td><td>Logarithmique (base e)</td><td></td></tr>
+<tr><td>2</td><td>Logarithmique (base 10)</td><td></td></tr>
+<tr><td>3-6</td><td>En réserve</td><td></td></tr>
+<tr><td>7</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 109  Qualité du vecteur vent mesuré à l&#x27;intérieur de la cellule par SEAWINDS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Pas assez de sigma-0 de qualité suffisante pour calculer le vent</td><td></td></tr>
+<tr><td>2</td><td>Diversité des azimuts parmi les sigma-0 insuffisants pour le calcul du vent</td><td></td></tr>
+<tr><td>3-7</td><td>En réserve</td><td></td></tr>
+<tr><td>8</td><td>Une partie de la cellule pour laquelle le vecteur vent est calculé se trouve au-dessus des terres</td><td></td></tr>
+<tr><td>9</td><td>Une partie de la cellule pour laquelle le vecteur vent est calculé se trouve au-dessus des glaces</td><td></td></tr>
+<tr><td>10</td><td>Calcul du vent pas effectué pour la cellule dans laquelle le vecteur vent doit être calculé</td><td></td></tr>
+<tr><td>11</td><td>Vitesse du vent communiquée supérieure à 30 m s-1</td><td></td></tr>
+<tr><td>12</td><td>Vitesse du vent communiquée inférieure ou égale à 30 m s-1</td><td></td></tr>
+<tr><td>13-16</td><td>En réserve</td><td></td></tr>
+<tr><td>17 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 115  Qualité de sigma-0 déterminée par SEAWINDS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Mesure de sigma-0 pas utilisable</td><td></td></tr>
+<tr><td>2</td><td>Rapport signal/bruit bas</td><td></td></tr>
+<tr><td>3</td><td>Sigma-0 négatif</td><td></td></tr>
+<tr><td>4</td><td>Sigma-0 est hors des limites acceptables</td><td></td></tr>
+<tr><td>5</td><td>Qualité de pulsion du diffusomètre</td><td></td></tr>
+<tr><td>6</td><td>L&#x27;algorithme de position de la cellule correspondant à sigma-0 ne converge pas</td><td></td></tr>
+<tr><td>7</td><td>L&#x27;écart de fréquence est hors des limites de la Table du facteur X</td><td></td></tr>
+<tr><td>8</td><td>La température du satellite se situe hors des limites du coefficient d&#x27;étalonnage</td><td></td></tr>
+<tr><td>9</td><td>Pas trouvé de relevés d&#x27;altitude utilisables pour sigma-0</td><td></td></tr>
+<tr><td>10</td><td>Les données d&#x27;éphémérides interpolées ne sont pas acceptables pour ce sigma-0</td><td></td></tr>
+<tr><td>11-16</td><td>En réserve</td><td></td></tr>
+<tr><td>17 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 116  Mode de sigma-0 déterminé par SEAWINDS</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Indicateur de pulsion (1) pour étalonnage/mesure</td><td></td></tr>
+<tr><td>2</td><td>Indicateur de pulsion (2) pour étalonnage/mesure</td><td></td></tr>
+<tr><td>3</td><td>Faisceau d&#x27;antenne externe</td><td></td></tr>
+<tr><td>4</td><td>La cellule correspondant à sigma-0 est à l&#x27;arrière du satellite</td><td></td></tr>
+<tr><td>5</td><td>Mode courant (1)</td><td></td></tr>
+<tr><td>6</td><td>Mode courant (2)</td><td></td></tr>
+<tr><td>7</td><td>Fenêtre utilisée - Résolution de la tranche (1)</td><td></td></tr>
+<tr><td>8</td><td>Fenêtre utilisée - Résolution de la tranche (2)</td><td></td></tr>
+<tr><td>9</td><td>Fenêtre utilisée - Résolution de la tranche (3)</td><td></td></tr>
+<tr><td>10</td><td>Mode basse résolution - Données pour la pulsion complète</td><td></td></tr>
+<tr><td>11</td><td>Sous-système électronique B du diffusomètre</td><td></td></tr>
+<tr><td>12</td><td>Autre vitesse de rotation - 19,8 tpm</td><td></td></tr>
+<tr><td>13</td><td>Protection du récepteur enclenchée</td><td></td></tr>
+<tr><td>14</td><td>Indicateur de tranches par ensemble (1)</td><td></td></tr>
+<tr><td>15</td><td>Indicateur de tranches par ensemble (2)</td><td></td></tr>
+<tr><td>16</td><td>Indicateur de tranches par ensemble (3)</td><td></td></tr>
+<tr><td>17 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 119  Modèle géophysique de diffusomètre vent</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>En réserve</td><td></td></tr>
+<tr><td>1</td><td>SASS</td><td></td></tr>
+<tr><td>2</td><td>SASS 2</td><td></td></tr>
+<tr><td>3</td><td>NSCAT 0</td><td></td></tr>
+<tr><td>4</td><td>NSCAT 1</td><td></td></tr>
+<tr><td>5</td><td>NSCAT 2</td><td></td></tr>
+<tr><td>6</td><td>QSCAT 0</td><td></td></tr>
+<tr><td>7</td><td>QSCAT 1</td><td></td></tr>
+<tr><td>8-30</td><td>En réserve</td><td></td></tr>
+<tr><td>31</td><td>CMOD 1</td><td></td></tr>
+<tr><td>32</td><td>CMOD 2</td><td></td></tr>
+<tr><td>33</td><td>CMOD 3</td><td></td></tr>
+<tr><td>34</td><td>CMOD 4</td><td></td></tr>
+<tr><td>35</td><td>CMOD 5</td><td></td></tr>
+<tr><td>36-62</td><td>En réserve</td><td></td></tr>
+<tr><td>63</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 144  Indicateur de pluie de l&#x27;altimètre</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Pluie</td><td></td></tr>
+<tr><td>2 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 148  Indicateur de variation du front arrière</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Variation autre qu&#x27;une variation de courte durée</td><td></td></tr>
+<tr><td>2</td><td>Variation de courte durée</td><td></td></tr>
+<tr><td>3-8</td><td>En réserve</td><td></td></tr>
+<tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 150  Recoupement de faisceaux</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Données provenant d&#x27;une seule station au sol (pas de recoupement)</td><td></td></tr>
+<tr><td>1</td><td>Données provenant de plusieurs stations au sol (recoupement)</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 155  Qualité du vecteur vent dans la cellule</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Valeurs de sigma-0 de bonne qualité insuffisantes pour le calcul du vent</td><td></td></tr>
+<tr><td>2</td><td>Diversité des azimuts parmi les sigma-0 insuffisante pour le calcul du vent</td><td></td></tr>
+<tr><td>3</td><td>Tout contenu de bruit de faisceau supérieur au seuil</td><td></td></tr>
+<tr><td>4</td><td>Surveillance du produit inutilisée</td><td></td></tr>
+<tr><td>5</td><td>Indicateur de surveillance du produit</td><td></td></tr>
+<tr><td>6</td><td>Échec du contrôle de qualité du KNMI</td><td></td></tr>
+<tr><td>7</td><td>Échec du contrôle de qualité variationnel</td><td></td></tr>
+<tr><td>8</td><td>Une partie de la cellule pour laquelle le vecteur vent est calculé se trouve au-dessus des terres</td><td></td></tr>
+<tr><td>9</td><td>Une partie de la cellule pour laquelle le vecteur vent est calculé se trouve au-dessus des glaces</td><td></td></tr>
+<tr><td>10</td><td>Vent non calculé pour la cellule dans laquelle le vecteur vent doit être calculé</td><td></td></tr>
+<tr><td>11</td><td>Vitesse du vent communiquée supérieure à 30 m s-1</td><td></td></tr>
+<tr><td>12</td><td>Vitesse du vent communiquée inférieure ou égale à 30 m s-1</td><td></td></tr>
+<tr><td>13</td><td>Indicateur de pluie inutilisable pour la cellule pour laquelle le vecteur de vent est calculé</td><td></td></tr>
+<tr><td>14</td><td>Pluie détectée par l&#x27;algorithme de l&#x27;indicateur de pluie</td><td></td></tr>
+<tr><td>15</td><td>Aucune indication de conditions météorologiques utilisée</td><td></td></tr>
+<tr><td>16</td><td>Données redondantes</td><td></td></tr>
+<tr><td>17-23</td><td>En réserve</td><td></td></tr>
+<tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 158  Qualité de l&#x27;estimation de la Kp, ASCAT</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Acceptable</td><td></td></tr>
+<tr><td>1</td><td>Inacceptable</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 159  Utilité des sigma-0, ASCAT</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Bonne</td><td></td></tr>
+<tr><td>1</td><td>Passable</td><td></td></tr>
+<tr><td>2</td><td>Mauvaise</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 21 169  Indicateur de présence de glace</p>
+<table>
+<thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Pas de glace</td><td></td></tr>
+<tr><td>1</td><td>Glace</td><td></td></tr>
+<tr><td>2</td><td>En réserve</td><td></td></tr>
+<tr><td>3</td><td>Valeur manquante</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

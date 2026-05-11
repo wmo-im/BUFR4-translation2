@@ -1,10 +1,10 @@
 ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
 bufr4/0/19/001,19,Caractéristiques synoptiques,019001,Type de la caractéristique synoptique,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
-bufr4/0/19/002,19,Caractéristiques synoptiques,019002,Rayon réel de la caractéristique,m,-2,0,12,m,-2,4,(voir Note 1),138,Operational,PDF
-bufr4/0/19/003,19,Caractéristiques synoptiques,019003,Seuil de vitesse du vent,m/s,0,0,8,m/s,0,3,(voir Note 2),99,Operational,PDF
-bufr4/0/19/004,19,Caractéristiques synoptiques,019004,Rayon réel pour les vitesses du vent supérieures au seuil,m,-2,0,12,m,-2,4,(voir Note 2),99,Operational,PDF
-bufr4/0/19/005,19,Caractéristiques synoptiques,019005,Direction de déplacement de la caractéristique,degré vrai,0,0,9,degré vrai,0,3,(voir Note 3),73,Operational,PDF
-bufr4/0/19/006,19,Caractéristiques synoptiques,019006,Vitesse de déplacement de la caractéristique,m/s,2,0,14,m/s,2,5,(voir Note 3),73,Operational,PDF
+bufr4/0/19/002,19,Caractéristiques synoptiques,019002,Rayon réel de la caractéristique,m,-2,0,12,m,-2,4,(voir Note 1),B138,Operational,PDF
+bufr4/0/19/003,19,Caractéristiques synoptiques,019003,Seuil de vitesse du vent,m/s,0,0,8,m/s,0,3,(voir Note 2),B99,Operational,PDF
+bufr4/0/19/004,19,Caractéristiques synoptiques,019004,Rayon réel pour les vitesses du vent supérieures au seuil,m,-2,0,12,m,-2,4,(voir Note 2),B99,Operational,PDF
+bufr4/0/19/005,19,Caractéristiques synoptiques,019005,Direction de déplacement de la caractéristique,degré vrai,0,0,9,degré vrai,0,3,(voir Note 3),B73,Operational,PDF
+bufr4/0/19/006,19,Caractéristiques synoptiques,019006,Vitesse de déplacement de la caractéristique,m/s,2,0,14,m/s,2,5,(voir Note 3),B73,Operational,PDF
 bufr4/0/19/007,19,Caractéristiques synoptiques,019007,Rayon réel de la caractéristique,m,-3,0,12,m,-3,4,,,Operational,PDF
 bufr4/0/19/008,19,Caractéristiques synoptiques,019008,Extension verticale de la circulation,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
 bufr4/0/19/009,19,Caractéristiques synoptiques,019009,Rayon effectif pour les vitesses de vent supérieures à la valeur seuil (tempêtes étendues),m,-3,0,12,m,-3,4,,,Operational,PDF

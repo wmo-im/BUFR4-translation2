@@ -14,7 +14,7 @@ bufr4/0/11/013,11,Viento y turbulencia,011013,Dirección del viento a 5 m,grado 
 bufr4/0/11/014,11,Viento y turbulencia,011014,Velocidad del viento a 5 m,m s-1,1,0,12,m s-1,1,4,,,Operational,PDF
 bufr4/0/11/016,11,Viento y turbulencia,011016,Dirección sinistrorsa extrema de un viento variable,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational,PDF
 bufr4/0/11/017,11,Viento y turbulencia,011017,Dirección dextrorsa extrema de un viento variable,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational,PDF
-bufr4/0/11/019,11,Viento y turbulencia,011019,Persistencia del viento,%,0,0,7,%,0,3,(véase la nota 6),147,Operational,PDF
+bufr4/0/11/019,11,Viento y turbulencia,011019,Persistencia del viento,%,0,0,7,%,0,3,(véase la nota 6),B147,Operational,PDF
 bufr4/0/11/021,11,Viento y turbulencia,011021,Vorticidad relativa,m s-1,9,-65536,17,m s-1,9,6,,,Operational,PDF
 bufr4/0/11/022,11,Viento y turbulencia,011022,Divergencia,s-1,9,-65536,17,s-1,9,6,,,Operational,PDF
 bufr4/0/11/023,11,Viento y turbulencia,011023,Potencial de velocidad,m² s-1,-2,-65536,17,m² s-1,-2,6,,,Operational,PDF

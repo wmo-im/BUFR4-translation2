@@ -2,11 +2,11 @@ ID,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit_en,BUFR_Scale,BUFR_Referenc
 bufr4/0/00/001,00,BUFR/CREX table entries,000001,Table A: entry,CCITT IA5,0,0,24,Character,0,3,,,Operational,na
 bufr4/0/00/002,00,BUFR/CREX table entries,000002,"Table A: data category description, line 1",CCITT IA5,0,0,256,Character,0,32,,,Operational,na
 bufr4/0/00/003,00,BUFR/CREX table entries,000003,"Table A: data category description, line 2",CCITT IA5,0,0,256,Character,0,32,,,Operational,na
-bufr4/0/00/004,00,BUFR/CREX table entries,000004,BUFR/CREX Master table,CCITT IA5,0,0,16,Character,0,2,(see Note 1),98,Operational,na
+bufr4/0/00/004,00,BUFR/CREX table entries,000004,BUFR/CREX Master table,CCITT IA5,0,0,16,Character,0,2,(see Note 1),B98,Operational,na
 bufr4/0/00/005,00,BUFR/CREX table entries,000005,BUFR/CREX edition number,CCITT IA5,0,0,24,Character,0,3,,,Operational,na
-bufr4/0/00/006,00,BUFR/CREX table entries,000006,BUFR Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 2),33,Operational,na
-bufr4/0/00/007,00,BUFR/CREX table entries,000007,CREX Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 3),40,Operational,na
-bufr4/0/00/008,00,BUFR/CREX table entries,000008,BUFR Local table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 4),76,Operational,na
+bufr4/0/00/006,00,BUFR/CREX table entries,000006,BUFR Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 2),B33,Operational,na
+bufr4/0/00/007,00,BUFR/CREX table entries,000007,CREX Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 3),B40,Operational,na
+bufr4/0/00/008,00,BUFR/CREX table entries,000008,BUFR Local table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 4),B76,Operational,na
 bufr4/0/00/010,00,BUFR/CREX table entries,000010,F descriptor to be added or defined,CCITT IA5,0,0,8,Character,0,1,,,Operational,na
 bufr4/0/00/011,00,BUFR/CREX table entries,000011,X descriptor to be added or defined,CCITT IA5,0,0,16,Character,0,2,,,Operational,na
 bufr4/0/00/012,00,BUFR/CREX table entries,000012,Y descriptor to be added or defined,CCITT IA5,0,0,24,Character,0,3,,,Operational,na

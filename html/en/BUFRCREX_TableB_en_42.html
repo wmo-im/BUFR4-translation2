@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 42: Oceanographic elements</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 42: Oceanographic elements</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 42 001</td><td>Dominant swell wave direction of spectral partition</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 42 002</td><td>Significant swell wave height of spectral partition</td><td>m</td><td>1</td><td>0</td><td>9</td><td>m</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 42 003</td><td>Dominant swell wavelength of spectral partition</td><td>m</td><td>2</td><td>100</td><td>17</td><td>m</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>0 42 004</td><td>Confidence of inversion for each partition of swell wave spectra</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 42 005</td><td>Ambiguity removal factor for swell wave partition</td><td>Numeric</td><td>5</td><td>-100000</td><td>18</td><td>Numeric</td><td>5</td><td>6</td><td></td></tr>
+<tr><td>0 42 006</td><td>Wave age</td><td>Numeric</td><td>2</td><td>1</td><td>8</td><td>Numeric</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 42 007</td><td>Shortest ocean wavelength on spectral resolution</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 42 008</td><td>Nonlinear inverse spectral width</td><td>m</td><td>2</td><td>0</td><td>16</td><td>m</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 42 009</td><td>Bin partition reference</td><td>Numeric</td><td>0</td><td>0</td><td>8</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 42 010</td><td>Partition number</td><td>Numeric</td><td>0</td><td>1</td><td>4</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 42 011</td><td>a1 coefficient of the directional Fourier series</td><td>Numeric</td><td>4</td><td>-20000</td><td>15</td><td>Numeric</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>0 42 012</td><td>b1 coefficient of the directional Fourier series</td><td>Numeric</td><td>4</td><td>-20000</td><td>15</td><td>Numeric</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>0 42 013</td><td>a2 coefficient of the directional Fourier series</td><td>Numeric</td><td>4</td><td>-20000</td><td>15</td><td>Numeric</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>0 42 014</td><td>b2 coefficient of the directional Fourier series</td><td>Numeric</td><td>4</td><td>-20000</td><td>15</td><td>Numeric</td><td>4</td><td>6</td><td></td></tr>
+<tr><td>0 42 015</td><td>Check factor K</td><td>Numeric</td><td>2</td><td>0</td><td>12</td><td>Numeric</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 42 016</td><td>Sea water potential density referenced to sea surface</td><td>kg m-3</td><td>5</td><td>-10000000</td><td>24</td><td>kg m-3</td><td>5</td><td>9</td><td></td></tr>
+<tr><td>0 42 017</td><td>Quality flag of swell wave spectra</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 42 018</td><td>Quality flag for each partition of swell wave spectra</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

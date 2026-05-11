@@ -1,4 +1,4 @@
-﻿ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
+ID,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translation_source
 bufr4/0/02/001,02,Instruments,002001,Type de station,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/02/002,02,Instruments,002002,Type d'instrument pour la mesure du vent,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,,,Operational,PDF
 bufr4/0/02/003,02,Instruments,002003,Type d'équipement de mesure utilisé,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
@@ -15,7 +15,7 @@ bufr4/0/02/016,02,Instruments,002016,Configuration de la radiosonde,Table d'indi
 bufr4/0/02/017,02,Instruments,002017,Algorithmes de correction pour les mesures d'humidité,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/019,02,Instruments,002019,Instruments satellitaires,Table de code,0,0,11,Table de code,0,4,,,Operational,PDF
 bufr4/0/02/020,02,Instruments,002020,Classification des satellites,Table de code,0,0,9,Table de code,0,3,,,Operational,PDF
-bufr4/0/02/021,02,Instruments,002021,Données instrumentales satellitaires utilisées dans le traitement,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,(voir Note 8),47,Operational,PDF
+bufr4/0/02/021,02,Instruments,002021,Données instrumentales satellitaires utilisées dans le traitement,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,(voir Note 8),B47,Operational,PDF
 bufr4/0/02/022,02,Instruments,002022,Technique utilisée pour le traitement des données satellitaires,Table d'indicateurs,0,0,8,Table d'indicateurs,0,3,,,Operational,PDF
 bufr4/0/02/023,02,Instruments,002023,Méthode de calcul du vent à partir de données satellitaires,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/024,02,Instruments,002024,Méthode de calcul de l'humidité moyenne intégrée,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
@@ -79,7 +79,7 @@ bufr4/0/02/095,02,Instruments,002095,Type de capteur de pression,Table de code,0
 bufr4/0/02/096,02,Instruments,002096,Type de capteur de température,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/097,02,Instruments,002097,Type de capteur d'humidité,Table de code,0,0,5,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/099,02,Instruments,002099,Polarisation,Table de code,0,0,3,Table de code,0,1,,,Operational,PDF
-bufr4/0/02/100,02,Instruments,002100,Constante radar,dB,1,0,12,dB,1,4,(voir Note 9),157,Operational,PDF
+bufr4/0/02/100,02,Instruments,002100,Constante radar,dB,1,0,12,dB,1,4,(voir Note 9),B157,Operational,PDF
 bufr4/0/02/101,02,Instruments,002101,Type d'antenne,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/102,02,Instruments,002102,Hauteur de l'antenne au-dessus de la base de la tour,m,0,0,8,m,0,3,,,Operational,PDF
 bufr4/0/02/103,02,Instruments,002103,Radôme,Table d'indicateurs,0,0,2,Table d'indicateurs,0,1,,,Operational,PDF
@@ -119,9 +119,9 @@ bufr4/0/02/136,02,Instruments,002136,Portée atteinte par correction de l'affaib
 bufr4/0/02/137,02,Instruments,002137,Rapport de double fréquence de répétition des impulsions du radar,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/138,02,Instruments,002138,Direction de rotation de l'antenne,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
 bufr4/0/02/139,02,Instruments,002139,Configuration de l'instrument SIRAL,Table de code,0,0,2,Table de code,0,1,,,Operational,PDF
-bufr4/0/02/140,02,Instruments,002140,Angle d'azimut du faisceau de radar de satellite,°,0,0,9,°,0,3,(voir Note 4),111,Operational,PDF
+bufr4/0/02/140,02,Instruments,002140,Angle d'azimut du faisceau de radar de satellite,°,0,0,9,°,0,3,(voir Note 4),B111,Operational,PDF
 bufr4/0/02/141,02,Instruments,002141,Type de mesure,CCITT IA5,0,0,24,Caractère,0,3,,,Operational,PDF
-bufr4/0/02/142,02,Instruments,002142,Numéro de série/identificateur du type d'instrument de mesure de l'ozone,CCITT IA5,0,0,32,Caractère,0,4,(voir Note 5),91,Operational,PDF
+bufr4/0/02/142,02,Instruments,002142,Numéro de série/identificateur du type d'instrument de mesure de l'ozone,CCITT IA5,0,0,32,Caractère,0,4,(voir Note 5),B91,Operational,PDF
 bufr4/0/02/143,02,Instruments,002143,Type d'instrument de mesure de l'ozone,Table de code,0,0,7,Table de code,0,3,,,Operational,PDF
 bufr4/0/02/144,02,Instruments,002144,Type de source lumineuse pour spectrophotomètre Brewer,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/145,02,Instruments,002145,Longueurs d'ondes et réglage pour instruments Dobson,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
@@ -131,7 +131,7 @@ bufr4/0/02/148,02,Instruments,002148,Système de collecte de données et/ou de p
 bufr4/0/02/149,02,Instruments,002149,Type de bouée de collecte de données,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/150,02,Instruments,002150,Numéro du canal de l'instrument TOVS/ATOVS/AVHRR,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/151,02,Instruments,002151,Indicateur d'identification du radiomètre,Table de code,0,0,11,Table de code,0,4,,,Operational,PDF
-bufr4/0/02/152,02,Instruments,002152,Instrument de satellite utilisé dans le traitement des données,Table d'indicateurs,0,0,31,Table d'indicateurs,0,10,(voir Note 6),46,Operational,PDF
+bufr4/0/02/152,02,Instruments,002152,Instrument de satellite utilisé dans le traitement des données,Table d'indicateurs,0,0,31,Table d'indicateurs,0,10,(voir Note 6),B46,Operational,PDF
 bufr4/0/02/153,02,Instruments,002153,Fréquence centrale du canal du satellite,Hz,-8,0,26,Hz,-8,8,,,Operational,PDF
 bufr4/0/02/154,02,Instruments,002154,Largeur de bande du canal du satellite,Hz,-8,0,26,Hz,-8,8,,,Operational,PDF
 bufr4/0/02/155,02,Instruments,002155,Longueur d'onde du canal du satellite,m,9,0,16,m,9,5,,,Operational,PDF
@@ -152,7 +152,7 @@ bufr4/0/02/169,02,Instruments,002169,Type d'anémomètre,Table de code,0,0,4,Tab
 bufr4/0/02/170,02,Instruments,002170,Capteur d'humidité de l'aéronef,Table de code,0,0,6,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/171,02,Instruments,002171,Numéro de série de l'instrument de mesure du profil de la température de l'eau,CCITT IA5,0,0,64,Caractère,0,8,,,Operational,PDF
 bufr4/0/02/172,02,Instruments,002172,Type de produit pour les données extraites concernant les gaz atmosphériques,Table de code,0,0,8,Table de code,0,3,,,Operational,PDF
-bufr4/0/02/173,02,Instruments,002173,Carré de l'angle de visée latérale,deg2,4,0,10,deg2,4,4,(voir Note 7),124,Operational,PDF
+bufr4/0/02/173,02,Instruments,002173,Carré de l'angle de visée latérale,deg2,4,0,10,deg2,4,4,(voir Note 7),B124,Operational,PDF
 bufr4/0/02/174,02,Instruments,002174,Nombre moyen de pixels en visée latérale,Numérique,0,0,9,Numérique,0,3,,,Operational,PDF
 bufr4/0/02/175,02,Instruments,002175,Méthode de mesure des précipitations,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF
 bufr4/0/02/176,02,Instruments,002176,Méthode de mesure de l'état du sol,Table de code,0,0,4,Table de code,0,2,,,Operational,PDF

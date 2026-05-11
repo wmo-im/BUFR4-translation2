@@ -192,7 +192,7 @@ bufr4/0/25/090/5,025090,Indicateur de l'état de l'orbite,5,L'orbite (prélimina
 bufr4/0/25/090/6,025090,Indicateur de l'état de l'orbite,6,L'orbite (préliminaire/précise) est calculée par extrapolation sur une durée inférieure à 1 jour,,,,,Operational,PDF
 bufr4/0/25/090/7,025090,Indicateur de l'état de l'orbite,7,L'orbite (préliminaire/précise) est calculée par extrapolation sur une durée comprise entre 1 jour et 2 jours,,,,,Operational,PDF
 bufr4/0/25/090/8,025090,Indicateur de l'état de l'orbite,8,"L'orbite (préliminaire/précise) est calculée par extrapolation sur une durée supérieure à 2 jours, ou l'orbite est calculée par extrapolation juste après une manœuvre",,,,,Operational,PDF
-bufr4/0/25/090/9,025090,Indicateur de l'état de l'orbite,9,Orbite du navigateur DORIS DIODE,,,(voir Note),37,Operational,PDF
+bufr4/0/25/090/9,025090,Indicateur de l'état de l'orbite,9,Orbite du navigateur DORIS DIODE,,,(voir Note),CF37,Operational,PDF
 bufr4/0/25/090/10-14,025090,Indicateur de l'état de l'orbite,10-14,En réserve,,,,,Operational,PDF
 bufr4/0/25/090/15,025090,Indicateur de l'état de l'orbite,15,Valeur manquante,,,,,Operational,PDF
 bufr4/0/25/093/1,025093,Correction des données RASS (Système de sondage radio-acoustique),1,Pas de correction,,,,,Operational,PDF
@@ -306,7 +306,7 @@ bufr4/0/25/187/0,025187,Indicateur de confiance,0,Valide,,,,,Operational,PDF
 bufr4/0/25/187/1,025187,Indicateur de confiance,1,Invalide,,,,,Operational,PDF
 bufr4/0/25/187/2-14,025187,Indicateur de confiance,2-14,En réserve,,,,,Operational,PDF
 bufr4/0/25/187/15,025187,Indicateur de confiance,15,Valeur manquante,,,,,Operational,PDF
-bufr4/0/25/188/0,025188,Méthode employée pour ramener la pression au niveau de la mer,0,"Pression ajustée au niveau moyen de la mer, conformément aux dispositions de la publication OMM-N° 8 relatives aux stations situées à faible altitude (< 50 m)",,,(voir Note),44,Operational,PDF
+bufr4/0/25/188/0,025188,Méthode employée pour ramener la pression au niveau de la mer,0,"Pression ajustée au niveau moyen de la mer, conformément aux dispositions de la publication OMM-N° 8 relatives aux stations situées à faible altitude (< 50 m)",,,(voir Note),CF44,Operational,PDF
 bufr4/0/25/188/1,025188,Méthode employée pour ramener la pression au niveau de la mer,1,"Pression ajustée au niveau moyen de la mer, conformément aux dispositions de la publication OMM-N° 8 relatives aux stations situées à moins de 750 m d'altitude",,,,,Operational,PDF
 bufr4/0/25/188/2,025188,Méthode employée pour ramener la pression au niveau de la mer,2,Pression ajustée au niveau de la mer conformément aux pratiques nationales,,,,,Operational,PDF
 bufr4/0/25/188/3,025188,Méthode employée pour ramener la pression au niveau de la mer,3,Pression ajustée au niveau local de l'eau conformément aux pratiques nationales,,,,,Operational,PDF

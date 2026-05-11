@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clase 15: Componentes físicos/químicos</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Clase 15: Componentes físicos/químicos</h1>
+<table>
+<thead><tr><th>FXY</th><th>NOMBRE DEL ELEMENTO</th><th>UNIDAD BUFR</th><th>ESCALA</th><th>VAL. REF.</th><th>BITS</th><th>UNIDAD CREX</th><th>ESCALA</th><th>CAR.</th><th>NOTA</th></tr></thead>
+<tbody>
+<tr><td>0 15 001</td><td>Ozono total</td><td>DU</td><td>0</td><td>0</td><td>10</td><td>DU</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 15 002</td><td>Masa de aire (correspondiente a una trayectoria oblicua a una altura de 22 km)</td><td>Numérica</td><td>2</td><td>0</td><td>10</td><td>Numérica</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 15 003</td><td>Presión parcial del ozono medido</td><td>Pa</td><td>4</td><td>0</td><td>9</td><td>nbar</td><td>0</td><td>3</td><td>Note B1: 0 15 003 es la presión parcial de ozono medida al nivel de presión identificado mediante 0 07 004.</td></tr>
+<tr><td>0 15 004</td><td>Factor de corrección de sondeo del ozono</td><td>Numérica</td><td>3</td><td>0</td><td>11</td><td>Numérica</td><td>3</td><td>4</td><td>Note B2: 0 15 004 (CF) se define como: CF = TOI/TOS donde TOI es el valor de ozono integrado obtenido “simultáneamente a un sondeo” mediante un espectrofotómetro Dobson o Brewer en el emplazamiento o “en sus proximidades”, y TOS es el ozono total obtenido del sondeo. TOS es la suma del ozono integrado por debajo del nivel de presión más bajo alcanzado por el sondeo más la estimación de la citada cantidad. En ausencia de mediciones de espectrofotómetro, CF = Valor faltante.</td></tr>
+<tr><td>0 15 005</td><td>p del ozono</td><td>DU</td><td>0</td><td>0</td><td>10</td><td>DU</td><td>0</td><td>3</td><td>Note B3: 0 15 005 es el valor obtenido como resultado de la integración vertical de los valores de sondeo (0 15 003) medidos por debajo del nivel de presión más bajo alcanzado por la sonda, y multiplicado por 0 15 004.</td></tr>
+<tr><td>0 15 006</td><td>Log10 de la densidad numérica de la atmósfera</td><td>log (m-³)</td><td>5</td><td>1800000</td><td>20</td><td>log (m-³)</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>0 15 008</td><td>Significando del cociente de mezclado volumétrico</td><td>Numérica</td><td>0</td><td>0</td><td>10</td><td>Numérica</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 15 009</td><td>Log10 de la densidad numérica de ozono</td><td>log (m-3)</td><td>5</td><td>1200000</td><td>20</td><td>log (m-3)</td><td>5</td><td>7</td><td></td></tr>
+<tr><td>0 15 011</td><td>Logaritmo10 de la densidad de electrones integrada</td><td>log (m-2)</td><td>3</td><td>14000</td><td>13</td><td>log (m-2)</td><td>3</td><td>4</td><td></td></tr>
+<tr><td>0 15 012</td><td>Recuento total de electrones por m²</td><td>m²</td><td>-16</td><td>0</td><td>6</td><td>m²</td><td>-16</td><td>2</td><td></td></tr>
+<tr><td>0 15 015</td><td>Componente espectral máximo de la imagen antes de la normalización</td><td>Numérica</td><td>0</td><td>0</td><td>31</td><td>Numérica</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 15 020</td><td>Densidad del ozono integrada</td><td>kg m-2</td><td>8</td><td>0</td><td>21</td><td>kg m-2</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 021</td><td>Densidad de masa integrada</td><td>kg m-2</td><td>11</td><td>0</td><td>31</td><td>kg m-2</td><td>11</td><td>10</td><td></td></tr>
+<tr><td>0 15 024</td><td>Espesor óptico</td><td>Numérica</td><td>4</td><td>0</td><td>24</td><td>Numérica</td><td>4</td><td>8</td><td></td></tr>
+<tr><td>0 15 025</td><td>Tipo de contamite</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 15 026</td><td>Concentración del contamite (mol mol-1)</td><td>mol mol-1</td><td>9</td><td>0</td><td>9</td><td>mol mol-1</td><td>9</td><td>3</td><td></td></tr>
+<tr><td>0 15 027</td><td>Concentración del contamite (Kg m-3)</td><td>kg m-3</td><td>9</td><td>0</td><td>10</td><td>kg m-3</td><td>9</td><td>4</td><td></td></tr>
+<tr><td>0 15 028</td><td>Fracción molar del componente/contamite atmosférico en el aire seco</td><td>%%</td><td>5</td><td>0</td><td>16</td><td>%%</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>0 15 029</td><td>Coeficiente de extinción</td><td>m-1</td><td>9</td><td>0</td><td>30</td><td>m-1</td><td>9</td><td>10</td><td></td></tr>
+<tr><td>0 15 030</td><td>Índice de contaminación por aerosoles</td><td>Numérica</td><td>2</td><td>-1000</td><td>12</td><td>Numérica</td><td>2</td><td>4</td><td>Note B79: Para este descriptor, los valores inferiores a –1 indican predominancia de aerosoles dispersantes, cuya concentración aumenta a medida que el valor aumenta negativamente. Valores superiores a +1 indican predominancia de aerosoles absorbentes, cuya concentración aumenta a medida que el valor aumenta positivamente. Los valores comprendidos entre –1 y +1 indican nubes o ruido.</td></tr>
+<tr><td>0 15 031</td><td>Retraso del trayecto atmosférico en la señal del satélite</td><td>m</td><td>4</td><td>10000</td><td>15</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>0 15 032</td><td>Error estimado en un retraso de trayecto atmosférico</td><td>m</td><td>4</td><td>0</td><td>10</td><td>m</td><td>4</td><td>4</td><td></td></tr>
+<tr><td>0 15 033</td><td>Diferencia en retrasos de trayecto para visiones del limbo en extremos de la exploración</td><td>m</td><td>5</td><td>-10000</td><td>15</td><td>m</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>0 15 034</td><td>Error estimado en la diferencia de retraso de trayecto</td><td>m</td><td>5</td><td>0</td><td>14</td><td>m</td><td>5</td><td>5</td><td></td></tr>
+<tr><td>0 15 035</td><td>Componente del retraso del trayecto cenital debido al vapor de agua</td><td>m</td><td>4</td><td>0</td><td>14</td><td>m</td><td>4</td><td>5</td><td></td></tr>
+<tr><td>0 15 036</td><td>Refractividad atmosférica</td><td>Unidades N</td><td>3</td><td>0</td><td>19</td><td>Unidades N</td><td>3</td><td>6</td><td>Note B142: La refractividad, N, está relacionada con el índice de refracción n mediante la fórmula N = 106 (n - 1). Por consiguiente, N carece de dimensiones, pero los valores calculados mediante la fórmula se expresan convencionalmente en “unidades N”.</td></tr>
+<tr><td>0 15 037</td><td>Ángulo de curvatura</td><td>rad</td><td>8</td><td>-100000</td><td>23</td><td>rad</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 038</td><td>Retraso del trayecto debido a una atmósfera neutra</td><td>m</td><td>4</td><td>0</td><td>20</td><td>m</td><td>4</td><td>11</td><td>Note B4: El descriptor 0 15 038 indica el retraso de una onda electromagnética en una atmósfera neutra en comparación con una propagación sin perturbaciones en el vacío. El retraso debido a gases ionizados en la ionosfera no está cubierto, por lo que hay una “atmósfera neutra”. El retraso en metros es el retraso temporal multiplicado por la velocidad de la luz en el vacío.</td></tr>
+<tr><td>0 15 039</td><td>Error estimado en el retraso del trayecto atmosférico en una atmósfera neutra</td><td>m</td><td>4</td><td>0</td><td>14</td><td>m</td><td>4</td><td>9</td><td></td></tr>
+<tr><td>0 15 041</td><td>Índice de dióxido de azufre</td><td>Numérica</td><td>2</td><td>-1200</td><td>14</td><td>Numérica</td><td>2</td><td>4</td><td>Note B78: Para este descriptor, los valores superiores a +6 indican contaminación por dióxido de azufre, cuya densidad aumenta a medida que el valor aumenta positivamente. El valor se calcula a partir de una medición en unidades Dobson (DU), pero para una temperatura específica y perfiles de concentración asumidos que pueden no corresponderse con el verdadero estado de la atmósfera. Habida cuenta de esas deficiencias, se notifica como índice numérico.</td></tr>
+<tr><td>0 15 042</td><td>Reflectancia</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 045</td><td>Dióxido de azufre</td><td>DU</td><td>2</td><td>-2000</td><td>15</td><td>DU</td><td>2</td><td>5</td><td>Note B77: Para este descriptor, los valores negativos indican ruido, mala calibración o presencia de aerosoles absorbentes. La conservación de esos valores permite una mejor estimación subsiguiente del error de calibración.</td></tr>
+<tr><td>0 15 046</td><td>Índice de contaminación por volcanes</td><td>Numérica</td><td>2</td><td>-1000</td><td>11</td><td>Numérica</td><td>2</td><td>4</td><td>Note B80: Para este descriptor, las unidades representan la desviación climatológica estándar del valor del ozono troposférico para una latitud determinada. Por valor de 5,0 indica un perfil con un valor del ozono troposférico de 5,0 respecto de la desviación estándar superior al promedio climatológico. ejemplo, un</td></tr>
+<tr><td>0 15 049</td><td>Exponente de Angstrom de longitud de onda para aerosoles</td><td>Numérica</td><td>3</td><td>-2000</td><td>14</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 15 051</td><td>Alcance óptico meteorológico</td><td>m</td><td>0</td><td>0</td><td>18</td><td>m</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 15 052</td><td>Log10 de la densidad numérica de partículas de aerosol con un diámetro superior a 5 nm</td><td>log(m-³)</td><td>1</td><td>60</td><td>6</td><td>log(m-³)</td><td>1</td><td>3</td><td></td></tr>
+<tr><td>0 15 053</td><td>Log10 de la densidad numérica de partículas de aerosol con un diámetro superior a 14 nm</td><td>log(m-³)</td><td>2</td><td>600</td><td>9</td><td>log(m-³)</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 15 054</td><td>Log10 de la densidad numérica de partículas de aerosol con un diámetro comprendido entre 0,25 y 2,5 μm</td><td>log(m-³)</td><td>2</td><td>550</td><td>9</td><td>log(m-³)</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 15 055</td><td>Proporción de aerosoles no volátiles</td><td>Numérica</td><td>2</td><td>0</td><td>7</td><td>Numérica</td><td>2</td><td>3</td><td></td></tr>
+<tr><td>0 15 062</td><td>Espesor óptico de los aerosoles</td><td>Numérica</td><td>3</td><td>-1000</td><td>14</td><td>Numérica</td><td>3</td><td>5</td><td></td></tr>
+<tr><td>0 15 063</td><td>Retrodispersión atenuada</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 064</td><td>Incertidumbre en la retrodispersión atenuada</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 065</td><td>Coeficiente de retrodispersión de las partículas</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 066</td><td>Incertidumbre en el coeficiente de retrodispersión de las partículas</td><td>m-1 sr-1</td><td>8</td><td>0</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 067</td><td>Coeficiente de extinción de las partículas</td><td>m-1</td><td>8</td><td>0</td><td>20</td><td>m-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 068</td><td>Incertidumbre en el coeficiente de extinción de las partículas</td><td>m-1</td><td>8</td><td>0</td><td>20</td><td>m-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 069</td><td>Ratio lidar partículas</td><td>sr</td><td>2</td><td>0</td><td>14</td><td>sr</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 070</td><td>Incertidumbre en el ratio lidar</td><td>sr</td><td>2</td><td>0</td><td>14</td><td>sr</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 071</td><td>Ratio de despolarización de las partículas</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 072</td><td>Incertidumbre en el ratio de despolarización de las partículas</td><td>%</td><td>2</td><td>0</td><td>14</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 073</td><td>Retrodispersión atenuada</td><td>m-1 sr-1</td><td>8</td><td>-524288</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 074</td><td>Coeficiente de retrodispersión de las partículas</td><td>m-1 sr-1</td><td>8</td><td>-524288</td><td>20</td><td>m-1 sr-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 075</td><td>Coeficiente de extinción de las partículas</td><td>m-1</td><td>8</td><td>-524288</td><td>20</td><td>m-1</td><td>8</td><td>7</td><td></td></tr>
+<tr><td>0 15 076</td><td>Ratio partículas lidar</td><td>sr</td><td>1</td><td>-2048</td><td>13</td><td>sr</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 15 077</td><td>Incertidumbre en el ratio lidar</td><td>sr</td><td>1</td><td>0</td><td>12</td><td>sr</td><td>1</td><td>5</td><td></td></tr>
+<tr><td>0 15 078</td><td>Ratio de despolarización de las partículas</td><td>%</td><td>2</td><td>-8192</td><td>15</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 15 079</td><td>Retraso del trayecto cenital debido a una atmósfera neutra</td><td>m</td><td>4</td><td>0</td><td>15</td><td>m</td><td>4</td><td>9</td><td>Note B5: El descriptor 0 15 079 indica el retraso del trayecto hipotético con el transmisor, es decir, el satélite GNSS, en el cénit del recibidor.</td></tr>
+<tr><td>0 15 080</td><td>Error estimado en el retraso del trayecto cenital debido a una atmósfera neutra</td><td>m</td><td>4</td><td>0</td><td>12</td><td>m</td><td>4</td><td>8</td><td></td></tr>
+<tr><td>0 15 081</td><td>Retraso del trayecto húmedo debido a una atmósfera neutra</td><td>m</td><td>4</td><td>0</td><td>18</td><td>m</td><td>4</td><td>10</td><td>Note B6: El descriptor 0 15 081 indica la contribución del vapor de agua atmosférico al retraso del trayecto.</td></tr>
+<tr><td>0 15 082</td><td>Vapor de agua integrado en el trayecto</td><td>kg m-2</td><td>1</td><td>0</td><td>16</td><td>kg m-2</td><td>1</td><td>10</td><td>Note B16: El descriptor 0 15 082 indica la cantidad de vapor de agua atmosférico integrado en el trayecto de la señal.</td></tr>
+<tr><td>0 15 083</td><td>Gradiente en atmósfera neutra estimado a través del GNSS</td><td>m</td><td>5</td><td>-8192</td><td>14</td><td>m</td><td>5</td><td>9</td><td>Note B7: El descriptor 0 15 083 indica el gradiente (este-oeste o norte-sur) de la atmósfera neutra estimado por el procesamiento del GNSS.</td></tr>
+<tr><td>0 15 084</td><td>Residuos de mínimos cuadrados en el GNSS</td><td>m</td><td>4</td><td>0</td><td>14</td><td>m</td><td>4</td><td>9</td><td>Note B17: El descriptor 0 15 084 indica la contribución no modelada al retraso del trayecto estimado por el ajuste de los mínimos cuadrados de los retrasos de los trayectos en el GNSS.</td></tr>
+<tr><td>0 15 085</td><td>Retraso por efectos multitrayecto en el GNSS</td><td>m</td><td>4</td><td>0</td><td>14</td><td>m</td><td>4</td><td>9</td><td>Note B8: El descriptor 0 15 085 indica el exceso de retraso debido a los efectos multitrayecto que es necesario eliminar del retraso de trayecto estimado.</td></tr>
+<tr><td>0 15 086</td><td>Función de mapeo hidrostático del GNSS</td><td>Numérica</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>10</td><td>Note B22: Una función de mapeo es una proyección empírica del retraso cenital en el retraso del trayecto. Retraso del trayecto = función de mapeo * retraso cenital. Es un número real adimensional superior o igual a uno. Se utilizan distintas funciones de mapeo para las contribuciones secas e hidrostáticas al retraso y para los gradientes del GNSS. I.2 – BUFR/CREX Tabla B/15 – 6</td></tr>
+<tr><td>0 15 087</td><td>Función de mapeo húmedo del GNSS</td><td>m</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>10</td><td>Note B22: Una función de mapeo es una proyección empírica del retraso cenital en el retraso del trayecto. Retraso del trayecto = función de mapeo * retraso cenital. Es un número real adimensional superior o igual a uno. Se utilizan distintas funciones de mapeo para las contribuciones secas e hidrostáticas al retraso y para los gradientes del GNSS. I.2 – BUFR/CREX Tabla B/15 – 6</td></tr>
+<tr><td>0 15 088</td><td>Función de mapeo de gradiente del GNSS</td><td>m</td><td>3</td><td>0</td><td>16</td><td>Numérica</td><td>3</td><td>10</td><td>Note B22: Una función de mapeo es una proyección empírica del retraso cenital en el retraso del trayecto. Retraso del trayecto = función de mapeo * retraso cenital. Es un número real adimensional superior o igual a uno. Se utilizan distintas funciones de mapeo para las contribuciones secas e hidrostáticas al retraso y para los gradientes del GNSS. I.2 – BUFR/CREX Tabla B/15 – 6</td></tr>
+<tr><td>0 15 089</td><td>Retraso del trayecto cenital debido a una atmósfera hidrostática neutra</td><td>m</td><td>4</td><td>0</td><td>15</td><td>m</td><td>4</td><td>9</td><td>Note B18: El descriptor 0 15 089 indica la contribución de la atmósfera (casi) seca al trayecto cenital según lo expresa la ecuación hidrostática.</td></tr>
+<tr><td>0 15 090</td><td>Retraso del trayecto debido a una atmósfera hidrostática neutra</td><td>m</td><td>4</td><td>0</td><td>20</td><td>m</td><td>4</td><td>11</td><td>Note B19: El descriptor 0 15 090 indica el retraso del trayecto cenital debido a la atmosfera hidrostática neutra mapeado en el trayecto de la señal.</td></tr>
+</tbody>
+</table>
+</body>
+</html>

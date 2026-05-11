@@ -190,13 +190,13 @@ bufr4/0/08/019/7-14,008019,Qualifier for following centre identifier,7-14,Reserv
 bufr4/0/08/019/15,008019,Qualifier for following centre identifier,15,Missing value,,,,,Operational,na
 bufr4/0/08/021/0,008021,Time significance,0,Reserved,,,,,Operational,na
 bufr4/0/08/021/1,008021,Time significance,1,Time series,,,,,Operational,na
-bufr4/0/08/021/2,008021,Time significance,2,Time averaged,,,(see Note 1),4,Operational,na
+bufr4/0/08/021/2,008021,Time significance,2,Time averaged,,,(see Note 1),CF4,Operational,na
 bufr4/0/08/021/3,008021,Time significance,3,Accumulated,,,,,Operational,na
 bufr4/0/08/021/4,008021,Time significance,4,Forecast,,,,,Operational,na
 bufr4/0/08/021/5,008021,Time significance,5,Forecast time series,,,,,Operational,na
 bufr4/0/08/021/6,008021,Time significance,6,Forecast time averaged,,,,,Operational,na
 bufr4/0/08/021/7,008021,Time significance,7,Forecast accumulated,,,,,Operational,na
-bufr4/0/08/021/8,008021,Time significance,8,Ensemble mean,,,(see Note 2),3,Operational,na
+bufr4/0/08/021/8,008021,Time significance,8,Ensemble mean,,,(see Note 2),CF3,Operational,na
 bufr4/0/08/021/9,008021,Time significance,9,Ensemble mean time series,,,,,Operational,na
 bufr4/0/08/021/10,008021,Time significance,10,Ensemble mean time averaged,,,,,Operational,na
 bufr4/0/08/021/11,008021,Time significance,11,Ensemble mean accumulated,,,,,Operational,na
@@ -248,7 +248,7 @@ bufr4/0/08/024/7-10,008024,Difference statistics,7-10,Reserved,,,,,Operational,n
 bufr4/0/08/024/11,008024,Difference statistics,11,Observed minus climatology (anomaly),,,,,Operational,na
 bufr4/0/08/024/12,008024,Difference statistics,12,Observed minus analysed value,,,,,Operational,na
 bufr4/0/08/024/13,008024,Difference statistics,13,Observed minus initialized analysed value,,,,,Operational,na
-bufr4/0/08/024/14,008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),93,Operational,na
+bufr4/0/08/024/14,008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),CF93,Operational,na
 bufr4/0/08/024/15-20,008024,Difference statistics,15-20,Reserved,,,,,Operational,na
 bufr4/0/08/024/21,008024,Difference statistics,21,Observed minus interpolated value,,,,,Operational,na
 bufr4/0/08/024/22,008024,Difference statistics,22,Observed minus hydrostatically calculated value,,,,,Operational,na
@@ -441,7 +441,7 @@ bufr4/0/08/042/12,008042,Extended vertical sounding significance,12,Beginning of
 bufr4/0/08/042/13,008042,Extended vertical sounding significance,13,End of missing wind data,,,,,Operational,na
 bufr4/0/08/042/14,008042,Extended vertical sounding significance,14,Top of wind sounding,,,,,Operational,na
 bufr4/0/08/042/15,008042,Extended vertical sounding significance,15,Level determined by regional decision,,,,,Operational,na
-bufr4/0/08/042/16,008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),41,Operational,na
+bufr4/0/08/042/16,008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),CF41,Operational,na
 bufr4/0/08/042/17,008042,Extended vertical sounding significance,17,Pressure level originally indicated by height as the vertical coordinate,,,,,Operational,na
 bufr4/0/08/042/All-18,008042,Extended vertical sounding significance,All 18,Missing value,,,,,Operational,na
 bufr4/0/08/043/0,008043,Atmospheric chemical or physical constituent type,0,Ozone,O3,10028-15-6,,,Operational,na
@@ -635,7 +635,7 @@ bufr4/0/08/081/3,008081,Type of equipment,3,Observing platform,,,,,Operational,n
 bufr4/0/08/081/4-62,008081,Type of equipment,4-62,Reserved,,,,,Operational,na
 bufr4/0/08/081/63,008081,Type of equipment,63,Missing value,,,,,Operational,na
 bufr4/0/08/082/0,008082,Modification of sensor height to another value,0,Sensor height is not modified,,,,,Operational,na
-bufr4/0/08/082/1,008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),48,Operational,na
+bufr4/0/08/082/1,008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),CF48,Operational,na
 bufr4/0/08/082/2-6,008082,Modification of sensor height to another value,2-6,Reserved,,,,,Operational,na
 bufr4/0/08/082/7,008082,Modification of sensor height to another value,7,Missing value,,,,,Operational,na
 bufr4/0/08/083/1,008083,Nominal value indicator,1,Adjusted to or with respect to representative height of sensor above local ground (or deck of marine platform),,,,,Operational,na
@@ -691,7 +691,7 @@ bufr4/0/08/091/9,008091,Coordinates significance,9,Coordinates of true scale,,,,
 bufr4/0/08/091/10-254,008091,Coordinates significance,10-254,Reserved,,,,,Operational,na
 bufr4/0/08/091/255,008091,Coordinates significance,255,Missing value,,,,,Operational,na
 bufr4/0/08/092/0,008092,Measurement uncertainty expression,0,Standard uncertainty,,,,,Operational,na
-bufr4/0/08/092/1,008092,Measurement uncertainty expression,1,Combined standard uncertainty,,,(see Note),102,Operational,na
+bufr4/0/08/092/1,008092,Measurement uncertainty expression,1,Combined standard uncertainty,,,(see Note),CF102,Operational,na
 bufr4/0/08/092/2-30,008092,Measurement uncertainty expression,2-30,Reserved,,,,,Operational,na
 bufr4/0/08/092/31,008092,Measurement uncertainty expression,31,Missing value,,,,,Operational,na
 bufr4/0/08/093/0,008093,Measurement uncertainty significance,0,Total uncertainty,,,,,Operational,na
@@ -699,11 +699,11 @@ bufr4/0/08/093/1,008093,Measurement uncertainty significance,1,Systematic compon
 bufr4/0/08/093/2,008093,Measurement uncertainty significance,2,Random component of uncertainty,,,,,Operational,na
 bufr4/0/08/093/3-30,008093,Measurement uncertainty significance,3-30,Reserved,,,,,Operational,na
 bufr4/0/08/093/31,008093,Measurement uncertainty significance,31,Missing value,,,,,Operational,na
-bufr4/0/08/094/0,008094,Method used to calculate the average daily temperature,0,Average of maximum and minimum values: Tm = (Tx + Tn)/2,,,(see Note),97,Operational,na
+bufr4/0/08/094/0,008094,Method used to calculate the average daily temperature,0,Average of maximum and minimum values: Tm = (Tx + Tn)/2,,,(see Note),CF97,Operational,na
 bufr4/0/08/094/1,008094,Method used to calculate the average daily temperature,1,Average of the 8 observations taken every three hours,,,,,Operational,na
 bufr4/0/08/094/2,008094,Method used to calculate the average daily temperature,2,Average of the 24 hourly observations,,,,,Operational,na
-bufr4/0/08/094/3,008094,Method used to calculate the average daily temperature,3,Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3),,,(see Note),97,Operational,na
-bufr4/0/08/094/4,008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),97,Operational,na
+bufr4/0/08/094/3,008094,Method used to calculate the average daily temperature,3,Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3),,,(see Note),CF97,Operational,na
+bufr4/0/08/094/4,008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),CF97,Operational,na
 bufr4/0/08/094/5,008094,Method used to calculate the average daily temperature,5,Automatic weather station complete integration from minute data,,,,,Operational,na
 bufr4/0/08/094/6,008094,Method used to calculate the average daily temperature,6,Average of the 4 observations taken every six hours,,,,,Operational,na
 bufr4/0/08/094/7,008094,Method used to calculate the average daily temperature,7,Average of the 144 observations taken every 10 minutes,,,,,Operational,na

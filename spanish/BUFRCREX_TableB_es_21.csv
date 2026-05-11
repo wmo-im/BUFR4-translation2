@@ -136,4 +136,4 @@ bufr4/0/21/185,21,Datos de radar,021185,Corrección instrumental neta en banda e
 bufr4/0/21/186,21,Datos de radar,021186,Control automático de gacia en banda específica,dB,2,0,13,dB,2,4,,,Operational,PDF
 bufr4/0/21/187,21,Datos de radar,021187,Media cuadrática del control automático de gacia específica,dB,2,0,8,dB,2,3,,,Operational,PDF
 bufr4/0/21/188,21,Datos de radar,021188,Número de puntos válidos respecto del control automático de gacia en banda específica,Numérica,0,0,7,Numérica,0,3,,,Operational,PDF
-bufr4/0/21/189,21,Datos de radar,021189,Coeficiente corregido de retrodispersión del desplazamiento del centro de gravedad (referencia negativa),dB,2,-32768,16,dB,2,6,(véase la nota),11,Operational,PDF
+bufr4/0/21/189,21,Datos de radar,021189,Coeficiente corregido de retrodispersión del desplazamiento del centro de gravedad (referencia negativa),dB,2,-32768,16,dB,2,6,(véase la nota),B11,Operational,PDF

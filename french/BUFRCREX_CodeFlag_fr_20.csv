@@ -22,7 +22,7 @@ bufr4/0/20/003/15,020003,Temps présent,15,"Précipitations en vue, atteignant l
 bufr4/0/20/003/16,020003,Temps présent,16,"Précipitations en vue, atteignant le sol ou la surface de la mer, près de la station mais pas à la station même",,,,,Operational,PDF
 bufr4/0/20/003/17,020003,Temps présent,17,"Orage, mais pas de précipitations au moment de l'observation",,,,,Operational,PDF
 bufr4/0/20/003/18,020003,Temps présent,18,Grains,à la station ou en vue de celle-ci pendant l'heure précédente ou au moment de l'observation,,,,Operational,PDF
-bufr4/0/20/003/19,020003,Temps présent,19,Trombe(s),à la station ou en vue de celle-ci pendant l'heure précédente ou au moment de l'observation,,(voir Note 5),89,Operational,PDF
+bufr4/0/20/003/19,020003,Temps présent,19,Trombe(s),à la station ou en vue de celle-ci pendant l'heure précédente ou au moment de l'observation,,(voir Note 5),CF89,Operational,PDF
 bufr4/0/20/003//5,020003,Temps présent,,"20-29 Précipitations, brouillard, brouillard glacé ou orage à la station au cours de l'heure précédente, mais non au moment de l'observation",,,,,Operational,PDF
 bufr4/0/20/003/20,020003,Temps présent,20,Bruine (ne se congelant pas) ou neige en grains,pas sous forme d'averse(s),,,,Operational,PDF
 bufr4/0/20/003/21,020003,Temps présent,21,Pluie (ne se congelant pas),pas sous forme d'averse(s),,,,Operational,PDF
@@ -31,7 +31,7 @@ bufr4/0/20/003/23,020003,Temps présent,23,Pluie et neige mêlées ou granules d
 bufr4/0/20/003/24,020003,Temps présent,24,Bruine ou pluie se congelant,pas sous forme d'averse(s),,,,Operational,PDF
 bufr4/0/20/003/25,020003,Temps présent,25,Averse(s) de pluie,pas sous forme d'averse(s),,,,Operational,PDF
 bufr4/0/20/003/26,020003,Temps présent,26,"Averse(s) de neige, ou de pluie et de neige",,,,,Operational,PDF
-bufr4/0/20/003/27,020003,Temps présent,27,"Averse(s) de grêle, ou de pluie et de grêle",,,(voir Note 6),46,Operational,PDF
+bufr4/0/20/003/27,020003,Temps présent,27,"Averse(s) de grêle, ou de pluie et de grêle",,,(voir Note 6),CF46,Operational,PDF
 bufr4/0/20/003/28,020003,Temps présent,28,Brouillard ou brouillard glacé,,,,,Operational,PDF
 bufr4/0/20/003/29,020003,Temps présent,29,Orage (avec ou sans précipitations),,,,,Operational,PDF
 bufr4/0/20/003//6,020003,Temps présent,,"30-39 Tempête de poussière, tempête de sable, chasse-neige basse ou élevée",,,,,Operational,PDF
@@ -104,13 +104,13 @@ bufr4/0/20/003/89,020003,Temps présent,89,"Averse(s) de grêle, avec ou sans pl
 bufr4/0/20/003/90,020003,Temps présent,90,"Averse(s) de grêle, avec ou sans pluie ou pluie et neige mêlées, sans tonnerre",modérée(s) ou forte(s),,,,Operational,PDF
 bufr4/0/20/003/91,020003,Temps présent,91,Pluie faible au moment de l'observation,"Orage durant l'heure précédente, mais non au moment de l'observation",,,,Operational,PDF
 bufr4/0/20/003/92,020003,Temps présent,92,Pluie modérée ou forte au moment de l'observation,"Orage durant l'heure précédente, mais non au moment de l'observation",,,,Operational,PDF
-bufr4/0/20/003/93,020003,Temps présent,93,"Faible chute de neige, ou pluie et neige mêlées ou grêle au moment de l'observation","Orage durant l'heure précédente, mais non au moment de l'observation",,(voir Note 6),46,Operational,PDF
-bufr4/0/20/003/94,020003,Temps présent,94,"Chute modérée ou forte de neige, ou pluie et neige mêlées ou grêle au moment de l'observation","Orage durant l'heure précédente, mais non au moment de l'observation",,(voir Note 6),46,Operational,PDF
-bufr4/0/20/003/95,020003,Temps présent,95,"Orage faible ou modéré, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
-bufr4/0/20/003/96,020003,Temps présent,96,"Orage faible ou modéré, avec grêle au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
-bufr4/0/20/003/97,020003,Temps présent,97,"Orage fort, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
+bufr4/0/20/003/93,020003,Temps présent,93,"Faible chute de neige, ou pluie et neige mêlées ou grêle au moment de l'observation","Orage durant l'heure précédente, mais non au moment de l'observation",,(voir Note 6),CF46,Operational,PDF
+bufr4/0/20/003/94,020003,Temps présent,94,"Chute modérée ou forte de neige, ou pluie et neige mêlées ou grêle au moment de l'observation","Orage durant l'heure précédente, mais non au moment de l'observation",,(voir Note 6),CF46,Operational,PDF
+bufr4/0/20/003/95,020003,Temps présent,95,"Orage faible ou modéré, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),CF46,Operational,PDF
+bufr4/0/20/003/96,020003,Temps présent,96,"Orage faible ou modéré, avec grêle au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),CF46,Operational,PDF
+bufr4/0/20/003/97,020003,Temps présent,97,"Orage fort, sans grêle, mais avec pluie ou neige ou pluie et neige mêlées au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),CF46,Operational,PDF
 bufr4/0/20/003/98,020003,Temps présent,98,Orage avec tempête de poussière ou de sable au moment de l'observation,Orage au moment de l'observation,,,,Operational,PDF
-bufr4/0/20/003/99,020003,Temps présent,99,"Orage fort, avec grêle au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),46,Operational,PDF
+bufr4/0/20/003/99,020003,Temps présent,99,"Orage fort, avec grêle au moment de l'observation",Orage au moment de l'observation,,(voir Note 6),CF46,Operational,PDF
 bufr4/0/20/003/100,020003,Temps présent,100,On n'a pas observé de temps significatif,,,,,Operational,PDF
 bufr4/0/20/003/101,020003,Temps présent,101,"Dans l'ensemble, nuages se dissipant ou devenant moins épais durant l'heure qui vient de s'écouler",,,,,Operational,PDF
 bufr4/0/20/003/102,020003,Temps présent,102,État du ciel inchangé dans l'ensemble durant l'heure qui vient de s'écouler,,,,,Operational,PDF

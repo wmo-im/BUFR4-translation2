@@ -46,7 +46,7 @@ bufr4/3/16/004/7/102000,16,Séquences correspondant à des caractéristiques syn
 bufr4/3/16/004/8/031001,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
 bufr4/3/16/004/9/005002,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,005002,Latitude (faible précision),,,,Operational,PDF
 bufr4/3/16/004/10/006002,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,006002,Longitude (faible précision),,,,Operational,PDF
-bufr4/3/16/004/11/011031,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,011031,Degré de turbulence,,(voir note 1),20,Operational,PDF
+bufr4/3/16/004/11/011031,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,011031,Degré de turbulence,,(voir note 1),D20,Operational,PDF
 bufr4/3/16/004/12/008007,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,008007,Caractéristique dimensionnelle,Annuler,,,Operational,PDF
 bufr4/3/16/004/13/008011,16,Séquences correspondant à des caractéristiques synoptiques,316004,(Turbulence),,008011,Caractéristique météorologique,Annuler | Fin d'objet,,,Operational,PDF
 bufr4/3/16/005/1/108000,16,Séquences correspondant à des caractéristiques synoptiques,316005,(Tempête),,108000,Répétition différée de 8 descripteurs,,,,Operational,PDF
@@ -69,13 +69,13 @@ bufr4/3/16/006/7/102000,16,Séquences correspondant à des caractéristiques syn
 bufr4/3/16/006/8/031001,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
 bufr4/3/16/006/9/005002,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,005002,Latitude (faible précision),,,,Operational,PDF
 bufr4/3/16/006/10/006002,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,006002,Longitude (faible précision),,,,Operational,PDF
-bufr4/3/16/006/11/020011,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,020011,Nébulosité,,(voir note 2),6,Operational,PDF
+bufr4/3/16/006/11/020011,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,020011,Nébulosité,,(voir note 2),D6,Operational,PDF
 bufr4/3/16/006/12/020012,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,020012,Type de nuage,,,,Operational,PDF
 bufr4/3/16/006/13/008007,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,008007,Caractéristique dimensionnelle,Annuler,,,Operational,PDF
 bufr4/3/16/006/14/008011,16,Séquences correspondant à des caractéristiques synoptiques,316006,(Nuages),,008011,Caractéristique météorologique,Annuler | Fin d'objet,,,Operational,PDF
 bufr4/3/16/007/1/110000,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,110000,Répétition différée de 10 descripteurs,,,,Operational,PDF
 bufr4/3/16/007/2/031001,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
-bufr4/3/16/007/3/008011,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,008011,Caractéristique météorologique,Valeur pour type de fond,(voir note 3),21,Operational,PDF
+bufr4/3/16/007/3/008011,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,008011,Caractéristique météorologique,Valeur pour type de fond,(voir note 3),D21,Operational,PDF
 bufr4/3/16/007/4/008007,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,008007,Caractéristique dimensionnelle,Valeur pour ligne,,,Operational,PDF
 bufr4/3/16/007/5/104000,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,104000,Répétition différée de 4 descripteurs,,,,Operational,PDF
 bufr4/3/16/007/6/031001,16,Séquences correspondant à des caractéristiques synoptiques,316007,(Front),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
@@ -89,7 +89,7 @@ bufr4/3/16/008/1/111000,16,Séquences correspondant à des caractéristiques syn
 bufr4/3/16/008/2/031001,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
 bufr4/3/16/008/3/008001,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,008001,Caractéristique correspondant à des données de sondage vertical,Bit 3 mis à 1 pour tropopause,,,Operational,PDF
 bufr4/3/16/008/4/008007,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,008007,Caractéristique dimensionnelle,Valeur pour point,,,Operational,PDF
-bufr4/3/16/008/5/008023,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,008023,Statistiques de premier ordre,Valeur pour type de tropopause,(voir note 4),58,Operational,PDF
+bufr4/3/16/008/5/008023,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,008023,Statistiques de premier ordre,Valeur pour type de tropopause,(voir note 4),D58,Operational,PDF
 bufr4/3/16/008/6/103000,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,103000,Répétition différée de 3 descripteurs,,,,Operational,PDF
 bufr4/3/16/008/7/031001,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,031001,Facteur de répétition différée du descripteur,,,,Operational,PDF
 bufr4/3/16/008/8/005002,16,Séquences correspondant à des caractéristiques synoptiques,316008,(Tropopause),,005002,Latitude (faible précision),,,,Operational,PDF

@@ -1,4 +1,4 @@
-﻿ID,FXY,ElementName_ru,CodeFigure,EntryName_ru,EntryName_sub1_ru,EntryName_sub2_ru,Note_ru,noteIDs,Status,translation_source
+ID,FXY,ElementName_ru,CodeFigure,EntryName_ru,EntryName_sub1_ru,EntryName_sub2_ru,Note_ru,noteIDs,Status,translation_source
 bufr4/0/13/038/0,013038,Сверхадиабатический указатель,0,Несверхадиабатический,,,,,Operational,PDF
 bufr4/0/13/038/1,013038,Сверхадиабатический указатель,1,Сверхадиабатический,,,,,Operational,PDF
 bufr4/0/13/038/2,013038,Сверхадиабатический указатель,2,Зарезервировано,,,,,Operational,PDF
@@ -14,7 +14,7 @@ bufr4/0/13/040/3,013040,Флаг поверхности,3,Лед,,,,,Operational
 bufr4/0/13/040/4,013040,Флаг поверхности,4,"Возможно, лед",,,,,Operational,PDF
 bufr4/0/13/040/5,013040,Флаг поверхности,5,Океан,,,,,Operational,PDF
 bufr4/0/13/040/6,013040,Флаг поверхности,6,Берег,,,,,Operational,PDF
-bufr4/0/13/040/7,013040,Флаг поверхности,7,Внутренние воды,,,(см. примечание),56,Operational,PDF
+bufr4/0/13/040/7,013040,Флаг поверхности,7,Внутренние воды,,,(см. примечание),CF56,Operational,PDF
 bufr4/0/13/040/8,013040,Флаг поверхности,8,Снежный покров,,,,,Operational,PDF
 bufr4/0/13/040/9,013040,Флаг поверхности,9,Морской лед,,,,,Operational,PDF
 bufr4/0/13/040/10,013040,Флаг поверхности,10,Стоячая вода,,,,,Operational,PDF

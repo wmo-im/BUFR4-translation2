@@ -7,7 +7,7 @@ bufr4/0/24/005,24,Radiological elements,024005,Isotope mass,Numeric,0,0,9,Numeri
 bufr4/0/24/011,24,Radiological elements,024011,Dose,mSv,2,0,32,mSv,2,10,,,Operational,na
 bufr4/0/24/012,24,Radiological elements,024012,Trajectory dose (defined location and expected time of arrival),mSv,2,0,32,mSv,2,10,,,Operational,na
 bufr4/0/24/013,24,Radiological elements,024013,Gamma dose in air along the main transport path (defined location and time period),mSv,2,0,32,mSv,2,10,,,Operational,na
-bufr4/0/24/014,24,Radiological elements,024014,Gamma radiation dose rate,nSv/h,1,0,14,nSv/h,1,4,(see Note 2),81,Operational,na
+bufr4/0/24/014,24,Radiological elements,024014,Gamma radiation dose rate,nSv/h,1,0,14,nSv/h,1,4,(see Note 2),B81,Operational,na
 bufr4/0/24/021,24,Radiological elements,024021,Air concentration (of named isotope type including gross beta),Bq m-3,2,0,32,Bq m-3,2,10,,,Operational,na
 bufr4/0/24/022,24,Radiological elements,024022,Concentration in precipitation (of named isotope type),Bq/l,2,0,32,Bq/l,2,10,,,Operational,na
 bufr4/0/24/023,24,Radiological elements,024023,Pulse rate of beta radiation,/s,1,0,14,/s,1,4,,,Operational,na

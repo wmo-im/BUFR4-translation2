@@ -39,7 +39,7 @@ bufr4/0/03/008/2,003008,Garita o protección ventilada artificialmente,2,Aspirac
 bufr4/0/03/008/3-6,003008,Garita o protección ventilada artificialmente,3-6,Reservadas,,,,,Operational,PDF
 bufr4/0/03/008/7,003008,Garita o protección ventilada artificialmente,7,Valor faltante,,,,,Operational,PDF
 bufr4/0/03/010/0,003010,Método de medición de la corriente del mar/agua,0,Reservada,,,,,Operational,PDF
-bufr4/0/03/010/1,003010,Método de medición de la corriente del mar/agua,1,ADCP,,,Nota,91,Operational,PDF
+bufr4/0/03/010/1,003010,Método de medición de la corriente del mar/agua,1,ADCP,,,Nota,CF91,Operational,PDF
 bufr4/0/03/010/2,003010,Método de medición de la corriente del mar/agua,2,GEK (Electrocinetógrafo geomagnético),,,,,Operational,PDF
 bufr4/0/03/010/3,003010,Método de medición de la corriente del mar/agua,3,Dirección y deriva del buque determinadas mediante marcaciones efectuadas a intervalos de 3 a 6 horas,,,,,Operational,PDF
 bufr4/0/03/010/4,003010,Método de medición de la corriente del mar/agua,4,"Dirección y deriva del buque determinadas mediante marcaciones efectuadas a intervalos superiores a 6 horas, pero inferiores a 12 horas",,,,,Operational,PDF

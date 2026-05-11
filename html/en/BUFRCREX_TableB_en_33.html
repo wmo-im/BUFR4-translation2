@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class 33: Quality information</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Class 33: Quality information</h1>
+<table>
+<thead><tr><th>FXY</th><th>ELEMENT NAME</th><th>BUFR UNIT</th><th>SCALE</th><th>REF VALUE</th><th>BITS</th><th>CREX UNIT</th><th>SCALE</th><th>CHARS</th><th>NOTE</th></tr></thead>
+<tbody>
+<tr><td>0 33 002</td><td>Quality information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 003</td><td>Quality information</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 005</td><td>Quality information (AWS data)</td><td>Flag table</td><td>0</td><td>0</td><td>30</td><td>Flag table</td><td>0</td><td>10</td><td></td></tr>
+<tr><td>0 33 006</td><td>Internal measurement status information (AWS)</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 007</td><td>Per cent confidence</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 015</td><td>Data quality-check indicator</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 020</td><td>Quality control indication of following value</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 021</td><td>Quality of following value</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 022</td><td>Quality of buoy satellite transmission</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 023</td><td>Quality of buoy location</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 024</td><td>Station elevation quality mark (for mobile stations)</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 025</td><td>ACARS interpolated values indicator</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 026</td><td>Moisture quality</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 027</td><td>Location quality class (range of radius of 66 % confidence)</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 028</td><td>Snapshot overall quality</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 030</td><td>Scan line status flags for ATOVS</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 031</td><td>Scan line quality flags for ATOVS</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 032</td><td>Channel quality flags for ATOVS</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 033</td><td>Field of view quality flags for ATOVS</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 035</td><td>Manual/automatic quality control</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 036</td><td>Nominal confidence threshold</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 037</td><td>Wind correlation error</td><td>Flag table</td><td>0</td><td>0</td><td>20</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 038</td><td>Quality flags for ground-based GNSS data</td><td>Flag table</td><td>0</td><td>0</td><td>10</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 33 039</td><td>Quality flags for radio occultation data</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 040</td><td>Confidence interval</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 041</td><td>Attribute of following value</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 042</td><td>Type of limit represented by following value</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 043</td><td>AST confidence</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 044</td><td>ASAR quality information</td><td>Flag table</td><td>0</td><td>0</td><td>15</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 33 045</td><td>Probability of following event</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note B168: When defining an event for use with descriptor 0 33 045 or 0 33 046, descriptor 0 33 042 may be employed in order to indicate that the following value is actually abound for a range of values. | Note B173: When using descriptor 0 33 045 or 0 33 046, operator 2 41 000 shall be used in order to define the following event to which the reported probability value applies.</td></tr>
+<tr><td>0 33 046</td><td>Conditional probability of following event with respect to specified conditioning event</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td>Note B168: When defining an event for use with descriptor 0 33 045 or 0 33 046, descriptor 0 33 042 may be employed in order to indicate that the following value is actually abound for a range of values. | Note B173: When using descriptor 0 33 045 or 0 33 046, operator 2 41 000 shall be used in order to define the following event to which the reported probability value applies. | Note B174: When using descriptor 0 33 046, operator 2 42 000 shall precede the occurrence of this descriptor in order to define the event upon which the reported probability value is conditioned.</td></tr>
+<tr><td>0 33 047</td><td>Measurement confidence data</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>11</td><td></td></tr>
+<tr><td>0 33 048</td><td>Confidence measure of SAR inversion</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 049</td><td>Confidence measure of wind retrieval</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 050</td><td>Global GTSPP quality flag</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 052</td><td>S band ocean retracking quality</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 053</td><td>Ku band ocean retracking quality</td><td>Flag table</td><td>0</td><td>0</td><td>21</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 054</td><td>Overall quality of retrieved atmospheric profile</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 055</td><td>Wind vector quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 056</td><td>Sigma-0 quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 060</td><td>GqisFlagQual - individual IASI-System quality flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 061</td><td>GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 062</td><td>GqisQualIndexLoc - indicator for geometric quality index</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 063</td><td>GqisQualIndexRad - indicator for instrument noise performance (contributions from radiometric calibration)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 064</td><td>GqisQualIndexSpect - indicator for instrument noise performance (contributions from spectral calibration)</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 065</td><td>GqisSysTecSondQual - output of system TEC (Technical Expertise Centre) quality function</td><td>Numeric</td><td>0</td><td>0</td><td>24</td><td>Numeric</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 066</td><td>AMV quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>8</td><td></td></tr>
+<tr><td>0 33 070</td><td>Total ozone quality</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 071</td><td>Profile ozone quality</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 072</td><td>Ozone error</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 075</td><td>Scan-level quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>13</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
+<tr><td>0 33 076</td><td>Calibration quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 077</td><td>Field-of-view quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>19</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 078</td><td>Geolocation quality</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 079</td><td>Granule level quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 080</td><td>Scan level quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>20</td><td>Flag table</td><td>0</td><td>7</td><td></td></tr>
+<tr><td>0 33 081</td><td>Channel data quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>12</td><td>Flag table</td><td>0</td><td>4</td><td></td></tr>
+<tr><td>0 33 082</td><td>Geolocation quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 083</td><td>Radiance data quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 084</td><td>Pixel level quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 085</td><td>Aerosol optical thickness quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>18</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 086</td><td>Quality of pixel level retrieval</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 087</td><td>Extent of satellite within South Atlantic anomaly (based on climatological data)</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
+<tr><td>0 33 088</td><td>Ozone total column quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>18</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 089</td><td>Noise equivalent delta temperature (NEdT) quality indicators for warm target calibration</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 090</td><td>NEdT quality indicators for cold target calibration</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 091</td><td>NEdT quality indicators for overall calibration</td><td>K</td><td>2</td><td>0</td><td>12</td><td>K</td><td>2</td><td>4</td><td></td></tr>
+<tr><td>0 33 092</td><td>Band specific ocean quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 093</td><td>Extended quality flags for ground-based GNSS data</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>31</td><td></td></tr>
+<tr><td>0 33 094</td><td>Calibration quality control flags</td><td>Flag table</td><td>0</td><td>0</td><td>24</td><td>Flag table</td><td>0</td><td>24</td><td></td></tr>
+<tr><td>0 33 095</td><td>MWI temperatures flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 096</td><td>MWI calibration flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 097</td><td>MWI scan quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 098</td><td>MWI data quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 099</td><td>MWI navigation status flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 100</td><td>ICI temperatures flag</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 101</td><td>ICI calibration flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 102</td><td>ICI scan quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 103</td><td>ICI data quality flag</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 104</td><td>ICI navigation status flag</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 105</td><td>ICI processing flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 106</td><td>MWI processing flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 107</td><td>MWS scan line processing flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 108</td><td>MWS navigation status flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 109</td><td>MWS overall quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 110</td><td>MWS channel processing flags</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
+<tr><td>0 33 111</td><td>SCA quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>32</td><td>Flag table</td><td>0</td><td>11</td><td></td></tr>
+<tr><td>0 33 112</td><td>Faraday rotation angle (one way)</td><td>deg</td><td>2</td><td>-18000</td><td>16</td><td>deg</td><td>2</td><td>6</td><td></td></tr>
+<tr><td>0 33 113</td><td>IASI-NG general quality flags</td><td>Flag table</td><td>0</td><td>0</td><td>16</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 114</td><td>Out of bounds check</td><td>Flag table</td><td>0</td><td>0</td><td>17</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 115</td><td>Aerosol optical depth quality information</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 33 116</td><td>First guess in bounds check</td><td>Flag table</td><td>0</td><td>0</td><td>17</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 117</td><td>In bounds check</td><td>Flag table</td><td>0</td><td>0</td><td>17</td><td>Flag table</td><td>0</td><td>6</td><td></td></tr>
+<tr><td>0 33 118</td><td>Relative error percentage</td><td>%</td><td>2</td><td>-10000</td><td>15</td><td>%</td><td>2</td><td>5</td><td></td></tr>
+<tr><td>0 33 119</td><td>Forecast error percentage</td><td>%</td><td>0</td><td>-100</td><td>8</td><td>%</td><td>0</td><td>3</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>

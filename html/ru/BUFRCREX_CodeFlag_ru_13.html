@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Класс 13</title>
+
+<style>
+  body { font-family: Verdana, sans-serif; font-size: 8pt; margin: 1.5cm; }
+  h1 { font-size: 11pt; text-align: center; }
+  h2 { font-size: 9pt; margin-top: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+  th { background-color: #D9D9D9; font-weight: normal; font-size: 8pt;
+       text-align: left; padding: 4px 6px; border: 1px solid #595959; }
+  td { font-size: 8pt; padding: 4px 6px; border: 1px solid #595959;
+       vertical-align: top; }
+  tr.seq-header td { font-weight: bold; }
+  .fxy-heading { font-weight: bold; font-size: 9pt; margin: 0.8em 0 0.3em 0; }
+  .note { font-size: 7pt; font-style: italic; margin: 0.3em 0; }
+</style>
+
+</head>
+<body>
+<h1>Класс 13</h1>
+<p class="fxy-heading">0 13 038  Сверхадиабатический указатель</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Несверхадиабатический</td><td></td></tr>
+<tr><td>1</td><td>Сверхадиабатический</td><td></td></tr>
+<tr><td>2</td><td>Зарезервировано</td><td></td></tr>
+<tr><td>3</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 039  Тип поверхности (лед/снег)</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Морской лед</td><td></td></tr>
+<tr><td>1</td><td>Снег на суше</td><td></td></tr>
+<tr><td>2-6</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>7</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 040  Флаг поверхности</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Суша</td><td></td></tr>
+<tr><td>1</td><td>Зарезервировано</td><td></td></tr>
+<tr><td>2</td><td>Близко к берегу</td><td></td></tr>
+<tr><td>3</td><td>Лед</td><td></td></tr>
+<tr><td>4</td><td>Возможно, лед</td><td></td></tr>
+<tr><td>5</td><td>Океан</td><td></td></tr>
+<tr><td>6</td><td>Берег</td><td></td></tr>
+<tr><td>7</td><td>Внутренние воды</td><td>Note CF56: Внутренние воды включают реки, озера, заболоченные земли.</td></tr>
+<tr><td>8</td><td>Снежный покров</td><td></td></tr>
+<tr><td>9</td><td>Морской лед</td><td></td></tr>
+<tr><td>10</td><td>Стоячая вода</td><td></td></tr>
+<tr><td>11</td><td>Снег</td><td></td></tr>
+<tr><td>12-14</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>15</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 041  Категория стабильности Пасквиля — Гиффорда</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>A</td><td></td></tr>
+<tr><td>2</td><td>A – B</td><td></td></tr>
+<tr><td>3</td><td>B</td><td></td></tr>
+<tr><td>4</td><td>B – C</td><td></td></tr>
+<tr><td>5</td><td>C</td><td></td></tr>
+<tr><td>6</td><td>D</td><td></td></tr>
+<tr><td>7</td><td>E</td><td></td></tr>
+<tr><td>8</td><td>F</td><td></td></tr>
+<tr><td>9</td><td>G</td><td></td></tr>
+<tr><td>10-14</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>15</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 051  Группа повторяемости, осадки</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Меньше, чем любое значение за 30-летний период</td><td></td></tr>
+<tr><td>1</td><td>В первой квинтили</td><td></td></tr>
+<tr><td>2</td><td>Во второй квинтили</td><td></td></tr>
+<tr><td>3</td><td>В третьей квинтили</td><td></td></tr>
+<tr><td>4</td><td>В четвертой квинтили</td><td></td></tr>
+<tr><td>5</td><td>В пятой квинтили</td><td></td></tr>
+<tr><td>6</td><td>Больше, чем любое значение за 30-летний период</td><td></td></tr>
+<tr><td>7-14</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>15</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 056  Характер и интенсивность осадков</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Без осадков</td><td></td></tr>
+<tr><td>1</td><td>Незначительные, с перерывами</td><td></td></tr>
+<tr><td>2</td><td>Умеренные, с перерывами</td><td></td></tr>
+<tr><td>3</td><td>Сильные, с перерывами</td><td></td></tr>
+<tr><td>4</td><td>Очень сильные, с перерывами</td><td></td></tr>
+<tr><td>5</td><td>Незначительные, непрерывные</td><td></td></tr>
+<tr><td>6</td><td>Умеренные, непрерывные</td><td></td></tr>
+<tr><td>7</td><td>Сильные, непрерывные</td><td></td></tr>
+<tr><td>8</td><td>Очень сильные, непрерывные</td><td></td></tr>
+<tr><td>9</td><td>Переменной интенсивности — чередование незначительных и сильных</td><td></td></tr>
+<tr><td>10-14</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>15</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+<p class="fxy-heading">0 13 057  Время начала или окончания осадков</p>
+<table>
+<thead><tr><th>КОДОВАЯ ЦИФРА</th><th>ЗНАЧЕНИЕ</th><th>ПРИМЕЧАНИЕ</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>Без осадков</td><td></td></tr>
+<tr><td>1</td><td>В пределах последнего часа</td><td></td></tr>
+<tr><td>2</td><td>От 1 до 2 часов назад</td><td></td></tr>
+<tr><td>3</td><td>От 2 до 3 часов назад</td><td></td></tr>
+<tr><td>4</td><td>От 3 до 4 часов назад</td><td></td></tr>
+<tr><td>5</td><td>От 4 до 5 часов назад</td><td></td></tr>
+<tr><td>6</td><td>От 5 до 6 часов назад</td><td></td></tr>
+<tr><td>7</td><td>От 6 до 8 часов назад</td><td></td></tr>
+<tr><td>8</td><td>От 8 до 10 часов назад</td><td></td></tr>
+<tr><td>9</td><td>Более 10 часов назад</td><td></td></tr>
+<tr><td>10-14</td><td>Зарезервированы</td><td></td></tr>
+<tr><td>15</td><td>Отсутствующее значение</td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>
