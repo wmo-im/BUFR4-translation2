@@ -27,11 +27,11 @@
 <tr><td>0 00 001</td><td>Tabla A: elemento</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Carácter</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 00 002</td><td>Tabla A: descripción de la categoría de datos, línea 1</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Carácter</td><td>0</td><td>32</td><td></td></tr>
 <tr><td>0 00 003</td><td>Tabla A: descripción de la categoría de datos, línea 2</td><td>CCITT IA5</td><td>0</td><td>0</td><td>256</td><td>Carácter</td><td>0</td><td>32</td><td></td></tr>
-<tr><td>0 00 004</td><td>Tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note 98: Las tablas maestras están descritas en la nota 2 de la Sección 1 de las reglas BUFR (parte de la regla titulada “Especificación del contenido de octetos”).</td></tr>
+<tr><td>0 00 004</td><td>Tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note B98: Las tablas maestras están descritas en la nota 2 de la Sección 1 de las reglas BUFR (parte de la regla titulada “Especificación del contenido de octetos”).</td></tr>
 <tr><td>0 00 005</td><td>Número de edición BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Carácter</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 00 006</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note 33: Para elementos que definen o son definidos es preferible utilizar los diferentes descriptores de la Clase 00, del mismo modo que los diferentes descriptores corresponden a la presión considerada como coordenada o a la presión medida en determinado punto; de otra manera se necesitarían reglas especiales para interpretar un mensaje. Las entradas 0 00 010 a 0 00 012 definen a F, X e Y para las Tablas B y D; la entrada 0 00 030 es un descriptor que se utiliza para datos y proporciona los valores de F, X e Y que definen secuencias para las entradas de la Tabla D.</td></tr>
-<tr><td>0 00 007</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note 40: Los niveles no superficiales sobre la coordenada vertical nativa del modelo son transpuestos a una coordenada de presión. Con ello, los niveles son más fácilmente interpretables por las personas y más fáciles de utilizar por aplicaciones de visualización genéricas. Los niveles pueden corresponder exactamente a niveles nativos del modelo o haber sido interpolados entre niveles del modelo a unos niveles de presión seleccionados por el centro generador.</td></tr>
-<tr><td>0 00 008</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note 76: En 3 07 045, 3 07 048 y 3 07 053, la velocidad del viento se indicará en las mismas unidades que en los datos alfanuméricos originales, y: 0 11 083 se fijará en faltante si la velocidad del viento figura en nudos o en m s–1 en los datos alfanuméricos, 0 11 084 se fijará en faltante si la velocidad del viento figura en km h–1 o en m s–1 en los datos alfanuméricos.</td></tr>
+<tr><td>0 00 006</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note B33: Los números de versión de la tabla maestra de BUFR se indican en la Tabla de cifrado común C–0 y en la nota 2 de la Sección 1 de las reglas BUFR.</td></tr>
+<tr><td>0 00 007</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note B40: Los números de versión de la tabla maestra de CREX se indican en la Tabla de cifrado común C–0.</td></tr>
+<tr><td>0 00 008</td><td>Número de versión de la tabla maestra BUFR/CREX</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td>Note B76: Para el número de versión de la tabla local, véase la nota 2 de la Sección 1 de la reglas de BUFR. I.2 – BUFR/CREX Tabla B/00 – 2</td></tr>
 <tr><td>0 00 010</td><td>Descriptor F que se agregará o definirá</td><td>CCITT IA5</td><td>0</td><td>0</td><td>8</td><td>Carácter</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 00 011</td><td>Descriptor X que se agregará o definirá</td><td>CCITT IA5</td><td>0</td><td>0</td><td>16</td><td>Carácter</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 00 012</td><td>Descriptor Y que se agregará o definirá</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Carácter</td><td>0</td><td>3</td><td></td></tr>
@@ -51,7 +51,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 75: Para los descriptores CREX F = B, no 0.</p>
+<p class="note">Note B75: Para los descriptores CREX F = B, no 0.</p>
 </div>
 </body>
 </html>

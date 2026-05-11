@@ -81,10 +81,10 @@
 <tr><td>0 01 079</td><td>Unique identifier for the profile</td><td>Hexadecimal string</td><td></td></tr>
 <tr><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>Ship&#x27;s call sign</td><td></td></tr>
 <tr><td>0 01 103</td><td>IMO Number. Unique Lloyd&#x27;s register</td><td>= 0 to 9999999</td><td></td></tr>
-<tr><td>0 01 087</td><td>WMO marine observing platform extended identifier</td><td></td><td>Note 24: If field 0 01 011 is used, this field will be left missing and vice versa.</td></tr>
+<tr><td>0 01 087</td><td>WMO marine observing platform extended identifier</td><td></td><td>Note D24: If field 0 01 011 is used, this field will be left missing and vice versa.</td></tr>
 <tr><td>0 01 019</td><td>Long station or site name</td><td>Ship name</td><td></td></tr>
 <tr><td>0 01 080</td><td>Ship line number according to SOOP</td><td></td><td></td></tr>
-<tr><td>0 05 036</td><td>Ship transect number according to SOOP</td><td></td><td>Note 31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
+<tr><td>0 05 036</td><td>Ship transect number according to SOOP</td><td></td><td>Note D31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
 <tr><td>0 01 036</td><td>Agency in charge of operating the observing platform</td><td></td><td></td></tr>
 <tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td></td></tr>
 <tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td></td></tr>
@@ -124,7 +124,7 @@
 <tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td></td><td></td></tr>
 <tr><td>3 02 090</td><td>Sea/water temperature high precision</td><td></td><td></td></tr>
 <tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td></td><td></td></tr>
-<tr><td>0 02 032</td><td>Indicator for digitization</td><td></td><td>Note 64: This descriptor applies to the method used to select depths for the temperature profile encoded through 3 15 005. If temperatures are reported at significant depths, the values shall: (a) Be sufficient to reproduce basic features of the profile; (b) Define the top and the bottom of isothermal layers.</td></tr>
+<tr><td>0 02 032</td><td>Indicator for digitization</td><td></td><td>Note D64: This descriptor applies to the method used to select depths for the temperature profile encoded through 3 15 005. If temperatures are reported at significant depths, the values shall: (a) Be sufficient to reproduce basic features of the profile; (b) Define the top and the bottom of isothermal layers.</td></tr>
 <tr><td>3 15 005</td><td>Water temperature profile (temperature profile observed by XBT or buoy)</td><td></td><td></td></tr>
 </tbody>
 </table>
@@ -149,10 +149,10 @@
 <tr><td>0 01 079</td><td>Unique identifier for the profile</td><td>Hexadecimal string</td><td></td></tr>
 <tr><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>Ship&#x27;s call sign</td><td></td></tr>
 <tr><td>0 01 103</td><td>IMO Number. Unique Lloyd&#x27;s register</td><td>= 0 to 9999999</td><td></td></tr>
-<tr><td>0 01 087</td><td>WMO marine observing platform extended identifier</td><td></td><td>Note 24: If field 0 01 011 is used, this field will be left missing and vice versa.</td></tr>
+<tr><td>0 01 087</td><td>WMO marine observing platform extended identifier</td><td></td><td>Note D24: If field 0 01 011 is used, this field will be left missing and vice versa.</td></tr>
 <tr><td>0 01 019</td><td>Long station or site name</td><td>Ship name</td><td></td></tr>
 <tr><td>0 01 080</td><td>Ship line number according to SOOP</td><td></td><td></td></tr>
-<tr><td>0 05 036</td><td>Ship transect number according to SOOP</td><td></td><td>Note 31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
+<tr><td>0 05 036</td><td>Ship transect number according to SOOP</td><td></td><td>Note D31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
 <tr><td>0 01 036</td><td>Agency in charge of operating the observing platform</td><td></td><td></td></tr>
 <tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td></td></tr>
 <tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td></td></tr>
@@ -192,7 +192,7 @@
 <tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td></td><td></td></tr>
 <tr><td>3 02 090</td><td>Sea/water temperature high precision</td><td></td><td></td></tr>
 <tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td></td><td></td></tr>
-<tr><td>0 02 032</td><td>Indicator for digitization</td><td></td><td>Note 64: This descriptor applies to the method used to select depths for the temperature profile encoded through 3 15 005. If temperatures are reported at significant depths, the values shall: (a) Be sufficient to reproduce basic features of the profile; (b) Define the top and the bottom of isothermal layers.</td></tr>
+<tr><td>0 02 032</td><td>Indicator for digitization</td><td></td><td>Note D64: This descriptor applies to the method used to select depths for the temperature profile encoded through 3 15 005. If temperatures are reported at significant depths, the values shall: (a) Be sufficient to reproduce basic features of the profile; (b) Define the top and the bottom of isothermal layers.</td></tr>
 <tr><td>1 09 000</td><td>Delayed replication of 9 descriptors</td><td></td><td></td></tr>
 <tr><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td></td></tr>
 <tr><td>0 07 063</td><td>Depth below sea/water surface (cm)</td><td></td><td></td></tr>
@@ -507,7 +507,7 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>3 01 150</td><td>WIGOS identifier</td><td></td><td>Note 79: It is recommended to use 3 15 023 instead of 3 15 013.</td></tr>
+<tr><td>3 01 150</td><td>WIGOS identifier</td><td></td><td>Note D79: It is recommended to use 3 15 023 instead of 3 15 013.</td></tr>
 <tr><td>0 01 087</td><td>WMO marine observing platform extended identifier</td><td>WMO number where assigned</td><td></td></tr>
 <tr><td>2 08 032</td><td>Change width of CCITT IA5</td><td>Change width to 32 characters</td><td></td></tr>
 <tr><td>0 01 019</td><td>Long station or site name</td><td>Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)</td><td></td></tr>

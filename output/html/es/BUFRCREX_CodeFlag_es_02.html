@@ -33,16 +33,16 @@
 </table>
 <p class="fxy-heading">0 02 002  Tipo de instrumentos para la medición del viento</p>
 <table>
-<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>SUB 1</th><th>NOTA</th></tr></thead>
+<thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Instrumentos homologados</td><td>Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)</td><td></td></tr>
-<tr><td>2</td><td>Medidos inicialmente en nudos</td><td>Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)</td><td></td></tr>
-<tr><td>3</td><td>Medidos inicialmente en km h-1</td><td>Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)</td><td></td></tr>
-<tr><td>Los 4</td><td>Valor faltante</td><td>Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)</td><td></td></tr>
+<tr><td>1</td><td>Instrumentos homologados</td><td></td></tr>
+<tr><td>2</td><td>Medidos inicialmente en nudos</td><td></td></tr>
+<tr><td>3</td><td>Medidos inicialmente en km h-1</td><td></td></tr>
+<tr><td>Los 4</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 90: Tipo de instrumentos y unidades originales para la medición del viento (en m s–1, a menos que se indique otra cosa)</p>
+<p class="note">Note CF90: Tipo de instrumentos y unidades originales para la medición del viento (en m s¯¹, a menos que se indique otra cosa)</p>
 </div>
 <p class="fxy-heading">0 02 003  Tipo de instrumentos de medición utilizados</p>
 <table>
@@ -138,7 +138,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 7: Véase la Tabla de cifrado común C–2, Parte C/c.</p>
+<p class="note">Note CF7: Véase la Tabla de cifrado común C–2, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 02 012  Método de cálculo de radiosonda</p>
 <table>
@@ -148,7 +148,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 15: Se elaborará.</p>
+<p class="note">Note CF15: Se elaborará.</p>
 </div>
 <p class="fxy-heading">0 02 013  Corrección de la radiación solar y de infrarrojo</p>
 <table>
@@ -176,7 +176,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 11: Véase la Tabla de cifrado común C–7, Parte C/c.</p>
+<p class="note">Note CF11: Véase la Tabla de cifrado común C–7, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 02 015  Integralidad de la radiosonda</p>
 <table>
@@ -225,7 +225,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 12: Véase la Tabla de cifrado común C–8, Parte C/c.</p>
+<p class="note">Note CF12: Véase la Tabla de cifrado común C–8, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 02 020  Clasificación de los satélites</p>
 <table>
@@ -288,15 +288,15 @@
 <tbody>
 <tr><td>1</td><td>Técnica de proceso sin especificar</td><td>Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo.</td></tr>
 <tr><td>2</td><td>Regresión estadística automatizada</td><td></td></tr>
-<tr><td>3</td><td>Trayecto despejado</td><td>Note 28: En el contexto del descriptor 3 10 067, los valores de presión que siguen inmediatamente a la aparición de componentes de viento deben entenderse como correspondientes a esos componentes.</td></tr>
-<tr><td>4</td><td>Trayecto parcialmente nuboso</td><td>Note 62: Estos descriptores no deben utilizarse en CREX para la transmisión.</td></tr>
-<tr><td>5</td><td>Trayecto nuboso</td><td>Note 30: En esta secuencia para la representación de los datos de descenso de radiosondas, no es obligatorio indicar los niveles estándares mediante la significación del sondeo vertical ampliado (0 08 042).</td></tr>
+<tr><td>3</td><td>Trayecto despejado</td><td>Note CF28: Por trayecto despejado se entiende que el sondeo se ha realizado a partir de radiancias claras obtenidas de mediciones reales en puntos despejados. Se han aplicado datos HIRS troposféricos y estratosféricos, así como datos MSU y SSU.</td></tr>
+<tr><td>4</td><td>Trayecto parcialmente nuboso</td><td>Note CF62: Por trayecto parcialmente nuboso se entiende que el sondeo se ha llevado a cabo a partir de radiancias claras que se han calculado en puntos parcialmente nubosos. Se han aplicado datos HIRS, troposféricos y estratosféricos, así como datos MSU y SSU.</td></tr>
+<tr><td>5</td><td>Trayecto nuboso</td><td>Note CF30: Por trayecto nuboso se entiende que el sondeo se ha realizado únicamente a partir de datos HIRS stratosféricos, y datos MSU y SSU. No se han aplicado datos HIRS troposféricos a causa de nubosidad</td></tr>
 <tr><td>6-7</td><td>Reservados</td><td></td></tr>
 <tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 22: Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo</p>
+<p class="note">Note CF22: Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo</p>
 </div>
 <p class="fxy-heading">0 02 023  Método de cálculo del viento a partir de datos satelitales</p>
 <table>
@@ -347,12 +347,12 @@
 <tr><td>13-14</td><td>Reservados</td><td></td></tr>
 <tr><td></td><td>Grupo 4 - Temperatura media para las capas: superficie hasta 850 hPa, 850 a 700 hPa, 700 a 500 hPa, 500 a 400 hPa, 400 a 300 hPa, 300 a 200 hPa, y 200 a 100 hPa</td><td></td></tr>
 <tr><td>15</td><td>HIRS</td><td></td></tr>
-<tr><td>16</td><td>HIRS</td><td>Note 47: El descriptor 0 07 007 relativo a la altura y el descriptor 3 01 021 relativo a la latitud/longitud indican la altitud sobre el nive del mar y la posición horizontal de cada célula vertical de la medición del perfil y no el empalzamiento del instrumento (que se cifra mediante el descriptor anterior 3 01 132 relativo a la secuencia de encabezamiento común).</td></tr>
+<tr><td>16</td><td>HIRS</td><td>Note CF47: HIRS* equivale a : canales HIRS 1 (669 cm–1) 2 (679 cm–1) 3 (690 cm–1) 4 (2 358 cm–1)</td></tr>
 <tr><td>17</td><td>MSU</td><td></td></tr>
 <tr><td>18</td><td>SKINTK (únicamente océano)</td><td></td></tr>
 <tr><td>19-20</td><td>Reservados</td><td></td></tr>
 <tr><td></td><td>Grupo 5 - Combinaciones de canales utilizadas para obtener temperaturas medias de las capas: 100 a 70 hPa, 70 a 50 hPa, 50 a 30 hPa, 30 a 10 hPa, 10 a 5 hPa, 5 a 2 hPa, 2 a 1 hPa, 1 a 0,4 hPa</td><td></td></tr>
-<tr><td>21</td><td>HIRS</td><td>Note 47: El descriptor 0 07 007 relativo a la altura y el descriptor 3 01 021 relativo a la latitud/longitud indican la altitud sobre el nive del mar y la posición horizontal de cada célula vertical de la medición del perfil y no el empalzamiento del instrumento (que se cifra mediante el descriptor anterior 3 01 132 relativo a la secuencia de encabezamiento común).</td></tr>
+<tr><td>21</td><td>HIRS</td><td>Note CF47: HIRS* equivale a : canales HIRS 1 (669 cm–1) 2 (679 cm–1) 3 (690 cm–1) 4 (2 358 cm–1)</td></tr>
 <tr><td>22</td><td>SSU</td><td></td></tr>
 <tr><td>23</td><td>MSU (3, 4)</td><td></td></tr>
 <tr><td>24</td><td>Reservado</td><td></td></tr>
@@ -360,14 +360,14 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 23: Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).</p>
+<p class="note">Note CF23: Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).</p>
 </div>
 <p class="fxy-heading">0 02 030  Método de medición de la corriente</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Reservada</td><td></td></tr>
-<tr><td>1</td><td>ADCP (perfilador de corriente de efecto Doppler)</td><td>Note 91: En el descriptor 0 02 142, el número de serie o de identificación del tipo de instrumento de medición del ozono tiene una longitud de cuatro caracteres. Tratándose de instrumentos Dobson japoneses debe((n) omitirse el (los) dígito((s) inicial(es).</td></tr>
+<tr><td>1</td><td>ADCP (perfilador de corriente de efecto Doppler)</td><td>Note CF91: Valor relegado. Utilícese en su lugar la cifra de clave 6.</td></tr>
 <tr><td>2</td><td>GEK (Electrocinetógrafo geomagnético)</td><td></td></tr>
 <tr><td>3</td><td>Dirección y deriva del buque determinadas mediante marcaciones efectuadas a intervalos de 3 a 6 horas</td><td></td></tr>
 <tr><td>4</td><td>Dirección y deriva del buque determinadas mediante marcaciones efectuadas a intervalos superiores a 6 horas, pero inferiores a 12 horas</td><td></td></tr>
@@ -405,9 +405,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 32: Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).&quot;</p>
-<p class="note">Note 33: Cifras de clave 11 a 19: período de medición de la corriente (método de deriva).</p>
-<p class="note">Note 45: H = hora de observación.</p>
+<p class="note">Note CF32: Cifras de clave 1 a 9: duración y tiempo de la medición de la corriente (método vectorial o método Doppler de perfil de corriente).&quot;</p>
+<p class="note">Note CF33: Cifras de clave 11 a 19: período de medición de la corriente (método de deriva).</p>
+<p class="note">Note CF45: H = hora de observación.</p>
 </div>
 <p class="fxy-heading">0 02 032  Indicador de digitalización</p>
 <table>
@@ -623,8 +623,8 @@
 <tbody>
 <tr><td>1</td><td>Técnica de proceso no definida</td><td></td></tr>
 <tr><td>2</td><td>Recuperación física simultánea</td><td></td></tr>
-<tr><td>3</td><td>Sondeo en cielo despejado</td><td>Note 29: En este caso, el término “adelgazamiento” hace referencia a un método que es posible aplicar para seleccionar un subconjunto de niveles de un modelo que podría tener gran número de niveles verticales nativos. Al selec- cionar solo un subconjunto se reduce el tamaño del pseudosondeo, posiblemente a costa de una pérdida de información y de un mayor procesamiento.</td></tr>
-<tr><td>4</td><td>Sondeo en cielo nuboso</td><td>Note 31: Entero asignado por el operador e incrementado para cada nueva transecta (es decir, todas las gotas tendrán el mismo número de transecta mientras el buque se desplaza de un extremo de la línea al otro; tan pronto como el buque llega al puerto y retorna al punto de partida se añade una nueva transecta y, seguidamente, se incrementa el número de transecta). El valor inicial y los valores subsiguientes de los números de transecta no son importantes, siempre y cuando cada nueva transecta de un buque a lo largo de una línea tenga un número de transecta superior a los números de transecta anteriores para esa misma línea y buque. Si un único crucero siguiera más de una línea seguida del Programa de buques de observación ocasional, se incrementará el número de transecta cada vez que el crucero cambie de línea.</td></tr>
+<tr><td>3</td><td>Sondeo en cielo despejado</td><td>Note CF29: Por sondeo en cielo despejado se entiende que el sondeo ha sido generado a partir de un conjunto de valores de radiancias en cielo despejado utilizando todos los valores de radiancia de la sonda.</td></tr>
+<tr><td>4</td><td>Sondeo en cielo nuboso</td><td>Note CF31: Por sondeo en cielo nuboso se entiende que no fue posible identificar un número suficiente de valores de radiancias en cielo despejado en el área de sondeo. El sondeo se calcula a partir de la cima de las nubes (presión de las nubes mayor o igual a 780 hPa).</td></tr>
 <tr><td>5-7</td><td>Reservadas para uso futuro</td><td></td></tr>
 <tr><td>Los 8</td><td>Valor faltante</td><td></td></tr>
 </tbody>
@@ -656,7 +656,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 21: Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.</p>
+<p class="note">Note CF21: Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.</p>
 </div>
 <p class="fxy-heading">0 02 051  Indicador que determina el método de observación de las temperaturas extremas</p>
 <table>
@@ -683,7 +683,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 21: Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.</p>
+<p class="note">Note CF21: Comenzando por la posición del primer bit (bit más significativo), si el bit se fija en uno, entonces el canal es utilizado. Si el bit se fija en cero, entonces el canal no es utilizado.</p>
 </div>
 <p class="fxy-heading">0 02 053  Características de la temperatura de luminancia obtenida mediante un satélite GOES-I/M</p>
 <table>
@@ -821,7 +821,7 @@
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Buena</td><td>Nota: La calidad mala se define actualmente como un ángulo de balanceo superior a 5 grados con relación a la vertical.</td></tr>
-<tr><td>1</td><td>Mala</td><td>Note 20: Tratándose de MOD OCNL SEV se empleará la cifra 12 (máxima en cielo despejado) o 13 (máxima en nubes).</td></tr>
+<tr><td>1</td><td>Mala</td><td>Note CF20: La calidad mala se define actualmente como un ángulo de balanceo superior a 5 grados con relación a la vertical.</td></tr>
 <tr><td>2</td><td>Reservada</td><td></td></tr>
 <tr><td>3</td><td>Valor faltante</td><td></td></tr>
 </tbody>
@@ -1145,8 +1145,8 @@
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Exposición directa al sol</td><td></td></tr>
-<tr><td>1</td><td>Exposición directa al sol, atenuador #1</td><td>Note 38: n/a</td></tr>
-<tr><td>2</td><td>Exposición directa al sol, atenuador #2</td><td>Note 38: n/a</td></tr>
+<tr><td>1</td><td>Exposición directa al sol, atenuador #1</td><td>Note CF38: Los apartados 1 y 2 no deberían utilizarse.</td></tr>
+<tr><td>2</td><td>Exposición directa al sol, atenuador #2</td><td>Note CF38: Los apartados 1 y 2 no deberían utilizarse.</td></tr>
 <tr><td>3</td><td>Centrada en la luna</td><td></td></tr>
 <tr><td>4</td><td>Centrada en el sol</td><td></td></tr>
 <tr><td>5</td><td>Centrada en el sol con correcciones provenientes de la medición del cielo adyacente</td><td></td></tr>

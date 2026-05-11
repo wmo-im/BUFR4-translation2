@@ -247,7 +247,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 49: Si todos los bits indican 0, eso significa una buena calibración.</p>
+<p class="note">Note CF49: Si todos los bits indican 0, eso significa una buena calibración.</p>
 </div>
 <p class="fxy-heading">0 33 031  Banderines de calidad de la línea de exploración para ATOVS</p>
 <table>
@@ -279,10 +279,10 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 24: Los bits 1 a 4 representan la clave de defectos horarios. Si todos los bits indican 0, eso significa que la hora de barrido corresponde a la prevista.</p>
-<p class="note">Note 25: Los bits 11 a 17 representan la clave de problemas de localización geográfica. Si todos los bits indican 0, eso significa que la localización geográfica ha sido normal.</p>
-<p class="note">Note 27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
-<p class="note">Note 49: Si todos los bits indican 0, eso significa una buena calibración.</p>
+<p class="note">Note CF24: Los bits 1 a 4 representan la clave de defectos horarios. Si todos los bits indican 0, eso significa que la hora de barrido corresponde a la prevista.</p>
+<p class="note">Note CF25: Los bits 11 a 17 representan la clave de problemas de localización geográfica. Si todos los bits indican 0, eso significa que la localización geográfica ha sido normal.</p>
+<p class="note">Note CF27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
+<p class="note">Note CF49: Si todos los bits indican 0, eso significa una buena calibración.</p>
 </div>
 <p class="fxy-heading">0 33 032  Banderines de calidad del canal para ATOVS</p>
 <table>
@@ -300,21 +300,21 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: Si todos los bits indican 0, eso significa una buena calibración.</p>
+<p class="note">Note CF17: Si todos los bits indican 0, eso significa una buena calibración.</p>
 </div>
 <p class="fxy-heading">0 33 033  Banderines de calidad del campo de visión para ATOVS</p>
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Se indica 1 si se realizó una calibración secundaria</td><td></td></tr>
-<tr><td>2-21</td><td>El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración</td><td>Note 26: Si la radiosonda está equipada con un sensor de humedad relativa, 0 13 009 en la secuencia se notificará con carácter obligatorio y la temperatura del punto de rocío se podrá incluir como valor derivado. Si la radiosonda está equipada con un sensor de temperatura del punto de rocío, 0 12 103 en la secuencia se notificará y 0 13 009 se fijará en valor faltante.</td></tr>
+<tr><td>2-21</td><td>El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración</td><td>Note CF26: Los bits 2 a 21 se utilizan para la sonda HIRS, pero solamente se emplean los bits 2 a 16 para la sonda AMSU-A y los bits 2 a 6 para la sonda AMSU-B.</td></tr>
 <tr><td>22</td><td>Se indica 1 si faltan todos los canales</td><td></td></tr>
 <tr><td>23</td><td>Sospechoso</td><td></td></tr>
 <tr><td>Los 24</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: Si todos los bits indican 0, eso significa una buena calibración.</p>
+<p class="note">Note CF17: Si todos los bits indican 0, eso significa una buena calibración.</p>
 </div>
 <p class="fxy-heading">0 33 035  Control de calidad manual/automático</p>
 <table>
@@ -403,7 +403,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 85: Este descriptor se asociará a los datos de la visibilidad o a los de la altura de las nubes para especificar si se trata de un valor limitado. Si los datos transmitidos son el valor verdadero, la cifra de clave es 0. Sin-embargo, la medición puede alcanzar el límite de la capacidad de medición del instrumento. Si el valor transmitido es mayor que el valor verdadero, la cifra de clave es 1; y si el valor transmitido es menor que el valor verdadero, la cifra de clave es 2.</p>
+<p class="note">Note CF85: Este descriptor se asociará a los datos de la visibilidad o a los de la altura de las nubes para especificar si se trata de un valor limitado. Si los datos transmitidos son el valor verdadero, la cifra de clave es 0. Sin-embargo, la medición puede alcanzar el límite de la capacidad de medición del instrumento. Si el valor transmitido es mayor que el valor verdadero, la cifra de clave es 1; y si el valor transmitido es menor que el valor verdadero, la cifra de clave es 2.</p>
 </div>
 <p class="fxy-heading">0 33 042  Tipo de límite representado por el valor siguiente</p>
 <table>
@@ -672,8 +672,8 @@
 <tbody>
 <tr><td>1</td><td>Se ha detectado la falta de datos en el registro de datos en bruto (es decir, la falta de exploración (es) antes de la exploración actual)</td><td></td></tr>
 <tr><td>2</td><td>El tiempo registrado no sigue la secuencia (es decir, la hora de inicio de la exploración queda fuera de la secuencia)</td><td></td></tr>
-<tr><td>3</td><td>No puede actualizarse el cálculo lamda (véase la Nota 1)</td><td>Note 72: La hora de lanzamiento se notificará con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de segundos, la entrada para los segundos se fijará en cero.</td></tr>
-<tr><td>4</td><td>Las temperaturas medidas de todo componente de un instrumento (por ejemplo, un divisor de haz, un espejo de exploración, un deflector de exploración, etc.) quedan fuera de los intervalos permitidos (véase la Nota 2)</td><td>Note 83: La irradiación UV mundial (0 14 072) es energía UV integrada en un período especificado y para una banda espectral especificada. El descriptor 0 14 072 irá precedido de un descriptor del período de tiempo, de la longitud de onda espectrográfica (0 02 071) y la anchura espectrográfica (0 02 072). Por ejemplo, si se utiliza 0 14 072 para la irradiación UV-B mundial, 0 02 071 y 0 02 072 especificarán una banda espectral comprendida entre 280 y 315 nm.</td></tr>
+<tr><td>3</td><td>No puede actualizarse el cálculo lamda (véase la Nota 1)</td><td>Note CF72: Se fija en 1 si el cálculo de la longitud de onda del láser es inválido debido a un error sistemático del diodo láser y/o a que las mediciones de temperatura del diodo láser no se ajustan a los intervalos permitidos que se han predeterminado. Estos intervalos son ajustables. En este caso, se utilizará 1 bit por barrido para el cálculo lamda.</td></tr>
+<tr><td>4</td><td>Las temperaturas medidas de todo componente de un instrumento (por ejemplo, un divisor de haz, un espejo de exploración, un deflector de exploración, etc.) quedan fuera de los intervalos permitidos (véase la Nota 2)</td><td>Note CF83: Estas temperaturas se utilizan para calcular la contribución “ambiental&quot;&quot; a las radiancias del blanco de calibración interna. Cuando este bit se fija en 1, las temperaturas inválidas se reemplazan por los valores de temperatura validados del blanco de calibración interna.</td></tr>
 <tr><td>5</td><td>Al menos una de las temperaturas controladas de los instrumentos ha variado más allá de un valor específico de tolerancia</td><td></td></tr>
 <tr><td>6-12</td><td>Reservados</td><td></td></tr>
 <tr><td>Los 13</td><td>Valor faltante</td><td></td></tr>
@@ -683,8 +683,8 @@
 <table>
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Interferencia lunar en la primera visión del espacio lejano</td><td>Note 71: La fecha y hora de lanzamiento se notificarán con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de un segundo, la entrada para los segundos se fijará en cero.</td></tr>
-<tr><td>2</td><td>Interferencia lunar en la segunda visión del espacio lejano</td><td>Note 71: La fecha y hora de lanzamiento se notificarán con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de un segundo, la entrada para los segundos se fijará en cero.</td></tr>
+<tr><td>1</td><td>Interferencia lunar en la primera visión del espacio lejano</td><td>Note CF71: Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.</td></tr>
+<tr><td>2</td><td>Interferencia lunar en la segunda visión del espacio lejano</td><td>Note CF71: Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.</td></tr>
 <tr><td>3-8</td><td>Reservados</td><td></td></tr>
 <tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
 </tbody>
@@ -694,16 +694,16 @@
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Calidad degradada del registro de datos científicos</td><td></td></tr>
-<tr><td>2</td><td>Calidad inválida del registro de datos científicos</td><td>Note 68: Esta secuencia queda relegada por utilización incorrecta del descriptor 0 04 075 en la secuencia 3 06 020; en su lugar debería utilizarse la secuencia 3 06 025.</td></tr>
+<tr><td>2</td><td>Calidad inválida del registro de datos científicos</td><td>Note CF68: La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7).</td></tr>
 <tr><td>3</td><td>Información inválida sobre el geoposicionamiento del registro de datos científicos</td><td></td></tr>
 <tr><td>4</td><td>Calibración radiométrica degradada</td><td></td></tr>
-<tr><td>5</td><td>Calibración radiométrica inválida</td><td>Note 67: Esta secuencia queda relegada porque incluye la secuencia relegada 3 09 030; las secuencias 3 09 045, 3 09 046, 3 09 047, 3 09 048 y 3 09 049 deberían utilizarse en lugar de las secuencias 3 09 040, 3 09 041, 3 09 042, 3 09 043 y 3 09 044, respectivamente.</td></tr>
+<tr><td>5</td><td>Calibración radiométrica inválida</td><td>Note CF67: La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0).</td></tr>
 <tr><td>6</td><td>Calibración espectral degradada</td><td></td></tr>
-<tr><td>7</td><td>Calibración espectral inválida</td><td>Note 73: Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024.</td></tr>
-<tr><td>8</td><td>Error en el cálculo de franjas detectado y corregido</td><td>Note 70: Este valor es la estimación oficial o la mejor estimación de la elevación real del terreno. Se incluye con fines de comparación con la elevación virtual del terreno en el modelo. Ambas pueden ser sustancialmente diferentes en terreno accidentado. Se incrementa el factor de escala para que el valor sea comparable directamente con 0 07 030 infra.</td></tr>
-<tr><td>9</td><td>Indicador día/noche</td><td>Note 69: Esta secuencia queda relegada por utilización incorrecta del descriptor 0 04 075; en su lugar debería utilizarse la secuencia 3 06 019.</td></tr>
-<tr><td>10</td><td>Datos inválidos del registro de datos en bruto</td><td>Note 87: La altura del suelo de la estación sobre el nivel medio del mar se define como la altura sobre el nivel medio del mar del suelo en que se encuentra el pluviómetro o, si no hay pluviómetro, el suelo por debajo del abrigo del termómetro. De no haber pluviómetro ni abrigo, es el nivel medio del terreno en la proximidad de la estación (Referencia: Guía de instrumentos y métodos de observación meteorológicos (OMM-Nº 8), 1996).</td></tr>
-<tr><td>11</td><td>Error significativo en el cálculo de franjas detectado</td><td>Note 86: La altura del sensor sobre la superficie del agua es la altura del sensor sobre la superficie del agua del mar o de un lago. Este descriptor no redefine los descriptores 0 07 030 ni 0 07 032. El valor definido previamente de 0 07 033 puede cancelarse asignando a 0 07 033 un “valor faltante”.</td></tr>
+<tr><td>7</td><td>Calibración espectral inválida</td><td>Note CF73: La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los &quot;&quot;Banderines de calidad del nivel de exploración&quot;&quot; (0 33 075) - bit 3).</td></tr>
+<tr><td>8</td><td>Error en el cálculo de franjas detectado y corregido</td><td>Note CF70: Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige.</td></tr>
+<tr><td>9</td><td>Indicador día/noche</td><td>Note CF69: Se fija en 0 si es de día (ángulo cenital solar &lt; 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°).</td></tr>
+<tr><td>10</td><td>Datos inválidos del registro de datos en bruto</td><td>Note CF87: Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos.</td></tr>
+<tr><td>11</td><td>Error significativo en el cálculo de franjas detectado</td><td>Note CF86: Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.</td></tr>
 <tr><td>12</td><td>Falla de reajuste del bit</td><td></td></tr>
 <tr><td>13-18</td><td>Reservados</td><td></td></tr>
 <tr><td>Los 19</td><td>Valor faltante</td><td></td></tr>

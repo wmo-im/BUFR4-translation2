@@ -33,9 +33,9 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 003</td><td>WMO Region number/geographical area</td><td></td><td>Note 11: Descriptor 3 01 002 should not be used.</td></tr>
-<tr><td>0 01 004</td><td>WMO Region sub-area</td><td></td><td>Note 11: Descriptor 3 01 002 should not be used.</td></tr>
-<tr><td>0 01 005</td><td>Buoy/platform identifier</td><td></td><td>Note 11: Descriptor 3 01 002 should not be used.</td></tr>
+<tr><td>0 01 003</td><td>WMO Region number/geographical area</td><td></td><td>Note D11: Descriptor 3 01 002 should not be used.</td></tr>
+<tr><td>0 01 004</td><td>WMO Region sub-area</td><td></td><td>Note D11: Descriptor 3 01 002 should not be used.</td></tr>
+<tr><td>0 01 005</td><td>Buoy/platform identifier</td><td></td><td>Note D11: Descriptor 3 01 002 should not be used.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 003 (Ship&#x27;s call sign and motion)</p>
@@ -104,7 +104,7 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 114</td><td>Encrypted ship or mobile land station identifier (base64 encoding)</td><td></td><td>Note 57: The ship&#x27;s call sign or WMO identifier should be reported using descriptor 0 01 011. | Note 23: However, if required by shipping companies when voluntary observing ships (VOS) are recruited or if subsequently requested, for ship reports using template 3 08 014 the ship call sign or other identifier can be encrypted in BUFR reports using sequence 3 01 018 according to the following method:- The normal call sign (i.e. descriptor 0 01 011) shall be encoded with missing value; - The encryption method shall be indicated using the method indicated by 0 25 185; - The version of the encryption key that is used shall be indicated by 0 25 186.</td></tr>
+<tr><td>0 01 114</td><td>Encrypted ship or mobile land station identifier (base64 encoding)</td><td></td><td>Note D57: The ship&#x27;s call sign or WMO identifier should be reported using descriptor 0 01 011. | Note D23: However, if required by shipping companies when voluntary observing ships (VOS) are recruited or if subsequently requested, for ship reports using template 3 08 014 the ship call sign or other identifier can be encrypted in BUFR reports using sequence 3 01 018 according to the following method:- The normal call sign (i.e. descriptor 0 01 011) shall be encoded with missing value; - The encryption method shall be indicated using the method indicated by 0 25 185; - The version of the encryption key that is used shall be indicated by 0 25 186.</td></tr>
 <tr><td>0 25 185</td><td>Encryption method</td><td></td><td></td></tr>
 <tr><td>0 25 186</td><td>Encryption key version</td><td></td><td></td></tr>
 </tbody>
@@ -171,7 +171,7 @@
 <tbody>
 <tr><td>0 08 007</td><td>Dimensional significance</td><td>= 0 Point, = 1 Line, = 2 Area, = 3 Volume</td><td></td></tr>
 <tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
-<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td>Note 65: This replication factor shall have a value of &quot;1&quot; when a 2-D feature is being described, whereas 3-D features may be described via any one of the following methods: (a) Via two or more horizontal sections in successive ascending flight levels. In this case, each section shall be described by an identical number of latitude/longitude points listed in identical order (i.e. where each point x of section n is to be joined via a straight line to point x of section n+1), in order to ensure that the overall shape of the 3-D feature is unambiguously described. In this case, all values reported for 0 33 042 shall be &quot;missing&quot;. (b) Via a single horizontal section with an appropriate value reported for 0 33 042, as follows. In all such cases, the corresponding horizontal section description applies throughout the entire region. (i) A value of &quot;0&quot; to indicate a region above (but not including) the reported flight level and with unspecified upper bound. (ii) A value of &quot;1&quot; to indicate a region above (and including) the reported flight level and with unspecified upper bound. (iii) A value of &quot;2&quot; to indicate a region below (but not including) the reported flight level and extending to the surface. (iv) A value of &quot;3&quot; to indicate a region below (and including) the reported flight level and extending to the surface. (c) Via two replications of the same horizontal section at the same reported flight level, in order to indicate a region extending both below and above (and including!) the reported flight level. In this case, the values reported for the two replications of 0 33 042 shall be as follows: (i) Values of &quot;3&quot; and &quot;1&quot;, respectively, to indicate a region beginning from below a reported flight level,but continuing through that level upward to some unspecified point above (e.g. TOP ABV FL100). (ii) Values of &quot;1&quot; and &quot;3&quot;, respectively, to indicate a region beginning from above a reported flight level,but continuing through that level downward to some unspecified point below (e.g. CIGS BLWFL010).</td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td></td><td>Note D65: This replication factor shall have a value of &quot;1&quot; when a 2-D feature is being described, whereas 3-D features may be described via any one of the following methods: (a) Via two or more horizontal sections in successive ascending flight levels. In this case, each section shall be described by an identical number of latitude/longitude points listed in identical order (i.e. where each point x of section n is to be joined via a straight line to point x of section n+1), in order to ensure that the overall shape of the 3-D feature is unambiguously described. In this case, all values reported for 0 33 042 shall be &quot;missing&quot;. (b) Via a single horizontal section with an appropriate value reported for 0 33 042, as follows. In all such cases, the corresponding horizontal section description applies throughout the entire region. (i) A value of &quot;0&quot; to indicate a region above (but not including) the reported flight level and with unspecified upper bound. (ii) A value of &quot;1&quot; to indicate a region above (and including) the reported flight level and with unspecified upper bound. (iii) A value of &quot;2&quot; to indicate a region below (but not including) the reported flight level and extending to the surface. (iv) A value of &quot;3&quot; to indicate a region below (and including) the reported flight level and extending to the surface. (c) Via two replications of the same horizontal section at the same reported flight level, in order to indicate a region extending both below and above (and including!) the reported flight level. In this case, the values reported for the two replications of 0 33 042 shall be as follows: (i) Values of &quot;3&quot; and &quot;1&quot;, respectively, to indicate a region beginning from below a reported flight level,but continuing through that level upward to some unspecified point above (e.g. TOP ABV FL100). (ii) Values of &quot;1&quot; and &quot;3&quot;, respectively, to indicate a region beginning from above a reported flight level,but continuing through that level downward to some unspecified point below (e.g. CIGS BLWFL010).</td></tr>
 <tr><td>3 01 028</td><td>Horizontal section of a feature described as a polygon, circle, line or point</td><td></td><td></td></tr>
 <tr><td>0 08 007</td><td>Dimensional significance</td><td>Set to missing (cancel)</td><td></td></tr>
 </tbody>
@@ -184,9 +184,9 @@
 <tr><td>0 33 042</td><td>Type of limit represented by following value</td><td></td><td></td></tr>
 <tr><td>0 07 010</td><td>Flight level</td><td></td><td></td></tr>
 <tr><td>1 01 000</td><td>Delayed replication of 1 descriptor</td><td></td><td></td></tr>
-<tr><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td>Note 66: This replication factor shall have a value of &quot;1&quot; when a circle or point is being described, and it shall have a value of &quot;2&quot; when a line is being described. A polygon, on the other hand, shall be described via a sequence of three or more contiguous points in accordance with the note to code table 0 08 007.</td></tr>
+<tr><td>0 31 002</td><td>Extended delayed descriptor replication factor</td><td></td><td>Note D66: This replication factor shall have a value of &quot;1&quot; when a circle or point is being described, and it shall have a value of &quot;2&quot; when a line is being described. A polygon, on the other hand, shall be described via a sequence of three or more contiguous points in accordance with the note to code table 0 08 007.</td></tr>
 <tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
-<tr><td>0 19 007</td><td>Effective radius of feature</td><td></td><td>Note 61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
+<tr><td>0 19 007</td><td>Effective radius of feature</td><td></td><td>Note D61: The value reported for 0 19 007 shall be &quot;missing&quot; unless the horizontal section being described is a circle.</td></tr>
 <tr><td>0 08 040</td><td>Flight level significance</td><td>Set to missing (cancel)</td><td></td></tr>
 </tbody>
 </table>
@@ -257,13 +257,13 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 005</td><td>Buoy/platform identifier</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>0 02 001</td><td>Type of station</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>3 01 012</td><td>Hour, minute</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
-<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td>Note 12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>0 01 005</td><td>Buoy/platform identifier</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>0 01 012</td><td>Direction of motion of moving observing platform</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>0 01 013</td><td>Speed of motion of moving observing platform</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>0 02 001</td><td>Type of station</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>3 01 012</td><td>Hour, minute</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td>Note D12: Descriptor 3 01 055 should be used instead of 3 01 035 to encode moving buoy/platform information.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 036 (Ship)</p>
@@ -555,13 +555,13 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 006</td><td>Aircraft flight number</td><td></td><td>Note 5: As supplied by originating sub-centre ARINC, this value is a pseudo-value rather than the actual value. The Relationship between this pseudo-value and the true value is known only by ARINC.</td></tr>
-<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td>Note 5: As supplied by originating sub-centre ARINC, this value is a pseudo-value rather than the actual value. The Relationship between this pseudo-value and the true value is known only by ARINC.</td></tr>
+<tr><td>0 01 006</td><td>Aircraft flight number</td><td></td><td>Note D5: As supplied by originating sub-centre ARINC, this value is a pseudo-value rather than the actual value. The Relationship between this pseudo-value and the true value is known only by ARINC.</td></tr>
+<tr><td>0 01 008</td><td>Aircraft registration number or other identification</td><td></td><td>Note D5: As supplied by originating sub-centre ARINC, this value is a pseudo-value rather than the actual value. The Relationship between this pseudo-value and the true value is known only by ARINC.</td></tr>
 <tr><td>0 02 001</td><td>Type of station</td><td></td><td></td></tr>
 <tr><td>0 02 002</td><td>Type of instrumentation for wind measurement</td><td></td><td></td></tr>
 <tr><td>0 02 005</td><td>Precision of temperature observation</td><td></td><td></td></tr>
 <tr><td>0 02 062</td><td>Type of aircraft data relay system</td><td></td><td></td></tr>
-<tr><td>0 02 070</td><td>Original specification of latitude/longitude</td><td></td><td></td></tr>
+<tr><td>0 02 070</td><td>na specification of latitude/longitude</td><td></td><td></td></tr>
 <tr><td>0 02 065</td><td>ACARS ground-receiving station</td><td></td><td></td></tr>
 </tbody>
 </table>
@@ -736,7 +736,7 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 08 021</td><td>Time significance</td><td>= 18 Launch time</td><td>Note 72: Time of launch shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be set to zero.</td></tr>
+<tr><td>0 08 021</td><td>Time significance</td><td>= 18 Launch time</td><td>Note D72: Time of launch shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be set to zero.</td></tr>
 <tr><td>3 01 011</td><td>Year, month, day</td><td>Launch time</td><td></td></tr>
 <tr><td>3 01 013</td><td>Hour, minute, second</td><td>Launch time</td><td></td></tr>
 </tbody>
@@ -777,7 +777,7 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note 72: Time of launch shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be set to zero.</td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note D72: Time of launch shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be set to zero.</td></tr>
 <tr><td>3 01 012</td><td>Hour, minute</td><td></td><td></td></tr>
 <tr><td>2 01 135</td><td>Change data width</td><td></td><td></td></tr>
 <tr><td>2 02 130</td><td>Change scale</td><td></td><td></td></tr>
@@ -918,7 +918,7 @@
 <tbody>
 <tr><td>3 01 150</td><td>WIGOS identifiers</td><td></td><td></td></tr>
 <tr><td>3 01 001</td><td>WMO block and station numbers</td><td></td><td></td></tr>
-<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td>Sensor</td><td>Note 48: The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).</td></tr>
+<tr><td>3 01 021</td><td>Latitude/longitude (high accuracy)</td><td>Sensor</td><td>Note D48: The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).</td></tr>
 <tr><td>0 07 030</td><td>Height of station ground above mean sea level</td><td></td><td></td></tr>
 <tr><td>0 08 021</td><td>Time significance</td><td>= 29 End of scan or time of ending</td><td></td></tr>
 <tr><td>3 01 011</td><td>Year, month, day</td><td></td><td></td></tr>
@@ -959,7 +959,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 62: These descriptors should not be used in CREX for transmission.</p>
+<p class="note">Note D62: These descriptors should not be used in CREX for transmission.</p>
 </div>
 </body>
 </html>

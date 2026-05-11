@@ -46,7 +46,7 @@
 <tr><td>0 04 026</td><td>Período o desplazamiento de tiempo</td><td>S</td><td>0</td><td>-4096</td><td>13</td><td>S</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 04 031</td><td>Período relativo al valor siguiente</td><td>h</td><td>0</td><td>0</td><td>8</td><td>h</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 04 032</td><td>Período relativo al valor siguiente</td><td>min</td><td>0</td><td>0</td><td>6</td><td>min</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>0 04 041</td><td>Diferencia de horas, UTC-LMT</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note 48: Los descriptores de latitud y longitud 0 05 001 y 0 06 001 indican la posición del instrumento y no la medición (que se cifra separadamente en la secuencia de datos asociada).</td></tr>
+<tr><td>0 04 041</td><td>Diferencia de horas, UTC-LMT</td><td>min</td><td>0</td><td>-1440</td><td>12</td><td>min</td><td>0</td><td>4</td><td>Note B48: El descriptor 0 04 041 ha sido reemplazado por la combinación de 0 08 025 y 0 26 003 y no debe utilizarse para cifrar este elemento.</td></tr>
 <tr><td>0 04 043</td><td>Día del año</td><td>d</td><td>0</td><td>0</td><td>9</td><td>d</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 04 051</td><td>Hora principal de lectura diaria de la temperatura máxima</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 04 052</td><td>Hora principal de lectura diaria de la temperatura mínima</td><td>h</td><td>0</td><td>0</td><td>5</td><td>h</td><td>0</td><td>2</td><td></td></tr>
@@ -62,12 +62,12 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 27: Todas las horas están expresadas en Tiempo Universal Coordinado (UTC), a menos que se indique lo contrario. I.2 – BUFR/CREX Tabla B/04 – 3</p>
-<p class="note">Note 105: Para indicar períodos de tiempo o desplazamientos que preceden al tiempo definido actualmente se emplearán períodos de tiempo negativos o desplazamientos.</p>
-<p class="note">Note 145: La significación de los períodos o desplazamientos de tiempo se puede indicar utilizando la clave de significación del tiempo correspondiente a la referencia de tabla 0 08 021.</p>
-<p class="note">Note 149: La localización del tiempo, cuando se utiliza con valores de predicción, indicará la hora del estado inicial de la predicción o el comienzo del período de predicción; cuando se utilice con promedios de conjunto de valores de predicción, la localización del tiempo indicará el estado inicial o el comienzo de la primera predicción de las que se obtienen los valores medios de conjunto</p>
-<p class="note">Note 158: Respecto a los períodos o desplazamientos de tiempo, e incrementos de tiempo, será necesario determinar la localización inicial del tiempo antes de utilizarlos, y a continuación, según corresponda, se indicará la definición y significación del tiempo.</p>
-<p class="note">Note 176: Cuando sea necesario indicar más de un período o desplazamiento de tiempo para hacer indicaciones de tiempo complejas se definirán en sucesión inmediata en el siguiente orden: período conjunto (según corresponda), seguido por el período de predicción (según corresponda), seguido por el período de promedio o acumulación (según corresponda).</p>
+<p class="note">Note B27: Todas las horas están expresadas en Tiempo Universal Coordinado (UTC), a menos que se indique lo contrario. I.2 – BUFR/CREX Tabla B/04 – 3</p>
+<p class="note">Note B105: Para indicar períodos de tiempo o desplazamientos que preceden al tiempo definido actualmente se emplearán períodos de tiempo negativos o desplazamientos.</p>
+<p class="note">Note B145: La significación de los períodos o desplazamientos de tiempo se puede indicar utilizando la clave de significación del tiempo correspondiente a la referencia de tabla 0 08 021.</p>
+<p class="note">Note B149: La localización del tiempo, cuando se utiliza con valores de predicción, indicará la hora del estado inicial de la predicción o el comienzo del período de predicción; cuando se utilice con promedios de conjunto de valores de predicción, la localización del tiempo indicará el estado inicial o el comienzo de la primera predicción de las que se obtienen los valores medios de conjunto</p>
+<p class="note">Note B158: Respecto a los períodos o desplazamientos de tiempo, e incrementos de tiempo, será necesario determinar la localización inicial del tiempo antes de utilizarlos, y a continuación, según corresponda, se indicará la definición y significación del tiempo.</p>
+<p class="note">Note B176: Cuando sea necesario indicar más de un período o desplazamiento de tiempo para hacer indicaciones de tiempo complejas se definirán en sucesión inmediata en el siguiente orden: período conjunto (según corresponda), seguido por el período de predicción (según corresponda), seguido por el período de promedio o acumulación (según corresponda).</p>
 </div>
 </body>
 </html>

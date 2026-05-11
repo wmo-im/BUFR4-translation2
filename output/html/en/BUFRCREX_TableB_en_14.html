@@ -54,14 +54,14 @@
 <tr><td>0 14 034</td><td>Sunshine over period specified</td><td>min</td><td>0</td><td>0</td><td>11</td><td>min</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 14 035</td><td>Solar radiation flux</td><td>W m-2</td><td>1</td><td>0</td><td>14</td><td>W m-2</td><td>1</td><td>5</td><td></td></tr>
 <tr><td>0 14 042</td><td>Bidirectional reflectance</td><td>%</td><td>0</td><td>0</td><td>7</td><td>%</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 14 043</td><td>Channel radiance</td><td>W m-2 sr-1 um-1</td><td>4</td><td>0</td><td>23</td><td>W m-2 sr-1 um-1</td><td>4</td><td>7</td><td>Note 35: Long time displacement 0 04 086 in the sequence represents the time offset from the launch time 3 01 013 (in seconds).</td></tr>
+<tr><td>0 14 043</td><td>Channel radiance</td><td>W m-2 sr-1 um-1</td><td>4</td><td>0</td><td>23</td><td>W m-2 sr-1 um-1</td><td>4</td><td>7</td><td>Note B35: Channel radiance (0 14 043) uses μm to represent the wave number.</td></tr>
 <tr><td>0 14 044</td><td>Channel radiance</td><td>W m-2 sr-1 cm</td><td>7</td><td>-100000</td><td>22</td><td>W m-2 sr-1 cm</td><td>7</td><td>7</td><td></td></tr>
-<tr><td>0 14 045</td><td>Channel radiance</td><td>W m-2 sr-1 cm</td><td>0</td><td>0</td><td>11</td><td>W m-2 sr-1 cm</td><td>0</td><td>4</td><td>Note 36: Long time displacement 0 04 086 in the sequence represents the time offset from the launch time 3 01 113 (in seconds).</td></tr>
-<tr><td>0 14 046</td><td>Scaled radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>-5000</td><td>16</td><td>W m-2 sr-1 m</td><td>0</td><td>5</td><td>Note 29: In this instance, the term &quot;thinning&quot; refers to a method that may be applied to select a subset of levels from a model that may have many native vertical levels. Selecting only a subset reduces the size of the pseudo-sounding, at the possible cost of information loss and extra processing.</td></tr>
+<tr><td>0 14 045</td><td>Channel radiance</td><td>W m-2 sr-1 cm</td><td>0</td><td>0</td><td>11</td><td>W m-2 sr-1 cm</td><td>0</td><td>4</td><td>Note B36: Channel radiance (0 14 045) uses cm to represent the wave number.</td></tr>
+<tr><td>0 14 046</td><td>Scaled radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>-5000</td><td>16</td><td>W m-2 sr-1 m</td><td>0</td><td>5</td><td>Note B29: An offset has been introduced for the scaled radiances (0 14 046). This is to accommodate the negative radiances which can be measured at some wave numbers,either due to effects of noise or remaining after apodization. The offset is an order of magnitude larger than the expected maximum negative excursion based on instrument noise, and so would leave sufficient margin. At the same time the dynamic range is not significantly degraded.</td></tr>
 <tr><td>0 14 047</td><td>Scaled mean AVHRR radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>0</td><td>31</td><td>W m-2 sr-1 m</td><td>0</td><td>10</td><td></td></tr>
 <tr><td>0 14 048</td><td>Scaled standard deviation AVHRR radiance</td><td>W m-2 sr-1 m</td><td>0</td><td>0</td><td>31</td><td>W m-2 sr-1 m</td><td>0</td><td>10</td><td></td></tr>
 <tr><td>0 14 049</td><td>Noise equivalent delta radiance</td><td>W m-2 sr-1 cm</td><td>7</td><td>0</td><td>22</td><td>W m-2 sr-1 cm</td><td>0</td><td>0</td><td></td></tr>
-<tr><td>0 14 050</td><td>Emissivity</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td>Note 69: This sequence is deprecated because of incorrect usage of descriptor 0 04 075; sequence 3 06 019 should be used instead.</td></tr>
+<tr><td>0 14 050</td><td>Emissivity</td><td>%</td><td>1</td><td>0</td><td>10</td><td>%</td><td>1</td><td>4</td><td>Note B69: Emissivity is the ratio of the amount of energy emitted from a particular object compared to the amount that would be emitted by a blackbody at the same temperature(i.e. the Planck function). Multiplying by 100 gives a percent (and provides 2 digits of precision at the same time).</td></tr>
 <tr><td>0 14 051</td><td>Direct solar radiation integrated over last hour</td><td>J m-2</td><td>-3</td><td>0</td><td>14</td><td>J m-2</td><td>-3</td><td>4</td><td></td></tr>
 <tr><td>0 14 052</td><td>Global upward solar radiation, integrated over period specified</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>20</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
 <tr><td>0 14 053</td><td>Net radiation (high accuracy), integrated over period specified</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>21</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
@@ -70,13 +70,13 @@
 <tr><td>0 14 056</td><td>Background luminance</td><td>Cd m-2</td><td>0</td><td>0</td><td>18</td><td>Cd m-2</td><td>0</td><td>6</td><td></td></tr>
 <tr><td>0 14 057</td><td>Soil heat flux</td><td>J m-2</td><td>-2</td><td>-1048574</td><td>21</td><td>J m-2</td><td>-2</td><td>7</td><td></td></tr>
 <tr><td>0 14 058</td><td>Corrected cross-pole backscatter</td><td>dB</td><td>2</td><td>-5000</td><td>13</td><td>dB</td><td>2</td><td>5</td><td></td></tr>
-<tr><td>0 14 072</td><td>Global UV irradiation</td><td>J m-2</td><td>0</td><td>-4000000</td><td>23</td><td>J m-2</td><td>0</td><td>7</td><td>Note 83: Global UV irradiation (0 14 072) is UV energy integrated over period specified for spectral band specified. 0 14 072 shall be preceded by a time period descriptor and by Spectrographic wavelength (0 02 071) and Spectrographic width (0 02 072). For example, if 0 14 072 is used for global UV-B irradiation, 0 02 071 and 0 02 072shall specify spectral band 280 to 315 nm.</td></tr>
+<tr><td>0 14 072</td><td>Global UV irradiation</td><td>J m-2</td><td>0</td><td>-4000000</td><td>23</td><td>J m-2</td><td>0</td><td>7</td><td>Note B83: Global UV irradiation (0 14 072) is UV energy integrated over period specified for spectral band specified. 0 14 072 shall be preceded by a time period descriptor and by Spectrographic wavelength (0 02 071) and Spectrographic width (0 02 072). For example, if 0 14 072 is used for global UV-B irradiation, 0 02 071 and 0 02 072shall specify spectral band 280 to 315 nm.</td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 63: Downward radiation shall be assigned positive values.</p>
-<p class="note">Note 160: Upward radiation shall be assigned negative values.</p>
-<p class="note">Note 178: Where the expression &quot;period specified&quot; is entered under element name, an appropriate period shall be specified using descriptors from Class 04.</p>
+<p class="note">Note B63: Downward radiation shall be assigned positive values.</p>
+<p class="note">Note B160: Upward radiation shall be assigned negative values.</p>
+<p class="note">Note B178: Where the expression &quot;period specified&quot; is entered under element name, an appropriate period shall be specified using descriptors from Class 04.</p>
 </div>
 </body>
 </html>

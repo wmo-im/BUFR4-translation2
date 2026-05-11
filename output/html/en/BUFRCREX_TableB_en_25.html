@@ -32,12 +32,12 @@
 <tr><td>0 25 006</td><td>Z to R conversion</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 007</td><td>Z to R conversion factor</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 25 008</td><td>Z to R conversion exponent</td><td>Numeric</td><td>2</td><td>0</td><td>9</td><td>Numeric</td><td>2</td><td>3</td><td></td></tr>
-<tr><td>0 25 009</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note 56: The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequences 3 09 024, 3 09 025 and 3 09 026, respectively, should be used instead.</td></tr>
+<tr><td>0 25 009</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note B56: Descriptor 0 25 009 is deprecated. 0 25 029 should be used instead.</td></tr>
 <tr><td>0 25 010</td><td>Clutter treatment</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 25 011</td><td>Ground occultation correction (screening)</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 012</td><td>Range attenuation correction</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 013</td><td>Bright-band correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td>Note 15: Descriptors 3 03 021 to 3 03 027 are not available in CREX.</td></tr>
+<tr><td>0 25 014</td><td>Azimuth clutter cut-off</td><td>Numeric</td><td>0</td><td>0</td><td>12</td><td>Numeric</td><td>0</td><td>4</td><td>Note B15: 0 25 014 nominal input range 0 - 2300.</td></tr>
 <tr><td>0 25 015</td><td>Radome attenuation correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 016</td><td>Clear-air attenuation correction</td><td>dB/m</td><td>5</td><td>0</td><td>6</td><td>dB/m</td><td>5</td><td>2</td><td></td></tr>
 <tr><td>0 25 017</td><td>Precipitation attenuation correction</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
@@ -51,13 +51,13 @@
 <tr><td>0 25 025</td><td>Battery voltage</td><td>V</td><td>1</td><td>0</td><td>9</td><td>V</td><td>1</td><td>3</td><td></td></tr>
 <tr><td>0 25 026</td><td>Battery voltage (large range)</td><td>V</td><td>1</td><td>0</td><td>12</td><td>V</td><td>1</td><td>4</td><td></td></tr>
 <tr><td>0 25 028</td><td>Operator or manufacturer defined parameter</td><td>Numeric</td><td>1</td><td>-16384</td><td>15</td><td>Numeric</td><td>1</td><td>5</td><td></td></tr>
-<tr><td>0 25 029</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td>Note 56: The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequences 3 09 024, 3 09 025 and 3 09 026, respectively, should be used instead.</td></tr>
+<tr><td>0 25 029</td><td>Calibration method</td><td>Flag table</td><td>0</td><td>0</td><td>6</td><td>Flag table</td><td>0</td><td>2</td><td>Note B56: Descriptor 0 25 009 is deprecated. 0 25 029 should be used instead.</td></tr>
 <tr><td>0 25 030</td><td>Running mean sea-surface temperature usage</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 031</td><td>NWP-generated vertical profile thinning method</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 25 032</td><td>Wind profiler mode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
-<tr><td>0 25 033</td><td>Wind profiler submode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
-<tr><td>0 25 034</td><td>Wind profiler quality control test results</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
-<tr><td>0 25 035</td><td>Decision method for polarity</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td>Note 34: Latitude displacement 0 05 015 in the sequence represents the latitude offset from the latitude of the launch site. Longitude displacement 0 06 015 in the sequence represents the longitude offset from the longitude of the launch site.</td></tr>
+<tr><td>0 25 032</td><td>Wind profiler mode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note B131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>0 25 033</td><td>Wind profiler submode information</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td>Note B131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>0 25 034</td><td>Wind profiler quality control test results</td><td>Flag table</td><td>0</td><td>0</td><td>4</td><td>Flag table</td><td>0</td><td>2</td><td>Note B131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>0 25 035</td><td>Decision method for polarity</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td>Note B34: Certain sensors use a current decision above a threshold, others directly measure the voltage deflection.</td></tr>
 <tr><td>0 25 036</td><td>Atmospherics location method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 25 037</td><td>SST bias</td><td>K</td><td>2</td><td>-127</td><td>8</td><td>K</td><td>2</td><td>3</td><td></td></tr>
 <tr><td>0 25 038</td><td>Difference between SST and analysis</td><td>K</td><td>1</td><td>-127</td><td>8</td><td>K</td><td>1</td><td>3</td><td></td></tr>
@@ -78,10 +78,10 @@
 <tr><td>0 25 054</td><td>SSMIS subframe ID number</td><td>Numeric</td><td>0</td><td>0</td><td>5</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 25 055</td><td>Multiplexer housekeeping</td><td>K</td><td>2</td><td>0</td><td>16</td><td>K</td><td>2</td><td>5</td><td></td></tr>
 <tr><td>0 25 056</td><td>Normalized error estimate in backscatter measurement (Kp)</td><td>Numeric</td><td>4</td><td>0</td><td>14</td><td>Numeric</td><td>4</td><td>5</td><td></td></tr>
-<tr><td>0 25 060</td><td>Software identification</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td>Note 131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
+<tr><td>0 25 060</td><td>Software identification</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td>Note B131: The actual meaning of this quantity may be obtained from the originator of the data.</td></tr>
 <tr><td>0 25 061</td><td>Software identification and version number</td><td>CCITT IA5</td><td>0</td><td>0</td><td>96</td><td>Character</td><td>0</td><td>12</td><td></td></tr>
 <tr><td>0 25 062</td><td>Database identification</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>0 25 063</td><td>Central processor or system identifier</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td>Note 71: Time of launch 3 01 113 in the sequence shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be put to zero.</td></tr>
+<tr><td>0 25 063</td><td>Central processor or system identifier</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td>Note B71: Flash Location Processor or system identity so as to identify where the event location was developed in multi-integrated system. Typically, a value of 1.</td></tr>
 <tr><td>0 25 065</td><td>Orientation correction (azimuth)</td><td>deg</td><td>2</td><td>-1000</td><td>11</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
 <tr><td>0 25 066</td><td>Orientation correction (elevation)</td><td>deg</td><td>2</td><td>-1000</td><td>11</td><td>deg</td><td>2</td><td>4</td><td></td></tr>
 <tr><td>0 25 067</td><td>Radiosonde release point pressure correction</td><td>Pa</td><td>0</td><td>-8000</td><td>14</td><td>Pa</td><td>0</td><td>4</td><td></td></tr>
@@ -146,7 +146,7 @@
 <tr><td>0 25 140</td><td>Start channel</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
 <tr><td>0 25 141</td><td>End channel</td><td>Numeric</td><td>0</td><td>0</td><td>14</td><td>Numeric</td><td>0</td><td>5</td><td></td></tr>
 <tr><td>0 25 142</td><td>Channel scale factor</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
-<tr><td>0 25 143</td><td>Linear coefficient</td><td>Numeric</td><td>6</td><td>-5000000</td><td>24</td><td>Numeric</td><td>6</td><td>8</td><td>Note 57: The ship&#x27;s call sign or WMO identifier should be reported using descriptor 0 01 011.</td></tr>
+<tr><td>0 25 143</td><td>Linear coefficient</td><td>Numeric</td><td>6</td><td>-5000000</td><td>24</td><td>Numeric</td><td>6</td><td>8</td><td>Note B57: Descriptor 0 25 143 is intended for numerical, non-dimensional values to be used as coefficients in statistical or linear processing. Each instance of 0 25 143 should be characterized by using an appropriate significance qualifier, such as 0 08 026.</td></tr>
 <tr><td>0 25 144</td><td>Number of visual channels used in processing</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 25 145</td><td>Number of infrared channels used in processing</td><td>Numeric</td><td>0</td><td>0</td><td>6</td><td>Numeric</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 25 148</td><td>Coefficient of variation</td><td>Numeric</td><td>2</td><td>-10000</td><td>15</td><td>Numeric</td><td>2</td><td>5</td><td></td></tr>
@@ -164,7 +164,7 @@
 <tr><td>0 25 171</td><td>Sample averaging period</td><td>s</td><td>0</td><td>0</td><td>10</td><td>s</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 25 172</td><td>Number of samples</td><td>Numeric</td><td>0</td><td>0</td><td>10</td><td>Numeric</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 25 174</td><td>SMOS information flag</td><td>Flag table</td><td>0</td><td>0</td><td>14</td><td>Flag table</td><td>0</td><td>5</td><td></td></tr>
-<tr><td>0 25 175</td><td>Modified residual</td><td>Numeric</td><td>2</td><td>0</td><td>13</td><td>Numeric</td><td>2</td><td>4</td><td>Note 103: Modified residual calculated from the loci of the sensors and signal to noise ratios for the flash.</td></tr>
+<tr><td>0 25 175</td><td>Modified residual</td><td>Numeric</td><td>2</td><td>0</td><td>13</td><td>Numeric</td><td>2</td><td>4</td><td>Note B103: Modified residual calculated from the loci of the sensors and signal to noise ratios for the flash.</td></tr>
 <tr><td>0 25 180</td><td>LRM per cent</td><td>%</td><td>2</td><td>0</td><td>16</td><td>%</td><td>2</td><td>5</td><td></td></tr>
 <tr><td>0 25 181</td><td>L2 processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 25 182</td><td>L1 processing flag</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>

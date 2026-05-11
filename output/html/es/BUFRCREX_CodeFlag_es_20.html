@@ -26,7 +26,7 @@
 <thead><tr><th>CIFRA DE CLAVE</th><th>SIGNIFICADO</th><th>SUB 1</th><th>NOTA</th></tr></thead>
 <tbody>
 <tr><td></td><td>00-49 Sin precipitaciones en la estación en el momento de la observación</td><td></td><td></td></tr>
-<tr><td></td><td>00-19 Sin precipitación, niebla, niebla helada (excepto para 11 y 12), tempestad de polvo, tempestad de arena, ventisca alta o baja en la estación en el momento de la observación o, excepto para 09 y 17, durante la hora precedente</td><td></td><td>Note 77: En la AR III se notifican las temperaturas máxima diurna y mínima nocturna (es decir, la hora final del período podrá no ser igual a la hora nominal del informe). Para representar el intervalo de tiempo requerido, se debe incluir dos veces el descriptor 0 04 024. Si el período finaliza a la hora nominal del informe, el valor del segundo 0 04 024 se cifrará en 0.</td></tr>
+<tr><td></td><td>00-19 Sin precipitación, niebla, niebla helada (excepto para 11 y 12), tempestad de polvo, tempestad de arena, ventisca alta o baja en la estación en el momento de la observación o, excepto para 09 y 17, durante la hora precedente</td><td></td><td>Note CF77: La expresión “en la estación” se refiere a las estaciones terrestres o a las estaciones en un buque.</td></tr>
 <tr><td></td><td>00-03 Sin presencia de meteoros, excepto fotometeoro</td><td></td><td></td></tr>
 <tr><td>00</td><td>Ningún desarrollo nuboso fue observado o pudo ser observado</td><td>Variación característica del estado del cielo o haciéndose menos espesas en el curso de la hora precedente</td><td></td></tr>
 <tr><td>01</td><td>Nubes que en general van disipándose</td><td>Variación característica del estado del cielo o haciéndose menos espesas en el curso de la hora precedente</td><td></td></tr>
@@ -48,7 +48,7 @@
 <tr><td>16</td><td>Precipitación a la vista, que llega al suelo o a la superficie del mar cerca de la estación, pero no en la estación misma</td><td></td><td></td></tr>
 <tr><td>17</td><td>Tormenta, pero sin precipitación en el momento de la observación</td><td></td><td></td></tr>
 <tr><td>18</td><td>Turbonadas</td><td>en la estación o a la vista durante la hora precedente o en el momento de la observación</td><td></td></tr>
-<tr><td>19</td><td>Nubes con forma de embudo</td><td>en la estación o a la vista durante la hora precedente o en el momento de la observación</td><td>Note 89: Si x=y=z se trata de un error esférico, y el ángulo (véase 0 20 115) será cero.</td></tr>
+<tr><td>19</td><td>Nubes con forma de embudo</td><td>en la estación o a la vista durante la hora precedente o en el momento de la observación</td><td>Note CF89: Tromba o tromba marina.</td></tr>
 <tr><td></td><td>20-29 Precipitación, niebla, niebla helada o tormenta en la estación en el curso de la hora precedente pero no en el momento de la observación</td><td></td><td></td></tr>
 <tr><td>20</td><td>Llovizna (no engelante) o cinarra</td><td>no en forma de chubasco(s)</td><td></td></tr>
 <tr><td>21</td><td>Lluvia (no engelante)</td><td>no en forma de chubasco(s)</td><td></td></tr>
@@ -57,7 +57,7 @@
 <tr><td>24</td><td>Llovizna engelante o lluvia engelante</td><td>no en forma de chubasco(s)</td><td></td></tr>
 <tr><td>25</td><td>Chubasco(s) de lluvia</td><td>no en forma de chubasco(s)</td><td></td></tr>
 <tr><td>26</td><td>Chubasco(s) de nieve o de lluvia y nieve</td><td></td><td></td></tr>
-<tr><td>27</td><td>Chubasco(s) de granizo, o de lluvia y granizo</td><td></td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
+<tr><td>27</td><td>Chubasco(s) de granizo, o de lluvia y granizo</td><td></td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
 <tr><td>28</td><td>Niebla o niebla helada</td><td></td><td></td></tr>
 <tr><td>29</td><td>Tormenta (con o sin precipitación)</td><td></td><td></td></tr>
 <tr><td></td><td>30-39 Tempestad de polvo, tempestad de arena, ventisca baja o alta</td><td></td><td></td></tr>
@@ -130,13 +130,13 @@
 <tr><td>90</td><td>Chubasco(s) de granizo, con lluvia o lluvia y nieve, o sin ellas y sin truenos</td><td>moderado(s) o fuerte(s)</td><td></td></tr>
 <tr><td>91</td><td>Lluvia débil en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td></td></tr>
 <tr><td>92</td><td>Lluvia moderada o fuerte en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td></td></tr>
-<tr><td>93</td><td>Nieve o lluvia y nieve o granizo, débiles en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
-<tr><td>94</td><td>Nieve o lluvia y nieve o granizo, moderados o fuertes en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
-<tr><td>95</td><td>Tormenta débil o moderada sin granizo, pero con lluvia y/o nieve en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
-<tr><td>96</td><td>Tormenta débil o moderada, con granizo en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
-<tr><td>97</td><td>Tormenta fuerte sin granizo, pero con lluvia y/o nieve</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
+<tr><td>93</td><td>Nieve o lluvia y nieve o granizo, débiles en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
+<tr><td>94</td><td>Nieve o lluvia y nieve o granizo, moderados o fuertes en el momento de la observación</td><td>Tormenta durante la hora precedente, pero no en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
+<tr><td>95</td><td>Tormenta débil o moderada sin granizo, pero con lluvia y/o nieve en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
+<tr><td>96</td><td>Tormenta débil o moderada, con granizo en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
+<tr><td>97</td><td>Tormenta fuerte sin granizo, pero con lluvia y/o nieve</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
 <tr><td>98</td><td>Tormenta con tempestad de polvo o de arena en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td></td></tr>
-<tr><td>99</td><td>Tormenta fuerte, con granizo, en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
+<tr><td>99</td><td>Tormenta fuerte, con granizo, en el momento de la observación</td><td>Tormenta en el momento de la en el momento de la observación</td><td>Note CF46: Granizo, granizo menudo o nieve granulada.</td></tr>
 <tr><td></td><td>Tiempo presente notificado desde una estación automática</td><td></td><td></td></tr>
 <tr><td>100</td><td>No fue observado ningún tiempo significativo</td><td></td><td></td></tr>
 <tr><td>101</td><td>Nubes en disolución o haciéndose menos espesas en el curso de la hora precedente</td><td></td><td></td></tr>
@@ -328,9 +328,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 34: Las cifras de clave que indican la precipitación genérica (cifras de clave 140–148) están dispuestas en orden de complejidad creciente. Por ejemplo: una estación muy sencilla que tan solo puede determinar la presencia o ausencia de precipitación utilizará la cifra de clave 140 (precipitación). En el siguiente nivel, una estación automática capaz de captar la cantidad pero no el tipo de precipitación utilizará la cifra de clave 141 o 142. Una estación automática capaz de captar el tipo de precipitación (líquida, sólida, engelante) y la cantidad en líneas generales, utilizará las cifras de clave 143–148. Una estación automática capaz de comunicar tipos reales de precipitación (por ejemplo, llovizna o lluvia) pero no su cantidad, utilizará la correspondiente decena (por ejemplo, 150 para llovizna en general y 160 para lluvia en general).</p>
-<p class="note">Note 43: Los términos genéricos para las condiciones meteorológicas (por ejemplo, niebla, llovizna) se destinan a las estaciones automáticas que pueden determinar tipos de tiempo, pero no dar más información. Los términos genéricos de la tabla de cifrado se indican mediante mayúsculas.</p>
-<p class="note">Note 80: La parte central de la presente tabla de cifrado (cifras de clave 100–199) incluye términos a diversos niveles, referidos a estaciones automáticas sencillas y luego cada vez más complejas.</p>
+<p class="note">Note CF34: Las cifras de clave que indican la precipitación genérica (cifras de clave 140–148) están dispuestas en orden de complejidad creciente. Por ejemplo: una estación muy sencilla que tan solo puede determinar la presencia o ausencia de precipitación utilizará la cifra de clave 140 (precipitación). En el siguiente nivel, una estación automática capaz de captar la cantidad pero no el tipo de precipitación utilizará la cifra de clave 141 o 142. Una estación automática capaz de captar el tipo de precipitación (líquida, sólida, engelante) y la cantidad en líneas generales, utilizará las cifras de clave 143–148. Una estación automática capaz de comunicar tipos reales de precipitación (por ejemplo, llovizna o lluvia) pero no su cantidad, utilizará la correspondiente decena (por ejemplo, 150 para llovizna en general y 160 para lluvia en general).</p>
+<p class="note">Note CF43: Los términos genéricos para las condiciones meteorológicas (por ejemplo, niebla, llovizna) se destinan a las estaciones automáticas que pueden determinar tipos de tiempo, pero no dar más información. Los términos genéricos de la tabla de cifrado se indican mediante mayúsculas.</p>
+<p class="note">Note CF80: La parte central de la presente tabla de cifrado (cifras de clave 100–199) incluye términos a diversos niveles, referidos a estaciones automáticas sencillas y luego cada vez más complejas.</p>
 </div>
 <p class="fxy-heading">0 20 004  Tiempo pasado (1)</p>
 <table>
@@ -347,10 +347,10 @@
 <tr><td>8</td><td>Chubasco(s)</td><td></td></tr>
 <tr><td>9</td><td>Tormenta(s), con precipitación o sin ella</td><td></td></tr>
 <tr><td>10</td><td>Ninguna observación de tiempo significativo</td><td></td></tr>
-<tr><td>11</td><td>VISIBILIDAD REDUCIDA</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>11</td><td>VISIBILIDAD REDUCIDA</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
 <tr><td>12</td><td>Fenómenos de ventisca, visibilidad reducida</td><td></td></tr>
-<tr><td>13</td><td>NIEBLA</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
-<tr><td>14</td><td>PRECIPITACIÓN</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>13</td><td>NIEBLA</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>14</td><td>PRECIPITACIÓN</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
 <tr><td>15</td><td>Llovizna</td><td></td></tr>
 <tr><td>16</td><td>Lluvia</td><td></td></tr>
 <tr><td>17</td><td>Nieve o hielo granulado</td><td></td></tr>
@@ -375,10 +375,10 @@
 <tr><td>8</td><td>Chubasco(s)</td><td></td></tr>
 <tr><td>9</td><td>Tormenta(s), con precipitación o sin ella</td><td></td></tr>
 <tr><td>10</td><td>Ninguna observación de tiempo significativo</td><td></td></tr>
-<tr><td>11</td><td>VISIBILIDAD REDUCIDA</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>11</td><td>VISIBILIDAD REDUCIDA</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
 <tr><td>12</td><td>Fenómenos de ventisca, visibilidad reducida</td><td></td></tr>
-<tr><td>13</td><td>NIEBLA</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
-<tr><td>14</td><td>PRECIPITACIÓN</td><td>Note 82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>13</td><td>NIEBLA</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
+<tr><td>14</td><td>PRECIPITACIÓN</td><td>Note CF82: La descripción del tiempo con las cifras de clave 10 a 19, va haciéndose progresivamente más para dar cabida a los diferentes niveles de capacidad de discriminación del tiempo de las diversas estaciones automáticas. Las estaciones que poseen únicamente capacidad básica de observación pueden utilizar las cifras de clave de número inferior y descripciones genéricas básicas (indicadas en letras mayúsculas). Las estaciones que poseen una capacidad de discriminación progresivamente más grande utilizarán las descripciones más detalladas (cifras de clave más altas).</td></tr>
 <tr><td>15</td><td>Llovizna</td><td></td></tr>
 <tr><td>16</td><td>Lluvia</td><td></td></tr>
 <tr><td>17</td><td>Nieve o hielo granulado</td><td></td></tr>
@@ -458,11 +458,11 @@
 <tr><td>12</td><td>Fragmentada</td><td></td><td></td></tr>
 <tr><td>13</td><td>Escasa</td><td></td><td></td></tr>
 <tr><td>14</td><td>Reservada</td><td></td><td></td></tr>
-<tr><td>15</td><td>La cubierta de nubes es indefinible por razones distintas de la niebla u otros fenómenos meteorológicos, o no se ha hecho ninguna observación</td><td></td><td>Note 40: Los niveles no superficiales sobre la coordenada vertical nativa del modelo son transpuestos a una coordenada de presión. Con ello, los niveles son más fácilmente interpretables por las personas y más fáciles de utilizar por aplicaciones de visualización genéricas. Los niveles pueden corresponder exactamente a niveles nativos del modelo o haber sido interpolados entre niveles del modelo a unos niveles de presión seleccionados por el centro generador.</td></tr>
+<tr><td>15</td><td>La cubierta de nubes es indefinible por razones distintas de la niebla u otros fenómenos meteorológicos, o no se ha hecho ninguna observación</td><td></td><td>Note CF40: Para utilizar la cifra de clave 15, véase la Regla 12.1.4.</td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 2: Los términos “despejado” y “cubierto” se cifran con 0 y 8, respectivamente.</p>
+<p class="note">Note CF2: Los términos “despejado” y “cubierto” se cifran con 0 y 8, respectivamente.</p>
 </div>
 <p class="fxy-heading">0 20 012  Tipo de nubes</p>
 <table>
@@ -499,13 +499,13 @@
 <tr><td>28</td><td>Altocúmulos castellanus o floccus</td><td></td></tr>
 <tr><td>29</td><td>Altocúmulos de cielo caótico, generalmente a varios niveles</td><td></td></tr>
 <tr><td>30</td><td>No hay nubes CL</td><td></td></tr>
-<tr><td>31</td><td>Cúmulos humilis ou cúmulos fractus que no sean los de mal tiempo, o ambos</td><td>Note 1: El descriptor 3 04 035 se ha relegado.</td></tr>
+<tr><td>31</td><td>Cúmulos humilis ou cúmulos fractus que no sean los de mal tiempo, o ambos</td><td>Note CF1: “Mal tiempo” se refiere a las condiciones generales que reinan durante las precipitaciones e instantes antes o después de ellas.</td></tr>
 <tr><td>32</td><td>Cúmulos mediocris o congestus, cúmulos de desarrollo vertical (TCU), con cúmulos de las especies fractus o humilis o estratocúmulos o sin ellos, todos con las bases a un mismo nivel</td><td></td></tr>
 <tr><td>33</td><td>Cumulonimbus calvus, con cúmulos, estratocúmulos o estratos o sin ellos</td><td></td></tr>
 <tr><td>34</td><td>Estratocúmulos cumulogenitus</td><td></td></tr>
 <tr><td>35</td><td>Estratocúmulos que no sean estratocúmulos cumulogenitus</td><td></td></tr>
-<tr><td>36</td><td>Estratos nebulosus o estratos fractus que no sean de mal tiempo, o ambos</td><td>Note 1: El descriptor 3 04 035 se ha relegado.</td></tr>
-<tr><td>37</td><td>Estratos fractus o cúmulos fractus de mal tiempo, o ambos (pannus), generalmente debajo de altoestratos o nimboestratos</td><td>Note 1: El descriptor 3 04 035 se ha relegado.</td></tr>
+<tr><td>36</td><td>Estratos nebulosus o estratos fractus que no sean de mal tiempo, o ambos</td><td>Note CF1: “Mal tiempo” se refiere a las condiciones generales que reinan durante las precipitaciones e instantes antes o después de ellas.</td></tr>
+<tr><td>37</td><td>Estratos fractus o cúmulos fractus de mal tiempo, o ambos (pannus), generalmente debajo de altoestratos o nimboestratos</td><td>Note CF1: “Mal tiempo” se refiere a las condiciones generales que reinan durante las precipitaciones e instantes antes o después de ellas.</td></tr>
 <tr><td>38</td><td>Cúmulos y estratocúmulos que no sean estratocúmulos cumulogenitus, con bases a nive- les diferentes</td><td></td></tr>
 <tr><td>39</td><td>Cumulonimbus capillatus (frecuentemente con yunque), con cumulonimbus calvus, cúmulos, estratocúmulos, estratos o pannus o sin ellos</td><td></td></tr>
 <tr><td>40</td><td>CH</td><td></td></tr>
@@ -586,7 +586,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 57: La precipitación combinada se indica fijando en uno los bits de cada uno de los tipos de precipitación observados.</p>
+<p class="note">Note CF57: La precipitación combinada se indica fijando en uno los bits de cada uno de los tipos de precipitación observados.</p>
 </div>
 <p class="fxy-heading">0 20 022  Naturaleza de la precipitación</p>
 <table>
@@ -692,13 +692,13 @@
 <tr><td>4</td><td>En el período de tiempo especificado</td><td></td></tr>
 <tr><td>5</td><td>Reservado</td><td></td></tr>
 <tr><td>6</td><td>Por debajo del nivel de la estación</td><td></td></tr>
-<tr><td>7</td><td>En la estación</td><td>Note 51: Se debería expresar, de estar disponible, el número de años faltantes del período de referencia del cálculo de la normal para la temperatura extrema media del aire, para el cálculo de las temperaturas máxima y mínima normal, además del número de años faltantes para las temperaturas extremas del aire que se comunican con la cifra 0 08 020 precedida de 0 08 050 en la que se utiliza la figura 3.</td></tr>
-<tr><td>8</td><td>En las cercanías</td><td>Note 96: Para el descriptor 0 27 031 se han escogido ejes x, y y z negativos. I.2 – BUFR/CREX Tabla B/27 – 2</td></tr>
+<tr><td>7</td><td>En la estación</td><td>Note CF51: Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a 3 km como máximo de la estación.</td></tr>
+<tr><td>8</td><td>En las cercanías</td><td>Note CF96: Coincidiendo con la observación de trombas marinas o nubes con forma de embudo, en decir, a más de 3 km de la estación.</td></tr>
 <tr><td>Los 9</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 63: En esta tabla de banderines se entiende por fenómeno cualquier tipo de fenómeno, incluidos la precipitación y el oscurecimiento.</p>
+<p class="note">Note CF63: En esta tabla de banderines se entiende por fenómeno cualquier tipo de fenómeno, incluidos la precipitación y el oscurecimiento.</p>
 </div>
 <p class="fxy-heading">0 20 028  Cambio esperado en intensidad</p>
 <table>
@@ -916,10 +916,10 @@
 <tr><td>2</td><td>Cúmulos con protuberancias y torretas que crecen rápidamente y van disminuyendo con la altura y cuyos remates tienden a separarse de la masa inferior de nubes y se disuelven a los pocos minutos</td><td></td></tr>
 <tr><td>3</td><td>Cúmulos con protuberancias y torretas que se inclinan francamente a sotavento; la altura de las nubes es más de una vez y media su ancho medio</td><td></td></tr>
 <tr><td>4</td><td>Cúmulos con protuberancias y torretas que se inclinan francamente a barlovento; la altura de las nubes es más de una vez y media su ancho medio</td><td></td></tr>
-<tr><td>5</td><td>Cúmulos congestus altos con grandes protuberancias de una altura más de dos veces mayor que su ancho medio; no se disponen en racimos ni líneas; una o más capas se destacan de las torretas de nubes aunque no existen capas continuas </td><td>Note 55: El descriptor 0 33 002 relativo a la información sobre la calidad está relacionado con la temperatura virtual 0 12 007. Se da para cada puerta respectiva de la medición del perfil.</td></tr>
+<tr><td>5</td><td>Cúmulos congestus altos con grandes protuberancias de una altura más de dos veces mayor que su ancho medio; no se disponen en racimos ni líneas; una o más capas se destacan de las torretas de nubes aunque no existen capas continuas</td><td>Note CF55: En el caso de que la intensidad de la lluvia impida ver las nubes, el observador deberá utilizar las cifras 5 u 8. Utilizará la cifra 5 si la lluvia está localizada o es de breve duración; utilizará la cifra 8 si la lluvia es generalizada o dura largos períodos.</td></tr>
 <tr><td>6</td><td>Cumulonimbos aislados o amplios racimos de torretas de cúmulos separados por anchos espacios libres de nubes; las bases de las nubes son oscuras por lo general y se observan chubascos en la mayoría de las células; pueden advertirse algunas nubes medias y superiores dispersas; las diferentes células de los cúmulos son una o dos veces más altas que anchas</td><td></td></tr>
 <tr><td>7</td><td>Numerosos cúmulos que se extienden por la troposfera media con capas continuas o discontinuas de nubes medias y/o cirrostratos; por lo general las torretas de cúmulos no disminuyen con la altura; la base de las nubes es oscura y desigual y se producen algunos chubascos</td><td></td></tr>
-<tr><td>8</td><td>Nubes medias, densas y continuas y/o capas de cirrostratos con algunos grandes cumulonimbos o cúmulos congestus aislados, que las penetran; ocasionalmente se observan lluvias débiles de las capas de altostratos; las bases de los cumulonimbos son irregulares y oscuras y se ven chubascos</td><td>Note 55: El descriptor 0 33 002 relativo a la información sobre la calidad está relacionado con la temperatura virtual 0 12 007. Se da para cada puerta respectiva de la medición del perfil.</td></tr>
+<tr><td>8</td><td>Nubes medias, densas y continuas y/o capas de cirrostratos con algunos grandes cumulonimbos o cúmulos congestus aislados, que las penetran; ocasionalmente se observan lluvias débiles de las capas de altostratos; las bases de los cumulonimbos son irregulares y oscuras y se ven chubascos</td><td>Note CF55: En el caso de que la intensidad de la lluvia impida ver las nubes, el observador deberá utilizar las cifras 5 u 8. Utilizará la cifra 5 si la lluvia está localizada o es de breve duración; utilizará la cifra 8 si la lluvia es generalizada o dura largos períodos.</td></tr>
 <tr><td>9</td><td>Capas continuas de nubes medias y/o cirrostratos con cumulonimbos o cúmulos congestus dispuestos en líneas o bandas de nubes; por lo general se observan lluvias de las capas de altostratos y fuertes chubascos de los cumulonimbos; viento con carácter de turbonada</td><td></td></tr>
 <tr><td>10</td><td>Se desconoce el estado del cielo o no corresponde a ninguna de las descripciones precedentes</td><td></td></tr>
 <tr><td>11-14</td><td>Reservadas</td><td></td></tr>
@@ -969,9 +969,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 50: En todos los casos, se indicarán las cifras de clave más altas aplicables.</p>
-<p class="note">Note 54: En esta tabla de cifrado, siempre que se haga referencia al hielo, se incluye también toda precipitación sólida que no sea nieve.</p>
-<p class="note">Note 75: Las definiciones referidas a las cifras de clave 0, 1, 2 y 4 se aplican al suelo representativo y las cifras de clave 3, 5 a 9 y 10 a 19, a una zona abierta representativa.</p>
+<p class="note">Note CF50: En todos los casos, se indicarán las cifras de clave más altas aplicables.</p>
+<p class="note">Note CF54: En esta tabla de cifrado, siempre que se haga referencia al hielo, se incluye también toda precipitación sólida que no sea nieve.</p>
+<p class="note">Note CF75: Las definiciones referidas a las cifras de clave 0, 1, 2 y 4 se aplican al suelo representativo y las cifras de clave 3, 5 a 9 y 10 a 19, a una zona abierta representativa.</p>
 </div>
 <p class="fxy-heading">0 20 063  Fenómenos especiales</p>
 <table>
@@ -1038,12 +1038,12 @@
 <tr><td>68</td><td>Sin asignar</td><td></td></tr>
 <tr><td>69</td><td>Se desconocen las variaciones de temperatura por falta de termógrafo</td><td></td></tr>
 <tr><td></td><td>70–79 Variación de la visibilidad durante el período especificado</td><td></td></tr>
-<tr><td>70</td><td>La visibilidad no ha variado (sol visible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
-<tr><td>71</td><td>La visibilidad no ha variado (sol invisible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
-<tr><td>72</td><td>72 La visibilidad ha aumentado (sol visible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
-<tr><td>73</td><td>La visibilidad ha aumentado (sol invisible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
-<tr><td>74</td><td>La visibilidad ha disminuido (sol visible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
-<tr><td>75</td><td>La visibilidad ha disminuido (sol invisible) en la dirección especificada</td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
+<tr><td>70</td><td>La visibilidad no ha variado (sol visible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
+<tr><td>71</td><td>La visibilidad no ha variado (sol invisible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
+<tr><td>72</td><td>72 La visibilidad ha aumentado (sol visible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
+<tr><td>73</td><td>La visibilidad ha aumentado (sol invisible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
+<tr><td>74</td><td>La visibilidad ha disminuido (sol visible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
+<tr><td>75</td><td>La visibilidad ha disminuido (sol invisible) en la dirección especificada</td><td>Note CF61: O el cielo (si el sol está bajo), o la luna o las estrellas de noche.</td></tr>
 <tr><td>76</td><td>Niebla procedente de la dirección especificada</td><td></td></tr>
 <tr><td>77</td><td>La niebla ha ascendido sin disiparse</td><td></td></tr>
 <tr><td>78</td><td>La niebla se ha disipado independientemente de la dirección</td><td></td></tr>

@@ -2,8 +2,8 @@ ID,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en
 bufr4/3/01/001/1/001001,01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational,na
 bufr4/3/01/001/2/001002,01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational,na
 bufr4/3/01/002/1/001003,01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),D11,Operational,na
-bufr4/3/01/002/2/001004,01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),D11,Operational,na
-bufr4/3/01/002/3/001005,01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),D11,Operational,na
+bufr4/3/01/002/2/001004,01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,,,Operational,na
+bufr4/3/01/002/3/001005,01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,,,Operational,na
 bufr4/3/01/003/1/001011,01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational,na
 bufr4/3/01/003/2/001012,01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational,na
 bufr4/3/01/003/3/001013,01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational,na

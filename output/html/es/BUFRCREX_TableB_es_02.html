@@ -41,7 +41,7 @@
 <tr><td>0 02 017</td><td>Algoritmos de corrección de las mediciones de humedad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 019</td><td>Instrumentos de satélite</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>11</td><td>Tabla de cifrado</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 02 020</td><td>Clasificación de los satélites</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>9</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 021</td><td>Datos de instrumentos satelitales utilizados en el proceso*</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td>Note 47: El descriptor 0 07 007 relativo a la altura y el descriptor 3 01 021 relativo a la latitud/longitud indican la altitud sobre el nive del mar y la posición horizontal de cada célula vertical de la medición del perfil y no el empalzamiento del instrumento (que se cifra mediante el descriptor anterior 3 01 132 relativo a la secuencia de encabezamiento común).</td></tr>
+<tr><td>0 02 021</td><td>Datos de instrumentos satelitales utilizados en el proceso*</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>9</td><td>Tabla de banderines</td><td>0</td><td>3</td><td>Note B47: Se recomienda utilizar el descriptor 0 02 152 en vez del 0 02 021 para cifrar este elemento.</td></tr>
 <tr><td>0 02 022</td><td>Técnica utilizada en el proceso de datos satelitales</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>8</td><td>Tabla de banderines</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 023</td><td>Método de cálculo del viento a partir de datos satelitales</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 024</td><td>Método de cálculo de la humedad media integrada</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
@@ -105,7 +105,7 @@
 <tr><td>0 02 096</td><td>Tipo de sensor de temperatura</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 097</td><td>Tipo de sensor de humedad</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>5</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 099</td><td>Polarización</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>3</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 02 100</td><td>Constante de radar+</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note 157: Esta constante se define como sigue: Z = P + constante radar donde / Z = reflectividad del objetivo en la dirección del haz (dBZ) / P = potencia a la entrada del receptor por encima de 1 mW (dBm) / Esta constante se emplea para normalizar la señal, para un alcance equivalente a 100 km.</td></tr>
+<tr><td>0 02 100</td><td>Constante de radar+</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note B157: Esta constante se define como sigue: Z = P + constante radar donde / Z = reflectividad del objetivo en la dirección del haz (dBZ) / P = potencia a la entrada del receptor por encima de 1 mW (dBm) / Esta constante se emplea para normalizar la señal, para un alcance equivalente a 100 km.</td></tr>
 <tr><td>0 02 101</td><td>Tipo de antena</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 102</td><td>Altura de la antena sobre la base de la torre</td><td>m</td><td>0</td><td>0</td><td>8</td><td>m</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 103</td><td>Radomo</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>2</td><td>Tabla de banderines</td><td>0</td><td>1</td><td></td></tr>
@@ -145,9 +145,9 @@
 <tr><td>0 02 137</td><td>Relación de frecuencia de repetición de impulsos dual del radar</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 138</td><td>Dirección de rotación de la antena</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 02 139</td><td>Configuración del instrumento SIRAL</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>2</td><td>Tabla de cifrado</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 02 140</td><td>Ángulo azimutal del haz del radar del satélite</td><td>°</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td>Note 111: Nótese que el descriptor 0 02 140 es el ángulo azimutal medido en sentido sinistrorso desde el vector guía del satélite. I.2 – BUFR/CREX Tabla B/02 – 11 (Clase 02 – continuación)</td></tr>
+<tr><td>0 02 140</td><td>Ángulo azimutal del haz del radar del satélite</td><td>°</td><td>0</td><td>0</td><td>9</td><td>°</td><td>0</td><td>3</td><td>Note B111: Nótese que el descriptor 0 02 140 es el ángulo azimutal medido en sentido sinistrorso desde el vector guía del satélite. I.2 – BUFR/CREX Tabla B/02 – 11 (Clase 02 – continuación)</td></tr>
 <tr><td>0 02 141</td><td>Tipo de medición</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Carácter</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 142</td><td>Número de serie/indicador del tipo de instrumento de medición del ozono</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Carácter</td><td>0</td><td>4</td><td>Note 91: En el descriptor 0 02 142, el número de serie o de identificación del tipo de instrumento de medición del ozono tiene una longitud de cuatro caracteres. Tratándose de instrumentos Dobson japoneses debe((n) omitirse el (los) dígito((s) inicial(es).</td></tr>
+<tr><td>0 02 142</td><td>Número de serie/indicador del tipo de instrumento de medición del ozono</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Carácter</td><td>0</td><td>4</td><td>Note B91: En el descriptor 0 02 142, el número de serie o de identificación del tipo de instrumento de medición del ozono tiene una longitud de cuatro caracteres. Tratándose de instrumentos Dobson japoneses debe((n) omitirse el (los) dígito((s) inicial(es).</td></tr>
 <tr><td>0 02 143</td><td>Tipo de instrumento de medición del ozono</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>7</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 144</td><td>Tipo de fuente luminosa para el espectrofotómetro de Brewer</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 145</td><td>Ajuste de la longitud de onda para los instrumentos Dobson</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
@@ -157,7 +157,7 @@
 <tr><td>0 02 149</td><td>Tipo de boya de datos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 150</td><td>Número de canal de los instrumentos TOVS/ATOVS/AVHRR</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 151</td><td>Identificador del radiómetro</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>11</td><td>Tabla de cifrado</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>0 02 152</td><td>Instrumento de satélite utilizado en el proceso de los datos</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>31</td><td>Tabla de banderines</td><td>0</td><td>10</td><td>Note 46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
+<tr><td>0 02 152</td><td>Instrumento de satélite utilizado en el proceso de los datos</td><td>Tabla de banderines</td><td>0</td><td>0</td><td>31</td><td>Tabla de banderines</td><td>0</td><td>10</td><td>Note B46: Debería utilizarse el descriptor 0 02 019 en vez del 0 02 152 para la identificación de un solo elemento de satélite.</td></tr>
 <tr><td>0 02 153</td><td>Frecuencia central del canal del satélite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 154</td><td>Anchura de banda del canal del satélite</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 155</td><td>Longitud de onda del canal satelital</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
@@ -178,7 +178,7 @@
 <tr><td>0 02 170</td><td>Sensores de humedad de la aeronave</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>6</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 171</td><td>Número de serie del instrumento para mediciones del perfil de temperatura del agua</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Carácter</td><td>0</td><td>8</td><td></td></tr>
 <tr><td>0 02 172</td><td>Tipo de producto para la recuperación de datos sobre gases atmosféricos</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>8</td><td>Tabla de cifrado</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 173</td><td>Cuadrado del ángulo de desviación del nadir</td><td>grado²</td><td>4</td><td>0</td><td>10</td><td>grado²</td><td>4</td><td>4</td><td>Note 124: Cuadrado del ángulo de desviación del nadir contabilizado a partir de parámetros derivados en forma de onda Ku, unidad 10 –4 grado2, valor mínimo común 0, valor común 900. I.2 – BUFR/CREX Tabla B/02 – 12</td></tr>
+<tr><td>0 02 173</td><td>Cuadrado del ángulo de desviación del nadir</td><td>grado²</td><td>4</td><td>0</td><td>10</td><td>grado²</td><td>4</td><td>4</td><td>Note B124: Cuadrado del ángulo de desviación del nadir contabilizado a partir de parámetros derivados en forma de onda Ku, unidad 10 –4 grado2, valor mínimo común 0, valor común 900. I.2 – BUFR/CREX Tabla B/02 – 12</td></tr>
 <tr><td>0 02 174</td><td>Número medio de píxeles transversales por pista</td><td>Numérica</td><td>0</td><td>0</td><td>9</td><td>Numérica</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 175</td><td>Método de medición de la precipitación</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 176</td><td>Método de medición del estado del suelo</td><td>Tabla de cifrado</td><td>0</td><td>0</td><td>4</td><td>Tabla de cifrado</td><td>0</td><td>2</td><td></td></tr>
@@ -200,9 +200,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 121: En relación con determinados elementos de esta clase, pueden consignarse algunas indicaciones sobre la precisión prevista.</p>
-<p class="note">Note 155: Esta clase también puede contener elementos relativos a los procedimientos de observación.</p>
-<p class="note">Note 156: Esta clase incluirá elementos que describen los instrumentos que se utilizan para obtener los elementos meteorológicos transmitidos.</p>
+<p class="note">Note B121: En relación con determinados elementos de esta clase, pueden consignarse algunas indicaciones sobre la precisión prevista.</p>
+<p class="note">Note B155: Esta clase también puede contener elementos relativos a los procedimientos de observación.</p>
+<p class="note">Note B156: Esta clase incluirá elementos que describen los instrumentos que se utilizan para obtener los elementos meteorológicos transmitidos.</p>
 </div>
 </body>
 </html>
