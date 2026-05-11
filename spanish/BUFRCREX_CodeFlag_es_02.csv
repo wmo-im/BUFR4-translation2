@@ -63,8 +63,8 @@ bufr4/0/02/008/4,002008,Tipo de plataforma marina,4,FPSO (unidad flotante de pro
 bufr4/0/02/008/5,002008,Tipo de plataforma marina,5,Barco ligero,,,,,Operational,PDF
 bufr4/0/02/008/6-14,002008,Tipo de plataforma marina,6-14,Reservadas,,,,,Operational,PDF
 bufr4/0/02/008/15,002008,Tipo de plataforma marina,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/011,002011,Tipo de radiosonda,,,,,"(Véase la Tabla de cifrado común C−2, Parte C/c.)",,Operational,PDF
-bufr4/0/02/012,002012,Método de cálculo de radiosonda,,,,,(Se elaborará.),,Operational,PDF
+bufr4/0/02/011,002011,Tipo de radiosonda,,,,,,,Operational,PDF
+bufr4/0/02/012,002012,Método de cálculo de radiosonda,,,,,,,Operational,PDF
 bufr4/0/02/013/0,002013,Corrección de la radiación solar y de infrarrojo,0,Ninguna corrección,,,,,Operational,PDF
 bufr4/0/02/013/1,002013,Corrección de la radiación solar y de infrarrojo,1,Radiación solar y de infrarrojo corregidas por la CIMO,,,,,Operational,PDF
 bufr4/0/02/013/2,002013,Corrección de la radiación solar y de infrarrojo,2,Radiación solar y radiación de infrarrojo corregida por la CIMO,,,,,Operational,PDF
@@ -77,7 +77,7 @@ bufr4/0/02/013/8,002013,Corrección de la radiación solar y de infrarrojo,8,Rad
 bufr4/0/02/013/9,002013,Corrección de la radiación solar y de infrarrojo,9,Radiación solar corregida según lo especificado por la GRUAN,,,,,Operational,PDF
 bufr4/0/02/013/10-14,002013,Corrección de la radiación solar y de infrarrojo,10-14,Reservadas,,,,,Operational,PDF
 bufr4/0/02/013/15,002013,Corrección de la radiación solar y de infrarrojo,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/014,002014,Técnica de seguimiento/situación del sistema utilizado,,,,,"(Véase la Tabla de cifrado común C−7, Parte C/c.)",,Operational,PDF
+bufr4/0/02/014,002014,Técnica de seguimiento/situación del sistema utilizado,,,,,,,Operational,PDF
 bufr4/0/02/015/0,002015,Integralidad de la radiosonda,0,Reservada,,,,,Operational,PDF
 bufr4/0/02/015/1,002015,Integralidad de la radiosonda,1,Radiosonda de medida de la presión únicamente,,,,,Operational,PDF
 bufr4/0/02/015/2,002015,Integralidad de la radiosonda,2,Radiosonda de medida de la presión únicamente y transpondedor,,,,,Operational,PDF
@@ -99,7 +99,7 @@ bufr4/0/02/017/4-6,002017,Algoritmos de corrección de las mediciones de humedad
 bufr4/0/02/017/7,002017,Algoritmos de corrección de las mediciones de humedad,7,Corrección de la radiación solar y del tiempo de respuesta según lo especificado por la GRUAN,,,,,Operational,PDF
 bufr4/0/02/017/8-30,002017,Algoritmos de corrección de las mediciones de humedad,8-30,Reservadas,,,,,Operational,PDF
 bufr4/0/02/017/31,002017,Algoritmos de corrección de las mediciones de humedad,31,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/019,002019,Instrumentos de satélite,,,,,"(Véase la Tabla de cifrado común C–8, Parte C/c.)",,Operational,PDF
+bufr4/0/02/019,002019,Instrumentos de satélite,,,,,,,Operational,PDF
 bufr4/0/02/020/0,002020,Clasificación de los satélites,0,Nimbus,,,,,Operational,PDF
 bufr4/0/02/020/1,002020,Clasificación de los satélites,1,VTPR,,,,,Operational,PDF
 bufr4/0/02/020/2,002020,Clasificación de los satélites,2,"TIROS 1 (TIROS, NOAA-6 a NOAA-13)",,,,,Operational,PDF
@@ -143,7 +143,7 @@ bufr4/0/02/021/6,002021,Datos de instrumentos satelitales utilizados en el proce
 bufr4/0/02/021/7,002021,Datos de instrumentos satelitales utilizados en el proceso,7,Altímetro radar,,,,,Operational,PDF
 bufr4/0/02/021/8,002021,Datos de instrumentos satelitales utilizados en el proceso,8,ATSR,,,,,Operational,PDF
 bufr4/0/02/021/All-9,002021,Datos de instrumentos satelitales utilizados en el proceso,Los 9,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/022/1,002022,Técnica utilizada en el proceso de datos satelitales,1,Técnica de proceso sin especificar,,,Banderines de bit que indican los elementos incluidos en el proceso de datos de sondeo.,,Operational,PDF
+bufr4/0/02/022/1,002022,Técnica utilizada en el proceso de datos satelitales,1,Técnica de proceso sin especificar,,,,,Operational,PDF
 bufr4/0/02/022/2,002022,Técnica utilizada en el proceso de datos satelitales,2,Regresión estadística automatizada,,,,,Operational,PDF
 bufr4/0/02/022/3,002022,Técnica utilizada en el proceso de datos satelitales,3,Trayecto despejado,,,Nota 1,CF28,Operational,PDF
 bufr4/0/02/022/4,002022,Técnica utilizada en el proceso de datos satelitales,4,Trayecto parcialmente nuboso,,,Nota 2,CF62,Operational,PDF
@@ -167,7 +167,7 @@ bufr4/0/02/024/1,002024,Método de cálculo de la humedad media integrada,1,Tabl
 bufr4/0/02/024/2,002024,Método de cálculo de la humedad media integrada,2,Técnica de regresión aplicada a 2 valores de humedad de la capa,,,,,Operational,PDF
 bufr4/0/02/024/3-14,002024,Método de cálculo de la humedad media integrada,3-14,Reservadas,,,,,Operational,PDF
 bufr4/0/02/024/15,002024,Método de cálculo de la humedad media integrada,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/025/1,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,1,Reservado,,,"Los banderines de bits indican el instrumento y/o canales utilizados para obtener diversos parámetros físicos. Cuando, en cualquier grupo de parámetros, todos los bits = 0, no se efectúa recuperación respecto a ese parámetro o serie de parámetros.",,Operational,PDF
+bufr4/0/02/025/1,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,1,Reservado,,,,,Operational,PDF
 bufr4/0/02/025//1,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,,"Grupo 1 - Agua precipitable para las capas: superficie hasta 700 hPa, 700 a 500 hPa, y 500 a 300 hPa",,,,,Operational,PDF
 bufr4/0/02/025/2,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,2,HIRS,,,,,Operational,PDF
 bufr4/0/02/025/3,002025,Canal(es) satelital(es) utilizado(s) en el cálculo,3,MSU,,,,,Operational,PDF
@@ -450,7 +450,7 @@ bufr4/0/02/062/4,002062,Tipo de sistema de retransmisión de datos procedentes d
 bufr4/0/02/062/5,002062,Tipo de sistema de retransmisión de datos procedentes de aeronaves,5,ACARS (ASDAR también y funciona),,,,,Operational,PDF
 bufr4/0/02/062/6-14,002062,Tipo de sistema de retransmisión de datos procedentes de aeronaves,6-14,Reservadas,,,,,Operational,PDF
 bufr4/0/02/062/15,002062,Tipo de sistema de retransmisión de datos procedentes de aeronaves,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/02/064/0,002064,Calidad del ángulo de balanceo de la aeronave,0,Buena,,,Nota: La calidad mala se define actualmente como un ángulo de balanceo superior a 5 grados con relación a la vertical.,,Operational,PDF
+bufr4/0/02/064/0,002064,Calidad del ángulo de balanceo de la aeronave,0,Buena,,,,,Operational,PDF
 bufr4/0/02/064/1,002064,Calidad del ángulo de balanceo de la aeronave,1,Mala,,,Nota,CF20,Operational,PDF
 bufr4/0/02/064/2,002064,Calidad del ángulo de balanceo de la aeronave,2,Reservada,,,,,Operational,PDF
 bufr4/0/02/064/3,002064,Calidad del ángulo de balanceo de la aeronave,3,Valor faltante,,,,,Operational,PDF
