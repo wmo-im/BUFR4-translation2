@@ -33,9 +33,9 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 003</td><td>Région OMM/zone géographique</td><td></td><td>Note 11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
-<tr><td>0 01 004</td><td>Sous-région OMM</td><td></td><td>Note 11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
-<tr><td>0 01 005</td><td>Indicateur d&#x27;identification de la bouée ou de la plate-forme</td><td></td><td>Note 11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
+<tr><td>0 01 003</td><td>Région OMM/zone géographique</td><td></td><td>Note D11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
+<tr><td>0 01 004</td><td>Sous-région OMM</td><td></td><td>Note D11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
+<tr><td>0 01 005</td><td>Indicateur d&#x27;identification de la bouée ou de la plate-forme</td><td></td><td>Note D11: Ne pas utiliser le descripteur 3 01 002.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 003 (Indicatif d&#x27;appel du navire et déplacement)</p>
@@ -104,7 +104,7 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 114</td><td>Indicateur d&#x27;identification chiffré du navire ou d&#x27;une station terrestre mobile (chiffrement Base64)</td><td></td><td>Note 57: L’indicatif d’appel du navire, ou l’indicatif OMM, devrait être signalé au moyen du descripteur 0 01 011. | Note 23: Toutefois, dans le cas des messages de navires basés sur le modèle 3 08 014 et pour les besoins des sociétés de transport maritime lorsque des navires d’observation bénévoles sont recrutés, ou bien si c’est demandé ultérieurement, l’indicatif d’appel du navire ou un autre indicatif peut être chiffré en BUFR au moyen de la séquence 3 01 018 selon la méthode suivante: – L’indicatif d’appel habituel (c’est-à-dire le descripteur 0 01 011) est chiffré avec une valeur manquante; – La méthode de chiffrement est indiquée par le descripteur 0 25 185.</td></tr>
+<tr><td>0 01 114</td><td>Indicateur d&#x27;identification chiffré du navire ou d&#x27;une station terrestre mobile (chiffrement Base64)</td><td></td><td>Note D57: L’indicatif d’appel du navire, ou l’indicatif OMM, devrait être signalé au moyen du descripteur 0 01 011. | Note D23: Toutefois, dans le cas des messages de navires basés sur le modèle 3 08 014 et pour les besoins des sociétés de transport maritime lorsque des navires d’observation bénévoles sont recrutés, ou bien si c’est demandé ultérieurement, l’indicatif d’appel du navire ou un autre indicatif peut être chiffré en BUFR au moyen de la séquence 3 01 018 selon la méthode suivante: – L’indicatif d’appel habituel (c’est-à-dire le descripteur 0 01 011) est chiffré avec une valeur manquante; – La méthode de chiffrement est indiquée par le descripteur 0 25 185.</td></tr>
 <tr><td>0 25 185</td><td>Méthode de chiffrement</td><td></td><td></td></tr>
 <tr><td>0 25 186</td><td>Version de la clef de chiffrement</td><td></td><td></td></tr>
 </tbody>
@@ -171,7 +171,7 @@
 <tbody>
 <tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>= 0 Point, = 1 Ligne, = 2 Surface, = 3 Volume</td><td></td></tr>
 <tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
-<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td>Note 65: Le type 4 de projection indique une grille cartesienne placee directement sur le cone de balayage defini par la portee azimutale du radar.</td></tr>
+<tr><td>0 31 001</td><td>Facteur de répétition différée du descripteur</td><td></td><td>(voir note 5)</td></tr>
 <tr><td>3 01 028</td><td>Coupe horizontale d&#x27;une caractéristique météorologique décrite sous la forme d&#x27;un polygone, d&#x27;un cercle, d&#x27;une ligne ou d&#x27;un point</td><td></td><td></td></tr>
 <tr><td>0 08 007</td><td>Caractéristique dimensionnelle</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
 </tbody>
@@ -184,9 +184,9 @@
 <tr><td>0 33 042</td><td>Type de limite représentée par la valeur qui suit</td><td></td><td></td></tr>
 <tr><td>0 07 010</td><td>Niveau de vol</td><td></td><td></td></tr>
 <tr><td>1 01 000</td><td>Répétition différée de 1 descripteur</td><td></td><td></td></tr>
-<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td>Note 66: Les incréments dans le sens est-ouest sont indiqués par des valeurs négatives.</td></tr>
+<tr><td>0 31 002</td><td>Facteur élargi de répétition différée du descripteur</td><td></td><td>(voir note 6)</td></tr>
 <tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td></td></tr>
-<tr><td>0 19 007</td><td>Rayon réel de la caractéristique</td><td></td><td>Note 61: Le descripteur 0 19 007 indique une valeur manquante, sauf si la coupe horizontale décrite correspond à un cercle.</td></tr>
+<tr><td>0 19 007</td><td>Rayon réel de la caractéristique</td><td></td><td>Note D61: Le descripteur 0 19 007 indique une valeur manquante, sauf si la coupe horizontale décrite correspond à un cercle.</td></tr>
 <tr><td>0 08 040</td><td>Caractéristique du niveau de vol</td><td>Mis à valeur manquante (annuler)</td><td></td></tr>
 </tbody>
 </table>
@@ -257,13 +257,13 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 005</td><td>Indicateur d&#x27;identification de la bouée ou de la plate-forme</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>0 01 012</td><td>Direction de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>0 01 013</td><td>Vitesse de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>0 02 001</td><td>Type de station</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
-<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td>Note 12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>0 01 005</td><td>Indicateur d&#x27;identification de la bouée ou de la plate-forme</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>0 01 012</td><td>Direction de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>0 01 013</td><td>Vitesse de déplacement de la plate-forme d&#x27;observation mobile</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>0 02 001</td><td>Type de station</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>3 01 012</td><td>Heure, minute</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
+<tr><td>3 01 023</td><td>Latitude/longitude (faible précision)</td><td></td><td>Note D12: Utiliser le descripteur 3 01 055 au lieu du 3 01 035 pour le codage des informations fournies pas les bouées/plates-formes mobiles.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 036 (Navire)</p>
@@ -555,8 +555,8 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 01 006</td><td>Numéro de vol de l&#x27;aéronef</td><td></td><td>Note 5: Telle qu’elle est fournie par le centre secondaire ARINC d’origine, cette valeur est une pseudovaleur plutôt qu’une valeur réelle. Seule ARINC connaît le rapport entre cette pseudo-valeur et la valeur réelle.</td></tr>
-<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td>Note 5: Telle qu’elle est fournie par le centre secondaire ARINC d’origine, cette valeur est une pseudovaleur plutôt qu’une valeur réelle. Seule ARINC connaît le rapport entre cette pseudo-valeur et la valeur réelle.</td></tr>
+<tr><td>0 01 006</td><td>Numéro de vol de l&#x27;aéronef</td><td></td><td>Note D5: Telle qu’elle est fournie par le centre secondaire ARINC d’origine, cette valeur est une pseudovaleur plutôt qu’une valeur réelle. Seule ARINC connaît le rapport entre cette pseudo-valeur et la valeur réelle.</td></tr>
+<tr><td>0 01 008</td><td>Numéro d&#x27;immatriculation de l&#x27;aéronef ou autre identification</td><td></td><td>Note D5: Telle qu’elle est fournie par le centre secondaire ARINC d’origine, cette valeur est une pseudovaleur plutôt qu’une valeur réelle. Seule ARINC connaît le rapport entre cette pseudo-valeur et la valeur réelle.</td></tr>
 <tr><td>0 02 001</td><td>Type de station</td><td></td><td></td></tr>
 <tr><td>0 02 002</td><td>Type d&#x27;instrument pour la mesure du vent</td><td></td><td></td></tr>
 <tr><td>0 02 005</td><td>Précision des observations de la température</td><td></td><td></td></tr>
@@ -736,7 +736,7 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 18 Heure du lâcher</td><td>Note 72: Il convient de transmettre l’heure du lâcher avec la plus grande précision possible. Lorsqu’on ne dispose pas de l’heure du lâcher à la seconde près, il faut mettre à zéro le bit correspondant aux secondes.</td></tr>
+<tr><td>0 08 021</td><td>Caractéristique temporelle</td><td>= 18 Heure du lâcher</td><td>Note D72: Il convient de transmettre l’heure du lâcher avec la plus grande précision possible. Lorsqu’on ne dispose pas de l’heure du lâcher à la seconde près, il faut mettre à zéro le bit correspondant aux secondes.</td></tr>
 <tr><td>3 01 011</td><td>Année, mois, jour</td><td>Jour du lâcher</td><td>(voir note 11)</td></tr>
 <tr><td>3 01 013</td><td>Heure, minute, seconde</td><td>Heure du lâcher</td><td>(voir note 11)</td></tr>
 </tbody>
@@ -777,7 +777,7 @@
 <table>
 <thead><tr><th>SÉQUENCE DE DESCRIPTEURS</th><th>NOM DE L&#x27;ÉLÉMENT</th><th>DESCRIPTION DE L&#x27;ÉLÉMENT</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td>Note 72: Il convient de transmettre l’heure du lâcher avec la plus grande précision possible. Lorsqu’on ne dispose pas de l’heure du lâcher à la seconde près, il faut mettre à zéro le bit correspondant aux secondes.</td></tr>
+<tr><td>3 01 011</td><td>Année, mois, jour</td><td></td><td>Note D72: Il convient de transmettre l’heure du lâcher avec la plus grande précision possible. Lorsqu’on ne dispose pas de l’heure du lâcher à la seconde près, il faut mettre à zéro le bit correspondant aux secondes.</td></tr>
 <tr><td>3 01 012</td><td>Heure, minute</td><td></td><td></td></tr>
 <tr><td>2 01 135</td><td>Changer le champ de données</td><td></td><td></td></tr>
 <tr><td>2 02 130</td><td>Changer d&#x27;échelle</td><td></td><td></td></tr>
@@ -923,7 +923,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 62: Les descripteurs 3 01 041 à 3 01 049 et 3 01 062, 3 01 071, et 3 01 072 ne devraient pas être utilisés pour la transmission dans le CREX.</p>
+<p class="note">Note D62: Les descripteurs 3 01 041 à 3 01 049 et 3 01 062, 3 01 071, et 3 01 072 ne devraient pas être utilisés pour la transmission dans le CREX.</p>
 </div>
 </body>
 </html>

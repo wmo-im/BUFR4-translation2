@@ -937,7 +937,7 @@ bufr4/0/20/105/8,020105,Tamaño del enjambre o banda de langostas y duración de
 bufr4/0/20/105/9,020105,Tamaño del enjambre o banda de langostas y duración de su paso,9,Área cubierta por bandadas dispersas > 1000 km²,,,,,Operational,PDF
 bufr4/0/20/105/10-14,020105,Tamaño del enjambre o banda de langostas y duración de su paso,10-14,Reservadas,,,,,Operational,PDF
 bufr4/0/20/105/15,020105,Tamaño del enjambre o banda de langostas y duración de su paso,15,Valor faltante,,,,,Operational,PDF
-bufr4/0/20/105//2,020105,Tamaño del enjambre o banda de langostas y duración de su paso,,When 0 20 104 (organization state of swarm or band of locusts) = 1 to 9,,,,,Operational,PDF
+bufr4/0/20/105//2,020105,Tamaño del enjambre o banda de langostas y duración de su paso,,Cuando 0 20 104 (estado organizativo de la bandada de langostas) = 1 a 9,,,,,Operational,PDF
 bufr4/0/20/105/0//2,020105,Tamaño del enjambre o banda de langostas y duración de su paso,0,"Bandada pequeña inferior a 1 km² o adultos en tierra, decenas o centenas de individuos visibles simultáneamente, cuyo paso fue registrado hace menos de una hora",,,,,Operational,PDF
 bufr4/0/20/105/1//2,020105,Tamaño del enjambre o banda de langostas y duración de su paso,1,"Bandada pequeña inferior a 1 km² o adultos en tierra, decenas o centenas de individuos visibles simultáneamente, cuyo paso fue registrado hace entre 1 y 6 horas",,,,,Operational,PDF
 bufr4/0/20/105/2//2,020105,Tamaño del enjambre o banda de langostas y duración de su paso,2,"Bandada pequeña inferior a 1 km² o adultos en tierra, decenas o centenas de individuos visibles simultáneamente, cuyo paso fue registrado hace más 6 de horas",,,,,Operational,PDF
@@ -1000,7 +1000,7 @@ bufr4/0/20/136/6,020136,Tipo de nubes suplementario,6,Cúmulos aislados y cumulo
 bufr4/0/20/136/7,020136,Tipo de nubes suplementario,7,Numerosos cúmulos y cumulonimbos,,,,,Operational,PDF
 bufr4/0/20/136/8-9,020136,Tipo de nubes suplementario,8-9,Reservadas,,,,,Operational,PDF
 bufr4/0/20/136//2,020136,Tipo de nubes suplementario,,10–19 Nubes orográficas (C0 – Tabla de cifrado 0561),,,,,Operational,PDF
-bufr4/0/20/136/10,020136,Supplementary cloud type,10,Reservadas,,,,,Operational,PDF
+bufr4/0/20/136/10,020136,Tipo de nubes suplementario,10,Reservadas,,,,,Operational,PDF
 bufr4/0/20/136/11,020136,Tipo de nubes suplementario,11,"Nubes orográficas aisladas, pileus, incus, en formación",,,,,Operational,PDF
 bufr4/0/20/136/12,020136,Tipo de nubes suplementario,12,"Nubes orográficas aisladas, pileus, incus, sin variación",,,,,Operational,PDF
 bufr4/0/20/136/13,020136,Tipo de nubes suplementario,13,"Nubes orográficas aisladas, pileus, incus, deshaciéndose",,,,,Operational,PDF

@@ -504,17 +504,17 @@ bufr4/3/10/026/80/201000,10,Vertical sounding sequences (satellite data),310026,
 bufr4/3/10/026/81/008023,10,Vertical sounding sequences (satellite data),310026,(Satellite radio occultation data),,008023,First-order statistics,Set to missing,,,Operational,na
 bufr4/3/10/026/82/033007,10,Vertical sounding sequences (satellite data),310026,(Satellite radio occultation data),,033007,Per cent confidence,Surface data,,,Operational,na
 bufr4/3/10/027/1/301071,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301071,Satellite identifier/Generating resolution,Product information,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/2/301011,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301011,"Year, month, day",,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/3/301013,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301013,"Hour, minute, second",,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/4/301021,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301021,Latitude/longitude (high accuracy),,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/5/030021,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,030021,Number of pixels per row,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/6/030022,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,030022,Number of pixels per column,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/7/010002,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,010002,Height,Orbit height,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/8/304036,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,304036,Cloud coverage,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/9/002152,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,002152,Satellite instrument used in data processing,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/10/002167,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,002167,Radiance computational method,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/11/101011,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,101011,Replicate 1 descriptor 11 times,,(see Note 1),D3,Deprecated,na
-bufr4/3/10/027/12/304035,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,304035,All sky radiance data,,(see Note 1),D3,Deprecated,na
+bufr4/3/10/027/2/301011,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301011,"Year, month, day",,,,Deprecated,na
+bufr4/3/10/027/3/301013,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301013,"Hour, minute, second",,,,Deprecated,na
+bufr4/3/10/027/4/301021,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,301021,Latitude/longitude (high accuracy),,,,Deprecated,na
+bufr4/3/10/027/5/030021,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,030021,Number of pixels per row,,,,Deprecated,na
+bufr4/3/10/027/6/030022,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,030022,Number of pixels per column,,,,Deprecated,na
+bufr4/3/10/027/7/010002,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,010002,Height,Orbit height,,,Deprecated,na
+bufr4/3/10/027/8/304036,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,304036,Cloud coverage,,,,Deprecated,na
+bufr4/3/10/027/9/002152,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,002152,Satellite instrument used in data processing,,,,Deprecated,na
+bufr4/3/10/027/10/002167,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,002167,Radiance computational method,,,,Deprecated,na
+bufr4/3/10/027/11/101011,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,101011,Replicate 1 descriptor 11 times,,,,Deprecated,na
+bufr4/3/10/027/12/304035,10,Vertical sounding sequences (satellite data),310027,(All sky radiance product main sequence),,304035,All sky radiance data,,,,Deprecated,na
 bufr4/3/10/028/1/301071,10,Vertical sounding sequences (satellite data),310028,(All sky radiance product main sequence),,301071,Satellite identifier/Generating resolution,Product information,,,Operational,na
 bufr4/3/10/028/2/301011,10,Vertical sounding sequences (satellite data),310028,(All sky radiance product main sequence),,301011,"Year, month, day",,,,Operational,na
 bufr4/3/10/028/3/301013,10,Vertical sounding sequences (satellite data),310028,(All sky radiance product main sequence),,301013,"Hour, minute, second",,,,Operational,na
@@ -918,7 +918,7 @@ bufr4/3/10/067/7/001012,10,Vertical sounding sequences (satellite data),310067,(
 bufr4/3/10/067/8/201138,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Satellite/instrument identification,201138,Change data width,,,,Operational,na
 bufr4/3/10/067/9/002026,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Satellite/instrument identification,002026,Cross-track resolution,,,,Operational,na
 bufr4/3/10/067/10/002027,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Satellite/instrument identification,002027,Along-track resolution,,,,Operational,na
-bufr4/3/10/067/11/201000,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Satellite/instrument identification,201000,Cancel change data width,,,,Operational,na
+bufr4/3/10/067/11/201000,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Satellite/instrument identification,201000,Change data width,Cancel,,,Operational,na
 bufr4/3/10/067/12/002028,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Methods,002028,Segment size at nadir in x-direction,Target box size,,,Operational,na
 bufr4/3/10/067/13/002029,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Methods,002029,Segment size at nadir in y-direction,Target box size,,,Operational,na
 bufr4/3/10/067/14/002161,10,Vertical sounding sequences (satellite data),310067,(Satellite-derived winds),Methods,002161,Wind processing method,,,,Operational,na

@@ -43,7 +43,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 10: Véase la Tabla de cifrado común C–5, Parte C/c.</p>
+<p class="note">Note CF10: Véase la Tabla de cifrado común C–5, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 01 024  Fuente de la velocidad del viento</p>
 <table>
@@ -98,7 +98,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 6: Véase la Tabla de cifrado común C–1, Parte C/c.</p>
+<p class="note">Note CF6: Véase la Tabla de cifrado común C–1, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 01 033  Identificación del centro de origen/generación</p>
 <table>
@@ -108,7 +108,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 6: Véase la Tabla de cifrado común C–1, Parte C/c.</p>
+<p class="note">Note CF6: Véase la Tabla de cifrado común C–1, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 01 034  Identificación del centro secundario de origen/generación</p>
 <table>
@@ -118,7 +118,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 14: Será definida por los propios centros — Véase la Tabla de cifrado común C-12, Parte C/c.</p>
+<p class="note">Note CF14: Será definida por los propios centros — Véase la Tabla de cifrado común C-12, Parte C/c.</p>
 </div>
 <p class="fxy-heading">0 01 036  Organismo encargado de operar la plataforma de observación</p>
 <table>
@@ -180,7 +180,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 78: Los tres primeros dígitos representan el código de país ISO.</p>
+<p class="note">Note CF78: Los tres primeros dígitos representan el código de país ISO.</p>
 </div>
 <p class="fxy-heading">0 01 038  Fuente de la fracción de hielo marino</p>
 <table>
@@ -474,14 +474,14 @@
 <tr><td>1</td><td>ETRS89, definida por el Grupo Europeo de Encuestas sobre el Petróleo (EPSG):4258</td><td></td></tr>
 <tr><td>2</td><td>NAD83, definida por el EPSG:4269</td><td></td></tr>
 <tr><td>3</td><td>DHDN, definida por el EPSG:4314</td><td></td></tr>
-<tr><td>4</td><td>Dato elipsoide que utiliza el Meridiano de Referencia Internacional y el Polo de Referencia Internacional como el meridiano principal y polo principal respectivamente, y el origen del Sistema de Referencia Terrestre Internacional (ITRS). El Servicio Internacional de Rotación de la Tierra y Sistemas de Referencia (IERS) se ocupa de mantener el Meridiano de Referencia Internacional, el Polo de Referencia Internacional y el ITRS.</td><td>Note 92: Para distinguir claramente los casos de datos faltantes y de píxeles saturados, los datos de imagen de n bits deberían cifrarse utilizando una anchura de datos de n + 1. Si tal descriptor no está disponible ya en la Clase 30, debería utilizarse un descriptor de operación 2 01 YYY para modificar la anchura de datos de la entrada existente, si fuese necesario. I.2 – BUFR/CREX Tabla B/30 – 1</td></tr>
+<tr><td>4</td><td>Dato elipsoide que utiliza el Meridiano de Referencia Internacional y el Polo de Referencia Internacional como el meridiano principal y polo principal respectivamente, y el origen del Sistema de Referencia Terrestre Internacional (ITRS). El Servicio Internacional de Rotación de la Tierra y Sistemas de Referencia (IERS) se ocupa de mantener el Meridiano de Referencia Internacional, el Polo de Referencia Internacional y el ITRS.</td><td>Note CF92: Cuando la cifra de clave 4 se usa para especificar un sistema de coordenadas de referencia adaptado, el dato elipsoide será un elipsoide de revolución oblato, en el que el eje mayor es uniplanar con el plano ecuatorial y el eje menor atraviesa el meridiano principal hacia el polo principal. El Norte corresponde a la dirección desde el ecuador hacia el polo principal. El Este corresponde a la dirección en sentido antihorario desde el meridiano principal visto desde el Polo Norte. En este caso se deben especificar los semiejes mayor y menor (por ejemplo, mediante los descriptores 0 01 152 y 0 01 153).</td></tr>
 <tr><td>5</td><td>Sistema de coordenadas centradas en la Tierra, fijas en la Tierra (ECEF) o sistema de rotación geocéntrico (ECR). Este es un sistema de mano derecha, de coordenadas cartesianas (X, Y, Z) que rota con la Tierra. El origen coincide con el centro de masas terrestre. (La nota 5 de la Clase 27 no se aplica si las coordenadas ECEF están especificadas.)</td><td></td></tr>
 <tr><td>6-65534</td><td>Reservadas</td><td></td></tr>
 <tr><td>65535</td><td>Valor faltante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 39: El EPSG es un conjunto de datos de sistemas de coordenadas y transformaciones de sistemas de coordenadas, elaborado y mantenido inicialmente por el Grupo Europeo de Encuestas sobre el Petróleo (EPSG). En la actualidad lo mantiene el Subcomité de Geodesia de la International Association of Oil and Gas Producers Geomatics Committee.</p>
+<p class="note">Note CF39: El EPSG es un conjunto de datos de sistemas de coordenadas y transformaciones de sistemas de coordenadas, elaborado y mantenido inicialmente por el Grupo Europeo de Encuestas sobre el Petróleo (EPSG). En la actualidad lo mantiene el Subcomité de Geodesia de la International Association of Oil and Gas Producers Geomatics Committee.</p>
 </div>
 <p class="fxy-heading">0 01 151  Dato de referencia del nivel medio del mar obtenido respecto a una referencia fija</p>
 <table>

@@ -33,9 +33,9 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>0 01 003</td><td>Número de Región de la OMM /zona geográfica</td><td></td><td>Note 11: No debería utilizarse el descriptor 3 01 002.</td></tr>
-<tr><td>0 01 004</td><td>Subárea de Región de la OMM</td><td></td><td>Note 11: No debería utilizarse el descriptor 3 01 002.</td></tr>
-<tr><td>0 01 005</td><td>Identificador de boya/plataforma</td><td></td><td>Note 11: No debería utilizarse el descriptor 3 01 002.</td></tr>
+<tr><td>0 01 003</td><td>Número de Región de la OMM /zona geográfica</td><td></td><td>Note D11: No debería utilizarse el descriptor 3 01 002.</td></tr>
+<tr><td>0 01 004</td><td>Subárea de Región de la OMM</td><td></td><td>Note D11: No debería utilizarse el descriptor 3 01 002.</td></tr>
+<tr><td>0 01 005</td><td>Identificador de boya/plataforma</td><td></td><td>Note D11: No debería utilizarse el descriptor 3 01 002.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 003 (Señal de llamada del buque y movimiento)</p>
@@ -104,7 +104,7 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>0 01 114</td><td>Identificador encriptado del buque o de la estación terrestre móvil (encriptación base64)</td><td></td><td>Note 57: La señal de llamada del buque o el identificador de la OMM deberían notificarse mediante el descriptor 0 01 011. | Note 23: No obstante, si las navieras lo requieren cuando se incorporan buques de observación voluntaria o si se solicita ulteriormente, para los informes de los buques en los que se utiliza el modelo 3 08 014, la señal de llamada del buque u otro identificador se puede encriptar en los informes BUFR mediante la secuencia 3 01 018 de acuerdo con el método siguiente: – La señal de llamada normal (es decir, el descriptor 0 01 011) se codificará con un valor faltante. – El método de encriptación se indicará usando el método indicado por 0 25 185. – La versión de la clave de encriptación utilizada se indicará mediante 0 25 186.</td></tr>
+<tr><td>0 01 114</td><td>Identificador encriptado del buque o de la estación terrestre móvil (encriptación base64)</td><td></td><td>Note D57: La señal de llamada del buque o el identificador de la OMM deberían notificarse mediante el descriptor 0 01 011. | Note D23: No obstante, si las navieras lo requieren cuando se incorporan buques de observación voluntaria o si se solicita ulteriormente, para los informes de los buques en los que se utiliza el modelo 3 08 014, la señal de llamada del buque u otro identificador se puede encriptar en los informes BUFR mediante la secuencia 3 01 018 de acuerdo con el método siguiente: – La señal de llamada normal (es decir, el descriptor 0 01 011) se codificará con un valor faltante. – El método de encriptación se indicará usando el método indicado por 0 25 185. – La versión de la clave de encriptación utilizada se indicará mediante 0 25 186.</td></tr>
 <tr><td>0 25 185</td><td>Método de encriptación</td><td></td><td></td></tr>
 <tr><td>0 25 186</td><td>Versión de la clave de encriptación</td><td></td><td></td></tr>
 </tbody>
@@ -171,7 +171,7 @@
 <tbody>
 <tr><td>0 08 007</td><td>Significación dimensional</td><td>= 0 punto, = 1 línea, = 2 área, = 3 volumen</td><td></td></tr>
 <tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
-<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td>Note 65: Este factor de repetición deberá tener el valor de “1” cuando se describe un elemento en 2-D, en tanto que los elementos en 3-D pueden describirse mediante cualquiera de los métodos siguientes: a) a través de dos o más secciones horizontales en niveles de vuelo ascendentes sucesivos. En este caso, cada sección será descrita por un número idéntico de puntos de latitud/longitud enumerados en orden idéntico (es decir, cuando cada punto x de la sección n va a unirse mediante una línea recta con el punto x de la sección n+1), para garantizar que la configuración general del elemento en 3-D queda expresada sin ambigüedad. En este caso, todos los valores comunicados para 0 33 042 serán “faltantes”. b) a través de una sección horizontal única y un valor apropiado comunicado para 0 33 042 como sigue. En todos esos casos, la correspondiente descripción de la sección horizontal se aplica a la región entera. i) Un valor de “0” indicará una región por encima del nivel de vuelo comunicado (pero no incluido) y con un límite superior no especificado. ii) Un valor de “1” indicará una región por encima del nivel de vuelo comunicado (e incluido) y con un límite superior no especificado. iii) Un valor de “2” indicará una región por debajo del nivel de vuelo comunicado (pero no incluido) y que se extiende a la superficie. iv) Un valor de “3” indicará una región por debajo del nivel de vuelo comunicado (e incluido) y que se extiende a la superficie. c) a través de dos repeticiones de la misma sección horizontal al mismo nivel de vuelo comunicado, con objeto de indicar una región que se extiende por debajo y por encima del nivel de vuelo comunicado (¡incluidos!). En este caso, los valores comunicados para las dos repeticiones de 0 33 042 serán como sigue: i) Valores de “3” y “1”, respectivamente, para indicar una región que comienza desde abajo de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia arriba hasta cierto punto no especificado (por ejemplo, TOP ABV FL 100). ii) Valores de “1” y “3”, respectivamente, para indicar una región que comienza desde arriba de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia abajo hasta cierto punto no especificado (por ejemplo, CIGS BLW FL010).</td></tr>
+<tr><td>0 31 001</td><td>Factor de repetición diferida del descriptor</td><td></td><td>Note D65: Este factor de repetición deberá tener el valor de “1” cuando se describe un elemento en 2-D, en tanto que los elementos en 3-D pueden describirse mediante cualquiera de los métodos siguientes: a) a través de dos o más secciones horizontales en niveles de vuelo ascendentes sucesivos. En este caso, cada sección será descrita por un número idéntico de puntos de latitud/longitud enumerados en orden idéntico (es decir, cuando cada punto x de la sección n va a unirse mediante una línea recta con el punto x de la sección n+1), para garantizar que la configuración general del elemento en 3-D queda expresada sin ambigüedad. En este caso, todos los valores comunicados para 0 33 042 serán “faltantes”. b) a través de una sección horizontal única y un valor apropiado comunicado para 0 33 042 como sigue. En todos esos casos, la correspondiente descripción de la sección horizontal se aplica a la región entera. i) Un valor de “0” indicará una región por encima del nivel de vuelo comunicado (pero no incluido) y con un límite superior no especificado. ii) Un valor de “1” indicará una región por encima del nivel de vuelo comunicado (e incluido) y con un límite superior no especificado. iii) Un valor de “2” indicará una región por debajo del nivel de vuelo comunicado (pero no incluido) y que se extiende a la superficie. iv) Un valor de “3” indicará una región por debajo del nivel de vuelo comunicado (e incluido) y que se extiende a la superficie. c) a través de dos repeticiones de la misma sección horizontal al mismo nivel de vuelo comunicado, con objeto de indicar una región que se extiende por debajo y por encima del nivel de vuelo comunicado (¡incluidos!). En este caso, los valores comunicados para las dos repeticiones de 0 33 042 serán como sigue: i) Valores de “3” y “1”, respectivamente, para indicar una región que comienza desde abajo de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia arriba hasta cierto punto no especificado (por ejemplo, TOP ABV FL 100). ii) Valores de “1” y “3”, respectivamente, para indicar una región que comienza desde arriba de un nivel de vuelo comunicado, pero que continúa a través de ese nivel hacia abajo hasta cierto punto no especificado (por ejemplo, CIGS BLW FL010).</td></tr>
 <tr><td>3 01 028</td><td>Sección horizontal de un elemento descrito como un polígono, un círculo, una línea o un punto</td><td></td><td></td></tr>
 <tr><td>0 08 007</td><td>Significación dimensional</td><td>Fijar en faltante (anular)</td><td></td></tr>
 </tbody>
@@ -184,9 +184,9 @@
 <tr><td>0 33 042</td><td>Tipo de límite representado por el valor siguiente</td><td></td><td></td></tr>
 <tr><td>0 07 010</td><td>Nivel de vuelo</td><td></td><td></td></tr>
 <tr><td>1 01 000</td><td>Repetición diferida de 1 descriptor</td><td></td><td></td></tr>
-<tr><td>0 31 002</td><td>Factor ampliado de repetición diferida del descriptor</td><td></td><td>Note 66: Este factor de repetición tendrá el valor de “1” cuando se describe un círculo o un punto, y tendrá un valor de “2” cuando se describe una línea. Por otra parte, se describirá un polígono mediante una secuencia de 3 o más puntos contiguos de conformidad con la nota relativa a la tabla de cifrado 0 08 007.</td></tr>
+<tr><td>0 31 002</td><td>Factor ampliado de repetición diferida del descriptor</td><td></td><td>Note D66: Este factor de repetición tendrá el valor de “1” cuando se describe un círculo o un punto, y tendrá un valor de “2” cuando se describe una línea. Por otra parte, se describirá un polígono mediante una secuencia de 3 o más puntos contiguos de conformidad con la nota relativa a la tabla de cifrado 0 08 007.</td></tr>
 <tr><td>3 01 023</td><td>Latitud/longitud (precisión aproximada)</td><td></td><td></td></tr>
-<tr><td>0 19 007</td><td>Radio del elemento efectivo</td><td></td><td>Note 61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
+<tr><td>0 19 007</td><td>Radio del elemento efectivo</td><td></td><td>Note D61: El valor comunicado para 0 19 007 será “faltante” a menos que la sección horizontal que se describe sea un círculo.</td></tr>
 <tr><td>0 08 040</td><td>Significación del nivel de vuelo</td><td>Fijar en faltante (anular)</td><td></td></tr>
 </tbody>
 </table>
@@ -257,13 +257,13 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>0 01 005</td><td>Identificador de la boya/plataforma</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>0 01 012</td><td>Dirección del movimiento de la plataforma de observación</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>0 01 013</td><td>Velocidad del movimiento de la plataforma de observación</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>0 02 001</td><td>Tipo de estación</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>3 01 011</td><td>Año, mes, día</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>3 01 012</td><td>Hora, minuto</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
-<tr><td>3 01 023</td><td>Latitud/longitud (precisión aproximada)</td><td></td><td>Note 12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>0 01 005</td><td>Identificador de la boya/plataforma</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>0 01 012</td><td>Dirección del movimiento de la plataforma de observación</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>0 01 013</td><td>Velocidad del movimiento de la plataforma de observación</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>0 02 001</td><td>Tipo de estación</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>3 01 011</td><td>Año, mes, día</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>3 01 012</td><td>Hora, minuto</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
+<tr><td>3 01 023</td><td>Latitud/longitud (precisión aproximada)</td><td></td><td>Note D12: Debería utilizarse el descriptor 3 01 055 en vez del 3 01 035 para cifrar información sobre boyas/plataformas en movimiento.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 01 036 (Buque)</p>
@@ -494,9 +494,9 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>3 01 011</td><td> A�o, mes, d�a</td><td></td><td></td></tr>
-<tr><td>3 01 012</td><td> Hora, minuto</td><td></td><td></td></tr>
-<tr><td>2 01 152</td><td> Cambio de anchura de datos</td><td></td><td></td></tr>
+<tr><td>3 01 011</td><td>A�o, mes, d�a</td><td></td><td></td></tr>
+<tr><td>3 01 012</td><td>Hora, minuto</td><td></td><td></td></tr>
+<tr><td>2 01 152</td><td>Cambio de anchura de datos</td><td></td><td></td></tr>
 <tr><td>2 02 135</td><td>Cambio de escala</td><td></td><td></td></tr>
 <tr><td>0 04 006</td><td>Segundo</td><td></td><td></td></tr>
 <tr><td>2 02 000</td><td>Cambio de escala</td><td></td><td></td></tr>
@@ -554,8 +554,8 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>0 01 006</td><td>Número de vuelo de la aeronave</td><td></td><td>Note 5: Este valor, que ha sido proporcionado por el centro secundario ARINC, es más bien un pseudovalor que el valor real. Solo ARINC conoce la relación entre este pseudovalor y el valor verdadero.</td></tr>
-<tr><td>0 01 008</td><td>Número de matrícula de aeronave u otra identificación</td><td></td><td>Note 5: Este valor, que ha sido proporcionado por el centro secundario ARINC, es más bien un pseudovalor que el valor real. Solo ARINC conoce la relación entre este pseudovalor y el valor verdadero.</td></tr>
+<tr><td>0 01 006</td><td>Número de vuelo de la aeronave</td><td></td><td>Note D5: Este valor, que ha sido proporcionado por el centro secundario ARINC, es más bien un pseudovalor que el valor real. Solo ARINC conoce la relación entre este pseudovalor y el valor verdadero.</td></tr>
+<tr><td>0 01 008</td><td>Número de matrícula de aeronave u otra identificación</td><td></td><td>Note D5: Este valor, que ha sido proporcionado por el centro secundario ARINC, es más bien un pseudovalor que el valor real. Solo ARINC conoce la relación entre este pseudovalor y el valor verdadero.</td></tr>
 <tr><td>0 02 001</td><td>Tipo de estación</td><td></td><td></td></tr>
 <tr><td>0 02 002</td><td>Tipo de instrumento utilizado para la medición del viento</td><td></td><td></td></tr>
 <tr><td>0 02 005</td><td>Precisión de la observación de la temperatura</td><td></td><td></td></tr>
@@ -735,7 +735,7 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>0 08 021</td><td>Significación temporal</td><td>=18 hora de lanzamiento</td><td>Note 72: La hora de lanzamiento se notificará con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de segundos, la entrada para los segundos se fijará en cero.</td></tr>
+<tr><td>0 08 021</td><td>Significación temporal</td><td>=18 hora de lanzamiento</td><td>Note D72: La hora de lanzamiento se notificará con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de segundos, la entrada para los segundos se fijará en cero.</td></tr>
 <tr><td>3 01 011</td><td>Año, mes, día</td><td>Hora de lanzamiento</td><td></td></tr>
 <tr><td>3 01 013</td><td>Hora, minuto, segundo</td><td>Hora de lanzamiento</td><td></td></tr>
 </tbody>
@@ -776,7 +776,7 @@
 <table>
 <thead><tr><th>SECUENCIA DE DESCRIPTORES</th><th>NOMBRE DEL ELEMENTO</th><th>DESCRIPCIÓN DEL ELEMENTO</th><th>NOTA</th></tr></thead>
 <tbody>
-<tr><td>3 01 011</td><td>Año, mes, día</td><td></td><td>Note 72: La hora de lanzamiento se notificará con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de segundos, la entrada para los segundos se fijará en cero.</td></tr>
+<tr><td>3 01 011</td><td>Año, mes, día</td><td></td><td>Note D72: La hora de lanzamiento se notificará con el mayor grado de exactitud posible. Si no se dispone de la hora de lanzamiento con una exactitud de segundos, la entrada para los segundos se fijará en cero.</td></tr>
 <tr><td>3 01 012</td><td>Hora, minuto</td><td></td><td></td></tr>
 <tr><td>2 01 135</td><td>Cambio anchura de datos</td><td></td><td></td></tr>
 <tr><td>2 02 130</td><td>Cambio de escala</td><td></td><td></td></tr>
@@ -917,8 +917,8 @@
 <tbody>
 <tr><td>3 01 150</td><td>Identificadores del WIGOS</td><td></td><td></td></tr>
 <tr><td>3 01 001</td><td>Números de bloque y de la estación de la OMM</td><td></td><td></td></tr>
-<tr><td>3 01 021</td><td>Latitud/longitud (gran precisión)</td><td>Sensor</td><td>Note 48: Los descriptores de latitud y longitud 0 05 001 y 0 06 001 indican la posición del instrumento y no la medición (que se cifra separadamente en la secuencia de datos asociada).</td></tr>
-<tr><td>0 07 030</td><td>Altura del suelo de la estación por encima del  nivel medio del mar</td><td></td><td></td></tr>
+<tr><td>3 01 021</td><td>Latitud/longitud (gran precisión)</td><td>Sensor</td><td>Note D48: Los descriptores de latitud y longitud 0 05 001 y 0 06 001 indican la posición del instrumento y no la medición (que se cifra separadamente en la secuencia de datos asociada).</td></tr>
+<tr><td>0 07 030</td><td>Altura del suelo de la estación por encima del nivel medio del mar</td><td></td><td></td></tr>
 <tr><td>0 08 021</td><td>Significación temporal</td><td>=29 fin del barrido o tiempo de finalización</td><td></td></tr>
 <tr><td>3 01 011</td><td>Año, mes, día</td><td></td><td></td></tr>
 <tr><td>3 01 012</td><td>Hora, minuto</td><td></td><td></td></tr>
@@ -938,7 +938,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 62: Estos descriptores no deben utilizarse en CREX para la transmisión.</p>
+<p class="note">Note D62: Estos descriptores no deben utilizarse en CREX para la transmisión.</p>
 </div>
 </body>
 </html>

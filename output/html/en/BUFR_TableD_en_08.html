@@ -43,9 +43,9 @@
 <table>
 <thead><tr><th>TABLE REFERENCES</th><th>ELEMENT NAME</th><th>ELEMENT DESCRIPTION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>3 01 035</td><td>Buoy/platform - moving</td><td>Identification, movement, type, date/time, position (coarse accuracy)</td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
-<tr><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
-<tr><td>0 22 042</td><td>Sea/water temperature</td><td></td><td>Note 13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr><td>3 01 035</td><td>Buoy/platform - moving</td><td>Identification, movement, type, date/time, position (coarse accuracy)</td><td>Note D13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr><td>3 02 011</td><td>Low altitude station</td><td>Basic surface report</td><td>Note D13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
+<tr><td>0 22 042</td><td>Sea/water temperature</td><td></td><td>Note D13: Descriptor 3 08 007 should be used instead of 3 08 003 to encode moving buoy/platform information.</td></tr>
 </tbody>
 </table>
 <p class="fxy-heading">3 08 004 (Ship)</p>
@@ -130,27 +130,27 @@
 <tbody>
 <tr><td>0 01 011</td><td>Ship or mobile land station identifier</td><td>Ship&#x27;s call sign</td><td></td></tr>
 <tr><td>0 02 001</td><td>Type of station</td><td></td><td></td></tr>
-<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
-<tr><td>3 01 012</td><td>Hour, minute</td><td></td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>3 01 011</td><td>Year, month, day</td><td></td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>3 01 012</td><td>Hour, minute</td><td></td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
 <tr><td>3 01 023</td><td>Latitude/longitude (coarse accuracy)</td><td></td><td></td></tr>
-<tr><td>0 07 030</td><td>Height of station ground above mean sea level</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
-<tr><td>0 07 031</td><td>Height of barometer above mean sea level</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
-<tr><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>0 07 030</td><td>Height of station ground above mean sea level</td><td></td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 031</td><td>Height of barometer above mean sea level</td><td></td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
 <tr><td>0 04 023</td><td>Time period or displacement</td><td>= Number of days in the month</td><td></td></tr>
 <tr><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
 <tr><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
-<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
-<tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
 <tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
 <tr><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
 <tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
 <tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>Set to missing (cancel)</td><td></td></tr>
 <tr><td>3 02 056</td><td>Sea/water temperature</td><td>Sea-surface temperature, method of measurement, and depth below sea surface</td><td></td></tr>
 <tr><td>0 08 023</td><td>First-order statistics</td><td>Set to missing</td><td></td></tr>
-<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
-<tr><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
-<tr><td>0 04 023</td><td>Time period or displacement</td><td>= Number of days in the month</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
-<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td></td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note D27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note D27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td>0 04 023</td><td>Time period or displacement</td><td>= Number of days in the month</td><td>Note D27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td></td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
 <tr><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
 <tr><td>0 13 051</td><td>Frequency group, precipitation</td><td></td><td></td></tr>
 <tr><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
@@ -164,14 +164,14 @@
 <tr><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
 <tr><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
 <tr><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
-<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
-<tr><td>0 04 004</td><td>Hour</td><td>= 0</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
-<tr><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note 59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td>= 0</td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
+<tr><td>0 04 074</td><td>Short time period or displacement</td><td>= UTC - LT</td><td>Note D59: The time identification refers to the beginning of the one-month period.</td></tr>
 <tr><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
 <tr><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
 <tr><td>0 10 051</td><td>Pressure reduced to mean sea level</td><td></td><td></td></tr>
-<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
-<tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Temperature measurement</td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 033</td><td>Height of sensor above water surface</td><td>Temperature measurement</td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
 <tr><td>0 12 101</td><td>Temperature/air temperature</td><td></td><td></td></tr>
 <tr><td>0 13 004</td><td>Vapour pressure</td><td></td><td></td></tr>
 <tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Set to missing (cancel)</td><td></td></tr>
@@ -181,10 +181,10 @@
 <tr><td>0 04 001</td><td>Year</td><td>Beginning of the reference period</td><td></td></tr>
 <tr><td>0 04 001</td><td>Year</td><td>Ending of the reference period</td><td></td></tr>
 <tr><td>0 04 002</td><td>Month</td><td></td><td></td></tr>
-<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
-<tr><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note 27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td>0 04 003</td><td>Day</td><td>= 1</td><td>Note D27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
+<tr><td>0 04 004</td><td>Hour</td><td>= 6</td><td>Note D27: In case of precipitation measurements, the one-month period begins at 06 UTC on the first day of the month and ends at 06 UTC on the first day of the following month.</td></tr>
 <tr><td>0 04 022</td><td>Time period or displacement</td><td>= 1</td><td></td></tr>
-<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Precipitation measurement</td><td>Note 25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
+<tr><td>0 07 032</td><td>Height of sensor above local ground (or deck of marine platform)</td><td>Precipitation measurement</td><td>Note D25: If the height of the sensor was changed during the period specified, the value shall be that which existed for the greater part of the period.</td></tr>
 <tr><td>0 08 023</td><td>First-order statistics</td><td>= 4 Mean value</td><td></td></tr>
 <tr><td>0 13 060</td><td>Total accumulated precipitation</td><td></td><td></td></tr>
 <tr><td>0 04 053</td><td>Number of days with precipitation equal to or more than 1 mm</td><td></td><td></td></tr>
@@ -256,7 +256,7 @@
 <tr><td>0 22 073</td><td>Maximum wave height</td><td>4HmHmHmHm</td><td></td></tr>
 <tr><td>0 22 074</td><td>Average wave period</td><td>5PaPaPaPa or 8PsaPsaPsaPsa - Section 0</td><td></td></tr>
 <tr><td>1 27 000</td><td>Delayed replication of 27 descriptors</td><td>Replication over sensor type</td><td></td></tr>
-<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note 41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note D41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
 <tr><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 102</td><td>Scaled maximum non-directional spectral wave density by frequency</td><td>CmCmCm - Section 2 or CsmCsmCsm - Section 3</td><td></td></tr>
@@ -270,14 +270,14 @@
 <tr><td>0 22 087</td><td>Principal direction from which waves are coming</td><td>da2da2 - Section 4</td><td></td></tr>
 <tr><td>0 22 088</td><td>First normalized polar coordinate from Fourier coefficients</td><td>r1r1 - Section 4</td><td></td></tr>
 <tr><td>0 22 089</td><td>Second normalized polar coordinate from Fourier coefficients</td><td>r2r2 - Section 4</td><td></td></tr>
-<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
+<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note D39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
 <tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 1 (directional)</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 104</td><td>Scaled non-directional spectral wave density by frequency</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
-<tr><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
-<tr><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
-<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
+<tr><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note D37: Missing for non-directional spectra.</td></tr>
+<tr><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note D37: Missing for non-directional spectra.</td></tr>
+<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note D22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
 <tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional)</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 106</td><td>Scaled directional spectral wave density by frequency</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
@@ -315,7 +315,7 @@
 <tr><td>0 22 073</td><td>Maximum wave height</td><td>4HmHmHmHm</td><td></td></tr>
 <tr><td>0 22 075</td><td>Average wavelength</td><td>5PaPaPaPa - Section 0</td><td></td></tr>
 <tr><td>1 27 000</td><td>Delayed replication of 27 descriptors</td><td>Replication over sensor type</td><td></td></tr>
-<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note 41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
+<tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>(0,1,2) normally 1</td><td>Note D41: Normally 1, may be 2 if both heave and slope sensors are in use, or 0 if no spectral data.</td></tr>
 <tr><td>0 02 046</td><td>Wave measurement instrumentation</td><td>= 1 Heave sensor, = 2 Slope sensor</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 103</td><td>Scaled maximum non-directional spectral wave density by wave number</td><td>CmCmCm - Section 2 or CsmCsmCsm - Section 3</td><td></td></tr>
@@ -329,14 +329,14 @@
 <tr><td>0 22 087</td><td>Principal direction from which waves are coming</td><td>da2da2 - Section 4</td><td></td></tr>
 <tr><td>0 22 088</td><td>First normalized polar coordinate from Fourier coefficients</td><td>r1r1 - Section 4</td><td></td></tr>
 <tr><td>0 22 089</td><td>Second normalized polar coordinate from Fourier coefficients</td><td>r2r2 - Section 4</td><td></td></tr>
-<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
+<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note D39: Non-directional spectra (Ib = 0 in WAVEOB) or partial directional spectra (Ib = 1 in WAVEOB with one direction per wave number). Count = 0 (full directional spectra) or 1 (non-directional spectra or partial directional spectra). Partial directional spectra have only one direction per wave number band.</td></tr>
 <tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 1 (directional)</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 105</td><td>Scaled non-directional spectral wave density by wave number</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>Set to missing</td><td></td></tr>
-<tr><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
-<tr><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note 37: Missing for non-directional spectra.</td></tr>
-<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note 22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
+<tr><td>0 22 186</td><td>Direction from which waves are coming</td><td>1d1d1 - Section 5</td><td>Note D37: Missing for non-directional spectra.</td></tr>
+<tr><td>0 22 187</td><td>Directional spread of wave</td><td>dsds - Section 5</td><td>Note D37: Missing for non-directional spectra.</td></tr>
+<tr><td>1 05 000</td><td>Delayed replication of 5 descriptors</td><td></td><td>Note D22: Full directional spectra (Ib = 1 in WAVEOB with more than one direction per wave number band). The replication count is the number of directions per wave number band that should normally cover the full circle.</td></tr>
 <tr><td>0 31 001</td><td>Delayed descriptor replication factor</td><td>n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional)</td><td></td></tr>
 <tr><td>0 08 090</td><td>Decimal scale of following significands</td><td>x - Scale to be applied to following element descriptors</td><td></td></tr>
 <tr><td>0 22 107</td><td>Scaled directional spectral wave density by wave number</td><td>1A1A1A1x ... - Section 5</td><td></td></tr>

@@ -248,7 +248,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 49: If bit is set to 1 then statement is true.</p>
+<p class="note">Note CF49: If bit is set to 1 then statement is true.</p>
 </div>
 <p class="fxy-heading">0 33 031  Scan line quality flags for ATOVS</p>
 <table>
@@ -280,10 +280,10 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 24: Bits 1-4 represent time problem code. All bits off implies the scan time is as expected.</p>
-<p class="note">Note 25: Bits 11-17 represent Earth location problem code. All bits set to zero implies the Earth location was normal.</p>
-<p class="note">Note 27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
-<p class="note">Note 49: If bit is set to 1 then statement is true.</p>
+<p class="note">Note CF24: Bits 1-4 represent time problem code. All bits off implies the scan time is as expected.</p>
+<p class="note">Note CF25: Bits 11-17 represent Earth location problem code. All bits set to zero implies the Earth location was normal.</p>
+<p class="note">Note CF27: Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.</p>
+<p class="note">Note CF49: If bit is set to 1 then statement is true.</p>
 </div>
 <p class="fxy-heading">0 33 032  Channel quality flags for ATOVS</p>
 <table>
@@ -301,21 +301,21 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: All bits off implies a good calibration.</p>
+<p class="note">Note CF17: All bits off implies a good calibration.</p>
 </div>
 <p class="fxy-heading">0 33 033  Field of view quality flags for ATOVS</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Set if secondary calibration used</td><td></td></tr>
-<tr><td>2-21</td><td>Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems</td><td>Note 26: If the radiosonde is equipped with a relative humidity sensor, 0 13 009 in the sequence shall be reported as mandatory and dewpoint temperature may be included as a derived value. If the radiosonde is equipped with a dewpoint temperature sensor, 0 12 103 in the sequence shall be reported and 0 13 009 shall be set to a missing value.</td></tr>
+<tr><td>2-21</td><td>Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems</td><td>Note CF26: Bits 2-21 used for HIRS, but only bits 2-16 used for AMSU-A and only bits 2-6 used for AMSU-B.</td></tr>
 <tr><td>22</td><td>Set if all the channels are missing</td><td></td></tr>
 <tr><td>23</td><td>Suspect</td><td></td></tr>
 <tr><td>All 24</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: All bits off implies a good calibration.</p>
+<p class="note">Note CF17: All bits off implies a good calibration.</p>
 </div>
 <p class="fxy-heading">0 33 035  Manual/automatic quality control</p>
 <table>
@@ -407,7 +407,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 85: This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2.</p>
+<p class="note">Note CF85: This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2.</p>
 </div>
 <p class="fxy-heading">0 33 042  Type of limit represented by following value</p>
 <table>
@@ -425,8 +425,8 @@
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Sea MDS.  Nadir only SST retrieval used 3.7 micron channel.  Land MDS reserved</td><td></td></tr>
-<tr><td>2</td><td>Sea MDS.  Dual view SST retrieval used 3.7 micron channel.  Land MDS reserved</td><td></td></tr>
+<tr><td>1</td><td>Sea MDS. Nadir only SST retrieval used 3.7 micron channel. Land MDS reserved</td><td></td></tr>
+<tr><td>2</td><td>Sea MDS. Dual view SST retrieval used 3.7 micron channel. Land MDS reserved</td><td></td></tr>
 <tr><td>3</td><td>Nadir view contains day time data</td><td></td></tr>
 <tr><td>4</td><td>Forward view contains day time data</td><td></td></tr>
 <tr><td>5-7</td><td>Reserved</td><td></td></tr>
@@ -463,7 +463,7 @@
 <tr><td>3</td><td>Anomaly in ultra stable oscillator processing (USOP) value detected</td><td></td></tr>
 <tr><td>4</td><td>Errors detected by on-board computer</td><td></td></tr>
 <tr><td>5</td><td>Automatic gain control (AGC) out of range</td><td></td></tr>
-<tr><td>6</td><td>Reception (Rx) delay fault.  Rx distance out of range</td><td></td></tr>
+<tr><td>6</td><td>Reception (Rx) delay fault. Rx distance out of range</td><td></td></tr>
 <tr><td>7</td><td>Wave form samples fault identifier. Error</td><td></td></tr>
 <tr><td>8</td><td>S band anomaly/error detected</td><td></td></tr>
 <tr><td>9-11</td><td>Reserved</td><td></td></tr>
@@ -530,7 +530,7 @@
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>1-20</td><td>First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid).  Bit 1 applies to the 20th data block</td><td></td></tr>
+<tr><td>1-20</td><td>First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid). Bit 1 applies to the 20th data block</td><td></td></tr>
 <tr><td>All 21</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
@@ -688,8 +688,8 @@
 <tbody>
 <tr><td>1</td><td>Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)</td><td></td></tr>
 <tr><td>2</td><td>Recorded time is not in sequence (i.e., the scan start time is out of sequence)</td><td></td></tr>
-<tr><td>3</td><td>Lambda monitored calculation cannot be updated</td><td>Note 72: Time of launch shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be set to zero.</td></tr>
-<tr><td>4</td><td>The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges</td><td>Note 83: Global UV irradiation (0 14 072) is UV energy integrated over period specified for spectral band specified. 0 14 072 shall be preceded by a time period descriptor and by Spectrographic wavelength (0 02 071) and Spectrographic width (0 02 072). For example, if 0 14 072 is used for global UV-B irradiation, 0 02 071 and 0 02 072shall specify spectral band 280 to 315 nm.</td></tr>
+<tr><td>3</td><td>Lambda monitored calculation cannot be updated</td><td>Note CF72: Set to 1 if laser wavelength calculation is invalid due to laser diode bias current and/or laser diode temperature measurements being outside the predetermined allowable ranges. These ranges are tunable.In this case Lambda monitored calculation shall have 1 bit per scan.</td></tr>
+<tr><td>4</td><td>The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges</td><td>Note CF83: These temperatures are used to compute the &#x27;environmental&#x27; contribution to the internal calibration target (ICT) radiances. When this bit is set to 1, the invalid temperatures shall be replaced with the validated temperature values of the ICT.</td></tr>
 <tr><td>5</td><td>At least one of the monitored instrument temperatures has drifted more than a specified tolerance value</td><td></td></tr>
 <tr><td>6-12</td><td>Reserved</td><td></td></tr>
 <tr><td>All 13</td><td>Missing value</td><td></td></tr>
@@ -699,8 +699,8 @@
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Lunar intrusion on first deep space view</td><td>Note 71: Time of launch 3 01 113 in the sequence shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be put to zero.</td></tr>
-<tr><td>2</td><td>Lunar intrusion on second deep space view</td><td>Note 71: Time of launch 3 01 113 in the sequence shall be reported with the highest possible accuracy available. If the launch time is not available with second accuracy, the entry for seconds shall be put to zero.</td></tr>
+<tr><td>1</td><td>Lunar intrusion on first deep space view</td><td>Note CF71: Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.</td></tr>
+<tr><td>2</td><td>Lunar intrusion on second deep space view</td><td>Note CF71: Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.</td></tr>
 <tr><td>3-8</td><td>Reserved</td><td></td></tr>
 <tr><td>All 9</td><td>Missing value</td><td></td></tr>
 </tbody>
@@ -710,16 +710,16 @@
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Degraded SDR quality</td><td></td></tr>
-<tr><td>2</td><td>Invalid SDR quality</td><td>Note 68: This sequence is deprecated because of incorrect usage of descriptor 0 04 075 in sequence 3 06 020; sequence 3 06 025 should be used instead.</td></tr>
+<tr><td>2</td><td>Invalid SDR quality</td><td>Note CF68: SDR quality is invalid if bit trim failed (see bit 12), or fringe count error detected (see bit 11), or invalid raw data record (RDR) data (see bit 10), or invalid radiometric calibration (see bit 5), or invalid spectral calibration (see bit 7).</td></tr>
 <tr><td>3</td><td>Invalid SDR geolocation information</td><td></td></tr>
 <tr><td>4</td><td>Degraded radiometric calibration</td><td></td></tr>
-<tr><td>5</td><td>Invalid radiometric calibration</td><td>Note 67: This sequence is deprecated because it includes deprecated sequence 3 09 030; sequence 3 09 045,3 09 046, 3 09 047, 3 09 048 and 3 09 049 should be used instead of 3 09 040, 3 09 041, 3 09 042, 3 09 043 and 3 09 044, respectively.</td></tr>
+<tr><td>5</td><td>Invalid radiometric calibration</td><td>Note CF67: Radiometric calibration is invalid if radiometric calibration is not performed, or if it is performed with invalid calibration data (e.g., deep space window size = 0).</td></tr>
 <tr><td>6</td><td>Degraded spectral calibration</td><td></td></tr>
-<tr><td>7</td><td>Invalid spectral calibration</td><td>Note 73: To construct the required time range, descriptor 0 04 024 has to be included two times.</td></tr>
-<tr><td>8</td><td>Fringe count error detected and corrected</td><td>Note 70: This value is the official or best estimate of the actual elevation of the station. It is provided for comparison with the model’s virtual terrain elevation. The two can be substantially different in rugged terrain. The scale factor is increased to make the value directly comparable with 0 07 030 below.</td></tr>
-<tr><td>9</td><td>Day/night indicator</td><td>Note 69: This sequence is deprecated because of incorrect usage of descriptor 0 04 075; sequence 3 06 019 should be used instead.</td></tr>
-<tr><td>10</td><td>Invalid RDR data</td><td>Note 87: Height of station ground above mean sea level is defined as the height above mean sea level of the ground on which the rain gauge stands or, if there is no rain gauge,the ground beneath the thermometer screen. If there is neither rain gauge nor screen, it is the average level of terrain in the vicinity of the station (Reference: Guide to Meteorological Instruments and Methods of Observation (WMO-No. 8), 1996).</td></tr>
-<tr><td>11</td><td>Significant fringe count error detected</td><td>Note 86: Height of sensor above water surface is the height of sensor above water surface of sea or lake. This descriptor does not redefine descriptors 0 07 030 or 0 07 032.Previously defined value 0 07 033 may be cancelled by setting 0 07 033 to a &quot;missing value&quot;.</td></tr>
+<tr><td>7</td><td>Invalid spectral calibration</td><td>Note CF73: Spectral calibration is invalid if fringe count error detected and corrected (see bit 8), or if neon calibration is suspect and Lambda monitored calculation cannot be updated (see &#x27;Scan-level quality flags&#x27; (0 33 075) -bit 3).</td></tr>
+<tr><td>8</td><td>Fringe count error detected and corrected</td><td>Note CF70: Set to 0 if no fringe count error was detected (see bit 11), or a fringe count error was detected but it was not corrected.</td></tr>
+<tr><td>9</td><td>Day/night indicator</td><td>Note CF69: Set to 0 if day (solar zenith angle &lt; 90°). Set to 1 if night (solar zenith angle ≥ 90°).</td></tr>
+<tr><td>10</td><td>Invalid RDR data</td><td>Note CF87: This flag indicates the instrument exhibited operational errors and the associated interferogram(s) is/are excluded from SDR processing.</td></tr>
+<tr><td>11</td><td>Significant fringe count error detected</td><td>Note CF86: This flag indicates that a significant number of fringes have been missed, shifting the interferogram ZPD outside of a window monitored by the instrument, and the interferogram is excluded from SDR processing.</td></tr>
 <tr><td>12</td><td>Bit trim failed</td><td></td></tr>
 <tr><td>13-18</td><td>Reserved</td><td></td></tr>
 <tr><td>All 19</td><td>Missing value</td><td></td></tr>

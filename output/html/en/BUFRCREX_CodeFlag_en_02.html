@@ -36,13 +36,13 @@
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Certified instruments</td><td></td></tr>
-<tr><td>2</td><td>PDFly measured in knots</td><td></td></tr>
-<tr><td>3</td><td>PDFly measured in km h-1</td><td></td></tr>
+<tr><td>2</td><td>naly measured in knots</td><td></td></tr>
+<tr><td>3</td><td>naly measured in km h-1</td><td></td></tr>
 <tr><td>All 4</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 90: Type of instrumentation and original units for wind measurement (measured in m s–1 unless otherwise indicated).</p>
+<p class="note">Note CF90: Type of instrumentation and original units for wind measurement (measured in m s–1 unless otherwise indicated).</p>
 </div>
 <p class="fxy-heading">0 02 003  Type of measuring equipment used</p>
 <table>
@@ -151,7 +151,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 7: (See Common Code table C-2 in Part C/c.)</p>
+<p class="note">Note CF7: (See Common Code table C-2 in Part C/c.)</p>
 </div>
 <p class="fxy-heading">0 02 012  Radiosonde computational method</p>
 <table>
@@ -161,7 +161,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 15: (To be developed)</p>
+<p class="note">Note CF15: (To be developed)</p>
 </div>
 <p class="fxy-heading">0 02 013  Solar and infrared radiation correction</p>
 <table>
@@ -189,7 +189,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 11: (See Common Code table C-7 in Part C/c.)</p>
+<p class="note">Note CF11: (See Common Code table C-7 in Part C/c.)</p>
 </div>
 <p class="fxy-heading">0 02 015  Radiosonde completeness</p>
 <table>
@@ -238,7 +238,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 12: (See Common Code table C-8 in Part C/c.)</p>
+<p class="note">Note CF12: (See Common Code table C-8 in Part C/c.)</p>
 </div>
 <p class="fxy-heading">0 02 020  Satellite classification</p>
 <table>
@@ -307,15 +307,15 @@
 <tbody>
 <tr><td>1</td><td>Processing technique not defined</td><td></td></tr>
 <tr><td>2</td><td>Automated statistical regression</td><td></td></tr>
-<tr><td>3</td><td>Clear path</td><td>Note 28: In the context of 3 10 067, pressure values which immediately follow occurrences of wind components should be understood to pertain to those components.</td></tr>
-<tr><td>4</td><td>Partly cloudy path</td><td>Note 62: These descriptors should not be used in CREX for transmission.</td></tr>
-<tr><td>5</td><td>Cloudy path</td><td>Note 30: In this sequence for representation of radiosonde descent data, indication of standard levels using the extended vertical sounding significance (0 08 042) is not mandatory.</td></tr>
+<tr><td>3</td><td>Clear path</td><td>Note CF28: Clear path means the sounding has been generated from clear radiances derived from actual clear spot measurements. Tropospheric and stratospheric HIRS data, as well as MSU and SSU data, have been used.</td></tr>
+<tr><td>4</td><td>Partly cloudy path</td><td>Note CF62: Partly cloudy path means the sounding has been generated from clear radiances which have been calculated from partly cloudy spots. Tropospheric and stratospheric HIRS data, as well as MSU and SSU data, have been used.</td></tr>
+<tr><td>5</td><td>Cloudy path</td><td>Note CF30: Cloudy path means the sounding has been generated only from stratospheric HIRS data, MSU data andSSU data. Tropospheric HIRS data have not been used because of cloudy conditions.</td></tr>
 <tr><td>6-7</td><td>Reserved</td><td></td></tr>
 <tr><td>All 8</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 22: Bit flags denoting the elements included in processing sounding data.</p>
+<p class="note">Note CF22: Bit flags denoting the elements included in processing sounding data.</p>
 </div>
 <p class="fxy-heading">0 02 023  Satellite-derived wind computation method</p>
 <table>
@@ -366,12 +366,12 @@
 <tr><td>13-14</td><td>Reserved</td><td></td></tr>
 <tr><td></td><td>Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa</td><td></td></tr>
 <tr><td>15</td><td>HIRS</td><td></td></tr>
-<tr><td>16</td><td>HIRS*</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>16</td><td>HIRS*</td><td>Note CF47: HIRS* is equivalent to: HIRS channels 1 (669 cm-1) 2 (679 cm-1) 3 (690 cm-1) 4 (2358 cm-1)</td></tr>
 <tr><td>17</td><td>MSU</td><td></td></tr>
 <tr><td>18</td><td>SKINTK (ocean only)</td><td></td></tr>
 <tr><td>19-20</td><td>Reserved</td><td></td></tr>
 <tr><td></td><td>Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa</td><td></td></tr>
-<tr><td>21</td><td>HIRS</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>21</td><td>HIRS</td><td>Note CF47: HIRS* is equivalent to: HIRS channels 1 (669 cm-1) 2 (679 cm-1) 3 (690 cm-1) 4 (2358 cm-1)</td></tr>
 <tr><td>22</td><td>SSU</td><td></td></tr>
 <tr><td>23</td><td>MSU (3, 4)</td><td></td></tr>
 <tr><td>24</td><td>Reserved</td><td></td></tr>
@@ -379,14 +379,14 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 23: Bit flags denoting the instrument and/or channels used in obtaining various physical parameters. If, in any grouping of parameters, all bits = 0, then no retrieval was made for that parameter or set of parameters.</p>
+<p class="note">Note CF23: Bit flags denoting the instrument and/or channels used in obtaining various physical parameters. If, in any grouping of parameters, all bits = 0, then no retrieval was made for that parameter or set of parameters.</p>
 </div>
 <p class="fxy-heading">0 02 030  Method of current measurement</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Reserved</td><td></td></tr>
-<tr><td>1</td><td>ADCP (Acoustic Doppler Current Profiler)</td><td>Note 91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
+<tr><td>1</td><td>ADCP (Acoustic Doppler Current Profiler)</td><td>Note CF91: Code figure 1 is deprecated. Code figure 6 should be used instead.</td></tr>
 <tr><td>2</td><td>GEK (Geomagnetic ElectroKinetograph)</td><td></td></tr>
 <tr><td>3</td><td>Ship&#x27;s set and drift determined by fixes 3-6 hours apart</td><td></td></tr>
 <tr><td>4</td><td>Ship&#x27;s set and drift determined by fixes more than 6 hours but less than 12 hours apart</td><td></td></tr>
@@ -424,9 +424,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 32: Code figures 1-9: Duration and time of current measurement (vector or Doppler current profiling method).</p>
-<p class="note">Note 33: Code figures 11-19: Period of current measurement (drift method).</p>
-<p class="note">Note 45: H = Time of observation.</p>
+<p class="note">Note CF32: Code figures 1-9: Duration and time of current measurement (vector or Doppler current profiling method).</p>
+<p class="note">Note CF33: Code figures 11-19: Period of current measurement (drift method).</p>
+<p class="note">Note CF45: H = Time of observation.</p>
 </div>
 <p class="fxy-heading">0 02 032  Indicator for digitization</p>
 <table>
@@ -642,8 +642,8 @@
 <tbody>
 <tr><td>1</td><td>Processing technique not defined</td><td></td></tr>
 <tr><td>2</td><td>Simultaneous physical retrieval</td><td></td></tr>
-<tr><td>3</td><td>Clear sounding</td><td>Note 29: In this instance, the term &quot;thinning&quot; refers to a method that may be applied to select a subset of levels from a model that may have many native vertical levels. Selecting only a subset reduces the size of the pseudo-sounding, at the possible cost of information loss and extra processing.</td></tr>
-<tr><td>4</td><td>Cloudy sounding</td><td>Note 31: Integer, assigned by the operator, incremented for each new transect (i.e. all drops have the same transect number while the ship is moving from one end point of the line to the other end point; as soon as the ship arrived to port and goes back to start a new transect then transect number is incremented). The initial value and subsequent values for transect numbers do not matter provided that each new transect by a ship on a line has a transect number higher than previous transect numbers for the same line and the same ship. In case a single cruise follows more than one SOOP line in a row, then the transect number should be incremented each time the cruise changes line.</td></tr>
+<tr><td>3</td><td>Clear sounding</td><td>Note CF29: Clear sounding indicates the sounding has been generated from a set of clear radiances using all available sounder radiances.</td></tr>
+<tr><td>4</td><td>Cloudy sounding</td><td>Note CF31: Cloudy sounding indicates that sufficient clear radiances could not be identified in the sounding area. The sounding is calculated from the cloud top (cloud pressure greater than or equal to 780 hPa) upwards.</td></tr>
 <tr><td>5-7</td><td>Reserved for future use</td><td></td></tr>
 <tr><td>All 8</td><td>Missing value</td><td></td></tr>
 </tbody>
@@ -675,7 +675,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
+<p class="note">Note CF21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
 </div>
 <p class="fxy-heading">0 02 051  Indicator to specify observing method for extreme temperatures</p>
 <table>
@@ -702,7 +702,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
+<p class="note">Note CF21: Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.</p>
 </div>
 <p class="fxy-heading">0 02 053  GOES-I/M brightness temperature characteristics</p>
 <table>
@@ -840,7 +840,7 @@
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Good</td><td></td></tr>
-<tr><td>1</td><td>Bad</td><td>Note 20: For MOD OCNL SEV code as 12 (extreme in clear air) or 13 (extreme in cloud).</td></tr>
+<tr><td>1</td><td>Bad</td><td>Note CF20: Bad is currently defined as a roll angle &gt; 5 degrees from vertical.</td></tr>
 <tr><td>2</td><td>Reserved</td><td></td></tr>
 <tr><td>3</td><td>Missing value</td><td></td></tr>
 </tbody>
@@ -861,7 +861,7 @@
 <tr><td>63</td><td>Missing value</td><td></td></tr>
 </tbody>
 </table>
-<p class="fxy-heading">0 02 070  PDF specification of latitude/longitude</p>
+<p class="fxy-heading">0 02 070  na specification of latitude/longitude</p>
 <table>
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
@@ -1170,8 +1170,8 @@
 <thead><tr><th>CODE FIGURE</th><th>ENTRY NAME</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>0</td><td>Direct sun</td><td></td></tr>
-<tr><td>1</td><td>Direct sun, attenuator #1</td><td>Note 38: n/a</td></tr>
-<tr><td>2</td><td>Direct sun, attenuator #2</td><td>Note 38: n/a</td></tr>
+<tr><td>1</td><td>Direct sun, attenuator #1</td><td>Note CF38: Entries 1 and 2 should not be used.</td></tr>
+<tr><td>2</td><td>Direct sun, attenuator #2</td><td>Note CF38: Entries 1 and 2 should not be used.</td></tr>
 <tr><td>3</td><td>Focused moon</td><td></td></tr>
 <tr><td>4</td><td>Focused sun</td><td></td></tr>
 <tr><td>5</td><td>Focused sun corrected with adjacent sky measurements</td><td></td></tr>
@@ -1221,9 +1221,9 @@
 <tr><td>0</td><td>Reserved</td><td></td></tr>
 <tr><td>1</td><td>Direct leased circuit</td><td></td></tr>
 <tr><td>2</td><td>Dialled up connection</td><td></td></tr>
-<tr><td>3</td><td>Internet ISP </td><td></td></tr>
+<tr><td>3</td><td>Internet ISP</td><td></td></tr>
 <tr><td>4</td><td>DCP via satellite (MTSAT, METEOSAT, etc.)</td><td></td></tr>
-<tr><td>5</td><td>VSAT </td><td></td></tr>
+<tr><td>5</td><td>VSAT</td><td></td></tr>
 <tr><td>6</td><td>GAN, BGAN</td><td></td></tr>
 <tr><td>7</td><td>Thiss terminal</td><td></td></tr>
 <tr><td>8</td><td>Iridium satellites</td><td></td></tr>

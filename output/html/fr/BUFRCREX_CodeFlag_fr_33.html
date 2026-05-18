@@ -247,7 +247,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 49: Si le bit est mis à 1, l’indication est valable.</p>
+<p class="note">Note CF49: Si le bit est mis à 1, l’indication est valable.</p>
 </div>
 <p class="fxy-heading">0 33 031  Indicateurs de qualité de la ligne de balayage du sondeur ATOVS</p>
 <table>
@@ -279,10 +279,10 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</p>
-<p class="note">Note 25: Bits 11 a 17: INDICATIF DE DEFAUT DE LOCALISATION GEOGRAPHIQUE. Lorsque tous les bits sont mis a 0, cela signifie que la localisation geographique est normale.</p>
-<p class="note">Note 27: Bits 5 a 10: INDICATIF DE DEFAUT D&#x27;ETALONNAGE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;etalonnage est normal. Lorsque l&#x27;un ou l&#x27;autre des bits 5, 7 et 10 est mis a 1, cela signifie que des coefficients secondaires d&#x27;etalonnage ont ete utilises.</p>
-<p class="note">Note 49: Si le bit est mis à 1, l’indication est valable.</p>
+<p class="note">Note CF24: Bits 1 a 4: INDICATIF DE DEFAUT DE L&#x27;HEURE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;heure de balayage correspond a l&#x27;heure prevue.</p>
+<p class="note">Note CF25: Bits 11 a 17: INDICATIF DE DEFAUT DE LOCALISATION GEOGRAPHIQUE. Lorsque tous les bits sont mis a 0, cela signifie que la localisation geographique est normale.</p>
+<p class="note">Note CF27: Bits 5 a 10: INDICATIF DE DEFAUT D&#x27;ETALONNAGE. Lorsque tous les bits sont mis a 0, cela signifie que l&#x27;etalonnage est normal. Lorsque l&#x27;un ou l&#x27;autre des bits 5, 7 et 10 est mis a 1, cela signifie que des coefficients secondaires d&#x27;etalonnage ont ete utilises.</p>
+<p class="note">Note CF49: Si le bit est mis à 1, l’indication est valable.</p>
 </div>
 <p class="fxy-heading">0 33 032  Indicateurs de qualité du canal du sondeur ATOVS</p>
 <table>
@@ -300,21 +300,21 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+<p class="note">Note CF17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
 </div>
 <p class="fxy-heading">0 33 033  Indicateurs de qualité du champ de vision du sondeur ATOVS</p>
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Bit mis à 1 en cas d&#x27;étalonnage secondaire</td><td></td></tr>
-<tr><td>2-21</td><td>Bit n mis à 1 si la température de luminance dans le canal n-1 est physiquement invraisemblable ou n&#x27;a pas été calculée à cause de problèmes d&#x27;étalonnage</td><td>Note 26: Si la radiosonde est équipée d’un capteur d’humidité relative, il faut obligatoirement relever 0 13 009 dans la séquence et la température du point de rosée peut être incluse en tant que valeur dérivée. Si la radiosonde est équipée d’un capteur du point de rosée, 0 12 103 doit être relevé dans la séquence et 0 13 009 doit être établi en tant que valeur manquante.</td></tr>
+<tr><td>2-21</td><td>Bit n mis à 1 si la température de luminance dans le canal n-1 est physiquement invraisemblable ou n&#x27;a pas été calculée à cause de problèmes d&#x27;étalonnage</td><td>Note CF26: Bits 2 a 21 utilises pour le sondeur HIRS, mais seuls les bits 2 a 16 sont utilises pour le sondeur AMSU-A et les bits 2 a 6 pour le sondeur AMSU-B.</td></tr>
 <tr><td>22</td><td>Bit mis à 1 si tous les canaux sont absents</td><td></td></tr>
 <tr><td>23</td><td>Suspect</td><td></td></tr>
 <tr><td>24 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
+<p class="note">Note CF17: Si tous les bits sont mis à 0, cela signifie que l’étalonnage est correct.</p>
 </div>
 <p class="fxy-heading">0 33 035  Contrôle de qualité manuel/automatique</p>
 <table>
@@ -403,7 +403,7 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 85: Ce descripteur sera associé à des données relatives à la visibilité ou à la hauteur des nuages pour préciser si la valeur est bornée. Si la donnée transmise est la valeur vraie, le chiffre du code est 0. Toutefois, la mesure peut atteindre la limite de capacité de mesure de l’instrument. Si la valeur transmise est supérieure à la valeur vraie, le chiffre du code est 1; si la valeur transmise est inférieure à la valeur vraie, le chiffre du code est 2.</p>
+<p class="note">Note CF85: Ce descripteur sera associé à des données relatives à la visibilité ou à la hauteur des nuages pour préciser si la valeur est bornée. Si la donnée transmise est la valeur vraie, le chiffre du code est 0. Toutefois, la mesure peut atteindre la limite de capacité de mesure de l’instrument. Si la valeur transmise est supérieure à la valeur vraie, le chiffre du code est 1; si la valeur transmise est inférieure à la valeur vraie, le chiffre du code est 2.</p>
 </div>
 <p class="fxy-heading">0 33 042  Type de limite représentée par la valeur qui suit</p>
 <table>
@@ -627,8 +627,8 @@
 <tbody>
 <tr><td>1</td><td>Détection de données manquantes dans le relevé des données brutes (c&#x27;est-à-dire balayage(s) manquant(s) avant ce balayage)</td><td></td></tr>
 <tr><td>2</td><td>L&#x27;heure enregistrée ne respecte pas l&#x27;ordre chronologique (c&#x27;est-à-dire l&#x27;heure de début du balayage n&#x27;est pas dans l&#x27;ordre chronologique)</td><td></td></tr>
-<tr><td>3</td><td>Le calcul de vérification par lambda ne peut être mis à jour</td><td>Note 72: Il convient de transmettre l’heure du lâcher avec la plus grande précision possible. Lorsqu’on ne dispose pas de l’heure du lâcher à la seconde près, il faut mettre à zéro le bit correspondant aux secondes.</td></tr>
-<tr><td>4</td><td>Quel que soit le composant de l&#x27;instrument (exemple: diviseur de faisceau, miroir à balayage, déflecteur de balayage, etc.), les températures mesurées se situent en dehors des limites prévues</td><td>Note 83: Le rayonnement ultraviolet global (0 14 072) correspond à l’énergie reçue sous forme de lumière ultraviolette, intégrée sur une période déterminée dans une bande spectrale donnée. 0 14 072 est précédé d’un descripteur de période ainsi que de la longueur d’onde spectrographique (0 02 071) et de la largeur spectrographique (0 02 072). Par exemple, quand 0 14 072 est utilisé pour indiquer le rayonnement ultraviolet global, 0 02 071 et 0 02 072 précisent la bande spectrale de 280 à 315 nm.</td></tr>
+<tr><td>3</td><td>Le calcul de vérification par lambda ne peut être mis à jour</td><td>Note CF72: Mettre a 1 si le calcul de longueur d&#x27;onde du laser est incorrect en raison d&#x27;un courant de polarisation de la diode laser et/ou de mesures de la temperature de la diode laser se situant en dehors des limites prevues.</td></tr>
+<tr><td>4</td><td>Quel que soit le composant de l&#x27;instrument (exemple: diviseur de faisceau, miroir à balayage, déflecteur de balayage, etc.), les températures mesurées se situent en dehors des limites prévues</td><td>Note CF83: Ces temperatures sont utilisees pour calculer la contribution du milieu aux luminances energetiques servant de cibles d&#x27;etalonnage interne. Quand ce bit est mis a 1, il faut remplacer les temperatures incorrectes par les valeurs confirmees de la temperature de la cible d&#x27;etalonnage interne.</td></tr>
 <tr><td>5</td><td>Au moins une des températures contrôlées pour cet instrument dépasse la valeur de tolérance prévue</td><td></td></tr>
 <tr><td>6-12</td><td>En réserve</td><td></td></tr>
 <tr><td>13 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
@@ -638,8 +638,8 @@
 <table>
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Lune décelée sur la première visée de l&#x27;espace lointain</td><td>Note 71: Identification du système ou processeur de localisation des éclairs, afin de préciser où le site du phénomène a été établi dans le système multi-intégré. D’ordinaire, valeur de 1.</td></tr>
-<tr><td>2</td><td>Lune décelée sur la deuxième visée de l&#x27;espace lointain</td><td>Note 71: Identification du système ou processeur de localisation des éclairs, afin de préciser où le site du phénomène a été établi dans le système multi-intégré. D’ordinaire, valeur de 1.</td></tr>
+<tr><td>1</td><td>Lune décelée sur la première visée de l&#x27;espace lointain</td><td>Note CF71: Mettre a 1 si au moins un spectre de la moyenne mobile pour l&#x27;espace lointain est indique comme incorrect en raison de la presence de la lune.</td></tr>
+<tr><td>2</td><td>Lune décelée sur la deuxième visée de l&#x27;espace lointain</td><td>Note CF71: Mettre a 1 si au moins un spectre de la moyenne mobile pour l&#x27;espace lointain est indique comme incorrect en raison de la presence de la lune.</td></tr>
 <tr><td>3-8</td><td>En réserve</td><td></td></tr>
 <tr><td>9 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>
 </tbody>
@@ -649,16 +649,16 @@
 <thead><tr><th>CHIFFRE DU CODE</th><th>SIGNIFICATION</th><th>NOTE</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Qualité dégradée des enregistrements de données de détecteur</td><td></td></tr>
-<tr><td>2</td><td>Qualité insatisfaisante des enregistrements de données de détecteur</td><td>Note 68: La qualite des enregistrements des donnees de detecteur est insatisfaisante quand la compensation des bits a echoue (voir le bit 12) ou qu&#x27;une erreur du nombre de franges a ete decelee (voir le bit 11) ou que les releves bruts sont incorrects (voir le bit 10) ou que l&#x27;etalonnage radiometrique est incorrect (voir le bit 5) ou que l&#x27;etalonnage spectral est incorrect (voir le bit 7).</td></tr>
+<tr><td>2</td><td>Qualité insatisfaisante des enregistrements de données de détecteur</td><td>Note CF68: La qualite des enregistrements des donnees de detecteur est insatisfaisante quand la compensation des bits a echoue (voir le bit 12) ou qu&#x27;une erreur du nombre de franges a ete decelee (voir le bit 11) ou que les releves bruts sont incorrects (voir le bit 10) ou que l&#x27;etalonnage radiometrique est incorrect (voir le bit 5) ou que l&#x27;etalonnage spectral est incorrect (voir le bit 7).</td></tr>
 <tr><td>3</td><td>Informations incorrectes de localisation géographique des enregistrements de données de détecteur</td><td></td></tr>
 <tr><td>4</td><td>Étalonnage radiométrique dégradé</td><td></td></tr>
-<tr><td>5</td><td>Étalonnage radiométrique incorrect</td><td>Note 67: L&#x27;etalonnage radiometrique est incorrect s&#x27;il n&#x27;est pas execute ou s&#x27;il est execute avec des donnees d&#x27;etalonnage incorrectes (ex.: taille de la fenetre de visee de l&#x27;espace lointain egale a 0).</td></tr>
+<tr><td>5</td><td>Étalonnage radiométrique incorrect</td><td>Note CF67: L&#x27;etalonnage radiometrique est incorrect s&#x27;il n&#x27;est pas execute ou s&#x27;il est execute avec des donnees d&#x27;etalonnage incorrectes (ex.: taille de la fenetre de visee de l&#x27;espace lointain egale a 0).</td></tr>
 <tr><td>6</td><td>Étalonnage spectral dégradé</td><td></td></tr>
-<tr><td>7</td><td>Étalonnage spectral incorrect</td><td>Note 73: Dans la Région IV, la température maximale transmise à 1200 UTC est celle du jour précédent (l’heure de fin de la période ne correspond pas à l’heure de référence du message). Pour définir la période considérée, il faut répéter une fois le descripteur 0 04 024. Si la période se termine à l’heure de référence du message, le descripteur 0 04 024 est mis à 0 la deuxième fois qu’il apparaît .</td></tr>
-<tr><td>8</td><td>Erreur du nombre de franges décelée et corrigée</td><td>Note 70: Cette valeur correspond à l’altitude réelle et officielle de la station ou alors à la meilleure estimation de cette altitude. Elle est fournie à titre de comparaison avec l’altitude virtuelle fournie par le modèle. Les deux valeurs peuvent présenter une différence importante en terrain escarpé. Le facteur d’échelle a été augmenté pour permettre une comparaison directe de la valeur avec l’élément 0 07 030 qui suit.</td></tr>
-<tr><td>9</td><td>Indicateur jour-nuit</td><td>Note 69: Ne plus employer cette séquence compte tenu de l’usage incorrect du descripteur 0 04 075; il y a lieu d’utiliser en remplacement la séquence 3 06 019.</td></tr>
-<tr><td>10</td><td>Relevés bruts incorrects</td><td>Note 87: L&#x27;altitude du sol de la station se définit comme étant la hauteur au-dessus du niveau moyen de la mer du sol sur lequel repose le pluviomètre ou, s&#x27;il n&#x27;y a pas de pluviomètre, il s&#x27;agit de l&#x27;abri météorologique. S&#x27;il n&#x27;y a pas d&#x27;abri non plus, il s&#x27;agit alors de l&#x27;altitude moyenne du terrain au voisinage de la station (référence: Guide des instruments et des méthodes d&#x27;observation météorologiques (OMM-N° 8), 1996).</td></tr>
-<tr><td>11</td><td>Erreur significative du nombre de franges décelée</td><td>Note 86: La hauteur du capteur au-dessus de la surface de l’eau fait référence à l’emplacement du capteur en mer ou sur un lac; il ne s’agit pas de redéfinir le descripteur 0 07 030 ou 0 07 032. Il est possible d’annuler la valeur de 0 07 033 déjà définie en l’indiquant comme «valeur manquante».</td></tr>
+<tr><td>7</td><td>Étalonnage spectral incorrect</td><td>Note CF73: L&#x27;etalonnage spectral est incorrect si une erreur du nombre de franges est decelee et corrigee (voir le bit 8) ou si l&#x27;etalonnage a la lampe au neon est suspect et que le calcul de verification par lambda ne peut etre mis a jour (voir l&#x27;indicateur de qualite au niveau du balayage (0 33 075) - bit 3).</td></tr>
+<tr><td>8</td><td>Erreur du nombre de franges décelée et corrigée</td><td>Note CF70: Bit mis a 0 si aucune erreur du nombre de franges a ete detectee (voir le bit 11) ou si une erreur a ete detectee mais pas corrigee.</td></tr>
+<tr><td>9</td><td>Indicateur jour-nuit</td><td>Note CF69: Bit mis a 0 si c&#x27;est le jour (distance zenithale du soleil &lt; 90 degres). Bit mis a 1 si c&#x27;est la nuit (distance zenithale du soleil &gt;= 90 degres).</td></tr>
+<tr><td>10</td><td>Relevés bruts incorrects</td><td>Note CF87: Cela indique des erreurs de fonctionnement de l&#x27;instrument, un ou plusieurs interferogrammes etant alors exclus du traitement permettant d&#x27;obtenir les enregistrements des donnees de detecteur.</td></tr>
+<tr><td>11</td><td>Erreur significative du nombre de franges décelée</td><td>Note CF86: Cela indique qu&#x27;un nombre non negligeable de franges n&#x27;ont pas ete detectees, avec deplacement de la partie centrale (ZPD) de l&#x27;interferogramme en dehors de la fenetre que controle l&#x27;instrument, si bien que l&#x27;interferogramme est exclu du traitement permettant d&#x27;obtenir les enregistrements des donnees de detecteur.</td></tr>
 <tr><td>12</td><td>La compensation des bits a échoué</td><td></td></tr>
 <tr><td>13-18</td><td>En réserve</td><td></td></tr>
 <tr><td>19 bits mis à 1</td><td>Valeur manquante</td><td></td></tr>

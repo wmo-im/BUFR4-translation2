@@ -42,7 +42,7 @@
 <tr><td>0 02 017</td><td>Correction algorithms for humidity measurements</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 019</td><td>Satellite instruments</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
 <tr><td>0 02 020</td><td>Satellite classification</td><td>Code table</td><td>0</td><td>0</td><td>9</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 021</td><td>Satellite instrument data used in processing</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td>Note 47: The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</td></tr>
+<tr><td>0 02 021</td><td>Satellite instrument data used in processing</td><td>Flag table</td><td>0</td><td>0</td><td>9</td><td>Flag table</td><td>0</td><td>3</td><td>Note B47: Descriptor 0 02 152 should be used instead of 0 02 021 for encoding this element.</td></tr>
 <tr><td>0 02 022</td><td>Satellite data-processing technique used</td><td>Flag table</td><td>0</td><td>0</td><td>8</td><td>Flag table</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 023</td><td>Satellite-derived wind computation method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 024</td><td>Integrated mean humidity computational method</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
@@ -88,7 +88,7 @@
 <tr><td>0 02 065</td><td>ACARS ground-receiving station</td><td>CCITT IA5</td><td>0</td><td>0</td><td>40</td><td>Character</td><td>0</td><td>5</td><td></td></tr>
 <tr><td>0 02 066</td><td>Radiosonde ground receiving system</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 067</td><td>Radiosonde operating frequency</td><td>Hz</td><td>-5</td><td>0</td><td>15</td><td>Hz</td><td>-5</td><td>5</td><td></td></tr>
-<tr><td>0 02 070</td><td>PDF specification of latitude/longitude</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
+<tr><td>0 02 070</td><td>na specification of latitude/longitude</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 071</td><td>Spectrographic wavelength</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
 <tr><td>0 02 072</td><td>Spectrographic width</td><td>m</td><td>13</td><td>0</td><td>30</td><td>m</td><td>13</td><td>10</td><td></td></tr>
 <tr><td>0 02 080</td><td>Balloon manufacturer</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
@@ -107,7 +107,7 @@
 <tr><td>0 02 096</td><td>Type of temperature sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 097</td><td>Type of humidity sensor</td><td>Code table</td><td>0</td><td>0</td><td>5</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 099</td><td>Polarization</td><td>Code table</td><td>0</td><td>0</td><td>3</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 02 100</td><td>Radar constant</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note 157: This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.</td></tr>
+<tr><td>0 02 100</td><td>Radar constant</td><td>dB</td><td>1</td><td>0</td><td>12</td><td>dB</td><td>1</td><td>4</td><td>Note B157: This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.</td></tr>
 <tr><td>0 02 101</td><td>Type of antenna</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 102</td><td>Antenna height above tower base</td><td>m</td><td>0</td><td>0</td><td>8</td><td>m</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 103</td><td>Radome</td><td>Flag table</td><td>0</td><td>0</td><td>2</td><td>Flag table</td><td>0</td><td>1</td><td></td></tr>
@@ -147,9 +147,9 @@
 <tr><td>0 02 137</td><td>Radar dual PRF ratio</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 138</td><td>Antenna rotation direction</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
 <tr><td>0 02 139</td><td>SIRAL instrument configuration</td><td>Code table</td><td>0</td><td>0</td><td>2</td><td>Code table</td><td>0</td><td>1</td><td></td></tr>
-<tr><td>0 02 140</td><td>Satellite radar beam azimuth angle</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td>Note 111: Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.</td></tr>
+<tr><td>0 02 140</td><td>Satellite radar beam azimuth angle</td><td>deg</td><td>0</td><td>0</td><td>9</td><td>deg</td><td>0</td><td>3</td><td>Note B111: Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.</td></tr>
 <tr><td>0 02 141</td><td>Measurement type</td><td>CCITT IA5</td><td>0</td><td>0</td><td>24</td><td>Character</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 142</td><td>Ozone instrument serial number/identification</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Character</td><td>0</td><td>4</td><td>Note 91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
+<tr><td>0 02 142</td><td>Ozone instrument serial number/identification</td><td>CCITT IA5</td><td>0</td><td>0</td><td>32</td><td>Character</td><td>0</td><td>4</td><td>Note B91: In descriptor 0 02 142: Ozone instrument serial number/identification is four characters long. For Japanese Dobson instruments, omit the leading digit(s).</td></tr>
 <tr><td>0 02 143</td><td>Ozone instrument type</td><td>Code table</td><td>0</td><td>0</td><td>7</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 144</td><td>Light source type for Brewer spectrophotometer</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 145</td><td>Wavelength setting for Dobson instruments</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
@@ -159,7 +159,7 @@
 <tr><td>0 02 149</td><td>Type of data buoy</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 150</td><td>TOVS/ATOVS/AVHRR instrumentation channel number</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 151</td><td>Radiometer identifier</td><td>Code table</td><td>0</td><td>0</td><td>11</td><td>Code table</td><td>0</td><td>4</td><td></td></tr>
-<tr><td>0 02 152</td><td>Satellite instrument used in data processing</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>10</td><td>Note 46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
+<tr><td>0 02 152</td><td>Satellite instrument used in data processing</td><td>Flag table</td><td>0</td><td>0</td><td>31</td><td>Flag table</td><td>0</td><td>10</td><td>Note B46: Descriptor 0 02 019 should be used instead of descriptor 0 02 152 for single satellite instrument identification.</td></tr>
 <tr><td>0 02 153</td><td>Satellite channel centre frequency</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 154</td><td>Satellite channel band width</td><td>Hz</td><td>-8</td><td>0</td><td>26</td><td>Hz</td><td>-8</td><td>8</td><td></td></tr>
 <tr><td>0 02 155</td><td>Satellite channel wavelength</td><td>m</td><td>9</td><td>0</td><td>16</td><td>m</td><td>9</td><td>5</td><td></td></tr>
@@ -180,7 +180,7 @@
 <tr><td>0 02 170</td><td>Aircraft humidity sensors</td><td>Code table</td><td>0</td><td>0</td><td>6</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 171</td><td>Instrument serial number for water temperature profile measurement</td><td>CCITT IA5</td><td>0</td><td>0</td><td>64</td><td>Character</td><td>0</td><td>8</td><td></td></tr>
 <tr><td>0 02 172</td><td>Product type for retrieved atmospheric gases</td><td>Code table</td><td>0</td><td>0</td><td>8</td><td>Code table</td><td>0</td><td>3</td><td></td></tr>
-<tr><td>0 02 173</td><td>Square of the off-nadir angle</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>Note 124: Square of off-nadir angle computed from Ku waveform-derived parameters, Unit 10-4 deg2, Common minimum value 0, Common maximum value 900.</td></tr>
+<tr><td>0 02 173</td><td>Square of the off-nadir angle</td><td>deg2</td><td>4</td><td>0</td><td>10</td><td>deg2</td><td>4</td><td>4</td><td>Note B124: Square of off-nadir angle computed from Ku waveform-derived parameters, Unit 10-4 deg2, Common minimum value 0, Common maximum value 900.</td></tr>
 <tr><td>0 02 174</td><td>Mean across track pixel number</td><td>Numeric</td><td>0</td><td>0</td><td>9</td><td>Numeric</td><td>0</td><td>3</td><td></td></tr>
 <tr><td>0 02 175</td><td>Method of precipitation measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
 <tr><td>0 02 176</td><td>Method of state of ground measurement</td><td>Code table</td><td>0</td><td>0</td><td>4</td><td>Code table</td><td>0</td><td>2</td><td></td></tr>
@@ -204,9 +204,9 @@
 </tbody>
 </table>
 <div class="notes">
-<p class="note">Note 121: Some indication of expected accuracy may be implied in conjunction with certain elements in this class.</p>
-<p class="note">Note 155: This class may also contain elements relating to observational procedures.</p>
-<p class="note">Note 156: This class shall contain elements to describe the instrumentation used to obtain the meteorological elements reported.</p>
+<p class="note">Note B121: Some indication of expected accuracy may be implied in conjunction with certain elements in this class.</p>
+<p class="note">Note B155: This class may also contain elements relating to observational procedures.</p>
+<p class="note">Note B156: This class shall contain elements to describe the instrumentation used to obtain the meteorological elements reported.</p>
 </div>
 </body>
 </html>
