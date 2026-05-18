@@ -60,6 +60,7 @@ tableNo,tableName,noteID,notation
 0 02 048,Satellite sensor indicator,,
 0 02 049,Geostationary satellite data-processing technique used,,
 0 02 050,Geostationary sounder satellite channels used,CF21,0
+0 02 050,Geostationary sounder satellite channels used,CF-002050,0
 0 02 051,Indicator to specify observing method for extreme temperatures,,
 0 02 052,Geostationary imager satellite channels used,CF21,0
 0 02 053,GOES-I/M brightness temperature characteristics,,
@@ -377,7 +378,7 @@ tableNo,tableName,noteID,notation
 0 25 031,NWP-generated vertical profile thinning method,CF60,0
 0 25 032,Wind profiler mode information,,
 0 25 033,Wind profiler submode information,,
-0 25 034,Wind profiler quality control test results,,
+0 25 034,Wind profiler quality control test results,CF-025034,
 0 25 035,Decision method for polarity,,
 0 25 036,Atmospherics location method,,
 0 25 040,CO2 wind product derivation,,
@@ -399,9 +400,11 @@ tableNo,tableName,noteID,notation
 0 25 096,Radiometer state flag,,
 0 25 097,Three-dimensional error estimate of the navigator orbit,,
 0 25 098,Altimeter data quality flag,CF5,0
+0 25 098,Altimeter data quality flag,CF-025098,
 0 25 099,Altimeter correction quality flag,CF5,0
 0 25 110,Image processing summary,,
-0 25 112,Band specific altimeter data quality flag,CF5,0
+0 25 112,Band specific altimeter data quality flag,CF5
+0 25 112,Band specific altimeter data quality flag,CF-025098,
 0 25 113,Band specific altimeter correction quality flag,CF5,0
 0 25 120,RA2-L2-processing flag,,
 0 25 122,Hardware configuration for RF,,
@@ -494,7 +497,7 @@ tableNo,tableName,noteID,notation
 0 40 005,Soil moisture correction flag,CF81,0
 0 40 006,Soil moisture processing flag,CF81,0
 0 40 011,Interpolation flag,,
-0 40 012,Radiometer data quality flag,,
+0 40 012,Radiometer data quality flag,CF-025098,
 0 40 013,Radiometer brightness temperature interpretation flag,,
 0 40 020,GqisFlagQualDetailed – quality flag for the system,,
 0 40 023,Auxiliary altimeter state flags,,
